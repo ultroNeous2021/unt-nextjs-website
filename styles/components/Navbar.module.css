@@ -1,0 +1,56 @@
+.NavbarBrand {
+  padding-left: 2.5rem;
+}
+
+.NavbarUltroneous {
+  padding: 0;
+}
+
+.NavbarItems {
+  justify-content: right;
+}
+
+.NavSingleItem {
+  padding-top: 0.5rem;
+}
+
+.NavSingleItem a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.ham4 .top {
+  stroke-dasharray: 40 121;
+}
+.ham4 .bottom {
+  stroke-dasharray: 40 121;
+}
+.ham4.active .top {
+  stroke-dashoffset: -68px;
+}
+.ham4.active .bottom {
+  stroke-dashoffset: -68px;
+}
+
+.ToggleMenu {
+  height: 5rem;
+  width: 5rem;
+  background: #e49b00;
+  margin-left: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+}
+
+.NavbarIcons {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 992px) {
+  .NavbarItems {
+    display: none;
+  }
+}

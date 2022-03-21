@@ -1,0 +1,17 @@
+.TransparentButton {
+  padding: 0.7rem 1.5rem;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  color: #e49b00;
+  border: 2px solid #e49b00;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.8s ease;
+}
+
+.TransparentButton:hover {
+  background: #e49b00;
+  color: #fff;
+}
