@@ -1,1 +1,257 @@
 
+
+
+/* what we offer */
+.WhatWeOfferContainer {
+  background-color: #1A1112;
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+.WhatweofferHeading {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-top: 3rem;
+
+}
+
+.mainheading {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  padding-bottom: 4rem;
+  padding-top: 2.5rem;
+}
+
+.Whatweofferheadingcontainer {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: #1A1112;
+}
+
+.WhatweofferPargraph {
+  color: #fff;
+  font-size: 16px;
+  text-align: justify;
+  padding: 2rem;
+}
+
+.Whatweofferimg {
+  display: flex;
+  justify-content: center;
+}
+
+/* intro container */
+.IntroContainer {
+  background-color: #1A1112;
+  padding: 0rem 0% 4rem 2.5rem;
+}
+
+.IntroHeadingContainer {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  position: relative;
+  top: 14rem;
+}
+
+.IntroImagePosition {
+  padding: 0%;
+  display: flex;
+  justify-content: end;
+}
+
+.IntroHeading {
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  color: #FFFFFF;
+}
+
+.IntroParagraphSection {
+  display: flex;
+  align-items: end;
+}
+
+.IntroParagraph {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.IntroImage {
+  width: 87%;
+}
+
+/* why client choose to work with us */
+.WhyClientColumnPadding {
+  padding: 0%;
+}
+
+.WhyClientChooseContainer {
+  background-color: #1A1112;
+  padding: 4rem 0% 4rem 0rem;
+}
+
+.WhyClientChooseHead {
+  display: flex;
+  justify-content: center;
+}
+
+.WhyClientChooseHeading {
+  font-family: 'Outfit';
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 80px;
+  width: 51rem;
+  padding-bottom: 4rem;
+  color: #FFFFFF;
+}
+
+
+
+/* BOOTSTRAP MEDIA QUERIES */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width:320px) and (max-width: 430px) {
+  .WhatWeOfferContainer {
+    background-color: #1A1112;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .mainheading {
+    font-size: 36px;
+    padding-bottom: 1rem;
+  }
+  .Whatweofferimg {
+    padding-top: 2rem;
+    justify-content: left;
+  }
+  
+.WhatweofferHeading {
+  text-align: left;
+  font-size: 22px;
+  padding: 1rem 0 0 0;
+}
+.WhatweofferPargraph {
+  justify-content: left;
+  padding: 1rem 0% 1rem 0%;
+}
+/*  */
+  .IntroContainer {
+    background-color: #1A1112;
+    padding: 1rem 0% 1rem 1rem;
+  }
+
+  .IntroHeading {
+    font-size: 36px;
+  }
+
+  .IntroHeadingContainer {
+    top: 0rem;
+  }
+
+  .IntroHeading {
+    justify-content: start;
+  }
+
+  .IntroParagraphSection {
+    padding: 0%;
+  }
+
+  .IntroImage {
+    width: 100%;
+  }
+
+  .IntroParagraph {
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  /*  */
+  .WhyClientChooseHead {
+    justify-content: start;
+  }
+
+  .WhyClientChooseHeading {
+    font-size: 36px;
+    width: 22rem;
+    text-align: left;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:1080px) {
+  .WhatweofferPargraph {
+    padding: 1rem;
+  }
+  .WhatweofferHeading {
+    padding-top: 1rem;
+  }
+  .IntroContainer {
+    background-color: #1A1112;
+    padding: 4rem 2rem 4rem 2rem;
+  }
+  .IntroHeadingContainer {
+    top: 0rem;
+  }
+
+  .IntroImage {
+    width: 100%;
+  }
+
+  .IntroHeading {
+    padding-bottom: 2rem;
+  }
+
+  /*  */
+  .WhyClientChooseHeading {
+    font-size: 64px;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width:1730px) {
+  .IntroImage {
+    width: 85%;
+  }
+
+  .IntroHeading {
+    font-size: 67px;
+  }
+
+  .IntroHeadingContainer {
+    top: 12rem;
+  }
+}
+
+/*  */
+@media (min-width:650px) and (max-width:740px) {
+  .IntroHeadingContainer {
+    top: 0rem;
+  }
+
+  .IntroImage {
+    width: 100%;
+  }
+
+  .IntroHeading {
+    justify-content: left;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
