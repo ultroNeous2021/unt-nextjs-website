@@ -74,7 +74,9 @@ function NavbarComponent() {
             >
               <Link href="/careers">Career</Link>
             </Nav.Link>
-            <TransparentButton val={"Contact Us"} />
+            <div className={styles.ContactUsButton}>
+              <TransparentButton val={"Contact Us"} link={"/contact-us"} />
+            </div>
           </Nav>
         </Navbar>
       </Container>
@@ -85,12 +87,12 @@ function NavbarComponent() {
         {!navExpanded ? (
           <BiMenuAltRight
             className={styles.NavbarIcons}
-            style={{ fontSize: "3rem" }}
+            style={{ fontSize: "200%" }}
           />
         ) : (
           <IoClose
             className={styles.NavbarIcons}
-            style={{ fontSize: "2rem" }}
+            style={{ fontSize: "180%" }}
           />
         )}
       </div>

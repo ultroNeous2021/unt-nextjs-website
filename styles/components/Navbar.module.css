@@ -49,6 +49,10 @@
   font-weight: 400;
 }
 
+.ContactUsButton {
+  margin-left: 0.8rem;
+}
+
 @media screen and (max-width: 992px) {
   .NavbarItems {
     display: none;

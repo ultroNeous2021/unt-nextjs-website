@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "antd/dist/antd.css";
 import { SSRProvider } from "@react-aria/ssr";
 
 function MyApp({ Component, pageProps }) {

@@ -1,0 +1,7 @@
+.HomeHero {
+  width: 100%;
+  height: 100vh;
+  background: url("../../public/assets/main-home-desktop.png");
+  background-size: cover;
+  background-position: bottom;
+}

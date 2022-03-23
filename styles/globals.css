@@ -15,3 +15,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.ant-tabs-top > .ant-tabs-nav::before {
+  border-bottom: none !important;
+}
+.ant-tabs-nav-wrap {
+  justify-content: center;
+}
+
+.ant-tabs-tab-btn {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff !important;
+}
+
+.ant-tabs-ink-bar {
+  background: #fff !important;
+}

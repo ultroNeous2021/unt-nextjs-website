@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+.CounterContainer {
+  background: #1a1112;
+  justify-content: space-evenly;
+  padding: 4rem 2.5rem;
+}
+
+.Counter,
+.CounterSign {
+  font-size: 70px;
+  -webkit-text-stroke: 0.8px #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #1b1414;
+}
+
+.CounterText {
+  color: #c4c4c4;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.CounterComponentCol {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .CounterComponentCol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+  }
+}
+
+/* 
+@media only screen and (max-width: 600px) {
+  .Counter-Container {
+    padding-top: 0% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .Counter,
+  .Counter-Sign {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 992px) {
+  .Counter-Container {
+    justify-content: left;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 670px) {
+  .Counter,
+  .Counter-Sign {
+    font-size: 50px;
+  }
+} */
