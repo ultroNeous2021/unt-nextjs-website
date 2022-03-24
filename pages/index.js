@@ -13,29 +13,21 @@ import { VscGithubAlt } from "react-icons/vsc";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 export default function HomePage() {
-  const [image, setImage] = useState("/assets/why-client-choose-us.png");
 
-  const behanceRef = useRef(null);
-  const dribbleRef = useRef(null);
-  const githubRef = useRef(null);
-  const instaRef = useRef(null);
-
+  const [image, setImage] = useState('/assets/why-client-choose-us.png')
   useEffect(() => {
     AOS.init();
   }, [])
-
-
   useEffect(() => {
     window.innerWidth >= 320 && window.innerWidth <= 720 ?
       setImage('/assets/why-client-choose-us-device.png')
       : setImage('/assets/why-client-choose-us.png')
   })
 
-
-
-
-
-  
+  const behanceRef = useRef(null);
+  const dribbleRef = useRef(null);
+  const githubRef = useRef(null);
+  const instaRef = useRef(null);
   return (
     <Layout>
       <HomeHero />
@@ -152,7 +144,6 @@ export default function HomePage() {
         <Row className="text-align-center">
           <Col sm={4} md={12} lg={4} xl={4}>
             <div className={styles.Whatweofferimg}>
-              <Image alt="ui-ux-design" src="/assets/ui-ux-design.svg" />
               <Image
                 alt="ui-ux-design"
                 src="/assets/ui-ux-design.svg" />
@@ -166,13 +157,13 @@ export default function HomePage() {
           </Col>
           <Col sm={4} md={12} lg={4} xl={4}>
             <div className={styles.Whatweofferimg}>
-              <Image alt="developement" src="/assets/development.svg" />
+              <Image
+                alt="developement"
+                src="/assets/development.svg" />
             </div>
             <h2 className={styles.WhatweofferHeading}>Development</h2>
             <p className={styles.WhatweofferPargraph}>
-              Our team will bring life into your concept and designs. Our
-              quality web and mobility development team along with their unique
-              QA approach will result in an high-end product.
+              Our team will bring life into your concept and designs. Our quality web and mobility development team along with their unique QA approach will result in an high-end product.
             </p>
           </Col>
           <Col sm={4} md={12} lg={4} xl={4}>

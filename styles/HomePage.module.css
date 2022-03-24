@@ -189,17 +189,129 @@
   color: #ffffff;
 }
 
+/* look at our design shots*/
+.MxNone {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.TechnoContainer {
+  display: none;
+}
+
+.AlignCenter {
+  justify-content: center;
+}
+
+.LookAtContainer {
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+
+.ImageEffect {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.link-social {
+  color: #000 !important;
+}
+
+.ImageEffect:hover {
+  transition: 1.5s;
+  filter: none;
+}
+
+
+.ImagesForTheHomepage h3 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.ImagesForText {
+  justify-content: space-around;
+}
+
+.ImagesTextIcons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 2em;
+}
+
+.ImagesTextIcons * {
+  margin-top: 0.5em;
+  font-size: 40px;
+}
+
+.ImagesTextIcons *:hover {
+  color: #e49b00;
+}
+
+.SingleImage {
+  padding: 0.5em;
+}
+
 /* BOOTSTRAP MEDIA QUERIES */
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 320px) and (max-width: 430px) {
-  .TechnoContainer {
+@media (min-width:320px) and (max-width: 430px) {
+
+  .SingleImage:nth-child(3),
+  .SingleImage:nth-child(8) {
     display: none;
   }
 
-  /* look at our design shots*/
-  .MxNone {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+  .LookAtContainer {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .ImagesForTheHomepage h3 {
+    font-size: 21px;
+  }
+
+  .ImagesForText {
+    flex-direction: column;
+  }
+
+  .ImagesTextIcons {
+    display: block;
+  }
+
+  .ImagesTextIcons * {
+    font-size: 20px;
+    margin: 0 .5em;
+  }
+
+  .WhatWeOfferContainer {
+    background-color: #1A1112;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .mainheading {
+    font-size: 36px;
+    padding-bottom: 1rem;
+  }
+
+  .Whatweofferimg {
+    padding-top: 2rem;
+    justify-content: left;
+  }
+
+  .WhatweofferHeading {
+    text-align: left;
+    font-size: 22px;
+    padding: 1rem 0 0 0;
+  }
+
+  .WhatweofferPargraph {
+    justify-content: left;
+    padding: 1rem 0% 1rem 0%;
+  }
+
+  /*  */
+  .IntroContainer {
+    background-color: #1A1112;
+    padding: 1rem 0% 1rem 1rem;
   }
 
   .AlignCenter {
@@ -241,6 +353,36 @@
     flex-direction: column;
     padding-right: 2em;
   }
+  .WhyClientChooseHeading {
+    padding-left: 0%;
+    font-size: 36px;
+    width: 22rem;
+    text-align: left;
+  }
+
+  /*  */
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:1080px) {
+  .WhatweofferPargraph {
+    padding: 1rem;
+  }
+
+  .WhatweofferHeading {
+    padding-top: 1rem;
+  }
+
+  .IntroContainer {
+    background-color: #1A1112;
+    padding: 4rem 2rem 4rem 2rem;
+  }
+
+  .IntroHeadingContainer {
+    top: 0rem;
+  }
 
   .ImagesTextIcons * {
     margin-top: 0.5em;
@@ -254,6 +396,14 @@
   .SingleImage {
     padding: 0.5em;
   }
+/*  */
+.ImagesForTheHomepage h3 {
+  font-size: 30px;
+}
+
+.ImagesTextIcons * {
+  font-size: 23px;
+}
 }
 
   /* BOOTSTRAP MEDIA QUERIES */
