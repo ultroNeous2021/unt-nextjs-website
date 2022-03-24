@@ -1,5 +1,11 @@
+import PortfolioSlider from "@/components/Slider/PortfolioSlider";
+
 function CareersPage() {
-  return <div>CareersPage</div>;
+  return (
+    <div>
+      <PortfolioSlider />
+    </div>
+  );
 }
 
 export default CareersPage;

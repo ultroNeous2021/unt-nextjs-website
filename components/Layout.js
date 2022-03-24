@@ -15,7 +15,7 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
       </Head>
 
-      {/* <NavbarComponent /> */}
+      <NavbarComponent />
       <div className={styles.container}>{children}</div>
       {/* <Footer /> */}
     </div>

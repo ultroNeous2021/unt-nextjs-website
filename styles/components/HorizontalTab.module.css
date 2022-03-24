@@ -20,6 +20,7 @@
 
 .HorizontalTabRow {
   justify-content: space-evenly;
+  padding-bottom: 1rem;
 }
 
 .HorizontalTabCol {
@@ -38,43 +39,37 @@
   font-family: "Poppins";
 }
 
+.HorizontalTabDiv {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .WeExcelIcons {
   font-size: 5rem;
   margin: 0 1rem;
   color: #fff;
   transition: all 0.5s ease;
-  border: 12px solid transparent;
-  width: 7rem;
-  height: 7rem;
-  padding: 0.7rem;
+  width: 5rem;
+  height: 5rem;
+  padding: 0.5rem;
   background: transparent;
 }
 
-.WeExcelIcons:hover {
-  border: 12px solid #231b1b;
-  border-radius: 50%;
+.HorizontalTabDiv:hover {
   background: #2c2424;
-  animation: beat 1s linear infinite;
+  animation: pulse 1s infinite linear;
 }
 
-@keyframes beat {
+@keyframes pulse {
   0% {
-    border: 0px solid #231b1b;
-  }
-  20% {
-    border: 4px solid #231b1b;
-  }
-  40% {
-    border: 8px solid #231b1b;
-  }
-  60% {
-    border: 12px solid #231b1b;
-  }
-  80% {
-    border: 8px solid #231b1b;
+    box-shadow: 0 0 0 0px #2c2424;
   }
   100% {
-    border: 4px solid #231b1b;
+    box-shadow: 0 0 0 10px #231b1b;
   }
 }
 

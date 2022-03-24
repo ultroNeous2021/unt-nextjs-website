@@ -1,7 +1,3 @@
-// import Sneakers from "../assets/images/sneakers.png";
-// import Doctor from "../assets/images/doctor.jpg";
-// import Fintech from "../assets/images/fintech.jpg";
-// import Food from "../assets/images/food.jpg";
 // import sadie from "../assets/images/sadie.png";
 // import loren from "../assets/images/loren.png";
 // import jerry from "../assets/images/jerry.png";
@@ -126,31 +122,31 @@ export const WeExcelAtData = [
   },
 ];
 
-// export const PortfolioSliderData = [
-//   {
-//     image: Sneakers,
-//     title: "Sneakers Marketplace ",
-//     details:
-//       "Sneakers industry is booming and we took a chance to dive into the market with this fully custom sneakers marketplace app. Buyers are literally loving this UX more than their sneakers.",
-//   },
-//   {
-//     image: Fintech,
-//     title: "FinTech Mobile App ",
-//     details:
-//       "This app is designed with the purpose of simplifying the chaos of money management. With this, users can closely monitor their expenses along with transferring money with their contacts. ",
-//   },
-//   {
-//     image: Doctor,
-//     title: "Clinic on Palm",
-//     details: `We repeat the ancient history of diagnosing health by palm reading. Have a look at our handy application "Clinic on Palm" where patients can get easy consultation from their doctors.`,
-//   },
-//   {
-//     image: Food,
-//     title: "Food Ordering App  ",
-//     details:
-//       "This Food Ordering Website allows restaurant to directly serve delicious food to their customers. Customers can easily navigate through website, check menu and order their favourite food. ",
-//   },
-// ];
+export const PortfolioSliderData = [
+  {
+    image: "/assets/sneakers.png",
+    title: "Sneakers Marketplace ",
+    details:
+      "Sneakers industry is booming and we took a chance to dive into the market with this fully custom sneakers marketplace app. Buyers are literally loving this UX more than their sneakers.",
+  },
+  {
+    image: "/assets/doctor.jpg",
+    title: "FinTech Mobile App ",
+    details:
+      "This app is designed with the purpose of simplifying the chaos of money management. With this, users can closely monitor their expenses along with transferring money with their contacts. ",
+  },
+  {
+    image: "/assets/fintech.jpg",
+    title: "Clinic on Palm",
+    details: `We repeat the ancient history of diagnosing health by palm reading. Have a look at our handy application "Clinic on Palm" where patients can get easy consultation from their doctors.`,
+  },
+  {
+    image: "/assets/food.jpg",
+    title: "Food Ordering App  ",
+    details:
+      "This Food Ordering Website allows restaurant to directly serve delicious food to their customers. Customers can easily navigate through website, check menu and order their favourite food. ",
+  },
+];
 
 // export const TestimonialsSliderData = [
 //   {

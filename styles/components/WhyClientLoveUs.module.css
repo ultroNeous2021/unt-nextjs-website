@@ -1,0 +1,160 @@
+.WCLU-Container {
+  margin: 0;
+  background: #e49b00;
+  padding: 4em 0 4em 2em;
+}
+
+.WCLU-Container h3 {
+  font-weight: bold;
+  font-size: 78px;
+  color: #fff;
+}
+
+.WCLU-Right {
+  margin: auto 0;
+}
+
+.WCLU-Arrows img {
+  width: 4em;
+  margin: 0.5em;
+}
+
+.WCLU-Arrows img:first-child {
+  transform: rotate(180deg);
+}
+
+.WCLU-Slide {
+  height: 18em;
+  width: 18em !important;
+  background: #fafafa;
+  border-radius: 18px;
+  padding: 1em 0.5em;
+}
+
+.WCLU-Text {
+  margin-top: 1em;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1300px) {
+  .WCLU-Slide {
+    height: 15em;
+    width: 15em !important;
+  }
+
+  .WCLU-Text {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 824px) {
+  .WCLU-Slide {
+    height: 13em;
+    width: 13em !important;
+  }
+
+  .WCLU-Text {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  .WCLU-Left h3 {
+    font-size: 65px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .WCLU-Left {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .WCLU-Left h3 {
+    font-size: 50px;
+  }
+
+  .WCLU-Arrows img {
+    width: 3em;
+    margin: 0.5em;
+  }
+
+  .WCLU-Slide {
+    height: 12em;
+    width: 12em !important;
+    padding: 0.5em;
+  }
+
+  .WCLU-Text {
+    font-size: 20px;
+  }
+
+  .WCLU-Slide-Body img {
+    width: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 470px) {
+  .WCLU-Left h3 {
+    font-size: 30px;
+  }
+
+  .WCLU-Slide {
+    height: 9em;
+    width: 9em !important;
+    padding: 0.5em;
+  }
+
+  .WCLU-Text {
+    font-size: 13px;
+  }
+
+  .WCLU-Slide-Body img {
+    width: 2em;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+  .WCLU-Left {
+    flex-direction: column;
+  }
+
+  .WCLU-Left h3 {
+    font-size: 35px;
+  }
+
+  .WCLU-Slide {
+    height: 7em;
+    width: 7em !important;
+  }
+
+  .WCLU-Slide-Body {
+    padding: 0.2em;
+  }
+
+  .WCLU-Text {
+    font-size: 12px;
+  }
+
+  .WCLU-Slide-Body img {
+    width: 2em;
+  }
+}
+
+/* ===============  CUSTOM SPECIFIC DEVICES =============== */
+
+@media only screen and (min-width: 768px) and (max-height: 1024px) {
+  .WCLU-Left {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-height: 610px) {
+  .WCLU-Container h3 {
+    font-size: 70px;
+  }
+}

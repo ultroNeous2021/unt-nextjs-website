@@ -22,7 +22,7 @@ const HorizontalTab = ({ data, title }) => (
                 key={i}
                 className={styles.HorizontalTabCol}
               >
-                {ele}
+                <div className={styles.HorizontalTabDiv}>{ele}</div>
               </Col>
             ))}
           </Row>

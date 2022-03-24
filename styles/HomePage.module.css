@@ -1,9 +1,76 @@
+/* --- */
 
+/* Technologies images */
 
+/* .TechnologiesContainer {
+  background: #1a1112;
+}
+.ImageOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 20%;
+  height: 100%;
+  transition: 0.5s ease;
+}
 
+.TechnologiesSingle {
+  width: 20%;
+  height: auto;
+  padding: 0;
+  background-color: #008cba;
+}
+
+.TechnologiesSingle img {
+  height: auto;
+  width: 100%;
+  display: block;
+} */
+.TechnoContainer {
+  position: relative;
+  width: 20%;
+  padding: 0%;
+}
+
+.TechnologyImage {
+  display: block;
+  width: 100%;
+  padding: 0%;
+  height: auto;
+}
+
+.TechnologyOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.TechnoContainer:hover .TechnologyOverlay {
+  height: 30%;
+}
+
+.TechnologyText {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 /* what we offer */
 .WhatWeOfferContainer {
-  background-color: #1A1112;
+  background-color: #1a1112;
   padding: 4rem 2rem 4rem 2rem;
 }
 
@@ -13,7 +80,6 @@
   color: #fff;
   text-align: center;
   padding-top: 3rem;
-
 }
 
 .mainheading {
@@ -29,7 +95,7 @@
   padding-right: 2.5rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background: #1A1112;
+  background: #1a1112;
 }
 
 .WhatweofferPargraph {
@@ -46,7 +112,7 @@
 
 /* intro container */
 .IntroContainer {
-  background-color: #1A1112;
+  background-color: #1a1112;
   padding: 0rem 0% 4rem 2.5rem;
 }
 
@@ -67,11 +133,11 @@
   padding: 0%;
   display: flex;
   justify-content: center;
-  font-family: 'Outfit';
+  font-family: "Outfit";
   font-style: normal;
   font-weight: 700;
   font-size: 80px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .IntroParagraphSection {
@@ -80,13 +146,13 @@
 }
 
 .IntroParagraph {
-  font-family: 'Outfit';
+  font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   text-align: justify;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .IntroImage {
@@ -99,7 +165,7 @@
 }
 
 .WhyClientChooseContainer {
-  background-color: #1A1112;
+  background-color: #1a1112;
   padding: 4rem 0% 4rem 0rem;
 }
 
@@ -109,23 +175,24 @@
 }
 
 .WhyClientChooseHeading {
-  font-family: 'Outfit';
+  font-family: "Outfit";
   font-style: normal;
   text-align: center;
   font-weight: 700;
   font-size: 80px;
   width: 51rem;
   padding-bottom: 4rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
-
 
 /* BOOTSTRAP MEDIA QUERIES */
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width:320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 430px) {
+  .TechnoContainer {
+    display: none;
+  }
   .WhatWeOfferContainer {
-    background-color: #1A1112;
+    background-color: #1a1112;
     padding: 1rem 1rem 2rem 1rem;
   }
 
@@ -137,19 +204,19 @@
     padding-top: 2rem;
     justify-content: left;
   }
-  
-.WhatweofferHeading {
-  text-align: left;
-  font-size: 22px;
-  padding: 1rem 0 0 0;
-}
-.WhatweofferPargraph {
-  justify-content: left;
-  padding: 1rem 0% 1rem 0%;
-}
-/*  */
+
+  .WhatweofferHeading {
+    text-align: left;
+    font-size: 22px;
+    padding: 1rem 0 0 0;
+  }
+  .WhatweofferPargraph {
+    justify-content: left;
+    padding: 1rem 0% 1rem 0%;
+  }
+  /*  */
   .IntroContainer {
-    background-color: #1A1112;
+    background-color: #1a1112;
     padding: 1rem 0% 1rem 1rem;
   }
 
@@ -189,11 +256,10 @@
     width: 22rem;
     text-align: left;
   }
-
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width:1080px) {
+@media (min-width: 768px) and (max-width: 1080px) {
   .WhatweofferPargraph {
     padding: 1rem;
   }
@@ -201,7 +267,7 @@
     padding-top: 1rem;
   }
   .IntroContainer {
-    background-color: #1A1112;
+    background-color: #1a1112;
     padding: 4rem 2rem 4rem 2rem;
   }
   .IntroHeadingContainer {
@@ -220,11 +286,10 @@
   .WhyClientChooseHeading {
     font-size: 64px;
   }
-
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 1200px) and (max-width:1730px) {
+@media (min-width: 1200px) and (max-width: 1730px) {
   .IntroImage {
     width: 85%;
   }
@@ -239,7 +304,7 @@
 }
 
 /*  */
-@media (min-width:650px) and (max-width:740px) {
+@media (min-width: 650px) and (max-width: 740px) {
   .IntroHeadingContainer {
     top: 0rem;
   }
@@ -254,4 +319,5 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+}
