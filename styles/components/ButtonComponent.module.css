@@ -1,0 +1,17 @@
+.ButtonComponent {
+  width: 12em;
+  height: 3.5em;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid #e49b00;
+  color: #e49b00;
+  padding: 0.8em 0;
+  transition: all 0.8s ease;
+}
+
+.ButtonComponent:hover {
+  color: #fff;
+  background: #e49b00;
+}

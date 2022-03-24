@@ -68,10 +68,13 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/* what we offer */
+
 /* what we offer */
 .WhatWeOfferContainer {
-  background-color: #1a1112;
-  padding: 4rem 2rem 4rem 2rem;
+  background-color: #1A1112;
+  padding: 4rem 2.5rem 4rem 2.5rem;
 }
 
 .WhatweofferHeading {
@@ -102,7 +105,7 @@
   color: #fff;
   font-size: 16px;
   text-align: justify;
-  padding: 2rem;
+  padding: 1rem 0 0 0.3rem;
 }
 
 .Whatweofferimg {
@@ -120,7 +123,7 @@
   margin-right: 0 !important;
   margin-left: 0 !important;
   position: relative;
-  top: 14rem;
+  top: 18rem;
 }
 
 .IntroImagePosition {
@@ -142,6 +145,7 @@
 
 .IntroParagraphSection {
   display: flex;
+  padding-left: 0.3rem;
   align-items: end;
 }
 
@@ -191,133 +195,240 @@
   .TechnoContainer {
     display: none;
   }
-  .WhatWeOfferContainer {
-    background-color: #1a1112;
-    padding: 1rem 1rem 2rem 1rem;
+
+  /* look at our design shots*/
+  .MxNone {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
 
-  .mainheading {
-    font-size: 36px;
-    padding-bottom: 1rem;
-  }
-  .Whatweofferimg {
-    padding-top: 2rem;
-    justify-content: left;
+  .AlignCenter {
+    justify-content: center;
   }
 
-  .WhatweofferHeading {
-    text-align: left;
-    font-size: 22px;
-    padding: 1rem 0 0 0;
-  }
-  .WhatweofferPargraph {
-    justify-content: left;
-    padding: 1rem 0% 1rem 0%;
-  }
-  /*  */
-  .IntroContainer {
-    background-color: #1a1112;
-    padding: 1rem 0% 1rem 1rem;
+  .LookAtContainer {
+    padding: 4rem 2.5rem 4rem 2.5rem;
   }
 
-  .IntroHeading {
-    font-size: 36px;
-  }
-
-  .IntroHeadingContainer {
-    top: 0rem;
-  }
-
-  .IntroHeading {
-    justify-content: start;
-  }
-
-  .IntroParagraphSection {
-    padding: 0%;
-  }
-
-  .IntroImage {
+  .ImageEffect {
     width: 100%;
+    filter: grayscale(100%);
   }
 
-  .IntroParagraph {
-    padding-top: 2rem;
-    padding-right: 1rem;
-    padding-bottom: 2rem;
+  .link-social {
+    color: #000 !important;
+  }
+
+  .ImageEffect:hover {
+    transition: 1.5s;
+    filter: none;
+  }
+
+
+  .ImagesForTheHomepage h3 {
+    font-size: 80px;
+    font-weight: 700;
+  }
+
+  .ImagesForText {
+    justify-content: space-around;
+  }
+
+  .ImagesTextIcons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 2em;
+  }
+
+  .ImagesTextIcons * {
+    margin-top: 0.5em;
+    font-size: 40px;
+  }
+
+  .ImagesTextIcons *:hover {
+    color: #e49b00;
+  }
+
+  .SingleImage {
+    padding: 0.5em;
+  }
+}
+
+  /* BOOTSTRAP MEDIA QUERIES */
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width:320px) and (max-width: 430px) {
+
+    .SingleImage:nth-child(3),
+    .SingleImage:nth-child(8) {
+      display: none;
+    }
+
+    .LookAtContainer {
+      padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .ImagesForTheHomepage h3 {
+      font-size: 21px;
+    }
+
+    .ImagesForText {
+      flex-direction: column;
+    }
+
+    .ImagesTextIcons {
+      display: block;
+    }
+
+    .ImagesTextIcons * {
+      font-size: 20px;
+      margin: 0 .5em;
+    }
+
+    .WhatWeOfferContainer {
+      background-color: #1a1112;
+      padding: 1rem 1rem 2rem 1rem;
+    }
+
+    .mainheading {
+      font-size: 36px;
+      padding-bottom: 1rem;
+    }
+
+    .Whatweofferimg {
+      padding-top: 2rem;
+      justify-content: left;
+    }
+
+    .WhatweofferHeading {
+      text-align: left;
+      font-size: 22px;
+      padding: 1rem 0 0 0;
+    }
+
+    .WhatweofferPargraph {
+      justify-content: left;
+      padding: 1rem 0% 1rem 0%;
+    }
+
+    /*  */
+    .IntroContainer {
+      background-color: #1a1112;
+      padding: 1rem 0% 1rem 1rem;
+    }
+
+    .IntroHeading {
+      font-size: 36px;
+    }
+
+    .IntroHeadingContainer {
+      top: 0rem;
+    }
+
+    .IntroHeading {
+      justify-content: start;
+    }
+
+    .IntroParagraphSection {
+      padding: 0%;
+    }
+
+    .IntroImage {
+      width: 100%;
+    }
+
+    .IntroParagraph {
+      padding-top: 2rem;
+      padding-right: 1rem;
+      padding-bottom: 2rem;
+    }
+
+    /*  */
+    .WhyClientChooseHead {
+      justify-content: start;
+    }
+
+    .WhyClientChooseHeading {
+      padding-left: 0%;
+      font-size: 36px;
+      width: 22rem;
+      text-align: left;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 1080px) {
+    .WhatweofferPargraph {
+      padding: 1rem;
+    }
+
+    .WhatweofferHeading {
+      padding-top: 1rem;
+    }
+
+    .IntroContainer {
+      background-color: #1a1112;
+      padding: 4rem 2rem 4rem 2rem;
+    }
+
+    .IntroHeadingContainer {
+      top: 0rem;
+    }
+
+    .IntroImage {
+      width: 100%;
+    }
+
+    .IntroHeading {
+      padding-bottom: 2rem;
+    }
+
+    /*  */
+    .WhyClientChooseHeading {
+      font-size: 64px;
+    }
+
+    /*  */
+    .ImagesForTheHomepage h3 {
+      font-size: 30px;
+    }
+
+    .ImagesTextIcons * {
+      font-size: 23px;
+    }
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 1200px) and (max-width: 1730px) {
+    .IntroImage {
+      width: 85%;
+    }
+
+    .IntroHeading {
+      font-size: 67px;
+    }
+
+    .IntroHeadingContainer {
+      top: 12rem;
+    }
+
+    .ImagesForTheHomepage h3 {
+      font-size: 62px;
+    }
   }
 
   /*  */
-  .WhyClientChooseHead {
-    justify-content: start;
-  }
+  @media (min-width: 650px) and (max-width: 740px) {
+    .IntroHeadingContainer {
+      top: 0rem;
+    }
 
-  .WhyClientChooseHeading {
-    font-size: 36px;
-    width: 22rem;
-    text-align: left;
-  }
-}
+    .IntroImage {
+      width: 100%;
+    }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 1080px) {
-  .WhatweofferPargraph {
-    padding: 1rem;
+    .IntroHeading {
+      justify-content: left;
+    }
   }
-  .WhatweofferHeading {
-    padding-top: 1rem;
-  }
-  .IntroContainer {
-    background-color: #1a1112;
-    padding: 4rem 2rem 4rem 2rem;
-  }
-  .IntroHeadingContainer {
-    top: 0rem;
-  }
-
-  .IntroImage {
-    width: 100%;
-  }
-
-  .IntroHeading {
-    padding-bottom: 2rem;
-  }
-
-  /*  */
-  .WhyClientChooseHeading {
-    font-size: 64px;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 1200px) and (max-width: 1730px) {
-  .IntroImage {
-    width: 85%;
-  }
-
-  .IntroHeading {
-    font-size: 67px;
-  }
-
-  .IntroHeadingContainer {
-    top: 12rem;
-  }
-}
-
-/*  */
-@media (min-width: 650px) and (max-width: 740px) {
-  .IntroHeadingContainer {
-    top: 0rem;
-  }
-
-  .IntroImage {
-    width: 100%;
-  }
-
-  .IntroHeading {
-    justify-content: left;
-  }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {
-}

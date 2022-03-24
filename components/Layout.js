@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 
 import styles from "@/styles/Layout.module.css";
 import NavbarComponent from "./Navbar";
+import Footer from "./Footer";
 
 export default function Layout({ title, keywords, description, children }) {
   const router = useRouter();
@@ -17,7 +18,8 @@ export default function Layout({ title, keywords, description, children }) {
 
       <NavbarComponent />
       <div className={styles.container}>{children}</div>
-      {/* <Footer /> */}
+      <Footer />
+      
     </div>
   );
 }
