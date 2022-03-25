@@ -91,54 +91,84 @@ export default function HomePage() {
         </Row>
       </div>
       {/* Intro container */}
-      <div className={styles.IntroContainer}>
-        <Row className={styles.IntroHeadingContainer}>
-          <h1 className={styles.IntroHeading}>
-            Hello, we are
-            <br />
-            ultroNeours.
-          </h1>
-        </Row>
-        <Row className="mx-0">
-          <Col
-            sm={12}
-            xs={12}
-            md={6}
-            xl={6}
-            lg={6}
-            className={styles.IntroParagraphSection}
+      <div
+        onMouseEnter={() => setArrowShow(true)}
+        onMouseLeave={() => setArrowShow(false)}
+        className={styles.IntroContainer}>
+        <div
+
+        >
+
+          <Row className={styles.IntroHeadingContainer}
           >
-            <p className={styles.IntroParagraph}>
-              ultroNeous is a concept – a concept of innovation, customer
-              service, and exceptional creativity. We are committed to building
-              technology solutions that are accessible to help pioneers reach
-              their vision. We will continue to remove technological obstacles
-              to the global community of movers and shakers.
+            <h1 className={styles.IntroHeading}>
+              Hello, we are
               <br />
-              <br />
-              Our team is constantly creating advanced web and mobile
-              applications for various domains. Our experienced developers have
-              a broad working knowledge of top programming languages and have
-              the sense to build scalable solutions. The robust solutions
-              increase the ROI for the client, resulting in the constant growth
-              of our client base and project development knowledge.
-            </p>
-          </Col>
-          <Col
-            sm={12}
-            xs={12}
-            md={6}
-            xl={6}
-            lg={6}
-            className={styles.IntroImagePosition}
-          >
-            <Image
-              src="/assets/group-image.png"
-              alt="group of ultroneous"
-              className={styles.IntroImage}
-            />
-          </Col>
-        </Row>
+              ultroNeours.
+            </h1>
+          </Row>
+          <Row className="mx-0">
+            <Col
+              sm={12}
+              xs={12}
+              md={6}
+              xl={6}
+              lg={6}
+              className={styles.IntroParagraphSection}
+            >
+              <p className={styles.IntroParagraph}>
+                ultroNeous is a concept – a concept of innovation, customer
+                service, and exceptional creativity. We are committed to building
+                technology solutions that are accessible to help pioneers reach
+                their vision. We will continue to remove technological obstacles
+                to the global community of movers and shakers.
+                <br />
+                <br />
+                Our team is constantly creating advanced web and mobile
+                applications for various domains. Our experienced developers have
+                a broad working knowledge of top programming languages and have
+                the sense to build scalable solutions. The robust solutions
+                increase the ROI for the client, resulting in the constant growth
+                of our client base and project development knowledge.
+              </p>
+            </Col>
+            <Col
+              sm={12}
+              xs={12}
+              md={6}
+              xl={6}
+              lg={6}
+              className={styles.IntroImagePosition}
+            >
+              <Image
+                src="/assets/group-image.png"
+                alt="group of ultroneous"
+                className={styles.IntroImage}
+              />
+
+            </Col>
+            <Col
+              sm={12}
+              xl={12}
+              className={styles.IntroArrowContain}
+            >
+              {
+                arrowShow ?
+
+                  <Image
+                    data-aos-duration="2000"
+                    data-aos="zoom-in-right"
+                    src="/assets/circle-arrow.svg"
+                    alt="arrow"
+                    height={200}
+                    className={styles.IntroArrow}
+                  />
+                  : null
+              }
+            </Col>
+
+          </Row>
+        </div>
       </div>
       <CounterComponent data={CounterComponentData} />
       {/*what we offer */}
@@ -203,6 +233,58 @@ export default function HomePage() {
           <Image src={image} alt="why client choose us" />
         </Row>
       </div>
+      {/* verticals */}
+      <div className={styles.Verticalscontainer}>
+
+        <Row>
+          <h2 className={styles.Verticalheading}>Verticals</h2>
+        </Row>
+
+        <Row className={styles.Verticalcard}>
+          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+            <div>
+              <Image alt="vertical image" className={styles.Verticalimg} />
+            </div>
+            <h2 className={styles.Cardtext}>Finance</h2>
+          </Col>
+
+          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+            <Image alt="vertical image" className={styles.Verticalimg2} />
+            <h2 className={styles.Cardtext}>Healthcare</h2>
+          </Col>
+
+          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+            <Image alt="vertical image" className={styles.Verticalimg3} />
+            <h2 className={styles.Cardtext}>Education</h2>
+          </Col>
+
+          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+            <Image alt="vertical image" className={styles.Verticalimg4} />
+            <h2 className={styles.Cardtext}>Hospitality</h2>
+          </Col>
+
+          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+            <Image alt="vertical image" className={styles.Verticalimg5} />
+            <h2 className={styles.Cardtext}>eCommerce</h2>
+          </Col>
+
+          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+            <Image alt="vertical image" className={styles.Verticalimg6} />
+            <h2 className={styles.Cardtext}>Real Estate  </h2>
+          </Col>
+
+          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+            <Image alt="vertical image" className={styles.Verticalimg7} />
+            <h2 className={styles.Cardtext}>Food Delivery</h2>
+          </Col>
+
+          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+            <Image alt="vertical image" className={styles.Verticalimg8} />
+            <h2 className={styles.Cardtext}>Travel</h2>
+          </Col>
+        </Row>
+
+      </div>
       {/* look at our design shots */}
       <>
         <a
@@ -242,8 +324,6 @@ export default function HomePage() {
           <Row className={styles.MxNone}>
             <Col xl={4} md={4} xs={6} sm={6} className={styles.SingleImage}>
               <Image
-                data-aos="zoom-in"
-                data-aos-duration="2000"
                 src="/assets/a8.svg"
                 className={styles.ImageEffect}
                 alt="look at our design"
@@ -268,7 +348,8 @@ export default function HomePage() {
               />
             </Col>
           </Row>
-          <Row className={[styles.MxNone, styles.ImagesForTheHomepage]}>
+          <Row
+            className={[styles.MxNone, styles.ImagesForTheHomepage]}>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <Image
                 src="/assets/a6.svg"

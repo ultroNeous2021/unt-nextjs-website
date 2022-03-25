@@ -3,6 +3,7 @@
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
+
 .FooterTopText {
     background-image: url("/assets/footer-image.jpg");
     height: 42vh;
@@ -15,12 +16,14 @@
     flex-direction: column;
     background-position: bottom;
 }
+
 .FooterTopText h1 {
     color: #fff;
     font-size: 75px;
     font-weight: bold;
     margin-bottom: 0.5em;
 }
+
 /* ----- */
 .FooterContainer {
     background: #1b1414;
@@ -29,14 +32,17 @@
     justify-content: space-around;
 
 }
-.IconListContain{
+
+.IconListContain {
     padding: 0;
 }
-.IconContain{
+
+.IconContain {
     list-style: none;
 }
+
 .IconContain {
-    margin-top:2rem !important;
+    margin-top: 2rem !important;
 }
 
 .IconBox:hover {
@@ -62,13 +68,14 @@
 .IconBox a:hover {
     color: #fff !important;
 }
+
 .QuickLinks {
     text-align: left;
     padding: 0%;
 }
 
 .QuickLinks h3 {
-    color:  #FFFFFF;
+    color: #FFFFFF;
     margin-bottom: 0.8em;
 }
 
@@ -140,7 +147,7 @@
     outline: none;
 }
 
-.SignupForNewsLetterSubmit{
+.SignupForNewsLetterSubmit {
     margin-right: 0.2rem;
     height: 39px;
     width: 150px;
@@ -155,7 +162,7 @@
     font-weight: bold;
 }
 
-.SubscribeNewsletter{
+.SubscribeNewsletter {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.6) !important;
 }
@@ -188,35 +195,41 @@
     .FooterTopText {
         padding: 0em;
     }
+
     .FooterTopText h1 {
         font-size: 30px;
     }
+
     .FooterContainer {
         padding: 1rem 1rem 1rem 1rem;
     }
-    .NonePadding{
+
+    .NonePadding {
         padding: 0%;
     }
-  }
-  
-  /* Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) and (max-width:1080px) {
+
+    .FooterIcon {
+        width: 11.5rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:1080px) {
     .FooterTopText {
         padding: 0em;
     }
-    .FooterTopText h1{
-          font-size: 60px;
+
+    .FooterTopText h1 {
+        font-size: 60px;
     }
-  }
-  
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 1200px) and (max-width:1730px) {
-    .FooterIcon{
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width:1730px) {
+    .FooterIcon {
         width: 11.5rem;
     }
-  }
-  
-  /*  */
-  @media (min-width:650px) and (max-width:740px) {
-  
-  }
+}
+
+/*  */
+@media (min-width:650px) and (max-width:740px) {}
