@@ -3,7 +3,7 @@
 .CounterContainer {
   background: #1a1112;
   justify-content: space-evenly;
-  padding: 4rem 2.5rem;
+  padding: 10rem 2.5rem;
 }
 
 .Counter,
@@ -29,6 +29,10 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .CounterContainer {
+    padding: 4rem 2.5rem;
+  }
+
   .CounterComponentCol {
     display: flex;
     justify-content: center;

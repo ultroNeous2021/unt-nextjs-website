@@ -19,7 +19,7 @@
 }
 
 .HorizontalTabRow {
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-bottom: 1rem;
 }
 
@@ -40,8 +40,8 @@
 }
 
 .HorizontalTabDiv {
-  width: 6rem;
-  height: 6rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -49,7 +49,6 @@
 }
 
 .WeExcelIcons {
-  font-size: 5rem;
   margin: 0 1rem;
   color: #fff;
   transition: all 0.5s ease;
@@ -134,11 +133,25 @@
   .HorizontalTabCol {
     margin: 1rem 0;
   }
+
+  .ExcelAtHead h2 {
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .HorizontalTabCol {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .HorizontalTabRow {
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
   .WeExcelIcons {
-    font-size: 4rem;
     width: 5rem;
     height: 5rem;
     margin: 0rem;

@@ -136,7 +136,6 @@
 
   .PortfolioContainer {
     padding: 0 auto;
-    left: 1.7em;
   }
 
   .Portfolio-Slide {
@@ -208,6 +207,7 @@
 
   .PortfolioContainer {
     width: 94%;
+    left: 1.2em;
   }
 
   .PortfolioSliderArrows img {
@@ -215,8 +215,9 @@
   }
 
   .wehead {
-    font-size: 45px;
+    font-size: 36px;
     line-height: 1em;
+    padding-left: 1rem;
   }
 }
 
@@ -224,9 +225,6 @@
   .PortfolioSliderArrows {
     bottom: 17em;
     left: 44%;
-  }
-
-  .PortfolioSlider h1 {
   }
 
   .PortfolioSliderArrows img {
@@ -307,11 +305,23 @@
   .PortfolioSliderContainerWhite {
     height: 74em;
   }
+
+  .PortfolioDetails h3 {
+    font-size: 30x;
+  }
+
+  .PortfolioBlackSlider {
+    padding-left: 1rem !important;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .PortfolioSliderContainerWhite {
     height: 79em;
+  }
+
+  .PortfolioContainer {
+    left: 2.5rem;
   }
 }
 

@@ -5,8 +5,8 @@ import { useEffect, useRef, useState } from "react";
 import { Waypoint } from "react-waypoint";
 import ReactVisibilitySensor from "react-visibility-sensor";
 import { useInViewport } from "react-in-viewport";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 function CounterComponent(props) {
   const [load, setLoad] = useState(false);
 
@@ -25,8 +25,8 @@ function CounterComponent(props) {
         >
           {props.data.map((el, ind) => (
             <Col
-            data-aos="zoom-in"
-            data-aos-duration="2000"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
               xs={12}
               sm={4}
               lg={2}
@@ -35,7 +35,6 @@ function CounterComponent(props) {
             >
               <div>
                 <CountUp
-                
                   className={styles.Counter}
                   start={20}
                   end={el.end}

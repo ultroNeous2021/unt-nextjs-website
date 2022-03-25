@@ -1,7 +1,6 @@
 import { Tabs } from "antd";
 import styles from "@/styles/components/HorizontalTab.module.css";
 import { Col, Row } from "react-bootstrap";
-import { SiReact } from "react-icons/si";
 
 const { TabPane } = Tabs;
 
@@ -16,9 +15,10 @@ const HorizontalTab = ({ data, title }) => (
           <Row className={styles.HorizontalTabRow}>
             {el.techs.map((ele, i) => (
               <Col
-                xs={12}
+                xs={6}
                 sm={6}
-                md={1}
+                md={4}
+                lg={1}
                 key={i}
                 className={styles.HorizontalTabCol}
               >

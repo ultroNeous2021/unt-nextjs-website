@@ -62,12 +62,14 @@ function NavbarComponent() {
             >
               <Link href="/about-ultroneous">About us</Link>
             </Nav.Link>
-            <Nav.Link
-              className={styles.NavSingleItem}
-              style={{ margin: "0 1em" }}
-            >
-              <Link href="/services">Services</Link>
-            </Nav.Link>
+            <div>
+              <Nav.Link
+                className={styles.NavSingleItem}
+                style={{ margin: "0 1em" }}
+              >
+                <Link href="/services">Services</Link>
+              </Nav.Link>
+            </div>
             <Nav.Link
               className={styles.NavSingleItem}
               style={{ margin: "0 1em" }}
