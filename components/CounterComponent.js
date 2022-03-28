@@ -13,6 +13,9 @@ function CounterComponent(props) {
   useEffect(() => {
     AOS.init();
     setLoad(true);
+  //   document.addEventListener("contextmenu", function (e){
+  //     e.preventDefault();
+  // }, false);
   }, []);
 
   return (

@@ -19,12 +19,18 @@ function Footer({ FooterContainerStyle }) {
         >
             <Row className={styles.MxNone}>
                 <div className={styles.FooterTopText}>
-                    <h1> Let’s Discuss your Ideas. </h1>
+                    <h1
+                    //    data-aos="fade-down"
+                    //    data-aos-duration="3000"
+                    > Let’s Discuss your Ideas. </h1>
                     <ButtonComponent val={"Yes, Let's do it"} />
                 </div>
             </Row>
             <Row className={[styles.MxNone, styles.FooterContainer]}>
-                <Col xs={12} sm={12} lg={3} xl={2} className={styles.FooterColOne}>
+                <Col 
+                // data-aos="fade-down"
+                // data-aos-duration="3000"
+                xs={12} sm={12} lg={3} xl={2} className={styles.FooterColOne}>
                     <Image src="/assets/ultroneous-image.svg" alt="ultroneous-image" className={styles.FooterIcon}/>
                     <ul className={styles.IconListContain}>
                         <li className={styles.IconContain}>
@@ -67,7 +73,10 @@ function Footer({ FooterContainerStyle }) {
                         </li>
                     </ul>
                 </Col>
-                <Col xs={12} sm={12} lg={6} className={styles.NonePadding}>
+                <Col
+                // data-aos="fade-up"
+                // data-aos-duration="3000"
+                xs={12} sm={12} lg={6} className={styles.NonePadding}>
                     <Row className={`${styles.FooterColOne} mx-0`}>
                     <Col xs={12} sm={4} lg={4}  className={styles.QuickLinks}>
                         <h3> Quick Links</h3>
@@ -86,7 +95,10 @@ function Footer({ FooterContainerStyle }) {
                             </li>
                         </ul>
                     </Col>
-                    <Col xs={12} sm={4} lg={4}  className={styles.QuickLinks}>
+                    <Col
+                    //  data-aos="fade-up"
+                    //  data-aos-duration="3000"
+                    xs={12} sm={4} lg={4}  className={styles.QuickLinks}>
                         <h3>Services</h3>
                         <ul>
                             <li>
@@ -106,7 +118,10 @@ function Footer({ FooterContainerStyle }) {
                             </li>
                         </ul>
                     </Col>
-                    <Col xs={12} sm={4} lg={4}  className={styles.QuickLinks}>
+                    <Col
+                    //  data-aos="fade-up"
+                    //  data-aos-duration="3000"
+                    xs={12} sm={4} lg={4}  className={styles.QuickLinks}>
                         <h3>Keep In Touch</h3>
                         <ul>
                             <li>
@@ -138,7 +153,10 @@ function Footer({ FooterContainerStyle }) {
                     </Col>
                     </Row>
                 </Col>
-                <Col xs={12} sm={12} lg={3} xl={2} className={styles.QuickLinks}>
+                <Col 
+                //  data-aos="fade-down"
+                //  data-aos-duration="3000"
+                xs={12} sm={12} lg={3} xl={2} className={styles.QuickLinks}>
                     <h3>Our Newsletter</h3>
                     <div className={styles.SignupForNewsLetterContainer}>
                         <input className={styles.SignupForNewsLetterEmail} type="email" placeholder="xyz@gmail.com"/>

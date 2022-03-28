@@ -1,13 +1,12 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
 import { useRouter } from "next/router";
 
 import styles from "@/styles/Layout.module.css";
 import NavbarComponent from "./Navbar";
 import Footer from "./Footer";
-
 export default function Layout({ title, keywords, description, children }) {
   const router = useRouter();
-
   return (
     <div>
       <Head>
@@ -15,11 +14,12 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
       </Head>
-
-      <NavbarComponent />
-      <div className={styles.container}>{children}</div>
-      <Footer />
-      
+  
+        <NavbarComponent />
+        <div
+          className={styles.container}>{children}</div>
+        <Footer />
+     
     </div>
   );
 }

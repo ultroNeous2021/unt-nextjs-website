@@ -698,10 +698,13 @@
 @media (min-width: 320px) and (max-width: 430px) {
   .HomeHeroTextContainer h1 {
     font-size: 40px;
+    padding-left: 1rem;
   }
 
   .HomeHeroTextContainer p {
     font-size: 23px;
+    padding-left: 1rem;
+
   }
 }
 

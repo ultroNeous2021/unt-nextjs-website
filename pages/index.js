@@ -12,10 +12,11 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { VscGithubAlt } from "react-icons/vsc";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import SvgComponent from "@/components/SvgComponent";
+
+
 export default function HomePage() {
   const [image, setImage] = useState("/assets/why-client-choose-us.png");
-  const [hoverColor, setHoverColor] = useState(false);
+  const [arrowShow, setArrowShow] = useState(false)
 
   useEffect(() => {
     AOS.init();
@@ -33,6 +34,7 @@ export default function HomePage() {
   const instaRef = useRef(null);
   return (
     <Layout>
+      
       <HomeHero />
       <div className={styles.TechnologiesContainer}>
         <Row className="mx-0">
@@ -96,7 +98,9 @@ export default function HomePage() {
         onMouseLeave={() => setArrowShow(false)}
         className={styles.IntroContainer}>
         <div
-
+          style={{
+            cursor: `url('/assets/cursornew.png') 300 300, auto`
+          }}
         >
 
           <Row className={styles.IntroHeadingContainer}
@@ -147,7 +151,7 @@ export default function HomePage() {
               />
 
             </Col>
-            <Col
+            {/* <Col
               sm={12}
               xl={12}
               className={styles.IntroArrowContain}
@@ -165,19 +169,26 @@ export default function HomePage() {
                   />
                   : null
               }
-            </Col>
+            </Col> */}
 
           </Row>
         </div>
       </div>
       <CounterComponent data={CounterComponentData} />
       {/*what we offer */}
-      <div className={styles.WhatWeOfferContainer}>
-        <Row>
-          <h2 className={styles.mainheading}>What We Offer</h2>
+      <div className={styles.WhatWeOfferContainer} >
+        <Row >
+          <h2
+
+            // data-aos="zoom-in"
+            // data-aos-duration="2000"
+            className={styles.mainheading}>What We Offer</h2>
         </Row>
         <Row className="text-align-center">
-          <Col sm={4} md={12} lg={4} xl={4}>
+          <Col
+            // data-aos="fade-up"
+            // data-aos-duration="3000"
+            sm={4} md={12} lg={4} xl={4}>
             <div className={styles.Whatweofferimg}>
               <Image alt="ui-ux-design" src="/assets/ui-ux-design.svg" />
             </div>
@@ -188,7 +199,10 @@ export default function HomePage() {
               experience with a positive, unique and well rounded interaction.
             </p>
           </Col>
-          <Col sm={4} md={12} lg={4} xl={4}>
+          <Col
+            // data-aos="fade-down"
+            // data-aos-duration="3000"
+            sm={4} md={12} lg={4} xl={4}>
             <div className={styles.Whatweofferimg}>
               <Image alt="developement" src="/assets/development.svg" />
             </div>
@@ -199,7 +213,10 @@ export default function HomePage() {
               QA approach will result in an high-end product.
             </p>
           </Col>
-          <Col sm={4} md={12} lg={4} xl={4}>
+          <Col
+            // data-aos="fade-up"
+            // data-aos-duration="3000"
+            sm={4} md={12} lg={4} xl={4}>
             <div className={styles.Whatweofferimg}>
               <Image
                 alt="digital marketing"
@@ -223,8 +240,8 @@ export default function HomePage() {
         <Row className="mx-0 justify-content-center">
           <h1
             className={styles.WhyClientChooseHeading}
-            data-aos="fade-down-right"
-            data-aos-duration="2000"
+            // data-aos="zoom-in"
+            // data-aos-duration="2000"
           >
             Why Clients choose to work with us
           </h1>
@@ -235,19 +252,18 @@ export default function HomePage() {
       </div>
       {/* verticals */}
       <div className={styles.Verticalscontainer}>
-
         <Row>
-          <h2 className={styles.Verticalheading}>Verticals</h2>
+          <h2
+            // data-aos="zoom-in"
+            // data-aos-duration="2000"
+            className={styles.Verticalheading}>Verticals</h2>
         </Row>
 
         <Row className={styles.Verticalcard}>
-          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
-            <div>
-              <Image alt="vertical image" className={styles.Verticalimg} />
-            </div>
+          <Col className={styles.Verticalsinglecard} sm={6} xs={6} xl={1} md={1}>
+            <Image alt="vertical image" className={styles.Verticalimg} />
             <h2 className={styles.Cardtext}>Finance</h2>
           </Col>
-
           <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
             <Image alt="vertical image" className={styles.Verticalimg2} />
             <h2 className={styles.Cardtext}>Healthcare</h2>
@@ -334,8 +350,7 @@ export default function HomePage() {
                 src="/assets/a2.svg"
                 className={styles.ImageEffect}
                 alt="look at our design"
-                data-aos="flip-up"
-                data-aos-duration="2000"
+
               />
             </Col>
             <Col xl={4} md={4} className={styles.SingleImage}>
@@ -343,8 +358,7 @@ export default function HomePage() {
                 src="/assets/a4.svg"
                 className={styles.ImageEffect}
                 alt="look at our design"
-                data-aos="zoom-in-right"
-                data-aos-duration="2000"
+
               />
             </Col>
           </Row>
@@ -367,6 +381,7 @@ export default function HomePage() {
                   <h3> Shots </h3>
                 </Col>
                 <Col className={styles.ImagesTextIcons}>
+                
                   <AiOutlineDribbble
                     style={{ cursor: "pointer" }}
                     onClick={() => dribbleRef.current.click()}
