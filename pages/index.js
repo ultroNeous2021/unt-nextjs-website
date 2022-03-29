@@ -100,12 +100,12 @@ export default function HomePage() {
       {/* Intro container */}
       <div
         onMouseEnter={() => setArrowShow(true)}
-        onMouseLeave={() => setArrowShow(false)}
-        className={styles.IntroContainer}
-      >
+        onMouseMove={() => setArrowShow(false)}
+        className={styles.IntroContainer}>
         <div
           style={{
             cursor: `url('/assets/cursornew.png') 300 300, auto`,
+            transition:'4s'
           }}
         >
           <Row className={styles.IntroHeadingContainer}>

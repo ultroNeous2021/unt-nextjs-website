@@ -16,22 +16,6 @@ export default function Layout({ title, keywords, description, children }) {
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
-        <link
-          rel="stylesheet"
-          href="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css"
-        ></link>
-
-        <Script src="https://code.jquery.com/jquery-1.11.1.min.js" />
-        <Script src="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js" />
-        <Script
-          type="module"
-          src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
-        />
-        <Script
-          type="module"
-          src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
-        />
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/utils/Draggable.min.js" />
       </Head>
 
       <NavbarComponent />

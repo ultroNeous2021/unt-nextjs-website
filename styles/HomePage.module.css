@@ -574,7 +574,7 @@ transform: scale(4) translateZ(0);
 }
 
 /*  */
-@media (min-width: 650px) and (max-width: 740px) {
+@media (min-width: 650px) and (max-width: 765px) {
   .IntroHeadingContainer {
     top: 0rem;
   }
@@ -584,6 +584,32 @@ transform: scale(4) translateZ(0);
   }
 
   .IntroHeading {
-    justify-content: left;
+font-size: 48px;
+      justify-content: left;
   }
+  .TechnoContainer{
+    display: none;
+  }
+  .SingleImage:nth-child(3),
+  .SingleImage:nth-child(8) {
+    display: none;
+  }
+
+  .ImagesForTheHomepage h3 {
+    font-size: 21px;
+  }
+
+  .ImagesForText {
+    flex-direction: column;
+  }
+
+  .ImagesTextIcons {
+    display: block;
+  }
+
+  .ImagesTextIcons * {
+    font-size: 20px;
+    margin: 0 0.5em;
+  }
+
 }

@@ -709,12 +709,12 @@
 }
 
 /*  */
-@media (min-width: 650px) and (max-width: 740px) {
+@media (min-width: 650px) and (max-width: 765px) {
   .HomeHeroTextContainer h1 {
-    font-size: 40px;
+    font-size: 48px;
   }
 
   .HomeHeroTextContainer p {
-    font-size: 20px;
+    font-size: 15px;
   }
 }

@@ -24,7 +24,7 @@
 }
 
 .HorizontalTabCol {
-  text-align: center;
+  text-align: right;
 }
 
 .ExcelAtHead {
@@ -48,6 +48,19 @@
   align-items: center;
 }
 
+.HorizontalTabname {
+  padding-top: 1rem;
+  color: #fff;
+  font-size: 20px;
+  opacity: 0;
+  margin-left: 1.5rem;
+}
+
+.HorizontalTabCol:hover .HorizontalTabname {
+  transition: 2s;
+  opacity: 1;
+}
+
 .WeExcelIcons {
   margin: 0 1rem;
   color: #fff;
@@ -67,6 +80,7 @@
   0% {
     box-shadow: 0 0 0 0px #2c2424;
   }
+
   100% {
     box-shadow: 0 0 0 10px #231b1b;
   }
@@ -74,6 +88,7 @@
 
 .React:hover {
   color: rgb(117, 236, 252) !important;
+  opacity: 1;
 }
 
 .Angular:hover {
@@ -87,12 +102,15 @@
 .Html:hover {
   color: #e54d26;
 }
+
 .Next:hover {
   color: #000;
 }
+
 .Nuxt:hover {
   color: #00dc82;
 }
+
 .Gatsby:hover {
   color: #663199;
 }
@@ -145,6 +163,12 @@
 .SiXamarin {
   color: #329adb;
 }
+@media (min-width:320px) and (max-width: 430px) {
+  .HorizontalTabname {
+    text-align: center;
+    margin-right: 4rem;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .HorizontalTabCol {
@@ -168,6 +192,7 @@
     justify-content: center;
     padding-bottom: 1rem;
   }
+
   .WeExcelIcons {
     width: 5rem;
     height: 5rem;

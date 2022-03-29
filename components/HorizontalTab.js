@@ -18,7 +18,7 @@ const HorizontalTab = ({ data, title }) => (
           <Row className={styles.HorizontalTabRow}>
             {el.techs.map((ele, i) => (
               <Col
-              
+
                 xs={6}
                 sm={6}
                 md={4}
@@ -27,6 +27,7 @@ const HorizontalTab = ({ data, title }) => (
                 className={styles.HorizontalTabCol}
               >
                 <div className={styles.HorizontalTabDiv}>{ele}</div>
+                <div className={styles.HorizontalTabname}>{el.techsname[i]}</div>
               </Col>
             ))}
           </Row>

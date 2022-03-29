@@ -61,6 +61,7 @@ export const WeExcelAtData = [
   {
     title: "Front End ",
     techs: [
+      
       <SiReact className={`${styles.React} ${styles.WeExcelIcons}`} key={1} />,
       <IoLogoAngular
         className={`${styles.Angular} ${styles.WeExcelIcons}`}
@@ -84,6 +85,15 @@ export const WeExcelAtData = [
         key={7}
       />,
     ],
+    techsname:[
+      'React',
+      'Angular',
+      'Vue',
+      'HTML5',
+      'Next',
+      'Gatsby',
+      'Nuxt'
+    ]
   },
   {
     title: "Back End ",
@@ -111,6 +121,15 @@ export const WeExcelAtData = [
         key={7}
       />,
     ],
+    techsname:[
+      'Node',
+      'Laravel',
+      'Php',
+      'Codeigniter',
+      'Magento',
+      'Wordpress',
+      'Shopify'
+    ]
   },
   {
     title: "Mobile App",
@@ -157,6 +176,15 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/mad7.svg")}
       />,
     ],
+    techsname:[
+      'Kotlin',
+      'Swift',
+      'Flutter',
+      'React Native',
+      'Java',
+      'Objective C',
+      'Xamarin'
+    ]
   },
   {
     title: "UX/ UI",
@@ -211,6 +239,15 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/uiux7.svg")}
       />,
     ],
+    techsname:[
+      'Figma',
+      'Zeplin',
+      'Adobe Photoshop',
+      'Adobe illustrator',
+      'XD',
+      'Mackingbot',
+      'nVision'
+    ]
   },
   {
     title: "Digital Marketing",
@@ -265,6 +302,15 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/dm7.svg")}
       />,
     ],
+    techsname:[
+      'Semrush',
+      'Hootsuite',
+      'Keyhole',
+      'Google Analytics',
+      'Yoast',
+      'Buzzsumo',
+      'Buffer'
+    ]
   },
 ];
 
