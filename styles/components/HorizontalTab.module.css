@@ -129,6 +129,23 @@
   color: #f05a27;
 }
 
+.Kotlin:hover {
+  color: #7c6dea;
+}
+
+.Swift:hover {
+  color: #ff6a32;
+}
+.Flutter:hover {
+  color: #2596be;
+}
+.Java:hover {
+  color: #2596be;
+}
+.SiXamarin {
+  color: #329adb;
+}
+
 @media screen and (max-width: 768px) {
   .HorizontalTabCol {
     margin: 1rem 0;

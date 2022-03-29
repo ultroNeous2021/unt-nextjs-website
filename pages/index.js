@@ -2,7 +2,11 @@ import Layout from "../components/Layout";
 import styles from "@/styles/HomePage.module.css";
 import HomeHero from "@/components/HomeHero";
 import CounterComponent from "@/components/CounterComponent";
-import { CounterComponentData, WeExcelAtData } from "utils/CONSTANT_DATA";
+import {
+  CounterComponentData,
+  TestimonialsSliderData,
+  WeExcelAtData,
+} from "utils/CONSTANT_DATA";
 import HorizontalTab from "@/components/HorizontalTab";
 import { Col, Image, Row } from "react-bootstrap";
 import PortfolioSlider from "@/components/Slider/PortfolioSlider";
@@ -12,11 +16,13 @@ import { IoLogoInstagram } from "react-icons/io5";
 import { VscGithubAlt } from "react-icons/vsc";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-
+import SvgComponent from "@/components/SvgComponent";
+import useOnScreen from "@/components/customHook/useOnScreen";
+import { BsBehance } from "react-icons/bs";
 export default function HomePage() {
   const [image, setImage] = useState("/assets/why-client-choose-us.png");
-  const [arrowShow, setArrowShow] = useState(false)
+  const [hoverColor, setHoverColor] = useState(false);
+  const [arrowShow, setArrowShow] = useState(false);
 
   useEffect(() => {
     AOS.init();
@@ -34,7 +40,6 @@ export default function HomePage() {
   const instaRef = useRef(null);
   return (
     <Layout>
-      
       <HomeHero />
       <div className={styles.TechnologiesContainer}>
         <Row className="mx-0">
@@ -96,15 +101,14 @@ export default function HomePage() {
       <div
         onMouseEnter={() => setArrowShow(true)}
         onMouseLeave={() => setArrowShow(false)}
-        className={styles.IntroContainer}>
+        className={styles.IntroContainer}
+      >
         <div
           style={{
-            cursor: `url('/assets/cursornew.png') 300 300, auto`
+            cursor: `url('/assets/cursornew.png') 300 300, auto`,
           }}
         >
-
-          <Row className={styles.IntroHeadingContainer}
-          >
+          <Row className={styles.IntroHeadingContainer}>
             <h1 className={styles.IntroHeading}>
               Hello, we are
               <br />
@@ -122,18 +126,19 @@ export default function HomePage() {
             >
               <p className={styles.IntroParagraph}>
                 ultroNeous is a concept – a concept of innovation, customer
-                service, and exceptional creativity. We are committed to building
-                technology solutions that are accessible to help pioneers reach
-                their vision. We will continue to remove technological obstacles
-                to the global community of movers and shakers.
+                service, and exceptional creativity. We are committed to
+                building technology solutions that are accessible to help
+                pioneers reach their vision. We will continue to remove
+                technological obstacles to the global community of movers and
+                shakers.
                 <br />
                 <br />
                 Our team is constantly creating advanced web and mobile
-                applications for various domains. Our experienced developers have
-                a broad working knowledge of top programming languages and have
-                the sense to build scalable solutions. The robust solutions
-                increase the ROI for the client, resulting in the constant growth
-                of our client base and project development knowledge.
+                applications for various domains. Our experienced developers
+                have a broad working knowledge of top programming languages and
+                have the sense to build scalable solutions. The robust solutions
+                increase the ROI for the client, resulting in the constant
+                growth of our client base and project development knowledge.
               </p>
             </Col>
             <Col
@@ -149,46 +154,43 @@ export default function HomePage() {
                 alt="group of ultroneous"
                 className={styles.IntroImage}
               />
-
             </Col>
-            {/* <Col
-              sm={12}
-              xl={12}
-              className={styles.IntroArrowContain}
-            >
-              {
-                arrowShow ?
-
-                  <Image
-                    data-aos-duration="2000"
-                    data-aos="zoom-in-right"
-                    src="/assets/circle-arrow.svg"
-                    alt="arrow"
-                    height={200}
-                    className={styles.IntroArrow}
-                  />
-                  : null
-              }
-            </Col> */}
-
+            <Col sm={12} xl={12} className={styles.IntroArrowContain}>
+              {arrowShow ? (
+                <Image
+                  data-aos-duration="2000"
+                  data-aos="zoom-in-right"
+                  src="/assets/circle-arrow.svg"
+                  alt="arrow"
+                  height={200}
+                  className={styles.IntroArrow}
+                />
+              ) : null}
+            </Col>
           </Row>
         </div>
       </div>
       <CounterComponent data={CounterComponentData} />
       {/*what we offer */}
-      <div className={styles.WhatWeOfferContainer} >
-        <Row >
+      <div className={styles.WhatWeOfferContainer}>
+        <Row>
           <h2
-
             // data-aos="zoom-in"
             // data-aos-duration="2000"
-            className={styles.mainheading}>What We Offer</h2>
+            className={styles.mainheading}
+          >
+            What We Offer
+          </h2>
         </Row>
         <Row className="text-align-center">
           <Col
             // data-aos="fade-up"
             // data-aos-duration="3000"
-            sm={4} md={12} lg={4} xl={4}>
+            sm={4}
+            md={12}
+            lg={4}
+            xl={4}
+          >
             <div className={styles.Whatweofferimg}>
               <Image alt="ui-ux-design" src="/assets/ui-ux-design.svg" />
             </div>
@@ -202,7 +204,11 @@ export default function HomePage() {
           <Col
             // data-aos="fade-down"
             // data-aos-duration="3000"
-            sm={4} md={12} lg={4} xl={4}>
+            sm={4}
+            md={12}
+            lg={4}
+            xl={4}
+          >
             <div className={styles.Whatweofferimg}>
               <Image alt="developement" src="/assets/development.svg" />
             </div>
@@ -216,7 +222,11 @@ export default function HomePage() {
           <Col
             // data-aos="fade-up"
             // data-aos-duration="3000"
-            sm={4} md={12} lg={4} xl={4}>
+            sm={4}
+            md={12}
+            lg={4}
+            xl={4}
+          >
             <div className={styles.Whatweofferimg}>
               <Image
                 alt="digital marketing"
@@ -234,6 +244,7 @@ export default function HomePage() {
       </div>
       <HorizontalTab data={WeExcelAtData} title={"We Excel At"} />
       <PortfolioSlider />
+      {/* <StackedCardsSlider data={TestimonialsSliderData} /> */}
 
       {/* Why client choose to work with us */}
       <div className={styles.WhyClientChooseContainer}>
@@ -256,11 +267,20 @@ export default function HomePage() {
           <h2
             // data-aos="zoom-in"
             // data-aos-duration="2000"
-            className={styles.Verticalheading}>Verticals</h2>
+            className={styles.Verticalheading}
+          >
+            Verticals
+          </h2>
         </Row>
 
         <Row className={styles.Verticalcard}>
-          <Col className={styles.Verticalsinglecard} sm={6} xs={6} xl={1} md={1}>
+          <Col
+            className={styles.Verticalsinglecard}
+            sm={6}
+            xs={6}
+            xl={1}
+            md={1}
+          >
             <Image alt="vertical image" className={styles.Verticalimg} />
             <h2 className={styles.Cardtext}>Finance</h2>
           </Col>
@@ -286,7 +306,7 @@ export default function HomePage() {
 
           <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
             <Image alt="vertical image" className={styles.Verticalimg6} />
-            <h2 className={styles.Cardtext}>Real Estate  </h2>
+            <h2 className={styles.Cardtext}>Real Estate </h2>
           </Col>
 
           <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
@@ -299,7 +319,6 @@ export default function HomePage() {
             <h2 className={styles.Cardtext}>Travel</h2>
           </Col>
         </Row>
-
       </div>
       {/* look at our design shots */}
       <>
@@ -350,7 +369,6 @@ export default function HomePage() {
                 src="/assets/a2.svg"
                 className={styles.ImageEffect}
                 alt="look at our design"
-
               />
             </Col>
             <Col xl={4} md={4} className={styles.SingleImage}>
@@ -358,12 +376,10 @@ export default function HomePage() {
                 src="/assets/a4.svg"
                 className={styles.ImageEffect}
                 alt="look at our design"
-
               />
             </Col>
           </Row>
-          <Row
-            className={[styles.MxNone, styles.ImagesForTheHomepage]}>
+          <Row className={[styles.MxNone, styles.ImagesForTheHomepage]}>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <Image
                 src="/assets/a6.svg"
@@ -381,7 +397,10 @@ export default function HomePage() {
                   <h3> Shots </h3>
                 </Col>
                 <Col className={styles.ImagesTextIcons}>
-                
+                  <BsBehance
+                    style={{ cursor: "pointer" }}
+                    onClick={() => behanceRef.current.click()}
+                  />
                   <AiOutlineDribbble
                     style={{ cursor: "pointer" }}
                     onClick={() => dribbleRef.current.click()}
@@ -429,12 +448,6 @@ export default function HomePage() {
             </Col>
           </Row>
         </div>
-        {/* <div
-          onMouseEnter={() => setHoverColor(true)}
-          onMouseLeave={() => setHoverColor(false)}
-        >
-          <SvgComponent fill={hoverColor ? "blue" : "red"} />
-        </div> */}
       </>
     </Layout>
   );

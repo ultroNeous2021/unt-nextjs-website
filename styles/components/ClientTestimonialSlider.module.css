@@ -1,0 +1,46 @@
+.SliderContainer {
+  padding: 4rem 5rem;
+  background: #1a1112;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Slider {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.SlideContainer {
+  width: 60%;
+}
+
+.Details {
+  margin: 3rem 0 1rem 0;
+  color: #fff;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.LeftArrow,
+.RightArrow {
+  width: 5rem;
+}
+
+.LeftArrow {
+  transform: rotate(180deg);
+}
+
+.ArrowContainer {
+  width: 5rem;
+  height: 5rem;
+}

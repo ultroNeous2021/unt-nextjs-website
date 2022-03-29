@@ -1,5 +1,11 @@
+import Layout from "@/components/Layout";
+
 function AboutUltroneousPage() {
-  return <div>AboutUltroneousPage</div>;
+  return (
+    <>
+      <Layout></Layout>
+    </>
+  );
 }
 
 export default AboutUltroneousPage;

@@ -7,8 +7,12 @@ import ReactVisibilitySensor from "react-visibility-sensor";
 import { useInViewport } from "react-in-viewport";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import useOnScreen from "./customHook/useOnScreen";
 function CounterComponent(props) {
   const [load, setLoad] = useState(false);
+
+  const countRef = useRef(null);
+  const isOnScreen = useOnScreen(countRef);
 
   useEffect(() => {
     AOS.init();
@@ -19,7 +23,7 @@ function CounterComponent(props) {
   }, []);
 
   return (
-    <>
+    <div ref={countRef}>
       {load && (
         <Row
           id="CounterComponent"
@@ -39,9 +43,10 @@ function CounterComponent(props) {
               <div>
                 <CountUp
                   className={styles.Counter}
-                  start={20}
+                  start={isOnScreen ? 5 : null}
                   end={el.end}
-                  sta
+                  delay={0.5}
+                  duration={3}
                 />
                 <span className={styles.CounterSign}>{el.sign}</span>
               </div>
@@ -50,7 +55,7 @@ function CounterComponent(props) {
           ))}
         </Row>
       )}
-    </>
+    </div>
   );
 }
 
