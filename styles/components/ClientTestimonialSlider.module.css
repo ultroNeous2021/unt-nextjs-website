@@ -1,10 +1,29 @@
-.SliderContainer {
-  padding: 4rem 5rem;
+.ClientTestimonialSliderContainer {
+  padding: 4rem 2.5rem;
   background: #1a1112;
+  overflow: hidden;
+}
+
+.ClientTestimonialHeading {
+  font-family: "Poppins", sans-serif;
+  color: #1a1112;
+  -webkit-text-stroke: 0.5px #fff;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.SliderContainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.SliderParent {
+  width: 90%;
+}
+
 .Slider {
   display: flex !important;
   justify-content: center;
@@ -43,4 +62,50 @@
 .ArrowContainer {
   width: 5rem;
   height: 5rem;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .ClientTestimonialSliderContainer {
+    padding: 4rem 1rem;
+  }
+
+  .SlideContainer {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .ClientTestimonialHeading {
+    font-size: 48px;
+  }
+
+  .SliderParent {
+    width: 100%;
+  }
+
+  .ArrowContainer {
+    position: relative;
+    top: 14rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .LeftArrow,
+  .RightArrow {
+    width: 3rem;
+    position: relative;
+  }
+
+  .LeftArrow {
+    left: 8rem;
+  }
+
+  .RightArrow {
+    right: 8rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+  .SliderParent {
+    width: 80%;
+  }
 }

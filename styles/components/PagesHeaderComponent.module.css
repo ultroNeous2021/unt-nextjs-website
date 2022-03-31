@@ -1,0 +1,53 @@
+.PagesHeader {
+  background: url("../../public/assets/pagesheader.png");
+  background-position: bottom;
+  background-size: cover;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 4rem;
+  /* background-attachment: fixed; */
+  margin: 0;
+}
+
+.PagesHeader div p {
+  font-size: 32px;
+  font-weight: 500;
+  color: #e49b00;
+  margin-bottom: 0;
+}
+
+.PagesHeader div h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .PagesHeader {
+    padding-bottom: 0rem;
+    height: 40vh;
+  }
+
+  .PagesHeader div p {
+    font-size: 24px;
+  }
+
+  .PagesHeader div h1 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .PagesHeader {
+    height: 30vh;
+  }
+
+  .PagesHeader div p {
+    font-size: 24px;
+  }
+
+  .PagesHeader div h1 {
+    font-size: 45px;
+  }
+}

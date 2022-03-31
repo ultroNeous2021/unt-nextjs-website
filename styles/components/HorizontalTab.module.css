@@ -25,6 +25,7 @@
 
 .HorizontalTabCol {
   text-align: right;
+  flex-direction: column;
 }
 
 .ExcelAtHead {
@@ -163,7 +164,7 @@
 .SiXamarin {
   color: #329adb;
 }
-@media (min-width:320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 430px) {
   .HorizontalTabname {
     text-align: center;
     margin-right: 4rem;
@@ -197,5 +198,9 @@
     width: 5rem;
     height: 5rem;
     margin: 0rem;
+  }
+
+  .HorizontalTabname {
+    margin-left: 0rem;
   }
 }

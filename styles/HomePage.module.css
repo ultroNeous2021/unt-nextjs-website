@@ -137,7 +137,7 @@
   display: flex;
   justify-content: center;
 }
-.IntroArrow{
+.IntroArrow {
   position: relative;
   left: 9rem;
   bottom: 6rem;
@@ -169,162 +169,152 @@
   color: #ffffff;
 }
 /* verticals */
-.Verticalscontainer{
-    padding-top: 4rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-bottom: 4rem;
-    background: #E5E5E5;
+.Verticalscontainer {
+  padding-top: 4rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 4rem;
+  background: #e5e5e5;
 }
 
-.Verticalheading{
-    font-size: 80px;
-    font-weight: 700;
-    color: #1B1414;
-    
+.Verticalheading {
+  font-size: 80px;
+  font-weight: 700;
+  color: #1b1414;
 }
 
-.Verticalsinglecard{
-    background: #F8F8F8;
-    width: 12rem !important;
-    text-align: center;
-   padding: 0;
-    height: 12rem;
-    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
-    transition: all 0.3s ease-out;
-    text-decoration: none;
-    border-radius: 11px;
+.Verticalsinglecard {
+  background: #f8f8f8;
+  /* width: 12rem; */
+  text-align: center;
+  padding: 0;
+  height: 12rem;
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  border-radius: 11px;
 }
 /*  */
-.Verticalimg{
-  content: url('/assets/vc7.svg');
+.Verticalimg {
+  content: url("/assets/vc7.svg");
 }
-.Verticalimg img{
+.Verticalimg img {
   height: 0px;
 }
-.Verticalsinglecard:hover .Verticalimg{
+.Verticalsinglecard:hover .Verticalimg {
   padding-top: 1.5rem;
-  content: url('/assets/vch1.svg');
+  content: url("/assets/vch1.svg");
 }
 /* --- */
-.Verticalimg2{
+.Verticalimg2 {
   padding-top: 3rem;
-  content: url('/assets/vc8.svg');
+  content: url("/assets/vc8.svg");
 }
 
-.Verticalsinglecard:hover .Verticalimg2{
+.Verticalsinglecard:hover .Verticalimg2 {
   padding-top: 1.5rem;
-  content: url('/assets/vch2.svg');
+  content: url("/assets/vch2.svg");
 }
 /* --- */
-.Verticalimg3{
+.Verticalimg3 {
   padding-top: 3rem;
-  content: url('/assets/vc6.svg');
-  
+  content: url("/assets/vc6.svg");
 }
 
-.Verticalsinglecard:hover .Verticalimg3{
+.Verticalsinglecard:hover .Verticalimg3 {
   padding-top: 1.5rem;
-  content: url('/assets/vch3.svg');
-}
-/* --- */
-
-.Verticalimg4{
-  padding-top: 3rem;
-  content: url('/assets/vc3.svg');
-  
-}
-
-.Verticalsinglecard:hover .Verticalimg4{
-  padding-top: 1.5rem;
-  content: url('/assets/vch4.svg');
+  content: url("/assets/vch3.svg");
 }
 /* --- */
 
-.Verticalimg5{
+.Verticalimg4 {
   padding-top: 3rem;
-  content: url('/assets/vc4.svg');
-  
+  content: url("/assets/vc3.svg");
 }
 
-.Verticalsinglecard:hover .Verticalimg5{
+.Verticalsinglecard:hover .Verticalimg4 {
   padding-top: 1.5rem;
-  content: url('/assets/vch5.svg');
+  content: url("/assets/vch4.svg");
 }
 /* --- */
 
-.Verticalimg6{
+.Verticalimg5 {
   padding-top: 3rem;
-  content: url('/assets/vc5.svg');
-  
+  content: url("/assets/vc4.svg");
 }
 
-.Verticalsinglecard:hover .Verticalimg6{
+.Verticalsinglecard:hover .Verticalimg5 {
   padding-top: 1.5rem;
-  content: url('/assets/vch6.svg');
+  content: url("/assets/vch5.svg");
 }
 /* --- */
 
-.Verticalimg7{
+.Verticalimg6 {
   padding-top: 3rem;
-  content: url('/assets/vc2.svg');
-  
+  content: url("/assets/vc5.svg");
 }
 
-.Verticalsinglecard:hover .Verticalimg7{
+.Verticalsinglecard:hover .Verticalimg6 {
   padding-top: 1.5rem;
-  content: url('/assets/vch7.svg');
+  content: url("/assets/vch6.svg");
 }
 /* --- */
 
-.Verticalimg8{
+.Verticalimg7 {
   padding-top: 3rem;
-  content: url('/assets/vc1.svg');
-  
+  content: url("/assets/vc2.svg");
 }
 
-.Verticalsinglecard:hover .Verticalimg8{
+.Verticalsinglecard:hover .Verticalimg7 {
   padding-top: 1.5rem;
-  content: url('/assets/vch8.svg');
+  content: url("/assets/vch7.svg");
+}
+/* --- */
+
+.Verticalimg8 {
+  padding-top: 3rem;
+  content: url("/assets/vc1.svg");
+}
+
+.Verticalsinglecard:hover .Verticalimg8 {
+  padding-top: 1.5rem;
+  content: url("/assets/vch8.svg");
 }
 /*  */
-.Verticalsinglecard:hover .Cardtext{
-  color: #E49B00;
+.Verticalsinglecard:hover .Cardtext {
+  color: #e49b00;
 }
- .Verticalsinglecard:hover {
-    transform: translateY(-8px) scale(1.1) translateZ(0);
-    box-shadow: 0 24px 36px rgba(0,0,0,0.11), 0 24px 46px var(--box-shadow-color);
-    background: #fff;
-    
+.Verticalsinglecard:hover {
+  transform: translateY(-8px) scale(1.1) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+  background: #fff;
 }
 
 .Verticalsinglecard:hover .overlay {
-transform: scale(4) translateZ(0);
-
+  transform: scale(4) translateZ(0);
 }
 
-.Verticalcard{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    justify-content:space-evenly;
-    
+.Verticalcard {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  justify-content: space-evenly;
 }
 
 .Verticalsinglecard .Cardtext:hover {
-    color: #E49B00;
-    padding-top: 1.5rem;
+  color: #e49b00;
+  padding-top: 1.5rem;
 }
 
-.Cardtext{
-    font-size: 18px;
-    font-weight: 400;
-    color: #1B1414;
-    padding-top: 1.5rem;
+.Cardtext {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1b1414;
+  padding-top: 1.5rem;
 }
 
-
-.Verticalimg{
-    padding-top: 3rem;
+.Verticalimg {
+  padding-top: 3rem;
 }
 /* look at our design shots*/
 .MxNone {
@@ -352,7 +342,6 @@ transform: scale(4) translateZ(0);
 .ImageEffect:hover {
   transition: 2s linear;
   filter: none;
-
 }
 
 .ImagesForTheHomepage h3 {
@@ -370,6 +359,7 @@ transform: scale(4) translateZ(0);
   align-items: flex-end;
   flex-direction: column;
   padding-right: 2em;
+  margin-top: -4rem;
 }
 
 .ImagesTextIcons * {
@@ -385,15 +375,13 @@ transform: scale(4) translateZ(0);
   padding: 0.5em;
 }
 
-
-
 /* BOOTSTRAP MEDIA QUERIES */
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width:320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 430px) {
   .TechnoContainer {
     display: none;
   }
-  
+
   .SingleImage:nth-child(3),
   .SingleImage:nth-child(8) {
     display: none;
@@ -409,6 +397,7 @@ transform: scale(4) translateZ(0);
 
   .ImagesTextIcons {
     display: block;
+    padding-right: 0em;
   }
 
   .ImagesTextIcons * {
@@ -497,21 +486,34 @@ transform: scale(4) translateZ(0);
     padding: 1rem 0.5rem;
   }
   /* vertical  */
-  .Verticalsinglecard{
-    width: 9rem !important;
+  .Verticalsinglecard {
     margin-bottom: 5%;
+    padding: 0rem;
+    width: 8rem;
   }
-  .Verticalscontainer{
+  .Verticalscontainer {
     padding-top: 4rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 4rem;
-    background: #E5E5E5;
-}
+    background: #e5e5e5;
+  }
+
+  .Verticalheading {
+    font-size: 48px;
+  }
+
+  .ImagesTextIcons {
+    margin-top: 0rem;
+  }
 }
 
 /* / Medium devices (tablets, 768px and up) / */
 @media (min-width: 768px) and (max-width: 1080px) {
+  .TechnologiesContainer {
+    display: none;
+  }
+
   .WhatweofferPargraph {
     padding: 1rem;
   }
@@ -545,11 +547,15 @@ transform: scale(4) translateZ(0);
     font-size: 30px;
   }
 
+  .ImagesTextIcons {
+    margin-top: -2rem;
+  }
+
   .ImagesTextIcons * {
     font-size: 23px;
   }
   /* verticals */
-  .Verticalsinglecard{
+  .Verticalsinglecard {
     margin-bottom: 5%;
   }
 }
@@ -571,6 +577,10 @@ transform: scale(4) translateZ(0);
   .ImagesForTheHomepage h3 {
     font-size: 62px;
   }
+
+  .Verticalsinglecard {
+    margin: 1rem;
+  }
 }
 
 /*  */
@@ -584,10 +594,10 @@ transform: scale(4) translateZ(0);
   }
 
   .IntroHeading {
-font-size: 48px;
-      justify-content: left;
+    font-size: 48px;
+    justify-content: left;
   }
-  .TechnoContainer{
+  .TechnoContainer {
     display: none;
   }
   .SingleImage:nth-child(3),
@@ -611,5 +621,4 @@ font-size: 48px;
     font-size: 20px;
     margin: 0 0.5em;
   }
-
 }

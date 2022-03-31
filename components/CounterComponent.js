@@ -2,9 +2,7 @@ import { Col, Row } from "react-bootstrap";
 import CountUp from "react-countup";
 import styles from "@/styles/components/CounterComponent.module.css";
 import { useEffect, useRef, useState } from "react";
-import { Waypoint } from "react-waypoint";
-import ReactVisibilitySensor from "react-visibility-sensor";
-import { useInViewport } from "react-in-viewport";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import useOnScreen from "./customHook/useOnScreen";
@@ -17,9 +15,9 @@ function CounterComponent(props) {
   useEffect(() => {
     AOS.init();
     setLoad(true);
-  //   document.addEventListener("contextmenu", function (e){
-  //     e.preventDefault();
-  // }, false);
+    //   document.addEventListener("contextmenu", function (e){
+    //     e.preventDefault();
+    // }, false);
   }, []);
 
   return (

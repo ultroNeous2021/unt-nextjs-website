@@ -8,7 +8,7 @@
 }
 
 .closeButtonContain {
-  background-color: #E49B00;
+  background-color: #e49b00;
   height: 5rem;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
 .dropdownContent {
   display: none;
   position: absolute;
-  background-color: #1A1112;
+  background-color: #1a1112;
   padding: 12px 16px;
   z-index: 1;
   color: #19131199;
@@ -47,7 +47,7 @@
 .dropdown:hover .dropdownHead {
   padding-left: 1rem;
   border-radius: 5px;
-  border-left: 5px solid #E49B00;
+  border-left: 5px solid #e49b00;
 }
 
 .dropdown:hover .dropdownContent {
@@ -56,22 +56,20 @@
 
 .menu a {
   text-decoration: none;
-  color: #1A1112;
+  color: #1a1112;
 }
 
 .menu a:hover {
   padding-left: 1rem;
-  color: #E49B00;
+  color: #e49b00;
   border-radius: 5px;
-  border-left: 5px solid #E49B00;
-
+  border-left: 5px solid #e49b00;
 }
 
 .menu {
   list-style: none;
   padding: 1rem;
   padding-left: 2.5rem;
-
 }
 
 .offcanvasHeader {
@@ -85,51 +83,51 @@
 .Facebook {
   font-size: 2rem;
   margin: 0.5rem;
-  color: #CCCCCC;
-  border: 1px solid #CCCCCC;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   border-radius: 3px;
   /* / background: transparent; / */
 }
 
 .Facebook :hover {
-  color: #E49B00;
+  color: #e49b00;
   /* / background: #E49B00 !important; / */
 }
 
 .Twitter {
   font-size: 2rem;
   margin: 0.5rem;
-  color: #CCCCCC;
-  border: 1px solid #CCCCCC;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   border-radius: 3px;
 }
 
 .Twitter :hover {
-  color: #E49B00;
+  color: #e49b00;
 }
 
 .Instagram {
   font-size: 2rem;
   margin: 0.5rem;
-  color: #CCCCCC;
-  border: 1px solid #CCCCCC;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   border-radius: 3px;
 }
 
 .Instagram :hover {
-  color: #E49B00;
+  color: #e49b00;
 }
 
 .Linkedin {
   font-size: 2rem;
   margin: 0.5rem;
-  color: #CCCCCC;
-  border: 1px solid #CCCCCC;
+  color: #cccccc;
+  border: 1px solid #cccccc;
   border-radius: 3px;
 }
 
 .Linkedin :hover {
-  color: #E49B00;
+  color: #e49b00;
 }
 
 .Sociallink {
@@ -203,7 +201,7 @@
 
 /* BOOTSTRAP MEDIA QUERIES */
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width:320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 430px) {
   .NavbarBrand {
     padding-left: 1rem;
   }
@@ -211,24 +209,32 @@
   .offcanvasHeader {
     padding: 1rem 0rem;
   }
-  .offcanvasMain{
+  .offcanvasMain {
     transition: 1.5s;
   }
   .Sociallink {
     padding-top: 18rem;
     padding-left: 2rem;
   }
+
+  .ToggleMenu,
+  .closeButtonContain {
+    width: 5rem;
+    height: 4rem;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width:1080px) {}
+@media (min-width: 768px) and (max-width: 1080px) {
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 1200px) and (max-width:1730px) {
+@media (min-width: 1200px) and (max-width: 1730px) {
   .Sociallink {
     padding-top: 22rem;
   }
 }
 
 /*  */
-@media (min-width:650px) and (max-width:740px) {}
+@media (min-width: 650px) and (max-width: 740px) {
+}

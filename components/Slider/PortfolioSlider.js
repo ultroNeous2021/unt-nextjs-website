@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 import Slider from "react-slick";
 import { PortfolioSliderData } from "../../utils/CONSTANT_DATA";
@@ -32,10 +32,11 @@ function PortfolioSlider({ sliderBlack, containerBlack }) {
   return (
     <div className={styles.PortfolioSliderContainerWhite}>
       <div className={styles.PortfolioWhiteContainerMain}>
-        <h2 
+        <h2
           data-aos="fade-down"
           data-aos-duration="2000"
-        className={styles.wehead}>
+          className={styles.wehead}
+        >
           We are proud of
           <br /> our work...
         </h2>

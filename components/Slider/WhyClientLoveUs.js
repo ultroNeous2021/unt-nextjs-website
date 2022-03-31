@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import "./WhyClientLoveUs.css";
 import Arrow from "../../assets/images/client-love.svg";

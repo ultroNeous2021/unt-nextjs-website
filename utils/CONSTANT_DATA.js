@@ -61,7 +61,6 @@ export const WeExcelAtData = [
   {
     title: "Front End ",
     techs: [
-      
       <SiReact className={`${styles.React} ${styles.WeExcelIcons}`} key={1} />,
       <IoLogoAngular
         className={`${styles.Angular} ${styles.WeExcelIcons}`}
@@ -85,15 +84,7 @@ export const WeExcelAtData = [
         key={7}
       />,
     ],
-    techsname:[
-      'React',
-      'Angular',
-      'Vue',
-      'HTML5',
-      'Next',
-      'Gatsby',
-      'Nuxt'
-    ]
+    techsname: ["React", "Angular", "Vue", "HTML5", "Next", "Gatsby", "Nuxt"],
   },
   {
     title: "Back End ",
@@ -121,15 +112,15 @@ export const WeExcelAtData = [
         key={7}
       />,
     ],
-    techsname:[
-      'Node',
-      'Laravel',
-      'Php',
-      'Codeigniter',
-      'Magento',
-      'Wordpress',
-      'Shopify'
-    ]
+    techsname: [
+      "Node",
+      "Laravel",
+      "Php",
+      "Codeigniter",
+      "Magento",
+      "Wordpress",
+      "Shopify",
+    ],
   },
   {
     title: "Mobile App",
@@ -176,15 +167,15 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/mad7.svg")}
       />,
     ],
-    techsname:[
-      'Kotlin',
-      'Swift',
-      'Flutter',
-      'React Native',
-      'Java',
-      'Objective C',
-      'Xamarin'
-    ]
+    techsname: [
+      "Kotlin",
+      "Swift",
+      "Flutter",
+      "React Native",
+      "Java",
+      "Objective C",
+      "Xamarin",
+    ],
   },
   {
     title: "UX/ UI",
@@ -239,15 +230,15 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/uiux7.svg")}
       />,
     ],
-    techsname:[
-      'Figma',
-      'Zeplin',
-      'Adobe Photoshop',
-      'Adobe illustrator',
-      'XD',
-      'Mackingbot',
-      'nVision'
-    ]
+    techsname: [
+      "Figma",
+      "Zeplin",
+      "Adobe Photoshop",
+      "Adobe illustrator",
+      "XD",
+      "Mackingbot",
+      "nVision",
+    ],
   },
   {
     title: "Digital Marketing",
@@ -302,15 +293,15 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/dm7.svg")}
       />,
     ],
-    techsname:[
-      'Semrush',
-      'Hootsuite',
-      'Keyhole',
-      'Google Analytics',
-      'Yoast',
-      'Buzzsumo',
-      'Buffer'
-    ]
+    techsname: [
+      "Semrush",
+      "Hootsuite",
+      "Keyhole",
+      "Google Analytics",
+      "Yoast",
+      "Buzzsumo",
+      "Buffer",
+    ],
   },
 ];
 
@@ -499,85 +490,85 @@ export const TestimonialsSliderData = [
 //   title5: "Employee Retention",
 // };
 
-// export const CareersData = [
-//   {
-//     title: "Engineering",
-//     vacancy: "(4)",
-//     jobs: [
-//       {
-//         job: "iOS Developer",
-//         jobNumber: "1",
-//       },
-//       {
-//         job: "Android Developer ",
-//         jobNumber: "1",
-//       },
-//       {
-//         job: "React Native Developer",
-//         jobNumber: "2",
-//       },
-//       {
-//         job: "Flutter Developer",
-//         jobNumber: "2",
-//       },
-//     ],
-//   },
-//   {
-//     title: "Project Management",
-//     vacancy: "(2)",
-//     jobs: [
-//       {
-//         job: "Project Manager ",
-//         jobNumber: "1",
-//       },
-//       {
-//         job: "Technical Project Coordinator",
-//         jobNumber: "1",
-//       },
-//     ],
-//   },
-//   {
-//     title: "Marketing",
-//     vacancy: "(4)",
-//     jobs: [
-//       {
-//         job: "Digital Marketing Executive",
-//         jobNumber: "1",
-//       },
-//       {
-//         job: "SEO Intern",
-//         jobNumber: "1",
-//       },
-//       {
-//         job: "Graphic Designer",
-//         jobNumber: "1",
-//       },
+export const CareersData = [
+  {
+    title: "Engineering",
+    vacancy: "(4)",
+    jobs: [
+      {
+        job: "iOS Developer",
+        jobNumber: "1",
+      },
+      {
+        job: "Android Developer ",
+        jobNumber: "1",
+      },
+      {
+        job: "React Native Developer",
+        jobNumber: "2",
+      },
+      {
+        job: "Flutter Developer",
+        jobNumber: "2",
+      },
+    ],
+  },
+  {
+    title: "Project Management",
+    vacancy: "(2)",
+    jobs: [
+      {
+        job: "Project Manager ",
+        jobNumber: "1",
+      },
+      {
+        job: "Technical Project Coordinator",
+        jobNumber: "1",
+      },
+    ],
+  },
+  {
+    title: "Marketing",
+    vacancy: "(4)",
+    jobs: [
+      {
+        job: "Digital Marketing Executive",
+        jobNumber: "1",
+      },
+      {
+        job: "SEO Intern",
+        jobNumber: "1",
+      },
+      {
+        job: "Graphic Designer",
+        jobNumber: "1",
+      },
 
-//       {
-//         job: "UX/UI Designer",
-//         jobNumber: "1",
-//       },
-//     ],
-//   },
-//   {
-//     title: "Sales",
-//     vacancy: "(3)",
-//     jobs: [
-//       {
-//         job: "Business Development Manager",
-//         jobNumber: "2",
-//       },
-//       {
-//         job: "Business Development Executive",
-//         jobNumber: "2",
-//       },
-//       {
-//         job: "Bidding Expert",
-//         jobNumber: "1",
-//       },
-//     ],
-//   },
-// ];
+      {
+        job: "UX/UI Designer",
+        jobNumber: "1",
+      },
+    ],
+  },
+  {
+    title: "Sales",
+    vacancy: "(3)",
+    jobs: [
+      {
+        job: "Business Development Manager",
+        jobNumber: "2",
+      },
+      {
+        job: "Business Development Executive",
+        jobNumber: "2",
+      },
+      {
+        job: "Bidding Expert",
+        jobNumber: "1",
+      },
+    ],
+  },
+];
 
 // export const FeelTheCultureData = [
 //   {
@@ -618,3 +609,29 @@ export const TestimonialsSliderData = [
 //       "I started my career as a React.js Frontend Developer and after having some experience, I wanted to explore backend part. ultroNeous Technologies provided that opportunity and I joined as full-stack developer. I learned MERN stack development and got really good support and guidance from each and every team members. ",
 //   },
 // ];
+
+export const ContactUsFormCheckboxData = {
+  developersData: [
+    "Hire Wordpress Developer",
+    "Hire Woocommerce Developer",
+    "Hire Shopify Developer",
+    "Hire Magento Developer",
+    "Hire PHP Developer",
+    "Hire Laravel Developer",
+    "Hire Codeigniter Developer",
+    "Hire Nodejs Developer",
+    "Hire Angular Developer",
+    "Hire Reactjs Developer",
+    "Hire Vuejs Developer",
+    "Hire Front end Developer",
+    "Hire iOS Developer",
+    "Hire Android Developer",
+    "Hire React Native Developer",
+    "Hire Xamarin Developer",
+    "Hire Flutter Developer",
+    "Hire Python Developer",
+    "Ruby on Rails",
+    "Hire Web App Developer",
+  ],
+  othersData: ["UI/UX Designer", "Quality Analyst", "Digital Marketing"],
+};

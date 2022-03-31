@@ -1,99 +1,98 @@
 /*  */
 .MxNone {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 
 .FooterTopText {
-    background-image: url("/assets/footer-image.jpg");
-    height: 42vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    padding: 13em;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-position: bottom;
+  background-image: url("/assets/footer-image.jpg");
+  height: 42vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 13em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: bottom;
 }
 
-.FooterTopText h1 {
-    color: #fff;
-    font-size: 75px;
-    font-weight: bold;
-    margin-bottom: 0.5em;
+.FooterTopText h2 {
+  color: #fff;
+  font-size: 75px;
+  font-weight: bold;
+  margin-bottom: 3rem;
 }
 
 /* ----- */
 .FooterContainer {
-    background: #1b1414;
-    color: #fff;
-    padding: 4rem 2.5rem 4rem 2.5rem;
-    justify-content: space-around;
-
+  background: #1b1414;
+  color: #fff;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+  justify-content: space-around;
 }
 
 .IconListContain {
-    padding: 0;
+  padding: 0;
 }
 
 .IconContain {
-    list-style: none;
+  list-style: none;
 }
 
 .IconContain {
-    margin-top: 2rem !important;
+  margin-top: 2rem !important;
 }
 
 .IconBox:hover {
-    color: #fff !important;
-    border: 1px solid #e49b00;
-    transition: all 0.5s ease;
-    background-color: #e49b00;
+  color: #fff !important;
+  border: 1px solid #e49b00;
+  transition: all 0.5s ease;
+  background-color: #e49b00;
 }
 
 .IconBox {
-    border: 0.5px solid #c4c4c4;
-    width: 29px;
-    height: 29px;
-    padding: 0.3em 0.5em 0.5em 0.5em;
-    margin-right: 5%;
-    border-radius: 2px;
+  border: 0.5px solid #c4c4c4;
+  width: 29px;
+  height: 29px;
+  padding: 0.3em 0.5em 0.5em 0.5em;
+  margin-right: 5%;
+  border-radius: 2px;
 }
 
 .IconBox a {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .IconBox a:hover {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .QuickLinks {
-    text-align: left;
-    padding: 0%;
+  text-align: left;
+  padding: 0%;
 }
 
 .QuickLinks h3 {
-    color: #FFFFFF;
-    margin-bottom: 0.8em;
+  color: #ffffff;
+  margin-bottom: 0.8em;
 }
 
 .QuickLinks ul {
-    padding: 0;
+  padding: 0;
 }
 
 .QuickLinks li,
 .QuickLinks li a {
-    list-style: none;
-    margin: 0.5em 0;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.6) !important;
+  list-style: none;
+  margin: 0.5em 0;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 .QuickLinks li a:hover {
-    transition: all 0.8s ease;
-    color: #e49b00 !important;
+  transition: all 0.8s ease;
+  color: #e49b00 !important;
 }
 
 /*  */
@@ -104,132 +103,128 @@
 } */
 
 .FooterContainer a {
-    text-decoration: none;
-    color: #fff;
-    transition: all 0.5s ease;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease;
 }
 
 .FooterContainer a:hover {
-    text-decoration: none;
-    color: #e49b00;
+  text-decoration: none;
+  color: #e49b00;
 }
 
 .FooterColOne {
-    margin: 1rem 0;
-    padding: 0%;
+  margin: 1rem 0;
+  padding: 0%;
 }
 
-
-
-
 .SignupForNewsLetterContainer {
-    display: flex;
-    width: 100%;
-    max-width: 20em;
-    height: 45px;
-    padding-left: 20px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 34px 64px rgba(228, 155, 0, 0.1);
-    border-radius: 40px;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    margin-bottom: 10px;
-    margin-right: 0;
+  display: flex;
+  width: 100%;
+  max-width: 20em;
+  height: 45px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 34px 64px rgba(228, 155, 0, 0.1);
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 10px;
+  margin-right: 0;
 }
 
 .SignupForNewsLetterEmail {
-    width: 100%;
-    height: 54px;
-    background: none;
-    border: 0;
-    padding: 0;
-    outline: none;
+  width: 100%;
+  height: 54px;
+  background: none;
+  border: 0;
+  padding: 0;
+  outline: none;
 }
 
 .SignupForNewsLetterSubmit {
-    margin-right: 0.2rem;
-    height: 39px;
-    width: 150px;
-    background: #e49b00;
-    box-shadow: 0px 34px 64px rgba(228, 155, 0, 0.1);
-    border-radius: 40px;
-    color: #ffffff;
-    border-style: none;
-    cursor: pointer;
-    outline: none;
-    /* padding: 0.7em 1.1em; */
-    font-weight: bold;
+  margin-right: 0.2rem;
+  height: 39px;
+  width: 150px;
+  background: #e49b00;
+  box-shadow: 0px 34px 64px rgba(228, 155, 0, 0.1);
+  border-radius: 40px;
+  color: #ffffff;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  /* padding: 0.7em 1.1em; */
+  font-weight: bold;
 }
 
 .SubscribeNewsletter {
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 .Footer-Ultroneous-Text {
-    text-align: left;
+  text-align: left;
 }
 
 .Footer-Ultroneous-Text img {
-    width: 13em;
+  width: 13em;
 }
 
 .Footer-Ultroneous-Text p {
-    margin-top: 2em;
-    width: 75%;
+  margin-top: 2em;
+  width: 75%;
 }
-
 
 .Ultroneous-Call-Mail-Text a {
-    margin-left: 1em;
-    font-size: 16px;
+  margin-left: 1em;
+  font-size: 16px;
 }
-
-
-
 
 /* BOOTSTRAP MEDIA QUERIES */
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width:320px) and (max-width: 430px) {
-    .FooterTopText {
-        padding: 0em;
-    }
+@media (min-width: 320px) and (max-width: 430px) {
+  .FooterTopText {
+    padding: 0em;
+  }
 
-    .FooterTopText h1 {
-        font-size: 30px;
-    }
+  .FooterTopText h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 
-    .FooterContainer {
-        padding: 1rem 1rem 1rem 1rem;
-    }
+  .FooterContainer {
+    padding: 1rem 1rem 1rem 1rem;
+  }
 
-    .NonePadding {
-        padding: 0%;
-    }
+  .NonePadding {
+    padding: 0%;
+  }
 
-    .FooterIcon {
-        width: 11.5rem;
-    }
+  .FooterIcon {
+    width: 11.5rem;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width:1080px) {
-    .FooterTopText {
-        padding: 0em;
-    }
+@media (min-width: 768px) and (max-width: 1080px) {
+  .FooterTopText {
+    padding: 0em;
+  }
 
-    .FooterTopText h1 {
-        font-size: 60px;
-    }
+  .FooterTopText h2 {
+    font-size: 60px;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 1200px) and (max-width:1730px) {
-    .FooterIcon {
-        width: 11.5rem;
-    }
+@media (min-width: 1200px) and (max-width: 1730px) {
+  .FooterIcon {
+    width: 11.5rem;
+  }
 }
 
 /*  */
-@media (min-width:650px) and (max-width:740px) {}
+@media (min-width: 650px) and (max-width: 740px) {
+}

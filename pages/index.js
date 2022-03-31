@@ -19,6 +19,7 @@ import "aos/dist/aos.css";
 import SvgComponent from "@/components/SvgComponent";
 import useOnScreen from "@/components/customHook/useOnScreen";
 import { BsBehance } from "react-icons/bs";
+import ClientTestimonialSlider from "@/components/Slider/ClientTestimonialSlider";
 export default function HomePage() {
   const [image, setImage] = useState("/assets/why-client-choose-us.png");
   const [hoverColor, setHoverColor] = useState(false);
@@ -101,19 +102,20 @@ export default function HomePage() {
       <div
         onMouseEnter={() => setArrowShow(true)}
         onMouseMove={() => setArrowShow(false)}
-        className={styles.IntroContainer}>
+        className={styles.IntroContainer}
+      >
         <div
           style={{
             cursor: `url('/assets/cursornew.png') 300 300, auto`,
-            transition:'4s'
+            transition: "4s",
           }}
         >
           <Row className={styles.IntroHeadingContainer}>
-            <h1 className={styles.IntroHeading}>
+            <h2 className={styles.IntroHeading}>
               Hello, we are
               <br />
               ultroNeours.
-            </h1>
+            </h2>
           </Row>
           <Row className="mx-0">
             <Col
@@ -244,7 +246,10 @@ export default function HomePage() {
       </div>
       <HorizontalTab data={WeExcelAtData} title={"We Excel At"} />
       <PortfolioSlider />
-      {/* <StackedCardsSlider data={TestimonialsSliderData} /> */}
+      <ClientTestimonialSlider
+        data={TestimonialsSliderData}
+        title={"Client’s Feedback"}
+      />
 
       {/* Why client choose to work with us */}
       <div className={styles.WhyClientChooseContainer}>
@@ -278,50 +283,50 @@ export default function HomePage() {
             className={styles.Verticalsinglecard}
             sm={6}
             xs={6}
-            xl={1}
-            md={1}
+            xl={3}
+            md={5}
           >
             <Image alt="vertical image" className={styles.Verticalimg} />
             <h2 className={styles.Cardtext}>Finance</h2>
           </Col>
-          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+          <Col className={styles.Verticalsinglecard} xs={6} xl={3} md={5}>
             <Image alt="vertical image" className={styles.Verticalimg2} />
             <h2 className={styles.Cardtext}>Healthcare</h2>
           </Col>
 
-          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+          <Col className={styles.Verticalsinglecard} xs={6} xl={3} md={5}>
             <Image alt="vertical image" className={styles.Verticalimg3} />
             <h2 className={styles.Cardtext}>Education</h2>
           </Col>
 
-          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+          <Col className={styles.Verticalsinglecard} xs={6} xl={3} md={5}>
             <Image alt="vertical image" className={styles.Verticalimg4} />
             <h2 className={styles.Cardtext}>Hospitality</h2>
           </Col>
 
-          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+          <Col className={styles.Verticalsinglecard} xs={6} xl={3} md={5}>
             <Image alt="vertical image" className={styles.Verticalimg5} />
             <h2 className={styles.Cardtext}>eCommerce</h2>
           </Col>
 
-          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+          <Col className={styles.Verticalsinglecard} xs={6} xl={3} md={5}>
             <Image alt="vertical image" className={styles.Verticalimg6} />
             <h2 className={styles.Cardtext}>Real Estate </h2>
           </Col>
 
-          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+          <Col className={styles.Verticalsinglecard} xs={6} xl={3} md={5}>
             <Image alt="vertical image" className={styles.Verticalimg7} />
             <h2 className={styles.Cardtext}>Food Delivery</h2>
           </Col>
 
-          <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={1}>
+          <Col className={styles.Verticalsinglecard} xs={6} xl={3} md={5}>
             <Image alt="vertical image" className={styles.Verticalimg8} />
             <h2 className={styles.Cardtext}>Travel</h2>
           </Col>
         </Row>
       </div>
       {/* look at our design shots */}
-      <>
+      <div>
         <a
           href="https://github.com/ultroneous"
           target="_blank"
@@ -448,7 +453,7 @@ export default function HomePage() {
             </Col>
           </Row>
         </div>
-      </>
+      </div>
     </Layout>
   );
 }

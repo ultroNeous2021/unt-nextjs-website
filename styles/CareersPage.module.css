@@ -1,0 +1,338 @@
+.CareerMapImage {
+  background: #1a1112;
+  text-align: center;
+  padding: 4rem 2.5rem;
+}
+
+.CareerMapImage img {
+  height: auto;
+  width: 60%;
+  max-width: 70em;
+}
+
+.WFTDContainer {
+  background: #1a1112;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 4rem 2.5rem;
+}
+
+.WFTDHeader {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #fff;
+}
+
+.WFTDparagraph {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgba(97, 97, 97, 0.7);
+  margin: 0;
+}
+
+.WFTDAccordion {
+  width: 60%;
+  margin: 9em auto;
+}
+
+.WFTDAccordion Accordion {
+  width: 60%;
+  margin: 4em auto;
+}
+
+.AccordionBody div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.Accordionheader button {
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.AccordionBody p {
+  color: #fff;
+}
+
+.Accordionheader span {
+  color: rgba(255, 255, 255, 0.4);
+  margin-left: 0.5em;
+}
+
+.JobVacancyNumber {
+  border-radius: 50%;
+  padding: 2px 7px;
+  background: #434343;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 0.7em;
+}
+
+.BenefitsAndPerks {
+  text-align: center;
+  padding: 4rem 2.5rem;
+  margin: 0;
+}
+
+.BenefitsAndPerks h3 {
+  color: #1a1112;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.SixPartsRow {
+  margin-top: 6em;
+}
+
+.SixPartsRow div {
+  padding: 3em;
+}
+
+.SixPartsRow p {
+  font-weight: 500;
+  font-size: 24px;
+  color: #1a1112;
+  padding-top: 0.7em;
+}
+
+.SixPartsRow div:nth-child(1),
+.SixPartsRow div:nth-child(2),
+.SixPartsRow div:nth-child(3) {
+  border-bottom: 3px dashed #e5e5e5;
+}
+
+.SixPartsRow div:nth-child(2),
+.SixPartsRow div:nth-child(5) {
+  border-right: 3px dashed #e5e5e5;
+  border-left: 3px dashed #e5e5e5;
+}
+
+.CareersOurCatchphraseRow {
+  justify-content: right;
+  height: 75rem;
+  padding: 4rem 0;
+  margin: 0;
+}
+
+.CareersOurCatchphrase {
+  padding: 0;
+}
+
+.CareersOurCatchphrase img {
+  width: 100%;
+  height: auto;
+}
+
+.CareersOurCatchphrasetext {
+  width: 70%;
+  position: relative;
+  bottom: 12em;
+  background: #fff;
+  padding: 2em 6em 3em 4em;
+  margin-right: 4em;
+}
+
+.CareersOurCatchphrasetext h2 {
+  font-size: 51px;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  font-family: "Poppins", sans-serif;
+}
+
+.WTOOImages {
+  padding: 4rem 2.5rem;
+  margin: 0;
+}
+
+.WTOOImages h3 {
+  font-size: 80px;
+  color: #fff;
+  font-weight: 700;
+  -webkit-text-stroke: 1.5px #e49b00;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1em;
+  padding-left: 0em;
+}
+
+.WTOOImagesContainer {
+  padding: 0 1em;
+  justify-content: center;
+}
+.CareersImage {
+  padding: 0 2em;
+}
+
+.CareersImage:nth-child(2),
+.CareersImage:nth-child(4) {
+  padding-top: 5em;
+}
+
+.CareersImage img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .CareerMapImage,
+  .WFTDContainer,
+  .BenefitsAndPerks {
+    padding: 3rem 1rem;
+  }
+
+  .CareerMapImage img {
+    width: 90%;
+  }
+
+  .WFTDHeader {
+    font-size: 40px;
+  }
+
+  .Accordionheader button {
+    font-size: 18px;
+  }
+
+  .WFTDparagraph {
+    font-size: 18px;
+  }
+
+  .WFTDAccordion {
+    margin: 3rem auto;
+    width: 100%;
+  }
+
+  .AccordionBody div {
+    display: block;
+  }
+
+  .BenefitsAndPerks {
+    display: flex;
+    justify-content: center;
+  }
+
+  .BenefitsAndPerks h3 {
+    font-size: 40px;
+  }
+
+  .SixPartsRow {
+    margin-top: 3rem;
+  }
+
+  .SixPartsRow p {
+    font-size: 16px;
+  }
+
+  .SixPartsRow div {
+    padding: 1.5rem 1rem;
+  }
+
+  .SixPartsRow div:nth-child(1),
+  .SixPartsRow div:nth-child(3),
+  .SixPartsRow div:nth-child(5) {
+    border-right: 5px dashed #e5e5e5;
+    border-bottom: 5px dashed #e5e5e5;
+  }
+
+  .SixPartsRow div:nth-child(2),
+  .SixPartsRow div:nth-child(4),
+  .SixPartsRow div:nth-child(6) {
+    border-bottom: 5px dashed #e5e5e5;
+    border-right: 0;
+    border-left: 0;
+  }
+
+  .SixPartsRow div:nth-child(5),
+  .SixPartsRow div:nth-child(6) {
+    border-bottom: 0;
+    border-left: 0;
+  }
+
+  .CareersOurCatchphraseRow {
+    height: auto;
+    display: block;
+    padding: 4rem 0 0 0;
+  }
+
+  .CareersOurCatchphrasetext {
+    position: static;
+    padding: 2rem 1rem;
+    width: 100%;
+    margin-right: 0rem;
+  }
+
+  .CareersOurCatchphrasetext h2 {
+    font-size: 40px;
+  }
+
+  .WTOOImages {
+    padding: 3rem 1rem;
+  }
+
+  .WTOOImages h3 {
+    font-size: 40px;
+  }
+
+  .CareersImage:nth-child(2),
+  .CareersImage:nth-child(4) {
+    padding-top: 0em;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .CareerMapImage img {
+    width: 90%;
+  }
+
+  .WFTDHeader {
+    font-size: 65px;
+  }
+
+  .WFTDAccordion {
+    width: 90%;
+  }
+
+  .BenefitsAndPerks h3 {
+    font-size: 65px;
+  }
+
+  .CareersOurCatchphraseRow {
+    height: 52rem;
+  }
+
+  .CareersOurCatchphrasetext {
+    margin-right: 0rem;
+    bottom: 7em;
+  }
+
+  .CareersOurCatchphrasetext h2 {
+    font-size: 45px;
+  }
+
+  .CareersOurCatchphrasetext p {
+    font-size: 18px;
+  }
+
+  .WTOOImages h3 {
+    font-size: 65px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+  .CareersOurCatchphraseRow {
+    height: 55rem;
+  }
+}
+@media (min-width: 650px) and (max-width: 765px) {
+}
+
+@media screen and (max-width: 768px) {
+  .CareersImage:nth-child(2),
+  .CareersImage:nth-child(4) {
+    padding-top: 0em;
+  }
+}

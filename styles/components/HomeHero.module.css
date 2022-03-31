@@ -44,7 +44,7 @@
 }
 
 .VerticalIndicatorContentDiv span {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #fff;
   margin-right: 0.8rem;
 }
@@ -704,7 +704,6 @@
   .HomeHeroTextContainer p {
     font-size: 23px;
     padding-left: 1rem;
-
   }
 }
 
