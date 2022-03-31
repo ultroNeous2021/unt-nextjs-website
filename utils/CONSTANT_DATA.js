@@ -84,7 +84,15 @@ export const WeExcelAtData = [
         key={7}
       />,
     ],
-    techsname: ["React", "Angular", "Vue", "HTML5", "Next", "Gatsby", "Nuxt"],
+    techsname: [
+      'React',
+      'Angular',
+      'Vue',
+      'HTML5',
+      'Next',
+      'Gatsby',
+      'Nuxt'
+    ]
   },
   {
     title: "Back End ",
@@ -113,14 +121,14 @@ export const WeExcelAtData = [
       />,
     ],
     techsname: [
-      "Node",
-      "Laravel",
-      "Php",
-      "Codeigniter",
-      "Magento",
-      "Wordpress",
-      "Shopify",
-    ],
+      'Node',
+      'Laravel',
+      'Php',
+      'Codeigniter',
+      'Magento',
+      'Wordpress',
+      'Shopify'
+    ]
   },
   {
     title: "Mobile App",
@@ -168,14 +176,14 @@ export const WeExcelAtData = [
       />,
     ],
     techsname: [
-      "Kotlin",
-      "Swift",
-      "Flutter",
-      "React Native",
-      "Java",
-      "Objective C",
-      "Xamarin",
-    ],
+      'Kotlin',
+      'Swift',
+      'Flutter',
+      'React Native',
+      'Java',
+      'Objective C',
+      'Xamarin'
+    ]
   },
   {
     title: "UX/ UI",
@@ -231,14 +239,14 @@ export const WeExcelAtData = [
       />,
     ],
     techsname: [
-      "Figma",
-      "Zeplin",
-      "Adobe Photoshop",
-      "Adobe illustrator",
-      "XD",
-      "Mackingbot",
-      "nVision",
-    ],
+      'Figma',
+      'Zeplin',
+      'Adobe Photoshop',
+      'Adobe illustrator',
+      'XD',
+      'Mackingbot',
+      'nVision'
+    ]
   },
   {
     title: "Digital Marketing",
@@ -294,14 +302,14 @@ export const WeExcelAtData = [
       />,
     ],
     techsname: [
-      "Semrush",
-      "Hootsuite",
-      "Keyhole",
-      "Google Analytics",
-      "Yoast",
-      "Buzzsumo",
-      "Buffer",
-    ],
+      'Semrush',
+      'Hootsuite',
+      'Keyhole',
+      'Google Analytics',
+      'Yoast',
+      'Buzzsumo',
+      'Buffer'
+    ]
   },
 ];
 
@@ -472,23 +480,33 @@ export const TestimonialsSliderData = [
 //   },
 // ];
 
-// export const AboutUsCounter = {
-//   end1: 2020,
-//   sign1: "",
-//   title1: "Year Founded",
-//   end2: 2,
-//   sign2: "+",
-//   title2: "Global Branches",
-//   end3: 10,
-//   sign3: "+",
-//   title3: "Industries Served",
-//   end4: 20,
-//   sign4: "+",
-//   title4: "Technology Verticles",
-//   end5: 99,
-//   sign5: "%",
-//   title5: "Employee Retention",
-// };
+export const AboutUsCounter = [
+  {
+    end: 2020,
+    sign: "",
+    title: "Year Founded",
+  },
+  {
+    end: 2,
+    sign: "+",
+    title: "Global Branches",
+  },
+  {
+    end: 10,
+    sign: "+",
+    title: "Industries Served",
+  },
+  {
+    end: 20,
+    sign: "+",
+    title: "Technology Verticles",
+  },
+  {
+    end: 99,
+    sign: "%",
+    title: "Employee Retention",
+  }
+];
 
 export const CareersData = [
   {

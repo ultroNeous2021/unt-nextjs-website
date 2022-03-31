@@ -1,0 +1,70 @@
+.ServiceHeaderRow{
+    background: url("/assets/about-back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0%;
+    height: 50vh;
+    padding-left: 2em;
+}
+.ServiceHeaderContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: end;
+}
+.ServiceHeaderParagraphMain{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #E49B00;
+}
+.ServiceHeaderHeadingMain{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+.HeadPragraphSectionService {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #1a1112;
+    padding: 4rem 2.5rem 4rem 2.5rem;
+    margin: 0%;
+}
+
+.Headerpragraphservices {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.NotSureContainer {
+    justify-content: center;
+    margin: 0%;
+    display: flex;
+    text-align: center;
+    background: #1a1112;
+    padding: 4rem 2.5rem 4rem 2.5rem;
+}
+
+.NotSureParagraph {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.NotSureButton {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

@@ -201,13 +201,55 @@ export const WhatWeOfferList = [
 //       "With proven SEO tactics and precise competitor analysis, we help your website to rank higher. ",
 //   },
 // ];
-// export const ArrayOfTalent = [
-//   "Exhilarating Work Culture",
-//   "Advanced Technology Stacks",
-//   "High Exposure in different Areas",
-//   "Appealing Payscale",
-//   "Prominent Workspace",
-//   "No Secret Policies",
-//   "An Open Hierarchical Structure",
-//   "Exponential Career Opportunity",
-// ];
+export const ArrayOfTalent = [
+  "Exhilarating Work Culture",
+  "Advanced Technology Stacks",
+  "High Exposure in different Areas",
+  "Appealing Payscale",
+  "Prominent Workspace",
+  "No Secret Policies",
+  "An Open Hierarchical Structure",
+  "Exponential Career Opportunity",
+];
+export const ArrayOfServices = [ 
+  {
+    icon:'s-frontend-dev.svg',
+    name:'Front End Development',
+    content:'From ideation, brainstorming, designing, development and a professional team! - Have everything you are looking for in Front-End Development. Leverage our experience to elevate your business to the next level.'
+  },
+  {
+    icon:'s-web-dev.svg',
+    name:'Web App Development',
+    content:'Irrespective of size of your business and complexity of application, ultroNeous build a well-planned, highly scalable and a secure web application that will solve your unique business challenges.'
+  },
+  {
+    icon:'s-mobile-dev.svg',
+    name:'Mobile Application Development',
+    content:'We are experts in the latest mobile app development technologies and frameworks that enable us to create exceptional native and hybrid apps. Take a peek around and see what we have to offer.'
+  },
+  {
+    icon:'s-uiux.svg',
+    name:'UX/UI Design',
+    content:'Design is our Strength!! - Our complete UX/UI design methodology comprises brainstorming, UI research, thinking, and designing in order to provide our clients with comprehensive and engaging outcomes.'
+  },
+  {
+    icon:'s-cloud-dev.svg',
+    name:'Cloud & Devops',
+    content:'ultroNeous provides high-performance cloud and DevOps solutions that are backed by industry-leading technologies, tools, and people. Our services have been shown to accelerate software development and operational efficiency.'
+  },
+  {
+    icon:'s-ecommerce-dev.svg',
+    name:'E-commerce Development',
+    content:'With our impeccable eCommerce Development services, you can keep your business ahead of the competition. Our tech-savvy team can assist you with developing highly customised and scalable eCommerce sites'
+  },
+  {
+    icon:'s-enterprise-dev.svg',
+    name:'Enterprise Software Solutions',
+    content:'Utilise our corporate software development experience to empower, automate, and scale your company model. Get access to our industry-specific expertise to design and build your new enterprise software solution.'
+  },
+  {
+    icon:'s-digital-marketing.svg',
+    name:'Digital Marketing',
+    content:'For each of our digital marketing services, including SEO, PPC, Social Media Marketing, eCommerce and Content Marketing, we use a results-driven approach. Explore our digital marketing services in depth.'
+  }
+]
