@@ -141,7 +141,7 @@ function AboutUltroneousPage() {
       )}
       {/* values */}
       <Row className={styles.ValuesContainer}>
-        <Col sm={8} xl={8} xs={12} md={12} lg={8}>
+        <Col sm={8} xl={9} xs={12} md={12} lg={8}>
           <label className={styles.ValueHeading}>
             Values
             <Image
@@ -188,7 +188,9 @@ function AboutUltroneousPage() {
                   <Card.Title>
                     <Image src={el.image} alt={el.text} />
                   </Card.Title>
-                  <Card.Text className={sliderstyle.WCLUText}>{el.text}</Card.Text>
+                  <Card.Text className={sliderstyle.WCLUText}>
+                    {el.text}
+                  </Card.Text>
                 </Card.Body>
               </Card>
             ))}

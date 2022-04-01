@@ -1,70 +1,214 @@
-.ServiceHeaderRow{
-    background: url("/assets/about-back.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0%;
-    height: 50vh;
-    padding-left: 2em;
+.ServiceHeaderRow {
+  background: url("/assets/about-back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0%;
+  height: 50vh;
+  padding-left: 2em;
 }
-.ServiceHeaderContainer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: end;
+.ServiceHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: end;
 }
-.ServiceHeaderParagraphMain{
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    color: #E49B00;
+.ServiceHeaderParagraphMain {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #e49b00;
 }
-.ServiceHeaderHeadingMain{
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    color: #FFFFFF;
+.ServiceHeaderHeadingMain {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  color: #ffffff;
+}
+/* desk card */
+.Servicecardcontainer {
+  padding: 4rem 2.5rem;
+  background: #1a1112;
+}
+.flipcard {
+  background-color: transparent;
+  width: 288px;
+  height: 388px;
+  perspective: 1000px;
+  padding-top: 2rem;
+}
+
+.flipcardinner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  border-radius: 18px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.flipcard:hover .flipcardinner {
+  transform: rotateY(180deg);
+}
+
+.flipcardfront,
+.flipcardback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipcardfront {
+  background: transparent;
+  color: black;
+  /* / opacity: 0.5; / */
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  text-align: left;
+}
+
+.flipcardback {
+  background-color: #ededed;
+  color: #000;
+  transform: rotateY(180deg);
+  border-radius: 18px;
+}
+/* .Serviceimg{
+    padding: 1rem;
+    width: 10rem;
+}
+.Serviceheading{
+    padding: 1rem;
+} */
+.FlipP {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 2.5rem 1rem;
+}
+.Services {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+/* --- */
+.CardServiceCol {
+  padding-top: 2.5rem;
+}
+.CardServiceSections {
+  background: #1a1112;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+  margin: 0%;
+}
+.CardServiceIcon img {
+  width: 45px;
+  height: 45px;
+}
+.CardServiceSecName {
+  padding-top: 1rem;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #ffffff;
+}
+.CardServiceContent {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.CardServiceKnowMoreButton {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #e49b00;
 }
 .HeadPragraphSectionService {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background: #1a1112;
-    padding: 4rem 2.5rem 4rem 2.5rem;
-    margin: 0%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #1a1112;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+  margin: 0%;
 }
 
 .Headerpragraphservices {
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
-    color: #FFFFFF;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .NotSureContainer {
-    justify-content: center;
-    margin: 0%;
-    display: flex;
-    text-align: center;
-    background: #1a1112;
-    padding: 4rem 2.5rem 4rem 2.5rem;
+  justify-content: center;
+  margin: 0%;
+  display: flex;
+  text-align: center;
+  background: #1a1112;
+  padding: 4rem 2.5rem 4rem 2.5rem;
 }
 
 .NotSureParagraph {
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    color: #FFFFFF;
-    opacity: 0.3;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+  opacity: 0.3;
 }
 
 .NotSureButton {
-    display: flex;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+@media (min-width: 320px) and (max-width: 430px) {
+  .CardServiceSections {
+    padding: 4rem 1rem 4rem 1rem;
+  }
+  .ServiceHeaderHeadingMain {
+    font-size: 55px;
+  }
+  .ServiceHeaderRow {
+    padding-left: 0%;
+  }
+  .HeadPragraphSectionService {
+    padding: 4rem 1rem 4rem 1rem;
+  }
+
+  .Headerpragraphservices {
+    font-size: 14px;
+  }
+  .Headerpragraphspace {
+    padding: 0%;
+  }
+  .NotSureContainer {
     justify-content: center;
-    text-align: center;
+    text-align: left;
+    padding: 4rem 1rem 4rem 1rem;
+  }
+  .NotSureParagraph {
+    font-size: 24px;
+  }
+  .NotSureButton {
+    justify-content: start;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
 }

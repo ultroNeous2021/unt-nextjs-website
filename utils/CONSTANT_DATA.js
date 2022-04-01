@@ -232,12 +232,12 @@ export const WeExcelAtData = [
     ],
     techsname: [
       "Figma",
-      "Zeplin",
-      "Adobe Photoshop",
-      "Adobe illustrator",
       "XD",
-      "Mackingbot",
+      "Zeplin",
+      "Adobe illustrator",
+      "Adobe Photoshop",
       "nVision",
+      "Mackingbot",
     ],
   },
   {

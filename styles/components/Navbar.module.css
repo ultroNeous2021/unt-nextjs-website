@@ -38,10 +38,17 @@
   cursor: pointer;
   font-size: 16px;
 }
-
+.dropdownContent a {
+  color: #19131199;
+  font-size: 22px;
+}
+.dropdownContent a:hover {
+  transition: all 0.5s ease;
+  color: #e49b00;
+}
 .dropdownContent p {
   margin-bottom: 0%;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 
 .dropdown:hover .dropdownHead {
@@ -79,7 +86,9 @@
   padding-top: 0rem !important;
   padding-right: 0rem !important;
 }
-
+.offcanvasMain {
+  transition: all 0.8s;
+}
 .Facebook {
   font-size: 2rem;
   margin: 0.5rem;

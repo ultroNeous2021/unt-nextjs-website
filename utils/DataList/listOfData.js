@@ -1,75 +1,45 @@
-// import cm1 from "../../assets/images/cm1.svg";
-// import cm2 from "../../assets/images/cm2.svg";
-// import cm3 from "../../assets/images/cm3.svg";
-// import flutter from "../../assets/images/tech/flt.svg";
-// import jss from "../../assets/images/tech/js.svg";
-// import kotlin from "../../assets/images/tech/ktl.svg";
-// import laravel from "../../assets/images/tech/lrv.svg";
-// import react from "../../assets/images/tech/react.svg";
-// import swift from "../../assets/images/tech/sift.svg";
-// import vue from "../../assets/images/tech/vue.svg";
-// import angular from "../../assets/images/tech/angular_tech.svg";
-// // web app
-// import web_app_development from "../../assets/images/web-app.jpg";
-// import best_developer from "../../assets/images/best-developer.svg";
-// import timely_execution from "../../assets/images/timely-execution.svg";
-// import custimize_buildout from "../../assets/images/custimize-buildout.svg";
-// import project_70 from "../../assets/images/70+-project.svg";
-// // mobile app
-// import mobile_app_development from "../../assets/images/mobile-app-development.svg";
-// import mobile_app_expertise from "../../assets/images/mobile_app_expert.svg";
-// import ui_ux_element from "../../assets/images/ui_ux_element.svg";
-// import native_performance from "../../assets/images/native_performance.svg";
-// import increased_roi from "../../assets/images/increased_roi.svg";
-// // digital marketing
-// import digital_marketing from "../../assets/images/digital-marketing.png";
-// import accurate_targeting from "../../assets/images/accurate-target.svg";
-// import tested_methods from "../../assets/images/test-methods.svg";
-// import increased_roi_digital_marketing from "../../assets/images/increased-roi.svg";
-// import rank_higher from "../../assets/images/rank-higher.svg";
-
 export const VerticalList = [
   {
-    image :"/assets/vc7.svg",
-    changedImage:"/assets/vch1.svg",
-    title:"Finance"
+    image: "/assets/vc7.svg",
+    changedImage: "/assets/vch1.svg",
+    title: "Finance",
   },
   {
-    image :"/assets/vc2.svg",
-    changedImage:"/assets/vch2.svg",
-    title:"Healthcare"
+    image: "/assets/vc2.svg",
+    changedImage: "/assets/vch2.svg",
+    title: "Healthcare",
   },
   {
-    image :"/assets/vc6.svg",
-    changedImage:"/assets/vch3.svg",
-    title:"Education"
+    image: "/assets/vc6.svg",
+    changedImage: "/assets/vch3.svg",
+    title: "Education",
   },
   {
-    image :"/assets/vc5.svg",
-    changedImage:"/assets/vch4.svg",
-    title:"Hospitality"
+    image: "/assets/vc5.svg",
+    changedImage: "/assets/vch4.svg",
+    title: "Hospitality",
   },
   {
-    image :"/assets/vc4.svg",
-    changedImage:"/assets/vch5.svg",
-    title:"eCommerce"
+    image: "/assets/vc4.svg",
+    changedImage: "/assets/vch5.svg",
+    title: "eCommerce",
   },
   {
-    image :"/assets/vc3.svg",
-    changedImage:"/assets/vch6.svg",
-    title:"Real Estate"
+    image: "/assets/vc3.svg",
+    changedImage: "/assets/vch6.svg",
+    title: "Real Estate",
   },
   {
-    image :"/assets/vc2.svg",
-    changedImage:"/assets/vch7.svg",
-    title:"Food Delivery"
+    image: "/assets/vc2.svg",
+    changedImage: "/assets/vch7.svg",
+    title: "Food Delivery",
   },
   {
-    image :"/assets/vc1.svg",
-    changedImage:"/assets/vch8.svg",
-    title:"Travel"
-  }
-]
+    image: "/assets/vc1.svg",
+    changedImage: "/assets/vch8.svg",
+    title: "Travel",
+  },
+];
 export const WhatWeOfferList = [
   // {
   //   img: cm1,
@@ -211,45 +181,61 @@ export const ArrayOfTalent = [
   "An Open Hierarchical Structure",
   "Exponential Career Opportunity",
 ];
-export const ArrayOfServices = [ 
+export const ArrayOfServices = [
   {
-    icon:'s-frontend-dev.svg',
-    name:'Front End Development',
-    content:'From ideation, brainstorming, designing, development and a professional team! - Have everything you are looking for in Front-End Development. Leverage our experience to elevate your business to the next level.'
+    icon: "/assets/s-frontend-dev.svg",
+    name: "Front End Development",
+    background: "/assets/S10.png",
+    content:
+      "From ideation, brainstorming, designing, development and a professional team! - Have everything you are looking for in Front-End Development. Leverage our experience to elevate your business to the next level.",
   },
   {
-    icon:'s-web-dev.svg',
-    name:'Web App Development',
-    content:'Irrespective of size of your business and complexity of application, ultroNeous build a well-planned, highly scalable and a secure web application that will solve your unique business challenges.'
+    icon: "/assets/s-web-dev.svg",
+    name: "Web App Development",
+    background: "/assets/S11.png",
+    content:
+      "Irrespective of size of your business and complexity of application, ultroNeous build a well-planned, highly scalable and a secure web application that will solve your unique business challenges.",
   },
   {
-    icon:'s-mobile-dev.svg',
-    name:'Mobile Application Development',
-    content:'We are experts in the latest mobile app development technologies and frameworks that enable us to create exceptional native and hybrid apps. Take a peek around and see what we have to offer.'
+    icon: "/assets/s-mobile-dev.svg",
+    name: "Mobile Application Development",
+    background: "/assets/S12.png",
+    content:
+      "We are experts in the latest mobile app development technologies and frameworks that enable us to create exceptional native and hybrid apps. Take a peek around and see what we have to offer.",
   },
   {
-    icon:'s-uiux.svg',
-    name:'UX/UI Design',
-    content:'Design is our Strength!! - Our complete UX/UI design methodology comprises brainstorming, UI research, thinking, and designing in order to provide our clients with comprehensive and engaging outcomes.'
+    icon: "/assets/s-uiux.svg",
+    name: "UX/UI Design",
+    background: "/assets/S12.png",
+    content:
+      "Design is our Strength!! - Our complete UX/UI design methodology comprises brainstorming, UI research, thinking, and designing in order to provide our clients with comprehensive and engaging outcomes.",
   },
   {
-    icon:'s-cloud-dev.svg',
-    name:'Cloud & Devops',
-    content:'ultroNeous provides high-performance cloud and DevOps solutions that are backed by industry-leading technologies, tools, and people. Our services have been shown to accelerate software development and operational efficiency.'
+    icon: "/assets/s-cloud-dev.svg",
+    name: "Cloud & Devops",
+    background: "/assets/S14.png",
+    content:
+      "ultroNeous provides high-performance cloud and DevOps solutions that are backed by industry-leading technologies, tools, and people. Our services have been shown to accelerate software development and operational efficiency.",
   },
   {
-    icon:'s-ecommerce-dev.svg',
-    name:'E-commerce Development',
-    content:'With our impeccable eCommerce Development services, you can keep your business ahead of the competition. Our tech-savvy team can assist you with developing highly customised and scalable eCommerce sites'
+    icon: "/assets/s-ecommerce-dev.svg",
+    name: "E-commerce Development",
+    background: "/assets/S15.png",
+    content:
+      "With our impeccable eCommerce Development services, you can keep your business ahead of the competition. Our tech-savvy team can assist you with developing highly customised and scalable eCommerce sites",
   },
   {
-    icon:'s-enterprise-dev.svg',
-    name:'Enterprise Software Solutions',
-    content:'Utilise our corporate software development experience to empower, automate, and scale your company model. Get access to our industry-specific expertise to design and build your new enterprise software solution.'
+    icon: "/assets/s-enterprise-dev.svg",
+    name: "Enterprise Software Solutions",
+    background: "/assets/S16.png",
+    content:
+      "Utilise our corporate software development experience to empower, automate, and scale your company model. Get access to our industry-specific expertise to design and build your new enterprise software solution.",
   },
   {
-    icon:'s-digital-marketing.svg',
-    name:'Digital Marketing',
-    content:'For each of our digital marketing services, including SEO, PPC, Social Media Marketing, eCommerce and Content Marketing, we use a results-driven approach. Explore our digital marketing services in depth.'
-  }
-]
+    icon: "/assets/s-digital-marketing.svg",
+    name: "Digital Marketing",
+    background: "/assets/S17.png",
+    content:
+      "For each of our digital marketing services, including SEO, PPC, Social Media Marketing, eCommerce and Content Marketing, we use a results-driven approach. Explore our digital marketing services in depth.",
+  },
+];

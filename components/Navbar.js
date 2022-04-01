@@ -64,16 +64,22 @@ function NavbarComponent() {
             <div className={styles.dropdown}>
               <span className={styles.dropdownHead}>Company</span>
               <div className={styles.dropdownContent}>
-                <p>About us</p>
-                <p>Career</p>
-                <p>Meet our team</p>
+                <p>
+                  <Link href="/about-ultroneous">About us</Link>
+                </p>
+                <p>
+                  <Link href="/careers">Career</Link>
+                </p>
+                <p>
+                  <Link href="">Meet our team</Link>
+                </p>
               </div>
             </div>
             <li className={styles.menu}>
-              <a href="#">Services</a>
+              <Link href="/services">Services</Link>
             </li>
             <li className={styles.menu}>
-              <a href="#">Contact Us</a>
+              <Link href="/contact-us">Contact Us</Link>
             </li>
           </div>
           <div className={styles.Sociallink}>
