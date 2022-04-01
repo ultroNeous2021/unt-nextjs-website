@@ -1,26 +1,26 @@
-import { Image, Row } from "react-bootstrap"
-import styles from "@/styles/components/WhyClientChoose.module.css"
+import { Image, Row } from "react-bootstrap";
+import styles from "@/styles/components/WhyClientChoose.module.css";
 import { useEffect, useState } from "react";
 const WhyClientChoose = () => {
-    const [image, setImage] = useState("/assets/why-client-choose-us.png");
-    
-    useEffect(() => {
-        window.innerWidth >= 320 && window.innerWidth <= 720
-            ? setImage("/assets/why-client-choose-us-device.png")
-            : setImage("/assets/why-client-choose-us.png");
-    });
+  const [image, setImage] = useState("/assets/why-client-choose-us.png");
 
-    return (
-        <div className={styles.WhyClientChooseContainer}>
-            <Row className="mx-0 justify-content-center">
-                <h1 className={styles.WhyClientChooseHeading}>
-                    Why Clients choose to work with us
-                </h1>
-            </Row>
-            <Row className="mx-0">
-                <Image src={image} alt="why client choose us" />
-            </Row>
-        </div>
-    )
-}
-export default WhyClientChoose
+  useEffect(() => {
+    window.innerWidth >= 320 && window.innerWidth <= 720
+      ? setImage("/assets/why-client-choose-us-device.png")
+      : setImage("/assets/why-client-choose-us.png");
+  });
+
+  return (
+    <div className={styles.WhyClientChooseContainer}>
+      <Row className="mx-0 justify-content-center">
+        <h3 className={styles.WhyClientChooseHeading}>
+          Why Clients choose to work with us
+        </h3>
+      </Row>
+      <Row className="mx-0">
+        <Image src={image} alt="why client choose us" />
+      </Row>
+    </div>
+  );
+};
+export default WhyClientChoose;

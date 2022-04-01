@@ -9,12 +9,15 @@
   margin-top: -4rem;
 }
 
+.FormMainContainer {
+  background: #1a1112;
+}
 .FormContainer {
   padding: 4rem 2.5rem;
-  margin: 0;
+  margin: 0 auto;
   background: #f2f2f2;
   border-radius: 20px;
-  width: 100%;
+  width: 95%;
 }
 /* .Input-Height {
   height: 100px;
@@ -58,9 +61,13 @@
   padding-top: 4%;
 }
 
+.CheckboxSpaceCol {
+  margin: 0.5rem 0;
+}
+/* 
 .SpaceLooking {
   padding: 8% 0 0 8%;
-}
+} */
 .SpaceLooking h3 {
   color: #1a1112;
   font-size: 30px;
@@ -101,7 +108,8 @@
 }
 
 .TextLabel {
-  border: 0.2px solid #ccc;
+  border: 0.2px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
   padding: 0.3rem;
   cursor: pointer;
   border-radius: 5px;
@@ -120,10 +128,100 @@
   animation: fadeIn linear 1s;
 }
 
+.CheckBoxFormHeadText {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.CheckBoxFormHeadText:last-of-type {
+  margin: 1rem 0 0 0;
+}
+
 .CheckboxFormContainer {
   margin: 0.5rem 0rem;
 }
 
+.SendButtonForm {
+  margin-top: 1rem;
+}
+
+.WALAContainer {
+  padding: 4rem 2.5rem 0 2.5rem;
+}
+
+.WALAContainer h1 {
+  padding-bottom: 0.8em;
+}
+.bgcolor {
+  background-color: #1a1112;
+}
+
+.pos {
+  position: relative;
+  bottom: 30%;
+}
+
+.headlabel {
+  color: #1a1112;
+  -webkit-text-stroke: 0.5px #e49b00;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  margin-bottom: 1rem;
+}
+
+.plabel {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.EmailPhoneContainer {
+  margin: 0.5rem 0;
+}
+
+.EmailPhoneText {
+  margin-left: 0.8rem;
+}
+
+.EmailPhoneText a {
+  color: #fff;
+}
+
+.p2 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.imagehead {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 90px;
+  color: #fff;
+}
+
+.imgwidthfull {
+  width: 100%;
+  height: auto;
+}
+
+.bgcolor .ImageContainer:first-of-type {
+  padding-left: 0rem;
+}
+
+.bgcolor .ImageContainer:last-of-type {
+  padding-right: 0rem;
+}
+
+.WALAImagesText {
+  padding-left: 3em;
+}
+
+.WALAImagesTextTwo {
+  padding-top: 5rem;
+  padding-left: 0rem;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -157,3 +255,91 @@
     background: #fff;
   }
 } */
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .WALAContainer {
+    padding: 4rem 0rem;
+  }
+
+  .FormDescription {
+    margin-top: 0;
+    padding: 4rem 1rem;
+  }
+
+  .FormDescription div {
+    font-size: 18px;
+  }
+
+  .FormContainer {
+    padding: 3rem 0rem;
+  }
+
+  .SpaceLooking {
+    padding-left: 0rem;
+  }
+
+  .InputSpace {
+    padding-left: 0.7rem;
+  }
+
+  .CheckboxSpace {
+    padding-left: 0rem;
+  }
+
+  .imagehead {
+    font-size: 40px;
+    padding-left: 1rem;
+  }
+
+  .ImageContainer {
+    padding: 0;
+  }
+
+  .WALAImagesText {
+    padding-left: 1rem;
+  }
+
+  .headlabel {
+    font-size: 40px;
+    margin-top: 3rem;
+  }
+
+  .plabel {
+    font-size: 18px;
+  }
+
+  .WALAImagesTwo {
+    flex-direction: column-reverse;
+    margin: 3rem 0;
+  }
+
+  .pos {
+    position: static;
+  }
+
+  .WALAImagesTextTwo {
+    padding-top: 0rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .FormContainer {
+    padding: 0;
+    padding-bottom: 2.5rem;
+  }
+
+  .headlabel {
+    font-size: 65px;
+  }
+
+  .plabel {
+    font-size: 18px;
+  }
+
+  .pos {
+    bottom: 13%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 765px) {
+}

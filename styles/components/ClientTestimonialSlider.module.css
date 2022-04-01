@@ -21,7 +21,7 @@
 }
 
 .SliderParent {
-  width: 90%;
+  width: 86%;
 }
 
 .Slider {
@@ -39,6 +39,7 @@
   margin: 3rem 0 1rem 0;
   color: #fff;
   animation: fadeIn 5s;
+  font-size: 18px;
 }
 
 @keyframes fadeIn {
@@ -76,6 +77,10 @@
 
   .ClientTestimonialHeading {
     font-size: 48px;
+  }
+
+  .Details {
+    font-size: 16px;
   }
 
   .SliderParent {

@@ -30,8 +30,6 @@ export default function HomePage() {
     AOS.init();
   }, []);
 
-
-
   const behanceRef = useRef(null);
   const dribbleRef = useRef(null);
   const githubRef = useRef(null);
@@ -105,7 +103,7 @@ export default function HomePage() {
         <div
           style={{
             cursor: `url('/assets/cursornew.png') 300 300, auto`,
-            transition: '4s'
+            transition: "4s",
           }}
         >
           <Row className={styles.IntroHeadingContainer}>
@@ -155,7 +153,6 @@ export default function HomePage() {
                 className={styles.IntroImage}
               />
             </Col>
-           
           </Row>
         </div>
       </div>
@@ -184,11 +181,14 @@ export default function HomePage() {
               <Image alt="ui-ux-design" src="/assets/ui-ux-design.svg" />
             </div>
             <h2 className={styles.WhatweofferHeading}>UI/UX Design</h2>
-            <p className={styles.WhatweofferPargraph}>
-              The first impression always matters. Our attention to the smallest
-              of detail while creating UX/UI, will enhance the customer
-              experience with a positive, unique and well rounded interaction.
-            </p>
+            <div className={styles.WhatWeOfferParaContainerFirst}>
+              <p className={styles.WhatweofferPargraph}>
+                The first impression always matters. Our attention to the
+                smallest of detail while creating UX/UI, will enhance the
+                customer experience with a positive, unique and well rounded
+                interaction.
+              </p>
+            </div>
           </Col>
           <Col
             // data-aos="fade-down"
@@ -202,11 +202,13 @@ export default function HomePage() {
               <Image alt="developement" src="/assets/development.svg" />
             </div>
             <h2 className={styles.WhatweofferHeading}>Development</h2>
-            <p className={styles.WhatweofferPargraph}>
-              Our team will bring life into your concept and designs. Our
-              quality web and mobility development team along with their unique
-              QA approach will result in an high-end product.
-            </p>
+            <div className={styles.WhatWeOfferParaContainerMiddle}>
+              <p className={styles.WhatweofferPargraph}>
+                Our team will bring life into your concept and designs. Our
+                quality web and mobility development team along with their
+                unique QA approach will result in an high-end product.
+              </p>
+            </div>
           </Col>
           <Col
             // data-aos="fade-up"
@@ -223,11 +225,13 @@ export default function HomePage() {
               />
             </div>
             <h2 className={styles.WhatweofferHeading}>Digital Marketing</h2>
-            <p className={styles.WhatweofferPargraph}>
-              Our social experts know building the brand, giving a much needed
-              boost on social media and search engines to spread awareness and
-              bring the best ROI.
-            </p>
+            <div className={styles.WhatWeOfferParaContainerLast}>
+              <p className={styles.WhatweofferPargraph}>
+                Our social experts know building the brand, giving a much needed
+                boost on social media and search engines to spread awareness and
+                bring the best ROI.
+              </p>
+            </div>
           </Col>
         </Row>
       </div>
@@ -316,7 +320,7 @@ export default function HomePage() {
               <Row className={styles.ImagesForText}>
                 <Col>
                   <h3> Design </h3>
-                  <h3> Shots </h3>
+                  <h3 style={{ marginBottom: "0" }}> Shots </h3>
                 </Col>
                 <Col className={styles.ImagesTextIcons}>
                   <BsBehance

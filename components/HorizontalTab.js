@@ -7,10 +7,10 @@ const { TabPane } = Tabs;
 const HorizontalTab = ({ data, title }) => (
   <div className={styles.HorizontalTabContainer}>
     <Row className={styles.ExcelAtHead}>
-      <h2
-        data-aos="fade-down"
-        data-aos-duration="2000"
-      > {title}</h2>
+      <h2 data-aos="fade-down" data-aos-duration="2000">
+        {" "}
+        {title}
+      </h2>
     </Row>
     <Tabs defaultActiveKey="0">
       {data.map((el, ind) => (
@@ -18,7 +18,6 @@ const HorizontalTab = ({ data, title }) => (
           <Row className={styles.HorizontalTabRow}>
             {el.techs.map((ele, i) => (
               <Col
-
                 xs={6}
                 sm={6}
                 md={4}
@@ -26,8 +25,10 @@ const HorizontalTab = ({ data, title }) => (
                 key={i}
                 className={styles.HorizontalTabCol}
               >
-                <div className={styles.HorizontalTabDiv}>{ele}</div>
-                <div className={styles.HorizontalTabname}>{el.techsname[i]}</div>
+                <div className={styles.HorizontalTabContainerMain}>
+                  <div className={styles.HorizontalTabDiv}>{ele}</div>
+                  <p className={styles.HorizontalTabname}>{el.techsname[i]}</p>
+                </div>
               </Col>
             ))}
           </Row>

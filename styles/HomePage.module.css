@@ -9,6 +9,7 @@
   width: 100%;
   padding: 0%;
   height: auto;
+  transition: all 0.7s ease;
 }
 
 .TechnologyOverlay {
@@ -19,7 +20,7 @@
   background: rgba(0, 0, 0, 0.75);
   overflow: hidden;
   height: 100%;
-  transition: 0.5s ease;
+  transition: 0.7s ease;
 }
 
 .TechnoContainer:hover .TechnologyOverlay {
@@ -43,7 +44,7 @@
 /* what we offer */
 .WhatWeOfferContainer {
   background-color: #1a1112;
-  padding: 4rem 2.5rem 10rem 2.5rem;
+  padding: 5rem 2.5rem 4rem 2.5rem;
 }
 
 .WhatweofferHeading {
@@ -56,10 +57,9 @@
 
 .mainheading {
   color: #fff;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   padding-bottom: 4rem;
-  padding-top: 2.5rem;
 }
 
 .Whatweofferheadingcontainer {
@@ -70,11 +70,27 @@
   background: #1a1112;
 }
 
+.WhatWeOfferParaContainerFirst {
+  display: flex;
+  justify-content: left;
+}
+
+.WhatWeOfferParaContainerMiddle {
+  display: flex;
+  justify-content: center;
+}
+
+.WhatWeOfferParaContainerLast {
+  display: flex;
+  justify-content: right;
+}
+
 .WhatweofferPargraph {
   color: #fff;
   font-size: 16px;
   text-align: justify;
   padding: 1rem 0 0 0.3rem;
+  width: 90%;
 }
 
 .Whatweofferimg {
@@ -109,7 +125,7 @@
   font-family: "Outfit";
   font-style: normal;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 60px;
   color: #ffffff;
 }
 
@@ -155,7 +171,7 @@
 }
 
 .LookAtContainer {
-  padding: 4rem 2.5rem 4rem 2.5rem;
+  padding: 4rem 2rem 4rem 2rem;
 }
 
 .ImageEffect {
@@ -173,7 +189,7 @@
 }
 
 .ImagesForTheHomepage h3 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
 }
 
@@ -259,6 +275,11 @@
     padding: 1rem 0% 1rem 0%;
   }
 
+  .WhatWeOfferParaContainerLast,
+  .WhatWeOfferParaContainerMiddle {
+    justify-content: initial;
+  }
+
   /* /  / */
   .IntroContainer {
     background-color: #1a1112;
@@ -291,19 +312,19 @@
     padding-bottom: 2rem;
   }
 
-
   .IntroArrowContain {
     display: none;
   }
 
   /*  */
-  
 
   .LookAtContainer {
     padding: 1rem 0.5rem;
   }
 
- 
+  .ImagesTextIcons {
+    margin-top: 0rem;
+  }
 }
 
 /* / Medium devices (tablets, 768px and up) / */
@@ -348,8 +369,6 @@
   .ImagesTextIcons * {
     font-size: 23px;
   }
-
- 
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -363,7 +382,11 @@
   }
 
   .IntroHeadingContainer {
-    top: 12rem;
+    top: 14.1rem;
+  }
+
+  .IntroParagraphSection {
+    padding: 0;
   }
 
   .ImagesForTheHomepage h3 {
@@ -414,5 +437,4 @@
     font-size: 20px;
     margin: 0 0.5em;
   }
-
 }

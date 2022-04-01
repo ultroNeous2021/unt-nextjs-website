@@ -1,66 +1,56 @@
-  
-  /* why client choose to work with us */
-  .WhyClientColumnPadding {
-    padding: 0%;
-  }
-  
-  .WhyClientChooseContainer {
-    background-color: #1a1112;
-    padding: 4rem 0rem 4rem 0rem;
-  }
-  
-  .WhyClientChooseHead {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .WhyClientChooseHeading {
-    font-family: "Outfit";
-    font-style: normal;
-    text-align: center;
-    font-weight: 700;
-    font-size: 80px;
-    width: 51rem;
-    padding-bottom: 4rem;
-    color: #ffffff;
-  }
-  
-  
-  
-  
-  
-  /* BOOTSTRAP MEDIA QUERIES */
-  /* Small devices (landscape phones, 576px and up) */
-  @media (min-width:320px) and (max-width: 430px) {
-  
-  
-    .WhyClientChooseContainer {
-      padding: 4rem 0rem 4rem 1rem;
-    }
-    .WhyClientChooseHead {
-      justify-content: start;
-    }
-    .WhyClientChooseHeading {
-      padding-left: 0%;
-      font-size: 40px;
-      text-align: left;
-    }
-  }
-  
-  /* / Medium devices (tablets, 768px and up) / */
-  @media (min-width: 768px) and (max-width: 1080px) {
-  
-    .WhyClientChooseHeading {
-      font-size: 64px;
-    }
-  }
-  
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 1200px) and (max-width: 1730px) {
+/* why client choose to work with us */
+.WhyClientColumnPadding {
+  padding: 0%;
+}
 
+.WhyClientChooseContainer {
+  background-color: #1a1112;
+  padding: 4rem 0rem 4rem 0rem;
+}
+
+.WhyClientChooseHead {
+  display: flex;
+  justify-content: center;
+}
+
+.WhyClientChooseHeading {
+  font-family: "Outfit";
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  width: 47rem;
+  padding-bottom: 4rem;
+  color: #ffffff;
+}
+
+/* BOOTSTRAP MEDIA QUERIES */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 430px) {
+  .WhyClientChooseContainer {
+    padding: 4rem 0rem 4rem 1rem;
   }
-  
-  /*  */
-  @media (min-width: 650px) and (max-width: 765px) {
-    
+  .WhyClientChooseHead {
+    justify-content: start;
   }
+  .WhyClientChooseHeading {
+    padding-left: 0%;
+    font-size: 36px;
+    text-align: left;
+  }
+}
+
+/* / Medium devices (tablets, 768px and up) / */
+@media (min-width: 768px) and (max-width: 1080px) {
+  .WhyClientChooseHeading {
+    font-size: 64px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+
+/*  */
+@media (min-width: 650px) and (max-width: 765px) {
+}

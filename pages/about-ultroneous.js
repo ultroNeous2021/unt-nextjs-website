@@ -4,18 +4,17 @@ import ClientTestimonialSlider from "@/components/Slider/ClientTestimonialSlider
 import { TestimonialsSliderData } from "utils/CONSTANT_DATA";
 
 import YellowFilledWhiteButton from "@/components/YellowFilledWhiteButton";
-import styles from "@/styles/AboutPage.module.css"
-import sliderstyle from "@/styles/components/WhyClientLoveUsSlider.module.css"
-import girlStyle from "@/styles/components/GirlsOnCounter.module.css"
-import backContain from "@/styles/components/BackContain.module.css"
+import styles from "@/styles/AboutPage.module.css";
+import girlStyle from "@/styles/components/GirlsOnCounter.module.css";
+import backContain from "@/styles/components/BackContain.module.css";
 import { useEffect, useRef, useState } from "react";
 import { Card, Col, Image, Row } from "react-bootstrap";
 import { BsDot } from "react-icons/bs";
 import Slider from "react-slick";
 import { AboutUsCounter } from "utils/CONSTANT_DATA";
 import { ArrayOfTalent } from "utils/DataList/listOfData";
+import WhyClientLoveUs from "@/components/Slider/WhyClientLoveUs";
 function AboutUltroneousPage() {
-
   const SliderData = [
     {
       image: "/assets/WCLU-1.svg",
@@ -38,7 +37,7 @@ function AboutUltroneousPage() {
       text: "Quick Turn Arounds ",
     },
   ];
-  const [showMe, setShowMe] = useState(false)
+  const [showMe, setShowMe] = useState(false);
 
   let settings = {
     infinite: true,
@@ -50,19 +49,15 @@ function AboutUltroneousPage() {
     // centerPadding: "60px",
   };
 
-
-
   const WCLUSlider = useRef();
 
   useEffect(() => {
     if (window.innerWidth < 992) {
-      setShowMe(true)
+      setShowMe(true);
     } else {
-      setShowMe(false)
+      setShowMe(false);
     }
-  })
-
-
+  });
 
   return (
     <Layout>
@@ -79,15 +74,24 @@ function AboutUltroneousPage() {
       <Row className={styles.PlaceForContainer}>
         <Col sm={8} xl={8} xs={12} md={12} lg={8}>
           <h2 className={styles.PlaceForHeading}>
-            A place for Expanding<br/>
+            A place for Expanding
+            <br />
             Horizons and Team Building
           </h2>
           <p className={styles.PlaceForParagraph}>
-            ultroNeous is not a place to do monotonous work, but a concept where team building and knowledge growth is the primary focus. We are committed to build the technology beauties and solutions which helps startups, SMEs as well as Fortune 500 companies to meet their smart goals.<br /><br />
-            Each ultroNeour is gifted with a special power, which always helps in building the robust solutions for multiple vertices. Our team of skilled mobile and web developers, creative designers and social media marketing geniuses makes us stand out in the crowd.
+            ultroNeous is not a place to do monotonous work, but a concept where
+            team building and knowledge growth is the primary focus. We are
+            committed to build the technology beauties and solutions which helps
+            startups, SMEs as well as Fortune 500 companies to meet their smart
+            goals.
+            <br />
+            <br />
+            Each ultroNeour is gifted with a special power, which always helps
+            in building the robust solutions for multiple vertices. Our team of
+            skilled mobile and web developers, creative designers and social
+            media marketing geniuses makes us stand out in the crowd.
           </p>
         </Col>
-
       </Row>
       {/* image section */}
       {showMe ? (
@@ -140,21 +144,25 @@ function AboutUltroneousPage() {
         <Col sm={8} xl={8} xs={12} md={12} lg={8}>
           <label className={styles.ValueHeading}>
             Values
-            <Image src="/assets/values.svg" className="img-height" alt="values" />
+            <Image
+              src="/assets/values.svg"
+              className="img-height"
+              alt="values"
+            />
           </label>
           <p className={styles.ParagraphValue}>
             Core values of excellence, growth, customer satisfaction and
             freedom. We are committed to finding the best solutions with
             exceeding your expectations and gaining trust. We are focused on
-            exploring the ever-evolving web & mobility technology landscape.
-            We are sure to remove the technology obstacles, product quality
-            issues, lack of suggestions and many other issues which global
-            clients are facing at the moment, with our ultroGagement.
+            exploring the ever-evolving web & mobility technology landscape. We
+            are sure to remove the technology obstacles, product quality issues,
+            lack of suggestions and many other issues which global clients are
+            facing at the moment, with our ultroGagement.
           </p>
         </Col>
       </Row>
       {/*  Why Clients....slider */}
-      <Row className={sliderstyle.WCLUContainer}>
+      {/* <Row className={sliderstyle.WCLUContainer}>
         <Col xs={12} sm={12} md={4} className={sliderstyle.WCLULeft}>
           <h3>
             Why Clients <br /> love us
@@ -186,7 +194,8 @@ function AboutUltroneousPage() {
             ))}
           </Slider>
         </Col>
-      </Row>
+      </Row> */}
+      <WhyClientLoveUs />
       {/*  */}
       <Row className={girlStyle.GirlonCounter}>
         <Col xs={8} sm={8} className={girlStyle.GirlOnCounterHeading}>
@@ -223,7 +232,13 @@ function AboutUltroneousPage() {
 
         {/* list section */}
         <Row className={styles.WDTCUlistsection}>
-          <Col sm={12} xs={12} md={5} xl={3} className={styles.WDTCUlistcontain}>
+          <Col
+            sm={12}
+            xs={12}
+            md={5}
+            xl={3}
+            className={styles.WDTCUlistcontain}
+          >
             <div className={styles.WDTCUlist}>
               <BsDot color="#e49b00" fontSize={40} />
               Exhilarating Work Culture
@@ -241,7 +256,16 @@ function AboutUltroneousPage() {
               An Open Hierarchical Structure
             </div>
           </Col>
-          <Col sm={12} xs={12} xl={3} md={5} className={[styles.WDTCUlistcontain, styles.WDTCUlistcontainPadding]}>
+          <Col
+            sm={12}
+            xs={12}
+            xl={3}
+            md={5}
+            className={[
+              styles.WDTCUlistcontain,
+              styles.WDTCUlistcontainPadding,
+            ]}
+          >
             <div className={styles.WDTCUlist}>
               <BsDot color="#e49b00" fontSize={40} />
               Advanced Technology Stacks
@@ -264,7 +288,6 @@ function AboutUltroneousPage() {
           <YellowFilledWhiteButton val={"Check out Careers"} arrow={true} />
         </div>
       </div>
-
     </Layout>
   );
 }

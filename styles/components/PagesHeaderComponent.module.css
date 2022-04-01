@@ -1,18 +1,19 @@
 .PagesHeader {
-  background: url("../../public/assets/pagesheader.png");
+  background: url("../../public/assets/main-home-desktop.png");
   background-position: bottom;
+  background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
   text-align: center;
   justify-content: center;
   align-items: flex-end;
-  padding-bottom: 4rem;
+  padding-bottom: 1.5rem;
   /* background-attachment: fixed; */
   margin: 0;
 }
 
 .PagesHeader div p {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 500;
   color: #e49b00;
   margin-bottom: 0;

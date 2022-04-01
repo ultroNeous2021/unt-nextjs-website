@@ -64,7 +64,10 @@ function ClientTestimonialSlider({ data, title, css = null }) {
                   </p>
                   <p
                     className="TextAnimateName"
-                    style={{ color: "rgba(255, 255, 255, 0.5)" }}
+                    style={{
+                      color: "rgba(255, 255, 255, 0.5)",
+                      fontSize: "16px",
+                    }}
                   >
                     {el.name}
                   </p>

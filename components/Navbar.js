@@ -1,18 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Container, Nav, NavDropdown, Navbar, Offcanvas, Dropdown } from "react-bootstrap";
+import {
+  Container,
+  Nav,
+  NavDropdown,
+  Navbar,
+  Offcanvas,
+  Dropdown,
+} from "react-bootstrap";
 import styles from "@/styles/components/Navbar.module.css";
 import TransparentButton from "./TransparentButton";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoClose } from "react-icons/io5";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 
 function NavbarComponent() {
-
   const [colorChange, setColorchange] = useState("#1B141433");
   const [show, setShow] = useState(false);
-  const [showSiderbar, setshowSiderbar] = useState(false)
+  const [showSiderbar, setshowSiderbar] = useState(false);
   const [navExpanded, setNavExpanded] = useState(false);
 
   const changeNavbarColor = () => {
@@ -22,22 +33,29 @@ function NavbarComponent() {
     if (window.scrollY >= 50) {
       setColorchange("#1A1112");
     } else {
-      setColorchange('#1B141433')
+      setColorchange("#1B141433");
     }
   };
   useEffect(() => {
     window.addEventListener("scroll", () => changeNavbarColor());
-  })
-
+  });
 
   return (
     <>
-      <Offcanvas show={showSiderbar} onHide={() => setshowSiderbar(false)} placement='end' className={styles.offcanvasMain}>
+      <Offcanvas
+        show={showSiderbar}
+        onHide={() => setshowSiderbar(false)}
+        placement="end"
+        className={styles.offcanvasMain}
+      >
         <Offcanvas.Header className={styles.offcanvasHeader}>
           {/* {/ <Offcanvas.Title>Offcanvas</Offcanvas.Title > /} */}
-          <div className={styles.closeButton} onClick={() => setshowSiderbar(false)}>
+          <div
+            className={styles.closeButton}
+            onClick={() => setshowSiderbar(false)}
+          >
             <div className={styles.closeButtonContain}>
-              <IoClose style={{ color: '#fff', fontSize: '40px' }} />
+              <IoClose style={{ color: "#fff", fontSize: "40px" }} />
             </div>
           </div>
         </Offcanvas.Header>
@@ -51,8 +69,12 @@ function NavbarComponent() {
                 <p>Meet our team</p>
               </div>
             </div>
-            <li className={styles.menu}><a href="#">Services</a></li>
-            <li className={styles.menu}><a href="#">Contact Us</a></li>
+            <li className={styles.menu}>
+              <a href="#">Services</a>
+            </li>
+            <li className={styles.menu}>
+              <a href="#">Contact Us</a>
+            </li>
           </div>
           <div className={styles.Sociallink}>
             <FaFacebookF className={styles.Facebook} />
@@ -118,15 +140,14 @@ function NavbarComponent() {
         <div
           className={styles.ToggleMenu}
           onClick={() => {
-            setNavExpanded(!navExpanded)
-            setshowSiderbar(!showSiderbar)
+            setNavExpanded(!navExpanded);
+            setshowSiderbar(!showSiderbar);
           }}
         >
           <BiMenuAltRight
             className={styles.NavbarIcons}
-            style={{ fontSize: "200%" }}
+            style={{ fontSize: "350%" }}
           />
-
         </div>
       </Navbar>
     </>

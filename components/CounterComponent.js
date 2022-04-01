@@ -32,23 +32,25 @@ function CounterComponent(props) {
             <Col
               data-aos="zoom-in"
               data-aos-duration="2000"
-              xs={12}
-              sm={4}
+              xs={6}
+              sm={6}
               lg={2}
               className={styles.CounterComponentCol}
               key={ind}
             >
-              <div>
-                <CountUp
-                  className={styles.Counter}
-                  start={isOnScreen ? 5 : null}
-                  end={el.end}
-                  delay={0.5}
-                  duration={3}
-                />
-                <span className={styles.CounterSign}>{el.sign}</span>
+              <div className={styles.CounterContainerMain}>
+                <div>
+                  <CountUp
+                    className={styles.Counter}
+                    start={isOnScreen ? 5 : null}
+                    end={el.end}
+                    delay={0.5}
+                    duration={3}
+                  />
+                  <span className={styles.CounterSign}>{el.sign}</span>
+                </div>
+                <p className={styles.CounterText}>{el.title}</p>
               </div>
-              <p className={styles.CounterText}>{el.title}</p>
             </Col>
           ))}
         </Row>

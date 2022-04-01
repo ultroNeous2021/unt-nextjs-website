@@ -3,7 +3,11 @@
 .CounterContainer {
   background: #1a1112;
   justify-content: space-evenly;
-  padding: 10rem 2.5rem;
+  padding: 4rem 2.5rem;
+}
+
+.CounterContainerMain {
+  text-align: left;
 }
 
 .Counter,
@@ -17,8 +21,8 @@
 
 .CounterText {
   color: #c4c4c4;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .CounterComponentCol {
@@ -28,7 +32,7 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
   .CounterContainer {
     padding: 4rem 2.5rem;
   }
@@ -40,31 +44,33 @@
     align-items: center;
     margin: 1rem 0;
   }
-}
-
-/* 
-@media only screen and (max-width: 600px) {
-  .Counter-Container {
-    padding-top: 0% !important;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .Counter,
-  .Counter-Sign {
-    font-size: 60px;
-  }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 992px) {
-  .Counter-Container {
-    justify-content: left;
-  }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 670px) {
-  .Counter,
-  .Counter-Sign {
-    font-size: 50px;
-  }
 } */
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .CounterContainer {
+    justify-content: initial;
+  }
+
+  .Counter,
+  .CounterSign {
+    font-size: 40px;
+  }
+
+  .CounterComponentCol {
+    align-items: initial;
+  }
+
+  .CounterContainerMain {
+    text-align: center;
+  }
+
+  .CounterText {
+    font-size: 19px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 765px) {
+}

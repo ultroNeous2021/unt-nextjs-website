@@ -11,7 +11,7 @@ function PortfolioSlider({ sliderBlack, containerBlack }) {
   var settings = {
     arrows: false,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     focusOnSelect: false,
@@ -77,7 +77,9 @@ function PortfolioSlider({ sliderBlack, containerBlack }) {
                 <h3> {el.title} </h3>
                 <p> {el.details} </p>
               </div>
-              <TransparentButton val={"View All"} />
+              <div className={styles.ViewButton}>
+                <TransparentButton val={"View All"} />
+              </div>
             </>
           ))}
         </Slider>

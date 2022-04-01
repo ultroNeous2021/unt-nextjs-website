@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
 import { useEffect, useState } from "react";
-import { Row, Image, Col } from "react-bootstrap";
+import { Row, Image, Col, Dropdown } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -9,6 +9,8 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import styles from "@/styles/ContactUsPage.module.css";
 import { ContactUsFormCheckboxData } from "utils/CONSTANT_DATA";
 import axios from "axios";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
   const {
@@ -19,13 +21,20 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
     reset,
   } = useForm();
 
-  useEffect(() => {}, [submitClicked]);
-
   const [checkList, setCheckList] = useState([]);
   const [phoneValue, setPhoneValue] = useState("");
   const [submitClicked, setSubmitClicked] = useState(false);
   const [check, setCheck] = useState(false); // opens popup
   const [data, setData] = useState([]); // array of selected checkboxes
+  const [showPhoneImage, setShowPhoneImage] = useState(true); // phone image
+
+  useEffect(() => {
+    if (window.innerWidth < 992) {
+      setShowPhoneImage(false);
+    } else {
+      setShowPhoneImage(true);
+    }
+  }, []);
 
   const checkboxHandler = (e) => {
     // handles single checkbox event
@@ -79,6 +88,10 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
     }, 5000);
   };
 
+  const handleSelect = (e) => {
+    console.log(e);
+  };
+
   return (
     <Layout>
       <PagesHeaderComponent
@@ -88,231 +101,332 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
       <div className={styles.FormDescription}>
         <div>
           Whether you're starting from scratch, pivoting a product, or launching
-          <br />a brand into new markets—we're here to light the fire and get it
-          done
+          {setShowPhoneImage ? <br /> : null}a brand into new markets—we're here
+          to light the fire and get it done
         </div>
       </div>
-      <div className={styles.FormContainer}>
-        <Row>
-          <Col xl={7}>
-            <Row className={styles.SpaceLooking}>
-              <h3>What are you looking for?</h3>
-              <p>
-                Please select your options and we shall revert back to you soon!
-              </p>
-            </Row>
-            <Row>
-              <Col xl={12}>
-                <Row className={styles.CheckboxSpace}>
-                  <Col xl={6}>
-                    <input
-                      type="checkbox"
-                      value="Web & App Development"
-                      onChange={(e) =>
-                        HandleCheck(e.target.checked, e.target.value)
-                      }
-                    />
-                    <span className="ms-2">Web & App Development</span>
-                  </Col>
-                  <Col xl={6}>
-                    <input
-                      type="checkbox"
-                      value="Digital Marketing"
-                      onChange={(e) =>
-                        HandleCheck(e.target.checked, e.target.value)
-                      }
-                    />
-                    <span className="ms-2">Digital Marketing</span>
-                  </Col>
-                </Row>
-                <Row className={styles.CheckboxSpace}>
-                  <Col xl={6}>
-                    <input
-                      type="checkbox"
-                      value="UI/UX Design"
-                      onChange={(e) =>
-                        HandleCheck(e.target.checked, e.target.value)
-                      }
-                    />
-                    <span className="ms-2">UI/UX Design</span>
-                  </Col>
-                  <Col xl={6}>
-                    <input
-                      type="checkbox"
-                      value="eCommerce Development"
-                      onChange={(e) =>
-                        HandleCheck(e.target.checked, e.target.value)
-                      }
-                    />
-                    <span className="ms-2">eCommerce Development</span>
-                  </Col>
-                </Row>
-                <Row className={styles.CheckboxSpace}>
-                  <Col xl={6}>
-                    <input
-                      type="checkbox"
-                      value="Enterprise Software Solutions"
-                      onChange={(e) =>
-                        HandleCheck(e.target.checked, e.target.value)
-                      }
-                    />
-                    <span className="ms-2">Enterprise Software Solutions</span>
-                  </Col>
-                  <Col xl={6}>
-                    <input
-                      type="checkbox"
-                      value="Hire a Team"
-                      onChange={(e) => {
-                        HandleCheck(e.target.checked, e.target.value);
-                        setCheck(!check);
-                      }}
-                    />
-                    <span className="ms-2">Hire a Team/ Resource</span>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-            <Row className={styles.CheckboxFormContainerMain}>
-              {check ? (
-                <Row className={styles.CheckboxFormContainerRow}>
-                  {checkboxData.developersData.map((el, ind) => (
-                    <Col
-                      xs={12}
-                      sm={6}
-                      md={4}
-                      key={ind}
-                      className={styles.CheckboxFormContainer}
-                    >
-                      <label
-                        className={styles.TextLabel}
-                        htmlFor={el}
-                        onClick={clickHandler}
-                      >
-                        {el}
-                      </label>
+      <div className={styles.FormMainContainer}>
+        <div className={styles.FormContainer}>
+          <Row className="mx-0">
+            <Col xl={setShowPhoneImage ? 7 : 12}>
+              <Row className={styles.SpaceLooking}>
+                <h3>What are you looking for?</h3>
+                <p>
+                  Please select your options and we shall revert back to you
+                  soon!
+                </p>
+              </Row>
+              <Row>
+                <Col xl={12}>
+                  <Row className={styles.CheckboxSpace}>
+                    <Col xl={6} className={styles.CheckboxSpaceCol}>
                       <input
                         type="checkbox"
-                        id={el}
-                        value={el}
-                        className={styles.FormCheckbox}
-                        onChange={checkboxHandler}
+                        value="Web & App Development"
+                        onChange={(e) =>
+                          HandleCheck(e.target.checked, e.target.value)
+                        }
                       />
+                      <span className="ms-2">Web & App Development</span>
                     </Col>
-                  ))}
-                </Row>
-              ) : null}
-            </Row>
-            <Row className={styles.SpaceLooking}>
-              <h3>Your Details</h3>
-              <form onSubmit={handleSubmit(onSubmit)}>
-                <Row>
-                  <Col
-                    xl={12}
-                    className={`${styles.InputSpace} ${styles.InputHeight}`}
-                  >
-                    <input
-                      required
-                      {...register("name", {
-                        required: true,
-                        pattern: /^[A-Za-z]/,
-                      })}
-                      placeholder="Full Name*"
-                      className={`${styles.InputBox} ${styles.Inputwidth}`}
-                    />
+                    <Col xl={6} className={styles.CheckboxSpaceCol}>
+                      <input
+                        type="checkbox"
+                        value="Digital Marketing"
+                        onChange={(e) =>
+                          HandleCheck(e.target.checked, e.target.value)
+                        }
+                      />
+                      <span className="ms-2">Digital Marketing</span>
+                    </Col>
+                    <Col xl={6} className={styles.CheckboxSpaceCol}>
+                      <input
+                        type="checkbox"
+                        value="UI/UX Design"
+                        onChange={(e) =>
+                          HandleCheck(e.target.checked, e.target.value)
+                        }
+                      />
+                      <span className="ms-2">UI/UX Design</span>
+                    </Col>
+                    <Col xl={6} className={styles.CheckboxSpaceCol}>
+                      <input
+                        type="checkbox"
+                        value="eCommerce Development"
+                        onChange={(e) =>
+                          HandleCheck(e.target.checked, e.target.value)
+                        }
+                      />
+                      <span className="ms-2">eCommerce Development</span>
+                    </Col>
+                    <Col xl={6} className={styles.CheckboxSpaceCol}>
+                      <input
+                        type="checkbox"
+                        value="Enterprise Software Solutions"
+                        onChange={(e) =>
+                          HandleCheck(e.target.checked, e.target.value)
+                        }
+                      />
+                      <span className="ms-2">
+                        Enterprise Software Solutions
+                      </span>
+                    </Col>
+                    <Col xl={6} className={styles.CheckboxSpaceCol}>
+                      <input
+                        type="checkbox"
+                        value="Hire a Team"
+                        onChange={(e) => {
+                          HandleCheck(e.target.checked, e.target.value);
+                          setCheck(!check);
+                        }}
+                      />
+                      <span className="ms-2">Hire a Team/ Resource</span>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+              <Row className={styles.CheckboxFormContainerMain}>
+                {check ? (
+                  <Row className={styles.CheckboxFormContainerRow}>
+                    <p className={styles.CheckBoxFormHeadText}>
+                      Select Technologies
+                    </p>
+                    {checkboxData.developersData.map((el, ind) => (
+                      <Col
+                        xs={12}
+                        sm={6}
+                        md={4}
+                        key={ind}
+                        className={styles.CheckboxFormContainer}
+                      >
+                        <label
+                          className={styles.TextLabel}
+                          htmlFor={el}
+                          onClick={clickHandler}
+                        >
+                          {el}
+                        </label>
+                        <input
+                          type="checkbox"
+                          id={el}
+                          value={el}
+                          className={styles.FormCheckbox}
+                          onChange={checkboxHandler}
+                        />
+                      </Col>
+                    ))}
+                    <p className={styles.CheckBoxFormHeadText}>
+                      {" "}
+                      Select Others{" "}
+                    </p>
+                    {checkboxData.othersData.map((el, ind) => (
+                      <Col
+                        xs={12}
+                        sm={6}
+                        md={4}
+                        key={ind}
+                        className={styles.CheckboxFormContainer}
+                      >
+                        <label
+                          className={styles.TextLabel}
+                          htmlFor={el}
+                          onClick={clickHandler}
+                        >
+                          {el}
+                        </label>
+                        <input
+                          type="checkbox"
+                          id={el}
+                          value={el}
+                          className={styles.FormCheckbox}
+                          onChange={checkboxHandler}
+                        />
+                      </Col>
+                    ))}
+                  </Row>
+                ) : null}
+              </Row>
+              <Row className={styles.SpaceLooking}>
+                <h3>Your Details</h3>
+                <form onSubmit={handleSubmit(onSubmit)}>
+                  <Row>
+                    <Col
+                      xl={12}
+                      className={`${styles.InputSpace} ${styles.InputHeight}`}
+                    >
+                      <input
+                        required
+                        {...register("name", {
+                          required: true,
+                          pattern: /^[A-Za-z]/,
+                        })}
+                        placeholder="Full Name*"
+                        className={`${styles.InputBox} ${styles.Inputwidth}`}
+                      />
 
-                    {/* {errors.name && (
+                      {/* {errors.name && (
                         <p style={{ color: "red" }}>
                           Enter valid name*
                         </p>
                       )} */}
-                  </Col>
-                  <Col
-                    xl={12}
-                    className={`${styles.InputSpace} ${styles.InputHeight}`}
-                  >
-                    <input
-                      required
-                      {...register("email", {
-                        required: true,
-                        pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
-                      })}
-                      placeholder="Email ID*"
-                      className={`${styles.InputBox} ${styles.Inputwidth}`}
-                    />
-                    {/* {errors.email && (
+                    </Col>
+                    <Col
+                      xl={12}
+                      className={`${styles.InputSpace} ${styles.InputHeight}`}
+                    >
+                      <input
+                        required
+                        {...register("email", {
+                          required: true,
+                          pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
+                        })}
+                        placeholder="Email ID*"
+                        className={`${styles.InputBox} ${styles.Inputwidth}`}
+                      />
+                      {/* {errors.email && (
                         <p style={{ color: "red" }}>
                           Enter valid Email*
                         </p>
                       )} */}
-                  </Col>
-                  <Col
-                    xl={12}
-                    className={`${styles.InputSpace} ${styles.InputHeight}`}
-                  >
-                    <PhoneInput
-                      value={phoneValue}
-                      onChange={(phoneValue) => setPhoneValue(phoneValue)}
-                      country={"in"}
-                      // {...register("phone")}
-                      enableSearch={true}
-                    />
-                  </Col>
-                  <Col
-                    xl={12}
-                    className={`${styles.InputSpace} ${styles.InputHeight}`}
-                  >
-                    <select
-                      required
-                      {...register("budget")}
-                      className="Input-Box Input-width"
+                    </Col>
+                    <Col
+                      xl={12}
+                      className={`${styles.InputSpace} ${styles.InputHeight}`}
                     >
-                      <option value="">Select Project budget</option>
-                      <option>Below $7000</option>
-                      <option>$7000 to $10000</option>
-                      <option>$10000 to $15000</option>
-                      <option>Above $15000</option>
-                    </select>
-                  </Col>
-                  <Col
-                    xl={12}
-                    className={`${styles.InputSpace} ${styles.InputHeight}`}
-                  >
-                    <textarea
-                      required
-                      {...register("message", { required: true })}
-                      placeholder="Message*"
-                      className="Text-Area Input-width"
-                      rows={4}
-                    />
-                    {/* {errors.message && (
+                      <PhoneInput
+                        value={phoneValue}
+                        onChange={(phoneValue) => setPhoneValue(phoneValue)}
+                        country={"in"}
+                        // {...register("phone")}
+                        enableSearch={true}
+                      />
+                    </Col>
+                    <Col
+                      xl={12}
+                      className={`${styles.InputSpace} ${styles.InputHeight}`}
+                    >
+                      <select
+                        required
+                        {...register("budget")}
+                        className={`${styles.InputBox} ${styles.Inputwidth}`}
+                      >
+                        <option value="">Select Project budget</option>
+                        <option>Below $7000</option>
+                        <option>$7000 to $10000</option>
+                        <option>$10000 to $15000</option>
+                        <option>Above $15000</option>
+                      </select>
+                    </Col>
+                    <Col
+                      xl={12}
+                      className={`${styles.InputSpace} ${styles.InputHeight}`}
+                    >
+                      <textarea
+                        required
+                        {...register("message", { required: true })}
+                        placeholder="Message*"
+                        className={`${styles.TextArea} ${styles.Inputwidth}`}
+                        rows={4}
+                      />
+                      {/* {errors.message && (
                         <p style={{ color: "red" }}>
                           This field is required
                         </p>
                       )} */}
-                  </Col>
-                </Row>
-                <Row className={styles.SendButtonForm}>
-                  <Col sm={12}>
-                    <button type="submit" className={styles.Btnsubmit}>
-                      Send
-                      <HiOutlineArrowNarrowRight
-                        style={{ marginLeft: "0.5em" }}
-                      />
-                    </button>
-                    {submitClicked && (
-                      <p style={{ color: "#6EAC5A", marginTop: "1rem" }}>
-                        Thanks for filling out the details. We shall revert back
-                        to you soon with the next steps.
-                      </p>
-                    )}
-                  </Col>
-                </Row>
-              </form>
-            </Row>
-          </Col>
+                    </Col>
+                  </Row>
+                  <Row className={styles.SendButtonForm}>
+                    <Col sm={12}>
+                      <button type="submit" className={styles.Btnsubmit}>
+                        Send
+                        <HiOutlineArrowNarrowRight
+                          style={{ marginLeft: "0.5em" }}
+                        />
+                      </button>
+                      {submitClicked && (
+                        <p style={{ color: "#6EAC5A", marginTop: "1rem" }}>
+                          Thanks for filling out the details. We shall revert
+                          back to you soon with the next steps.
+                        </p>
+                      )}
+                    </Col>
+                  </Row>
+                </form>
+              </Row>
+            </Col>
 
-          <Col xl={5} className="d-flex">
-            <Image src={"/assets/telephone.png"} alt="telephone" id="tel" />
+            {showPhoneImage ? (
+              <Col xl={5} className="d-flex">
+                <Image src={"/assets/telephone.png"} alt="telephone" id="tel" />
+              </Col>
+            ) : null}
+          </Row>
+        </div>
+      </div>
+      <div className={`${styles.bgcolor} ${styles.WALAContainer}`}>
+        <h1 className={styles.imagehead}>We are located in</h1>
+        <Row className={`${styles.WALAImages} mx-0 `}>
+          <Col xs={12} sm={12} md={6} xl={6} className={styles.ImageContainer}>
+            <Image
+              src={"/assets/office-ahmd.png"}
+              className={styles.imgwidthfull}
+            />
+          </Col>
+          <Col xs={12} sm={12} md={6} xl={6} className={styles.WALAImagesText}>
+            <h2 className={styles.headlabel}>INDIA</h2>
+            <p className={styles.plabel}>
+              C/906, Ganesh Meridian, Opp. Kargil Petrol
+              <br />
+              Pump, S.G. Highway, Sola, Ahmedabad,
+              <br />
+              Gujarat, India - 380060
+            </p>
+            <div className={styles.EmailPhoneContainer}>
+              <FaPhoneAlt style={{ color: "#E49B00", fontSize: "20px" }} />
+              <span className={styles.EmailPhoneText}>
+                <a href="tel:+91 78748 13131">+91 78748 13131</a>
+              </span>
+            </div>
+            <div className={styles.EmailPhoneContainer}>
+              <MdEmail style={{ color: "#E49B00", fontSize: "20px" }} />
+              <span className={styles.EmailPhoneText}>
+                <a href="mailto:hello@ultroneous.com">hello@ultroneous.com</a>
+              </span>
+            </div>
+          </Col>
+        </Row>
+        <Row
+          className={`justify-content-center ${styles.WALAImagesTwo} ${styles.WALAImages} mx-0 `}
+        >
+          <Col
+            xs={12}
+            sm={12}
+            md={6}
+            xl={6}
+            className={styles.WALAImagesTextTwo}
+          >
+            <h2 className={styles.headlabel}>USA</h2>
+            <p className={styles.plabel}>
+              West 51st Avenue, Denver, CO 80212USA
+            </p>
+            <div className={styles.EmailPhoneContainer}>
+              <FaPhoneAlt style={{ color: "#E49B00", fontSize: "20px" }} />
+              <span className={styles.EmailPhoneText}>
+                <a href="tel:+1-234-253-4040">+1-234-253-4040</a>
+              </span>
+            </div>
+            <div className={styles.EmailPhoneContainer}>
+              <MdEmail style={{ color: "#E49B00", fontSize: "20px" }} />
+              <span className={styles.EmailPhoneText}>
+                <a href="mailto:usa@ultroneous.com">usa@ultroneous.com</a>
+              </span>
+            </div>
+          </Col>
+          <Col xs={12} sm={12} md={6} xl={6} className={styles.ImageContainer}>
+            <Image
+              src={"/assets/office-usa.png"}
+              className={`${styles.pos} ${styles.imgwidthfull}`}
+            />
           </Col>
         </Row>
       </div>

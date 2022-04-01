@@ -1,5 +1,5 @@
 .HorizontalTabContainer {
-  padding: 4rem 2.5rem;
+  padding: 5rem 2.5rem 4rem 2.5rem;
   background: #1a1112;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .ExcelAtHead h2 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
   color: #1a1112;
   -webkit-text-stroke: 1px #fff;
@@ -49,12 +49,19 @@
   align-items: center;
 }
 
+.HorizontalTabContainerMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .HorizontalTabname {
   padding-top: 1rem;
   color: #fff;
   font-size: 20px;
   opacity: 0;
-  margin-left: 1.5rem;
+  text-align: center;
 }
 
 .HorizontalTabCol:hover .HorizontalTabname {
@@ -167,7 +174,6 @@
 @media (min-width: 320px) and (max-width: 430px) {
   .HorizontalTabname {
     text-align: center;
-    margin-right: 4rem;
   }
 }
 
