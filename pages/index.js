@@ -107,7 +107,11 @@ export default function HomePage() {
           }}
         >
           <Row className={styles.IntroHeadingContainer}>
-            <h2 className={styles.IntroHeading}>
+            <h2
+              className={styles.IntroHeading}
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
               Hello, we are
               <br />
               ultroNeours.
@@ -122,7 +126,11 @@ export default function HomePage() {
               lg={6}
               className={styles.IntroParagraphSection}
             >
-              <p className={styles.IntroParagraph}>
+              <p
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+                className={styles.IntroParagraph}
+              >
                 ultroNeous is a concept – a concept of innovation, customer
                 service, and exceptional creativity. We are committed to
                 building technology solutions that are accessible to help
@@ -161,8 +169,8 @@ export default function HomePage() {
       <div className={styles.WhatWeOfferContainer}>
         <Row>
           <h2
-            // data-aos="zoom-in"
-            // data-aos-duration="2000"
+            data-aos="zoom-in"
+            data-aos-duration="3000"
             className={styles.mainheading}
           >
             What We Offer
@@ -170,8 +178,8 @@ export default function HomePage() {
         </Row>
         <Row className="text-align-center">
           <Col
-            // data-aos="fade-up"
-            // data-aos-duration="3000"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
             sm={4}
             md={12}
             lg={4}
@@ -192,6 +200,8 @@ export default function HomePage() {
             </div>
           </Col>
           <Col
+            data-aos="zoom-in"
+            data-aos-duration="2000"
             // data-aos="fade-down"
             // data-aos-duration="3000"
             sm={4}
@@ -213,6 +223,8 @@ export default function HomePage() {
             </div>
           </Col>
           <Col
+            data-aos="zoom-in"
+            data-aos-duration="2000"
             // data-aos="fade-up"
             // data-aos-duration="3000"
             sm={4}

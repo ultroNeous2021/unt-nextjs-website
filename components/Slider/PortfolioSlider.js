@@ -33,7 +33,7 @@ function PortfolioSlider({ sliderBlack, containerBlack }) {
     <div className={styles.PortfolioSliderContainerWhite}>
       <div className={styles.PortfolioWhiteContainerMain}>
         <h2
-          data-aos="fade-down"
+          data-aos="zoom-in"
           data-aos-duration="2000"
           className={styles.wehead}
         >

@@ -63,13 +63,14 @@ function AboutUltroneousPage() {
   return (
     <Layout>
       {/* About us header */}
-      <Row className={backContain.AboutusHeaderRow}>
-        <p> About Us </p>
+      <Row className={styles.PagesHeader}>
+        <div className={styles.PaddingNull}>
+          <p>About Us</p>
+          <h1>We are,</h1>
+        </div>
       </Row>
-      <div className={backContain.AboutusHeader}>
-        <h1>
-          We are, <br /> <span>ultroNeours</span>
-        </h1>
+      <div className={styles.UltroneousHContainer}>
+        <h2>ultroNeours</h2>
       </div>
       {/*---------- A place for Expanding Horizons and Team Building -----------*/}
       <Row className={styles.PlaceForContainer}>
@@ -147,7 +148,7 @@ function AboutUltroneousPage() {
             Values
             <Image
               src="/assets/values.svg"
-              className="img-height"
+              className={styles.ImgHeight}
               alt="values"
             />
           </label>
@@ -163,41 +164,6 @@ function AboutUltroneousPage() {
         </Col>
       </Row>
       {/*  Why Clients....slider */}
-      {/* <Row className={sliderstyle.WCLUContainer}>
-        <Col xs={12} sm={12} md={4} className={sliderstyle.WCLULeft}>
-          <h3>
-            Why Clients <br /> love us
-          </h3>
-          <div className={sliderstyle.WCLUArrows}>
-            <Image
-              src="/assets/client-love.svg"
-              alt="arrow"
-              onClick={() => WCLUSlider.current.slickPrev()}
-            />
-            <Image
-              src="/assets/client-love.svg"
-              alt="arrow"
-              onClick={() => WCLUSlider.current.slickNext()}
-            />
-          </div>
-        </Col>
-        <Col xs={12} sm={12} md={8} className={sliderstyle.WCLURight}>
-          <Slider ref={(slider) => (WCLUSlider.current = slider)} {...settings}>
-            {SliderData.map((el, ind) => (
-              <Card className={sliderstyle.WCLUSlide} key={ind}>
-                <Card.Body className={sliderstyle.WCLUSlideBody}>
-                  <Card.Title>
-                    <Image src={el.image} alt={el.text} />
-                  </Card.Title>
-                  <Card.Text className={sliderstyle.WCLUText}>
-                    {el.text}
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            ))}
-          </Slider>
-        </Col>
-      </Row> */}
       <WhyClientLoveUs />
       {/*  */}
       <Row className={girlStyle.GirlonCounter}>

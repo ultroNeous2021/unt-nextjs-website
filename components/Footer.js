@@ -11,10 +11,7 @@ function Footer({ FooterContainerStyle }) {
     <div className="FooterContainer">
       <Row className={styles.MxNone}>
         <div className={styles.FooterTopText}>
-          <h2
-          //    data-aos="fade-down"
-          //    data-aos-duration="3000"
-          >
+          <h2 data-aos="zoom-in" data-aos-duration="2000">
             Let’s Discuss your Ideas.
           </h2>
           <ButtonComponent val={"Yes, Let's do it"} />
@@ -22,8 +19,8 @@ function Footer({ FooterContainerStyle }) {
       </Row>
       <Row className={[styles.MxNone, styles.FooterContainer]}>
         <Col
-          // data-aos="fade-down"
-          // data-aos-duration="3000"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
           xs={12}
           sm={12}
           lg={3}
@@ -77,8 +74,8 @@ function Footer({ FooterContainerStyle }) {
           </ul>
         </Col>
         <Col
-          // data-aos="fade-up"
-          // data-aos-duration="3000"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
           xs={12}
           sm={12}
           lg={6}
@@ -89,22 +86,22 @@ function Footer({ FooterContainerStyle }) {
               <h3> Quick Links</h3>
               <ul>
                 <li>
-                  <Link href="">About us</Link>
+                  <Link href="/about-ultroneous">About us</Link>
                 </li>
                 <li>
-                  <Link href="">Team</Link>
+                  <Link href="/meet-our-team">Team</Link>
                 </li>
                 <li>
-                  <Link href="">Career</Link>
+                  <Link href="/careers">Career</Link>
                 </li>
                 <li>
-                  <Link href="">Contact</Link>
+                  <Link href="/contact-us">Contact</Link>
                 </li>
               </ul>
             </Col>
             <Col
-              //  data-aos="fade-up"
-              //  data-aos-duration="3000"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
               xs={12}
               sm={4}
               lg={4}
@@ -130,8 +127,8 @@ function Footer({ FooterContainerStyle }) {
               </ul>
             </Col>
             <Col
-              //  data-aos="fade-up"
-              //  data-aos-duration="3000"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
               xs={12}
               sm={4}
               lg={4}
@@ -170,8 +167,8 @@ function Footer({ FooterContainerStyle }) {
           </Row>
         </Col>
         <Col
-          //  data-aos="fade-down"
-          //  data-aos-duration="3000"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
           xs={12}
           sm={12}
           lg={3}

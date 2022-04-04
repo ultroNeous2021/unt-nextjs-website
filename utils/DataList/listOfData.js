@@ -1,3 +1,131 @@
+export const Teamlist = [
+  {
+    image: "/assets/TeamO1.png",
+    name: "Pramit Shah",
+    detail: "Global Sales Head",
+  },
+  {
+    image: "/assets/TeamO2.png",
+    name: "Sachin Padhiyar",
+    detail: "Project Manager",
+  },
+  {
+    image: "/assets/TeamO3.png",
+    name: "Richa Jay Shah",
+    detail: "Human Resource",
+  },
+  {
+    image: "/assets/TeamO1.png",
+    name: "Deep Shah",
+    detail: "Finance",
+  },
+];
+
+export const TeamGList = [
+  {
+    image: "/assets/TeamG1.png",
+    name: "Erik Moore",
+    detail: "Country Manager",
+  },
+  {
+    image: "/assets/TeamG2.png",
+    name: "Shwetal Patel",
+    detail: "Global Sales",
+  },
+  {
+    image: "/assets/TeamG3.png",
+    name: "Malav Kargathra",
+    detail: "Sales & Marketing",
+  },
+  {
+    image: "/assets/TeamG4.png",
+    name: "Veronica K",
+    detail: "Europe Sales",
+  },
+];
+
+export const TeamAList = [
+  {
+    image: "/assets/TeamA1.png",
+    name: "Renish Vamja",
+    detail: "Development Head",
+  },
+  {
+    image: "/assets/TeamA2.png",
+    name: "Binal Shah",
+    detail: "Full Stack Developer",
+  },
+  {
+    image: "/assets/TeamA3.png",
+    name: "Sandeep Modi",
+    detail: "Full Stack Developer",
+  },
+  {
+    image: "/assets/TeamA4.png",
+    name: "Shiv Desai",
+    detail: "Digital Marketing",
+  },
+  {
+    image: "/assets/TeamA5.png",
+    name: "Vibha Ojha",
+    detail: "UX/ UI Designer",
+  },
+  {
+    image: "/assets/TeamA6.png",
+    name: "Himanshu",
+    detail: "Analyst",
+  },
+  {
+    image: "/assets/TeamA7.png",
+    name: "Yogesh Kalwani",
+    detail: " Graphic Designer ",
+  },
+  {
+    image: "/assets/TeamA8.png",
+    name: "Akshay Mungalpara",
+    detail: "Mobile Developer",
+  },
+  {
+    image: "/assets/TeamA9.png",
+    name: "Yash Gandhi",
+    detail: "Mobile Developer",
+  },
+  {
+    image: "/assets/TeamA10.png",
+    name: "Priyank Bhingradiya",
+    detail: "Mobile Developer",
+  },
+  {
+    image: "/assets/TeamA11.png",
+    name: "Riddhi Darji",
+    detail: "Mobile Developer",
+  },
+  {
+    image: "/assets/TeamA12.png",
+    name: "Virag M Shah",
+    detail: "Full Stack Developer",
+  },
+  {
+    image: "/assets/TeamA13.png",
+    name: "Kevankumar Gol",
+    detail: "Full Stack Developer",
+  },
+  {
+    image: "/assets/TeamA14.png",
+    name: "Ajay Hadiya",
+    detail: "Full Stack Developer",
+  },
+  {
+    image: "/assets/TeamA15.png",
+    name: "Ankur",
+    detail: "Writer",
+  },
+  {
+    image: "/assets/TeamA16.png",
+    name: "Vishalbhai Desai",
+    detail: "Facility Executive",
+  },
+];
 export const VerticalList = [
   {
     image: "/assets/vc7.svg",
@@ -210,32 +338,32 @@ export const ArrayOfServices = [
     content:
       "Design is our Strength!! - Our complete UX/UI design methodology comprises brainstorming, UI research, thinking, and designing in order to provide our clients with comprehensive and engaging outcomes.",
   },
-  {
-    icon: "/assets/s-cloud-dev.svg",
-    name: "Cloud & Devops",
-    background: "/assets/S14.png",
-    content:
-      "ultroNeous provides high-performance cloud and DevOps solutions that are backed by industry-leading technologies, tools, and people. Our services have been shown to accelerate software development and operational efficiency.",
-  },
-  {
-    icon: "/assets/s-ecommerce-dev.svg",
-    name: "E-commerce Development",
-    background: "/assets/S15.png",
-    content:
-      "With our impeccable eCommerce Development services, you can keep your business ahead of the competition. Our tech-savvy team can assist you with developing highly customised and scalable eCommerce sites",
-  },
-  {
-    icon: "/assets/s-enterprise-dev.svg",
-    name: "Enterprise Software Solutions",
-    background: "/assets/S16.png",
-    content:
-      "Utilise our corporate software development experience to empower, automate, and scale your company model. Get access to our industry-specific expertise to design and build your new enterprise software solution.",
-  },
-  {
-    icon: "/assets/s-digital-marketing.svg",
-    name: "Digital Marketing",
-    background: "/assets/S17.png",
-    content:
-      "For each of our digital marketing services, including SEO, PPC, Social Media Marketing, eCommerce and Content Marketing, we use a results-driven approach. Explore our digital marketing services in depth.",
-  },
+  // {
+  //   icon: "/assets/s-cloud-dev.svg",
+  //   name: "Cloud & Devops",
+  //   background: "/assets/S14.png",
+  //   content:
+  //     "ultroNeous provides high-performance cloud and DevOps solutions that are backed by industry-leading technologies, tools, and people. Our services have been shown to accelerate software development and operational efficiency.",
+  // },
+  // {
+  //   icon: "/assets/s-ecommerce-dev.svg",
+  //   name: "E-commerce Development",
+  //   background: "/assets/S15.png",
+  //   content:
+  //     "With our impeccable eCommerce Development services, you can keep your business ahead of the competition. Our tech-savvy team can assist you with developing highly customised and scalable eCommerce sites",
+  // },
+  // {
+  //   icon: "/assets/s-enterprise-dev.svg",
+  //   name: "Enterprise Software Solutions",
+  //   background: "/assets/S16.png",
+  //   content:
+  //     "Utilise our corporate software development experience to empower, automate, and scale your company model. Get access to our industry-specific expertise to design and build your new enterprise software solution.",
+  // },
+  // {
+  //   icon: "/assets/s-digital-marketing.svg",
+  //   name: "Digital Marketing",
+  //   background: "/assets/S17.png",
+  //   content:
+  //     "For each of our digital marketing services, including SEO, PPC, Social Media Marketing, eCommerce and Content Marketing, we use a results-driven approach. Explore our digital marketing services in depth.",
+  // },
 ];

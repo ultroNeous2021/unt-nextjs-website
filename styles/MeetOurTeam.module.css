@@ -1,0 +1,153 @@
+.Teamcontainer {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: #1a1112;
+}
+
+.Teamheading {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.Teamimg {
+  padding: 4rem 2.5rem;
+  padding-bottom: 0;
+}
+.Teamname {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 2rem 2.5rem 0rem 2.5rem;
+}
+.Teamdetail {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 2.5rem;
+  padding-bottom: 4rem;
+}
+.GlobalSales {
+  padding: 4rem 2.5rem;
+}
+.OurAchievers {
+  padding: 4rem 2.5rem;
+}
+
+.Teamcontentcontainer {
+  padding: 4rem 2.5rem;
+}
+.Contentheading {
+  color: #1a1112;
+  font-size: 80px;
+  font-weight: 700;
+  padding-top: 2rem;
+}
+.Subcontent {
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+  font-size: 80px;
+  font-weight: 700;
+  padding-top: 2rem;
+  font-family: poppins;
+}
+@media (min-width: 320px) and (max-width: 430px) {
+  .Team {
+    padding: 0;
+    padding-left: 1rem;
+  }
+  .Teamcontainer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .Teamheading {
+    font-size: 40px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .Teamimg {
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0.5rem;
+    width: 10rem;
+  }
+  .GlobalSales {
+    padding: 4rem 0rem;
+  }
+  .Teamname {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+  }
+  .Teamdetail {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 12px;
+    padding-bottom: 2rem;
+  }
+  .Teamcontentcontainer {
+    padding: 4rem 0.5rem;
+  }
+  .Contentheading {
+    font-size: 48px;
+  }
+  .Subcontent {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .Teamimg {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 22rem;
+  }
+  .Teamname {
+    padding-left: 0.5rem;
+    padding-right: 0;
+  }
+  .Teamdetail {
+    padding-left: 0.5rem;
+    padding-right: 0;
+  }
+  .Teamheading {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+  .Teamimg {
+    padding: 0;
+    width: 18rem;
+  }
+  .Teamname {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .Teamdetail {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 650px) and (max-width: 740px) {
+  .Teamimg {
+    padding: 0;
+    width: 18rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .Teamname {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .Teamdetail {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

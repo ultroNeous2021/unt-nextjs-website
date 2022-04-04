@@ -71,7 +71,7 @@ function NavbarComponent() {
                   <Link href="/careers">Career</Link>
                 </p>
                 <p>
-                  <Link href="">Meet our team</Link>
+                  <Link href="/meet-our-team">Meet our team</Link>
                 </p>
               </div>
             </div>
@@ -82,6 +82,7 @@ function NavbarComponent() {
               <Link href="/contact-us">Contact Us</Link>
             </li>
           </div>
+
           <div className={styles.Sociallink}>
             <FaFacebookF className={styles.Facebook} />
             <FaTwitter className={styles.Twitter} />

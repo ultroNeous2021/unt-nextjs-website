@@ -1,236 +1,334 @@
+.UltroneousHContainer {
+  background-color: #1a1112;
+  margin: 0;
+  margin-top: -1rem;
+  overflow: hidden;
+}
+.PaddingNull {
+  padding: 0%;
+}
+.UltroneousHContainer h2 {
+  font-weight: 700;
+  color: #e49b00;
+  padding-left: 2.5rem;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
+  font-size: 200px;
+}
+.PagesHeader {
+  background: url("/assets/main-home-desktop.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  text-align: left;
+  justify-content: left;
+  padding-left: 2.5rem;
+  align-items: flex-end;
+  /* background-attachment: fixed; */
+  margin: 0;
+}
+
+.PagesHeader div p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #e49b00;
+  margin-bottom: 0;
+}
+
+.PagesHeader div h1 {
+  font-size: 150px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0%;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .PagesHeader {
+    padding-bottom: 0rem;
+    height: 40vh;
+    padding-left: 1rem;
+  }
+
+  .PagesHeader div p {
+    font-size: 24px;
+  }
+
+  .PagesHeader div h1 {
+    font-size: 44px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .PagesHeader {
+    height: 30vh;
+  }
+
+  .PagesHeader div p {
+    font-size: 24px;
+  }
+
+  .PagesHeader div h1 {
+    font-size: 45px;
+  }
+}
+
 /* A place for Expanding Horizons and Team Building */
 .PlaceForContainer {
-    padding: 4rem 2.5rem 4rem 2.5rem;
-    background-color: #1B1414;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0%;
+  padding: 4rem 2.5rem 8rem 2.5rem;
+  background-color: #1a1112;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
 }
 
 .PlaceForHeading {
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    color: #FFFFFF;
-   
-    margin-bottom: 0%;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  color: #ffffff;
+
+  margin-bottom: 0%;
 }
 
 .PlaceForParagraph {
-    font-family: 'Outfit';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: justify;
-    padding: 2rem 0rem 0rem 0rem;
-    color: #FFFFFF;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  padding: 2rem 0rem 0rem 0rem;
+  color: #ffffff;
+  width: 91%;
 }
 
 .AboutUsImage {
-    padding: 0.5em;
+  padding: 0.5em;
 }
 
 .AboutUsImage img {
-    width: 100%;
-    height: 100%;
-    /* height: auto; */
+  width: 100%;
+  height: 100%;
+  /* height: auto; */
 }
 
 .AboutUsImages {
-    padding: 0 4em;
-    background-color: #1B1414;
+  padding: 0 2.5rem;
+  background-color: #1a1112;
 }
-.AboutUsRowMargin{
-    margin: 0%;
+.AboutUsRowMargin {
+  margin: 0%;
 }
 
 /* values */
 .ValuesContainer {
-    padding: 4rem 2.5rem 4rem 2.5rem;
-    background-color: #1B1414;
-    margin: 0%;
-    display: flex;
-    justify-content: center;
+  padding: 6rem 2.5rem 6rem 2.5rem;
+  background-color: #1a1112;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
 }
 
 .ValueHeading {
-    font-family: Outfit;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 80px;
-    line-height: 101px;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 101px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .ParagraphValue {
-    font-family: Outfit;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: justify;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    padding-top: 1em;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  padding-top: 1em;
 }
 
 /* Why does talent choose us? */
 .WDTCUContainer {
-    padding: 6rem 2.5rem 6rem 2.5rem;
+  padding: 6rem 2.5rem 6rem 2.5rem;
 }
 
 .WDTCUmainsection {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .HeadingTalent {
-    font-family: Outfit;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 80px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #1b1414;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1a1112;
 }
 
 .ParagraphTalent {
-    font-family: Outfit;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    text-align: center;
-    color: rgba(97, 97, 97, 0.5);
-    padding-top: 0.5rem;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  color: rgba(97, 97, 97, 0.5);
+  padding-top: 0.5rem;
 }
 
 .WDTCUlistsection {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .WDTCUlist {
-    padding-bottom: 2rem;
-    font-family: Outfit;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    color: #1b1414;
+  padding-bottom: 2rem;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: #1a1112;
 }
 
 .WDTCUlistcontain {
-    padding-top: 4rem;
+  padding-top: 4rem;
 }
 
 .CheckOutButtonSection {
-    display: flex;
-    justify-content: center;
-    padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
 }
 
 /* media queries */
-@media (min-width:320px) and (max-width: 430px) {
-    .PlaceForContainer {
-        justify-content: start;
-        padding: 4rem 0rem 4rem 0rem;
-    }
+@media (min-width: 320px) and (max-width: 430px) {
+  .ImgHeight {
+    height: 2.5rem;
+  }
+  .UltroneousHContainer h2 {
+    margin: 0%;
+    font-size: 59px;
+    padding-left: 1rem;
+  }
+  .PlaceForContainer {
+    justify-content: start;
+    padding: 4rem 0rem 4rem 0rem;
+  }
+  .PlaceForParagraph {
+    width: 100%;
+  }
+  .PlaceForContainer {
+    padding: 4rem 1rem 4rem 1rem;
 
-    .PlaceForContainer {
-        padding: 4rem 1rem 4rem 1rem;
+    justify-content: start;
+    flex-direction: column;
+    align-items: left;
+  }
 
-        justify-content: start;
-        flex-direction: column;
-        align-items: left;
-    }
+  .AboutUsImages {
+    padding: 0 0rem;
+    background-color: #1a1112;
+  }
 
-    .AboutUsImages {
-        padding: 0 1em;
-        background-color: #1B1414;
-    }
-  
+  .PlaceForHeading {
+    font-size: 1.5rem;
+  }
+  .ValuesContainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .ValueHeading {
+    padding-top: 0%;
+    font-size: 36px;
+  }
+  .WDTCUContainer {
+    padding: 6rem 1rem 6rem 1rem;
+  }
 
-    .PlaceForHeading {
-        font-size: 1.5rem;    
-    }
-    .ValuesContainer {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-    .ValueHeading {
-        padding-top: 0%;
-        font-size: 36px;
-    }
-    .WDTCUContainer {
-        padding: 6rem 1rem 6rem 1rem;
-    }
+  .HeadingTalent {
+    font-size: 2rem;
+  }
 
-    .HeadingTalent {
-        font-size: 2rem;
-    }
+  .ParagraphTalent {
+    font-size: 1rem;
+  }
 
-    .ParagraphTalent {
-        font-size: 1rem;
-    }
+  .WDTCUlist {
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+  }
 
-    .WDTCUlist {
-        padding-bottom: 0.5rem;
-        font-size: 1rem;
-    }
-
-    .WDTCUlistcontainPadding {
-        padding-top: 0rem;
-    }
+  .WDTCUlistcontainPadding {
+    padding-top: 0rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1080px) {
-    .WDTCUlist {
-        font-size: 16px;
-    }
-    .ValueHeading {
-        padding-top: 0%;
-    }
-    .PlaceForHeading {
+  .UltroneousHContainer h2 {
+    font-weight: 700;
+    color: #e49b00;
+    padding-left: 2.5rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 120px;
+  }
+  .PagesHeader div h1 {
+    font-size: 88px;
+  }
+  .AboutUsImages {
+    padding: 0px 1rem;
+    background-color: #1a1112;
+  }
+  .PlaceForParagraph {
+    width: 100%;
+  }
+  .WDTCUlist {
+    font-size: 16px;
+  }
+  .ValueHeading {
+    padding-top: 0%;
+  }
+  .PlaceForHeading {
+    font-size: 3rem;
+    padding: 0%;
+  }
 
-        font-size: 3rem;
-        padding: 0%;
-
-    }
-
-    .PlaceForParagraph {
-        font-size: 16px;
-        padding: 2rem 0rem 0rem 0rem;
-
-    }
-    .ValuesContainer {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
+  .PlaceForParagraph {
+    font-size: 16px;
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  .ValuesContainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1730px) {
-    .WDTCUlist {
-        font-size: 1rem;
-    }
+  .WDTCUlist {
+    font-size: 1rem;
+  }
 
-    .PlaceForHeading {
-        font-size: 3.5rem;
-    }
+  .PlaceForHeading {
+    font-size: 3.5rem;
+  }
 
-    .PlaceForParagraph {
-        font-size: 16px;
-
-    }
- 
+  .PlaceForParagraph {
+    font-size: 16px;
+  }
 }
 
-@media (min-width: 650px) and (max-width: 740px) {}
+@media (min-width: 650px) and (max-width: 740px) {
+}

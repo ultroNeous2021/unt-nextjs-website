@@ -13,7 +13,11 @@ const WhyClientChoose = () => {
   return (
     <div className={styles.WhyClientChooseContainer}>
       <Row className="mx-0 justify-content-center">
-        <h3 className={styles.WhyClientChooseHeading}>
+        <h3
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          className={styles.WhyClientChooseHeading}
+        >
           Why Clients choose to work with us
         </h3>
       </Row>
