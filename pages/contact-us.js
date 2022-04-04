@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
 import { useEffect, useState } from "react";
-import { Row, Image, Col, Dropdown } from "react-bootstrap";
+import { Row, Image, Col, Form, Dropdown, FormGroup } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -27,6 +27,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
   const [check, setCheck] = useState(false); // opens popup
   const [data, setData] = useState([]); // array of selected checkboxes
   const [showPhoneImage, setShowPhoneImage] = useState(true); // phone image
+  const [dropdownValue, setDropdownValue] = useState("");
 
   useEffect(() => {
     if (window.innerWidth < 992) {
@@ -73,6 +74,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
           ...values,
           checkList,
           phone: phoneValue,
+          budget: dropdownValue,
           hireTeam: data,
         }
       )
@@ -99,25 +101,28 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
         heading={"Let’s make it happen"}
       />
       <div className={styles.FormDescription}>
-        <div>
+        <p>
           Whether you're starting from scratch, pivoting a product, or launching
-          {setShowPhoneImage ? <br /> : null}a brand into new markets—we're here
-          to light the fire and get it done
-        </div>
+          a brand into new markets—we're here to light the fire and get it done
+        </p>
       </div>
       <div className={styles.FormMainContainer}>
         <div className={styles.FormContainer}>
           <Row className="mx-0">
-            <Col xl={setShowPhoneImage ? 7 : 12}>
+            <Col
+              xl={setShowPhoneImage ? 7 : 12}
+              className={styles.ContactUsForm}
+            >
               <Row className={styles.SpaceLooking}>
                 <h3>What are you looking for?</h3>
                 <p>
-                  Please select your options and we shall revert back to you
-                  soon!
+                  Want to be partners in design? Looking for UX/ UI research or
+                  product branding? Post your query now, and we’ll get in touch
+                  with you soon!
                 </p>
               </Row>
-              <Row>
-                <Col xl={12}>
+              <Row className={styles.CheckboxSpaceRow}>
+                <Col xl={12} className={styles.CheckboxSpaceColTop}>
                   <Row className={styles.CheckboxSpace}>
                     <Col xl={6} className={styles.CheckboxSpaceCol}>
                       <input
@@ -185,7 +190,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                   </Row>
                 </Col>
               </Row>
-              <Row className={styles.CheckboxFormContainerMain}>
+              <Row className={check ? styles.CheckboxFormContainerMain : null}>
                 {check ? (
                   <Row className={styles.CheckboxFormContainerRow}>
                     <p className={styles.CheckBoxFormHeadText}>
@@ -248,7 +253,10 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
               </Row>
               <Row className={styles.SpaceLooking}>
                 <h3>Your Details</h3>
-                <form onSubmit={handleSubmit(onSubmit)}>
+                <form
+                  onSubmit={handleSubmit(onSubmit)}
+                  className={styles.FormParent}
+                >
                   <Row>
                     <Col
                       xl={12}
@@ -305,17 +313,18 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                       xl={12}
                       className={`${styles.InputSpace} ${styles.InputHeight}`}
                     >
-                      <select
-                        required
-                        {...register("budget")}
-                        className={`${styles.InputBox} ${styles.Inputwidth}`}
-                      >
-                        <option value="">Select Project budget</option>
-                        <option>Below $7000</option>
-                        <option>$7000 to $10000</option>
-                        <option>$10000 to $15000</option>
-                        <option>Above $15000</option>
-                      </select>
+                      <FormGroup>
+                        <Form.Select
+                          onChange={(e) => setDropdownValue(e.target.value)}
+                          className={`${styles.InputBox} ${styles.Inputwidth} ${styles.DropdownStyle}`}
+                        >
+                          <option value="">Select Project budget</option>
+                          <option>Below $7000</option>
+                          <option>$7000 to $10000</option>
+                          <option>$10000 to $15000</option>
+                          <option>Above $15000</option>
+                        </Form.Select>
+                      </FormGroup>
                     </Col>
                     <Col
                       xl={12}
@@ -357,14 +366,19 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
 
             {showPhoneImage ? (
               <Col xl={5} className="d-flex">
-                <Image src={"/assets/telephone.png"} alt="telephone" id="tel" />
+                <Image
+                  src={"/assets/telephone.png"}
+                  alt="telephone"
+                  id="tel"
+                  className={styles.PhoneImage}
+                />
               </Col>
             ) : null}
           </Row>
         </div>
       </div>
       <div className={`${styles.bgcolor} ${styles.WALAContainer}`}>
-        <h1 className={styles.imagehead}>We are located in</h1>
+        <h2 className={styles.imagehead}>We are located in</h2>
         <Row className={`${styles.WALAImages} mx-0 `}>
           <Col xs={12} sm={12} md={6} xl={6} className={styles.ImageContainer}>
             <Image

@@ -1,0 +1,54 @@
+.sbcheckbox {
+  margin: 10px;
+}
+.sbcheckbox {
+  display: inline-block;
+  font-size: 0;
+}
+.sbcheckboxinput {
+  display: none;
+}
+.sbcheckboxinput:checked + .sbcheckboxlabel::after {
+  opacity: 1;
+}
+.sbcheckboxlabel {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+.sbcheckboxlabel::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
+.sbcheckboxlabel::after {
+  content: "&#x2714";
+  font-family: "Material Icons";
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-radius: 2px;
+  overflow: hidden;
+  text-align: center;
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+.sbcheckboxlabelblack::before {
+  border-color: #000;
+}
+.sbcheckboxlabelblack::after {
+  background-color: #000;
+  color: #fff;
+}

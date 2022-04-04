@@ -176,6 +176,7 @@ export default function HomePage() {
             md={12}
             lg={4}
             xl={4}
+            className={styles.WhatWeOfferCol}
           >
             <div className={styles.Whatweofferimg}>
               <Image alt="ui-ux-design" src="/assets/ui-ux-design.svg" />
@@ -197,6 +198,7 @@ export default function HomePage() {
             md={12}
             lg={4}
             xl={4}
+            className={styles.WhatWeOfferCol}
           >
             <div className={styles.Whatweofferimg}>
               <Image alt="developement" src="/assets/development.svg" />
@@ -217,6 +219,7 @@ export default function HomePage() {
             md={12}
             lg={4}
             xl={4}
+            className={styles.WhatWeOfferCol}
           >
             <div className={styles.Whatweofferimg}>
               <Image

@@ -14,6 +14,7 @@ import Slider from "react-slick";
 import { AboutUsCounter } from "utils/CONSTANT_DATA";
 import { ArrayOfTalent } from "utils/DataList/listOfData";
 import WhyClientLoveUs from "@/components/Slider/WhyClientLoveUs";
+import CheckboxComponent from "@/components/CheckboxComponent";
 function AboutUltroneousPage() {
   const SliderData = [
     {
@@ -290,6 +291,7 @@ function AboutUltroneousPage() {
           <YellowFilledWhiteButton val={"Check out Careers"} arrow={true} />
         </div>
       </div>
+      <CheckboxComponent htmlId={"val"} />
     </Layout>
   );
 }

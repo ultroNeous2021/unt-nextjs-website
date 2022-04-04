@@ -126,8 +126,8 @@ export const WeExcelAtData = [
     title: "Mobile App",
     techs: [
       <Image
+        className="WeExcelAtIconsData"
         key={1}
-        width={70}
         src="/assets/mad1.svg"
         alt="digital marketing"
         onMouseEnter={(e) => (e.target.src = "/assets/madh1.svg")}
@@ -135,14 +135,15 @@ export const WeExcelAtData = [
       />,
 
       <Image
+        className="WeExcelAtIconsData"
         key={1}
-        width={70}
         src="/assets/mad2.svg"
         alt="digital marketing"
         onMouseEnter={(e) => (e.target.src = "/assets/madh2.svg")}
         onMouseLeave={(e) => (e.target.src = "/assets/mad2.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/mad3.svg"
         alt="digital marketing"
@@ -152,15 +153,18 @@ export const WeExcelAtData = [
       <SiReact className={`${styles.React} ${styles.WeExcelIcons}`} key={1} />,
       <FaNodeJs className={`${styles.Node} ${styles.WeExcelIcons}`} key={1} />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
-        width={90}
+        style={{ width: "90%" }}
         src="/assets/mad6.svg"
         alt="digital marketing"
         onMouseEnter={(e) => (e.target.src = "/assets/madh6.svg")}
         onMouseLeave={(e) => (e.target.src = "/assets/mad6.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
+        style={{ width: "90%" }}
         src="/assets/mad7.svg"
         alt="digital marketing"
         onMouseEnter={(e) => (e.target.src = "/assets/madh7.svg")}
@@ -181,13 +185,16 @@ export const WeExcelAtData = [
     title: "UX/ UI",
     techs: [
       <Image
+        className="WeExcelAtIconsData"
         key={1}
+        style={{ width: "45%" }}
         src="/assets/uiux1.svg"
         alt="digital marketing"
         onMouseEnter={(e) => (e.target.src = "/assets/uiuxh1.svg")}
         onMouseLeave={(e) => (e.target.src = "/assets/uiux1.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/uiux2.svg"
         alt="digital marketing"
@@ -195,6 +202,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/uiux2.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/uiux3.svg"
         alt="digital marketing"
@@ -202,6 +210,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/uiux3.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/uiux4.svg"
         alt="digital marketing"
@@ -209,6 +218,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/uiux4.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/uiux5.svg"
         alt="digital marketing"
@@ -216,6 +226,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/uiux5.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/uiux6.svg"
         alt="digital marketing"
@@ -223,6 +234,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/uiux6.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/uiux7.svg"
         alt="digital marketing"
@@ -244,6 +256,7 @@ export const WeExcelAtData = [
     title: "Digital Marketing",
     techs: [
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/dm1.svg"
         alt="digital marketing"
@@ -251,6 +264,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/dm1.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/dm2.svg"
         alt="digital marketing"
@@ -258,6 +272,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/dm2.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/dm3.svg"
         alt="digital marketing"
@@ -265,6 +280,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/dm3.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/dm4.svg"
         alt="digital marketing"
@@ -272,6 +288,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/dm4.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/dm5.svg"
         alt="digital marketing"
@@ -279,6 +296,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/dm5.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/dm6.svg"
         alt="digital marketing"
@@ -286,6 +304,7 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/dm6.svg")}
       />,
       <Image
+        className="WeExcelAtIconsData"
         key={1}
         src="/assets/dm7.svg"
         alt="digital marketing"

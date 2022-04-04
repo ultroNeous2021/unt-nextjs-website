@@ -20,7 +20,7 @@ const HorizontalTab = ({ data, title }) => (
               <Col
                 xs={6}
                 sm={6}
-                md={4}
+                md={2}
                 lg={1}
                 key={i}
                 className={styles.HorizontalTabCol}

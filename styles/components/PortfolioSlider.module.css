@@ -301,7 +301,12 @@
   }
 
   .PortfolioSliderArrows {
-    left: 77%;
+    left: 65%;
+    bottom: 42em;
+  }
+
+  .PortfolioSliderArrows img {
+    width: 7em;
   }
 }
 
@@ -311,7 +316,7 @@
   }
 
   .PortfolioDetails h3 {
-    font-size: 30x;
+    font-size: 30px;
   }
 
   .PortfolioBlackSlider {

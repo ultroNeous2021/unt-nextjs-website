@@ -1,5 +1,5 @@
 .HorizontalTabContainer {
-  padding: 5rem 2.5rem 4rem 2.5rem;
+  padding: 5rem 2.5rem 0rem 2.5rem;
   background: #1a1112;
 }
 
@@ -172,16 +172,33 @@
   color: #329adb;
 }
 @media (min-width: 320px) and (max-width: 430px) {
+  .HorizontalTabContainer {
+    padding: 3rem 1rem;
+  }
+
+  .HorizontalTabCol {
+    margin: 0;
+    padding: 0;
+  }
+
+  .HorizontalTabDiv {
+    height: 4rem;
+    width: 4rem;
+  }
+
   .HorizontalTabname {
     text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+    padding-top: 0.5rem;
+  }
+
+  .WeExcelIcons {
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .HorizontalTabCol {
-    margin: 1rem 0;
-  }
-
   .ExcelAtHead h2 {
     font-size: 40px;
   }
