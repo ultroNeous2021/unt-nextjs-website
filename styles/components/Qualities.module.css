@@ -1,0 +1,51 @@
+.PaddingSliderRow {
+  margin: 0%;
+}
+.PaddingSliderCol {
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+.HeadingStyle {
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 1rem;
+  margin-bottom: 0%;
+}
+
+.WebDevelopmentContainer {
+  padding-top: 7em;
+}
+.ParagraphStylesQ {
+  padding-top: 1rem;
+  margin: 0%;
+  text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+  .HeadingStyle {
+    font-size: 14px;
+    /* line-height: 1px; */
+  }
+}
+
+@media (max-width: 1280px) and (max-height: 720px) {
+  .HeadingStyle {
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+  }
+}
+@media (max-width: 1440px) and (max-height: 1024px) {
+  .HeadingStyle {
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+  }
+}
+.PaddingSliderRow {
+  padding: 4em 3em 1em 0em;
+}

@@ -224,81 +224,142 @@ export const WhatWeOfferList = [
 //       "ultroNeous has an experience of more than 70 projects in web application development",
 //   },
 // ];
-// export const ListOfWebService = {
-//   heading: "Services We Offer",
-//   title: "Web Application Development",
-//   paragraph:
-//     "World-class web application development company that uses cutting-edge technologies to develop top-notch web apps delivering outstanding, secured, responsive, and finest results. Over the years, ultroNeous has gained mastery in web application development frameworks and libraries such as the LAMP stack, MEAN & MERN development, and open-source development.",
-//   image: web_app_development,
-//   alt: "web-app-development",
-// };
-// export const ListOfMobileService = {
-//   heading: "Services We Offer",
-//   title: "Mobile Application Development",
-//   paragraph:
-//     "ultroNeous is a leading mobile app development company in developing custom mobile apps with a variety of technological stacks. Our experienced team is innovative in creating mobile apps with exceptional user experience, great compatibility, and are bug-free. ultroNeous' developers use hybrid app development and native app development procedure to build mobile apps that are sturdy, reliable and efficient. ",
-//   image: mobile_app_development,
-//   alt: "mobile-app-development",
-// };
-// export const ListOfDigitalMarketingService = {
-//   heading: "Services We Offer",
-//   title: "Digital Marketing",
-//   paragraph:
-//     "Digital Marketing is a strategy of promoting products and services by publishing relevant content and placing advertisements on various online platforms. Search engines, social media platforms, mobile applications, and websites are some of the most popular channels for digital marketing, often known as internet marketing. ultroNeous is a leading digital marketing agency that works for companies across the world to help them increase their revenue and improve their business online visibility.",
-//   image: digital_marketing,
-//   alt: "digital-marketing",
-// };
-// export const ListQualitiesMobileAppDev = [
-//   {
-//     image: mobile_app_expertise,
-//     name: "Mobile App Expertise ",
-//     descreption:
-//       "Dedicated iOS and Android developers for seamless mobile app development.",
-//   },
-//   {
-//     image: ui_ux_element,
-//     name: "UI/UX Elements",
-//     descreption:
-//       "Our designers are proficient in custom widgets for a flawless user experience.",
-//   },
-//   {
-//     image: native_performance,
-//     name: "Native Performance",
-//     descreption:
-//       "Develop a native app using iOS and android for your business.",
-//   },
-//   {
-//     image: increased_roi,
-//     name: "Increased ROI",
-//     descreption: "Significant growth in business revenue with our mobile apps.",
-//   },
-// ];
-// export const ListQualitiesDigitalMarketing = [
-//   {
-//     image: accurate_targeting,
-//     name: "Accurate Targeting",
-//     descreption:
-//       "Our executives use demographics and real time stats to generate potential leads.",
-//   },
-//   {
-//     image: tested_methods,
-//     name: "Tested Methods",
-//     descreption:
-//       "Digital marketers at ultroNeous have a wealth of proven internet marketing tactics and techniques.",
-//   },
-//   {
-//     image: increased_roi_digital_marketing,
-//     name: "Increased ROI",
-//     descreption:
-//       "We have generated high ROI through paid ad campaigns for our clients.",
-//   },
-//   {
-//     image: rank_higher,
-//     name: "Rank Higher",
-//     descreption:
-//       "With proven SEO tactics and precise competitor analysis, we help your website to rank higher. ",
-//   },
-// ];
+export const ListOfWebService = {
+  heading: "Services We Offer",
+  title: "Web Application Development",
+  paragraph:
+    "World-class web application development company that uses cutting-edge technologies to develop top-notch web apps delivering outstanding, secured, responsive, and finest results. Over the years, ultroNeous has gained mastery in web application development frameworks and libraries such as the LAMP stack, MEAN & MERN development, and open-source development. ",
+  image: "/assets/web-app.jpg",
+  alt: "web-app-development",
+};
+export const ListOfMobileService = {
+  heading: "Services We Offer",
+  title: "Mobile Application Development",
+  paragraph:
+    "ultroNeous is a leading mobile app development company in developing custom mobile apps with a variety of technological stacks. Our experienced team is innovative in creating mobile apps with exceptional user experience, great compatibility, and are bug-free. ultroNeous' developers use hybrid app development and native app development procedure to build mobile apps that are sturdy, reliable and efficient. ",
+  image: "/assets/mobile-app-development.svg",
+  alt: "mobile-app-development",
+};
+export const ListOfUiUxDesign = {
+  heading: "Services We Offer",
+  title: "UX / UI Design",
+  paragraph:
+    "Any website or application's success hinges on its ability to provide a positive user experience. Whether visitors stay or leave a website or application is entirely dependent on the UI/UX design. ultroNeous is a top UI UX development company that has provided innovative design services to a variety of business types. Our designers are meticulous in selecting appropriate UI UX features that give business web solutions rich and bespoke usability and user experience.",
+  image: "/assets/mobile-app-development.svg",
+  alt: "ui-ux-design",
+};
+export const ListOfDigitalMarketingService = {
+  heading: "Services We Offer",
+  title: "Digital Marketing",
+  paragraph:
+    "Digital Marketing is a strategy of promoting products and services by publishing relevant content and placing advertisements on various online platforms. Search engines, social media platforms, mobile applications, and websites are some of the most popular channels for digital marketing, often known as internet marketing. ultroNeous is a leading digital marketing agency that works for companies across the world to help them increase their revenue and improve their business online visibility.",
+  image: "/assets/mobile-app-development.svg",
+  alt: "digital-marketing",
+};
+export const ListQualitiesMobileAppDev = [
+  {
+    image: "/assets/MADT1.svg",
+    name: "Mobile App Design",
+    descreption:
+      "Design plays a significant part in the success of any mobile app! We've got the greatest designers on board!",
+  },
+  {
+    image: "/assets/MADT2.svg",
+    name: "Android Application",
+    descreption:
+      "Develop highly scalable and ever-demanding mobile applications with our native android application services.",
+  },
+  {
+    image: "/assets/MADT3.svg",
+    name: "iOS Application",
+    descreption:
+      "We got you covered from conceptualisation to the successful deployment on the App store with our iOS app development.",
+  },
+  {
+    image: "/assets/MADT4.svg",
+    name: "Cross-Platform Apps",
+    descreption:
+      "Cross-Platform & Hybrid apps are the most cost-efficient options for the businesses with a large customer base.",
+  },
+];
+export const ListQualitiesWebAppDev = [
+  {
+    image: "/assets/WEBD1.svg",
+    name: "Responsive",
+    descreption:
+      "We develop robust web applications that are compatible and easy to use with each and every device.",
+  },
+  {
+    image: "/assets/WEBD2.svg",
+    name: "CMS Based",
+    descreption:
+      "We have specialised resources to tackle any CMS web application development demands you have.",
+  },
+  {
+    image: "/assets/WEBD3.svg",
+    name: "eCommerce",
+    descreption:
+      "We build a custom, secure storefront for your brand that will enhance your customer's shopping experiences.",
+  },
+  {
+    image: "/assets/WEBD4.svg",
+    name: "Progressive",
+    descreption:
+      "We will make your brand stand out from the crowd by creating a Progressive web app that loads instantly.",
+  },
+];
+export const ListQualitiesUIUX = [
+  {
+    image: "/assets/uiuxq1.svg",
+    name: "User Research",
+    descreption:
+      "For a smooth user experience and future upgrades, we adopt a most comprehensive approach to UX research. ",
+  },
+  {
+    image: "/assets/uiuxq2.svg",
+    name: "Interface Design",
+    descreption:
+      "Our user interface design is demonstrated to improve business profitability and attract a large number of users.",
+  },
+  {
+    image: "/assets/uiuxq3.svg",
+    name: "Prototyping",
+    descreption:
+      "Prototyping is an important aspect of UI/UX design that allows us to test all of the features and functions of an app.",
+  },
+  {
+    image: "/assets/uiuxq4.svg",
+    name: "User Testing",
+    descreption:
+      "On a daily basis, we employ a variety of user testing techniques that assist us to improve our design ideas and processes",
+  },
+];
+export const ListQualitiesDigitalMarketing = [
+  {
+    image: "/assets/dmq1.svg",
+    name: "Content Marketing",
+    descreption:
+      "Content is King and we throw qualitative, structured and engaging content in the market that catches the user's attention.",
+  },
+  {
+    image: "/assets/dmq2.svg",
+    name: "eCommerce ",
+    descreption:
+      "Give wings to your eCommerce businesses with our remarkable & unmatchable eCommerce store optimisation services.",
+  },
+  {
+    image: "/assets/dmq3.svg",
+    name: "Email Marketing",
+    descreption:
+      "Reach a large number of inboxes with our custom email templates that will boost your revenue and customer base.",
+  },
+  {
+    image: "/assets/dmq4.svg",
+    name: "Local SEO",
+    descreption:
+      "Local SEO is the process of reaching clients in specific locations, and we are experts in ranking businesses at Local level.",
+  },
+];
 export const ArrayOfTalent = [
   "Exhilarating Work Culture",
   "Advanced Technology Stacks",

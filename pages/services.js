@@ -15,7 +15,13 @@ const CardServicesForMobile = (props) => {
   return (
     <Row className={styles.CardServiceSections}>
       {ArrayOfServices.map((values, index) => (
-        <Col key={index} xl={3} xs={12} className={styles.CardServiceCol}>
+        <Col
+          key={index}
+          xl={3}
+          xs={12}
+          md={6}
+          className={styles.CardServiceCol}
+        >
           <div className={styles.CardServiceIcon}>
             <Image alt="icons-for-services" src={values.icon} />
           </div>
@@ -73,7 +79,7 @@ function ServicePage() {
   const [mobileMode, setMobileMode] = useState(false);
 
   useEffect(() => {
-    window.innerWidth >= 320 && window.innerWidth <= 720
+    window.innerWidth >= 320 && window.innerWidth <= 1080
       ? setMobileMode(true)
       : setMobileMode(false);
   });

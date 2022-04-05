@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { Row, Col, Image } from "react-bootstrap";
 import styles from "@/styles/components/Footer.module.css";
 import { BsEnvelope } from "react-icons/bs";
@@ -110,19 +109,23 @@ function Footer({ FooterContainerStyle }) {
               <h3>Services</h3>
               <ul>
                 <li>
-                  <Link href="">Web Development</Link>
+                  <Link href="/web-application-development">
+                    Web Development
+                  </Link>
                 </li>
                 <li>
-                  <Link href="">Mobile Application</Link>
+                  <Link href="/mobile-application-development">
+                    Mobile Application
+                  </Link>
                 </li>
                 <li>
-                  <Link href="">UX/UI Design</Link>
+                  <Link href="/ui-ux-design">UX/UI Design</Link>
                 </li>
                 <li>
-                  <Link href="">Cloud & Devops</Link>
+                  <Link href="/cloud-and-devops">Cloud & Devops</Link>
                 </li>
                 <li>
-                  <Link href="">Digital Marketing</Link>
+                  <Link href="/digital-marketing">Digital Marketing</Link>
                 </li>
               </ul>
             </Col>

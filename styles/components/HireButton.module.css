@@ -1,0 +1,11 @@
+.HireButton,
+.ArrowHireIcon {
+  color: #eb9400;
+  cursor: pointer;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.ArrowHireIcon {
+  font-size: 40px;
+}
