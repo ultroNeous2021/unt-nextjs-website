@@ -175,7 +175,7 @@ function Footer({ FooterContainerStyle }) {
           xl={2}
           className={styles.QuickLinks}
         >
-          <h3>Our Newsletter</h3>
+          <h3 className={styles.OurNewsletter}>Our Newsletter</h3>
           <div className={styles.SignupForNewsLetterContainer}>
             <input
               className={styles.SignupForNewsLetterEmail}

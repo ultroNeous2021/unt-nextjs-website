@@ -6,7 +6,7 @@
 
 .WCLUContainer h3 {
   font-weight: bold;
-  font-size: 78px;
+  font-size: 65px;
   color: #fff;
 }
 
@@ -44,14 +44,14 @@
   }
 
   .WCLUText {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 824px) {
   .WCLUSlide {
-    height: 13em;
-    width: 13em !important;
+    height: 15em;
+    width: 15em !important;
   }
 
   .WCLUText {
@@ -61,15 +61,28 @@
 
 @media only screen and (min-width: 300px) and (max-width: 900px) {
   .WCLULeft h3 {
-    font-size: 65px;
+    font-size: 40px;
   }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 768px) {
+  .WCLUContainer {
+    padding: 3rem 0 3rem 1rem;
+  }
+
+  .WCLULeft {
+    padding: 0;
+    padding-right: 1rem;
+  }
+
   .WCLULeft {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3em;
+  }
+
+  .WCLURight {
+    padding: 0;
   }
 }
 
@@ -100,12 +113,12 @@
 
 @media only screen and (min-width: 300px) and (max-width: 470px) {
   .WCLULeft h3 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .WCLUSlide {
-    height: 9em;
-    width: 9em !important;
+    height: 11em;
+    width: 11em !important;
     padding: 0.5em;
   }
 
@@ -119,17 +132,9 @@
 }
 
 @media only screen and (min-width: 300px) and (max-width: 375px) {
-  .WCLULeft {
-    flex-direction: column;
-  }
-
-  .WCLULeft h3 {
-    font-size: 35px;
-  }
-
   .WCLUSlide {
-    height: 7em;
-    width: 7em !important;
+    height: 10em;
+    width: 10em !important;
   }
 
   .WCLUSlideBody {
@@ -137,11 +142,15 @@
   }
 
   .WCLUText {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .WCLUSlideBody img {
     width: 2em;
+  }
+
+  .WCLUArrows {
+    display: flex;
   }
 }
 

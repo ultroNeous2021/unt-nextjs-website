@@ -25,7 +25,7 @@
 }
 
 .ContactUsForm {
-  padding: 4rem 2.5rem;
+  padding: 2rem 2.5rem;
 }
 
 .InputBox {
@@ -84,12 +84,13 @@
   color: #1a1112;
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 0.4em;
+  margin-top: 1rem;
 }
 
 .SpaceLooking p {
   color: rgba(21, 20, 57, 0.4);
   font-size: 18px;
+  margin: 1rem 0 2rem 0;
 }
 
 .CheckboxSpace {
@@ -147,6 +148,7 @@
 
 .CheckboxFormContainer {
   margin: 0.5rem 0rem;
+  width: auto;
 }
 
 .SendButtonForm {
@@ -154,7 +156,7 @@
 }
 
 .WALAContainer {
-  padding: 8rem 2.5rem 0 2.5rem;
+  padding: 10rem 2.5rem 0 2.5rem;
 }
 
 .WALAContainer h1 {
@@ -302,6 +304,7 @@
   .ContactUsForm {
     padding: 0;
     margin: 0 1rem 2rem 1rem;
+    width: 87%;
   }
 
   .SpaceLooking {

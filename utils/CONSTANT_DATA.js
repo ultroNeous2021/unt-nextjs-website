@@ -61,27 +61,61 @@ export const WeExcelAtData = [
   {
     title: "Front End ",
     techs: [
-      <SiReact className={`${styles.React} ${styles.WeExcelIcons}`} key={1} />,
-      <IoLogoAngular
-        className={`${styles.Angular} ${styles.WeExcelIcons}`}
+      <Image
+        className="WeExcelAtIconsData"
+        key={1}
+        src="/assets/web1.png"
+        alt="reactjs"
+        onMouseEnter={(e) => (e.target.src = "/assets/webhover1.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/web1.png")}
+      />,
+      <Image
+        className="WeExcelAtIconsData"
         key={2}
+        src="/assets/web3.png"
+        alt="angular"
+        onMouseEnter={(e) => (e.target.src = "/assets/webhover3.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/web3.png")}
       />,
-      <RiVuejsLine
-        className={`${styles.Vue} ${styles.WeExcelIcons}`}
+      <Image
+        className="WeExcelAtIconsData"
         key={3}
+        src="/assets/web4.png"
+        alt="angular"
+        onMouseEnter={(e) => (e.target.src = "/assets/webhover4.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/web4.png")}
       />,
-      <SiHtml5 className={`${styles.Html} ${styles.WeExcelIcons}`} key={4} />,
-      <SiNextdotjs
-        className={`${styles.Next} ${styles.WeExcelIcons}`}
+      <Image
+        className="WeExcelAtIconsData"
+        key={4}
+        src="/assets/web2.png"
+        alt="html5"
+        onMouseEnter={(e) => (e.target.src = "/assets/webhover2.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/web2.png")}
+      />,
+      <Image
+        className="WeExcelAtIconsData"
         key={5}
+        src="/assets/web5.png"
+        alt="nextjs"
+        onMouseEnter={(e) => (e.target.src = "/assets/webhover5.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/web5.png")}
       />,
-      <SiGatsby
-        className={`${styles.Gatsby} ${styles.WeExcelIcons}`}
+      <Image
+        className="WeExcelAtIconsData"
         key={6}
+        src="/assets/web6.png"
+        alt="gatsby"
+        onMouseEnter={(e) => (e.target.src = "/assets/webhover6.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/web6.png")}
       />,
-      <SiNuxtdotjs
-        className={`${styles.Nuxt} ${styles.WeExcelIcons}`}
+      <Image
+        className="WeExcelAtIconsData"
         key={7}
+        src="/assets/web7.png"
+        alt="nuxtjs"
+        onMouseEnter={(e) => (e.target.src = "/assets/webhover7.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/web7.png")}
       />,
     ],
     techsname: ["React", "Angular", "Vue", "HTML5", "Next", "Gatsby", "Nuxt"],
@@ -89,27 +123,61 @@ export const WeExcelAtData = [
   {
     title: "Back End ",
     techs: [
-      <FaNodeJs className={`${styles.Node} ${styles.WeExcelIcons}`} key={1} />,
-      <SiLaravel
-        className={`${styles.Laravel} ${styles.WeExcelIcons}`}
+      <Image
+        className="WeExcelAtIconsData"
+        key={1}
+        src="/assets/backend1.png"
+        alt="reactjs"
+        onMouseEnter={(e) => (e.target.src = "/assets/backendhover1.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/backend1.png")}
+      />,
+      <Image
+        className="WeExcelAtIconsData"
         key={2}
+        src="/assets/backend2.png"
+        alt="angular"
+        onMouseEnter={(e) => (e.target.src = "/assets/backendhover2.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/backend2.png")}
       />,
-      <SiPhp className={`${styles.Php} ${styles.WeExcelIcons}`} key={3} />,
-      <SiCodeigniter
-        className={`${styles.Codeigniter} ${styles.WeExcelIcons}`}
+      <Image
+        className="WeExcelAtIconsData"
+        key={3}
+        src="/assets/backend3.png"
+        alt="angular"
+        onMouseEnter={(e) => (e.target.src = "/assets/backendhover3.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/backend3.png")}
+      />,
+      <Image
+        className="WeExcelAtIconsData"
         key={4}
+        src="/assets/backend4.png"
+        alt="html5"
+        onMouseEnter={(e) => (e.target.src = "/assets/backendhover4.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/backend4.png")}
       />,
-      <SiMagento
-        className={`${styles.Magento} ${styles.WeExcelIcons}`}
+      <Image
+        className="WeExcelAtIconsData"
         key={5}
+        src="/assets/backend5.png"
+        alt="nextjs"
+        onMouseEnter={(e) => (e.target.src = "/assets/backendhover5.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/backend5.png")}
       />,
-      <SiWordpress
-        className={`${styles.Wordpress} ${styles.WeExcelIcons}`}
+      <Image
+        className="WeExcelAtIconsData"
         key={6}
+        src="/assets/backend6.png"
+        alt="gatsby"
+        onMouseEnter={(e) => (e.target.src = "/assets/backendhover6.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/backend6.png")}
       />,
-      <SiShopify
-        className={`${styles.Shopify} ${styles.WeExcelIcons}`}
+      <Image
+        className="WeExcelAtIconsData"
         key={7}
+        src="/assets/backend7.png"
+        alt="nuxtjs"
+        onMouseEnter={(e) => (e.target.src = "/assets/backendhover7.png")}
+        onMouseLeave={(e) => (e.target.src = "/assets/backend7.png")}
       />,
     ],
     techsname: [
@@ -495,27 +563,47 @@ export const AboutUsCounter = [
   {
     end: 2020,
     sign: "",
-    title: "Year Founded",
+    title: (
+      <>
+        <p className="m-0 ">Year</p> <p className="m-0"> Founded </p>
+      </>
+    ),
   },
   {
     end: 2,
     sign: "+",
-    title: "Global Branches",
+    title: (
+      <>
+        <p className="m-0 ">Global</p> <p className="m-0"> Branches </p>
+      </>
+    ),
   },
   {
     end: 10,
     sign: "+",
-    title: "Industries Served",
+    title: (
+      <>
+        <p className="m-0 ">Industries</p> <p className="m-0"> Served </p>
+      </>
+    ),
   },
   {
     end: 20,
     sign: "+",
-    title: "Technology Verticles",
+    title: (
+      <>
+        <p className="m-0 ">Technology</p> <p className="m-0"> Verticles </p>
+      </>
+    ),
   },
   {
     end: 99,
     sign: "%",
-    title: "Employee Retention",
+    title: (
+      <>
+        <p className="m-0 ">Employee</p> <p className="m-0"> Retention </p>
+      </>
+    ),
   },
 ];
 
@@ -599,45 +687,45 @@ export const CareersData = [
   },
 ];
 
-// export const FeelTheCultureData = [
-//   {
-//     image: Shiv1,
-//     name: "Shiv Desai (Digital Marketing Manager | India) ",
-//     details:
-//       "Changing my job from a sales marketing field to Online marketing was a tough  call for me but  I prepared myself as I was a fresher in the field there were no good  responses for me. Then I was  interviewed at ultroNeous  and they gave me an opportunity to prove  myself. My first  3 months  were struggling  as I was not able to cope-up but everyone here believed in me and over the time I am improving and also  proving myself  ",
-//   },
-//   {
-//     image: Malav1,
-//     name: "Malav Kargathra (Business Development Consultant | India) ",
-//     details:
-//       "Probably the best place to spark off your career. I changed my field from SEO to Sales but got an overwhelming response from the organisation. Management finds credence in me and I got opportunity to demonstrate my skills. The company culture is the perfect representative of  Do things that makes you happy. ",
-//   },
-//   {
-//     image: Vibha1,
-//     name: "Vibha Ojha (UX/UI Designer | India)",
-//     details: `What I really appreciate about working at ultroNeous is how the entire team is wholeheartedly interested and passionate about their work & skills. The authenticity & values of the company is what making it succeeding everyday. I am really grateful for becoming an ultroNeour!!`,
-//   },
+export const FeelTheCultureData = [
+  {
+    image: "/assets/Shiv1.png",
+    name: "Shiv Desai (Digital Marketing Manager | India) ",
+    details:
+      "Changing my job from a sales marketing field to Online marketing was a tough  call for me but  I prepared myself as I was a fresher in the field there were no good  responses for me. Then I was  interviewed at ultroNeous  and they gave me an opportunity to prove  myself. My first  3 months  were struggling  as I was not able to cope-up but everyone here believed in me and over the time I am improving and also  proving myself  ",
+  },
+  {
+    image: "/assets/Malav1.png",
+    name: "Malav Kargathra (Business Development Consultant | India) ",
+    details:
+      "Probably the best place to spark off your career. I changed my field from SEO to Sales but got an overwhelming response from the organisation. Management finds credence in me and I got opportunity to demonstrate my skills. The company culture is the perfect representative of  Do things that makes you happy. ",
+  },
+  {
+    image: "/assets/Vibha1.png",
+    name: "Vibha Ojha (UX/UI Designer | India)",
+    details: `What I really appreciate about working at ultroNeous is how the entire team is wholeheartedly interested and passionate about their work & skills. The authenticity & values of the company is what making it succeeding everyday. I am really grateful for becoming an ultroNeour!!`,
+  },
 
-//   {
-//     image: Sachin1,
-//     name: "Sachin Padhiyar (Project Manager | India)  ",
-//     details:
-//       "I'm thrilled to be part of a growing organization. I have a background in engineering and have experienced sales and marketing. However, this role gave some success but it wasn't my cup of tea. But,  my mentor & CEO of ultroNeous Technologies, Mr. Pathik Shah guided me, believed in me and offered a role of Project Manager that is perfect fit for me and I grateful by doing things that I exactly wanted to do!!",
-//   },
+  {
+    image: "/assets/Sachin1.png",
+    name: "Sachin Padhiyar (Project Manager | India)  ",
+    details:
+      "I'm thrilled to be part of a growing organization. I have a background in engineering and have experienced sales and marketing. However, this role gave some success but it wasn't my cup of tea. But,  my mentor & CEO of ultroNeous Technologies, Mr. Pathik Shah guided me, believed in me and offered a role of Project Manager that is perfect fit for me and I grateful by doing things that I exactly wanted to do!!",
+  },
 
-//   {
-//     image: Akshay1,
-//     name: "Akshay Mungalpara (Mobile Developer | India)  ",
-//     details:
-//       "I started my journey with ultroNeous Technologies as mobile developer intern. I got many challenging tasks that took my skill levels to the whole different level and that level was appreciated by the organisation and I was promoted as full-time employee in just 1 month of short time. Environment, culture & work-ethics are so good that I will not have any thought of changing the organisation.",
-//   },
-//   {
-//     image: Sandeep1,
-//     name: "Sandeep Modi (Full Stack Developer | India)  ",
-//     details:
-//       "I started my career as a React.js Frontend Developer and after having some experience, I wanted to explore backend part. ultroNeous Technologies provided that opportunity and I joined as full-stack developer. I learned MERN stack development and got really good support and guidance from each and every team members. ",
-//   },
-// ];
+  {
+    image: "/assets/Akshay1.png",
+    name: "Akshay Mungalpara (Mobile Developer | India)  ",
+    details:
+      "I started my journey with ultroNeous Technologies as mobile developer intern. I got many challenging tasks that took my skill levels to the whole different level and that level was appreciated by the organisation and I was promoted as full-time employee in just 1 month of short time. Environment, culture & work-ethics are so good that I will not have any thought of changing the organisation.",
+  },
+  {
+    image: "/assets/Sandeep1.png",
+    name: "Sandeep Modi (Full Stack Developer | India)  ",
+    details:
+      "I started my career as a React.js Frontend Developer and after having some experience, I wanted to explore backend part. ultroNeous Technologies provided that opportunity and I joined as full-stack developer. I learned MERN stack development and got really good support and guidance from each and every team members. ",
+  },
+];
 
 export const ContactUsFormCheckboxData = {
   developersData: [

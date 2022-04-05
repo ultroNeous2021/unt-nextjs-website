@@ -101,6 +101,8 @@
 /* --- */
 .CardServiceCol {
   padding-top: 2.5rem;
+  padding-left: 0rem;
+  margin-bottom: 1rem;
 }
 .CardServiceSections {
   background: #1a1112;
@@ -138,7 +140,7 @@
   justify-content: center;
   text-align: center;
   background: #1a1112;
-  padding: 4rem 2.5rem 4rem 2.5rem;
+  padding: 0.2rem 2.5rem 0rem 2.5rem;
   margin: 0%;
 }
 
@@ -146,7 +148,7 @@
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   color: #ffffff;
 }
@@ -157,7 +159,7 @@
   display: flex;
   text-align: center;
   background: #1a1112;
-  padding: 4rem 2.5rem 4rem 2.5rem;
+  padding: 5rem 2.5rem 5rem 2.5rem;
 }
 
 .NotSureParagraph {
@@ -173,19 +175,21 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: 1rem;
 }
 @media (min-width: 320px) and (max-width: 430px) {
+  .HeadPragraphSectionService {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+
   .CardServiceSections {
-    padding: 4rem 1rem 4rem 1rem;
+    padding: 2rem 1rem 4rem 1rem;
   }
   .ServiceHeaderHeadingMain {
     font-size: 55px;
   }
   .ServiceHeaderRow {
     padding-left: 0%;
-  }
-  .HeadPragraphSectionService {
-    padding: 4rem 1rem 4rem 1rem;
   }
 
   .Headerpragraphservices {
@@ -197,13 +201,18 @@
   .NotSureContainer {
     justify-content: center;
     text-align: left;
-    padding: 4rem 1rem 4rem 1rem;
+    padding: 2rem 1rem 4rem 1rem;
+  }
+
+  .NotSureParagraphCol {
+    padding-left: 0;
   }
   .NotSureParagraph {
     font-size: 24px;
   }
   .NotSureButton {
     justify-content: start;
+    padding-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {

@@ -24,11 +24,15 @@
   color: #ffffff;
 }
 
+.WhyClientChooseImage {
+  padding: 0;
+}
+
 /* BOOTSTRAP MEDIA QUERIES */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 320px) and (max-width: 430px) {
   .WhyClientChooseContainer {
-    padding: 4rem 0rem 4rem 1rem;
+    padding: 4rem 0rem 4rem 0rem;
   }
   .WhyClientChooseHead {
     justify-content: start;
@@ -37,6 +41,7 @@
     padding-left: 0%;
     font-size: 36px;
     text-align: left;
+    padding-left: 1rem;
   }
 }
 

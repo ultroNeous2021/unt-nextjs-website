@@ -13,17 +13,18 @@
   align-items: center;
 }
 
-
-
 /* media queries */
-@media (min-width:320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 430px) {
   .ButtonYellowFilled {
-    width: 14rem;
+    width: 11rem;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1080px) {}
+@media (min-width: 768px) and (max-width: 1080px) {
+}
 
-@media (min-width: 1200px) and (max-width: 1730px) {}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
 
-@media (min-width: 650px) and (max-width: 740px) {}
+@media (min-width: 650px) and (max-width: 740px) {
+}

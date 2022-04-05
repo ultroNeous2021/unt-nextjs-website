@@ -32,23 +32,10 @@
   align-items: center;
 }
 
-/* @media only screen and (max-width: 992px) {
-  .CounterContainer {
-    padding: 4rem 2.5rem;
-  }
-
-  .CounterComponentCol {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem 0;
-  }
-} */
-
 @media (min-width: 320px) and (max-width: 430px) {
   .CounterContainer {
     justify-content: initial;
+    padding: 0;
   }
 
   .Counter,
@@ -58,16 +45,21 @@
 
   .CounterComponentCol {
     align-items: initial;
+    justify-content: center;
+    padding: 1rem;
   }
 
   .CounterContainerMain {
     text-align: center;
   }
 
+  .CounterContainerMainDiv {
+    text-align: left;
+  }
+
   .CounterText {
     font-size: 19px;
     text-align: left;
-    margin-left: 2rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {

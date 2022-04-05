@@ -3,7 +3,7 @@ import { Accordion, Col, Image, Row } from "react-bootstrap";
 import styles from "@/styles/CareersPage.module.css";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
 import ClientTestimonialSlider from "@/components/Slider/ClientTestimonialSlider";
-import { CareersData, TestimonialsSliderData } from "utils/CONSTANT_DATA";
+import { CareersData, FeelTheCultureData } from "utils/CONSTANT_DATA";
 import { IoIosArrowForward } from "react-icons/io";
 import { useEffect, useState } from "react";
 
@@ -29,8 +29,8 @@ function CareersPage() {
         heading={"Feel the culture in their words"}
       />
       <ClientTestimonialSlider
-        data={TestimonialsSliderData}
-        css={{ paddingTop: "1rem" }}
+        data={FeelTheCultureData}
+        css={{ paddingTop: "0rem" }}
       />
       <div className={styles.CareerMapImage}>
         <img src={"/assets/map.png"} alt="Map-image" />
@@ -190,20 +190,17 @@ function CareersPage() {
           </>
         ) : (
           <Row className={styles.WTOOImagesContainer}>
-            <Col xs={12} sm={12} md={6} lg={2} className={styles.CareersImage}>
+            <Col xs={12} sm={12} md={6} lg={3} className={styles.CareersImage}>
               <Image src={"/assets/WTOO1.png"} alt="Careersimage" />
             </Col>
-            <Col xs={12} sm={12} md={6} lg={2} className={styles.CareersImage}>
+            <Col xs={12} sm={12} md={6} lg={3} className={styles.CareersImage}>
               <Image src={"/assets/WTOO2.png"} alt="Careersimage" />
             </Col>
-            <Col xs={12} sm={12} md={6} lg={2} className={styles.CareersImage}>
+            <Col xs={12} sm={12} md={6} lg={3} className={styles.CareersImage}>
               <Image src={"/assets/WTOO3.png"} alt="Careersimage" />
             </Col>
-            <Col xs={12} sm={12} md={6} lg={2} className={styles.CareersImage}>
+            <Col xs={12} sm={12} md={6} lg={3} className={styles.CareersImage}>
               <Image src={"/assets/WTOO4.png"} alt="Careersimage" />
-            </Col>
-            <Col xs={12} sm={12} md={6} lg={2} className={styles.CareersImage}>
-              <Image src={"/assets/WTOO5.png"} alt="Careersimage" />
             </Col>
           </Row>
         )}

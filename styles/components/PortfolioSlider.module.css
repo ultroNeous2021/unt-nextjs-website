@@ -38,7 +38,7 @@
   z-index: 3;
 }
 
-.Portfolio-Slider-Container {
+.PortfolioSliderContainer {
   width: 80%;
 }
 .PortfolioSlide {
@@ -142,8 +142,8 @@
     padding: 0 auto;
   }
 
-  .Portfolio-Slide {
-    width: 100% !important;
+  .PortfolioSlide {
+    width: 97% !important;
   }
 
   .PortfolioSliderArrows {
@@ -274,7 +274,7 @@
 
 @media only screen and (min-width: 300px) and (max-width: 725px) {
   .PortfolioSliderContainerBlack {
-    height: 45em !important;
+    height: 38em !important;
   }
 }
 
@@ -290,19 +290,19 @@
   }
 
   .PortfolioSliderArrows {
-    bottom: 20em;
-    left: 57%;
+    bottom: 25em;
+    left: 63%;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1080px) {
   .PortfolioSlide {
-    width: 85% !important;
+    width: 93% !important;
   }
 
   .PortfolioSliderArrows {
     left: 65%;
-    bottom: 42em;
+    bottom: 47em;
   }
 
   .PortfolioSliderArrows img {
@@ -316,7 +316,7 @@
   }
 
   .PortfolioDetails h3 {
-    font-size: 30px;
+    font-size: 29px;
   }
 
   .PortfolioBlackSlider {

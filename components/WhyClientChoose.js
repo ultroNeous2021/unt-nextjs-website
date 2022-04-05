@@ -1,7 +1,7 @@
 import { Image, Row } from "react-bootstrap";
 import styles from "@/styles/components/WhyClientChoose.module.css";
 import { useEffect, useState } from "react";
-const WhyClientChoose = () => {
+const WhyClientChoose = ({ css }) => {
   const [image, setImage] = useState("/assets/why-client-choose-us.png");
 
   useEffect(() => {
@@ -11,7 +11,7 @@ const WhyClientChoose = () => {
   });
 
   return (
-    <div className={styles.WhyClientChooseContainer}>
+    <div className={styles.WhyClientChooseContainer} style={css ? css : null}>
       <Row className="mx-0 justify-content-center">
         <h3
           data-aos="zoom-in"
@@ -22,7 +22,11 @@ const WhyClientChoose = () => {
         </h3>
       </Row>
       <Row className="mx-0">
-        <Image src={image} alt="why client choose us" />
+        <Image
+          className={styles.WhyClientChooseImage}
+          src={image}
+          alt="why client choose us"
+        />
       </Row>
     </div>
   );

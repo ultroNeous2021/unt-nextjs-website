@@ -54,7 +54,7 @@
   font-size: 80px;
   font-weight: 700;
   padding-top: 2rem;
-  font-family: poppins;
+  font-family: "Poppins", sans-serif;
 }
 @media (min-width: 320px) and (max-width: 430px) {
   .Team {

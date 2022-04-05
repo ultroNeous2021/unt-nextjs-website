@@ -68,6 +68,7 @@
 @media (min-width: 320px) and (max-width: 430px) {
   .ClientTestimonialSliderContainer {
     padding: 4rem 1rem;
+    padding-top: 0;
   }
 
   .SlideContainer {

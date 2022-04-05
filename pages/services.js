@@ -109,7 +109,7 @@ function ServicePage() {
       {mobileMode ? <CardServicesForMobile /> : <CardServicesForDesk />}
       {/* Not sure.... */}
       <Row className={styles.NotSureContainer}>
-        <Col sm={12}>
+        <Col sm={12} className={styles.NotSureParagraphCol}>
           <p className={styles.NotSureParagraph}>
             Not sure what service you need?
             <br />
@@ -124,7 +124,7 @@ function ServicePage() {
       </Row>
       <HorizontalTab data={WeExcelAtData} title={"We Excel At"} />
       <PortfolioSlider />
-      <WhyClientChoose />
+      <WhyClientChoose css={{ paddingTop: 0 }} />
       <Verticals />
     </Layout>
   );

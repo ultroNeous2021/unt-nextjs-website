@@ -43,35 +43,6 @@
   margin: 0%;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
-  .PagesHeader {
-    padding-bottom: 0rem;
-    height: 40vh;
-    padding-left: 1rem;
-  }
-
-  .PagesHeader div p {
-    font-size: 24px;
-  }
-
-  .PagesHeader div h1 {
-    font-size: 44px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1080px) {
-  .PagesHeader {
-    height: 30vh;
-  }
-
-  .PagesHeader div p {
-    font-size: 24px;
-  }
-
-  .PagesHeader div h1 {
-    font-size: 45px;
-  }
-}
-
 /* A place for Expanding Horizons and Team Building */
 .PlaceForContainer {
   padding: 4rem 2.5rem 8rem 2.5rem;
@@ -115,7 +86,7 @@
 }
 
 .AboutUsImages {
-  padding: 0 2.5rem;
+  padding: 0 2rem;
   background-color: #1a1112;
 }
 .AboutUsRowMargin {
@@ -191,11 +162,11 @@
 }
 
 .WDTCUlist {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   font-family: Outfit;
   font-style: normal;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 18px;
   color: #1a1112;
 }
 
@@ -211,27 +182,43 @@
 
 /* media queries */
 @media (min-width: 320px) and (max-width: 430px) {
+  .PagesHeader {
+    padding-bottom: 0rem;
+    height: 40vh;
+    padding-left: 1rem;
+  }
+
+  .PagesHeader div p {
+    font-size: 20px;
+  }
+
+  .PagesHeader div h1 {
+    font-size: 40px;
+  }
+
   .ImgHeight {
     height: 2.5rem;
   }
   .UltroneousHContainer h2 {
     margin: 0%;
-    font-size: 59px;
+    font-size: 54px;
     padding-left: 1rem;
   }
-  .PlaceForContainer {
-    justify-content: start;
-    padding: 4rem 0rem 4rem 0rem;
-  }
+
   .PlaceForParagraph {
+    padding-top: 3rem;
     width: 100%;
   }
   .PlaceForContainer {
-    padding: 4rem 1rem 4rem 1rem;
+    padding: 2rem 1rem;
 
     justify-content: start;
     flex-direction: column;
     align-items: left;
+  }
+
+  .PlaceForContainerCol {
+    padding: 0;
   }
 
   .AboutUsImages {
@@ -243,15 +230,18 @@
     font-size: 1.5rem;
   }
   .ValuesContainer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 0%;
-    padding-right: 0%;
+    padding: 3rem 0;
   }
+
+  .ParagraphValue {
+    padding-top: 0;
+  }
+
   .ValueHeading {
     padding-top: 0%;
     font-size: 36px;
   }
+
   .WDTCUContainer {
     padding: 6rem 1rem 6rem 1rem;
   }
@@ -275,6 +265,14 @@
 }
 
 @media (min-width: 768px) and (max-width: 1080px) {
+  .PagesHeader {
+    height: 30vh;
+  }
+
+  .PagesHeader div p {
+    font-size: 24px;
+  }
+
   .UltroneousHContainer h2 {
     font-weight: 700;
     color: #e49b00;

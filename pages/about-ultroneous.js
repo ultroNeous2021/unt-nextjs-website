@@ -6,15 +6,11 @@ import { TestimonialsSliderData } from "utils/CONSTANT_DATA";
 import YellowFilledWhiteButton from "@/components/YellowFilledWhiteButton";
 import styles from "@/styles/AboutPage.module.css";
 import girlStyle from "@/styles/components/GirlsOnCounter.module.css";
-import backContain from "@/styles/components/BackContain.module.css";
 import { useEffect, useRef, useState } from "react";
 import { Card, Col, Image, Row } from "react-bootstrap";
 import { BsDot } from "react-icons/bs";
-import Slider from "react-slick";
 import { AboutUsCounter } from "utils/CONSTANT_DATA";
-import { ArrayOfTalent } from "utils/DataList/listOfData";
 import WhyClientLoveUs from "@/components/Slider/WhyClientLoveUs";
-import CheckboxComponent from "@/components/CheckboxComponent";
 function AboutUltroneousPage() {
   const SliderData = [
     {
@@ -74,7 +70,14 @@ function AboutUltroneousPage() {
       </div>
       {/*---------- A place for Expanding Horizons and Team Building -----------*/}
       <Row className={styles.PlaceForContainer}>
-        <Col sm={8} xl={8} xs={12} md={12} lg={8}>
+        <Col
+          sm={8}
+          xl={8}
+          xs={12}
+          md={12}
+          lg={8}
+          className={styles.PlaceForContainerCol}
+        >
           <h2 className={styles.PlaceForHeading}>
             A place for Expanding
             <br />
@@ -176,13 +179,8 @@ function AboutUltroneousPage() {
           <Image src="/assets/girl-on-counter.svg" alt="girl-on-counter" />
         </Col>
         <CounterComponent
-          style={{
-            borderRadius: "20px",
-            paddingBottom: "5rem",
-            paddingLeft: "0",
-            textAlign: "center",
-          }}
           data={AboutUsCounter}
+          style={{ borderRadius: "20px" }}
         />
       </Row>
       {/*---------- Why does talent choose us? ----------*/}
@@ -257,7 +255,6 @@ function AboutUltroneousPage() {
           <YellowFilledWhiteButton val={"Check out Careers"} arrow={true} />
         </div>
       </div>
-      <CheckboxComponent htmlId={"val"} />
     </Layout>
   );
 }

@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import styles from "@/styles/components/WhyClientLoveUs.module.css";
 
@@ -28,7 +28,7 @@ function WhyClientLoveUs() {
     },
   ];
 
-  let settings = {
+  const [settingsForSlider, setSettingsForSlider] = useState({
     infinite: true,
     arrows: false,
     speed: 500,
@@ -36,17 +36,17 @@ function WhyClientLoveUs() {
     slidesToScroll: 1,
     // centerMode: true,
     // centerPadding: "60px",
-  };
+  });
 
-  useEffect(() => {
+  let settings = useEffect(() => {
     if (window.innerWidth < 1150) {
-      settings = {
+      setSettingsForSlider({
         infinite: true,
         arrows: false,
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 1,
-      };
+      });
     }
   }, []);
 
@@ -73,7 +73,10 @@ function WhyClientLoveUs() {
           </div>
         </Col>
         <Col xs={12} sm={12} md={8} className={styles.WCLURight}>
-          <Slider ref={(slider) => (WCLUSlider.current = slider)} {...settings}>
+          <Slider
+            ref={(slider) => (WCLUSlider.current = slider)}
+            {...settingsForSlider}
+          >
             {SliderData.map((el, ind) => (
               <Card className={styles.WCLUSlide} key={ind}>
                 <Card.Body className={styles.WCLUSlideBody}>

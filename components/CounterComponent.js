@@ -21,7 +21,7 @@ function CounterComponent(props) {
   }, []);
 
   return (
-    <div ref={countRef}>
+    <div ref={countRef} className="px-0">
       {load && (
         <Row
           id="CounterComponent"
@@ -32,14 +32,14 @@ function CounterComponent(props) {
             <Col
               data-aos="zoom-in"
               data-aos-duration="2000"
-              xs={6}
-              sm={6}
+              xs={4}
+              sm={4}
               lg={2}
               className={styles.CounterComponentCol}
               key={ind}
             >
               <div className={styles.CounterContainerMain}>
-                <div>
+                <div className={styles.CounterContainerMainDiv}>
                   <CountUp
                     className={styles.Counter}
                     start={isOnScreen ? 5 : null}

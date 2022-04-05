@@ -29,7 +29,11 @@
   background: #1b1414;
   color: #fff;
   padding: 4rem 2.5rem 4rem 2.5rem;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.FooterIcon {
+  max-width: 12.5rem;
 }
 
 .IconListContain {
@@ -180,6 +184,10 @@
 .Ultroneous-Call-Mail-Text a {
   margin-left: 1em;
   font-size: 16px;
+}
+
+.OurNewsletter {
+  margin-top: 0.7rem;
 }
 
 /* BOOTSTRAP MEDIA QUERIES */

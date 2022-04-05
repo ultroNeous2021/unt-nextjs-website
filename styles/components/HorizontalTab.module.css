@@ -37,7 +37,7 @@
   font-weight: 700;
   color: #1a1112;
   -webkit-text-stroke: 1px #fff;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 .HorizontalTabDiv {

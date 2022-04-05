@@ -40,6 +40,10 @@ a {
   background: #fff !important;
 }
 
+.ant-tabs-content-holder {
+  min-height: 18rem !important;
+}
+
 .ant-tabs-content {
   width: 94% !important;
   margin: 0 auto;
@@ -247,4 +251,8 @@ option {
   .WeExcelAtIconsData {
     width: 60%;
   }
+}
+
+.Hire:checked {
+  background: #1a1112;
 }
