@@ -1,0 +1,165 @@
+.OurTeamSliderContainer {
+  padding-bottom: 4rem;
+}
+
+.Slide {
+  background: rgba(26, 17, 18, 1);
+  padding: 6rem 0;
+}
+
+.SlideRow {
+  margin: 0;
+  background: rgba(49, 41, 42, 1);
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.SlideNameCol {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  padding: 1.2rem 0 0 3rem;
+  margin-bottom: 0;
+}
+
+.SlideNameCol h2,
+.QuoteIcon {
+  color: #31292a;
+  -webkit-text-stroke: 1px rgba(228, 155, 0, 1);
+}
+
+.SlideNameCol h2 {
+  font-size: 100px;
+  font-weight: 600;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+
+.SlideNameCol p {
+  font-size: 26px;
+  font-weight: 400;
+  color: rgba(228, 155, 0, 1);
+}
+
+.SlideQuoteCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.QuoteContainer {
+  width: 80%;
+}
+
+.QuoteDiv {
+  margin-bottom: 1rem;
+  width: 3rem;
+}
+
+.QuoteDiv img {
+  width: 100%;
+  height: auto;
+}
+
+.SlideQuoteCol p {
+  font-size: 35px;
+  color: rgba(228, 155, 0, 1);
+}
+
+.ImageDiv {
+  position: relative;
+  height: 100%;
+}
+
+.ImageDiv img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -6.5rem;
+  max-height: 430px;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .Slide {
+    padding: 0;
+  }
+
+  .SlideRow h2 {
+    color: #31292a;
+    -webkit-text-stroke: 1px rgba(228, 155, 0, 1);
+    font-size: 80px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .SlideNameCol p {
+    margin-bottom: 1.5rem;
+  }
+
+  .QuoteDiv {
+    width: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .QuoteContainer {
+    width: 100%;
+  }
+
+  .SlideQuoteCol {
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+  .SlideQuoteCol p {
+    font-size: 20px;
+  }
+
+  .SlideImageCol,
+  .ImageDiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .ImageDiv {
+    position: static;
+  }
+
+  .ImageDiv img {
+    position: static;
+    max-height: 300px;
+    left: 28%;
+    top: 3rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .SlideNameCol {
+    padding: 1.2rem 0 0 2rem;
+  }
+
+  .SlideNameCol h2 {
+    font-size: 70px;
+  }
+
+  .SlideNameCol p,
+  .SlideQuoteCol p {
+    font-size: 22px;
+  }
+
+  .QuoteDiv {
+    width: 2rem;
+  }
+
+  .ImageDiv img {
+    max-height: 347px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 765px) {
+}

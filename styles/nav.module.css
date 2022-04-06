@@ -1,0 +1,21 @@
+.BurgerMenuCheckbox {
+  appearance: none;
+}
+
+.Line {
+  height: 0.3rem;
+  margin: 0.5rem 0;
+  background: #000;
+}
+
+.LineOne {
+  width: 2.5rem;
+}
+
+.LineTwo {
+  width: 2.1rem;
+}
+
+.LineThree {
+  width: 1.5rem;
+}

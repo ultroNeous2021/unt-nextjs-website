@@ -44,12 +44,12 @@
 }
 .DetailSectionDetails {
   color: #fff;
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 600;
 }
 .DetailSectionImage {
   padding-top: 4rem;
-  /* height: 13rem; */
+  height: 13rem;
 }
 .DetailBtn {
   padding-top: 8rem;

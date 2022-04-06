@@ -761,3 +761,19 @@ export const ContactUsFormCheckboxData = {
   ],
   othersData: ["UI/UX Designer", "Quality Analyst", "Digital Marketing"],
 };
+
+export const OurTeamSliderData = [
+  {
+    name: "Pathik Shah",
+    title: "Founder & CEO",
+
+    image: "/assets/pathikshah.png",
+    quote: "Set the unrealistic goals, you always will be ahead!!!",
+  },
+  {
+    name: "Jinesh Shah",
+    title: "Executive Director",
+    image: "/assets/jineshshah.png",
+    quote: "Getting satisfied kills the Growth of person...!",
+  },
+];

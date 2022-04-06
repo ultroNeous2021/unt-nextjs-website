@@ -280,3 +280,38 @@ option {
 
   border-color: #fff #fff #000 #fff !important;
 }
+
+/* ============================================= OUR TEAM - MAIN SLIDER ============================================= */
+
+.carousel-indicators {
+  position: absolute !important;
+  right: initial !important;
+  bottom: 11rem !important;
+  left: 70.5% !important;
+  z-index: 2 !important;
+  display: flex !important;
+  padding: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  list-style: none !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  opacity: 1 !important;
+  width: 15px !important;
+  border-bottom: 0 !important;
+  border-top: 0 !important;
+}
+
+.carousel-indicators .active {
+  width: 35px !important;
+  background: #e49b00 !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .carousel-indicators {
+    left: 3.5% !important;
+    bottom: 5.4rem !important;
+  }
+}

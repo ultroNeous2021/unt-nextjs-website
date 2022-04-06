@@ -2,11 +2,15 @@ import Layout from "@/components/Layout";
 import { Col, Image, Row } from "react-bootstrap";
 import { TeamAList, TeamGList, Teamlist } from "utils/DataList/listOfData";
 import styles from "@/styles/MeetOurTeam.module.css";
+import OurTeamSlider from "@/components/Slider/OurTeamSlider";
+import PagesHeaderComponent from "@/components/PagesHeaderComponent";
 
 const MeetOurTeam = () => {
   return (
     <Layout>
+      <PagesHeaderComponent text={"ultroNeous"} heading={"Meet our Pillars"} />
       <div className={styles.Teamcontainer}>
+        <OurTeamSlider />
         <Row>
           <h2 className={styles.Teamheading}>The Front Runner</h2>
 
