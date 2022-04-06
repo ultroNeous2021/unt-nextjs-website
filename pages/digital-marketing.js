@@ -8,6 +8,7 @@ import {
   ListOfDigitalMarketingService,
 } from "utils/DataList/listOfData";
 import ServicesHeader from "@/components/ServicesHeader";
+import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 const DigitalMarketing = () => {
   return (
     <Layout>
@@ -18,16 +19,16 @@ const DigitalMarketing = () => {
         paragraph={ListOfDigitalMarketingService.paragraph}
         image={ListOfDigitalMarketingService.image}
         alt={ListOfDigitalMarketingService.alt}
-        linkToNextService={"mobile-application-development"}
+        linkToNextService={"ui-ux-design"}
       />
       <QualitiesSection QualitiesList={ListQualitiesDigitalMarketing} />
-      <PortfolioSlider />
       <HorizontalTabService
         heading="Mobile Application Development
-          Technologies Expertise"
+        Technologies Expertise"
         Technology={DigitalMarketingExpertise}
         hireButton
       />
+      <PortfolioSlider />
       <ChooseAsPerYourNeedSection />
     </Layout>
   );

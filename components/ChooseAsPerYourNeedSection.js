@@ -1,6 +1,6 @@
 import YellowFilledWhiteButton from "./YellowFilledWhiteButton";
 
-import styles from "@/styles/Capyn.module.css";
+import styles from "@/styles/ChooseAsPerYourNeedSection.module.css";
 import { Col, Image, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { ChooseAsPerYourNeedData } from "utils/CONSTANT_DATA";

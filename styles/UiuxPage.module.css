@@ -1,0 +1,110 @@
+.NotableContainer {
+  padding: 4rem 2.5rem 4rem 2.5rem;
+  margin: 0%;
+}
+.NotableBack {
+  background: url("../public/assets/orangeweb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  border-radius: 40px;
+  padding: 0;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.NotableHeading {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  color: #ffffff;
+  padding-left: 4rem;
+  margin: 0%;
+}
+.NotableBtnContainer {
+  padding-top: 2rem;
+  padding-left: 4rem;
+}
+.NotableBtn {
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 1rem 2rem 1rem 2rem;
+  color: #e49b01;
+  border-radius: 40px;
+}
+.WeTrustContainer {
+  padding: 4rem 2.5rem 4rem 2.5rem;
+  margin: 0%;
+}
+.WeTrustHeading {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  color: #000000;
+  text-align: center;
+}
+.WeTrustImageContainer {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.WeTrustParagraph {
+  padding-top: 5rem;
+  padding-left: 20.5rem;
+  padding-right: 20.5rem;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  color: #bababa;
+}
+.WeTrustBtnContainer {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 320px) and (max-width: 430px) {
+  .WeTrustContainer {
+    padding: 4rem 1rem 4rem 1rem;
+    margin: 0%;
+  }
+  .NotableContainer {
+    padding: 4rem 1rem 4rem 1rem;
+    margin: 0%;
+  }
+  .WeTrustHeading {
+    text-align: left;
+    font-size: 36px;
+  }
+  .WeTrustParagraph {
+    padding: 4rem 0 0 0;
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .WeTrustParagraph {
+    padding-top: 5rem;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #bababa;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+  .WeTrustParagraph {
+    padding-top: 5rem;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}

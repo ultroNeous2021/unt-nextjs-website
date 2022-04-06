@@ -8,7 +8,7 @@
   font-family: Outfit;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 24px;
   padding-top: 1rem;
   margin-bottom: 0%;
 }
@@ -21,10 +21,9 @@
   margin: 0%;
   text-align: justify;
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .HeadingStyle {
     font-size: 14px;
-    /* line-height: 1px; */
   }
 }
 
@@ -48,4 +47,10 @@
 }
 .PaddingSliderRow {
   padding: 4em 3em 1em 0em;
+} */
+
+@media (min-width: 1200px) and (max-width: 1730px) {
+  .PaddingSliderCol {
+    padding: 10rem 2.5rem 4rem 2.5rem;
+  }
 }

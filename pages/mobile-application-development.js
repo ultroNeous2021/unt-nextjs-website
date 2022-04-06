@@ -29,14 +29,14 @@ function MobileApplicationDevelopmentPage() {
         linkToNextService={"web-application-development"}
       />
       <QualitiesSection QualitiesList={ListQualitiesMobileAppDev} />
-      <PortfolioSlider />
       <HorizontalTabService
         development={true}
         heading="Mobile Application Development
-          Technologies Expertise"
+        Technologies Expertise"
         Technology={MobileTechnologyExpertise}
         hireButton
       />
+      <PortfolioSlider />
       <ChooseAsPerYourNeedSection />
     </Layout>
   );
