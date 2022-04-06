@@ -94,9 +94,9 @@ function PortfolioSlider({ sliderBlack, containerBlack }) {
                 <h3> {el.title} </h3>
                 <p> {el.details} </p>
               </div>
-              <div className={styles.ViewButton}>
+              {/* <div className={styles.ViewButton}>
                 <TransparentButton val={"View All"} />
-              </div>
+              </div> */}
             </>
           ))}
         </Slider>

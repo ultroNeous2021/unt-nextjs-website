@@ -94,6 +94,12 @@
 @media (min-width: 768px) and (max-width: 1080px) {
 }
 @media (min-width: 1200px) and (max-width: 1730px) {
+  .CAPYNTabcontainer {
+    width: 18rem;
+  }
+  .DetailSectionContainer {
+    padding-left: 10rem;
+  }
 }
 @media (min-width: 650px) and (max-width: 740px) {
 }
