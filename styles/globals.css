@@ -19,6 +19,8 @@ a {
   text-decoration: none !important;
 }
 
+/* ============================================= WE EXCEL AT  ============================================= */
+
 .ant-tabs-top > .ant-tabs-nav::before {
   border-bottom: none !important;
 }
@@ -255,4 +257,18 @@ option {
 
 .Hire:checked {
   background: #1a1112;
+}
+/*====================== CHOOSE AS PER YOUR NEED =========================*/
+.Choose-Tab-Right {
+  padding-left: 10em;
+}
+
+.Choose-As-Per-Need-Col .nav-pills .active {
+  background-color: #ffffff !important;
+  color: #e49b00 !important;
+  border-left: 10px solid #e49b00;
+}
+
+.Choose-As-Per-Need-Col .nav-pills .active > .Choose-Tab-Text {
+  color: #e49b00 !important;
 }

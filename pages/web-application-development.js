@@ -1,3 +1,4 @@
+import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import HorizontalTabService from "@/components/HorizontalTabService";
 import Layout from "@/components/Layout";
 import QualitiesSection from "@/components/QualitiesSection";
@@ -30,6 +31,7 @@ Technologies Expertise"
         Technology={WebTechnologyExpertise}
         hireButton
       />
+      <ChooseAsPerYourNeedSection />
     </Layout>
   );
 }

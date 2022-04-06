@@ -1,0 +1,99 @@
+.ChooseAsPerYourNeedContainer {
+  padding: 4rem 2.5rem 4rem 2.5rem;
+  background-color: #1a1112;
+  margin: 0;
+}
+.CAPYNTabcontainer {
+  background: #fff8ea;
+  border-radius: 10px;
+}
+.CAPYNTabMainContainer {
+  padding-left: 1rem;
+}
+.CAPYN {
+  padding: 0;
+}
+.CAPYNHEADING {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.TabsCapynt {
+  padding: 2.5rem 1rem 2.5rem 1rem;
+  font-weight: 600;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.TabsCapynt:hover {
+  background-color: #fff;
+  border-left: 15px solid #e49b00;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.DetailSectionMainTitle {
+  color: #1a1112;
+  -webkit-text-stroke: 0.5px gray;
+  font-family: poppins, "sans-serif";
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.DetailSectionContainer {
+  padding-left: 6rem;
+}
+.DetailSectionDetails {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+}
+.DetailSectionImage {
+  padding-top: 4rem;
+  /* height: 13rem; */
+}
+.DetailBtn {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+@media (min-width: 320px) and (max-width: 430px) {
+  .ChooseAsPerYourNeedContainer {
+    padding: 3rem 1rem 3rem 1rem;
+    background-color: #1a1112;
+    margin: 0;
+  }
+  .DetailSectionMainTitle {
+    font-size: 26px;
+    padding-top: 2rem;
+  }
+  .DetailSectionContainer {
+    padding-left: 0rem;
+  }
+  .DetailSectionDetails {
+    font-size: 18px;
+  }
+  .TabsCapynt:hover {
+    background-color: #fff;
+  }
+  .TabsCapynt {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 12.43px;
+  }
+  .DetailSectionContainer {
+    padding-left: 0rem;
+  }
+  .CAPYNTabMainContainer {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+  .TabsCapynt:hover {
+    padding: 1rem 1rem 1rem 1rem;
+    border: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}

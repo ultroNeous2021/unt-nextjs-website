@@ -28,6 +28,7 @@ const DigitalMarketing = () => {
         Technology={DigitalMarketingExpertise}
         hireButton
       />
+      <ChooseAsPerYourNeedSection />
     </Layout>
   );
 };

@@ -152,11 +152,13 @@
 
 .IntroArrowContain {
   display: flex;
+  margin: 0%;
+  height: 10vh;
   justify-content: center;
 }
 .IntroArrow {
   position: relative;
-  left: 9rem;
+  left: 16rem;
   bottom: 6rem;
 }
 
@@ -411,7 +413,11 @@
   .IntroParagraphSection {
     padding: 0;
   }
-
+  .IntroArrow {
+    position: relative;
+    left: 11rem;
+    bottom: 6rem;
+  }
   .ImagesForTheHomepage h3 {
     font-size: 62px;
   }

@@ -22,6 +22,7 @@ import { BsBehance } from "react-icons/bs";
 import ClientTestimonialSlider from "@/components/Slider/ClientTestimonialSlider";
 import Verticals from "@/components/Verticals";
 import WhyClientChoose from "@/components/WhyClientChoose";
+import Link from "next/link";
 export default function HomePage() {
   const [hoverColor, setHoverColor] = useState(false);
   const [arrowShow, setArrowShow] = useState(false);
@@ -97,15 +98,10 @@ export default function HomePage() {
       {/* Intro container */}
       <div
         onMouseEnter={() => setArrowShow(true)}
-        onMouseMove={() => setArrowShow(false)}
+        onMouseLeave={() => setArrowShow(false)}
         className={styles.IntroContainer}
       >
-        <div
-          style={{
-            cursor: `url('/assets/cursornew.png') 300 300, auto`,
-            transition: "4s",
-          }}
-        >
+        <div>
           <Row className={styles.IntroHeadingContainer}>
             <h2
               className={styles.IntroHeading}
@@ -160,6 +156,20 @@ export default function HomePage() {
                 alt="group of ultroneous"
                 className={styles.IntroImage}
               />
+            </Col>
+          </Row>
+          <Row className={styles.IntroArrowContain}>
+            <Col xl={3} className={styles.IntroArrow}>
+              <Link href="/about-ultroneous">
+                <Image
+                  src={"/assets/circlearrow.svg"}
+                  style={{
+                    height: "11.313rem",
+                    opacity: arrowShow ? "1" : "0",
+                    transition: "1s",
+                  }}
+                />
+              </Link>
             </Col>
           </Row>
         </div>

@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 import ServicesHeader from "@/components/ServicesHeader";
 import PortfolioSlider from "@/components/Slider/PortfolioSlider";
 import { useState } from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 import {
   ListOfMobileService,
@@ -11,8 +11,11 @@ import {
 import QualitiesCard from "@/components/QualitiesCard";
 import QualitiesSection from "@/components/QualitiesSection";
 import HorizontalTabService from "@/components/HorizontalTabService";
-import { MobileTechnologyExpertise } from "utils/CONSTANT_DATA";
-import ChooseAsPerYourNeed from "@/components/ChooseAsPerYourNeed";
+import {
+  ChooseAsPerYourNeedData,
+  MobileTechnologyExpertise,
+} from "utils/CONSTANT_DATA";
+import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 function MobileApplicationDevelopmentPage() {
   return (
     <Layout>
@@ -34,7 +37,7 @@ function MobileApplicationDevelopmentPage() {
         Technology={MobileTechnologyExpertise}
         hireButton
       />
-      {/* <ChooseAsPerYourNeed /> */}
+      <ChooseAsPerYourNeedSection />
     </Layout>
   );
 }

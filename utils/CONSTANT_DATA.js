@@ -451,6 +451,7 @@ export const ChooseAsPerYourNeedData = [
     mainTitle: "HIRE A TEAM",
     details: "Hire any Developer or Build your own team with ultroNeous.",
     image: "/assets/hire-a-team.svg",
+    backimage: "/assets/",
   },
   {
     title: "Project Basis",
