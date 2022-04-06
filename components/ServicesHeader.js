@@ -13,13 +13,15 @@ function ServicesHeader(props) {
           <p>{props.heading}</p>
           <h1>{props.title}</h1>
           <p className={styles.ServicesLeftParagraph}>{props.paragraph}</p>
-          <Link href="/contact-us">
-            <YellowFilledWhiteButton
-              val={"Get in touch"}
-              arrow={true}
-              style={{ width: "11em" }}
-            />
-          </Link>
+          <div className={styles.Button}>
+            <Link href="/contact-us">
+              <YellowFilledWhiteButton
+                val={"Get in touch"}
+                arrow={true}
+                style={{ width: "11em" }}
+              />
+            </Link>
+          </div>
         </Col>
         <Col xs={12} sm={12} md={6} className={styles.ServicesRight}>
           <div className={styles.ServicesWhiteArrow}>
@@ -31,9 +33,9 @@ function ServicesHeader(props) {
               />
             </Link>
           </div>
-          <div>
+          <div className={styles.ImageDiv}>
             <Image
-              src={props.image}
+              src={"/assets/mobile.png"}
               alt={props.alt}
               className={styles.ServicesRightMainImage}
             />

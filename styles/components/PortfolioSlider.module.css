@@ -91,6 +91,20 @@
   margin-top: 3rem;
 }
 
+.NumberDiv {
+  position: absolute;
+  top: -21%;
+  left: 57rem;
+}
+
+.Number {
+  font-size: 200px;
+  font-weight: 700;
+  color: #fff;
+  -webkit-text-stroke: 0.5px #aaa;
+  font-family: "Poppins", sans-serif;
+}
+
 @media only screen and (max-width: 600px) {
   .wehead {
     font-size: 36px;
@@ -270,6 +284,10 @@
   .PortfolioSliderContainerBlack {
     height: 32em !important;
   }
+
+  .NumberDiv {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 725px) {
@@ -331,6 +349,7 @@
 
   .PortfolioContainer {
     left: 2.5rem;
+    width: 95%;
   }
 }
 
@@ -339,3 +358,5 @@
     height: 94em;
   }
 }
+
+/* ====== CUSTOM MEDIA QUERIES FOR LAPTOP AND NUMBER ====== */

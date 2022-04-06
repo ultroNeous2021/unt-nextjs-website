@@ -272,3 +272,11 @@ option {
 .Choose-As-Per-Need-Col .nav-pills .active > .Choose-Tab-Text {
   color: #e49b00 !important;
 }
+
+/* ============================================= SERVICES - HORIZONTAL TAB ============================================= */
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #495057;
+
+  border-color: #fff #fff #000 #fff !important;
+}

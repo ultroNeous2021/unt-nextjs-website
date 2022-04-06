@@ -2,6 +2,7 @@
   position: relative;
   width: 20%;
   padding: 0%;
+  overflow: hidden;
 }
 
 .TechnologyImage {
@@ -21,6 +22,10 @@
   overflow: hidden;
   height: 100%;
   transition: 0.7s ease;
+}
+
+.TechnoContainer:hover .TechnologyImage {
+  transform: scale(1.1);
 }
 
 .TechnoContainer:hover .TechnologyOverlay {
@@ -179,6 +184,7 @@
 .ImageEffect {
   width: 100%;
   filter: grayscale(100%);
+  transition: all 0.5s ease;
 }
 
 .link-social {
@@ -186,8 +192,9 @@
 }
 
 .ImageEffect:hover {
-  transition: 2s linear;
+  transition: all 0.5s ease;
   filter: none;
+  transform: scale(1.1);
 }
 
 .ImagesForTheHomepage h3 {
@@ -219,6 +226,10 @@
 
 .SingleImage {
   padding: 0.5em;
+}
+
+.DivImage {
+  overflow: hidden;
 }
 
 /* BOOTSTRAP MEDIA QUERIES */

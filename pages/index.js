@@ -309,34 +309,42 @@ export default function HomePage() {
         <div className={[styles.LookAtContainer]}>
           <Row className={styles.MxNone}>
             <Col xl={4} md={4} xs={6} sm={6} className={styles.SingleImage}>
-              <Image
-                src="/assets/a8.svg"
-                className={styles.ImageEffect}
-                alt="look at our design"
-              />
+              <div className={styles.DivImage}>
+                <Image
+                  src="/assets/a8.svg"
+                  className={styles.ImageEffect}
+                  alt="look at our design"
+                />
+              </div>
             </Col>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
-              <Image
-                src="/assets/a2.svg"
-                className={styles.ImageEffect}
-                alt="look at our design"
-              />
+              <div className={styles.DivImage}>
+                <Image
+                  src="/assets/a2.svg"
+                  className={styles.ImageEffect}
+                  alt="look at our design"
+                />
+              </div>
             </Col>
             <Col xl={4} md={4} className={styles.SingleImage}>
-              <Image
-                src="/assets/a4.svg"
-                className={styles.ImageEffect}
-                alt="look at our design"
-              />
+              <div className={styles.DivImage}>
+                <Image
+                  src="/assets/a4.svg"
+                  className={styles.ImageEffect}
+                  alt="look at our design"
+                />
+              </div>
             </Col>
           </Row>
           <Row className={[styles.MxNone, styles.ImagesForTheHomepage]}>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
-              <Image
-                src="/assets/a6.svg"
-                className={styles.ImageEffect}
-                alt="look at our design"
-              />
+              <div className={styles.DivImage}>
+                <Image
+                  src="/assets/a6.svg"
+                  className={styles.ImageEffect}
+                  alt="look at our design"
+                />
+              </div>
             </Col>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <Row>
@@ -368,34 +376,42 @@ export default function HomePage() {
               </Row>
             </Col>
             <Col xl={4} md={4} className={styles.SingleImage}>
-              <Image
-                src="/assets/a3.svg"
-                className={styles.ImageEffect}
-                alt="look at our design"
-              />
+              <div className={styles.DivImage}>
+                <Image
+                  src="/assets/a3.svg"
+                  className={styles.ImageEffect}
+                  alt="look at our design"
+                />
+              </div>
             </Col>
           </Row>
           <Row className={styles.MxNone}>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
-              <Image
-                src="/assets/a7.svg"
-                className={styles.ImageEffect}
-                alt="look at our design"
-              />
+              <div className={styles.DivImage}>
+                <Image
+                  src="/assets/a7.svg"
+                  className={styles.ImageEffect}
+                  alt="look at our design"
+                />
+              </div>
             </Col>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
-              <Image
-                src="/assets/a1.svg"
-                className={styles.ImageEffect}
-                alt="look at our design"
-              />
+              <div className={styles.DivImage}>
+                <Image
+                  src="/assets/a1.svg"
+                  className={styles.ImageEffect}
+                  alt="look at our design"
+                />
+              </div>
             </Col>
             <Col xl={4} md={4} className={styles.SingleImage}>
-              <Image
-                src="/assets/a5.svg"
-                className={styles.ImageEffect}
-                alt="look at our design"
-              />
+              <div className={styles.DivImage}>
+                <Image
+                  src="/assets/a5.svg"
+                  className={styles.ImageEffect}
+                  alt="look at our design"
+                />
+              </div>
             </Col>
           </Row>
         </div>

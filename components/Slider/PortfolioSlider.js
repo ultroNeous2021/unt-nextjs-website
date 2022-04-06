@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 import Slider from "react-slick";
 import { PortfolioSliderData } from "../../utils/CONSTANT_DATA";
@@ -8,6 +8,9 @@ import TransparentButton from "../TransparentButton";
 function PortfolioSlider({ sliderBlack, containerBlack }) {
   const customSlider = useRef();
   const titleSlider = useRef();
+
+  const [number, setNumber] = useState("01");
+
   var settings = {
     arrows: false,
     infinite: true,
@@ -22,11 +25,22 @@ function PortfolioSlider({ sliderBlack, containerBlack }) {
   const nextClicked = () => {
     customSlider.current.slickNext();
     titleSlider.current.slickNext();
+
+    let newNumber = number * 1 + 1;
+    if (newNumber > 4) {
+      newNumber = "1";
+    }
+    setNumber(`0${newNumber}`);
   };
 
   const prevClicked = () => {
     customSlider.current.slickPrev();
     titleSlider.current.slickPrev();
+    let newNumber = number * 1 - 1;
+    if (newNumber < 1) {
+      newNumber = "4";
+    }
+    setNumber(`0${newNumber}`);
   };
 
   return (
@@ -41,6 +55,9 @@ function PortfolioSlider({ sliderBlack, containerBlack }) {
           <br /> our work...
         </h2>
         <div className={styles.PortfolioContainer}>
+          <div className={styles.NumberDiv}>
+            <span className={styles.Number}>{number}</span>
+          </div>
           <Slider
             ref={(slider) => (customSlider.current = slider)}
             {...settings}

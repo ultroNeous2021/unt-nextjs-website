@@ -1,324 +1,71 @@
 .ServicesContainer {
-  background: #1b1414;
-  height: 90vh;
+  background: #1a1112;
   margin: 0%;
+  height: 90vh;
 }
 
 .ServicesNumber {
   font-weight: 700;
-  font-size: 206px;
-  color: #1b1414;
+  font-size: 150px;
+  color: #1a1112;
   -webkit-text-stroke: 1px #fff;
   font-family: "Poppins", sans-serif;
   justify-content: center;
   margin: 0%;
-}
-.ServicesRow {
-  margin: 0%;
-}
-.ServicesLeft {
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  padding: 2em;
+  align-items: flex-end;
 }
 
-.ServicesLeft p:first-child {
+.ServicesRow {
+  margin: 0;
+  padding: 0 2.5rem;
+}
+
+.ServicesLeft {
+  margin-top: -3rem;
+}
+
+.ServicesLeft p:first-of-type {
+  font-size: 20px;
   color: #e49b00;
-  font-size: 22px;
 }
 
 .ServicesLeft h1 {
-  font-size: 75px;
-  font-weight: bold;
-  margin-bottom: 0.5em;
+  font-size: 35px;
+  font-weight: 700;
   color: #fff;
 }
 
+.Button {
+  margin-top: 3rem;
+}
+
 .ServicesLeftParagraph {
-  margin-bottom: 2em;
-}
-
-.ServicesLeft p:last-child {
-  margin-top: 1em;
-}
-
-.ServicesRight {
-  text-align: right;
-}
-
-.ServicesRight div {
-  width: 80%;
-}
-
-.ServicesWhiteArrow {
-  position: absolute;
-  right: 15em;
-  top: 14em;
-  z-index: 5;
+  color: #fff;
+  text-align: justify;
+  width: 95%;
 }
 
 .ServicesWhiteArrowImage {
-  width: 8em;
+  position: absolute;
+}
+
+.ImageDiv {
+  position: relative;
+  bottom: 8rem;
+  left: 3rem;
 }
 
 .ServicesRightMainImage {
-  position: relative;
-  bottom: 8em;
-  right: 5em;
-  width: 100%;
+  width: 80%;
   height: auto;
-  min-width: 35em;
-  max-width: 37em;
 }
 
-@media only screen and (max-width: 600px) {
-  .ServicesNumber {
-    display: none;
-  }
-  .ServicesLeft p:first-child {
-    color: #e49b00;
-    font-size: 22px;
-    padding-top: 6.5em;
-  }
-  /* .ServicesRightMainImage{
-    margin-left: 50px;
-  } */
-
-  .ServicesRight div:nth-child(2) {
-    width: 95% !important;
-    padding-left: 0.8em;
-  }
+.ServicesWhiteArrow {
+  z-index: 5;
+  position: absolute;
+  right: 14rem;
 }
 
-@media (min-width: 300px) and (max-width: 1620px) {
-  .ServicesRightMainImage {
-    right: 0em;
-  }
-
-  .ServicesWhiteArrow {
-    right: 9em;
-  }
+.ServicesWhiteArrowImage {
+  height: 8rem;
 }
-
-@media (min-width: 300px) and (max-width: 1560px) {
-  .ServicesLeft h1 {
-    font-size: 60px;
-  }
-
-  .ServicesRightMainImage {
-    left: 3em;
-  }
-
-  .ServicesWhiteArrow {
-    right: 5em;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 1474px) {
-  .ServicesLeft h1 {
-    font-size: 55px;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 1250px) {
-  .ServicesLeft h1 {
-    font-size: 50px;
-  }
-
-  .ServicesRightMainImage {
-    bottom: 6em;
-    left: 2em;
-    min-width: 30em;
-  }
-
-  .ServicesWhiteArrow {
-    right: 3em;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 1110px) {
-  .ServicesLeft h1 {
-    font-size: 45px;
-  }
-
-  .ServicesRightMainImage {
-    bottom: 6em;
-    left: 2em;
-    min-width: 28em;
-  }
-
-  .ServicesWhiteArrow {
-    right: 4em;
-  }
-
-  .ServicesLeft {
-    padding: 0 2em;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 1040px) {
-  .ServicesLeft h1 {
-    font-size: 40px;
-  }
-
-  .ServicesRightMainImage {
-    bottom: 6em;
-    left: 3em;
-    min-width: 25em;
-  }
-
-  .ServicesWhiteArrow {
-    right: 4em;
-  }
-
-  .ServicesContainer {
-    height: 78vh;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 992px) {
-  .ServicesLeft h1 {
-    font-size: 32px;
-  }
-
-  .ServicesContainer {
-    height: 86vh;
-  }
-
-  .ServicesRightMainImage {
-    bottom: 6em;
-    left: 3em;
-    min-width: 25em;
-  }
-
-  .ServicesWhiteArrow {
-    right: 1em;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 900px) {
-  .ServicesLeft h1 {
-    font-size: 30px;
-  }
-
-  .ServicesContainer {
-    height: 78vh;
-  }
-
-  .ServicesLeft {
-    padding: 0 1em;
-  }
-
-  .ServicesRightMainImage {
-    bottom: 6em;
-    left: 3em;
-    min-width: 22em;
-  }
-
-  .ServicesWhiteArrow {
-    right: 0em;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 900px) {
-  .ServicesLeft h1 {
-    font-size: 25px;
-  }
-
-  .ServicesContainer {
-    height: 80vh;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 768px) {
-  .ServicesLeft h1 {
-    font-size: 50px;
-  }
-
-  .ServicesWhiteArrow {
-    display: none;
-  }
-  .ServicesRightMainImage {
-    position: static;
-    display: flex;
-    justify-content: center;
-    min-width: 15em;
-  }
-
-  .ServicesRight div:nth-child(2) {
-    width: 70%;
-  }
-
-  .ServicesLeft {
-    margin-bottom: 2em;
-  }
-
-  .ServicesContainer {
-    height: 135vh;
-  }
-}
-
-@media only screen and (min-width: 1280px) and (max-height: 720px) {
-  .ServicesContainer {
-    height: 117vh;
-  }
-
-  .ServicesWhiteArrow {
-    right: 3em;
-  }
-}
-
-@media only screen and (min-width: 1440px) and (max-height: 1024px) {
-  .ServicesContainer {
-    height: 80vh;
-  }
-}
-
-@media only screen and (min-width: 1440px) and (max-height: 900px) {
-  .ServicesContainer {
-    height: 90vh;
-  }
-}
-
-@media only screen and (min-width: 1872px) and (max-height: 948px) {
-  .ServicesContainer {
-    height: 92vh;
-  }
-}
-
-@media only screen and (min-width: 1366px) and (max-height: 625px) {
-  .ServicesContainer {
-    height: 130vh;
-  }
-}
-
-@media only screen and (min-width: 1440px) and (max-height: 748px) {
-  .ServicesContainer {
-    height: 110vh;
-  }
-
-  .ServicesRightMainImage {
-    left: 4em;
-  }
-}
-
-@media only screen and (min-width: 1280px) and (max-height: 610px) {
-  .ServicesContainer {
-    height: 135vh;
-  }
-
-  .ServicesRightMainImage {
-    left: 4em;
-  }
-}
-/* 
-@media (min-width: 1872px) and (min-height: 949px) {
-  .Footer-Top-Text h1 {
-    font-size: 78px;
-  }
-
-  .ServicesRightMainImage {
-    left: 6em;
-  }
-} */

@@ -44,7 +44,7 @@
   font-size: 22px;
   font-weight: 500;
   background-color: #fff !important;
-  border-color: #ffffff #fff #a4a1a1 !important;
+  border-color: #ffffff #fff rgba(0, 0, 0, 0.2) !important;
 }
 
 .TechTabHead:hover {
