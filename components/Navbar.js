@@ -55,7 +55,10 @@ function NavbarComponent() {
             onClick={() => setshowSiderbar(false)}
           >
             <div className={styles.closeButtonContain}>
-              <IoClose style={{ color: "#fff", fontSize: "40px" }} />
+              <IoClose
+                style={{ color: "#fff", fontSize: "40px" }}
+                onClick={() => setshowSiderbar(false)}
+              />
             </div>
           </div>
         </Offcanvas.Header>
