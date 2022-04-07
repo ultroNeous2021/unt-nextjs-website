@@ -1,17 +1,29 @@
-import Image from "next/image";
 import styles from "@/styles/components/HomeHero.module.css";
+import { useEffect } from "react";
+import $ from "jquery";
 
 function HomeHero() {
+  useEffect(() => {
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+      $(".HomeHeroImage").css({
+        backgroundSize: 100 + scroll / 20 + "%",
+        top: -(scroll / 10) + "%",
+      });
+    });
+  }, []);
+
   return (
-    <>
-      <div className={styles.HomeHero}>
+    <div className={styles.HomeHeroContainer}>
+      <div className={`${styles.HomeHero} HomeHeroImage`}>
         <div className={styles.HomeHeroTextContainer}>
           <div className={styles.herotext} id={styles.first}>
             <h1>
               Empowering <br /> Enterprise Solutions
             </h1>
             <p>
-              A highly experienced team, developing scalable Enterprise Solutions
+              A highly experienced team, developing scalable Enterprise
+              Solutions
             </p>
           </div>
           <div className={styles.herotext} id={styles.second}>
@@ -31,7 +43,8 @@ function HomeHero() {
               Powering Digital <br /> Transformations
             </h1>
             <p>
-              We are transforming the World, planning powerful Digital Solutions.
+              We are transforming the World, planning powerful Digital
+              Solutions.
             </p>
           </div>
           <div className={styles.herotext} id={styles.fifth}>
@@ -80,7 +93,7 @@ function HomeHero() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
