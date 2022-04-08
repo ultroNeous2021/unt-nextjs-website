@@ -7,9 +7,10 @@ const QualitiesSection = (props) => {
     <Row className={styles_qualities.PaddingSliderRow}>
       {props.QualitiesList.map((value, index) => (
         <Col
+          xs={12}
+          sm={12}
           xl={3}
           md={6}
-          xs={6}
           lg={3}
           key={index}
           className={styles_qualities.PaddingSliderCol}

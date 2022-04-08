@@ -42,7 +42,13 @@ function CounterComponent(props) {
                 <div className={styles.CounterContainerMainDiv}>
                   <CountUp
                     className={styles.Counter}
-                    start={isOnScreen ? 5 : null}
+                    start={
+                      isOnScreen
+                        ? el.end.toString().length > 2
+                          ? 2000
+                          : 5
+                        : null
+                    }
                     end={el.end}
                     delay={0.5}
                     duration={3}

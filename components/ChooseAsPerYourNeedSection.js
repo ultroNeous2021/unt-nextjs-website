@@ -1,6 +1,6 @@
 import YellowFilledWhiteButton from "./YellowFilledWhiteButton";
 
-import styles from "@/styles/ChooseAsPerYourNeedSection.module.css";
+import styles from "@/styles/components/ChooseAsPerYourNeedSection.module.css";
 import { Col, Image, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { ChooseAsPerYourNeedData } from "utils/CONSTANT_DATA";
@@ -59,7 +59,11 @@ const ChooseAsPerYourNeedSection = () => {
         </p>
         {}
         <Image
-          src={ChooseAsPerYourNeedData[viewByIndex].image}
+          src={
+            mobileMode
+              ? ChooseAsPerYourNeedData[viewByIndex].image2
+              : ChooseAsPerYourNeedData[viewByIndex].image
+          }
           className={styles.DetailSectionImage}
         />
         <div className={styles.DetailBtn}>

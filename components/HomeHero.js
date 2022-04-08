@@ -4,13 +4,15 @@ import $ from "jquery";
 
 function HomeHero() {
   useEffect(() => {
-    $(window).on("scroll", function () {
-      var scroll = $(window).scrollTop();
-      $(".HomeHeroImage").css({
-        backgroundSize: 100 + scroll / 20 + "%",
-        top: -(scroll / 10) + "%",
+    if (window.innerWidth > 1024) {
+      $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+        $(".HomeHeroImage").css({
+          backgroundSize: 100 + scroll / 20 + "%",
+          top: -(scroll / 10) + "%",
+        });
       });
-    });
+    }
   }, []);
 
   return (

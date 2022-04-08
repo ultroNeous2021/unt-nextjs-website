@@ -1,8 +1,9 @@
 .PaddingSliderRow {
   margin: 0%;
+  padding: 13rem 2.5rem 4rem 2.5rem;
 }
 .PaddingSliderCol {
-  padding: 13rem 2.5rem 4rem 2.5rem;
+  padding: 0;
 }
 .HeadingStyle {
   font-family: Outfit;
@@ -48,6 +49,42 @@
 .PaddingSliderRow {
   padding: 4em 3em 1em 0em;
 } */
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .PaddingSliderRow {
+    padding: 80% 1rem 4rem 1rem;
+  }
+
+  .PaddingSliderCol {
+    padding-top: 4rem;
+  }
+
+  .HeadingStyle,
+  .ParagraphStylesQ {
+    padding-top: 0;
+  }
+
+  .HeadingStyle {
+    padding: 1.5rem 0 1rem 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .PaddingSliderRow {
+    padding: 6rem 2.5rem 3rem 2.5rem;
+  }
+
+  .PaddingSliderCol {
+    margin-bottom: 2rem;
+  }
+
+  .ParagraphStylesQ {
+    width: 80%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 765px) {
+}
 
 @media (min-width: 1200px) and (max-width: 1730px) {
   .PaddingSliderCol {

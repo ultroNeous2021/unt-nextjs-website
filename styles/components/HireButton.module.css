@@ -9,3 +9,13 @@
 .ArrowHireIcon {
   font-size: 40px;
 }
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .HireButton {
+    font-size: 18px;
+  }
+
+  .ArrowHireIcon {
+    font-size: 30px;
+  }
+}

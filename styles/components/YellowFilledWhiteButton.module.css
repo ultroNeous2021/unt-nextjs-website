@@ -17,6 +17,7 @@
 @media (min-width: 320px) and (max-width: 430px) {
   .ButtonYellowFilled {
     width: 11rem;
+    font-size: 15px;
   }
 }
 

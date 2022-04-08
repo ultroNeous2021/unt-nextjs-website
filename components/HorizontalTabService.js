@@ -36,7 +36,7 @@ function HorizontalTabService(props) {
                   <h3 className={styles.TechTitle}>
                     {el.title} {props.development ? "development" : ""}
                   </h3>
-                  <p className="">{el.detail}</p>
+                  <p>{el.detail}</p>
                   {props.hireButton ? (
                     <HireButton
                       clickHandler={clickHandler}

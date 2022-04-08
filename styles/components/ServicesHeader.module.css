@@ -69,3 +69,69 @@
 .ServicesWhiteArrowImage {
   height: 8rem;
 }
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .ServicesContainer {
+    padding: 3rem 1rem;
+  }
+
+  .ServicesNumber {
+    font-size: 72px;
+    justify-content: initial;
+  }
+
+  .ServicesRow {
+    padding: 0;
+  }
+
+  .ServicesLeft {
+    padding: 2rem 0;
+  }
+
+  .ServicesLeft p:first-of-type {
+    font-size: 16px;
+  }
+
+  .ServicesLeft h1 {
+    font-size: 28px;
+  }
+
+  .Button,
+  .ServicesWhiteArrow {
+    display: none;
+  }
+
+  .ServicesRight {
+    padding: 0;
+  }
+
+  .ImageDiv {
+    bottom: 0;
+    left: 0;
+  }
+
+  .ImageDiv img {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .ServicesContainer {
+    height: 75vh;
+  }
+
+  .ImageDiv {
+    position: static;
+  }
+
+  .ServicesRightMainImage {
+    width: 100%;
+  }
+
+  .ServicesWhiteArrow {
+    display: none;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 765px) {
+}

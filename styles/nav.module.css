@@ -1,34 +1,212 @@
-.BurgerMenuCheckbox {
-  appearance: none;
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.main {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-.Line {
-  height: 0.3rem;
-  margin: 0.5rem 0;
-  background: #000;
+.asidesection {
+  top: 0;
+  bottom: 0;
+  position: absolute;
 }
 
-.LineOne {
-  width: 2.5rem;
+.asideleft {
+  display: none;
+  width: 40%;
+  left: 0;
+  background-color: #ff5964;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transition: transform 0.4s ease-in-out;
 }
 
-.LineTwo {
-  width: 2.1rem;
+.asideright {
+  width: 100%;
+  right: 0;
+  background-color: #38618c;
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+  transition: transform 0.4s ease-in-out;
 }
 
-.LineThree {
-  width: 1.5rem;
+.asidelist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 150px;
+  text-align: left;
+  padding-left: 50px;
 }
 
-#burger-toggle:checked ~ .burger-menu .line::after {
-  transform: translateX(0);
+.asidecontent {
+  margin-top: 150px;
+  padding: 0 40px;
+  position: relative;
+  color: white;
+  text-align: center;
 }
-#burger-toggle:checked ~ .burger-menu .line:nth-child(1) {
-  transform: translateY(calc(var(--burger-menu-radius) / 5)) rotate(45deg);
+
+.asidelist li {
+  margin-bottom: 20px;
 }
-#burger-toggle:checked ~ .burger-menu .line:nth-child(2) {
-  transform: scaleX(0);
+
+.asideanchor::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background-color: #ff5964;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 3px;
 }
-#burger-toggle:checked ~ .burger-menu .line:nth-child(3) {
-  transform: translateY(calc(var(--burger-menu-radius) / -5)) rotate(-45deg);
+
+.asideanchor::before {
+  border-radius: 3px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  left: 0;
+  height: 3px;
+  z-index: 1;
+  width: 50%;
+  -webkit-transition: transform 0.2s ease-in-out;
+  -o-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.asideanchor:hover:before {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.asideanchor {
+  padding-bottom: 7px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  position: relative;
+  font-weight: 500;
+}
+
+.Checkbox {
+  display: none;
+}
+
+.Checkbox:checked ~ .AsideMain .asideleft {
+  transform: translateY(0%);
+}
+
+.Checkbox:checked ~ .AsideMain .asideright {
+  transform: translateX(0%);
+}
+
+.Checkbox:checked ~ .Label .bar {
+  background-color: #fff;
+}
+
+.Checkbox:checked ~ .Label .top {
+  -webkit-transform: translateY(0px) rotateZ(45deg);
+  -moz-transform: translateY(0px) rotateZ(45deg);
+  -ms-transform: translateY(0px) rotateZ(45deg);
+  -o-transform: translateY(0px) rotateZ(45deg);
+  transform: translateY(0px) rotateZ(45deg);
+}
+
+.Checkbox:checked ~ .Label .bottom {
+  -webkit-transform: translateY(-15px) rotateZ(-45deg);
+  -moz-transform: translateY(-15px) rotateZ(-45deg);
+  -ms-transform: translateY(-15px) rotateZ(-45deg);
+  -o-transform: translateY(-15px) rotateZ(-45deg);
+  transform: translateY(-15px) rotateZ(-45deg);
+}
+
+.Checkbox:checked ~ .Label .middle {
+  width: 0;
+}
+
+.middle {
+  margin: 0 auto;
+}
+
+.Label {
+  top: 10px;
+  display: inline-block;
+  padding: 7px 10px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px;
+  z-index: 3;
+  position: absolute;
+  right: 0;
+}
+
+.bar {
+  display: block;
+  background-color: #38618c;
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  margin: 5px auto;
+  transition: background-color 0.4s ease-in, transform 0.4s ease-in,
+    width 0.4s ease-in;
+}
+
+.main h1 {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 0;
+  right: 0;
+  /* transform: translateY(-50%); */
+  text-align: center;
+  font-size: 30px;
+}
+
+.main h1 span {
+  font-size: 20px;
+  display: block;
+}
+
+.asideContent p {
+  font-size: 30px;
+}
+
+.button {
+  display: inline-block;
+  background-image: none;
+  border: none;
+  background-color: transparent;
+  padding-bottom: 7px;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  padding: 7px 50px;
+  border: 2px solid white;
+}
+
+@media (min-width: 992px) {
+  .main h1 {
+    font-size: 40px;
+  }
+  .asideleft {
+    display: block;
+  }
+
+  .asideright {
+    width: 60%;
+  }
 }

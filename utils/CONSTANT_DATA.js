@@ -421,24 +421,24 @@ export const PortfolioSliderData = [
 
 export const TestimonialsSliderData = [
   {
-    image: "/assets/sadie.png",
+    image: "/assets/CF3.png",
     name: "Sadie Skelland (SoFi, Director of Operations) ",
     details:
       "We had a complicated finance business app idea and tried a number of developers before finding ultroNeous Technologies, whose expert staff simplified the concept. I have to say, without them, our app would not have been possible.",
   },
   {
-    image: "/assets/loren.png",
+    image: "/assets/CF2.png",
     name: "Loren McClure (Cosade Labs, Co-Founder) ",
     details:
       "This was my first app, and they were really helpful at every stage, answering questions, writing recommendations, and providing tips. ultroNeous is a highly professional firm with a team that is skilled in creating high-quality apps. ",
   },
   {
-    image: "/assets/jerry.png",
+    image: "/assets/CF1.png",
     name: "Jerry Walters (Mirato, Owner)",
     details: `It was a pleasure to work with the ultroNeous team!! I had hired them to develop my mobile app, and I was really concerned about the app's launch date. However, they have a highly skilled workforce that can easily handle duties and complete projects on time.`,
   },
   {
-    image: "/assets/kina.png",
+    image: "/assets/CF4.png",
     name: "Kina Bayra (AIC ,Project coordinator)  ",
     details:
       "I am incredibly impressed with the quality and performance of the mobile app developed by ultroNeous Technologies. Their entire team is organized and dedicated to various technologies, and I must state that they perform brilliantly in all areas.",
@@ -451,6 +451,7 @@ export const ChooseAsPerYourNeedData = [
     mainTitle: "HIRE A TEAM",
     details: "Hire any Developer or Build your own team with ultroNeous.",
     image: "/assets/hire-a-team.svg",
+    image2: "/assets/hireteam.png",
     backimage: "/assets/",
   },
   {
@@ -459,6 +460,7 @@ export const ChooseAsPerYourNeedData = [
     details:
       "Have a fixed project scope in mind? Discuss now to get a fixed price.",
     image: "/assets/give-us-project.svg",
+    image2: "/assets/giveusproject.png",
   },
   {
     title: "T & M",
@@ -466,6 +468,7 @@ export const ChooseAsPerYourNeedData = [
     details:
       "Have a project where you need a team on a periodic basis, we got you.",
     image: "/assets/t-and-m.svg",
+    image2: "/assets/t&m.png",
   },
 ];
 
@@ -698,38 +701,38 @@ export const CareersData = [
 
 export const FeelTheCultureData = [
   {
-    image: "/assets/Shiv1.png",
+    image: "/assets/Shiv.png",
     name: "Shiv Desai (Digital Marketing Manager | India) ",
     details:
       "Changing my job from a sales marketing field to Online marketing was a tough  call for me but  I prepared myself as I was a fresher in the field there were no good  responses for me. Then I was  interviewed at ultroNeous  and they gave me an opportunity to prove  myself. My first  3 months  were struggling  as I was not able to cope-up but everyone here believed in me and over the time I am improving and also  proving myself  ",
   },
   {
-    image: "/assets/Malav1.png",
+    image: "/assets/Malav.png",
     name: "Malav Kargathra (Business Development Consultant | India) ",
     details:
       "Probably the best place to spark off your career. I changed my field from SEO to Sales but got an overwhelming response from the organisation. Management finds credence in me and I got opportunity to demonstrate my skills. The company culture is the perfect representative of  Do things that makes you happy. ",
   },
   {
-    image: "/assets/Vibha1.png",
+    image: "/assets/Vibha.png",
     name: "Vibha Ojha (UX/UI Designer | India)",
     details: `What I really appreciate about working at ultroNeous is how the entire team is wholeheartedly interested and passionate about their work & skills. The authenticity & values of the company is what making it succeeding everyday. I am really grateful for becoming an ultroNeour!!`,
   },
 
   {
-    image: "/assets/Sachin1.png",
+    image: "/assets/Sachin.png",
     name: "Sachin Padhiyar (Project Manager | India)  ",
     details:
       "I'm thrilled to be part of a growing organization. I have a background in engineering and have experienced sales and marketing. However, this role gave some success but it wasn't my cup of tea. But,  my mentor & CEO of ultroNeous Technologies, Mr. Pathik Shah guided me, believed in me and offered a role of Project Manager that is perfect fit for me and I grateful by doing things that I exactly wanted to do!!",
   },
 
   {
-    image: "/assets/Akshay1.png",
+    image: "/assets/Akshay.png",
     name: "Akshay Mungalpara (Mobile Developer | India)  ",
     details:
       "I started my journey with ultroNeous Technologies as mobile developer intern. I got many challenging tasks that took my skill levels to the whole different level and that level was appreciated by the organisation and I was promoted as full-time employee in just 1 month of short time. Environment, culture & work-ethics are so good that I will not have any thought of changing the organisation.",
   },
   {
-    image: "/assets/Sandeep1.png",
+    image: "/assets/Sandeep.png",
     name: "Sandeep Modi (Full Stack Developer | India)  ",
     details:
       "I started my career as a React.js Frontend Developer and after having some experience, I wanted to explore backend part. ultroNeous Technologies provided that opportunity and I joined as full-stack developer. I learned MERN stack development and got really good support and guidance from each and every team members. ",

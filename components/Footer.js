@@ -10,22 +10,12 @@ function Footer({ FooterContainerStyle }) {
     <div className="FooterContainer">
       <Row className={styles.MxNone}>
         <div className={styles.FooterTopText}>
-          <h2 data-aos="zoom-in" data-aos-duration="2000">
-            Let’s Discuss your Ideas.
-          </h2>
+          <h2>Let’s Discuss your Ideas.</h2>
           <ButtonComponent val={"Yes, Let's do it"} />
         </div>
       </Row>
       <Row className={[styles.MxNone, styles.FooterContainer]}>
-        <Col
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          xs={12}
-          sm={12}
-          lg={3}
-          xl={2}
-          className={styles.FooterColOne}
-        >
+        <Col xs={12} sm={12} lg={3} xl={2} className={styles.FooterColOne}>
           <Image
             src="/assets/ultroneous-image.svg"
             alt="ultroneous-image"
@@ -72,14 +62,7 @@ function Footer({ FooterContainerStyle }) {
             </li>
           </ul>
         </Col>
-        <Col
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          xs={12}
-          sm={12}
-          lg={6}
-          className={styles.NonePadding}
-        >
+        <Col xs={12} sm={12} lg={6} className={styles.NonePadding}>
           <Row className={`${styles.FooterColOne} mx-0`}>
             <Col xs={12} sm={4} lg={4} className={styles.QuickLinks}>
               <h3> Quick Links</h3>
@@ -98,45 +81,31 @@ function Footer({ FooterContainerStyle }) {
                 </li>
               </ul>
             </Col>
-            <Col
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-              xs={12}
-              sm={4}
-              lg={4}
-              className={styles.QuickLinks}
-            >
+            <Col xs={12} sm={4} lg={4} className={styles.QuickLinks}>
               <h3>Services</h3>
               <ul>
-                <li>
-                  <Link href="/web-application-development">
-                    Web Development
-                  </Link>
-                </li>
                 <li>
                   <Link href="/mobile-application-development">
                     Mobile Application
                   </Link>
                 </li>
                 <li>
-                  <Link href="/ui-ux-design">UX/UI Design</Link>
+                  <Link href="/web-application-development">
+                    Web Development
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/cloud-and-devops">Cloud & Devops</Link>
+                  <Link href="/ui-ux-design">UX/UI Design</Link>
                 </li>
+                {/* <li>
+                  <Link href="/cloud-and-devops">Cloud & Devops</Link>
+                </li> */}
                 <li>
                   <Link href="/digital-marketing">Digital Marketing</Link>
                 </li>
               </ul>
             </Col>
-            <Col
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-              xs={12}
-              sm={4}
-              lg={4}
-              className={styles.QuickLinks}
-            >
+            <Col xs={12} sm={4} lg={4} className={styles.QuickLinks}>
               <h3>Keep In Touch</h3>
               <ul>
                 <li>
@@ -169,15 +138,7 @@ function Footer({ FooterContainerStyle }) {
             </Col>
           </Row>
         </Col>
-        <Col
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          xs={12}
-          sm={12}
-          lg={3}
-          xl={2}
-          className={styles.QuickLinks}
-        >
+        <Col xs={12} sm={12} lg={3} xl={2} className={styles.QuickLinks}>
           <h3 className={styles.OurNewsletter}>Our Newsletter</h3>
           <div className={styles.SignupForNewsLetterContainer}>
             <input

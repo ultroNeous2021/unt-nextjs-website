@@ -61,15 +61,22 @@
     background-color: #1a1112;
     margin: 0;
   }
+
+  .CAPYNHEADING {
+    font-size: 38px;
+    padding-bottom: 0.5rem;
+  }
+
   .DetailSectionMainTitle {
     font-size: 26px;
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
   .DetailSectionContainer {
     padding-left: 0rem;
   }
   .DetailSectionDetails {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 400;
   }
   .TabsCapynt:hover {
     background-color: #fff;
@@ -77,6 +84,9 @@
   .TabsCapynt {
     padding: 1rem 1rem 1rem 1rem;
     font-size: 12.43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .DetailSectionContainer {
     padding-left: 0rem;
@@ -89,10 +99,31 @@
     padding: 1rem 1rem 1rem 1rem;
     border: none;
   }
+
+  .DetailSectionImage {
+    height: auto;
+    padding-top: 2rem;
+  }
+
+  .DetailBtn {
+    padding: 4rem 0 3rem 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1080px) {
+  .DetailSectionContainer {
+    padding: 3rem 0 0 0;
+  }
+
+  .DetailSectionImage {
+    height: 11rem;
+  }
+
+  .DetailBtn {
+    padding: 5rem 0;
+  }
 }
+
 @media (min-width: 1200px) and (max-width: 1730px) {
   .CAPYNTabcontainer {
     width: 18rem;
