@@ -78,7 +78,11 @@ function AboutUltroneousPage() {
           lg={8}
           className={styles.PlaceForContainerCol}
         >
-          <h2 className={styles.PlaceForHeading}>
+          <h2
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            className={styles.PlaceForHeading}
+          >
             A place for Expanding
             <br />
             Horizons and Team Building
@@ -147,7 +151,11 @@ function AboutUltroneousPage() {
       {/* values */}
       <Row className={styles.ValuesContainer}>
         <Col sm={8} xl={9} xs={12} md={12} lg={8}>
-          <label className={styles.ValueHeading}>
+          <label
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            className={styles.ValueHeading}
+          >
             Values
             <Image
               src="/assets/values.svg"
@@ -171,7 +179,7 @@ function AboutUltroneousPage() {
       {/*  */}
       <Row className={girlStyle.GirlonCounter}>
         <Col xs={8} sm={8} className={girlStyle.GirlOnCounterHeading}>
-          <h3>
+          <h3 data-aos="zoom-in" data-aos-duration="2000">
             We are achieving <br /> new heights everyday
           </h3>
         </Col>
@@ -187,7 +195,13 @@ function AboutUltroneousPage() {
       <div className={styles.WDTCUContainer}>
         {/* main section */}
         <div className={styles.WDTCUmainsection}>
-          <h2 className={styles.HeadingTalent}>Why does talent choose us?</h2>
+          <h2
+            className={styles.HeadingTalent}
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            Why does talent choose us?
+          </h2>
           <p className={styles.ParagraphTalent}>
             ultroNeous is always in search of talents who are ready to evolve,
             expand and enhance the knowledge.

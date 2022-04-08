@@ -13,7 +13,7 @@
   padding-left: 2.5rem;
   margin-top: -4rem;
   margin-bottom: 1rem;
-  font-size: 200px;
+  font-size: 170px;
 }
 .PagesHeader {
   background: url("/assets/main-home-desktop.png");
@@ -37,7 +37,7 @@
 }
 
 .PagesHeader div h1 {
-  font-size: 150px;
+  font-size: 130px;
   font-weight: 700;
   color: #fff;
   margin: 0%;

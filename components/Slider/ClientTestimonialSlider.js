@@ -29,7 +29,14 @@ function ClientTestimonialSlider({ data, title, css = null }) {
 
   return (
     <div className={styles.ClientTestimonialSliderContainer} style={css}>
-      <h2 className={styles.ClientTestimonialHeading}> {title} </h2>
+      <h2
+        className={styles.ClientTestimonialHeading}
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+      >
+        {" "}
+        {title}{" "}
+      </h2>
       <div className={styles.SliderContainer}>
         <div className={styles.ArrowContainer} onClick={prevClicked}>
           <img

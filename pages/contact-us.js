@@ -116,9 +116,8 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
               <Row className={styles.SpaceLooking}>
                 <h3>What are you looking for?</h3>
                 <p>
-                  Want to be partners in design? Looking for UX/ UI research or
-                  product branding? Post your query now, and we’ll get in touch
-                  with you soon!
+                  Please select your options and we shall revert back to you
+                  soon!
                 </p>
               </Row>
               <Row className={styles.CheckboxSpaceRow}>

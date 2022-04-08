@@ -4,7 +4,7 @@
   justify-content: center;
   padding-top: 2rem;
   padding-bottom: 4rem;
-  font-size: 30px;
+  font-size: 24px;
   color: #fff;
   margin-top: -4rem;
 }
@@ -173,7 +173,7 @@
 
 .headlabel {
   color: #1a1112;
-  -webkit-text-stroke: 0.5px #e49b00;
+  -webkit-text-stroke: 1px #e49b00;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 80px;
@@ -181,8 +181,8 @@
 }
 
 .plabel {
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 36px;
   margin-bottom: 1rem;
   color: #fff;
@@ -193,6 +193,7 @@
 }
 
 .EmailPhoneText {
+  font-size: 18px;
   margin-left: 0.8rem;
 }
 
@@ -207,7 +208,7 @@
 
 .imagehead {
   font-weight: bold;
-  font-size: 80px;
+  font-size: 60px;
   line-height: 90px;
   color: #fff;
   text-align: center;

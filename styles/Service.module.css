@@ -53,6 +53,7 @@
 }
 
 .flipcard:hover .flipcardinner {
+  transition: 1.5s;
   transform: rotateY(180deg);
 }
 

@@ -372,28 +372,28 @@ export const ArrayOfTalent = [
 ];
 export const ArrayOfServices = [
   {
-    icon: "/assets/s-frontend-dev.png",
+    icon: "/assets/s-frontend-dev.svg",
     name: "Front End Development",
     background: "/assets/S10.png",
     content:
       "From ideation, brainstorming, designing, development and a professional team! - Have everything you are looking for in Front-End Development. Leverage our experience to elevate your business to the next level.",
   },
   {
-    icon: "/assets/s-web-dev.png",
+    icon: "/assets/s-web-dev.svg",
     name: "Web App Development",
     background: "/assets/S11.png",
     content:
       "Irrespective of size of your business and complexity of application, ultroNeous build a well-planned, highly scalable and a secure web application that will solve your unique business challenges.",
   },
   {
-    icon: "/assets/s-mobile-dev.png",
+    icon: "/assets/s-mobile-dev.svg",
     name: "Mobile Application Development",
     background: "/assets/S12.png",
     content:
       "We are experts in the latest mobile app development technologies and frameworks that enable us to create exceptional native and hybrid apps. Take a peek around and see what we have to offer.",
   },
   {
-    icon: "/assets/s-uiux.png",
+    icon: "/assets/s-uiux.svg",
     name: "UX/UI Design",
     background: "/assets/S12.png",
     content:

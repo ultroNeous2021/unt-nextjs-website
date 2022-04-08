@@ -5,7 +5,7 @@ const Verticals = () => {
     <div className={styles.Verticalscontainer}>
       <Row>
         <h2
-          data-aos="zoom-in"
+          data-aos="zoom"
           data-aos-duration="2000"
           className={styles.Verticalheading}
         >

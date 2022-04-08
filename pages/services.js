@@ -11,6 +11,7 @@ import { ArrayOfServices } from "utils/DataList/listOfData";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { useEffect, useState } from "react";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
+
 const CardServicesForMobile = (props) => {
   return (
     <Row className={styles.CardServiceSections}>

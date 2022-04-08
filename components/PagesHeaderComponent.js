@@ -7,7 +7,9 @@ function PagesHeaderComponent({ text, heading, css = null }) {
       <Row className={styles.PagesHeader} style={css}>
         <div>
           <p>{text}</p>
-          <h1>{heading}</h1>
+          <h1 data-aos="zoom-in" data-aos-duration="2000">
+            {heading}
+          </h1>
         </div>
       </Row>
     </div>

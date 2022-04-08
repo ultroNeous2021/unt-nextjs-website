@@ -96,11 +96,7 @@ export default function HomePage() {
         </Row>
       </div>
       {/* Intro container */}
-      <div
-        onMouseEnter={() => setArrowShow(true)}
-        onMouseLeave={() => setArrowShow(false)}
-        className={styles.IntroContainer}
-      >
+      <div className={styles.IntroContainer}>
         <div>
           <Row className={styles.IntroHeadingContainer}>
             <h2
@@ -121,12 +117,10 @@ export default function HomePage() {
               xl={6}
               lg={6}
               className={styles.IntroParagraphSection}
+              onMouseEnter={() => setArrowShow(true)}
+              onMouseLeave={() => setArrowShow(false)}
             >
-              <p
-                data-aos="zoom-in"
-                data-aos-duration="2000"
-                className={styles.IntroParagraph}
-              >
+              <p className={styles.IntroParagraph}>
                 ultroNeous is a concept – a concept of innovation, customer
                 service, and exceptional creativity. We are committed to
                 building technology solutions that are accessible to help
@@ -150,6 +144,8 @@ export default function HomePage() {
               xl={6}
               lg={6}
               className={styles.IntroImagePosition}
+              onMouseEnter={() => setArrowShow(true)}
+              onMouseLeave={() => setArrowShow(false)}
             >
               <Image
                 src="/assets/group-image.png"
@@ -162,11 +158,13 @@ export default function HomePage() {
             <Col xl={3} className={styles.IntroArrow}>
               <Link href="/about-ultroneous">
                 <Image
+                  data-aos="zoom-out"
+                  data-aos-duration="2000"
                   src={"/assets/circlearrow.svg"}
                   style={{
                     height: "11.313rem",
                     opacity: arrowShow ? "1" : "0",
-                    transition: "1s",
+                    transition: "2s",
                   }}
                 />
               </Link>
@@ -179,23 +177,15 @@ export default function HomePage() {
       <div className={styles.WhatWeOfferContainer}>
         <Row>
           <h2
-            data-aos="zoom-in"
-            data-aos-duration="3000"
+            data-aos="zoom"
+            data-aos-duration="2000"
             className={styles.mainheading}
           >
             What We Offer
           </h2>
         </Row>
         <Row className="text-align-center">
-          <Col
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-            sm={4}
-            md={12}
-            lg={4}
-            xl={4}
-            className={styles.WhatWeOfferCol}
-          >
+          <Col sm={4} md={12} lg={4} xl={4} className={styles.WhatWeOfferCol}>
             <div className={styles.Whatweofferimg}>
               <Image alt="ui-ux-design" src="/assets/ui-ux-design.svg" />
             </div>
@@ -210,8 +200,6 @@ export default function HomePage() {
             </div>
           </Col>
           <Col
-            data-aos="zoom-in"
-            data-aos-duration="2000"
             // data-aos="fade-down"
             // data-aos-duration="3000"
             sm={4}
@@ -233,8 +221,6 @@ export default function HomePage() {
             </div>
           </Col>
           <Col
-            data-aos="zoom-in"
-            data-aos-duration="2000"
             // data-aos="fade-up"
             // data-aos-duration="3000"
             sm={4}
