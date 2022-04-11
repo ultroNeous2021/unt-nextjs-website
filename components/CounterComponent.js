@@ -42,16 +42,11 @@ function CounterComponent(props) {
                 <div className={styles.CounterContainerMainDiv}>
                   <CountUp
                     className={styles.Counter}
-                    start={
-                      isOnScreen
-                        ? el.end.toString().length > 2
-                          ? 2000
-                          : 5
-                        : null
-                    }
+                    start={isOnScreen ? el.start : null}
                     end={el.end}
-                    delay={0.5}
-                    duration={3}
+                    delay={0}
+                    duration={2.5}
+                    useEasing={true}
                   />
                   <span className={styles.CounterSign}>{el.sign}</span>
                 </div>

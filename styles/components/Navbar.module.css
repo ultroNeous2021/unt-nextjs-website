@@ -208,6 +208,20 @@
   margin-left: 0.8rem;
 }
 
+.NavBar {
+  display: flex;
+}
+
+.NavBarLinksDiv {
+  display: flex;
+}
+
+.Links {
+  margin-right: 1rem;
+  font-size: 18px;
+  padding: 1rem;
+}
+
 @media screen and (max-width: 992px) {
   .NavbarItems {
     display: none;

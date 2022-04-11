@@ -32,26 +32,31 @@ import styles from "@/styles/components/HorizontalTab.module.css";
 
 export const CounterComponentData = [
   {
+    start: 25,
     end: 50,
     sign: "+",
     title: "Projects Completed",
   },
   {
+    start: 45,
     end: 97,
     sign: "%",
     title: "Positive Feedback",
   },
   {
+    start: 0,
     end: 15,
     sign: "+",
     title: "Countries Served",
   },
   {
+    start: 0,
     sign: "+",
     end: 32,
     title: "Clientele",
   },
   {
+    start: 0,
     end: 25,
     sign: "+",
     title: "Experts",
@@ -572,6 +577,7 @@ export const DigitalMarketingExpertise = [
 
 export const AboutUsCounter = [
   {
+    start: 2000,
     end: 2020,
     sign: "",
     title: (
@@ -581,6 +587,7 @@ export const AboutUsCounter = [
     ),
   },
   {
+    start: 0,
     end: 2,
     sign: "+",
     title: (
@@ -590,6 +597,7 @@ export const AboutUsCounter = [
     ),
   },
   {
+    start: 0,
     end: 10,
     sign: "+",
     title: (
@@ -599,6 +607,7 @@ export const AboutUsCounter = [
     ),
   },
   {
+    start: 0,
     end: 20,
     sign: "+",
     title: (
@@ -608,6 +617,7 @@ export const AboutUsCounter = [
     ),
   },
   {
+    start: 74,
     end: 99,
     sign: "%",
     title: (

@@ -19,6 +19,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
+import Megamenu from "./MegaMenuComponent";
 
 function NavbarComponent() {
   const [colorChange, setColorchange] = useState("#1B141433");
@@ -145,9 +146,10 @@ function NavbarComponent() {
                 <TransparentButton val={"Contact Us"} link={"/contact-us"} />
               </div>
             </Nav>
+            {/* <Megamenu /> */}
           </Navbar>
         </Container>
-        <div
+        {/* <div
           className={styles.ToggleMenu}
           onClick={() => {
             setNavExpanded(!navExpanded);
@@ -158,7 +160,7 @@ function NavbarComponent() {
             className={styles.NavbarIcons}
             style={{ fontSize: "350%" }}
           />
-        </div>
+        </div> */}
       </Navbar>
     </>
   );
