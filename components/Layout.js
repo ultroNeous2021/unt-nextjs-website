@@ -18,9 +18,10 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
       </Head>
-      <MegaMenuComponent>
-        <div className={styles.container}>{children}</div>
-      </MegaMenuComponent>
+      <NavbarComponent />
+      <div className={styles.container}>{children}</div>
+      {/* <MegaMenuComponent> */}
+      {/* </MegaMenuComponent> */}
       <Footer />
     </div>
   );
