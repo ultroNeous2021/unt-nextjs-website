@@ -4,6 +4,7 @@ import { TeamAList, TeamGList, Teamlist } from "utils/DataList/listOfData";
 import styles from "@/styles/MeetOurTeam.module.css";
 import OurTeamSlider from "@/components/Slider/OurTeamSlider";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
+import YellowFilledWhiteButton from "@/components/YellowFilledWhiteButton";
 
 const MeetOurTeam = () => {
   return (
@@ -12,10 +13,10 @@ const MeetOurTeam = () => {
       <div className={styles.Teamcontainer}>
         <OurTeamSlider />
         <Row>
-          <h2 className={styles.Teamheading}>The Front Runner</h2>
+          <h2 className={styles.TeamheadingFrontRunner}>The Front Runner</h2>
 
           {Teamlist.map((value, index) => (
-            <Col xs={6} xl={3} className={styles.Team}>
+            <Col xs={6} xl={3} className={styles.Team} key={index}>
               <Image src={value.image} className={styles.Teamimg} />
               <h2 className={styles.Teamname}>{value.name}</h2>
               <p className={styles.Teamdetail}>{value.detail}</p>
@@ -26,7 +27,7 @@ const MeetOurTeam = () => {
         <Row>
           <h2 className={styles.Teamheading}>Global Sales</h2>
           {TeamGList.map((value, index) => (
-            <Col xs={6} xl={3} className={styles.Team}>
+            <Col xs={6} xl={3} className={styles.Team} key={index}>
               <Image src={value.image} className={styles.Teamimg} />
               <h2 className={styles.Teamname}>{value.name}</h2>
               <p className={styles.Teamdetail}>{value.detail}</p>
@@ -39,14 +40,13 @@ const MeetOurTeam = () => {
         <Row>
           <h2 className={styles.Teamheading}>Our Achievers</h2>
           {TeamAList.map((value, index) => (
-            <Col xs={6} xl={3} className={styles.Team}>
+            <Col xs={6} xl={3} className={styles.Team} key={index}>
               <Image src={value.image} className={styles.Teamimg} />
               <h2 className={styles.Teamname}>{value.name}</h2>
               <p className={styles.Teamdetail}>{value.detail}</p>
             </Col>
           ))}
         </Row>
-
         {/* {/ </div> /} */}
       </div>
       <div className={styles.Teamcontentcontainer}>
@@ -55,6 +55,9 @@ const MeetOurTeam = () => {
           best possible way.
         </h2>
         <h3 className={styles.Subcontent}>You have a power too.. Right?</h3>
+        <div className={styles.SubcontentButton}>
+          <YellowFilledWhiteButton val={"Be a part of our Team"} arrow={true} />
+        </div>
       </div>
     </Layout>
   );

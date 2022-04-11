@@ -11,6 +11,7 @@ import { ArrayOfServices } from "utils/DataList/listOfData";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { useEffect, useState } from "react";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
+import Link from "next/link";
 
 const CardServicesForMobile = (props) => {
   return (
@@ -57,15 +58,17 @@ const CardServicesForDesk = () => {
                 <div className={styles.flipcardback}>
                   <p className={styles.FlipP}>
                     {values.content}
-                    <div className={styles.CardServiceKnowMoreButton}>
-                      Know More
-                      <span>
-                        <HiOutlineArrowNarrowRight
-                          size={30}
-                          style={{ marginLeft: "0.2em" }}
-                        />
-                      </span>
-                    </div>
+                    <Link href={values.link}>
+                      <div className={styles.CardServiceKnowMoreButton}>
+                        Know More
+                        <span>
+                          <HiOutlineArrowNarrowRight
+                            size={30}
+                            style={{ marginLeft: "0.2em" }}
+                          />
+                        </span>
+                      </div>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -92,7 +95,7 @@ function ServicePage() {
       />
       {/* starting paragraph */}
       <Row className={styles.HeadPragraphSectionService}>
-        <Col sm={8} md={12} xl={8} className={styles.Headerpragraphspace}>
+        <Col sm={8} md={12} xl={12} className={styles.Headerpragraphspace}>
           <p className={styles.Headerpragraphservices}>
             ultroNeous is a full-service software development and consulting
             firm with rich technical expertise and proven business experience.

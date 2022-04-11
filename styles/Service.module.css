@@ -49,7 +49,7 @@
   transform-style: preserve-3d;
   border-radius: 18px;
   background-repeat: no-repeat !important;
-  background-size: cover !important;
+  background-size: contain !important;
 }
 
 .flipcard:hover .flipcardinner {
@@ -81,6 +81,9 @@
   color: #000;
   transform: rotateY(180deg);
   border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* .Serviceimg{
     padding: 1rem;
@@ -93,6 +96,7 @@
   font-size: 18px;
   font-weight: 500;
   padding: 2.5rem 1rem;
+  margin: 0%;
 }
 .Services {
   padding: 0;
@@ -135,6 +139,7 @@
   font-weight: 500;
   font-size: 18px;
   color: #e49b00;
+  padding-top: 1rem;
 }
 .HeadPragraphSectionService {
   display: flex;

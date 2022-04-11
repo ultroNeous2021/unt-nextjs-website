@@ -38,7 +38,7 @@
 .VerticalIndicatorContainer {
   position: absolute;
   right: 4%;
-  top: 36%;
+  top: 30%;
   width: 40px;
 }
 
@@ -46,7 +46,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0.2rem 0;
+  margin: 0.5rem 0;
 }
 
 .VerticalIndicatorContentDiv span {
@@ -63,55 +63,55 @@
 }
 
 #first {
-  animation: fade-first 30s linear infinite;
+  animation: fade-first 25s linear infinite;
 }
 #second {
-  animation: fade-second 30s linear infinite;
+  animation: fade-second 25s linear infinite;
 }
 #third {
-  animation: fade-third 30s linear infinite;
+  animation: fade-third 25s linear infinite;
 }
 #fourth {
-  animation: fade-fourth 30s linear infinite;
+  animation: fade-fourth 25s linear infinite;
 }
 #fifth {
-  animation: fade-fifth 30s linear infinite;
+  animation: fade-fifth 25s linear infinite;
 }
 
 /* ------------------------------------------------------------------ */
 
 #firstLine {
-  animation: fade-first-line 30s linear infinite;
+  animation: fade-first-line 25s linear infinite;
 }
 #secondLine {
-  animation: fade-second-line 30s linear infinite;
+  animation: fade-second-line 25s linear infinite;
 }
 #thirdLine {
-  animation: fade-third-line 30s linear infinite;
+  animation: fade-third-line 25s linear infinite;
 }
 #fourthLine {
-  animation: fade-fourth-line 30s linear infinite;
+  animation: fade-fourth-line 25s linear infinite;
 }
 #fifthLine {
-  animation: fade-fifth-line 30s linear infinite;
+  animation: fade-fifth-line 25s linear infinite;
 }
 
 /* ------------------------------------------------------------------ */
 
-#firstNumber {
-  animation: fade-first-number 30s linear infinite;
+#firstNum ber {
+  animation: fade-first-number 25s linear infinite;
 }
 #secondNumber {
-  animation: fade-second-number 30s linear infinite;
+  animation: fade-second-number 25s linear infinite;
 }
 #thirdNumber {
-  animation: fade-third-number 30s linear infinite;
+  animation: fade-third-number 25s linear infinite;
 }
 #fourthNumber {
-  animation: fade-fourth-number 30s linear infinite;
+  animation: fade-fourth-number 25s linear infinite;
 }
 #fifthNumber {
-  animation: fade-fifth-number 30s linear infinite;
+  animation: fade-fifth-number 25s linear infinite;
 }
 
 /* =================================================================== */
@@ -129,12 +129,12 @@
     visibility: visible;
     /* transform: translate3d(0, 0, 0); */
   }
-  12% {
+  17% {
     opacity: 1;
     visibility: visible;
     /* transform: translate3d(0, 0, 0); */
   }
-  15% {
+  21% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
@@ -157,30 +157,30 @@
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
   }
-  16% {
+  13% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, -20%, 0); */
   }
-  20% {
-    opacity: 1;
-    visibility: visible;
-    /* transform: translate3d(0, 0, 0); */
-  }
-
-  32% {
-    opacity: 1;
-    visibility: visible;
-    /* transform: translate3d(0, 0, 0); */
-  }
-
-  35% {
+  19% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
   }
 
-  40% {
+  23% {
+    opacity: 1;
+    visibility: visible;
+    /* transform: translate3d(0, 0, 0); */
+  }
+
+  34% {
+    opacity: 1;
+    visibility: visible;
+    /* transform: translate3d(0, 0, 0); */
+  }
+
+  36% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
@@ -204,32 +204,32 @@
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
   }
-  30% {
+  26% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
   }
-  35% {
+  34% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
-  }
-
-  36% {
-    opacity: 0;
-    visibility: hidden;
-    /* transform: translate3d(0, -20%, 0); */
   }
 
   40% {
     opacity: 1;
     visibility: visible;
-    /* transform: translate3d(0, 0%, 0); */
+    /* transform: translate3d(0, -20%, 0); */
   }
 
   52% {
     opacity: 1;
     visibility: visible;
+    /* transform: translate3d(0, 0%, 0); */
+  }
+
+  56% {
+    opacity: 0;
+    visibility: hidden;
     /* transform: translate3d(0, 0%, 0); */
   }
 
@@ -261,36 +261,36 @@
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
   }
-  45% {
+  40% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
   }
-  56% {
+  44% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, -20%, 0); */
   }
 
-  60% {
-    opacity: 1;
-    visibility: visible;
-    /* transform: translate3d(0, 0, 0); */
-  }
-
-  72% {
-    opacity: 1;
-    visibility: visible;
-    /* transform: translate3d(0, 0, 0); */
-  }
-
-  75% {
+  52% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
   }
 
-  80% {
+  58% {
+    opacity: 1;
+    visibility: visible;
+    /* transform: translate3d(0, 0, 0); */
+  }
+
+  70% {
+    opacity: 1;
+    visibility: visible;
+    /* transform: translate3d(0, 0, 0); */
+  }
+
+  74% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
@@ -318,32 +318,22 @@
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
   }
-  60% {
+  72% {
     opacity: 0;
     visibility: hidden;
     /* transform: translate3d(0, 0, 0); */
   }
-  75% {
-    opacity: 0;
-    visibility: hidden;
+  77% {
+    opacity: 1;
+    visibility: visible;
     /* transform: translate3d(0, -20%, 0); */
   }
-  80% {
+  93% {
     opacity: 1;
     visibility: visible;
     /* transform: translate3d(0, 0, 0); */
   }
 
-  92% {
-    opacity: 1;
-    visibility: visible;
-    /* transform: translate3d(0, 0, 0); */
-  }
-  98% {
-    opacity: 0;
-    visibility: hidden;
-    /* transform: translate3d(0, 0, 0); */
-  }
   100% {
     opacity: 0;
     visibility: hidden;
@@ -361,12 +351,13 @@
   }
   4% {
     opacity: 1;
+    transform: scale(1.5);
   }
-  12% {
+  17% {
     opacity: 1;
     transform: scale(1.5);
   }
-  15% {
+  21% {
     opacity: 0.2;
     transform: scale(1);
   }
@@ -385,12 +376,12 @@
   16% {
     opacity: 0.2;
   }
-  20% {
+  23% {
     opacity: 1;
     transform: scale(1.5);
   }
 
-  32% {
+  34% {
     opacity: 1;
     transform: scale(1.5);
   }
@@ -463,12 +454,12 @@
     opacity: 0.2;
   }
 
-  60% {
+  58% {
     opacity: 1;
     transform: scale(1.5);
   }
 
-  72% {
+  70% {
     opacity: 1;
     transform: scale(1.5);
   }
@@ -502,12 +493,12 @@
   75% {
     opacity: 0.2;
   }
-  80% {
+  77% {
     opacity: 1;
     transform: scale(1.5);
   }
 
-  92% {
+  93% {
     opacity: 1;
     transform: scale(1.5);
   }
@@ -533,12 +524,12 @@
     opacity: 1;
     display: none;
   }
-  12% {
+  17% {
     opacity: 1;
     transform: scale(1.2);
     display: block;
   }
-  15% {
+  21% {
     opacity: 0;
     transform: scale(1);
     display: none;
@@ -560,12 +551,12 @@
   16% {
     opacity: 0;
   }
-  20% {
+  23% {
     opacity: 1;
     transform: scale(1.2);
   }
 
-  32% {
+  34% {
     opacity: 1;
     transform: scale(1.2);
   }
@@ -638,12 +629,12 @@
     opacity: 0;
   }
 
-  60% {
+  58% {
     opacity: 1;
     transform: scale(1.2);
   }
 
-  72% {
+  70% {
     opacity: 1;
     transform: scale(1.2);
   }
@@ -677,12 +668,12 @@
   75% {
     opacity: 0;
   }
-  80% {
+  77% {
     opacity: 1;
     transform: scale(1.2);
   }
 
-  92% {
+  93% {
     opacity: 1;
     transform: scale(1.2);
   }

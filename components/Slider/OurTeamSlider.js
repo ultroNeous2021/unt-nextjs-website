@@ -23,6 +23,7 @@ function OurTeamSlider({ data = OurTeamSliderData }) {
           prevIcon={" "}
           nextIcon={" "}
           className={styles.OurTeamSliderContainer}
+          interval={4000}
         >
           {data.map((el) => (
             <Carousel.Item className={styles.Slide}>
@@ -53,6 +54,7 @@ function OurTeamSlider({ data = OurTeamSliderData }) {
           prevIcon={" "}
           nextIcon={" "}
           className={styles.OurTeamSliderContainer}
+          interval={4000}
         >
           {data.map((el) => (
             <Carousel.Item className={styles.Slide}>

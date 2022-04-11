@@ -14,12 +14,14 @@ function PortfolioSlider({ sliderBlack, containerBlack }) {
   var settings = {
     arrows: false,
     infinite: true,
-    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     focusOnSelect: false,
     draggable: false,
     touchMove: false,
+    fade: true,
+    speed: 1000,
+    cssEase: "linear",
   };
 
   const nextClicked = () => {

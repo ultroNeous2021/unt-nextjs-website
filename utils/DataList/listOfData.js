@@ -1,7 +1,7 @@
 export const Teamlist = [
   {
     image: "/assets/TeamO1.png",
-    name: "Pramit Shah",
+    name: "Pra  mit Shah",
     detail: "Global Sales Head",
   },
   {
@@ -10,12 +10,12 @@ export const Teamlist = [
     detail: "Project Manager",
   },
   {
-    image: "/assets/TeamO3.png",
-    name: "Richa Jay Shah",
-    detail: "Human Resource",
+    image: "/assets/TeamO2.png",
+    name: "Sachin Padhiyar",
+    detail: "Project Manager",
   },
   {
-    image: "/assets/TeamO1.png",
+    image: "/assets/DeepShah.png",
     name: "Deep Shah",
     detail: "Finance",
   },
@@ -115,11 +115,11 @@ export const TeamAList = [
     name: "Ajay Hadiya",
     detail: "Full Stack Developer",
   },
-  {
-    image: "/assets/TeamA15.png",
-    name: "Ankur",
-    detail: "Writer",
-  },
+  // {
+  //   image: "/assets/TeamA15.png",
+  //   name: "Ankur",
+  //   detail: "Writer",
+  // },
   {
     image: "/assets/TeamA16.png",
     name: "Vishalbhai Desai",
@@ -377,6 +377,7 @@ export const ArrayOfServices = [
     background: "/assets/S10.png",
     content:
       "From ideation, brainstorming, designing, development and a professional team! - Have everything you are looking for in Front-End Development. Leverage our experience to elevate your business to the next level.",
+    link: "careers",
   },
   {
     icon: "/assets/s-web-dev.svg",
@@ -384,6 +385,7 @@ export const ArrayOfServices = [
     background: "/assets/S11.png",
     content:
       "Irrespective of size of your business and complexity of application, ultroNeous build a well-planned, highly scalable and a secure web application that will solve your unique business challenges.",
+    link: "web-app-development",
   },
   {
     icon: "/assets/s-mobile-dev.svg",
@@ -391,13 +393,15 @@ export const ArrayOfServices = [
     background: "/assets/S12.png",
     content:
       "We are experts in the latest mobile app development technologies and frameworks that enable us to create exceptional native and hybrid apps. Take a peek around and see what we have to offer.",
+    link: "mobile-app-development",
   },
   {
     icon: "/assets/s-uiux.svg",
     name: "UX/UI Design",
-    background: "/assets/S12.png",
+    background: "/assets/S13.png",
     content:
       "Design is our Strength!! - Our complete UX/UI design methodology comprises brainstorming, UI research, thinking, and designing in order to provide our clients with comprehensive and engaging outcomes.",
+    link: "ui-ux-design",
   },
   // {
   //   icon: "/assets/s-cloud-dev.png",

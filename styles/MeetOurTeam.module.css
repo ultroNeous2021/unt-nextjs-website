@@ -9,6 +9,16 @@
   color: #fff;
   font-size: 80px;
   font-weight: 700;
+  padding-top: 6rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 4rem;
+}
+.TeamheadingFrontRunner {
+  padding-top: 3rem;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-bottom: 4rem;
@@ -44,7 +54,7 @@
   color: #1a1112;
   font-size: 80px;
   font-weight: 700;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 .Subcontent {
   color: #fff;
@@ -53,6 +63,9 @@
   font-weight: 700;
   padding-top: 2rem;
   font-family: "Poppins", sans-serif;
+}
+.SubcontentButton {
+  padding-bottom: 8rem;
 }
 @media (min-width: 320px) and (max-width: 430px) {
   .Team {
