@@ -19,7 +19,7 @@ const DigitalMarketing = () => {
         paragraph={ListOfDigitalMarketingService.paragraph}
         image={ListOfDigitalMarketingService.image}
         alt={ListOfDigitalMarketingService.alt}
-        linkToNextService={"ui-ux-design"}
+        linkToNextService={"ux-ui-design"}
       />
       <QualitiesSection QualitiesList={ListQualitiesDigitalMarketing} />
       <HorizontalTabService

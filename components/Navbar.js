@@ -79,19 +79,8 @@ function NavbarComponent() {
               </div>
             </div>
             <br />
-            {/* <Link href="/services"></Link> */}
 
-            <div>
-              <div className={styles.DropMe}>Drop me</div>
-              <ul className={styles.DropList}>
-                <li>action1</li>
-                <li>action2</li>
-                <li>action3</li>
-                <li>action4</li>
-                <li>action5</li>
-              </ul>
-            </div>
-            {/* <div className={styles.dropdown}>
+            <div className={styles.dropdown}>
               <span className={styles.dropdownHead}>Services</span>
               <div className={styles.dropdownContent}>
                 <p>
@@ -107,7 +96,7 @@ function NavbarComponent() {
                   <Link href="/meet-our-team">UI/UX Design</Link>
                 </p>
               </div>
-            </div> */}
+            </div>
 
             <li className={styles.menu}>
               <Link href="/contact-us">Contact Us</Link>

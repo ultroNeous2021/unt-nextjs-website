@@ -225,7 +225,15 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/mad3.svg")}
       />,
       <SiReact className={`${styles.React} ${styles.WeExcelIcons}`} key={1} />,
-      <FaNodeJs className={`${styles.Node} ${styles.WeExcelIcons}`} key={1} />,
+      <Image
+        className="WeExcelAtIconsData"
+        key={1}
+        style={{ width: "50%" }}
+        src="/assets/whitejava.svg"
+        alt="digital marketing"
+        onMouseEnter={(e) => (e.target.src = "/assets/colorjava.svg")}
+        onMouseLeave={(e) => (e.target.src = "/assets/whitejava.svg")}
+      />,
       <Image
         className="WeExcelAtIconsData"
         key={1}

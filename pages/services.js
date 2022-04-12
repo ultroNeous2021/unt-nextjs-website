@@ -12,6 +12,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { useEffect, useState } from "react";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const CardServicesForMobile = (props) => {
   return (
@@ -29,15 +30,17 @@ const CardServicesForMobile = (props) => {
           </div>
           <h2 className={styles.CardServiceSecName}>{values.name}</h2>
           <p className={styles.CardServiceContent}>{values.content}</p>
-          <div className={styles.CardServiceKnowMoreButton}>
-            Know More
-            <span>
-              <HiOutlineArrowNarrowRight
-                size={30}
-                style={{ marginLeft: "0.2em" }}
-              />
-            </span>
-          </div>
+          <Link href={values.link}>
+            <div className={styles.CardServiceKnowMoreButton}>
+              Know More
+              <span>
+                <HiOutlineArrowNarrowRight
+                  size={30}
+                  style={{ marginLeft: "0.2em" }}
+                />
+              </span>
+            </div>
+          </Link>
         </Col>
       ))}
     </Row>
@@ -81,7 +84,7 @@ const CardServicesForDesk = () => {
 };
 function ServicePage() {
   const [mobileMode, setMobileMode] = useState(false);
-
+  const goto = useRouter();
   useEffect(() => {
     window.innerWidth >= 320 && window.innerWidth <= 1080
       ? setMobileMode(true)
@@ -129,7 +132,11 @@ function ServicePage() {
           </p>
         </Col>
         <div className={styles.NotSureButton}>
-          <YellowFilledWhiteButton val={"Contact us"} arrow={true} />
+          <YellowFilledWhiteButton
+            clickhandle={() => goto.push("/contact-us")}
+            val={"Contact us"}
+            arrow={true}
+          />
         </div>
       </Row>
       <HorizontalTab data={WeExcelAtData} title={"We Excel At"} />

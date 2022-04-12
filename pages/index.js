@@ -25,8 +25,10 @@ import WhyClientChoose from "@/components/WhyClientChoose";
 import Link from "next/link";
 export default function HomePage() {
   const [hoverColor, setHoverColor] = useState(false);
-  const [arrowShow, setArrowShow] = useState(false);
+  // const [arrowShow, setArrowShow] = useState(false);
+  const [scale, setScale] = useState("z");
 
+  const [arrowImage, setArrowImage] = useState("/assets/circlearrow.svg");
   useEffect(() => {
     AOS.init();
   }, []);
@@ -41,68 +43,68 @@ export default function HomePage() {
       <HomeHero />
       <div className={styles.TechnologiesContainer}>
         <Row className="mx-0">
-          <div className={styles.TechnoContainer}>
-            <Link href={"/web-application-development"}>
+          <Link href={"/web-application-development"}>
+            <div className={styles.TechnoContainer}>
               <Image
                 src={"/assets/web-dev.jpg"}
                 alt="Avatar"
                 className={styles.TechnologyImage}
               />
-            </Link>
-            <div className={styles.TechnologyOverlay}>
-              <div className={styles.TechnologyText}>Web App Development</div>
+              <div className={styles.TechnologyOverlay}>
+                <div className={styles.TechnologyText}>Web App Development</div>
+              </div>
             </div>
-          </div>
-          <div className={styles.TechnoContainer}>
-            <Link href={"/mobile-application-development"}>
+          </Link>
+          <Link href={"/mobile-application-development"}>
+            <div className={styles.TechnoContainer}>
               <Image
                 src={"/assets/mobile.jpg"}
                 alt="Avatar"
                 className={styles.TechnologyImage}
               />
-            </Link>
-            <div className={styles.TechnologyOverlay}>
-              <div className={styles.TechnologyText}>
-                Mobile App Development{" "}
+              <div className={styles.TechnologyOverlay}>
+                <div className={styles.TechnologyText}>
+                  Mobile App Development{" "}
+                </div>
               </div>
             </div>
-          </div>
-          <div className={styles.TechnoContainer}>
-            <Link href={"/ui-ux-design"}>
-              <Image
-                src={"/assets/ux_ui.jpg"}
-                alt="Avatar"
-                className={styles.TechnologyImage}
-              />
-            </Link>
-            <div className={styles.TechnologyOverlay}>
-              <div className={styles.TechnologyText}>UX/ UI Design</div>
-            </div>
-          </div>
-          <div className={styles.TechnoContainer}>
-            <Link href={"/digital-marketing"}>
+          </Link>
+          <Link href={"/digital-marketing"}>
+            <div className={styles.TechnoContainer}>
               <Image
                 src={"/assets/Socialmedia.jpg"}
                 alt="Avatar"
                 className={styles.TechnologyImage}
               />
-            </Link>
-            <div className={styles.TechnologyOverlay}>
-              <div className={styles.TechnologyText}>Digital Marketing</div>
+              <div className={styles.TechnologyOverlay}>
+                <div className={styles.TechnologyText}>Digital Marketing</div>
+              </div>
             </div>
-          </div>
-          <div className={styles.TechnoContainer}>
-            <Link href={"/careers"}>
+          </Link>
+          <Link href={"/ux-ui-design"}>
+            <div className={styles.TechnoContainer}>
+              <Image
+                src={"/assets/ux_ui.jpg"}
+                alt="Avatar"
+                className={styles.TechnologyImage}
+              />
+              <div className={styles.TechnologyOverlay}>
+                <div className={styles.TechnologyText}>UX/ UI Design</div>
+              </div>
+            </div>
+          </Link>
+          <Link href={"/careers"}>
+            <div className={styles.TechnoContainer}>
               <Image
                 src={"/assets/cloud.jpg"}
                 alt="Avatar"
                 className={styles.TechnologyImage}
               />
-            </Link>
-            <div className={styles.TechnologyOverlay}>
-              <div className={styles.TechnologyText}>Cloud & Devops</div>
+              <div className={styles.TechnologyOverlay}>
+                <div className={styles.TechnologyText}>Cloud & Devops</div>
+              </div>
             </div>
-          </div>
+          </Link>
         </Row>
       </div>
       {/* Intro container */}
@@ -119,67 +121,75 @@ export default function HomePage() {
               ultroNeours.
             </h2>
           </Row>
-          <Row className="mx-0">
-            <Col
-              sm={12}
-              xs={12}
-              md={6}
-              xl={6}
-              lg={6}
-              className={styles.IntroParagraphSection}
-              onMouseEnter={() => setArrowShow(true)}
-              onMouseLeave={() => setArrowShow(false)}
-            >
-              <p className={styles.IntroParagraph}>
-                ultroNeous is a concept – a concept of innovation, customer
-                service, and exceptional creativity. We are committed to
-                building technology solutions that are accessible to help
-                pioneers reach their vision. We will continue to remove
-                technological obstacles to the global community of movers and
-                shakers.
-                <br />
-                <br />
-                Our team is constantly creating advanced web and mobile
-                applications for various domains. Our experienced developers
-                have a broad working knowledge of top programming languages and
-                have the sense to build scalable solutions. The robust solutions
-                increase the ROI for the client, resulting in the constant
-                growth of our client base and project development knowledge.
-              </p>
-            </Col>
-            <Col
-              sm={12}
-              xs={12}
-              md={6}
-              xl={6}
-              lg={6}
-              className={styles.IntroImagePosition}
-              onMouseEnter={() => setArrowShow(true)}
-              onMouseLeave={() => setArrowShow(false)}
-            >
-              <Image
-                src="/assets/group-image.png"
-                alt="group of ultroneous"
-                className={styles.IntroImage}
-              />
-            </Col>
-          </Row>
-          <Row className={styles.IntroArrowContain}>
-            <Col xl={3} className={styles.IntroArrow}>
-              <Link href="/about-ultroneous">
+          <div>
+            <Row className="mx-0">
+              <Col
+                sm={12}
+                xs={12}
+                md={6}
+                xl={6}
+                lg={6}
+                className={styles.IntroParagraphSection}
+              >
+                <p className={styles.IntroParagraph}>
+                  ultroNeous is a concept – a concept of innovation, customer
+                  service, and exceptional creativity. We are committed to
+                  building technology solutions that are accessible to help
+                  pioneers reach their vision. We will continue to remove
+                  technological obstacles to the global community of movers and
+                  shakers.
+                  <br />
+                  <br />
+                  Our team is constantly creating advanced web and mobile
+                  applications for various domains. Our experienced developers
+                  have a broad working knowledge of top programming languages
+                  and have the sense to build scalable solutions. The robust
+                  solutions increase the ROI for the client, resulting in the
+                  constant growth of our client base and project development
+                  knowledge.
+                </p>
+              </Col>
+              <Col
+                sm={12}
+                xs={12}
+                md={6}
+                xl={6}
+                lg={6}
+                className={styles.IntroImagePosition}
+              >
                 <Image
-                  data-aos="zoom-out"
-                  data-aos-duration="2000"
-                  src={"/assets/circlearrow.svg"}
-                  style={{
-                    height: "11.313rem",
-                    opacity: arrowShow ? "1" : "0",
-                    transition: "2s",
-                  }}
+                  src="/assets/group-image.png"
+                  alt="group of ultroneous"
+                  className={styles.IntroImage}
                 />
-              </Link>
-            </Col>
-          </Row>
+              </Col>
+            </Row>
+            <Row className={styles.IntroArrowContain}>
+              <Col xl={3} className={styles.IntroArrow}>
+                <Link href="/about-ultroneous">
+                  <Image
+                    onMouseEnter={() => {
+                      setArrowImage("/assets/orange-hover.png");
+                      setScale("scale(1.2)");
+                    }}
+                    onMouseLeave={() => {
+                      setArrowImage("/assets/circlearrow.svg");
+                      setScale("scale(0.9)");
+                    }}
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
+                    src={arrowImage}
+                    style={{
+                      height: "10rem",
+                      transform: scale,
+                      cursor: "pointer",
+                      transition: "all 1s ease",
+                    }}
+                  />
+                </Link>
+              </Col>
+            </Row>
+          </div>
         </div>
       </div>
       <CounterComponent data={CounterComponentData} />

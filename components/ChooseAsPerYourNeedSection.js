@@ -4,10 +4,17 @@ import styles from "@/styles/components/ChooseAsPerYourNeedSection.module.css";
 import { Col, Image, Row } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { ChooseAsPerYourNeedData } from "utils/CONSTANT_DATA";
-
+import { VscGoToFile } from "react-icons/vsc";
+import { useRouter } from "next/router";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const ChooseAsPerYourNeedSection = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const [viewByIndex, setViewByIndex] = useState(0);
   const [mobileMode, setMobileMode] = useState(false);
+  const goto = useRouter();
   useEffect(() => {
     window.innerWidth >= 320 && window.innerWidth <= 720
       ? setMobileMode(true)
@@ -17,7 +24,13 @@ const ChooseAsPerYourNeedSection = () => {
   return (
     <Row className={styles.ChooseAsPerYourNeedContainer}>
       <Col sm={12} xl={12} className={styles.CAPYN}>
-        <h2 className={styles.CAPYNHEADING}>Choose as per your need!</h2>
+        <h2
+          className={styles.CAPYNHEADING}
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          Choose as per your need!
+        </h2>
       </Col>
       <Col xl={2} className={styles.CAPYNTabMainContainer}>
         <Row className={styles.CAPYNTabcontainer}>
@@ -67,7 +80,11 @@ const ChooseAsPerYourNeedSection = () => {
           className={styles.DetailSectionImage}
         />
         <div className={styles.DetailBtn}>
-          <YellowFilledWhiteButton val={ListOfTab[viewByIndex]} arrow={true} />
+          <YellowFilledWhiteButton
+            clickhandle={() => goto.push("/contact-us")}
+            val={ListOfTab[viewByIndex]}
+            arrow={true}
+          />
         </div>
       </Col>
     </Row>

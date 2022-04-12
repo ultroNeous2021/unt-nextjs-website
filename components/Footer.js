@@ -7,10 +7,11 @@ import ButtonComponent from "./ButtonComponent";
 import Link from "next/link";
 import { useState } from "react";
 import axios from "axios";
+import { useRouter } from "next/router";
 function Footer({ FooterContainerStyle }) {
   const [value, setValue] = useState("");
   const [newsletterPopup, setNewsletterPopup] = useState(false);
-
+  const goto = useRouter();
   const submitHandler = async () => {
     const filter = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
 
@@ -37,7 +38,11 @@ function Footer({ FooterContainerStyle }) {
       <Row className={styles.MxNone}>
         <div className={styles.FooterTopText}>
           <h2>Let’s Discuss your Ideas.</h2>
-          <ButtonComponent val={"Yes, Let's do it"} />
+
+          <ButtonComponent
+            clickHandler={() => goto.push("/contact-us")}
+            val={"Yes, Let's do it"}
+          />
         </div>
       </Row>
       <Row className={[styles.MxNone, styles.FooterContainer]}>
@@ -49,42 +54,42 @@ function Footer({ FooterContainerStyle }) {
           />
           <ul className={styles.IconListContain}>
             <li className={styles.IconContain}>
-              <span className={styles.IconBox}>
-                <a
-                  href="https://www.facebook.com/ultroneous.technologies"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+              <a
+                href="https://www.facebook.com/ultroneous.technologies"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className={styles.IconBox}>
                   <FaFacebookF color="#fff" />
-                </a>
-              </span>
-              <span className={styles.IconBox}>
-                <a
-                  href="https://twitter.com/ultroneousTech"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                </span>
+              </a>
+              <a
+                href="https://twitter.com/ultroneousTech"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className={styles.IconBox}>
                   <FaTwitter color="#fff" />
-                </a>
-              </span>
-              <span className={styles.IconBox}>
-                <a
-                  href="https://www.instagram.com/ultroneous.technologies/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                </span>
+              </a>
+              <a
+                href="https://www.instagram.com/ultroneous.technologies/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className={styles.IconBox}>
                   <AiFillInstagram color="#fff" />
-                </a>
-              </span>
-              <span className={styles.IconBox}>
-                <a
-                  href="https://www.linkedin.com/company/ultroneous"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                </span>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/ultroneous"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className={styles.IconBox}>
                   <FaLinkedinIn color="#fff" />
-                </a>
-              </span>
+                </span>
+              </a>
             </li>
           </ul>
         </Col>
@@ -124,7 +129,7 @@ function Footer({ FooterContainerStyle }) {
                   <Link href="/digital-marketing">Digital Marketing</Link>
                 </li>
                 <li>
-                  <Link href="/ui-ux-design">UX/UI Design</Link>
+                  <Link href="/ux-ui-design">UX/UI Design</Link>
                 </li>
                 {/* <li>
                   <Link href="/cloud-and-devops">Cloud & Devops</Link>

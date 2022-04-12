@@ -11,7 +11,14 @@ import { Card, Col, Image, Row } from "react-bootstrap";
 import { BsDot } from "react-icons/bs";
 import { AboutUsCounter } from "utils/CONSTANT_DATA";
 import WhyClientLoveUs from "@/components/Slider/WhyClientLoveUs";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useRouter } from "next/router";
 function AboutUltroneousPage() {
+  const goto = useRouter();
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const SliderData = [
     {
       image: "/assets/WCLU-1.svg",
@@ -62,11 +69,15 @@ function AboutUltroneousPage() {
       <Row className={styles.PagesHeader}>
         <div className={styles.PaddingNull}>
           <p>About Us</p>
-          <h1>We are,</h1>
+          <h1 data-aos="zoom-in" data-aos-duration="2000">
+            We are,
+          </h1>
         </div>
       </Row>
       <div className={styles.UltroneousHContainer}>
-        <h2>ultroNeours</h2>
+        <h2 data-aos="zoom-in" data-aos-duration="2000">
+          ultroNeours
+        </h2>
       </div>
       {/*---------- A place for Expanding Horizons and Team Building -----------*/}
       <Row className={styles.PlaceForContainer}>
@@ -266,7 +277,11 @@ function AboutUltroneousPage() {
           </Col>
         </Row>
         <div className={styles.CheckOutButtonSection}>
-          <YellowFilledWhiteButton val={"Check out Careers"} arrow={true} />
+          <YellowFilledWhiteButton
+            clickhandle={() => goto.push("/careers")}
+            val={"Check out Careers"}
+            arrow={true}
+          />
         </div>
       </div>
     </Layout>

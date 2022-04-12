@@ -1,22 +1,34 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Col, Row, Tab, Tabs } from "react-bootstrap";
 import styles from "@/styles/components/HorizontalTabService.module.css";
 // import TechImage from "../../assets/images/tech-image.jpg";
 import HireButton from "./HireButton";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function HorizontalTabService(props) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const hireDeveloper = useRef(null);
-
+  const goto = useRouter();
   const clickHandler = () => {
-    hireDeveloper.current.click();
+    goto.push("/contact-us");
   };
 
   return (
     <>
       {/* <Link href="#" style={{ display: "none" }} ref={hireDeveloper}></Link> */}
       <div className={styles.HorizontalTabContainer}>
-        <h2 className={styles.TabHeading}>{props.heading}</h2>
+        <h2
+          className={styles.TabHeading}
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          {props.heading}
+        </h2>
         <Tabs
           defaultActiveKey={props.Technology[0].title}
           id="uncontrolled-tab-example"

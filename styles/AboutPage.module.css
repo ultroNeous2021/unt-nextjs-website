@@ -41,6 +41,7 @@
   font-weight: 700;
   color: #fff;
   margin: 0%;
+  width: fit-content;
 }
 
 /* A place for Expanding Horizons and Team Building */
@@ -251,7 +252,7 @@
   }
 
   .WDTCUContainer {
-    padding: 6rem 1rem 6rem 1rem;
+    padding: 0rem 1rem 6rem 1rem;
   }
 
   .HeadingTalent {

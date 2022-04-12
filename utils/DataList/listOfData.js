@@ -237,7 +237,7 @@ export const ListOfMobileService = {
   title: "Mobile Application Development",
   paragraph:
     "ultroNeous is a leading mobile app development company in developing custom mobile apps with a variety of technological stacks. Our experienced team is innovative in creating mobile apps with exceptional user experience, great compatibility, and are bug-free. ultroNeous' developers use hybrid app development and native app development procedure to build mobile apps that are sturdy, reliable and efficient. ",
-  image: "/assets/Mobileapplication.png",
+  image: "/assets/mobile-dev.png",
   alt: "mobile-app-development",
 };
 export const ListOfUiUxDesign = {
@@ -371,14 +371,14 @@ export const ArrayOfTalent = [
   "Exponential Career Opportunity",
 ];
 export const ArrayOfServices = [
-  {
-    icon: "/assets/s-frontend-dev.svg",
-    name: "Web App Development",
-    background: "/assets/S10.png",
-    content:
-      "From ideation, brainstorming, designing, development and a professional team! - Have everything you are looking for in Front-End Development. Leverage our experience to elevate your business to the next level.",
-    link: "careers",
-  },
+  // {
+  //   icon: "/assets/s-frontend-dev.svg",
+  //   name: "Web App Development",
+  //   background: "/assets/S10.png",
+  //   content:
+  //     "From ideation, brainstorming, designing, development and a professional team! - Have everything you are looking for in Front-End Development. Leverage our experience to elevate your business to the next level.",
+  //   link: "careers",
+  // },
   {
     icon: "/assets/s-web-dev.svg",
     name: "Web App Development",

@@ -11,7 +11,8 @@ import { ContactUsFormCheckboxData } from "utils/CONSTANT_DATA";
 import axios from "axios";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
   const {
     register,
@@ -28,7 +29,9 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
   const [data, setData] = useState([]); // array of selected checkboxes
   const [showPhoneImage, setShowPhoneImage] = useState(true); // phone image
   const [dropdownValue, setDropdownValue] = useState("");
-
+  useEffect(() => {
+    AOS.init();
+  }, []);
   useEffect(() => {
     if (window.innerWidth < 992) {
       setShowPhoneImage(false);
@@ -125,6 +128,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                   <Row className={styles.CheckboxSpace}>
                     <Col xl={6} className={styles.CheckboxSpaceCol}>
                       <input
+                        className={styles.MyCheckBox}
                         type="checkbox"
                         value="Web & App Development"
                         onChange={(e) =>
@@ -136,6 +140,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                     <Col xl={6} className={styles.CheckboxSpaceCol}>
                       <input
                         type="checkbox"
+                        className={styles.MyCheckBox}
                         value="Digital Marketing"
                         onChange={(e) =>
                           HandleCheck(e.target.checked, e.target.value)
@@ -145,6 +150,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                     </Col>
                     <Col xl={6} className={styles.CheckboxSpaceCol}>
                       <input
+                        className={styles.MyCheckBox}
                         type="checkbox"
                         value="UI/UX Design"
                         onChange={(e) =>
@@ -156,6 +162,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                     <Col xl={6} className={styles.CheckboxSpaceCol}>
                       <input
                         type="checkbox"
+                        className={styles.MyCheckBox}
                         value="eCommerce Development"
                         onChange={(e) =>
                           HandleCheck(e.target.checked, e.target.value)
@@ -166,6 +173,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                     <Col xl={6} className={styles.CheckboxSpaceCol}>
                       <input
                         type="checkbox"
+                        className={styles.MyCheckBox}
                         value="Enterprise Software Solutions"
                         onChange={(e) =>
                           HandleCheck(e.target.checked, e.target.value)
@@ -178,6 +186,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                     <Col xl={6} className={styles.CheckboxSpaceCol}>
                       <input
                         type="checkbox"
+                        className={styles.MyCheckBox}
                         value="Hire a Team"
                         onChange={(e) => {
                           HandleCheck(e.target.checked, e.target.value);
@@ -377,7 +386,13 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
         </div>
       </div>
       <div className={`${styles.bgcolor} ${styles.WALAContainer}`}>
-        <h2 className={styles.imagehead}>We are located in</h2>
+        <h2
+          className={styles.imagehead}
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          We are located in
+        </h2>
         <Row className={`${styles.WALAImages} mx-0 `}>
           <Col xs={12} sm={12} md={6} xl={6} className={styles.ImageContainer}>
             <Image
@@ -386,7 +401,13 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
             />
           </Col>
           <Col xs={12} sm={12} md={6} xl={6} className={styles.WALAImagesText}>
-            <h2 className={styles.headlabel}>INDIA</h2>
+            <h2
+              className={styles.headlabel}
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
+              INDIA
+            </h2>
             <p className={styles.plabel}>
               C/906, Ganesh Meridian, Opp. Kargil Petrol
               <br />
@@ -418,7 +439,13 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
             xl={6}
             className={styles.WALAImagesTextTwo}
           >
-            <h2 className={styles.headlabel}>USA</h2>
+            <h2
+              className={styles.headlabel}
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
+              USA
+            </h2>
             <p className={styles.plabel}>
               West 51st Avenue, Denver, CO 80212USA
             </p>

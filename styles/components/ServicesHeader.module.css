@@ -1,7 +1,7 @@
 .ServicesContainer {
   background: #1a1112;
   margin: 0%;
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 .ServicesNumber {
@@ -11,7 +11,9 @@
   -webkit-text-stroke: 1px #fff;
   font-family: "Poppins", sans-serif;
   justify-content: center;
-  margin: 0%;
+  margin-left: 8rem;
+  margin-right: 0%;
+  padding-top: 3rem;
   align-items: flex-end;
 }
 
@@ -21,7 +23,7 @@
 }
 
 .ServicesLeft {
-  margin-top: -3rem;
+  margin-top: -1.5rem;
 }
 
 .ServicesLeft p:first-of-type {
@@ -46,19 +48,33 @@
 
 .ServicesWhiteArrowImage {
   position: absolute;
-}
-
-.ImageDiv {
-  position: relative;
-  bottom: 8rem;
   left: 3rem;
 }
 
-.ServicesRightMainImage {
+.ImageDiv {
+  padding: 0%;
+  margin: 0%;
+  position: relative;
+  bottom: 8rem;
+  left: 8rem;
   width: 80%;
-  height: auto;
+  transition: all 1s ease;
 }
-
+.ImageDiv:hover {
+  transition: all 1s ease;
+  transform: scale(1.05);
+}
+.ServicesRightMainImage {
+  width: 100%;
+  height: auto;
+  /* filter: blur(5px); */
+  transition: all 1s ease;
+}
+.ServicesRightMainImage:hover {
+  transition: all 1s ease;
+  /* filter: blur(0px); */
+  /* transform: scale(1.2); */
+}
 .ServicesWhiteArrow {
   z-index: 5;
   position: absolute;
@@ -67,8 +83,15 @@
 
 .ServicesWhiteArrowImage {
   height: 8rem;
+  transition: all 2s ease;
 }
-
+.ServicesWhiteArrowImage:hover {
+  transition: all 1s ease;
+  transform: scale(1.2);
+}
+.Button {
+  padding-top: 1rem;
+}
 @media (min-width: 320px) and (max-width: 430px) {
   .ServicesContainer {
     padding: 3rem 1rem;
@@ -77,9 +100,12 @@
 
   .ServicesNumber {
     font-size: 72px;
+    margin: 0%;
     justify-content: initial;
   }
-
+  .ImageDiv {
+    width: 100%;
+  }
   .ServicesRow {
     padding: 0;
   }
