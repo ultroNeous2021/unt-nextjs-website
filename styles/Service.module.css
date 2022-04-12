@@ -53,7 +53,7 @@
 }
 
 .flipcard:hover .flipcardinner {
-  transition: 1.5s;
+  transition: 1.9s;
   transform: rotateY(180deg);
 }
 
@@ -156,7 +156,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  text-align: center;
+  text-align: justify;
   color: #ffffff;
 }
 

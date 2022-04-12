@@ -6,17 +6,21 @@ import ClientTestimonialSlider from "@/components/Slider/ClientTestimonialSlider
 import { CareersData, FeelTheCultureData } from "utils/CONSTANT_DATA";
 import { IoIosArrowForward } from "react-icons/io";
 import { useEffect, useState } from "react";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function CareersPage() {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
+    AOS.init();
     if (window.innerWidth < 768) {
       setMobile(true);
     } else {
       setMobile(false);
     }
   }, []);
-
+  function last(array) {
+    return array.indexOf(array[array.length - 1]);
+  }
   return (
     <Layout
       title={"Job Opportunities in #1 IT Company in Ahmedabad | ultroNeous"}
@@ -37,7 +41,14 @@ function CareersPage() {
       </div>
       <Row className={styles.WFTDContainer}>
         <div>
-          <h2 className={styles.WFTDHeader}> Waiting for the deserving</h2>
+          <h2
+            className={styles.WFTDHeader}
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            {" "}
+            Waiting for the deserving
+          </h2>
           <p className={styles.WFTDparagraph}>
             ultroNeous is always in search of talents who are ready to evolve,
             expand and enhance the knowledge.
@@ -58,7 +69,7 @@ function CareersPage() {
                   <Accordion.Body className={styles.AccordionBody}>
                     {el.jobs.map((val, ind) => (
                       <a
-                        href={`mailto:richa@ultroneous.com?subject=Applying for: ${val.job}`}
+                        href={`mailto:hr@ultroneous.com?subject=Applying for: ${val.job}`}
                       >
                         <div key={ind}>
                           <p>
@@ -68,25 +79,23 @@ function CareersPage() {
                             </span>
                           </p>
                           <p>
-                            Ahmedabad / Full Time <IoIosArrowForward />
+                            <IoIosArrowForward />
                           </p>
                         </div>
                       </a>
                     ))}
                   </Accordion.Body>
                 </Accordion.Item>
-                <hr
-                  style={{
-                    border: "1px solid  rgba(255, 255, 255, 0.08)",
-                  }}
-                />
+                {index == last(CareersData) ? null : (
+                  <hr style={{ border: "1px solid rgba(255,255,255,0.08)" }} />
+                )}
               </>
             ))}
           </Accordion>
         </Row>
       </Row>
       <Row className={styles.BenefitsAndPerks}>
-        <h3>
+        <h3 data-aos="zoom-in" data-aos-duration="2000">
           Benefits & Perks <br /> with us{" "}
         </h3>
         <Row className={styles.SixPartsRow}>
@@ -154,7 +163,9 @@ function CareersPage() {
       </Row>
       <Row className={styles.CareersOurCatchphraseRow}>
         <div className={styles.CareersOurCatchphrase}>
-          <img src={"/assets/Cover-Career.png"} alt="Our-catchphrase" />
+          <div className={styles.ZoomCatchphrase}>
+            <img src={"/assets/Cover-Career.png"} alt="Our-catchphrase" />
+          </div>
         </div>
         <div className={styles.CareersOurCatchphrasetext}>
           <h2>
@@ -170,7 +181,9 @@ function CareersPage() {
         </div>
       </Row>
       <Row className={styles.WTOOImages}>
-        <h3>Welcome to Our Office</h3>
+        <h3 data-aos="zoom-in" data-aos-duration="2000">
+          Welcome to Our Office
+        </h3>
         {mobile ? (
           <>
             <Row>

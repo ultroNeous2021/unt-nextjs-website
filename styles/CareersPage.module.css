@@ -3,7 +3,15 @@
   text-align: center;
   padding: 4rem 2.5rem;
 }
-
+/* .ZoomCatchphrase::after {
+  transition: all 1s ease;
+  transform: scale(1);
+} */
+.ZoomCatchphrase:hover {
+  transition: all 1s ease;
+  overflow: hidden;
+  transform: scale(1.1);
+}
 .CareerMapImage img {
   height: auto;
   width: 60%;
@@ -123,6 +131,7 @@
 }
 
 .CareersOurCatchphrase {
+  overflow: hidden;
   padding: 0;
 }
 
@@ -159,6 +168,7 @@
   -webkit-text-stroke: 1.5px #e49b00;
   font-family: "Poppins", sans-serif;
   margin-bottom: 1em;
+  width: fit-content;
   padding-left: 0em;
 }
 
@@ -208,10 +218,12 @@
     width: 100%;
   }
 
-  .AccordionBody div {
+  /* .AccordionBody div {
     display: block;
+  } */
+  .AccordionBody {
+    padding: 0%;
   }
-
   .BenefitsAndPerks {
     display: flex;
     justify-content: center;

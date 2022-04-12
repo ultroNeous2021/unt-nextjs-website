@@ -6,6 +6,7 @@
 .Verticalheading {
   font-size: 80px;
   font-weight: 700;
+  width: fit-content;
   color: #1b1414;
 }
 

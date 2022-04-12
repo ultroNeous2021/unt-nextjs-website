@@ -7,7 +7,8 @@ const { TabPane } = Tabs;
 const HorizontalTab = ({ data, title }) => (
   <div className={styles.HorizontalTabContainer}>
     <Row className={styles.ExcelAtHead}>
-      <h2 data-aos="zoom" data-aos-duration="2000">
+      <h2 data-aos="zoom-in" data-aos-duration="2000">
+        {" "}
         {title}
       </h2>
     </Row>

@@ -15,7 +15,18 @@
   justify-content: center;
   width: 5rem;
 }
+/*  */
 
+.DropList {
+  color: #e49b00;
+  display: none;
+  transition: all 4s ease;
+}
+.DropMe:hover + .DropList {
+  color: #e49b00;
+  display: block;
+}
+/*  */
 .Megamenu {
   font-size: 26px;
   font-weight: 600;
@@ -59,6 +70,7 @@
 }
 
 .dropdown:hover .dropdownContent {
+  transition: all 4s;
   display: contents;
 }
 

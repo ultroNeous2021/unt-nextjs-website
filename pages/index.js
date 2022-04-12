@@ -187,7 +187,7 @@ export default function HomePage() {
       <div className={styles.WhatWeOfferContainer}>
         <Row>
           <h2
-            data-aos="zoom"
+            data-aos="zoom-in"
             data-aos-duration="2000"
             className={styles.mainheading}
           >

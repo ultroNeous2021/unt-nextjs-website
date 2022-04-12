@@ -396,6 +396,13 @@ export const ArrayOfServices = [
     link: "mobile-application-development",
   },
   {
+    icon: "/assets/s-digital-marketing.svg",
+    name: "Digital Marketing",
+    background: "/assets/S17.png",
+    content:
+      "For each of our digital marketing services, including SEO, PPC, Social Media Marketing, eCommerce and Content Marketing, we use a results-driven approach. Explore our digital marketing services in depth.",
+  },
+  {
     icon: "/assets/s-uiux.svg",
     name: "UX/UI Design",
     background: "/assets/S13.png",
@@ -423,12 +430,5 @@ export const ArrayOfServices = [
   //   background: "/assets/S16.png",
   //   content:
   //     "Utilise our corporate software development experience to empower, automate, and scale your company model. Get access to our industry-specific expertise to design and build your new enterprise software solution.",
-  // },
-  // {
-  //   icon: "/assets/s-digital-marketing.svg",
-  //   name: "Digital Marketing",
-  //   background: "/assets/S17.png",
-  //   content:
-  //     "For each of our digital marketing services, including SEO, PPC, Social Media Marketing, eCommerce and Content Marketing, we use a results-driven approach. Explore our digital marketing services in depth.",
   // },
 ];

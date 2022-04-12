@@ -706,6 +706,21 @@ export const CareersData = [
       },
     ],
   },
+  {
+    title: "Design",
+    vacancy: "(2)",
+    jobs: [
+      {
+        job: "Graphic Designer",
+        jobNumber: "1",
+      },
+
+      {
+        job: "UX/UI Designer",
+        jobNumber: "1",
+      },
+    ],
+  },
 ];
 
 export const FeelTheCultureData = [
