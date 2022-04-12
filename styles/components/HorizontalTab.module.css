@@ -64,7 +64,7 @@
   text-align: center;
 }
 
-.HorizontalTabCol:hover .HorizontalTabname {
+.HorizontalTabDiv:hover + .HorizontalTabname {
   transition: 2s;
   opacity: 1;
 }

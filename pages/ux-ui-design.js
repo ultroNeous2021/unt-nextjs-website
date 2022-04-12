@@ -26,7 +26,7 @@ const UiUxDesign = () => {
         paragraph={ListOfUiUxDesign.paragraph}
         image={ListOfUiUxDesign.image}
         alt={ListOfUiUxDesign.alt}
-        linkToNextService={"mobile-application-development"}
+        linkToNextService={"web-application-development"}
       />
       <QualitiesSection QualitiesList={ListQualitiesUIUX} />
       <Row className={styles.NotableContainer}>

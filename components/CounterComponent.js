@@ -32,8 +32,8 @@ function CounterComponent(props) {
             <Col
               data-aos="zoom-in"
               data-aos-duration="2000"
-              xs={4}
-              sm={4}
+              xs={6}
+              sm={6}
               lg={2}
               className={styles.CounterComponentCol}
               key={ind}

@@ -140,6 +140,7 @@
   font-size: 18px;
   color: #e49b00;
   padding-top: 1rem;
+  cursor: pointer;
 }
 .HeadPragraphSectionService {
   display: flex;

@@ -23,9 +23,19 @@
   padding-right: 0.5rem;
   padding-bottom: 4rem;
 }
+
+.ImageDiv {
+  overflow: hidden;
+}
+
 .Teamimg {
   padding: 4rem 2.5rem;
   padding-bottom: 0;
+  transition: all 0.5s ease;
+}
+
+.Teamimg:hover {
+  transform: scale(1.1);
 }
 .Teamname {
   color: #fff;
@@ -48,25 +58,46 @@
 }
 
 .Teamcontentcontainer {
-  padding: 4rem 2.5rem;
+  padding: 0 2.5rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .Contentheading {
   color: #1a1112;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
-  padding-top: 4rem;
 }
 .Subcontent {
   color: #fff;
   -webkit-text-stroke: 1px #000;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   padding-top: 2rem;
   font-family: "Poppins", sans-serif;
 }
-.SubcontentButton {
-  padding-bottom: 8rem;
+
+.YellowButton {
+  background: linear-gradient(180deg, #ffad00 0%, #e49b00 100%);
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 14em;
+  height: 3.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
 }
+
+.Contentheading span {
+  color: #e49b00;
+}
+
 @media (min-width: 320px) and (max-width: 430px) {
   .Team {
     padding: 0;
@@ -76,13 +107,18 @@
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 8rem;
   }
   .Teamheading {
     font-size: 40px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
+
+  .TeamheadingFrontRunner {
+    font-size: 40px;
+  }
+
   .Teamimg {
     padding: 0;
     padding-left: 0;
@@ -104,13 +140,16 @@
     padding-bottom: 2rem;
   }
   .Teamcontentcontainer {
-    padding: 4rem 0.5rem;
+    padding: 4rem 1rem;
+    height: 80vh;
   }
-  .Contentheading {
-    font-size: 48px;
-  }
+  .Contentheading,
   .Subcontent {
-    font-size: 40px;
+    font-size: 23px;
+  }
+
+  .YellowButton {
+    font-size: 15px;
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {
@@ -130,6 +169,11 @@
   .Teamheading {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+  }
+
+  .Contentheading,
+  .Subcontent {
+    font-size: 45px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1730px) {

@@ -14,13 +14,13 @@ function WebApplicationDevelopmentPage() {
   return (
     <Layout>
       <ServicesHeader
-        numbers={"02"}
+        numbers={"01"}
         heading={ListOfWebService.heading}
         title={ListOfWebService.title}
         paragraph={ListOfWebService.paragraph}
         image={ListOfWebService.image}
         alt={ListOfWebService.alt}
-        linkToNextService={"digital-marketing"}
+        linkToNextService={"mobile-application-development"}
       />
       <QualitiesSection QualitiesList={ListQualitiesWebAppDev} />
       <HorizontalTabService

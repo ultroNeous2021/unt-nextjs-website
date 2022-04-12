@@ -369,6 +369,10 @@
     padding: 0 0 0 1rem;
     margin-bottom: 2.5rem;
   }
+
+  .Inputwidth {
+    width: 100%;
+  }
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .FormDescription {

@@ -407,14 +407,14 @@ export const PortfolioSliderData = [
   },
   {
     image: "/assets/doctor.jpg",
-    title: "FinTech Mobile App ",
-    details:
-      "This app is designed with the purpose of simplifying the chaos of money management. With this, users can closely monitor their expenses along with transferring money with their contacts. ",
+    title: "Clinic on Palm",
+    details: `We repeat the ancient history of diagnosing health by palm reading. Have a look at our handy application "Clinic on Palm" where patients can get easy consultation from their doctors.`,
   },
   {
     image: "/assets/fintech.jpg",
-    title: "Clinic on Palm",
-    details: `We repeat the ancient history of diagnosing health by palm reading. Have a look at our handy application "Clinic on Palm" where patients can get easy consultation from their doctors.`,
+    title: "FinTech Mobile App ",
+    details:
+      "This app is designed with the purpose of simplifying the chaos of money management. With this, users can closely monitor their expenses along with transferring money with their contacts. ",
   },
   {
     image: "/assets/food.jpg",
@@ -713,7 +713,7 @@ export const FeelTheCultureData = [
     image: "/assets/Shiv.png",
     name: "Shiv Desai (Digital Marketing Manager | India) ",
     details:
-      "Changing my job from a sales marketing field to Online marketing was a tough  call for me but  I prepared myself as I was a fresher in the field there were no good  responses for me. Then I was  interviewed at ultroNeous  and they gave me an opportunity to prove  myself. My first  3 months  were struggling  as I was not able to cope-up but everyone here believed in me and over the time I am improving and also  proving myself  ",
+      "Changing my job from a sales marketing field to Online marketing was a tough call but I took the step. As I was a fresher in the field it was difficult to get a job. Then I got an opportunity at ultroNeous to prove myself. My first  3 months were struggling but everyone here believed in me and over time I proved myself.",
   },
   {
     image: "/assets/Malav.png",

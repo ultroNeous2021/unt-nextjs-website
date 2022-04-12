@@ -117,6 +117,7 @@
 
   .SlideQuoteCol p {
     font-size: 20px;
+    color: #fff;
   }
 
   .SlideImageCol,
@@ -135,6 +136,10 @@
     max-height: 300px;
     left: 28%;
     top: 3rem;
+  }
+
+  .Quote {
+    color: #e49b00 !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {

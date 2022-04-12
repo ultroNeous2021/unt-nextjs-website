@@ -330,15 +330,25 @@
 
 @media only screen and (min-width: 320px) and (max-width: 430px) {
   .PortfolioSliderContainerWhite {
-    height: 51rem;
+    height: 49rem;
   }
 
   .PortfolioDetails h3 {
     font-size: 29px;
   }
 
+  .PortfolioSliderContainerBlack {
+    height: 26rem !important;
+  }
+
   .PortfolioBlackSlider {
     padding-left: 1rem !important;
+    padding-bottom: 0rem !important;
+  }
+
+  .PortfolioSliderArrows {
+    bottom: 25em;
+    left: 59%;
   }
 }
 
@@ -356,6 +366,10 @@
 @media only screen and (min-width: 1280px) and (max-width: 1730px) {
   .PortfolioSliderContainerWhite {
     height: 80em;
+  }
+
+  .PortfolioContainer {
+    width: 97%;
   }
 }
 

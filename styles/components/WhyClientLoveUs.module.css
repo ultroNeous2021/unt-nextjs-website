@@ -79,6 +79,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 3em;
+    align-items: center;
   }
 
   .WCLURight {
@@ -123,7 +124,7 @@
   }
 
   .WCLUText {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .WCLUSlideBody img {

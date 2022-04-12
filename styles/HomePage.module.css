@@ -3,6 +3,7 @@
   width: 20%;
   padding: 0%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .TechnologyImage {
@@ -255,6 +256,7 @@
   .ImagesTextIcons {
     display: block;
     padding-right: 0em;
+    margin-top: 0.6rem;
   }
 
   .ImagesTextIcons * {
@@ -329,14 +331,17 @@
     display: none;
   }
 
-  /*  */
+  .SingleImage h3 {
+    margin: 0;
+    font-size: 27px;
+  }
+
+  .ImagesTextIcons * {
+    font-size: 27px;
+  }
 
   .LookAtContainer {
     padding: 1rem 0.5rem;
-  }
-
-  .ImagesTextIcons {
-    margin-top: 0rem;
   }
 }
 

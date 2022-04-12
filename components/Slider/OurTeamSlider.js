@@ -62,12 +62,12 @@ function OurTeamSlider({ data = OurTeamSliderData }) {
                 <h2> {el.name} </h2>
 
                 <Col xs={6} sm={6} md={4} className={styles.SlideQuoteCol}>
-                  <p> {el.title} </p>
+                  <p className={styles.Title}> {el.title} </p>
                   <div className={styles.QuoteContainer}>
                     <div className={styles.QuoteDiv}>
                       <img src={"/assets/quoteicon.png"} alt="quote" />
                     </div>
-                    <p> {el.quote} </p>
+                    <p className={styles.Quote}> {el.quote} </p>
                   </div>
                 </Col>
                 <Col xs={6} sm={6} md={4} className={styles.SlideImageCol}>

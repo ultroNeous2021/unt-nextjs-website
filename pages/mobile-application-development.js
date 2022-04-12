@@ -20,13 +20,13 @@ function MobileApplicationDevelopmentPage() {
   return (
     <Layout>
       <ServicesHeader
-        numbers={"01"}
+        numbers={"02"}
         heading={ListOfMobileService.heading}
         title={ListOfMobileService.title}
         paragraph={ListOfMobileService.paragraph}
         image={ListOfMobileService.image}
         alt={ListOfMobileService.alt}
-        linkToNextService={"web-application-development"}
+        linkToNextService={"digital-marketing"}
       />
       <QualitiesSection QualitiesList={ListQualitiesMobileAppDev} />
       <HorizontalTabService

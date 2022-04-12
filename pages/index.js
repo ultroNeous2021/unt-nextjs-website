@@ -42,21 +42,25 @@ export default function HomePage() {
       <div className={styles.TechnologiesContainer}>
         <Row className="mx-0">
           <div className={styles.TechnoContainer}>
-            <Image
-              src={"/assets/web-dev.jpg"}
-              alt="Avatar"
-              className={styles.TechnologyImage}
-            />
+            <Link href={"/web-application-development"}>
+              <Image
+                src={"/assets/web-dev.jpg"}
+                alt="Avatar"
+                className={styles.TechnologyImage}
+              />
+            </Link>
             <div className={styles.TechnologyOverlay}>
               <div className={styles.TechnologyText}>Web App Development</div>
             </div>
           </div>
           <div className={styles.TechnoContainer}>
-            <Image
-              src={"/assets/mobile.jpg"}
-              alt="Avatar"
-              className={styles.TechnologyImage}
-            />
+            <Link href={"/mobile-application-development"}>
+              <Image
+                src={"/assets/mobile.jpg"}
+                alt="Avatar"
+                className={styles.TechnologyImage}
+              />
+            </Link>
             <div className={styles.TechnologyOverlay}>
               <div className={styles.TechnologyText}>
                 Mobile App Development{" "}
@@ -64,31 +68,37 @@ export default function HomePage() {
             </div>
           </div>
           <div className={styles.TechnoContainer}>
-            <Image
-              src={"/assets/ux_ui.jpg"}
-              alt="Avatar"
-              className={styles.TechnologyImage}
-            />
+            <Link href={"/ui-ux-design"}>
+              <Image
+                src={"/assets/ux_ui.jpg"}
+                alt="Avatar"
+                className={styles.TechnologyImage}
+              />
+            </Link>
             <div className={styles.TechnologyOverlay}>
               <div className={styles.TechnologyText}>UX/ UI Design</div>
             </div>
           </div>
           <div className={styles.TechnoContainer}>
-            <Image
-              src={"/assets/Socialmedia.jpg"}
-              alt="Avatar"
-              className={styles.TechnologyImage}
-            />
+            <Link href={"/digital-marketing"}>
+              <Image
+                src={"/assets/Socialmedia.jpg"}
+                alt="Avatar"
+                className={styles.TechnologyImage}
+              />
+            </Link>
             <div className={styles.TechnologyOverlay}>
               <div className={styles.TechnologyText}>Digital Marketing</div>
             </div>
           </div>
           <div className={styles.TechnoContainer}>
-            <Image
-              src={"/assets/cloud.jpg"}
-              alt="Avatar"
-              className={styles.TechnologyImage}
-            />
+            <Link href={"/careers"}>
+              <Image
+                src={"/assets/cloud.jpg"}
+                alt="Avatar"
+                className={styles.TechnologyImage}
+              />
+            </Link>
             <div className={styles.TechnologyOverlay}>
               <div className={styles.TechnologyText}>Cloud & Devops</div>
             </div>

@@ -77,12 +77,19 @@
 
 .AboutUsImage {
   padding: 0.5em;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
 .AboutUsImage img {
   width: 100%;
   height: 100%;
   /* height: auto; */
+  transition: all 0.5s ease;
+}
+
+.AboutUsImage img:hover {
+  transform: scale(1.1);
 }
 
 .AboutUsImages {

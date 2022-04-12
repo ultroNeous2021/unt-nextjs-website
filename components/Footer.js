@@ -5,7 +5,33 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import ButtonComponent from "./ButtonComponent";
 import Link from "next/link";
+import { useState } from "react";
+import axios from "axios";
 function Footer({ FooterContainerStyle }) {
+  const [value, setValue] = useState("");
+  const [newsletterPopup, setNewsletterPopup] = useState(false);
+
+  const submitHandler = async () => {
+    const filter = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+
+    if (value && filter.test(value)) {
+      await axios
+        .post(
+          "https://ultroneous-79d3f-default-rtdb.firebaseio.com/newsletter.json",
+          { email: value }
+        )
+        .then((res) => {
+          setNewsletterPopup(true);
+          setValue("");
+        })
+        .catch((err) => console.log(err));
+
+      setTimeout(() => {
+        setNewsletterPopup(false);
+      }, 5000);
+    }
+  };
+
   return (
     <div className="FooterContainer">
       <Row className={styles.MxNone}>
@@ -85,14 +111,17 @@ function Footer({ FooterContainerStyle }) {
               <h3>Services</h3>
               <ul>
                 <li>
+                  <Link href="/web-application-development">
+                    Web Development
+                  </Link>
+                </li>
+                <li>
                   <Link href="/mobile-application-development">
                     Mobile Application
                   </Link>
                 </li>
                 <li>
-                  <Link href="/web-application-development">
-                    Web Development
-                  </Link>
+                  <Link href="/digital-marketing">Digital Marketing</Link>
                 </li>
                 <li>
                   <Link href="/ui-ux-design">UX/UI Design</Link>
@@ -100,9 +129,6 @@ function Footer({ FooterContainerStyle }) {
                 {/* <li>
                   <Link href="/cloud-and-devops">Cloud & Devops</Link>
                 </li> */}
-                <li>
-                  <Link href="/digital-marketing">Digital Marketing</Link>
-                </li>
               </ul>
             </Col>
             <Col xs={12} sm={4} lg={4} className={styles.QuickLinks}>
@@ -145,11 +171,19 @@ function Footer({ FooterContainerStyle }) {
               className={styles.SignupForNewsLetterEmail}
               type="email"
               placeholder="xyz@gmail.com"
+              value={value}
+              onChange={(e) => setValue(e.target.value)}
             />
             <input
               className={styles.SignupForNewsLetterSubmit}
               type="button"
               value="Submit"
+              onClick={submitHandler}
+              style={
+                newsletterPopup
+                  ? { background: "green", transition: "all 0.5s ease" }
+                  : { background: "#e49b00", transition: "all 0.5s ease" }
+              }
             />
           </div>
           <p

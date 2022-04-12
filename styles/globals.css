@@ -209,7 +209,6 @@ a {
   height: 50px !important;
   width: 80% !important;
   outline: none;
-
   border: none !important;
 }
 option {
@@ -253,6 +252,10 @@ option {
   .WeExcelAtIconsData {
     width: 60%;
   }
+
+  .react-tel-input .form-control {
+    width: 100% !important;
+  }
 }
 
 .Hire:checked {
@@ -279,6 +282,11 @@ option {
   color: #495057;
 
   border-color: #fff #fff #000 #fff !important;
+}
+
+.nav-tabs .nav-link {
+  padding: 0 1rem;
+  font-size: 18px;
 }
 
 /* ============================================= OUR TEAM - MAIN SLIDER ============================================= */
