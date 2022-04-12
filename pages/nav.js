@@ -3,12 +3,13 @@ import styles from "@/styles/nav.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { Nav, Navbar } from "react-bootstrap";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function nav() {
   return (
-    <main className={styles.main}>
-      <div className={styles.NavBar}>
-        <div>
+    <>
+      <div className={styles.Navbar}>
+        <div className={styles.NavbarBrand}>
           <Link href="/">
             <Image
               src="/assets/ultroneous-image.svg"
@@ -19,74 +20,40 @@ function nav() {
             />
           </Link>
         </div>
-        <Navbar id="basic-navbar-nav" className={styles.NavbarItems}>
-          <Nav>
-            <Nav.Link
-              className={styles.NavSingleItem}
-              style={{ margin: "0 1em" }}
-            >
-              <Link href="/about-ultroneous">About us</Link>
-            </Nav.Link>
-            <div>
-              <Nav.Link
-                className={styles.NavSingleItem}
-                style={{ margin: "0 1em" }}
-              >
-                <Link href="/services">Services</Link>
-              </Nav.Link>
-            </div>
-            <Nav.Link
-              className={styles.NavSingleItem}
-              style={{ margin: "0 1em" }}
-            >
-              <Link href="/careers">Career</Link>
-            </Nav.Link>
-            <div className={styles.ContactUsButton}>
-              <TransparentButton val={"Contact Us"} link={"/contact-us"} />
-            </div>
-          </Nav>
-          {/* <Megamenu /> */}
-        </Navbar>
+        <div className={styles.Links}>
+          <Link href="/careers">
+            <p>Careers</p>
+          </Link>
+          <Link href="/careers">
+            <p>Careers</p>
+          </Link>
+          <Link href="/careers">
+            <p>Careers</p>
+          </Link>
+          <Link href="/careers">
+            <p>Careers</p>
+          </Link>
+          <Link href="/careers">
+            <p>Careers</p>
+          </Link>
+        </div>
       </div>
-      <input type="checkbox" id="myInput" className={styles.Checkbox} />
-      <label htmlFor="myInput" className={styles.Label}>
-        <span class={`${styles.bar} ${styles.top}`}></span>
-        <span class={`${styles.bar} ${styles.middle}`}></span>
-        <span class={`${styles.bar} ${styles.bottom}`}></span>
+      <input type="checkbox" id="checkboxNav" className={styles.checkBox} />
+      <label id="Bars" htmlFor="checkboxNav">
+        <span className={`${styles.LineOne} LineOne`}></span>
+        <span className={`${styles.LineTwo} LineTwo`}></span>
+        <span className={`${styles.LineThree} LineThree`}></span>
       </label>
-      <aside className={styles.AsideMain}>
-        <div class={`${styles.asidesection} ${styles.asideleft}`}>
-          <div class={styles.asidecontent}>
-            <p> Some text that will make you click the cta </p>
-            <button class={styles.button}> CTA </button>
-          </div>
-        </div>
-        <div class={`${styles.asidesection} ${styles.asideright}`}>
-          <ul class={styles.asidelist}>
-            <li className={styles.ListItems}>
-              <Link href={"/careers"}>
-                <a className={styles.asideanchor}>Careers </a>
-              </Link>
-            </li>
-            <li className={styles.ListItems}>
-              <Link href={"/contact-us"}>
-                <a className={styles.asideanchor}>Contact Us </a>
-              </Link>
-            </li>
-            <li className={styles.ListItems}>
-              <Link href={"/services"}>
-                <a className={styles.asideanchor}>Services </a>
-              </Link>
-            </li>
-            <li className={styles.ListItems}>
-              <a href="" class={styles.asideanchor}>
-                Link
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-    </main>
+      <div className={`${styles.SideBarNav} SideBar`}>
+        <ul>
+          <li className={`${styles.Nav1}Sidebar1`}>SideBar1</li>
+          <li className={`${styles.Nav1}Sidebar1`}>SideBar2</li>
+          <li className={`${styles.Nav1}Sidebar1`}>SideBar3</li>
+          <li className={`${styles.Nav1}Sidebar1`}>SideBar4</li>
+          <li className={`${styles.Nav1}Sidebar1`}>SideBar5</li>
+        </ul>
+      </div>
+    </>
   );
 }
 

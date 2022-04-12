@@ -21,7 +21,7 @@ import {
 } from "react-icons/fa";
 
 function NavbarComponent() {
-  const [colorChange, setColorchange] = useState("#1B141433");
+  const [colorChange, setColorchange] = useState("#1B1414");
   const [show, setShow] = useState(false);
   const [showSiderbar, setshowSiderbar] = useState(false);
   const [navExpanded, setNavExpanded] = useState(false);
@@ -33,7 +33,7 @@ function NavbarComponent() {
     if (window.scrollY >= 50) {
       setColorchange("#1A1112");
     } else {
-      setColorchange("#1B141433");
+      setColorchange("#1B1414");
     }
   };
   useEffect(() => {

@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import Script from "next/script";
 import Link from "next/link";
 import MegaMenuComponent from "./MegaMenuComponent";
+import NavbarMain from "./NavbarMain";
 
 export default function Layout({ title, keywords, description, children }) {
   const router = useRouter();
@@ -18,10 +19,10 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
       </Head>
-      <NavbarComponent />
+      {/* <NavbarComponent /> */}
+      <NavbarMain />
       <div className={styles.container}>{children}</div>
-      {/* <MegaMenuComponent> */}
-      {/* </MegaMenuComponent> */}
+      {/* <MegaMenuComponent></MegaMenuComponent> */}
       <Footer />
     </div>
   );

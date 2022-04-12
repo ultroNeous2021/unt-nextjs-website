@@ -2,6 +2,17 @@
   display: contents !important;
 }
 
+.bar {
+  display: block;
+  background-color: #38618c;
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  margin: 5px auto;
+  transition: background-color 0.4s ease-in, transform 0.4s ease-in,
+    width 0.4s ease-in;
+}
+
 .closeButton {
   display: flex;
   justify-content: end;
@@ -176,6 +187,7 @@
 .NavSingleItem a {
   color: #fff;
   font-weight: 500;
+  font-size: 16px;
 }
 
 .NavSingleItem a:hover {

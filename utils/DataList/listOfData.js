@@ -401,6 +401,7 @@ export const ArrayOfServices = [
     background: "/assets/S17.png",
     content:
       "For each of our digital marketing services, including SEO, PPC, Social Media Marketing, eCommerce and Content Marketing, we use a results-driven approach. Explore our digital marketing services in depth.",
+    link: "digital-marketing",
   },
   {
     icon: "/assets/s-uiux.svg",

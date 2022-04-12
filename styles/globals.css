@@ -323,3 +323,61 @@ option {
     bottom: 5.4rem !important;
   }
 }
+
+/* ============================================= NAVBAR ============================================= */
+
+.SideBar {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  top: 0;
+  transition: all 0.8s ease;
+  z-index: 2;
+  background: #e49b00;
+}
+
+#Bars {
+  z-index: 3;
+  position: fixed;
+  right: 1%;
+  top: 2.5%;
+}
+
+#checkboxNav {
+  display: none;
+}
+
+#checkboxNav:checked ~ label .LineOne {
+  -webkit-transform: translateY(0px) rotateZ(45deg);
+  -moz-transform: translateY(0px) rotateZ(45deg);
+  -ms-transform: translateY(0px) rotateZ(45deg);
+  -o-transform: translateY(0px) rotateZ(45deg);
+  transform: translateY(0px) rotateZ(45deg);
+  background: #e49b00;
+}
+
+#checkboxNav:checked ~ label .LineThree {
+  -webkit-transform: translateY(-15px) rotateZ(-45deg);
+  -moz-transform: translateY(-15px) rotateZ(-45deg);
+  -ms-transform: translateY(-15px) rotateZ(-45deg);
+  -o-transform: translateY(-15px) rotateZ(-45deg);
+  transform: translateY(-17px) rotateZ(-45deg);
+  background: #e49b00;
+}
+
+#checkboxNav:checked ~ label .LineTwo {
+  width: 0;
+}
+
+#checkboxNav:checked ~ .SideBar {
+  right: 0;
+  width: 25%;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  #checkboxNav:checked ~ .SideBar {
+    right: 0;
+    width: 100%;
+  }
+}

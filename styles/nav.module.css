@@ -1,243 +1,145 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-
-.main {
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.AsideMain {
-  height: 100vh;
-}
-
-.NavBar {
+.Navbar {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  position: fixed;
+  background: transparent;
+  width: 100%;
+  z-index: 5;
 }
 
-.NavBarLinksDiv {
-  display: flex;
-  margin-right: 3rem;
+.BarsBg {
+  padding: 1rem;
+  background: #e49b00;
+  right: 1%;
+  top: 1.5%;
+}
+
+.LineOne,
+.LineTwo,
+.LineThree {
+  display: block;
+  background: #fff;
+  height: 4px;
+  width: 25px;
+  margin: 5px;
+  transition: all 0.5s ease;
+}
+
+.SideBarNav {
+  background: #fff;
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.SideBarNav ul {
+  list-style-type: none;
+  font-size: 18px;
 }
 
 .Links {
-  padding: 1rem;
+  display: flex;
+  align-items: center;
 }
 
-.NavbarItems {
-  justify-content: right;
-  margin-right: 4rem;
-}
-
-.NavSingleItem {
-  padding-top: 0.5rem;
-}
-.ContactUsButton {
-  margin-left: 0.8rem;
-}
-
-.asidesection {
-  top: 0;
-  bottom: 0;
-  position: absolute;
-}
-
-.asideleft {
-  display: none;
-  width: 40%;
-  left: 0;
-  background-color: #ff5964;
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  transform: translateY(-100%);
-  transition: transform 0.4s ease-in-out;
-}
-
-.asideright {
-  width: 100%;
-  right: 0;
-  background-color: #38618c;
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  transform: translateX(100%);
-  transition: transform 0.4s ease-in-out;
-}
-
-.asidelist {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  margin-top: 150px;
-  text-align: left;
-  padding-left: 50px;
-}
-
-.asidecontent {
-  margin-top: 150px;
-  padding: 0 40px;
-  position: relative;
-  color: white;
-  text-align: center;
-}
-
-.asidelist li {
-  margin-bottom: 20px;
-}
-
-.asideanchor::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  background-color: #ff5964;
-  left: 0;
-  right: 0;
-  height: 3px;
-  border-radius: 3px;
-}
-
-.asideanchor::before {
-  border-radius: 3px;
-  content: "";
-  position: absolute;
-  bottom: 0;
-  background-color: #fff;
-  left: 0;
-  height: 3px;
-  z-index: 1;
-  width: 50%;
-  -webkit-transition: transform 0.2s ease-in-out;
-  -o-transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
-}
-
-.asideanchor:hover:before {
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  transform: translateX(100%);
-}
-
-.asideanchor {
-  padding-bottom: 7px;
+.Links p {
+  margin: 0 1rem;
   color: #fff;
-  text-decoration: none;
-  font-size: 30px;
-  position: relative;
-  font-weight: 500;
+  transition: all 0.5s ease;
+  font-size: 16px;
 }
 
-.Checkbox {
+.Links button {
+  margin-right: 1.5rem;
+}
+
+.Nav1:hover {
+  color: #e49b00;
+}
+.Nav1 :active {
+  border-left: 10px solid #e49b00;
+  border-radius: 5px;
+}
+
+.dropdown {
+  color: #000;
+  cursor: pointer;
+  /* height: 50px; */
+  /* line-height: 50px; */
+  /* position: relative; */
+  /* width: 200px; */
+  /* text-align: center; */
+  text-decoration: none;
+  transform: perspective(1000px);
+  margin: 2rem 0;
+}
+
+.DropdownTitle {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 2rem;
+  font-size: 30px;
+  transition: all 0.5s ease;
+  border-left: 10px solid transparent;
+  padding-left: 0.5rem;
+  cursor: pointer;
+}
+
+.dropdownmenu {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  text-align: center;
+  top: 0;
+  visibility: hidden;
+}
+
+.dropdown:hover,
+.DropdownTitle:hover {
+  border-left: 10px solid #e49b00;
+  border-radius: 5px;
+}
+
+.dropdownmenu li {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.dropdownmenu a,
+.DropdownTitle a {
+  color: #000;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  text-align: left;
+}
+
+.dropdownmenu a:hover,
+.Links p:hover {
+  color: #e49b00;
+}
+
+.dropdown:hover .dropdownmenu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+  width: 100%;
+  -webkit-transition: all 0.5s, background, 2s 0.5s linear;
+  transition: all 0.5s, background 2s 0.5s linear;
+}
+
+.dropdown:hover ~ .dropdowntwo {
   display: none;
 }
 
-.Checkbox:checked ~ .AsideMain .asideleft {
-  transform: translateY(0%);
-}
-
-.Checkbox:checked ~ .AsideMain .asideright {
-  transform: translateX(0%);
-}
-
-.Checkbox:checked ~ .Label .bar {
-  background-color: #fff;
-}
-
-.Checkbox:checked ~ .Label .top {
-  -webkit-transform: translateY(0px) rotateZ(45deg);
-  -moz-transform: translateY(0px) rotateZ(45deg);
-  -ms-transform: translateY(0px) rotateZ(45deg);
-  -o-transform: translateY(0px) rotateZ(45deg);
-  transform: translateY(0px) rotateZ(45deg);
-}
-
-.Checkbox:checked ~ .Label .bottom {
-  -webkit-transform: translateY(-15px) rotateZ(-45deg);
-  -moz-transform: translateY(-15px) rotateZ(-45deg);
-  -ms-transform: translateY(-15px) rotateZ(-45deg);
-  -o-transform: translateY(-15px) rotateZ(-45deg);
-  transform: translateY(-15px) rotateZ(-45deg);
-}
-
-.Checkbox:checked ~ .Label .middle {
-  width: 0;
-}
-
-.middle {
-  margin: 0 auto;
-}
-
-.Label {
-  top: 10px;
-  display: inline-block;
-  padding: 7px 10px;
-  background-color: transparent;
-  cursor: pointer;
-  margin: 0;
-  z-index: 3;
-  position: absolute;
-  right: 0;
-}
-
-.bar {
-  display: block;
-  background-color: #38618c;
-  width: 30px;
-  height: 3px;
-  border-radius: 5px;
-  margin: 5px auto;
-  transition: background-color 0.4s ease-in, transform 0.4s ease-in,
-    width 0.4s ease-in;
-}
-
-.main h1 {
-  margin: 0;
-  position: relative;
-  top: 50%;
-  left: 0;
-  right: 0;
-  /* transform: translateY(-50%); */
-  text-align: center;
-  font-size: 30px;
-}
-
-.main h1 span {
-  font-size: 20px;
-  display: block;
-}
-
-.asideContent p {
-  font-size: 30px;
-}
-
-.button {
-  display: inline-block;
-  background-image: none;
-  border: none;
-  background-color: transparent;
-  padding-bottom: 7px;
-  position: relative;
-  cursor: pointer;
-  font-size: 20px;
-  color: white;
-  padding: 7px 50px;
-  border: 2px solid white;
-}
-
-@media (min-width: 992px) {
-  .main h1 {
-    font-size: 40px;
-  }
-  .asideleft {
-    display: block;
-  }
-
-  .asideright {
-    width: 60%;
+@media (min-width: 320px) and (max-width: 430px) {
+  .Links {
+    display: none;
   }
 }
