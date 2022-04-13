@@ -352,7 +352,7 @@ option {
   z-index: 3;
   position: fixed;
   right: 1%;
-  top: 2.7%;
+  top: 1.6rem;
 }
 
 #checkboxNav {

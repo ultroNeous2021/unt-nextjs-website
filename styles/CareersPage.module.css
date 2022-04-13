@@ -179,8 +179,26 @@
   padding: 0 1em;
   justify-content: center;
 }
+.MainImg {
+  display: contents;
+}
+.ImageDiv {
+  padding: 0;
+  transition: all 1s ease;
+}
+.ImageDiv:hover {
+  transition: all 1s ease;
+  transform: scale(1.1);
+}
+.Secondimg {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
 .CareersImage {
-  padding: 0 2em;
+  padding-right: 0.5rem;
+  padding-left: 0;
 }
 
 .CareersImage:nth-child(2),
@@ -189,6 +207,12 @@
 }
 
 .CareersImage img {
+  width: 100%;
+  height: auto;
+  margin-left: 0.2rem;
+}
+
+.WTOOImagesSingle {
   width: 100%;
   height: auto;
 }
@@ -346,9 +370,9 @@
 @media (min-width: 650px) and (max-width: 765px) {
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .CareersImage:nth-child(2),
   .CareersImage:nth-child(4) {
     padding-top: 0em;
   }
-}
+} */

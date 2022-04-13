@@ -51,6 +51,7 @@
   color: #fff;
   transition: all 0.5s ease;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .Links button {
@@ -144,6 +145,8 @@
 
 .SocialLinks {
   display: flex;
+  position: relative;
+  top: 20rem;
 }
 
 .IconsBorder {
@@ -157,8 +160,18 @@
   cursor: pointer;
 }
 
+.IconsBorder:hover,
+.IconsBorder:active {
+  background: #1a1112;
+}
+
 .Icon {
   color: #ccc;
+}
+.Icon:hover,
+.Icon:active {
+  color: #e49b00;
+  background: #1a1112;
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
@@ -168,6 +181,10 @@
 
   .Links {
     display: none;
+  }
+  .SocialLinks {
+    top: 13rem;
+    left: 2rem;
   }
 }
 

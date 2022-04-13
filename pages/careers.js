@@ -186,19 +186,40 @@ function CareersPage() {
         </h3>
         {mobile ? (
           <>
-            <Row>
-              <Image src={"/assets/OfficeL-1.jpg"} alt="Careersimage" />
+            <Row className={styles.MainImg}>
+              <div className={styles.ImageDiv}>
+                <img
+                  className={styles.WTOOImagesSingle}
+                  src={"/assets/OfficeL-1.jpg"}
+                  alt="Careersimage"
+                />
+              </div>
             </Row>
-            <Row>
+            <Row className={styles.Secondimg}>
               <Col xs={6} className={styles.CareersImage}>
-                <Image src={"/assets/OfficeL-2.jpg"} alt="Careersimage" />
+                {" "}
+                <img
+                  className={styles.WTOOImagesSingle}
+                  src={"/assets/OfficeL-2.jpg"}
+                  alt="Careersimage"
+                />
               </Col>
               <Col xs={6} className={styles.CareersImage}>
-                <Image src={"/assets/OfficeL-3.jpg"} alt="Careersimage" />
+                <img
+                  className={styles.WTOOImagesSingle}
+                  src={"/assets/OfficeL-3.jpg"}
+                  alt="Careersimage"
+                />
               </Col>
             </Row>
-            <Row>
-              <Image src={"/assets/OfficeL-4.jpg"} alt="Careersimage" />
+            <Row className={styles.MainImg}>
+              <div className={styles.ImageDiv}>
+                <img
+                  className={styles.WTOOImagesSingle}
+                  src={"/assets/OfficeL-4.jpg"}
+                  alt="Careersimage"
+                />
+              </div>
             </Row>
           </>
         ) : (
@@ -223,3 +244,34 @@ function CareersPage() {
 }
 
 export default CareersPage;
+
+//  <Row>
+//               <img
+//                 className={styles.WTOOImagesSingle}
+//                 src={"/assets/OfficeL-1.jpg"}
+//                 alt="Careersimage"
+//               />
+//             </Row>
+//             <Row>
+//               <Col xs={6} className={styles.CareersImage}>
+//                 <img
+//                   className={styles.WTOOImagesSingle}
+//                   src={"/assets/OfficeL-2.jpg"}
+//                   alt="Careersimage"
+//                 />
+//               </Col>
+//               <Col xs={6} className={styles.CareersImage}>
+//                 <img
+//                   className={styles.WTOOImagesSingle}
+//                   src={"/assets/OfficeL-3.jpg"}
+//                   alt="Careersimage"
+//                 />
+//               </Col>
+//             </Row>
+//             <Row>
+//               <img
+//                 className={styles.WTOOImagesSingle}
+//                 src={"/assets/OfficeL-4.jpg"}
+//                 alt="Careersimage"
+//               />
+//             </Row>
