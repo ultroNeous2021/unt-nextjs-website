@@ -56,7 +56,7 @@
   }
 
   .GirlonCounter h3 {
-    font-size: 23px;
+    font-size: 27px;
   }
 
   .GirlonCounterDiv {
@@ -67,6 +67,10 @@
 
   .GirlonCounterDiv img {
     width: 8em;
+  }
+
+  .GirlOnCounterHeading {
+    padding-bottom: 0rem;
   }
 }
 

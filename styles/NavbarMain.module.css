@@ -30,6 +30,10 @@
   background: #fff;
   text-align: center;
   padding-top: 7rem;
+  /* display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-direction: column; */
 }
 
 .SideBarNav ul {
@@ -138,8 +142,37 @@
   display: none;
 }
 
+.SocialLinks {
+  display: flex;
+}
+
+.IconsBorder {
+  padding: 0.3rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.Icon {
+  color: #ccc;
+}
+
 @media (min-width: 320px) and (max-width: 430px) {
+  .Navbar {
+    padding: 0 1rem;
+  }
+
   .Links {
     display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+  .Navbar {
+    padding: 1rem 2rem 1rem 2.5rem;
   }
 }

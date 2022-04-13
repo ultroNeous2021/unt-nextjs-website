@@ -23,7 +23,7 @@ function HorizontalTabService(props) {
       {/* <Link href="#" style={{ display: "none" }} ref={hireDeveloper}></Link> */}
       <div className={styles.HorizontalTabContainer}>
         <h2
-          className={styles.TabHeading}
+          className={`${styles.TabHeading} TabHeadingService`}
           data-aos="zoom-in"
           data-aos-duration="2000"
         >

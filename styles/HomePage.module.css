@@ -254,17 +254,6 @@
     flex-direction: column;
   }
 
-  .ImagesTextIcons {
-    display: block;
-    padding-right: 0em;
-    margin-top: 0.6rem;
-  }
-
-  .ImagesTextIcons * {
-    font-size: 20px;
-    margin: 0 0.2em;
-  }
-
   .WhatWeOfferContainer {
     background-color: #1a1112;
     padding: 1rem 1rem 2rem 1rem;
@@ -337,8 +326,14 @@
     font-size: 27px;
   }
 
+  .ImagesTextIcons {
+    display: block;
+    margin-top: 0.4rem;
+  }
+
   .ImagesTextIcons * {
-    font-size: 27px;
+    font-size: 24px;
+    margin: 0 0.3rem;
   }
 
   .LookAtContainer {
@@ -362,7 +357,7 @@
 
   .IntroContainer {
     background-color: #1a1112;
-    padding: 4rem 2rem 4rem 2rem;
+    padding: 4rem 0rem 4rem 2rem;
   }
 
   .IntroHeadingContainer {
@@ -371,6 +366,10 @@
 
   .IntroImage {
     width: 100%;
+  }
+
+  .IntroArrowContain {
+    display: none;
   }
 
   .IntroHeading {

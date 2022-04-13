@@ -209,7 +209,7 @@ export default function HomePage() {
             <div className={styles.Whatweofferimg}>
               <Image alt="ui-ux-design" src="/assets/ui-ux-design.svg" />
             </div>
-            <h2 className={styles.WhatweofferHeading}>UI/UX Design</h2>
+            <h2 className={styles.WhatweofferHeading}>UX / UI Design</h2>
             <div className={styles.WhatWeOfferParaContainerFirst}>
               <p className={styles.WhatweofferPargraph}>
                 The first impression always matters. Our attention to the
