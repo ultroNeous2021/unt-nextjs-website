@@ -10,7 +10,9 @@ import { useEffect, useState } from "react";
 import YellowFilledWhiteButton from "@/components/YellowFilledWhiteButton";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useRouter } from "next/router";
 const UiUxDesign = () => {
+  const goto = useRouter();
   const [image, setImage] = useState("/assets/process web.png");
   useEffect(() => {
     AOS.init();
@@ -46,7 +48,10 @@ const UiUxDesign = () => {
               users through design?
             </h2>
             <div className={styles.NotableBtnContainer}>
-              <div className={styles.NotableBtn}>
+              <div
+                className={styles.NotableBtn}
+                onClick={() => goto.push("/contact-us")}
+              >
                 Lets us Help <span></span>
               </div>
             </div>
@@ -73,7 +78,11 @@ const UiUxDesign = () => {
             design company.
           </p>
           <div className={styles.WeTrustBtnContainer}>
-            <YellowFilledWhiteButton val={"Let's get connected"} arrow={true} />
+            <YellowFilledWhiteButton
+              clickhandle={() => goto.push("/contact-us")}
+              val={"Let's get connected"}
+              arrow={true}
+            />
           </div>
         </Col>
       </Row>

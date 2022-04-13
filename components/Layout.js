@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
-import { useRouter } from "next/router";
+import { Router, useRouter } from "next/router";
 
 import styles from "@/styles/Layout.module.css";
 import NavbarComponent from "./Navbar";
@@ -9,9 +9,9 @@ import Script from "next/script";
 import Link from "next/link";
 import MegaMenuComponent from "./MegaMenuComponent";
 import NavbarMain from "./NavbarMain";
+import { useCallback, useEffect } from "react";
 
 export default function Layout({ title, keywords, description, children }) {
-  const router = useRouter();
   return (
     <div>
       <Head>

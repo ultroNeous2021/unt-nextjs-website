@@ -66,7 +66,7 @@ export const TeamAList = [
     detail: "Digital Marketing",
   },
   {
-    image: "/assets/TeamA5.png",
+    image: "/assets/VibhaImg.png",
     name: "Vibha Ojha",
     detail: "UX/ UI Designer",
   },
@@ -115,11 +115,11 @@ export const TeamAList = [
     name: "Ajay Hadiya",
     detail: "Full Stack Developer",
   },
-  // {
-  //   image: "/assets/TeamA15.png",
-  //   name: "Ankur",
-  //   detail: "Writer",
-  // },
+  {
+    image: "/assets/DhavalSoni.png",
+    name: "Dhaval Soni",
+    detail: "SMM & SEO",
+  },
   {
     image: "/assets/TeamA16.png",
     name: "Vishal Desai",
@@ -229,7 +229,7 @@ export const ListOfWebService = {
   title: "Web Application Development",
   paragraph:
     "World-class web application development company that uses cutting-edge technologies to develop top-notch web apps delivering outstanding, secured, responsive, and finest results. Over the years, ultroNeous has gained mastery in web application development frameworks and libraries such as the LAMP stack, MEAN & MERN development, and open-source development. ",
-  image: "/assets/Webapplicaton.png",
+  image: "/assets/Webappdevs.png",
   alt: "web-app-development",
 };
 export const ListOfMobileService = {
@@ -245,7 +245,7 @@ export const ListOfUiUxDesign = {
   title: "UX / UI Design",
   paragraph:
     "Any website or application's success hinges on its ability to provide a positive user experience. Whether visitors stay or leave a website or application is entirely dependent on the UI/UX design. ultroNeous is a top UI UX development company that has provided innovative design services to a variety of business types. Our designers are meticulous in selecting appropriate UI UX features that give business web solutions rich and bespoke usability and user experience.",
-  image: "/assets/UI-UX.png",
+  image: "/assets/UX-UI.png",
   alt: "ui-ux-design",
 };
 export const ListOfDigitalMarketingService = {

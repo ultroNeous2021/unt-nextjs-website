@@ -65,7 +65,12 @@
   justify-content: right;
   padding-top: 2em;
 }
-
+.TechMoBApple:hover {
+  color: #e49b00;
+}
+.TechMoBAndroid:hover {
+  color: green;
+}
 /* @media only screen and (max-width: 600px) {
   .HorizontalTabContainer {
     padding-left: 0.7em !important;

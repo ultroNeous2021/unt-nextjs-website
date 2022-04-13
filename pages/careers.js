@@ -187,33 +187,33 @@ function CareersPage() {
         {mobile ? (
           <>
             <Row>
-              <Image src={"/assets/WTOO1.png"} alt="Careersimage" />
+              <Image src={"/assets/OfficeL-1.jpg"} alt="Careersimage" />
             </Row>
             <Row>
               <Col xs={6} className={styles.CareersImage}>
-                <Image src={"/assets/WTOO1.png"} alt="Careersimage" />
+                <Image src={"/assets/OfficeL-2.jpg"} alt="Careersimage" />
               </Col>
               <Col xs={6} className={styles.CareersImage}>
-                <Image src={"/assets/WTOO1.png"} alt="Careersimage" />
+                <Image src={"/assets/OfficeL-3.jpg"} alt="Careersimage" />
               </Col>
             </Row>
             <Row>
-              <Image src={"/assets/WTOO1.png"} alt="Careersimage" />
+              <Image src={"/assets/OfficeL-4.jpg"} alt="Careersimage" />
             </Row>
           </>
         ) : (
           <Row className={styles.WTOOImagesContainer}>
             <Col xs={12} sm={12} md={6} lg={3} className={styles.CareersImage}>
-              <Image src={"/assets/WTOO1.png"} alt="Careersimage" />
+              <Image src={"/assets/Office-1.jpg"} alt="Careersimage" />
             </Col>
             <Col xs={12} sm={12} md={6} lg={3} className={styles.CareersImage}>
-              <Image src={"/assets/WTOO2.png"} alt="Careersimage" />
+              <Image src={"/assets/Office-2.jpg"} alt="Careersimage" />
             </Col>
             <Col xs={12} sm={12} md={6} lg={3} className={styles.CareersImage}>
-              <Image src={"/assets/WTOO3.png"} alt="Careersimage" />
+              <Image src={"/assets/Office-3.jpg"} alt="Careersimage" />
             </Col>
             <Col xs={12} sm={12} md={6} lg={3} className={styles.CareersImage}>
-              <Image src={"/assets/WTOO4.png"} alt="Careersimage" />
+              <Image src={"/assets/Office-4.jpg"} alt="Careersimage" />
             </Col>
           </Row>
         )}

@@ -330,8 +330,8 @@ export const WeExcelAtData = [
       "Zeplin",
       "Adobe illustrator",
       "Adobe Photoshop",
-      "nVision",
-      "Mackingbot",
+      "InVision",
+      "Mockingbot",
     ],
   },
   {
@@ -531,6 +531,10 @@ export const WebTechnologyExpertise = [
 export const MobileTechnologyExpertise = [
   {
     title: "Native",
+    collist: {
+      f1: "red",
+    },
+
     techIcons: [
       <SiApple className={stylesHT.TechImages} />,
       <DiAndroid className={stylesHT.TechImages} />,
@@ -675,7 +679,7 @@ export const CareersData = [
   },
   {
     title: "Marketing",
-    vacancy: "(4)",
+    vacancy: "(2)",
     jobs: [
       {
         job: "Digital Marketing Executive",
@@ -683,15 +687,6 @@ export const CareersData = [
       },
       {
         job: "SEO Intern",
-        jobNumber: "1",
-      },
-      {
-        job: "Graphic Designer",
-        jobNumber: "1",
-      },
-
-      {
-        job: "UX/UI Designer",
         jobNumber: "1",
       },
     ],
@@ -715,7 +710,7 @@ export const CareersData = [
     ],
   },
   {
-    title: "Design",
+    title: "Designing",
     vacancy: "(2)",
     jobs: [
       {

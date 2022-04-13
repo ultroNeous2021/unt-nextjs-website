@@ -16,6 +16,7 @@ import "aos/dist/aos.css";
 import { useRouter } from "next/router";
 function AboutUltroneousPage() {
   const goto = useRouter();
+
   useEffect(() => {
     AOS.init();
   }, []);
