@@ -103,6 +103,7 @@
 
   .LeftArrow {
     left: 10rem;
+    z-index: 5;
   }
 
   .RightArrow {

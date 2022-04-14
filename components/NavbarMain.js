@@ -12,6 +12,7 @@ import { GrFacebookOption } from "react-icons/gr";
 
 function NavbarMain() {
   const [colorChange, setColorchange] = useState("transparent");
+  const [changeDropdown, setChangeDropdown] = useState(true);
 
   const changeNavbarColor = () => {
     if (window.scrollY >= 50) {
@@ -51,7 +52,9 @@ function NavbarMain() {
           <Link href="/careers">
             <p>Careers</p>
           </Link>
-          <TransparentButton val={"Contact Us"} link={"/contact-us"} />
+          <span style={{ margin: "0 1rem" }}>
+            <TransparentButton val={"Contact Us"} link={"/contact-us"} />
+          </span>
         </div>
         <input type="checkbox" id="checkboxNav" className={styles.checkBox} />
         <label id="Bars" htmlFor="checkboxNav">
@@ -60,8 +63,15 @@ function NavbarMain() {
           <span className={`${styles.LineThree} LineThree`}></span>
         </label>
         <div className={`${styles.SideBarNav} SideBar`}>
-          <div>
-            <div className={`${styles.dropdown} ${styles.DropdownTitle}`}>
+          <div className={styles.Dropdowns}>
+            <div
+              className={`${styles.dropdown} ${styles.DropdownTitle} ${styles.dropdownone}`}
+              style={
+                changeDropdown
+                  ? { opacity: "1", transition: "all 0.5s ease" }
+                  : { opacity: "0", transition: "all 0.5s ease" }
+              }
+            >
               Company
               <ul className={`${styles.dropdownmenu} `}>
                 <li>
@@ -77,6 +87,8 @@ function NavbarMain() {
             </div>
             <div
               className={`${styles.dropdown} ${styles.DropdownTitle} ${styles.dropdowntwo}`}
+              onMouseEnter={() => setChangeDropdown(false)}
+              onMouseLeave={() => setChangeDropdown(true)}
             >
               Services
               <ul className={`${styles.dropdownmenu} `}>
@@ -91,10 +103,10 @@ function NavbarMain() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/digital-marketing">Digital Marketing</Link>
+                  <Link href="/ux-ui-design">UX / UI Design</Link>
                 </li>
                 <li>
-                  <Link href="/ux-ui-design">UX / UI Design</Link>
+                  <Link href="/digital-marketing">Digital Marketing</Link>
                 </li>
               </ul>
             </div>

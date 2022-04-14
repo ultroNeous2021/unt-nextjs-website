@@ -142,24 +142,29 @@
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {
-  .ServicesContainer {
+  /* .ServicesContainer {
     height: 75vh;
+  } */
+
+  .ServicesRow {
+    padding: 10rem 2.5rem 4rem 2.5rem;
+  }
+
+  .ServicesLeft h1 {
+    font-size: 37px;
+  }
+
+  .ServicesNumber {
+    display: none;
   }
 
   .ImageDiv {
     position: static;
   }
 
-  .ServicesRightMainImage {
+  .ServicesRightMainImage,
+  .ImageDiv {
     width: 100%;
-  }
-
-  .ServicesWhiteArrow {
-    display: none;
-  }
-
-  .ServicesLeft h1 {
-    font-size: 40px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1730px) {
