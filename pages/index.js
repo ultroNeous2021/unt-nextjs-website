@@ -141,8 +141,11 @@ export default function HomePage() {
                   domains.
                   <br />
                   <br />
-                  We are a strong unit of people, and call ourself an
-                  ultroNeour. An ultroNeour is always putting an extra mile and
+                  <span style={{ color: "#e49b00" }}>
+                    We are a strong unit of people, and call ourself an
+                    ultroNeour.
+                  </span>
+                  &nbsp; An ultroNeour is always putting an extra mile and
                   efforts, to create an advanced technical solution for web,
                   mobility and enterprise software. Our experienced designers
                   and developers have a broad working knowledge and expertise to

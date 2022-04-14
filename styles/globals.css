@@ -368,7 +368,7 @@ option {
   -ms-transform: translateY(1px) rotateZ(45deg);
   -o-transform: translateY(1px) rotateZ(45deg);
   transform: translateY(1px) rotateZ(45deg);
-  background: #fff;
+  background: #e49b00;
   width: 25px;
 }
 
@@ -378,13 +378,14 @@ option {
   -ms-transform: translateY(-17px) rotateZ(-45deg);
   -o-transform: translateY(-17px) rotateZ(-45deg);
   transform: translateY(-17px) rotateZ(-45deg);
-  background: #fff;
+  background: #e49b00;
   width: 25px;
 }
 
 #checkboxNav:checked ~ #Bars {
   transform: rotate(0deg);
   transform: rotate(180deg);
+  background: transparent;
 }
 
 #checkboxNav:checked ~ label .LineTwo {
