@@ -197,10 +197,14 @@
   padding: 1rem 0;
 }
 .CareersImage {
-  padding-right: 0.5rem;
+  padding-right: 4rem;
   padding-left: 0;
+  transition: all 1s ease;
 }
-
+.CareersImage:hover {
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
 .CareersImage:nth-child(2),
 .CareersImage:nth-child(4) {
   padding-top: 5em;
@@ -322,6 +326,11 @@
   .CareersImage:nth-child(2),
   .CareersImage:nth-child(4) {
     padding-top: 0em;
+  }
+  .CareersImage {
+    padding-right: 1rem;
+    padding-left: 0;
+    transition: all 1s ease;
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {

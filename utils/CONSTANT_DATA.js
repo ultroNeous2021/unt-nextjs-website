@@ -488,9 +488,9 @@ export const WebTechnologyExpertise = [
   {
     title: "Open Source",
     techIcons: [
-      <SiWordpress className={stylesHT.TechImages} />,
-      <SiShopify className={stylesHT.TechImages} />,
-      <SiMagento className={stylesHT.TechImages} />,
+      <SiWordpress className={stylesHT.TechImagesWeb0} />,
+      <SiShopify className={stylesHT.TechImagesWeb1} />,
+      <SiMagento className={stylesHT.TechImagesWeb2} />,
     ],
     detail:
       "ultroNeous' web developers have sharpened their skill sets in developing web applications utilizing open-source libraries and frameworks to create innovative, responsive, and stunning designs along with top-level security for the web app. We have extensive expertise in designing and developing custom web applications with open-source development platforms like WordPress, Shopify, and Magento.",
@@ -498,9 +498,9 @@ export const WebTechnologyExpertise = [
   {
     title: "LAMP Stack",
     techIcons: [
-      <SiPhp className={stylesHT.TechImages} />,
-      <SiLaravel className={stylesHT.TechImages} />,
-      <SiCodeigniter className={stylesHT.TechImages} />,
+      <SiPhp className={stylesHT.TechImagesWeb3} />,
+      <SiLaravel className={stylesHT.TechImagesWeb4} />,
+      <SiCodeigniter className={stylesHT.TechImagesWeb5} />,
     ],
     detail:
       " In recent years, ultroNeous has amassed a significant amount of experience in producing responsive, dynamic, and highly secure web apps using the LAMP stack development process. It is a flexible and powerful foundation for developing custom web applications that improve the user experience. Our proficient LAMP stack developers are conversant with the PHP, Laravel, and Codeigniter frameworks and have an excellent track record of developing web applications that meet all of a client's business requirements.",
@@ -508,10 +508,10 @@ export const WebTechnologyExpertise = [
   {
     title: "MEAN Stack",
     techIcons: [
-      <SiMongodb className={stylesHT.TechImages} />,
-      <SiExpress className={stylesHT.TechImages} />,
-      <IoLogoAngular className={stylesHT.TechImages} />,
-      <FaNodeJs className={stylesHT.TechImages} />,
+      <SiMongodb className={stylesHT.TechImagesWeb6} />,
+      <SiExpress className={stylesHT.TechImagesWeb7} />,
+      <IoLogoAngular className={stylesHT.TechImagesWeb8} />,
+      <FaNodeJs className={stylesHT.TechImagesWeb9} />,
     ],
     detail:
       "We are a preeminent web development company that develops bespoke and interactive web apps and websites using MEAN stack development platforms. The four frameworks on which MEAN stack is based/works are MongoDB, Express, Angular, and Node. ultroNeous' MEAN Stack Developers are masters at developing custom web applications, e-commerce solutions, and stack website development with perfection. Our completed project elevated the client's overall revenue, and we are ready to onboard more projects.",
@@ -519,10 +519,10 @@ export const WebTechnologyExpertise = [
   {
     title: "MERN Stack",
     techIcons: [
-      <SiMongodb className={stylesHT.TechImages} />,
-      <SiExpress className={stylesHT.TechImages} />,
-      <FaReact className={stylesHT.TechImages} />,
-      <FaNodeJs className={stylesHT.TechImages} />,
+      <SiMongodb className={stylesHT.TechImagesWeb10} />,
+      <SiExpress className={stylesHT.TechImagesWeb11} />,
+      <FaReact className={stylesHT.TechImagesWeb12} />,
+      <FaNodeJs className={stylesHT.TechImagesWeb13} />,
     ],
     detail:
       "ultroNeous’ web app development services have achieved milestones in MERN stack development for distinguished web apps for businesses. Our MERN stack developers have an unrivaled ability to design and develop exceptional web apps in a brief period. MongoDB, ExpressJS, ReactJS, and NodeJS—which also validates the name—are the four frameworks or databases used in this development process. All four frameworks work together to develop reliable, efficient, and scalable web applications.",
@@ -536,8 +536,8 @@ export const MobileTechnologyExpertise = [
     },
 
     techIcons: [
-      <SiApple className={stylesHT.TechImages} />,
-      <DiAndroid className={stylesHT.TechImages} />,
+      <SiApple className={stylesHT.TechImagesMT0} />,
+      <DiAndroid className={stylesHT.TechImagesMT1} />,
     ],
     detail:
       "Native app development is a distinct approach for developing mobile apps for operating systems such as Android and iOS. At ultroNeous, we have an in-house dedicated native app developers team who is always up for developing an app that meets the client's requirements. Our native mobile applications development services are extremely conscientious about the app's quality and have completed countless projects on time.",
@@ -545,9 +545,9 @@ export const MobileTechnologyExpertise = [
   {
     title: "Hybrid",
     techIcons: [
-      <SiFlutter className={stylesHT.TechImages} />,
-      <SiXamarin className={stylesHT.TechImages} />,
-      <SiReact className={stylesHT.TechImages} />,
+      <SiFlutter className={stylesHT.TechImagesMT2} />,
+      <SiXamarin className={stylesHT.TechImagesMT3} />,
+      <SiReact className={stylesHT.TechImagesMT4} />,
     ],
     detail:
       "With hybrid mobile apps, you can take your business app on multiple platforms. It is a cost-efficient mobile app development service that delivers stable and compatible results. ultroNeous offers a comprehensive hybrid mobile application development service to clients. With over 50+ projects working experience, our developers are proficient in writing codes in HTML5, CSS, and JavaScript.",
@@ -559,7 +559,7 @@ export const DigitalMarketingExpertise = [
     techIcons: [
       <Image
         src="/assets/seo-digital-marketing.svg"
-        className={stylesHT.TechImages}
+        className={stylesHT.TechImagesDM0}
       />,
     ],
     detail:
@@ -567,21 +567,24 @@ export const DigitalMarketingExpertise = [
   },
   {
     title: "Google Ads",
-    techIcons: [<SiGoogleadsense className={stylesHT.TechImages} />],
+    techIcons: [<SiGoogleadsense className={stylesHT.TechImagesDM1} />],
     detail:
       "Google Paid Ads is a service offered by Google that allows you to create and run online ads targeting individuals who are searching (on Google) for the products and services you're providing. Hire an experienced digital marketing agency that has extensive working knowledge and practical skills in running Google paid ads. ultroNeous has provided this service to several clients with tremendous success and positive results.",
   },
   {
     title: "SMM",
     techIcons: [
-      <Image src="/assets/like-digital.svg" className={stylesHT.TechImages} />,
+      <Image
+        src="/assets/like-digital.svg"
+        className={stylesHT.TechImagesDM2}
+      />,
     ],
     detail:
       "The best way to describe social media marketing is “the use of social media platforms to promote products and services”. If any company is facing trouble finding buyers and visitors, then social media networks are a great place to start with. With the help of professional digital marketing services providers like ultroNeous, your business can utilize social media to reach people, improve brand awareness, generate leads, and build a relationship with users. Connect with us to know how we can take your business to the next level with social media.",
   },
   {
     title: "Facebook Ads ",
-    techIcons: [<SiFacebook className={stylesHT.TechImages} />],
+    techIcons: [<SiFacebook className={stylesHT.TechImagesDM3} />],
     detail:
       "Facebook is the most popular social media platform, with over 1.9 million daily unique users. Running paid ads on Facebook can be incredibly beneficial for a business. ultroNeous, a digital marketing agency, is adept at running Facebook ad campaigns to increase clients' business revenue. Our paid ad experts are masters at scaling, optimizing, and testing various ad copy variants to deliver great ROI. If your company has overlooked Facebook's massive reach and commercial opportunities, connect now with ultroNeous",
   },

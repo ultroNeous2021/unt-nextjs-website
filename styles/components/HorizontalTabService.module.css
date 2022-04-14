@@ -20,7 +20,147 @@
   font-size: 4.813rem;
   margin-left: 0.5em;
 }
+/* 
+ */
+.TechImagesWeb0,
+.TechImagesWeb1,
+.TechImagesWeb2,
+.TechImagesWeb3,
+.TechImagesWeb4,
+.TechImagesWeb5,
+.TechImagesWeb6,
+.TechImagesWeb7,
+.TechImagesWeb8,
+.TechImagesWeb9,
+.TechImagesWeb10,
+.TechImagesWeb11,
+.TechImagesWeb12,
+.TechImagesWeb13,
+.TechImagesMT0,
+.TechImagesMT1,
+.TechImagesMT2,
+.TechImagesMT3,
+.TechImagesMT4 {
+  width: 1em;
+  font-size: 4.813rem;
+  margin-left: 0.5rem;
+  transition: all 1s ease;
+}
+.TechImagesDM0,
+.TechImagesDM2,
+.TechImagesDM1,
+.TechImagesDM3 {
+  width: 1em;
+  font-size: 4.813rem;
+  transition: all 1s ease;
+  margin-left: 0rem;
+}
+.TechImagesWeb0:hover {
+  color: #21759b;
+  transition: all 1s ease;
+}
 
+.TechImagesWeb1:hover {
+  transition: all 1s ease;
+  color: #96bf48;
+}
+
+.TechImagesWeb2:hover {
+  color: #d7632d;
+  transition: all 1s ease;
+}
+.TechImagesWeb3:hover {
+  color: #777bb3;
+  transition: all 1s ease;
+}
+.TechImagesWeb4:hover {
+  color: #f9322c;
+  transition: all 1s ease;
+}
+.TechImagesWeb5:hover {
+  color: #dd4814;
+  transition: all 1s ease;
+}
+.TechImagesWeb6:hover {
+  color: #55a54d;
+  transition: all 1s ease;
+}
+.TechImagesWeb7:hover {
+  color: #333333;
+  transition: all 1s ease;
+}
+.TechImagesWeb8:hover {
+  color: #bd022e;
+  transition: all 1s ease;
+}
+.TechImagesWeb9:hover {
+  color: #7fc729;
+  transition: all 1s ease;
+}
+.TechImagesWeb10:hover {
+  color: #55a54d;
+  transition: all 1s ease;
+}
+.TechImagesWeb11:hover {
+  color: #333333;
+  transition: all 1s ease;
+}
+.TechImagesWeb12:hover {
+  color: #5ed3f3;
+  transition: all 1s ease;
+}
+.TechImagesWeb13:hover {
+  color: #7fc729;
+  transition: all 1s ease;
+}
+
+/* --- */
+/* .TechImagesDM0:hover {
+  color: #0c2342;
+  transition: all 1s ease;
+} */
+.TechImagesDM0:hover {
+  content: url("/assets/seo-color.svg");
+  transition: all 1s ease;
+}
+.TechImagesDM2:hover {
+  content: url("/assets/like-color.svg");
+  transition: all 1s ease;
+}
+.TechImagesDM1:hover {
+  color: #1d84de;
+  transition: all 1s ease;
+}
+/* .TechImagesDM2:hover {
+  color: #022e3f;
+  transition: all 1s ease;
+} */
+.TechImagesDM3:hover {
+  color: #1773ea;
+  transition: all 1s ease;
+}
+/* ----- */
+.TechImagesMT0:hover {
+  color: #a1aaac;
+  transition: all 1s ease;
+}
+.TechImagesMT1:hover {
+  color: #9fbf39;
+  transition: all 1s ease;
+}
+.TechImagesMT2:hover {
+  color: #54c5f8;
+  transition: all 1s ease;
+}
+.TechImagesMT3:hover {
+  color: #3498db;
+  transition: all 1s ease;
+}
+.TechImagesMT4:hover {
+  color: #56d2f3;
+  transition: all 1s ease;
+}
+/*  */
 .TechImages:first-child {
   margin-left: 0;
 }
@@ -29,8 +169,14 @@
   width: 100%;
   height: auto;
   max-width: 35em;
+  filter: grayscale(100%);
+  transition: all 2s ease;
 }
-
+.TechImage:hover {
+  filter: none;
+  transform: scale(1.1);
+  transition: all 2s ease;
+}
 .TechTitle {
   font-size: 32px;
 }
@@ -147,7 +293,29 @@
     padding-bottom: 2rem;
   }
 
-  .TechImages {
+  .TechImagesWeb0,
+  .TechImagesWeb1,
+  .TechImagesWeb2,
+  .TechImagesWeb3,
+  .TechImagesWeb4,
+  .TechImagesWeb5,
+  .TechImagesWeb6,
+  .TechImagesWeb7,
+  .TechImagesWeb8,
+  .TechImagesWeb9,
+  .TechImagesWeb10,
+  .TechImagesWeb11,
+  .TechImagesWeb12,
+  .TechImagesWeb13,
+  .TechImagesDM0,
+  .TechImagesDM1,
+  .TechImagesDM2,
+  .TechImagesDM3,
+  .TechImagesMT0,
+  .TechImagesMT1,
+  .TechImagesMT2,
+  .TechImagesMT3,
+  .TechImagesMT4 {
     font-size: 3.5rem;
   }
 }

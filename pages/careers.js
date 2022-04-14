@@ -169,7 +169,8 @@ function CareersPage() {
         </div>
         <div className={styles.CareersOurCatchphrasetext}>
           <h2>
-            Our Catchphrase, <br /> We say Team, Team says Client
+            Our Catchphrase, <br /> We say Team,
+            {mobile ? <br /> : null} Team says Client
           </h2>
           <p>
             ultroNeous believes in giving the highest priority to their
