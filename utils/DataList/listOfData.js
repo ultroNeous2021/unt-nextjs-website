@@ -4,15 +4,16 @@ export const Teamlist = [
     name: "Pramit Shah",
     detail: "Global Sales Head",
   },
+
   {
     image: "/assets/TeamO2.png",
     name: "Sachin Padhiyar",
     detail: "Project Manager",
   },
   {
-    image: "/assets/TeamO2.png",
-    name: "Sachin Padhiyar",
-    detail: "Project Manager",
+    image: "/assets/divyasukhani.png",
+    name: "Divya Sukhani",
+    detail: "Human Resource",
   },
   {
     image: "/assets/DeepShah.png",

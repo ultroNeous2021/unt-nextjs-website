@@ -221,14 +221,14 @@
 .imgwidthfull {
   width: 100%;
   height: auto;
-  transition: all 1s ease;
-  filter: brightness(0.5);
+  /* transition: all 1s ease;
+  filter: brightness(0.5); */
 }
-.imgwidthfull:hover {
+/* .imgwidthfull:hover {
   transform: scale(1.04);
   transition: all 1s ease;
   filter: brightness(1);
-}
+} */
 
 .bgcolor .ImageContainer:first-of-type {
   padding-left: 0rem;

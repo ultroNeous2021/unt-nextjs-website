@@ -210,8 +210,8 @@
     height: 25%;
   }
 }
-/* @media (min-width: 1200px) and (max-width: 1730px) {
+@media (min-width: 1200px) and (max-width: 1730px) {
   .SocialLinksContainer {
-    height: 10%;
+    height: 5%;
   }
-} */
+}
