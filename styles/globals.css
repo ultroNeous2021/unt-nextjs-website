@@ -168,12 +168,12 @@ a {
 }
 
 .accordion-button::after {
-  background-image: url("../public/assets/plus.svg") !important;
+  background-image: url("/assets/plus.svg") !important;
   transition: all 0.3s ease !important;
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url("../public/assets/minus.svg") !important;
+  background-image: url("/assets/minus.svg") !important;
   transform: rotate(0deg) !important;
 }
 

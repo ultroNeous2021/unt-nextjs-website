@@ -62,7 +62,7 @@ function AboutUltroneousPage() {
     } else {
       setShowMe(false);
     }
-  });
+  }, []);
 
   return (
     <Layout>
