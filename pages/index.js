@@ -133,21 +133,21 @@ export default function HomePage() {
                 className={styles.IntroParagraphSection}
               >
                 <p className={styles.IntroParagraph}>
-                  ultroNeous is a concept – a concept of innovation, customer
-                  service, and exceptional creativity. We are committed to
-                  building technology solutions that are accessible to help
-                  pioneers reach their vision. We will continue to remove
-                  technological obstacles to the global community of movers and
-                  shakers.
+                  ultroNeous is a concept. A concept of innovation, excellence
+                  and exceptional creativity. We are building the technical
+                  solutions for pioneers to reach their vision, and industries
+                  to automate their process. We are committed to remove the
+                  technology obstacles to empower the various verticals and
+                  domains.
                   <br />
                   <br />
-                  Our team is constantly creating advanced web and mobile
-                  applications for various domains. Our experienced developers
-                  have a broad working knowledge of top programming languages
-                  and have the sense to build scalable solutions. The robust
-                  solutions increase the ROI for the client, resulting in the
-                  constant growth of our client base and project development
-                  knowledge.
+                  We are a strong unit of people, and call ourself an
+                  ultroNeour. An ultroNeour is always putting an extra mile and
+                  efforts, to create an advanced technical solution for web,
+                  mobility and enterprise software. Our experienced designers
+                  and developers have a broad working knowledge and expertise to
+                  build scalable solutions with the use of cutting-edge
+                  technologies and industry proven tools.
                 </p>
               </Col>
               <Col

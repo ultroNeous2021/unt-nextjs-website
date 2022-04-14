@@ -351,8 +351,11 @@ option {
 #Bars {
   z-index: 3;
   position: fixed;
-  right: 1%;
-  top: 1.6rem;
+  right: 0%;
+  top: 0rem;
+  transform: rotate(180deg);
+  padding: 1.78rem 1rem;
+  background: #e49b00;
 }
 
 #checkboxNav {
@@ -365,7 +368,8 @@ option {
   -ms-transform: translateY(1px) rotateZ(45deg);
   -o-transform: translateY(1px) rotateZ(45deg);
   transform: translateY(1px) rotateZ(45deg);
-  background: #e49b00;
+  background: #fff;
+  width: 25px;
 }
 
 #checkboxNav:checked ~ label .LineThree {
@@ -374,7 +378,13 @@ option {
   -ms-transform: translateY(-17px) rotateZ(-45deg);
   -o-transform: translateY(-17px) rotateZ(-45deg);
   transform: translateY(-17px) rotateZ(-45deg);
-  background: #e49b00;
+  background: #fff;
+  width: 25px;
+}
+
+#checkboxNav:checked ~ #Bars {
+  transform: rotate(0deg);
+  transform: rotate(180deg);
 }
 
 #checkboxNav:checked ~ label .LineTwo {
@@ -392,7 +402,13 @@ option {
   }
 
   #Bars {
-    top: 1.5%;
+    top: 0%;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  #checkboxNav:checked ~ #Bars {
+    transform: rotate(180deg);
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
   }
 }
 

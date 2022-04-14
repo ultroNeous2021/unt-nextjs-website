@@ -84,10 +84,11 @@ function NavbarMain() {
               Careers
             </p>
           </Link>
-          <span style={{ margin: "0 1rem" }}>
+          <span style={{ margin: "0 2.2rem 0 1rem" }}>
             <TransparentButton val={"Contact Us"} link={"/contact-us"} />
           </span>
         </div>
+
         <input type="checkbox" id="checkboxNav" className={styles.checkBox} />
         <label id="Bars" htmlFor="checkboxNav">
           <span className={`${styles.LineOne} LineOne`}></span>
