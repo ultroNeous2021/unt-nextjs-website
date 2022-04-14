@@ -18,6 +18,7 @@ export default function Layout({ title, keywords, description, children }) {
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
+        <link rel="shortcut icon" href="/static/favicon.svg" />
       </Head>
       {/* <NavbarComponent /> */}
       <NavbarMain />
