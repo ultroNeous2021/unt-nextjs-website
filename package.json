@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "npm run build && next export -o _static"
+    "export": "npm run build && next export -o _static",
+    "start:prod": "next start -p 80"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
