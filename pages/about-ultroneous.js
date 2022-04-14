@@ -119,21 +119,32 @@ function AboutUltroneousPage() {
         <Row className={[styles.AboutUsImages, styles.AboutUsRowMargin]}>
           <Row className={styles.AboutUsRowMargin}>
             <Col xs={6} sm={6} className={styles.AboutUsImage}>
-              <Image src="/assets/Team1.png" alt="ultroneous team" />
+              <div className={styles.AboutUsImageCover}>
+                <Image src="/assets/Team1.png" alt="ultroneous team" />
+              </div>
             </Col>
             <Col xs={6} sm={6} className={styles.AboutUsImage}>
-              <Image src="/assets/Team3.png" alt="ultroneous team" />
+              <div className={styles.AboutUsImageCover}>
+                <Image src="/assets/Team3.png" alt="ultroneous team" />
+              </div>
             </Col>
           </Row>
           <Row className={[styles.AboutUsImage, , styles.AboutUsRowMargin]}>
-            <Image src="/assets/Team2.png" alt="ultroneous team" />
+            <div className={styles.AboutUsImageCover}>
+              <Image src="/assets/Team2.png" alt="ultroneous team" />
+            </div>
           </Row>
           <Row className={styles.AboutUsRowMargin}>
             <Col xs={6} sm={6} className={styles.AboutUsImage}>
-              <Image src="/assets/Team4.png" alt="ultroneous team" />
+              <div className={styles.AboutUsImageCover}>
+                <Image src="/assets/Team4.png" alt="ultroneous team" />
+              </div>
             </Col>
+
             <Col xs={6} sm={6} className={styles.AboutUsImage}>
-              <Image src="/assets/Team5.png" alt="ultroneous team" />
+              <div className={styles.AboutUsImageCover}>
+                <Image src="/assets/Team5.png" alt="ultroneous team" />
+              </div>
             </Col>
           </Row>
         </Row>
@@ -141,21 +152,31 @@ function AboutUltroneousPage() {
         <>
           <Row className={[styles.AboutUsImages, styles.AboutUsRowMargin]}>
             <Col xs={12} sm={4} className={styles.AboutUsImage}>
-              <Image src="/assets/Team1.png" alt="ultroneous team" />
+              <div className={styles.AboutUsImageCover}>
+                <Image src="/assets/Team1.png" alt="ultroneous team" />
+              </div>
             </Col>
             <Col xs={12} sm={8} className={styles.AboutUsImage}>
-              <Image src="/assets/Team2.png" alt="ultroneous team" />
+              <div className={styles.AboutUsImageCover}>
+                <Image src="/assets/Team2.png" alt="ultroneous team" />
+              </div>
             </Col>
           </Row>
           <Row className={[styles.AboutUsImages, styles.AboutUsRowMargin]}>
             <Col xs={12} sm={4} className={styles.AboutUsImage}>
-              <Image src="/assets/Team3.png" alt="ultroneous team" />
+              <div className={styles.AboutUsImageCover}>
+                <Image src="/assets/Team3.png" alt="ultroneous team" />
+              </div>
             </Col>
             <Col xs={12} sm={4} className={styles.AboutUsImage}>
-              <Image src="/assets/Team4.png" alt="ultroneous team" />
+              <div className={styles.AboutUsImageCover}>
+                <Image src="/assets/Team4.png" alt="ultroneous team" />
+              </div>
             </Col>
             <Col xs={12} sm={4} className={styles.AboutUsImage}>
-              <Image src="/assets/Team5.png" alt="ultroneous team" />
+              <div className={styles.AboutUsImageCover}>
+                <Image src="/assets/Team5.png" alt="ultroneous team" />
+              </div>
             </Col>
           </Row>
         </>

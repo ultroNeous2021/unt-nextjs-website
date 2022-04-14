@@ -236,6 +236,9 @@
   .FooterTopText h2 {
     font-size: 60px;
   }
+  .QuickLinks {
+    padding-top: 2rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */

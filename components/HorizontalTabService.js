@@ -59,11 +59,13 @@ function HorizontalTabService(props) {
                   ) : null}
                 </Col>
                 <Col xs={12} sm={12} md={6} className={styles.TechImageRow}>
-                  <img
-                    className={styles.TechImage}
-                    src={"/assets/tech-image.jpg"}
-                    alt="tech-image"
-                  />
+                  <div className={styles.TechImageRowCover}>
+                    <img
+                      className={styles.TechImage}
+                      src={"/assets/tech-image.jpg"}
+                      alt="tech-image"
+                    />
+                  </div>
                 </Col>
               </Row>
             </Tab>

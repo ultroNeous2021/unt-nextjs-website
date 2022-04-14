@@ -162,6 +162,7 @@
 
   .ImageDiv img {
     max-height: 347px;
+    left: 0.7rem;
   }
 }
 @media (min-width: 1200px) and (max-width: 1730px) {

@@ -62,7 +62,7 @@
   color: #e49b00;
 }
 .Nav1 :active {
-  border-left: 10px solid #e49b00;
+  border-left: 7px solid #e49b00;
   border-radius: 5px;
 }
 
@@ -86,7 +86,7 @@
   margin-left: 2rem;
   font-size: 30px;
   transition: all 0.5s ease;
-  border-left: 10px solid transparent;
+  border-left: 7px solid transparent;
   padding-left: 0.5rem;
   cursor: pointer;
 }
@@ -106,7 +106,7 @@
 
 .dropdown:hover,
 .DropdownTitle:hover {
-  border-left: 10px solid #e49b00;
+  border-left: 7px solid #e49b00;
   border-radius: 5px;
 }
 
@@ -140,17 +140,23 @@
 }
 
 .dropdown:hover ~ .dropdowntwo {
+  /* visibility: hidden; */
   display: none;
 }
-
-.Dropdowns .dropdowntwo:hover ~ .dropdownone {
-  display: none;
+.ListOfMenuContainer {
+  height: 25%;
+  /* position: fixed; */
 }
-
+.SocialLinksContainer {
+  height: 25%;
+  display: flex;
+  align-items: end;
+}
 .SocialLinks {
   display: flex;
   position: relative;
   top: 20rem;
+  padding-left: 2rem;
 }
 
 .IconsBorder {
@@ -166,7 +172,7 @@
 
 .IconsBorder:hover,
 .IconsBorder:active {
-  background: #1a1112;
+  background: #e49b00;
 }
 
 .Icon {
@@ -174,8 +180,8 @@
 }
 .Icon:hover,
 .Icon:active {
-  color: #e49b00;
-  background: #1a1112;
+  color: #ffffff;
+  background: #e49b00;
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
@@ -188,7 +194,10 @@
   }
   .SocialLinks {
     top: 13rem;
-    left: 2rem;
+    /* left: 2rem; */
+  }
+  .SocialLinksContainer {
+    height: 25%;
   }
 }
 
@@ -196,4 +205,12 @@
   .Navbar {
     padding: 1rem 2rem 1rem 2.5rem;
   }
+  .SocialLinksContainer {
+    height: 25%;
+  }
 }
+/* @media (min-width: 1200px) and (max-width: 1730px) {
+  .SocialLinksContainer {
+    height: 10%;
+  }
+} */

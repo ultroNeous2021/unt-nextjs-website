@@ -395,10 +395,12 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
         </h2>
         <Row className={`${styles.WALAImages} mx-0 `}>
           <Col xs={12} sm={12} md={6} xl={6} className={styles.ImageContainer}>
-            <Image
-              src={"/assets/office-ahmd.png"}
-              className={styles.imgwidthfull}
-            />
+            <div className={styles.ContactusImageCover}>
+              <Image
+                src={"/assets/office-ahmd.png"}
+                className={styles.imgwidthfull}
+              />
+            </div>
           </Col>
           <Col xs={12} sm={12} md={6} xl={6} className={styles.WALAImagesText}>
             <h2
@@ -463,10 +465,12 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
             </div>
           </Col>
           <Col xs={12} sm={12} md={6} xl={6} className={styles.ImageContainer}>
-            <Image
-              src={"/assets/office-usa.png"}
-              className={`${styles.pos} ${styles.imgwidthfull}`}
-            />
+            <div className={styles.ContactusImageCover}>
+              <Image
+                src={"/assets/office-usa.png"}
+                className={`${styles.pos} ${styles.imgwidthfull}`}
+              />
+            </div>
           </Col>
         </Row>
       </div>

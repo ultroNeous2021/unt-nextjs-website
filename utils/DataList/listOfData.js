@@ -270,7 +270,7 @@ export const ListQualitiesMobileAppDev = [
       "Develop highly scalable and ever-demanding mobile applications with our native android application services.",
   },
   {
-    image: "/assets/MADT3.svg",
+    image: "/assets/apple-ios.png",
     name: "iOS Application",
     descreption:
       "We got you covered from conceptualisation to the successful deployment on the App store with our iOS app development.",
@@ -381,7 +381,7 @@ export const ArrayOfServices = [
   // },
   {
     icon: "/assets/s-web-dev.svg",
-    name: "Web App Development",
+    name: "Web Application Development",
     background: "/assets/S11.png",
     content:
       "Irrespective of size of your business and complexity of application, ultroNeous build a well-planned, highly scalable and a secure web application that will solve your unique business challenges.",
@@ -396,20 +396,20 @@ export const ArrayOfServices = [
     link: "mobile-application-development",
   },
   {
-    icon: "/assets/s-digital-marketing.svg",
-    name: "Digital Marketing",
-    background: "/assets/S17.png",
-    content:
-      "For each of our digital marketing services, including SEO, PPC, Social Media Marketing, eCommerce and Content Marketing, we use a results-driven approach. Explore our digital marketing services in depth.",
-    link: "digital-marketing",
-  },
-  {
     icon: "/assets/s-uiux.svg",
     name: "UX/UI Design",
     background: "/assets/S13.png",
     content:
       "Design is our Strength!! - Our complete UX/UI design methodology comprises brainstorming, UI research, thinking, and designing in order to provide our clients with comprehensive and engaging outcomes.",
     link: "ux-ui-design",
+  },
+  {
+    icon: "/assets/s-digital-marketing.svg",
+    name: "Digital Marketing",
+    background: "/assets/S17.png",
+    content:
+      "For each of our digital marketing services, including SEO, PPC, Social Media Marketing, eCommerce and Content Marketing, we use a results-driven approach. Explore our digital marketing services in depth.",
+    link: "digital-marketing",
   },
   // {
   //   icon: "/assets/s-cloud-dev.png",

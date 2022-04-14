@@ -710,6 +710,7 @@
 @media (min-width: 768px) and (max-width: 1080px) {
   .herotext {
     top: 45%;
+    padding-left: 1rem;
   }
 
   .HomeHeroTextContainer h1 {

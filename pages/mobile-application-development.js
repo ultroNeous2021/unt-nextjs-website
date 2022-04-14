@@ -26,7 +26,7 @@ function MobileApplicationDevelopmentPage() {
         paragraph={ListOfMobileService.paragraph}
         image={ListOfMobileService.image}
         alt={ListOfMobileService.alt}
-        linkToNextService={"digital-marketing"}
+        linkToNextService={"ux-ui-design"}
       />
       <QualitiesSection QualitiesList={ListQualitiesMobileAppDev} />
       <HorizontalTabService

@@ -2,6 +2,7 @@ import TransparentButton from "@/components/TransparentButton";
 import styles from "@/styles/NavbarMain.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { AiFillInstagram } from "react-icons/ai";
@@ -14,6 +15,13 @@ function NavbarMain() {
   const [colorChange, setColorchange] = useState("transparent");
   const [changeDropdown, setChangeDropdown] = useState(true);
 
+  const router = useRouter();
+  const serviceinner = [
+    "/web-application-development",
+    "/mobile-application-development",
+    "/ux-ui-design",
+    "/digital-marketing",
+  ];
   const changeNavbarColor = () => {
     if (window.scrollY >= 50) {
       setColorchange("#1A1112");
@@ -23,6 +31,7 @@ function NavbarMain() {
   };
   useEffect(() => {
     window.addEventListener("scroll", () => changeNavbarColor());
+    // console.log(router.pathname);
   });
 
   return (
@@ -44,13 +53,36 @@ function NavbarMain() {
         </div>
         <div className={styles.Links}>
           <Link href="/about-ultroneous">
-            <p>About Us</p>
+            <p
+              style={
+                router.pathname == "/about-ultroneous"
+                  ? { color: "#e49b00" }
+                  : null
+              }
+            >
+              About Us
+            </p>
           </Link>
           <Link href="/services">
-            <p>Services</p>
+            <p
+              style={
+                router.pathname == "/services" ||
+                serviceinner.includes(router.pathname)
+                  ? { color: "#e49b00" }
+                  : null
+              }
+            >
+              Services
+            </p>
           </Link>
           <Link href="/careers">
-            <p>Careers</p>
+            <p
+              style={
+                router.pathname == "/careers" ? { color: "#e49b00" } : null
+              }
+            >
+              Careers
+            </p>
           </Link>
           <span style={{ margin: "0 1rem" }}>
             <TransparentButton val={"Contact Us"} link={"/contact-us"} />
@@ -114,43 +146,45 @@ function NavbarMain() {
               <Link href="/contact-us">Contact Us</Link>
             </div>
           </div>
-          <div className={styles.SocialLinks}>
-            <span className={styles.IconsBorder}>
-              <a
-                href="https://www.facebook.com/ultroneous.technologies"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <GrFacebookOption size={25} className={styles.Icon} />
-              </a>
-            </span>
-            <span className={styles.IconsBorder}>
-              <a
-                href="https://twitter.com/ultroneousTech"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <BsTwitter size={25} className={styles.Icon} />
-              </a>
-            </span>
-            <span className={styles.IconsBorder}>
-              <a
-                href="https://www.instagram.com/ultroneous.technologies/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <AiFillInstagram size={25} className={styles.Icon} />
-              </a>
-            </span>
-            <span className={styles.IconsBorder}>
-              <a
-                href="https://www.linkedin.com/company/ultroneous"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaLinkedinIn size={25} className={styles.Icon} />
-              </a>
-            </span>
+          <div className={styles.SocialLinksContainer}>
+            <div className={styles.SocialLinks}>
+              <span className={styles.IconsBorder}>
+                <a
+                  href="https://www.facebook.com/ultroneous.technologies"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GrFacebookOption size={25} className={styles.Icon} />
+                </a>
+              </span>
+              <span className={styles.IconsBorder}>
+                <a
+                  href="https://twitter.com/ultroneousTech"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsTwitter size={25} className={styles.Icon} />
+                </a>
+              </span>
+              <span className={styles.IconsBorder}>
+                <a
+                  href="https://www.instagram.com/ultroneous.technologies/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <AiFillInstagram size={25} className={styles.Icon} />
+                </a>
+              </span>
+              <span className={styles.IconsBorder}>
+                <a
+                  href="https://www.linkedin.com/company/ultroneous"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaLinkedinIn size={25} className={styles.Icon} />
+                </a>
+              </span>
+            </div>
           </div>
         </div>
       </div>

@@ -126,10 +126,10 @@ function Footer({ FooterContainerStyle }) {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/digital-marketing">Digital Marketing</Link>
+                  <Link href="/ux-ui-design">UX/UI Design</Link>
                 </li>
                 <li>
-                  <Link href="/ux-ui-design">UX/UI Design</Link>
+                  <Link href="/digital-marketing">Digital Marketing</Link>
                 </li>
                 {/* <li>
                   <Link href="/cloud-and-devops">Cloud & Devops</Link>

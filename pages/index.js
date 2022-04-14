@@ -69,18 +69,6 @@ export default function HomePage() {
               </div>
             </div>
           </Link>
-          <Link href={"/digital-marketing"}>
-            <div className={styles.TechnoContainer}>
-              <Image
-                src={"/assets/Socialmedia.jpg"}
-                alt="Avatar"
-                className={styles.TechnologyImage}
-              />
-              <div className={styles.TechnologyOverlay}>
-                <div className={styles.TechnologyText}>Digital Marketing</div>
-              </div>
-            </div>
-          </Link>
           <Link href={"/ux-ui-design"}>
             <div className={styles.TechnoContainer}>
               <Image
@@ -93,6 +81,19 @@ export default function HomePage() {
               </div>
             </div>
           </Link>
+          <Link href={"/digital-marketing"}>
+            <div className={styles.TechnoContainer}>
+              <Image
+                src={"/assets/Socialmedia.jpg"}
+                alt="Avatar"
+                className={styles.TechnologyImage}
+              />
+              <div className={styles.TechnologyOverlay}>
+                <div className={styles.TechnologyText}>Digital Marketing</div>
+              </div>
+            </div>
+          </Link>
+
           <Link href={"/careers"}>
             <div className={styles.TechnoContainer}>
               <Image
@@ -118,7 +119,7 @@ export default function HomePage() {
             >
               Hello, we are
               <br />
-              ultroNeours.
+              ultroNeous.
             </h2>
           </Row>
           <div>

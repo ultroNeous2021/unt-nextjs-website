@@ -26,13 +26,13 @@ const UiUxDesign = () => {
   return (
     <Layout>
       <ServicesHeader
-        numbers={"04"}
+        numbers={"03"}
         heading={ListOfUiUxDesign.heading}
         title={ListOfUiUxDesign.title}
         paragraph={ListOfUiUxDesign.paragraph}
         image={ListOfUiUxDesign.image}
         alt={ListOfUiUxDesign.alt}
-        linkToNextService={"web-application-development"}
+        linkToNextService={"digital-marketing"}
       />
       <QualitiesSection QualitiesList={ListQualitiesUIUX} />
       <Row className={styles.NotableContainer}>

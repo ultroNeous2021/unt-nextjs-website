@@ -169,11 +169,11 @@
   width: 100%;
   height: auto;
   max-width: 35em;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: all 2s ease;
 }
 .TechImage:hover {
-  filter: none;
+  /* filter: none; */
   transform: scale(1.1);
   transition: all 2s ease;
 }
@@ -210,6 +210,12 @@
   align-items: center;
   justify-content: right;
   padding-top: 2em;
+}
+.TechImageRowCover {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 .TechMoBApple:hover {
   color: #e49b00;

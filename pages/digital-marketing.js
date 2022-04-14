@@ -13,17 +13,17 @@ const DigitalMarketing = () => {
   return (
     <Layout>
       <ServicesHeader
-        numbers={"03"}
+        numbers={"04"}
         heading={ListOfDigitalMarketingService.heading}
         title={ListOfDigitalMarketingService.title}
         paragraph={ListOfDigitalMarketingService.paragraph}
         image={ListOfDigitalMarketingService.image}
         alt={ListOfDigitalMarketingService.alt}
-        linkToNextService={"ux-ui-design"}
+        linkToNextService={"web-application-development"}
       />
       <QualitiesSection QualitiesList={ListQualitiesDigitalMarketing} />
       <HorizontalTabService
-        heading="Mobile Application Development
+        heading="Digital Marketing
         Technologies Expertise"
         Technology={DigitalMarketingExpertise}
         hireButton

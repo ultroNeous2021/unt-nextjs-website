@@ -199,12 +199,14 @@
 .CareersImage {
   padding-right: 4rem;
   padding-left: 0;
-  transition: all 1s ease;
 }
-.CareersImage:hover {
-  transform: scale(1.1);
-  transition: all 1s ease;
+.CareersImageCover {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
+
 .CareersImage:nth-child(2),
 .CareersImage:nth-child(4) {
   padding-top: 5em;
@@ -214,8 +216,12 @@
   width: 100%;
   height: auto;
   margin-left: 0.2rem;
+  transition: all 1s ease;
 }
-
+.CareersImage img:hover {
+  transform: scale(1.3);
+  transition: all 2s ease;
+}
 .WTOOImagesSingle {
   width: 100%;
   height: auto;

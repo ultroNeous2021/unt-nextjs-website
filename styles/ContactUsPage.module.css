@@ -291,6 +291,13 @@
   }
 }
 
+.ContactusImageCover {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
 @media (min-width: 320px) and (max-width: 430px) {
   .WALAContainer {
     padding: 4rem 0rem;
