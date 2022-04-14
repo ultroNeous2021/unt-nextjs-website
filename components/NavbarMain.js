@@ -95,7 +95,7 @@ function NavbarMain() {
           <span className={`${styles.LineThree} LineThree`}></span>
         </label>
         <div className={`${styles.SideBarNav} SideBar`}>
-          <div className={styles.Dropdowns}>
+          <div className={styles.ListOfMenuContainer}>
             <div
               className={`${styles.dropdown} ${styles.DropdownTitle} ${styles.dropdownone}`}
               style={

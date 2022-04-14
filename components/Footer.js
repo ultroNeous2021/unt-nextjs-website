@@ -102,7 +102,7 @@ function Footer({ FooterContainerStyle }) {
                   <Link href="/about-ultroneous">About us</Link>
                 </li>
                 <li>
-                  <Link href="/meet-our-team">Team</Link>
+                  <Link href="/meet-our-team">Meet our Team</Link>
                 </li>
                 <li>
                   <Link href="/careers">Career</Link>
@@ -152,7 +152,7 @@ function Footer({ FooterContainerStyle }) {
                     <Image src="/assets/USA.svg" alt="usa" />
                   </span>
                   <span className="Ultroneous-Call-Mail-Text">
-                    <a href="tel:+1-234-253-4040">+1-234-253-4040</a>
+                    <a href="tel:+1-234-253-4040"> +1-234-253-4040</a>
                   </span>
                 </li>
                 <li>

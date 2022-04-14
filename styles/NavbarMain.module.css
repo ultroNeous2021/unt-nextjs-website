@@ -140,11 +140,10 @@
 }
 
 .dropdown:hover ~ .dropdowntwo {
-  /* visibility: hidden; */
   display: none;
 }
 .ListOfMenuContainer {
-  height: 25%;
+  height: 10%;
   /* position: fixed; */
 }
 .SocialLinksContainer {
@@ -156,7 +155,7 @@
   display: flex;
   position: relative;
   top: 20rem;
-  padding-left: 2rem;
+  padding-left: 2.5rem;
 }
 
 .IconsBorder {
@@ -166,22 +165,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .IconsBorder:hover,
 .IconsBorder:active {
   background: #e49b00;
+  border: 1px solid transparent;
+}
+
+.IconsBorder:hover .Icon {
+  color: #ffffff;
+  background: #e49b00;
 }
 
 .Icon {
   color: #ccc;
-}
-.Icon:hover,
-.Icon:active {
-  color: #ffffff;
-  background: #e49b00;
 }
 
 @media (min-width: 320px) and (max-width: 430px) {
