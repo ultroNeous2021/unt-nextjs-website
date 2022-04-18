@@ -141,7 +141,7 @@ function ServicePage() {
       </Row>
       <HorizontalTab data={WeExcelAtData} title={"We Excel At"} />
       <PortfolioSlider />
-      <WhyClientChoose css={{ paddingTop: 0 }} />
+      <WhyClientChoose />
       <Verticals />
     </Layout>
   );

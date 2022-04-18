@@ -73,8 +73,8 @@ const UiUxDesign = () => {
           <p className={styles.WeTrustParagraph}>
             Enhanced user experience, better user engagement, building a
             consumer base, increase in brand awareness, improved ROI, increased
-            repeating users- all are common advantages of having good UI/UX on
-            your business web solutions when it is done by an experienced UI UX
+            repeating users- all are common advantages of having good UX/UI on
+            your business web solutions when it is done by an experienced UX/UI
             design company.
           </p>
           <div className={styles.WeTrustBtnContainer}>

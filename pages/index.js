@@ -94,7 +94,7 @@ export default function HomePage() {
             </div>
           </Link>
 
-          <Link href={"/careers"}>
+          <Link href={"/"}>
             <div className={styles.TechnoContainer}>
               <Image
                 src={"/assets/cloud.jpg"}

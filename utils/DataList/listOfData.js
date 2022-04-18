@@ -245,7 +245,7 @@ export const ListOfUiUxDesign = {
   heading: "Services We Offer",
   title: "UX / UI Design",
   paragraph:
-    "Any website or application's success hinges on its ability to provide a positive user experience. Whether visitors stay or leave a website or application is entirely dependent on the UI/UX design. ultroNeous is a top UI UX development company that has provided innovative design services to a variety of business types. Our designers are meticulous in selecting appropriate UI UX features that give business web solutions rich and bespoke usability and user experience.",
+    "Any website or application's success hinges on its ability to provide a positive user experience. Whether visitors stay or leave a website or application is entirely dependent on the UX/UI design. ultroNeous is a top UX/UI development company that has provided innovative design services to a variety of business types. Our designers are meticulous in selecting appropriate UX/UI features that give business web solutions rich and bespoke usability and user experience.",
   image: "/assets/UX-UI.png",
   alt: "ui-ux-design",
 };

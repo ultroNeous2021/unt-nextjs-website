@@ -6,8 +6,10 @@ import OurTeamSlider from "@/components/Slider/OurTeamSlider";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
 import YellowFilledWhiteButton from "@/components/YellowFilledWhiteButton";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { useRouter } from "next/router";
 
 const MeetOurTeam = () => {
+  const goto = useRouter();
   return (
     <Layout>
       <PagesHeaderComponent text={"ultroNeous"} heading={"Meet our Pillars"} />
@@ -64,7 +66,10 @@ const MeetOurTeam = () => {
         </h2>
         <h3 className={styles.Subcontent}>You have a power too.. Right?</h3>
         <div className={styles.SubcontentButton}>
-          <button className={styles.YellowButton}>
+          <button
+            className={styles.YellowButton}
+            onClick={() => goto.push("/careers")}
+          >
             Be a part of our Team
             <HiOutlineArrowNarrowRight
               size={30}
