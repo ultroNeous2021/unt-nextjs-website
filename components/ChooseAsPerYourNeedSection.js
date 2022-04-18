@@ -8,7 +8,7 @@ import { VscGoToFile } from "react-icons/vsc";
 import { useRouter } from "next/router";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const ChooseAsPerYourNeedSection = () => {
+const ChooseAsPerYourNeedSection = (props) => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -20,7 +20,11 @@ const ChooseAsPerYourNeedSection = () => {
       ? setMobileMode(true)
       : setMobileMode(false);
   });
-  const ListOfTab = ["Hire a Team", "Give us a Project", "T & M"];
+  const ListOfTab = [
+    "Hire a Team",
+    props.replace ? props.replace : "Give us a Project",
+    "T & M",
+  ];
   return (
     <Row className={styles.ChooseAsPerYourNeedContainer}>
       <Col sm={12} xl={12} className={styles.CAPYN}>
@@ -68,7 +72,11 @@ const ChooseAsPerYourNeedSection = () => {
           {ChooseAsPerYourNeedData[viewByIndex].mainTitle}
         </div>
         <p className={styles.DetailSectionDetails}>
-          {ChooseAsPerYourNeedData[viewByIndex].details}
+          {props.replaceDetail
+            ? ChooseAsPerYourNeedData[0] == ChooseAsPerYourNeedData[viewByIndex]
+              ? (ChooseAsPerYourNeedData[0].details = `Hire ${props.replaceDetail} or Build your own team with ultroNeous.`)
+              : ChooseAsPerYourNeedData[viewByIndex].details
+            : ChooseAsPerYourNeedData[viewByIndex].details}
         </p>
         {}
         <Image
