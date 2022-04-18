@@ -810,3 +810,11 @@ export const OurTeamSliderData = [
     quote: "Getting satisfied kills the Growth of person!",
   },
 ];
+
+// export const NavbarMenuList = {
+//   [
+//     {
+//       "Company"
+//     }
+//   ]
+// }

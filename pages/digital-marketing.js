@@ -11,7 +11,17 @@ import ServicesHeader from "@/components/ServicesHeader";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 const DigitalMarketing = () => {
   return (
-    <Layout>
+    <Layout
+      title={
+        "Best Digital Marketing Agency | Digital Marketing Services | ultroNeous "
+      }
+      description={
+        "ultroNeous Technologies are the leading digital marketing company with expertise in SEO, PPC, Social Media Marketing, and Google Ads. Call us Now !!!"
+      }
+      keywords={
+        "Digital marketing company, Digital marketing agency, digital marketing services, internet marketing company"
+      }
+    >
       <ServicesHeader
         numbers={"04"}
         heading={ListOfDigitalMarketingService.heading}

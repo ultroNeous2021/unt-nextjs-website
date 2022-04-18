@@ -24,7 +24,17 @@ const UiUxDesign = () => {
   });
 
   return (
-    <Layout>
+    <Layout
+      title={
+        "UX/UI Design Company | Best UX/UI Design Agency in India | ultroNeous"
+      }
+      description={
+        "Looking for the most innovative UX/UI design services for your web app/mobile app? - ultroNeous Technologies is the top-rated UX/UI design company. Call us for the best design"
+      }
+      keywords={
+        "ui ux design company, ui ux design agency, ui ux development company"
+      }
+    >
       <ServicesHeader
         numbers={"03"}
         heading={ListOfUiUxDesign.heading}

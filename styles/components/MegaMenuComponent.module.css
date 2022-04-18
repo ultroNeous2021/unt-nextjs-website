@@ -1,260 +1,252 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-
-.main {
-  height: 100%;
-  position: sticky;
-  overflow: hidden;
+.NavbarContainer {
+  position: fixed;
+  width: 100%;
+  z-index: 6;
+  margin: 0;
 }
 
-.NavBar {
-  display: flex;
+.Container {
   justify-content: space-between;
-  align-items: flex-end;
-  position: absolute;
-  width: 100%;
-}
-
-.NavBarImage {
-  padding-left: 2.5rem;
-}
-
-.NavBarLinksDiv {
-  display: flex;
-  margin-right: 3rem;
-}
-
-.Links {
-  padding: 1rem;
-}
-
-.NavbarItems {
-  justify-content: right;
-  margin-right: 4rem;
-}
-
-.NavSingleItem {
-  padding-top: 0.5rem;
-}
-
-.NavSingleItem a {
-  color: #e49b00;
-}
-
-.NavSingleItem:hover {
-  color: #e49b00;
-}
-
-.ContactUsButton {
-  margin-left: 0.8rem;
-}
-
-.asidesection {
-  top: 0;
-  bottom: 0;
-  position: absolute;
-}
-
-.asideleft {
-  display: none;
-  width: 40%;
-  left: 0;
-  background-color: #1a1112;
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  transform: translateY(-100%);
-  transition: transform 0.4s ease-in-out;
-}
-
-.asideright {
-  width: 100%;
-  right: 0;
-  background-color: #e49b00;
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  transform: translateX(100%);
-  transition: transform 0.4s ease-in-out;
-}
-
-.asidelist {
-  list-style: none;
+  margin: 0;
   padding: 0;
-  margin: 0;
-  margin-top: 150px;
-  text-align: left;
-  padding-left: 50px;
+  max-width: 100%;
+  margin-left: 2.5rem;
 }
 
-.asidecontent {
-  margin-top: 150px;
-  padding: 0 40px;
-  position: relative;
-  color: white;
-  text-align: center;
+.NavbarMain {
+  width: 92%;
+  padding-right: 0;
+  opacity: 1;
+  transition: all 1s ease;
 }
 
-.asidelist li {
-  margin-bottom: 20px;
+.NavbarMainHide {
+  opacity: 0;
 }
 
-.asideanchor::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  background-color: #ff5964;
-  left: 0;
-  right: 0;
-  height: 3px;
-  border-radius: 3px;
+.MenuMain {
+  width: 8%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  z-index: 5;
 }
 
-.asideanchor::before {
-  border-radius: 3px;
-  content: "";
-  position: absolute;
-  bottom: 0;
-  background-color: #fff;
-  left: 0;
-  height: 3px;
-  z-index: 1;
-  width: 50%;
-  -webkit-transition: transform 0.2s ease-in-out;
-  -o-transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
+.MenuContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 4rem;
+  margin-left: auto;
+  background: #e49b00;
 }
 
-.asideanchor:hover:before {
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  transform: translateX(100%);
+.Bars {
+  height: 4px;
+  background: #fff;
 }
 
-.asideanchor {
-  padding-bottom: 7px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 30px;
-  position: relative;
-  font-weight: 500;
+.HideMenuOne {
+  transform: translateX(150%);
 }
 
-.Checkbox {
+.HideMenuTwo {
+  transform: translateY(-100%);
+}
+
+.ShowMenuOne {
+  transform: translateX(0);
+  transform: tra;
+  transition: all 1s ease;
+}
+
+.ShowMenuTwo {
+  transform: translateY(0);
+  transition: all 1s ease;
+}
+
+.NavLinks {
+  display: flex;
+}
+
+.LineOne {
+  width: 30px;
+}
+
+.LineTwo {
+  margin: 0.2rem 0;
+  width: 23px;
+  margin-left: auto;
+}
+
+.LineThree {
+  width: 15px;
+  margin-left: auto;
+}
+
+.Label,
+.LabelLines {
+  cursor: pointer;
+}
+
+.LabelLines .LineOne {
+  animation: line1x 1s ease 0s 1 normal forwards;
+}
+
+.LabelLines .LineTwo {
+  animation: line2x 1.1s ease 0s 1 normal forwards;
+}
+
+.LabelLines .LineThree {
+  animation: line3x 1s ease 0s 1 normal forwards;
+  width: 30px;
+}
+
+.HidePopup {
   display: none;
 }
 
-.Checkbox:checked ~ .AsideMain {
+.ShowPopup {
+  display: block;
+  transition: all 1s ease;
+}
+
+.NavbarColMiddle,
+.NavbarColLast {
   height: 100vh;
-  z-index: 5;
-  background: #1a1112;
+  padding: 4rem 0;
 }
 
-.Checkbox:checked ~ .AsideMain .asideleft {
-  transform: translateY(0%);
+.NavbarColMiddle ul,
+.NavbarColLast ul {
+  list-style-type: none;
+  font-size: 22px;
+  font-weight: 600;
 }
 
-.Checkbox:checked ~ .AsideMain .asideright {
-  transform: translateX(0%);
+.NavbarColMiddle {
+  background: rgba(248, 248, 248, 1);
+  text-align: right;
 }
 
-.Checkbox:checked ~ .Label .bar {
-  background-color: #fff;
+.NavbarColMiddle li {
+  margin: 3rem 0;
+  border-right: 0.5rem solid transparent;
+  border-radius: 10px 0 0 10px;
+  transition: all 1s ease;
+  padding-right: 2rem;
 }
 
-.Checkbox:checked ~ .Label .top {
-  -webkit-transform: translateY(0px) rotateZ(45deg);
-  -moz-transform: translateY(0px) rotateZ(45deg);
-  -ms-transform: translateY(0px) rotateZ(45deg);
-  -o-transform: translateY(0px) rotateZ(45deg);
-  transform: translateY(0px) rotateZ(45deg);
+.NavbarColLast li {
+  margin: 2rem 0;
+  color: rgba(25, 19, 17, 0.6);
+  font-weight: 400;
 }
 
-.Checkbox:checked ~ .Label .bottom {
-  -webkit-transform: translateY(-15px) rotateZ(-45deg);
-  -moz-transform: translateY(-15px) rotateZ(-45deg);
-  -ms-transform: translateY(-15px) rotateZ(-45deg);
-  -o-transform: translateY(-15px) rotateZ(-45deg);
-  transform: translateY(-15px) rotateZ(-45deg);
+.NavbarColMiddle li:hover {
+  border-right: 0.5rem solid #e49b00;
+  color: #e49b00;
 }
 
-.Checkbox:checked ~ .Label .middle {
-  width: 0;
-}
-
-.middle {
-  margin: 0 auto;
-}
-
-.Label {
-  top: 10px;
-  display: inline-block;
-  padding: 7px 10px;
-  background-color: transparent;
-  cursor: pointer;
-  margin: 0;
-  z-index: 3;
-  position: absolute;
-  right: 0;
-}
-
-.bar {
-  display: block;
-  background-color: #fff;
-  width: 30px;
-  height: 3px;
-  border-radius: 5px;
-  margin: 5px auto;
-  transition: background-color 0.4s ease-in, transform 0.4s ease-in,
-    width 0.4s ease-in;
-}
-
-.main h1 {
-  margin: 0;
-  position: relative;
-  top: 50%;
-  left: 0;
-  right: 0;
-  /* transform: translateY(-50%); */
-  text-align: center;
-  font-size: 30px;
-}
-
-.main h1 span {
-  font-size: 20px;
-  display: block;
-}
-
-.asideContent p {
-  font-size: 30px;
-}
-
-.button {
-  display: inline-block;
-  background-image: none;
-  border: none;
-  background-color: transparent;
-  padding-bottom: 7px;
-  position: relative;
-  cursor: pointer;
-  font-size: 20px;
-  color: white;
-  padding: 7px 50px;
-  border: 2px solid white;
-}
-
-@media (min-width: 992px) {
-  .main h1 {
-    font-size: 40px;
-  }
-  .asideleft {
-    display: block;
+@keyframes line1x {
+  0% {
+    transform: translateY(0);
   }
 
-  .asideright {
-    width: 60%;
+  50% {
+    transform: translateY(4px);
+  }
+
+  100% {
+    transform: translateY(4px) rotate(45deg);
+  }
+}
+@keyframes line3x {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-10px) rotate(135deg);
+  }
+}
+
+@keyframes line2x {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+
+/* back animation */
+
+.Label .LineOne {
+  animation: line1rev 1s ease 0s 1 normal forwards;
+}
+
+.Label .LineTwo {
+  animation: line2rev 0.8s ease 0s 1 normal forwards;
+}
+
+.Label .LineThree {
+  animation: line3rev 1s ease 0s 1 normal forwards;
+}
+
+@keyframes line1rev {
+  0% {
+    transform: translateY(4px) rotate(45deg);
+    width: 30px;
+  }
+  50% {
+    transform: translateY(4px);
+    width: 30px;
+  }
+
+  100% {
+    transform: rotate(0deg) translateY(0px);
+    width: 30px;
+  }
+}
+
+@keyframes line2rev {
+  0% {
+    transform: scale(0);
+    width: 30px;
+  }
+
+  100% {
+    transform: scale(1);
+    width: 23px;
+  }
+}
+
+@keyframes line3rev {
+  0% {
+    transform: translateY(-10px) rotate(135deg);
+    width: 30px;
+  }
+
+  50% {
+    transform: translateY(-10px);
+    width: 30px;
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+    width: 15px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  .NavbarMain {
+    display: none;
   }
 }

@@ -65,7 +65,12 @@ function AboutUltroneousPage() {
   }, []);
 
   return (
-    <Layout>
+    <Layout
+      title={"About ultroNeous - Custom Software Development Agency"}
+      description={
+        "ultroNeous is a concept where team building and knowledge growth is the primary focus. Know more about ultroNeous here."
+      }
+    >
       {/* About us header */}
       <Row className={styles.PagesHeader}>
         <div className={styles.PaddingNull}>

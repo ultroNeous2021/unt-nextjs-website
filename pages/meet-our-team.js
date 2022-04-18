@@ -11,7 +11,15 @@ import { useRouter } from "next/router";
 const MeetOurTeam = () => {
   const goto = useRouter();
   return (
-    <Layout>
+    <Layout
+      title={"Meet our ultroNeours | ultroNeous"}
+      description={
+        "ultroNeous has an enthusiast team of developers, designers, and marketers. All of us at ultroNeous have a single goal in mind, to serve better."
+      }
+      keywords={
+        "Mobile app development company, Web app development, Mobile and web app development company, software development "
+      }
+    >
       <PagesHeaderComponent text={"ultroNeous"} heading={"Meet our Pillars"} />
       <div className={styles.Teamcontainer}>
         <OurTeamSlider />

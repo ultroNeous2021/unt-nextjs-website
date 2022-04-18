@@ -19,6 +19,36 @@ a {
   text-decoration: none !important;
 }
 
+/* ============================================= NAVBAR ============================================= */
+
+#overlay,
+#overlaytwo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  transition: all 1s ease;
+}
+#overlay {
+  width: 70%;
+  height: 100%;
+  margin: 0 30%;
+  background: #fff;
+}
+
+#overlaytwo {
+  width: 30%;
+  height: 100%;
+  background: #000;
+  color: #fff;
+}
+#Checkbox {
+  display: none;
+}
+
 /* ============================================= WE EXCEL AT  ============================================= */
 
 .ant-tabs-top > .ant-tabs-nav::before {

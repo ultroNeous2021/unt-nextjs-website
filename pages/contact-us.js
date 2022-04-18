@@ -98,7 +98,12 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
   };
 
   return (
-    <Layout>
+    <Layout
+      title={"Contact Us - Solutions for your Every Queries | ultroNeous"}
+      description={
+        "Have questions in mind? - Shoot your requirements here and we will be there with our technology experts who can deal with every problem."
+      }
+    >
       <PagesHeaderComponent
         text={"Contact Us"}
         heading={"Let’s make it happen"}

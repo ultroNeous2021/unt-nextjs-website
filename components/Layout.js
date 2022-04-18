@@ -1,15 +1,10 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
-import { Router, useRouter } from "next/router";
 
 import styles from "@/styles/Layout.module.css";
-import NavbarComponent from "./Navbar";
 import Footer from "./Footer";
-import Script from "next/script";
-import Link from "next/link";
-import MegaMenuComponent from "./MegaMenuComponent";
 import NavbarMain from "./NavbarMain";
-import { useCallback, useEffect } from "react";
+import MegaMenuComponent from "./MegaMenuComponent";
 
 export default function Layout({ title, keywords, description, children }) {
   return (
@@ -20,10 +15,9 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
         <link rel="shortcut icon" href="/static/favicon.svg" />
       </Head>
-      {/* <NavbarComponent /> */}
       <NavbarMain />
+      {/* <MegaMenuComponent /> */}
       <div className={styles.container}>{children}</div>
-      {/* <MegaMenuComponent></MegaMenuComponent> */}
       <Footer />
     </div>
   );
@@ -31,9 +25,9 @@ export default function Layout({ title, keywords, description, children }) {
 
 Layout.defaultProps = {
   title:
-    "Best mobile & web app development company in USA/India | ultroNeous Technologies",
+    "Best Mobile & Web App Development Company in USA/India | ultroNeous Technologies",
   description:
     "ultroNeous Technologies is a top web app development company in USA & India, which also provides solutions for mobile app development and software development and cost-effective pricing.",
   keywords:
-    "Mobile app development company, Web app development, Mobile and web app development company, software development   ",
+    "Mobile app development company, Web app development, Mobile and web app development company, software development",
 };

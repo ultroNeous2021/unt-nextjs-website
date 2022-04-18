@@ -91,7 +91,15 @@ function ServicePage() {
       : setMobileMode(false);
   });
   return (
-    <Layout>
+    <Layout
+      title={
+        "Web, Mobile App Development and Digital Marketing Services | ultroNeous"
+      }
+      description={
+        "ultroNeous technologies is a Web & Mobile App development company that provides solutions in Web Applications, Mobile Applications, & Digital Marketing."
+      }
+      keywords={" "}
+    >
       <PagesHeaderComponent
         text={"Services"}
         heading={"We are great at this "}

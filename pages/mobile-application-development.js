@@ -18,7 +18,17 @@ import {
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 function MobileApplicationDevelopmentPage() {
   return (
-    <Layout>
+    <Layout
+      title={
+        "Android, iOS Mobile App Development Company & Solutions | ultroNeous"
+      }
+      description={
+        "ultroNeous Technologies is a mobile app development company working on Android and iOS providing mobile app development services to international and local clients"
+      }
+      keywords={
+        "mobile app development company, mobile app development services, mobile app development, mobile application development services"
+      }
+    >
       <ServicesHeader
         numbers={"02"}
         heading={ListOfMobileService.heading}
