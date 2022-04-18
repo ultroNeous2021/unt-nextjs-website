@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: false,
+module.exports = {
+  nextConfig: {
+    reactStrictMode: false,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
+  env: {
+    NEXT_PUBLIC_GA_ID: "UA-221098859-1",
+  },
 };
-
-module.exports = nextConfig;
