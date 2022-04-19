@@ -70,7 +70,32 @@ export const CounterComponentData = [
     title: "Experts",
   },
 ];
-
+export const CounterPersonalPage = [
+  {
+    start: 25,
+    end: 80,
+    sign: "+",
+    title: "Projects Completed",
+  },
+  {
+    start: 25,
+    end: 99,
+    sign: "%",
+    title: "Positive Feedback",
+  },
+  {
+    start: 0,
+    end: 15,
+    sign: "+",
+    title: "Countries Served",
+  },
+  {
+    start: 0,
+    end: 40,
+    sign: "+",
+    title: "Clientele",
+  },
+];
 export const WeExcelAtData = [
   {
     title: "Front End ",

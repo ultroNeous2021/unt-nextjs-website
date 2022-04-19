@@ -1,0 +1,55 @@
+.Quotecontainer {
+  padding: 4rem 2.5rem;
+}
+.Quotesymbol {
+  font-size: 270px;
+  font-weight: 700;
+  color: #e49b00;
+  font-family: "Outfit";
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 17rem;
+}
+.Quotedescription {
+  font-size: 35px;
+  font-weight: 300;
+  color: #e49b00;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+  /* width: 78%; */
+}
+.QuotedescriptionArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 4rem;
+  padding-top: 0rem;
+}
+@media (min-width: 320px) and (max-width: 430px) {
+  .Quotecontainer {
+    padding: 1rem 1rem;
+  }
+  .Quotedescription {
+    padding-bottom: 4rem;
+    font-size: 25px;
+  }
+  .QuotedescriptionArea {
+    padding: 0%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .Quotedescription {
+    font-size: 34px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}

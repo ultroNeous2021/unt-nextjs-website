@@ -1,0 +1,67 @@
+.Hirecontainer {
+  width: auto;
+  height: auto;
+  background: #1a1112;
+  padding: 4rem 2.5rem;
+}
+.Heading {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 4rem;
+  margin: 0%;
+}
+.Subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.Description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-align: justify;
+}
+.Containt {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  flex-direction: column;
+  padding-right: 2.5rem;
+}
+.Subsection {
+  display: flex;
+  padding-top: 4rem;
+}
+@media (min-width: 320px) and (max-width: 430px) {
+  .Heading {
+    font-size: 35px;
+  }
+  .Hirecontainer {
+    padding: 1rem 1rem;
+  }
+  .Containt {
+    padding-right: 1rem;
+  }
+  .Subtitle {
+    padding-top: 1rem;
+    font-size: 19px;
+  }
+  .Subsection {
+    padding-top: 1rem;
+  }
+  .Description {
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .Description {
+    padding-bottom: 4rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}

@@ -1,0 +1,117 @@
+.Cardcontainer {
+  padding: 4rem 2.5rem;
+  padding-right: 0;
+  /* display: flex; */
+  background: #1a1112;
+  width: auto;
+  height: auto;
+  /* margin: 0; */
+}
+.CardMainHeading {
+  font-size: 60px;
+  font-weight: 700;
+  color: #1a1112;
+  -webkit-text-stroke: 0.5px #fff;
+  font-family: poppins;
+  padding-bottom: 1rem;
+}
+.CardMainHeadingContain {
+  padding: 0%;
+}
+.ArrowContain {
+  display: flex;
+  justify-content: end;
+}
+.ArrowContainSpace {
+  padding-right: 4rem;
+}
+.ArrowSpace {
+  padding-right: 1rem;
+}
+.SliderSpace {
+  padding-top: 4rem;
+}
+.ArrowSize {
+  height: 80px;
+}
+.Card {
+  background: #fff;
+  border-radius: 5px;
+  height: 50vh;
+  /* margin: 0.5rem; */
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+.Cardtitle {
+  font-size: 22px;
+  color: #1a1112;
+  font-weight: 600;
+  padding: 2rem;
+  margin: 0;
+}
+.Carddescription {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1112;
+  text-align: justify;
+  padding: 2rem;
+  padding-top: 0;
+  margin: 0;
+}
+.ArrowContainNavigate {
+  margin: 0%;
+}
+@media (min-width: 320px) and (max-width: 430px) {
+  .Card {
+    height: 62vh;
+    margin-right: 0%;
+  }
+  .Cardcontainer {
+    padding: 4rem 1rem;
+  }
+  .ArrowContainNavigate {
+    display: flex;
+    flex-direction: column;
+  }
+  .ArrowContainSpace {
+    display: flex;
+    padding-right: 0%;
+  }
+  .ArrowContain {
+    justify-content: left;
+    padding: 0%;
+  }
+  .ArrowSize {
+    height: 50px;
+    padding-right: 10px;
+  }
+  .Cardtitle {
+    padding: 1rem;
+    font-size: 30px;
+  }
+  .Carddescription {
+    padding: 1rem;
+  }
+  .CardMainHeading {
+    font-size: 35px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .ArrowSize {
+    height: 50px;
+    padding-right: 10px;
+  }
+  .ArrowContain {
+    padding: 0%;
+  }
+  .CardMainHeading {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}
