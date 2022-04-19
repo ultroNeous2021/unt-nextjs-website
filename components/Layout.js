@@ -15,8 +15,8 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
         <link rel="shortcut icon" href="/static/favicon.svg" />
       </Head>
-      {/* <NavbarMain /> */}
-      <MegaMenuComponent />
+      <NavbarMain />
+      {/* <MegaMenuComponent /> */}
       <div className={styles.container}>{children}</div>
       <Footer />
     </div>
