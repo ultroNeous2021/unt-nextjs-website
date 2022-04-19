@@ -44,9 +44,30 @@ a {
   height: 100%;
   background: #000;
   color: #fff;
+  padding-top: 8rem;
 }
 #Checkbox {
   display: none;
+}
+
+.SocialMediaParent:hover {
+  background: #e49b00;
+  border: 1px solid transparent;
+}
+
+.SocialMediaIcons {
+  font-size: 25px;
+  color: #ccc;
+  transition: all 0.5s ease;
+}
+.SocialMediaParent:hover .SocialMediaIcons {
+  color: #fff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 430px) {
+  #overlaytwo {
+    display: none;
+  }
 }
 
 /* ============================================= WE EXCEL AT  ============================================= */
@@ -447,4 +468,8 @@ option {
   #checkboxNav:checked ~ .SideBar {
     width: 50%;
   }
+}
+
+.SocialMediaIcons {
+  font-size: 25px;
 }

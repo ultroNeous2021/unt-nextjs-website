@@ -70,6 +70,20 @@
   display: flex;
 }
 
+.NavLink a,
+.ShowPopup {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.NavLink {
+  margin-right: 2rem;
+}
+
+.NavLink a:hover {
+  color: #e49b00;
+}
+
 .LineOne {
   width: 30px;
 }
@@ -130,6 +144,10 @@
   text-align: right;
 }
 
+.NavbarColLast {
+  margin-top: 1rem;
+}
+
 .NavbarColMiddle li {
   margin: 3rem 0;
   border-right: 0.5rem solid transparent;
@@ -140,13 +158,79 @@
 
 .NavbarColLast li {
   margin: 2rem 0;
-  color: rgba(25, 19, 17, 0.6);
+
   font-weight: 400;
+}
+
+.NavbarColLast li a {
+  color: rgba(25, 19, 17, 0.6);
+}
+
+.NavbarColMiddle li:hover,
+.NavbarColLast li a:hover {
+  color: #e49b00;
 }
 
 .NavbarColMiddle li:hover {
   border-right: 0.5rem solid #e49b00;
+}
+
+.LastColLinks {
+  height: 90%;
+}
+
+.LastColSocialMedia {
+  height: 10%;
+}
+
+.IconsParent {
+  padding: 0.3rem;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin: 1rem 0.5rem;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.ImageDivParent {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ImageDiv {
+  margin: 1rem 0;
+  border-radius: 10px;
+  border: 0.5px solid #e49b00;
+}
+
+.NavImage {
+  width: 100%;
+  height: auto;
+  filter: brightness(0);
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+
+.ImageText {
+  position: relative;
+  bottom: 6rem;
+  text-align: center;
   color: #e49b00;
+  transition: all 1s ease;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  z-index: 2;
+}
+
+.NavImage:hover,
+.NavImageHover {
+  filter: brightness(0.2);
+}
+
+.ImageDiv:hover ~ .ImageText,
+.ImageText:hover {
+  color: #fff;
 }
 
 @keyframes line1x {
@@ -248,5 +332,9 @@
 @media screen and (min-width: 320px) and (max-width: 430px) {
   .NavbarMain {
     display: none;
+  }
+
+  .MenuMain {
+    width: 20%;
   }
 }

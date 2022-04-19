@@ -26,9 +26,17 @@ import { RiVuejsLine } from "react-icons/ri";
 import { GiZeppelin } from "react-icons/gi";
 import { DiAndroid } from "react-icons/di";
 import { IoLogoAngular } from "react-icons/io";
-import { FaNodeJs, FaReact, FaReacteurope } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaNodeJs,
+  FaReact,
+  FaReacteurope,
+  FaTwitter,
+} from "react-icons/fa";
 import { Image } from "react-bootstrap";
 import styles from "@/styles/components/HorizontalTab.module.css";
+import { AiFillInstagram } from "react-icons/ai";
 
 export const CounterComponentData = [
   {
@@ -811,10 +819,103 @@ export const OurTeamSliderData = [
   },
 ];
 
-// export const NavbarMenuList = {
-//   [
-//     {
-//       "Company"
-//     }
-//   ]
-// }
+export const LinksOfAllpages = {
+  mainPages: {
+    aboutUltroneous: "/about-ultroneous",
+    careers: "/careers",
+    contactUs: "/contact-us",
+    home: "/",
+    meetOurTeam: "/meet-our-team",
+  },
+  services: {
+    servicesMain: "/services",
+    frontendDevelopment: "/",
+    webAappDevelopment: "/web-application-development",
+    mobileAppDevelopment: "/mobile-application-development",
+    cloudAndDevops: "/cloud-and-devops",
+    uxUiDesign: "/ux-ui-design",
+    digitalMarketing: "/digital-marketing",
+  },
+  socialMedia: [
+    {
+      link: "https://www.facebook.com/ultroneous.technologies",
+      icon: <FaFacebookF className="SocialMediaIcons" />,
+    },
+    {
+      link: "https://twitter.com/ultroneousTech",
+      icon: <FaTwitter className="SocialMediaIcons" />,
+    },
+    {
+      link: "https://www.instagram.com/ultroneous.technologies/",
+      icon: <AiFillInstagram className="SocialMediaIcons" />,
+    },
+    {
+      link: "https://www.linkedin.com/company/ultroneous",
+      icon: <FaLinkedinIn className="SocialMediaIcons" />,
+    },
+  ],
+};
+
+export const NavbarMenuList = [
+  {
+    Company: [
+      { name: "About Us", link: LinksOfAllpages.mainPages.aboutUltroneous },
+      { name: "Careers", link: LinksOfAllpages.mainPages.careers },
+      { name: "Meet our team", link: LinksOfAllpages.mainPages.meetOurTeam },
+    ],
+  },
+  {
+    Services: [
+      {
+        name: "Front End Development",
+        link: "",
+      },
+      {
+        name: "Web App Development",
+        link: LinksOfAllpages.services.webAappDevelopment,
+      },
+      {
+        name: "Mobile Application Development",
+        link: LinksOfAllpages.services.mobileAppDevelopment,
+      },
+      {
+        name: "UX/UI Design",
+        link: LinksOfAllpages.services.uxUiDesign,
+      },
+      {
+        name: "Cloud & Devops",
+        link: LinksOfAllpages.services.cloudAndDevops,
+      },
+      {
+        name: "eCommerce Development",
+        link: "",
+      },
+      {
+        name: "Enterprise Software Solutions",
+        link: "",
+      },
+      {
+        name: "Digital Marketing",
+        link: LinksOfAllpages.services.digitalMarketing,
+      },
+    ],
+  },
+];
+
+export const NavbarMenuFirstColImageList = [
+  {
+    image: "/assets/navbar1.jpg",
+    name: "Portfolio",
+    link: "",
+  },
+  {
+    image: "/assets/navbar2.jpg",
+    name: "Blog",
+    link: "",
+  },
+  {
+    image: "/assets/navbar3.jpg",
+    name: "Contact Us",
+    link: LinksOfAllpages.mainPages.contactUs,
+  },
+];

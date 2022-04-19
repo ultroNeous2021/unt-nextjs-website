@@ -6,10 +6,10 @@ module.exports = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  env: {
-    NEXT_PUBLIC_GA_ID: "UA-221098859-1",
-  },
   // env: {
-  //   NEXT_PUBLIC_GA_ID: "",
+  //   NEXT_PUBLIC_GA_ID: "UA-221098859-1",
   // },
+  env: {
+    NEXT_PUBLIC_GA_ID: "",
+  },
 };

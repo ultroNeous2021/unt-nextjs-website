@@ -1,10 +1,19 @@
 import { useState } from "react";
 import styles from "@/styles/components/MegaMenuComponent.module.css";
 import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import {
+  LinksOfAllpages,
+  NavbarMenuFirstColImageList,
+  NavbarMenuList,
+} from "utils/CONSTANT_DATA";
+import Link from "next/link";
+import Image from "next/image";
 
 function MegaMenuComponent() {
-  const [addClass, setAddClass] = useState(false);
-  const [id, setId] = useState("0");
+  const [addClass, setAddClass] = useState(false); // change bars
+  const [id, setId] = useState("0"); // sets id for navbar list hover
+  const [imageHover, setImageHover] = useState(false); // make img hover change on text
+  const [imageId, setImageId] = useState("");
 
   const menuFunction = () => {
     setAddClass(!addClass);
@@ -13,6 +22,17 @@ function MegaMenuComponent() {
   const onHoverHandler = (e) => {
     setId(e.target.id);
   };
+
+  const imageHoverFunc = (e) => {
+    setImageHover(true);
+    setImageId(e.target.id);
+  };
+
+  const removeImageHoverFunc = () => {
+    setImageId("");
+  };
+
+  console.log(imageId);
 
   return (
     <>
@@ -27,12 +47,22 @@ function MegaMenuComponent() {
         >
           <Container className={styles.Container}>
             <Navbar.Brand href="#home" style={{ color: "#fff" }}>
-              React-Bootstrap
+              <img src={"/assets/ultroneous-image.svg"} width={175} />
             </Navbar.Brand>
-            <Nav class="NavLinks">
-              <Nav.Link href="#">About Us</Nav.Link>
-              <Nav.Link href="#">Services</Nav.Link>
-              <Nav.Link href="#">Careers</Nav.Link>
+            <Nav class={styles.NavLinks}>
+              <Nav className={styles.NavLink}>
+                <Link href={LinksOfAllpages.mainPages.aboutUltroneous}>
+                  About Us
+                </Link>
+              </Nav>
+              <Nav className={styles.NavLink}>
+                <Link href={LinksOfAllpages.services.servicesMain}>
+                  Services
+                </Link>
+              </Nav>
+              <Nav className={styles.NavLink}>
+                <Link href={LinksOfAllpages.mainPages.careers}>Careers</Link>
+              </Nav>
             </Nav>
           </Container>
         </Navbar>
@@ -77,27 +107,37 @@ function MegaMenuComponent() {
             </ul>
           </Col>
           <Col xs={12} sm={12} md={8} className={styles.NavbarColLast}>
-            <ul
-              id="0"
-              className={id === "0" ? styles.ShowPopup : styles.HidePopup}
-            >
-              <li> About Us </li>
-              <li> Career </li>
-              <li> Meet our Team </li>
-            </ul>
-            <ul
-              id="1"
-              className={id === "1" ? styles.ShowPopup : styles.HidePopup}
-            >
-              <li> Front End Development </li>
-              <li> Web App Development </li>
-              <li>Mobile Application Development</li>
-              <li>UX/ UI Design </li>
-              <li>Cloud & Devops</li>
-              <li>eCommerce Development</li>
-              <li>Enterprise Software Solutions</li>
-              <li>Digital Marketing</li>
-            </ul>
+            <div className={styles.LastColLinks}>
+              <ul
+                id="0"
+                className={id === "0" ? styles.ShowPopup : styles.HidePopup}
+              >
+                {NavbarMenuList[0].Company.map((el, ind) => (
+                  <li key={ind}>
+                    <Link href={el.link}>{el.name}</Link>
+                  </li>
+                ))}
+              </ul>
+              <ul
+                id="1"
+                className={id === "1" ? styles.ShowPopup : styles.HidePopup}
+              >
+                {NavbarMenuList[1].Services.map((el, ind) => (
+                  <li key={ind}>
+                    <Link href={el.link}>{el.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className={styles.LastColSocialMedia}>
+              {LinksOfAllpages.socialMedia.map((el, ind) => (
+                <div className={`${styles.IconsParent} SocialMediaParent`}>
+                  <a href={el.link} target="_blank" rel="noreferrer">
+                    {el.icon}
+                  </a>
+                </div>
+              ))}
+            </div>
           </Col>
         </Row>
       </div>
@@ -105,11 +145,25 @@ function MegaMenuComponent() {
         id="overlaytwo"
         className={addClass ? styles.ShowMenu : styles.HideMenuTwo}
       >
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
+        <div className={styles.ImageDivParent}>
+          {NavbarMenuFirstColImageList.map((el, ind) => (
+            <Link href={el.link} key={ind}>
+              <div className={styles.ParentDivMain}>
+                <div className={styles.ImageDiv}>
+                  <img src={el.image} className={styles.NavImage} />
+                </div>
+                <p
+                  className={styles.ImageText}
+                  onMouseEnter={imageHoverFunc}
+                  onMouseLeave={removeImageHoverFunc}
+                  id={ind}
+                >
+                  {el.name}
+                </p>
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
     </>
   );
