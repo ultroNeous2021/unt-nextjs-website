@@ -1,10 +1,10 @@
 import BenifitsComponent from "@/components/BenifitsComponent";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import CounterComponent from "@/components/CounterComponent";
+import HirePageHeaderComponent from "@/components/HirePageHeaderComponent";
 import Layout from "@/components/Layout";
 import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
-import Slider from "react-slick/lib/slider";
 import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
   HireShopifylist,
@@ -19,6 +19,18 @@ const HireShopifyDeveloper = () => {
 
   return (
     <Layout description={descreption} keywords={keywords}>
+      <HirePageHeaderComponent
+        heading={
+          <>
+            Shopify
+            <br />
+            Development
+          </>
+        }
+        detail={
+          "Hire shopify developers from ultroNeous to develop responsive and user-friendly ecommerce websites and apps. Since we are a leading shopify development company, we know what elements and functions or features are required for a successful ecommerce store. Our certified developers are experienced in writing  codes that are optimized for search engines, faster loading time, and for higher efficiency. Connect with us for more discussion on shopify ecommerce development. "
+        }
+      />
       {/* <div className={styles.HireContainer}></div> */}
       <ServicesIncludedSlider listOfserviceincluded={HireShopifyServiceslist} />
       <BenifitsComponent

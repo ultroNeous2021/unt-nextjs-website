@@ -1,11 +1,14 @@
 import BenifitsComponent from "@/components/BenifitsComponent";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import CounterComponent from "@/components/CounterComponent";
+import HirePageHeaderComponent from "@/components/HirePageHeaderComponent";
 import Layout from "@/components/Layout";
 import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
 import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
+  HireReactJSlist,
+  HireReactJSServiceslist,
   HireShopifylist,
   HireShopifyServiceslist,
 } from "utils/DataList/listOfData";
@@ -17,29 +20,41 @@ const HireReactjsDeveloper = () => {
     "Your search to hire reactjs developer is over. ultroNeous Technologies is a reactjs development company headquarters in India. Our team has vast experience in developing web applications for enterprises.";
   return (
     <Layout description={description} keywords={keyword}>
-      <ServicesIncludedSlider listOfserviceincluded={HireShopifyServiceslist} />
-      <BenifitsComponent
-        maintitle={
+      <HirePageHeaderComponent
+        heading={
           <>
-            Benefits of Shopify
+            ReactJS
             <br />
             Development
           </>
         }
-        datalist={HireShopifylist}
+        detail={
+          "ReactJs is a JavaScript library for creating unique web apps user interface elements. You can produce paramount web applications for your organization with the help of proficient ReactJs developers. Hire ReactJs developers from reputable ReactJs development companies to help you achieve your business objectives with ReactJs web solutions."
+        }
+      />
+      <ServicesIncludedSlider listOfserviceincluded={HireReactJSServiceslist} />
+      <BenifitsComponent
+        maintitle={
+          <>
+            Benefits of ReactJS
+            <br />
+            Development
+          </>
+        }
+        datalist={HireReactJSlist}
       />
       <CounterComponent data={CounterPersonalPage} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="Shopify Developer"
+        replaceDetail="ReactJS Developer"
       />
       <QuoteComponent
         descreption={
           <>
             <p>
-              Develop your feature-rich, scalable, and secured
+              Hiring ultroNeous’ ReactJs developers means
               <br />
-              Shopify stores by certified Developers at ultroNeous.
+              guaranteed quality, performance, and support.
             </p>
           </>
         }

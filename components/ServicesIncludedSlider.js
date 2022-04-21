@@ -56,10 +56,10 @@ const ServicesIncludedSlider = (props) => {
         </div>
       </div> */}
       <Row className={styles.ArrowContainNavigate}>
-        <Col xs={12} xl={6} md={6} className={styles.CardMainHeadingContain}>
+        <Col xs={12} xl={6} md={10} className={styles.CardMainHeadingContain}>
           <h3 className={styles.CardMainHeading}>Services Included</h3>
         </Col>
-        <Col xs={12} xl={6} md={6} className={styles.ArrowContain}>
+        <Col xs={12} xl={6} md={2} className={styles.ArrowContain}>
           <div className={styles.ArrowContainSpace}>
             <Image
               src={"/assets/leftArrows.svg"}

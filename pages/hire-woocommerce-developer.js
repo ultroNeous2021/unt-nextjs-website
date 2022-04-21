@@ -1,6 +1,7 @@
 import BenifitsComponent from "@/components/BenifitsComponent";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import CounterComponent from "@/components/CounterComponent";
+import HirePageHeaderComponent from "@/components/HirePageHeaderComponent";
 import Layout from "@/components/Layout";
 import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
@@ -17,6 +18,18 @@ const HireWooCommerceDeveloper = () => {
     "woocommerce experts , hire woocommerce developer , woocommerce development company , woocommerce development services";
   return (
     <Layout description={description} keywords={keyword}>
+      <HirePageHeaderComponent
+        heading={
+          <>
+            Woo-Commerce
+            <br />
+            Development
+          </>
+        }
+        detail={
+          "ultroNeous is a well-known woo-commerce development company that has crafted elegant, responsive, and feature-rich eCommerce stores using the woo-commerce development technology. You can hire woo-commerce developers or an entire dedicated development team for accomplishing the different woo-commerce development tasks or build a new eCommerce website or app from scratch. "
+        }
+      />
       <ServicesIncludedSlider
         listOfserviceincluded={HireWoocommerceServiceslist}
       />

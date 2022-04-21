@@ -1,6 +1,7 @@
 import BenifitsComponent from "@/components/BenifitsComponent";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import CounterComponent from "@/components/CounterComponent";
+import HirePageHeaderComponent from "@/components/HirePageHeaderComponent";
 import Layout from "@/components/Layout";
 import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
@@ -17,6 +18,18 @@ const HireMagentoDeveloper = () => {
     "ultroNeous technologies is a magneto development company that provides expert developers to its clientele. Contact us now to hire Magento developers at cost-effective rates";
   return (
     <Layout keywords={keyword} description={description}>
+      <HirePageHeaderComponent
+        heading={
+          <>
+            Magento
+            <br />
+            Development
+          </>
+        }
+        detail={
+          "Magento is a popular eCommerce development platform that offers a wide range of features and services that are essential for any successful and busy eCommerce business. We are a well-known Magento development company that has successfully served a variety of businesses selling a wide range of products worldwide. Hire Magento developers from ultroNeous to create high-performing eCommerce stores that are sturdy, scalable, and user-friendly."
+        }
+      />
       <ServicesIncludedSlider listOfserviceincluded={HireMagentoServiceslist} />
       <BenifitsComponent
         maintitle={

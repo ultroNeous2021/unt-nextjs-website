@@ -7,7 +7,7 @@ const BenifitsComponent = (props) => {
 
       <Row className={styles.Subsection}>
         {props.datalist.map((value, index) => (
-          <Col xs={12} xl={3} className={styles.Containt} key={index}>
+          <Col xs={12} xl={3} md={6} className={styles.Containt} key={index}>
             <Image src={value.src} alt={value.title} width={71} />
             <span className={styles.Subtitle}>{value.title}</span>
             <p className={styles.Description}>{value.Description}</p>

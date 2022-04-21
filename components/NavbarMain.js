@@ -10,6 +10,7 @@ import { BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
 import { GrFacebookOption } from "react-icons/gr";
+import { uniqueLink } from "utils/CONSTANT_DATA";
 
 function NavbarMain() {
   const [colorChange, setColorchange] = useState("transparent");
@@ -51,44 +52,45 @@ function NavbarMain() {
             />
           </Link>
         </div>
-        <div className={styles.Links}>
-          <Link href="/about-ultroneous">
-            <p
-              style={
-                router.pathname == "/about-ultroneous"
-                  ? { color: "#e49b00" }
-                  : null
-              }
-            >
-              About Us
-            </p>
-          </Link>
-          <Link href="/services">
-            <p
-              style={
-                router.pathname == "/services" ||
-                serviceinner.includes(router.pathname)
-                  ? { color: "#e49b00" }
-                  : null
-              }
-            >
-              Services
-            </p>
-          </Link>
-          <Link href="/careers">
-            <p
-              style={
-                router.pathname == "/careers" ? { color: "#e49b00" } : null
-              }
-            >
-              Careers
-            </p>
-          </Link>
-          <span style={{ margin: "0 2.2rem 0 1rem" }}>
-            <TransparentButton val={"Contact Us"} link={"/contact-us"} />
-          </span>
-        </div>
-
+        {uniqueLink.includes(router.pathname) ? null : (
+          <div className={styles.Links}>
+            <Link href="/about-ultroneous">
+              <p
+                style={
+                  router.pathname == "/about-ultroneous"
+                    ? { color: "#e49b00" }
+                    : null
+                }
+              >
+                About Us
+              </p>
+            </Link>
+            <Link href="/services">
+              <p
+                style={
+                  router.pathname == "/services" ||
+                  serviceinner.includes(router.pathname)
+                    ? { color: "#e49b00" }
+                    : null
+                }
+              >
+                Services
+              </p>
+            </Link>
+            <Link href="/careers">
+              <p
+                style={
+                  router.pathname == "/careers" ? { color: "#e49b00" } : null
+                }
+              >
+                Careers
+              </p>
+            </Link>
+            <span style={{ margin: "0 2.2rem 0 1rem" }}>
+              <TransparentButton val={"Contact Us"} link={"/contact-us"} />
+            </span>
+          </div>
+        )}
         <input type="checkbox" id="checkboxNav" className={styles.checkBox} />
         <label id="Bars" htmlFor="checkboxNav">
           <span className={`${styles.LineOne} LineOne`}></span>

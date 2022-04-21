@@ -1,6 +1,7 @@
 import BenifitsComponent from "@/components/BenifitsComponent";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import CounterComponent from "@/components/CounterComponent";
+import HirePageHeaderComponent from "@/components/HirePageHeaderComponent";
 import Layout from "@/components/Layout";
 import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
@@ -14,6 +15,17 @@ const HirePhpDeveloper = () => {
     "php development services , Hire php developers , php web development company , Hire dedicated php developers , hire php programmers";
   return (
     <Layout description={description} keywords={keyword}>
+      <HirePageHeaderComponent
+        heading={
+          <>
+            PHP <br />
+            Development
+          </>
+        }
+        detail={
+          "ultroNeous serves its clients with cost-effective and result-oriented PHP development services. With an in-house dedicated PHP development team, we have successfully delivered custom, flexible, scalable, and high-performing web solutions to different businesses around the globe. Connect with us to hire PHP developers for quality development work that will boost your business revenue."
+        }
+      />
       <ServicesIncludedSlider listOfserviceincluded={HirePHPServiceslist} />
       <BenifitsComponent
         maintitle={

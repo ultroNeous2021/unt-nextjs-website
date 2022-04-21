@@ -841,8 +841,40 @@ export const OurTeamSliderData = [
     image: "/assets/jineshshah.png",
     quote: "Getting satisfied kills the Growth of person!",
   },
+  {
+    name: (
+      <>
+        Deep
+        <br />
+        Shah
+      </>
+    ),
+    title: "Executive Director",
+    image: "/assets/meet_deep.png",
+    quote: "Believe you can and you’re halfway there!",
+  },
 ];
-
+export const uniqueLink = [
+  "/hire-angular-developer",
+  "/hire-codeigniter-developer",
+  "/hire-laravel-developer",
+  "/hire-magento-developer",
+  "/hire-nodejs-developer",
+  "/hire-php-developer",
+  "/hire-reactjs-developer",
+  "/hire-shopify-developer",
+  "/hire-vuejs-developer",
+  "/hire-web-app-developer",
+  "/hire-wordpress-developer",
+  "/hire-woocommerce-developer",
+  "/hire-android-developer",
+  "/hire-front-end-developer",
+  "/hire-flutter-developer",
+  "/hire-ios-developer",
+  "/hire-python-developer",
+  "/hire-xamarin-developer",
+  "/hire-react-native-developer",
+];
 export const LinksOfAllpages = {
   mainPages: {
     aboutUltroneous: "/about-ultroneous",
@@ -859,6 +891,28 @@ export const LinksOfAllpages = {
     cloudAndDevops: "/cloud-and-devops",
     uxUiDesign: "/ux-ui-design",
     digitalMarketing: "/digital-marketing",
+    // 19 pages links
+    // web
+    hireAngularDeveloper: "/hire-angular-developer",
+    hireCodeigniterDeveloper: "/hire-codeigniter-developer",
+    hireLaravelDeveloper: "/hire-laravel-developer",
+    hireMagentoDeveloper: "/hire-magento-developer",
+    hireNodeJSDeveloper: "/hire-nodejs-developer",
+    hirePhpDeveloper: "/hire-php-developer",
+    hireReactJSDeveloper: "/hire-reactjs-developer",
+    hireShopifyDeveloper: "/hire-shopify-developer",
+    hireVueJSDeveloper: "/hire-vuejs-developer",
+    hireWebAppDeveloper: "/hire-web-app-developer",
+    hireWordPressDeveloper: "/hire-wordpress-developer",
+    hireWooCommerceDeveloper: "/hire-woocommerce-developer",
+    // mobile
+    hireAndroidDeveloper: "/hire-android-developer",
+    hireFrontEndDeveloper: "/hire-front-end-developer",
+    hireFlutterDeveloper: "/hire-flutter-developer",
+    hireiOSDeveloper: "/hire-ios-developer",
+    hirePythonDeveloper: "/hire-python-developer",
+    hireXamarinDeveloper: "/hire-xamarin-developer",
+    hireReactNativeDeveloper: "/hire-react-native-developer",
   },
   socialMedia: [
     {

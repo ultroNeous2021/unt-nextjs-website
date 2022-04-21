@@ -14,7 +14,7 @@ function OurTeamSlider({ data = OurTeamSliderData }) {
     }
   }, []);
 
-  console.log(isMobile);
+  // console.log(isMobile);
 
   return (
     <div>

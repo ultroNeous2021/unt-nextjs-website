@@ -33,6 +33,7 @@
 }
 .ArrowSize {
   height: 80px;
+  padding-right: 1rem;
 }
 .Card {
   background: #fff;
@@ -102,13 +103,21 @@
 @media (min-width: 768px) and (max-width: 1080px) {
   .ArrowSize {
     height: 50px;
-    padding-right: 10px;
+    /* padding-right: 10px; */
   }
-  .ArrowContain {
+  .ArrowContainSpace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0%;
   }
   .CardMainHeading {
-    font-size: 40px;
+    font-size: 60px;
+    padding: 0%;
+    margin: 0%;
+  }
+  .Card {
+    height: 40vh;
   }
 }
 @media (min-width: 1200px) and (max-width: 1730px) {

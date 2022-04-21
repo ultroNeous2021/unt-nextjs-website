@@ -1,6 +1,7 @@
 import BenifitsComponent from "@/components/BenifitsComponent";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import CounterComponent from "@/components/CounterComponent";
+import HirePageHeaderComponent from "@/components/HirePageHeaderComponent";
 import Layout from "@/components/Layout";
 import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
@@ -17,6 +18,18 @@ const HireLaravelDeveloper = () => {
     "Hire dedicated laravel developer from India. ultroNeous Technologies is a laravel development company which offer low-cost services, with 100% client satisfaction and maintenance services.";
   return (
     <Layout keywords={keyword} description={description}>
+      <HirePageHeaderComponent
+        heading={
+          <>
+            Laravel
+            <br />
+            Development
+          </>
+        }
+        detail={
+          "Laravel is the most advanced and powerful framework for developing mobile and web apps. As a renowned Laravel development company, ultroNeous has mastered the art of creating high-performing, dependable, robust, and scalable web and mobile apps for businesses. Hire dedicated Laravel developers from us to develop custom apps with unique user interface features, eye-catching design, and fast loading time."
+        }
+      />
       <ServicesIncludedSlider listOfserviceincluded={HireLaravelServiceslist} />
       <BenifitsComponent
         maintitle={

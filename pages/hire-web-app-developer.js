@@ -1,6 +1,7 @@
 import BenifitsComponent from "@/components/BenifitsComponent";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import CounterComponent from "@/components/CounterComponent";
+import HirePageHeaderComponent from "@/components/HirePageHeaderComponent";
 import Layout from "@/components/Layout";
 import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
@@ -8,6 +9,8 @@ import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
   HireShopifylist,
   HireShopifyServiceslist,
+  HireWebApplist,
+  HireWebAppServiceslist,
 } from "utils/DataList/listOfData";
 
 const HireWebappDeveloper = () => {
@@ -17,29 +20,40 @@ const HireWebappDeveloper = () => {
     "ultroNeous Technologies is a top web app development company based in India that also provides clientele to hire web app developers who are compatible with the latest tools and technology. Hire Now!! ";
   return (
     <Layout description={description} keywords={keyword}>
-      <ServicesIncludedSlider listOfserviceincluded={HireShopifyServiceslist} />
+      <HirePageHeaderComponent
+        heading={
+          <>
+            Web App <br />
+            Development
+          </>
+        }
+        detail={
+          "Web applications for business are a fantastic way to reach out to a bigger audience and consumers. Its customizable qualities, easy internet accessibility, quick loading time, and other features serve visitors with a unique user experience. Hire web app developers from ultroNeous, a reputable web app development company, to create scalable and secure business web applications with a wide range of features."
+        }
+      />
+      <ServicesIncludedSlider listOfserviceincluded={HireWebAppServiceslist} />
       <BenifitsComponent
         maintitle={
           <>
-            Benefits of Shopify
+            Benefits of Web App
             <br />
             Development
           </>
         }
-        datalist={HireShopifylist}
+        datalist={HireWebApplist}
       />
       <CounterComponent data={CounterPersonalPage} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="Shopify Developer"
+        replaceDetail="Web App Developer"
       />
       <QuoteComponent
         descreption={
           <>
             <p>
-              Develop your feature-rich, scalable, and secured
+              Leverage the benefits and features of web applications
               <br />
-              Shopify stores by certified Developers at ultroNeous.
+              to reach more customers and provide better services to them.
             </p>
           </>
         }

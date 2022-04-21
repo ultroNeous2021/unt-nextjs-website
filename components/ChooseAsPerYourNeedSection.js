@@ -9,22 +9,30 @@ import { useRouter } from "next/router";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const ChooseAsPerYourNeedSection = (props) => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   const [viewByIndex, setViewByIndex] = useState(0);
   const [mobileMode, setMobileMode] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
   const goto = useRouter();
+
   useEffect(() => {
     window.innerWidth >= 320 && window.innerWidth <= 720
       ? setMobileMode(true)
       : setMobileMode(false);
   });
+  //  window.addEventListener("load", () => {
+  //       window.innerWidth < 720 ? setMob ileMode(true) : setMobileMode(false);
+  //     });
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const ListOfTab = [
     "Hire a Team",
     props.replace ? props.replace : "Give us a Project",
     "T & M",
   ];
+
   return (
     <Row className={styles.ChooseAsPerYourNeedContainer}>
       <Col sm={12} xl={12} className={styles.CAPYN}>

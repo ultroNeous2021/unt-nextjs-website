@@ -1,11 +1,14 @@
 import BenifitsComponent from "@/components/BenifitsComponent";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import CounterComponent from "@/components/CounterComponent";
+import HirePageHeaderComponent from "@/components/HirePageHeaderComponent";
 import Layout from "@/components/Layout";
 import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
 import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
+  HireiOSlist,
+  HireiOSServiceslist,
   HireShopifylist,
   HireShopifyServiceslist,
 } from "utils/DataList/listOfData";
@@ -17,29 +20,41 @@ const HireIosDeveloper = () => {
     "Hire iOS app developer for building leverage applications on iOS platforms. Hire iPhone app developers on an hourly/monthly basis from ultroNeous Technologies, the best iOS app development company.";
   return (
     <Layout description={description} keywords={keyword}>
-      <ServicesIncludedSlider listOfserviceincluded={HireShopifyServiceslist} />
-      <BenifitsComponent
-        maintitle={
+      <HirePageHeaderComponent
+        heading={
           <>
-            Benefits of Shopify
+            iOS
             <br />
             Development
           </>
         }
-        datalist={HireShopifylist}
+        detail={
+          "In the software development sector, ultroNeous is continuously evolving and setting new quality standards. With our iOS app development services, we are the market leaders in producing scalable, dependable, and user-centric iOS apps for businesses in various disciplines. Hire iOS app developers that will work on your project according to your goals and specifications, ensuring high-quality apps that run well, provide a rich user experience, and are easy to use."
+        }
+      />
+      <ServicesIncludedSlider listOfserviceincluded={HireiOSServiceslist} />
+      <BenifitsComponent
+        maintitle={
+          <>
+            Benefits of iOS
+            <br />
+            Development
+          </>
+        }
+        datalist={HireiOSlist}
       />
       <CounterComponent data={CounterPersonalPage} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="Shopify Developer"
+        replaceDetail="iOS Developer"
       />
       <QuoteComponent
         descreption={
           <>
             <p>
-              Develop your feature-rich, scalable, and secured
+              Reach a quality audience with Apple applications and
               <br />
-              Shopify stores by certified Developers at ultroNeous.
+              ultroNeous for the exceptional growth of your business.
             </p>
           </>
         }

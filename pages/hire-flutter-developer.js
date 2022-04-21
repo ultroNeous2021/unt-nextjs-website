@@ -1,6 +1,7 @@
 import BenifitsComponent from "@/components/BenifitsComponent";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import CounterComponent from "@/components/CounterComponent";
+import HirePageHeaderComponent from "@/components/HirePageHeaderComponent";
 import Layout from "@/components/Layout";
 import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
@@ -17,11 +18,23 @@ const HireFlutterDeveloper = () => {
     "With our flexible models, you can hire flutter developers on a full-time, part-time basis. ultroNeous Technologies is a flutter development company located in India with the successful completion of 30+ projects.";
   return (
     <Layout description={description} keywords={keyword}>
+      <HirePageHeaderComponent
+        heading={
+          <>
+            Flutter
+            <br />
+            Development
+          </>
+        }
+        detail={
+          "Xamarin is the finest development framework for native app performance. Native apps perform better, are more interactive and intuitive, and have fewer bugs issues. Hire Xamarin developers to create fast-loading apps with rich visual features and a great user experience. Our Xamarin app developers are well-versed in the most up-to-date technology trends and agile methodologies"
+        }
+      />
       <ServicesIncludedSlider listOfserviceincluded={HireShopifyServiceslist} />
       <BenifitsComponent
         maintitle={
           <>
-            Benefits of Shopify
+            Benefits of Flutter
             <br />
             Development
           </>
@@ -31,15 +44,16 @@ const HireFlutterDeveloper = () => {
       <CounterComponent data={CounterPersonalPage} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="Shopify Developer"
+        replaceDetail="Flutter Developer"
       />
       <QuoteComponent
         descreption={
           <>
             <p>
-              Develop your feature-rich, scalable, and secured
+              Enjoy unique features and functionalities with fast loading
               <br />
-              Shopify stores by certified Developers at ultroNeous.
+              on your business application using flutter and ultroNeous’
+              resources.
             </p>
           </>
         }

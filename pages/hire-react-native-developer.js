@@ -1,11 +1,14 @@
 import BenifitsComponent from "@/components/BenifitsComponent";
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import CounterComponent from "@/components/CounterComponent";
+import HirePageHeaderComponent from "@/components/HirePageHeaderComponent";
 import Layout from "@/components/Layout";
 import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
 import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
+  HireReactNativelist,
+  HireReactNativeServiceslist,
   HireShopifylist,
   HireShopifyServiceslist,
 } from "utils/DataList/listOfData";
@@ -17,29 +20,43 @@ const HireReactnativeDeveloper = () => {
     "Your search for a react native developer is over. ultroNeous is a react native development company that provides react native developers for your mobile app development. Know more!!!";
   return (
     <Layout description={description} keywords={keyword}>
-      <ServicesIncludedSlider listOfserviceincluded={HireShopifyServiceslist} />
-      <BenifitsComponent
-        maintitle={
+      <HirePageHeaderComponent
+        heading={
           <>
-            Benefits of Shopify
+            React Native
             <br />
             Development
           </>
         }
-        datalist={HireShopifylist}
+        detail={
+          "Business Android applications are the most crucial platform for business success. You can hire android developers from ultroNeous, who have extensive expertise and experience in developing high-performing, scalable, and secured android apps for different types of business. We are an android development company that has assisted countless businesses in increasing revenue and expanding their operations through the use of android applications."
+        }
+      />
+      <ServicesIncludedSlider
+        listOfserviceincluded={HireReactNativeServiceslist}
+      />
+      <BenifitsComponent
+        maintitle={
+          <>
+            Benefits of React Native
+            <br />
+            Development
+          </>
+        }
+        datalist={HireReactNativelist}
       />
       <CounterComponent data={CounterPersonalPage} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="Shopify Developer"
+        replaceDetail="React Native Developer"
       />
       <QuoteComponent
         descreption={
           <>
             <p>
-              Develop your feature-rich, scalable, and secured
+              Get high-performance applications for business
               <br />
-              Shopify stores by certified Developers at ultroNeous.
+              growth only with React Native and ultroNeous.
             </p>
           </>
         }

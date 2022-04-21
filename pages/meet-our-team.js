@@ -26,7 +26,11 @@ const MeetOurTeam = () => {
           {Teamlist.map((value, index) => (
             <Col xs={6} xl={3} className={styles.Team} key={index}>
               <div className={styles.ImageDiv}>
-                <Image src={value.image} className={styles.Teamimg} />
+                <Image
+                  src={value.image}
+                  className={styles.Teamimg}
+                  alt={value.name}
+                />
               </div>
               <h2 className={styles.Teamname}>{value.name}</h2>
               <p className={styles.Teamdetail}>{value.detail}</p>
@@ -39,7 +43,11 @@ const MeetOurTeam = () => {
           {TeamGList.map((value, index) => (
             <Col xs={6} xl={3} className={styles.Team} key={index}>
               <div className={styles.ImageDiv}>
-                <Image src={value.image} className={styles.Teamimg} />
+                <Image
+                  src={value.image}
+                  className={styles.Teamimg}
+                  alt={value.name}
+                />
               </div>
               <h2 className={styles.Teamname}>{value.name}</h2>
               <p className={styles.Teamdetail}>{value.detail}</p>
@@ -54,7 +62,11 @@ const MeetOurTeam = () => {
           {TeamAList.map((value, index) => (
             <Col xs={6} xl={3} className={styles.Team} key={index}>
               <div className={styles.ImageDiv}>
-                <Image src={value.image} className={styles.Teamimg} />
+                <Image
+                  src={value.image}
+                  className={styles.Teamimg}
+                  alt={value.name}
+                />
               </div>
               <h2 className={styles.Teamname}>{value.name}</h2>
               <p className={styles.Teamdetail}>{value.detail}</p>
