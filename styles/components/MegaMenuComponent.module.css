@@ -145,7 +145,7 @@
 }
 
 .NavbarColLast {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .NavbarColMiddle li {
@@ -157,8 +157,7 @@
 }
 
 .NavbarColLast li {
-  margin: 2rem 0;
-
+  margin: 1.5rem 0;
   font-weight: 400;
 }
 
@@ -181,6 +180,7 @@
 
 .LastColSocialMedia {
   height: 10%;
+  padding-left: 1.5rem;
 }
 
 .IconsParent {
@@ -201,6 +201,7 @@
   margin: 1rem 0;
   border-radius: 10px;
   border: 0.5px solid #e49b00;
+  transition: all 1s ease;
 }
 
 .NavImage {
@@ -213,7 +214,7 @@
 
 .ImageText {
   position: relative;
-  bottom: 6rem;
+  bottom: 5.5rem;
   text-align: center;
   color: #e49b00;
   transition: all 1s ease;
@@ -221,6 +222,12 @@
   font-size: 20px;
   margin: 0;
   z-index: 2;
+  width: 35%;
+  margin: 0 auto;
+}
+
+.ImageDiv:hover {
+  border: 0.5px solid #fff;
 }
 
 .NavImage:hover,
@@ -336,5 +343,12 @@
 
   .MenuMain {
     width: 20%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  .ImageText {
+    width: 60%;
+    bottom: 4.5rem;
   }
 }

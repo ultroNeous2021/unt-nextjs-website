@@ -98,7 +98,6 @@ function ServicePage() {
       description={
         "ultroNeous technologies is a Web & Mobile App development company that provides solutions in Web Applications, Mobile Applications, & Digital Marketing."
       }
-      keywords={" "}
     >
       <PagesHeaderComponent
         text={"Services"}

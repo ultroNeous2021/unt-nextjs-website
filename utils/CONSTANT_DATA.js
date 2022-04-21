@@ -832,7 +832,6 @@ export const OurTeamSliderData = [
   {
     name: "Pathik Shah",
     title: "Founder & CEO",
-
     image: "/assets/pathikshah.png",
     quote: "Set the unrealistic goals, you always will be ahead!",
   },
@@ -929,7 +928,7 @@ export const NavbarMenuList = [
 
 export const NavbarMenuFirstColImageList = [
   {
-    image: "/assets/navbar1.jpg",
+    image: "/assets/navbar3.jpg",
     name: "Portfolio",
     link: "",
   },
@@ -939,7 +938,7 @@ export const NavbarMenuFirstColImageList = [
     link: "",
   },
   {
-    image: "/assets/navbar3.jpg",
+    image: "/assets/navbar1.jpg",
     name: "Contact Us",
     link: LinksOfAllpages.mainPages.contactUs,
   },

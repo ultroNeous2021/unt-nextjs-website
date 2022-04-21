@@ -32,8 +32,6 @@ function MegaMenuComponent() {
     setImageId("");
   };
 
-  console.log(imageId);
-
   return (
     <>
       <Row className={styles.NavbarContainer}>
@@ -46,8 +44,10 @@ function MegaMenuComponent() {
           bg="transparent"
         >
           <Container className={styles.Container}>
-            <Navbar.Brand href="#home" style={{ color: "#fff" }}>
-              <img src={"/assets/ultroneous-image.svg"} width={175} />
+            <Navbar.Brand>
+              <Link href="/" style={{ color: "#fff" }}>
+                <img src={"/assets/ultroneous-image.svg"} width={175} />
+              </Link>
             </Navbar.Brand>
             <Nav class={styles.NavLinks}>
               <Nav className={styles.NavLink}>

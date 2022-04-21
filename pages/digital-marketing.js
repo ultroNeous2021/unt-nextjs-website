@@ -36,7 +36,6 @@ const DigitalMarketing = () => {
         heading="Digital Marketing
         Technologies Expertise"
         Technology={DigitalMarketingExpertise}
-        hireButton
       />
       <PortfolioSlider />
       <ChooseAsPerYourNeedSection />

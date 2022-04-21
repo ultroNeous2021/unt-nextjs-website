@@ -39,7 +39,17 @@ export default function HomePage() {
   const instaRef = useRef(null);
 
   return (
-    <Layout>
+    <Layout
+      title={
+        "Best Mobile & Web App Development Company in USA/India | ultroNeous Technologies"
+      }
+      description={
+        "ultroNeous Technologies is a top web app development company in USA & India, which also provides solutions for mobile app development and software development and cost-effective pricing."
+      }
+      keywords={
+        "Mobile app development company, Web app development, Mobile and web app development company, software development"
+      }
+    >
       <HomeHero />
       <div className={styles.TechnologiesContainer}>
         <Row className="mx-0">
