@@ -9,10 +9,4 @@ module.exports = {
   // env: {
   //   NEXT_PUBLIC_GA_ID: "UA-221098859-1",
   // },
-  // env: {
-  //   NEXT_PUBLIC_GA_ID: "",
-  // },
-  // env: {
-  //   NEXT_PUBLIC_GA_ID: "UA-221098859-1",
-  // },
 };
