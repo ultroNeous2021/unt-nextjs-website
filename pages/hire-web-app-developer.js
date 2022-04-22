@@ -27,6 +27,7 @@ const HireWebappDeveloper = () => {
             Development
           </>
         }
+        techname={"Web App"}
         detail={
           "Web applications for business are a fantastic way to reach out to a bigger audience and consumers. Its customizable qualities, easy internet accessibility, quick loading time, and other features serve visitors with a unique user experience. Hire web app developers from ultroNeous, a reputable web app development company, to create scalable and secure business web applications with a wide range of features."
         }

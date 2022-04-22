@@ -22,6 +22,7 @@ const HirePhpDeveloper = () => {
             Development
           </>
         }
+        techname={"PHP"}
         detail={
           "ultroNeous serves its clients with cost-effective and result-oriented PHP development services. With an in-house dedicated PHP development team, we have successfully delivered custom, flexible, scalable, and high-performing web solutions to different businesses around the globe. Connect with us to hire PHP developers for quality development work that will boost your business revenue."
         }

@@ -13,19 +13,23 @@ const ChooseAsPerYourNeedSection = (props) => {
   const [mobileMode, setMobileMode] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const goto = useRouter();
-
+  const checkDevice = () => {
+    var isMobile = /iPhone|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      setMobileMode(true);
+    } else {
+      setMobileMode(false);
+    }
+  };
   useEffect(() => {
-    window.innerWidth >= 320 && window.innerWidth <= 720
-      ? setMobileMode(true)
-      : setMobileMode(false);
-  });
-  //  window.addEventListener("load", () => {
-  //       window.innerWidth < 720 ? setMob ileMode(true) : setMobileMode(false);
-  //     });
-
-  useEffect(() => {
+    setIsLoaded(true);
     AOS.init();
   }, []);
+  useEffect(() => {
+    if (isLoaded) {
+      checkDevice();
+    }
+  }, [isLoaded]);
 
   const ListOfTab = [
     "Hire a Team",

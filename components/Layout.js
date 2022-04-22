@@ -4,15 +4,22 @@ import Head from "next/head";
 import styles from "@/styles/Layout.module.css";
 import Footer from "./Footer";
 import NavbarMain from "./NavbarMain";
-import MegaMenuComponent from "./MegaMenuComponent";
 
 export default function Layout({ title, keywords, description, children }) {
   return (
     <div>
       <Head>
         <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta name="keywords" content={keywords} />
+        <meta
+          name="description"
+          content={description}
+          key="ultroneous-key-description"
+        />
+        <meta
+          name="keywords"
+          content={keywords}
+          key="ultroneous-key-keywords"
+        />
         <link rel="shortcut icon" href="/static/favicon.svg" />
       </Head>
       <NavbarMain />

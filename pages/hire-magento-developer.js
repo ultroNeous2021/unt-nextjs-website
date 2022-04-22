@@ -26,6 +26,7 @@ const HireMagentoDeveloper = () => {
             Development
           </>
         }
+        techname={"Magento"}
         detail={
           "Magento is a popular eCommerce development platform that offers a wide range of features and services that are essential for any successful and busy eCommerce business. We are a well-known Magento development company that has successfully served a variety of businesses selling a wide range of products worldwide. Hire Magento developers from ultroNeous to create high-performing eCommerce stores that are sturdy, scalable, and user-friendly."
         }

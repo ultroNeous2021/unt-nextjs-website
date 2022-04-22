@@ -74,7 +74,7 @@ export default function HomePage() {
               />
               <div className={styles.TechnologyOverlay}>
                 <div className={styles.TechnologyText}>
-                  Mobile App Development{" "}
+                  Mobile App Development
                 </div>
               </div>
             </div>

@@ -26,6 +26,7 @@ const HireWooCommerceDeveloper = () => {
             Development
           </>
         }
+        techname={"Woo-Commerce"}
         detail={
           "ultroNeous is a well-known woo-commerce development company that has crafted elegant, responsive, and feature-rich eCommerce stores using the woo-commerce development technology. You can hire woo-commerce developers or an entire dedicated development team for accomplishing the different woo-commerce development tasks or build a new eCommerce website or app from scratch. "
         }

@@ -10,8 +10,13 @@ import {
   HireShopifylist,
   HireShopifyServiceslist,
 } from "utils/DataList/listOfData";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const HireShopifyDeveloper = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const descreption =
     "Your search to hire shopify developer is now over. Hire shopify experts from ultroNeous Technologies and relax. We will take care of your website & it's solutions at a competitive rates. Call now";
   const keywords =
@@ -27,6 +32,7 @@ const HireShopifyDeveloper = () => {
             Development
           </>
         }
+        techname={"Shopify"}
         detail={
           "Hire shopify developers from ultroNeous to develop responsive and user-friendly ecommerce websites and apps. Since we are a leading shopify development company, we know what elements and functions or features are required for a successful ecommerce store. Our certified developers are experienced in writing  codes that are optimized for search engines, faster loading time, and for higher efficiency. Connect with us for more discussion on shopify ecommerce development. "
         }

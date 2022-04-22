@@ -28,6 +28,7 @@ const HireAngularDeveloper = () => {
             Development
           </>
         }
+        techname={"Angular"}
         detail={
           "The Angular framework is the ideal development framework to use if you want a single page or even multiple page application or website with great performance, elegant UI elements, and dynamic nature. Hire angular developers from ultroNeous to make the most of angular's unique capabilities, such as two-way binding, modularization, AJAX handling, and others."
         }

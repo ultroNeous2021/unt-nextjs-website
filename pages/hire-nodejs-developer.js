@@ -28,6 +28,7 @@ const HireNodejsDeveloper = () => {
             Development
           </>
         }
+        techname={"Node JS"}
         detail={
           "ultroNeous is an established name in the software industry that provides top-notch NodeJS development services to clients from all over the globe. Hire NodeJS developers from our in-house dedicated team to develop high-performing, data-intensive, highly-scalable, and real-time web applications to propel your business forward."
         }

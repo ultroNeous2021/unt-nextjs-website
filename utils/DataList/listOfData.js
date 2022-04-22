@@ -431,25 +431,25 @@ export const ArrayOfServices = [
 ];
 export const HireShopifylist = [
   {
-    src: "/assets/tech/1/SU.svg",
+    src: "/assets/tech/Shopify/SU.svg",
     title: "User Experience",
     Description:
       "Shopify has fantastic UI/UX attributes that can be tweaked or upgraded with custom themes and plugins.",
   },
   {
-    src: "/assets/tech/1/SA.svg",
+    src: "/assets/tech/Shopify/SA.svg",
     title: "App Integration",
     Description:
       "In shopify ecommerce stores, new features and functionality can be added through easy app integration without any hassle. ",
   },
   {
-    src: "/assets/tech/1/SM.svg",
+    src: "/assets/tech/Shopify/SM.svg",
     title: "Marketing Tools",
     Description:
       "Marketing tools such as personalized gift cards, discount coupons, email marketing tools, and SEO features improve the store's marketing initiatives.",
   },
   {
-    src: "/assets/tech/1/SS.svg",
+    src: "/assets/tech/Shopify/Secure.svg",
     title: "Secured & Reliable",
     Description:
       "Shopify is a market leader in terms of secure payment methods and dependability. With regular updates and maintenance, both parameters can be achieved. ",
@@ -492,25 +492,25 @@ export const HireShopifyServiceslist = [
 // -----------------------------------------Wordpress Part----------------------------------------------------------------------------------------------------------------
 export const HireWordPresslist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Wordpress/SEO.svg",
     title: "SEO Optimized",
     Description:
       "Get your business web app and website fully SEO optimized to rank higher in search engine results with WordPress.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Wordpress/Scalability.svg",
     title: "Scalability",
     Description:
       "Enjoy the ability to scale your WordPress web solutions with the business growth by adding new features accordingly. ",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Wordpress/Flexibility.svg",
     title: "Flexibility",
     Description:
       "WordPress web apps and websites are super easy to operate and manage without any need for an extreme level of expertise.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Wordpress/UI_UX.svg",
     title: "Excellent UI/UX",
     Description:
       "With the custom theme and plugin development, WordPress offers rich & exclusive user interface elements for your business app. ",
@@ -549,25 +549,25 @@ export const HireWordPressServiceslist = [
 
 export const HireWoocommercelist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Woocommerc/SeamlessUI-UX.svg",
     title: "Seamless UI/UX",
     Description:
       "Enjoy the unique functionalities and distinct visual elements for your eCommerce store to give an exceptional user experience to the visitors. ",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Woocommerc/Affordable.svg",
     title: "Affordable",
     Description:
       "Since woo-commerce is an open-source development platform, get your eCommerce store developed at an affordable cost with flexibility and scalability features. ",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Woocommerc/Analytics.svg",
     title: "Analytics",
     Description:
       "woo-commerce provides accurate and easily accessible product statistics, user information, order tracking, and other essential inventory metrics.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Woocommerc/Seooptomize.svg",
     title: "SEO Optimized",
     Description:
       "With effective and precise SEO plugins offered by woo-commerce, your eCommerce store can rank higher in search engine results. ",
@@ -600,25 +600,25 @@ export const HireWoocommerceServiceslist = [
 // -----------------------------------------Magento Part----------------------------------------------------------------------------------------------------------------
 export const HireMagentolist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/megento/Searchengine.svg",
     title: "Search Engine Friendly ",
     Description:
       "As the top search engine-friendly eCommerce development platform, Magento is perfectly bound to improve the store's online visibility.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/megento/Cummunitysupport.svg",
     title: "Community Support",
     Description:
       "Magento provides solid community assistance for its users due to a large number of users worldwide.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/megento/Flowless.svg",
     title: "Flawless Experience",
     Description:
       "Magento provides a flawless buying experience to every customer because of its broad features and functionalities.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/megento/Easymaintence.svg",
     title: "Easy Maintenance",
     Description:
       "Among all eCommerce development platforms, Magento provides the simplest and most straightforward maintenance process.",
@@ -651,25 +651,25 @@ export const HireMagentoServiceslist = [
 // -----------------------------------------PHP Part----------------------------------------------------------------------------------------------------------------
 export const HirePHPlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Php/Daynamicwesite.svg",
     title: "Dynamic Websites ",
     Description:
       "Enjoy the advantages of dynamic websites with PHP development, such as less complexity, fewer bugs and errors.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Php/Highcap.svg",
     title: "High Compatibility",
     Description:
       "PHP offers compatibility with almost every operating system (OS) and a browser with smooth loading and operating features.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Php/eXTENSION.svg",
     title: "Extensions",
     Description:
       "PHP allows developers to create custom extensions that add unique & additional features to websites, resulting in better user experience.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Php/Customizesolution.svg",
     title: "Customized Solutions",
     Description:
       "PHP allows a company to stand out from the competition by providing customized web solutions.",
@@ -713,25 +713,25 @@ export const HirePHPServiceslist = [
 
 export const HireLaravellist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Laravel/Highsecurity.svg",
     title: "High Security ",
     Description:
       "Laravel provides top-notch security for website codes and protects data and information in web applications from malicious threats.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Laravel/MVC.svg",
     title: "MVC Architecture",
     Description:
       "PHP offers compatibility with almost every operating system (OS) and a browser with smooth loading and operating features.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Laravel/Highhinted.svg",
     title: "Heightened Performance",
     Description:
       "The app's performance is boosted by built-in features such as route caching, queueing system, cache control middleware, and minification. ",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Laravel/Datamigration.svg",
     title: "Database Migration ",
     Description:
       "Laravel saves developer’s time by allowing them to easily migrate databases, enabling them to develop apps more swiftly.",
@@ -775,25 +775,25 @@ export const HireLaravelServiceslist = [
 
 export const HireCodeigniterlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Codignator/Costeffi.svg",
     title: "Cost-Efficient ",
     Description:
       "In comparison to other PHP frameworks, CodeIgniter provides the most cost-effective web application development.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Codignator/Richlib.svg",
     title: "Rich Libraries",
     Description:
       "In CodeIgniter, developers can create, adapt, and replace native libraries according to their needs and preferences.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Codignator/Easyinti.svg",
     title: "Easy Integration",
     Description:
       "APIs, third-party apps, and other forms of integrations are all simple to integrate with CodeIgniter. ",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Codignator/Manage.svg",
     title: "Manageable ",
     Description:
       "Because it provides smooth manageable options for every feature, CodeIgniter is ideal for enterprise-level web applications.",
@@ -836,25 +836,25 @@ export const HireCodeigniterServiceslist = [
 // -----------------------------------------NodeJS Part----------------------------------------------------------------------------------------------------------------
 export const HireNodeJSlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Nodejs/scalability 1.svg",
     title: "Scalability  ",
     Description:
       "Node leverages microservice architecture to achieve great performance, which is also the main reason for its scalability and adaptability. ",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Nodejs/clock 2.svg",
     title: "Speedy Development",
     Description:
       "Node offers rapid development due to features like easy creation of APIs, microservice environments, prototyping solutions & architecture",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Nodejs/Aws 3.svg",
     title: "AWS Support",
     Description:
       "AWS has native support for Node and is nicely integrated with it. AWS allows users to create and change code directly from their browser. ",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Nodejs/Bigcumm 4.svg",
     title: "Big Community ",
     Description:
       "Because Node is an open-source platform with a large user base, there is a lot of community assistance for users & developers.",
@@ -895,25 +895,25 @@ export const HireNodeJSServiceslist = [
 // -----------------------------------------Angular Part----------------------------------------------------------------------------------------------------------------
 export const HireAngularlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Angular/Readibility 1.svg",
     title: "Readability   ",
     Description:
       "In Angular codes are written in typescript that gives better code understanding and enhanced apps' productivity. ",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Angular/Strongsecurity 2.svg",
     title: "Strong Security",
     Description:
       "Angular has set high-security standards for the development framework with version v13.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Angular/Easy to maintain 3.svg",
     title: "Easy To Maintain",
     Description:
       "Angular development has achieved ease of maintenance norms with updated and enhanced versions. ",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Angular/Easytest 4.svg",
     title: "Easy Testing",
     Description:
       "The code elements in angular-created applications are independent of one another, making the testing process easier.",
@@ -956,25 +956,25 @@ export const HireAngularServiceslist = [
 // -----------------------------------------ReactJS Part----------------------------------------------------------------------------------------------------------------
 export const HireReactJSlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/React Js/Code 1.svg",
     title: "Code Stability",
     Description:
       "ReactJs' one-way data binding promotes code stability by limiting changes in parent code components when changes in child elements are made.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/React Js/Reusable 2.svg",
     title: "Reusable Components ",
     Description:
       "Because ReactJs contains reusable components, it takes less effort to maintain an existing code base, allowing you to focus on other elements of development.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/React Js/High 3.svg",
     title: "High Performance ",
     Description:
       "ReactJs has high-performance features like virtual DOM (Document Object Model), one-way data binding, and component-based architecture.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/React Js/Seo 4.svg",
     title: "SEO Friendly ",
     Description:
       "ReactJs' quick rendering capability allows web apps to load faster, which improves the web app's SEO parameters.",
@@ -1025,25 +1025,25 @@ export const HireReactJSServiceslist = [
 // -----------------------------------------VueJS Part----------------------------------------------------------------------------------------------------------------
 export const HireVueJSlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/vue/coding 1.svg",
     title: "Code Readability ",
     Description:
       "All of the code components are stored in their own files, which makes code reading straightforward and easy, resulting in better code and app quality.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/vue/Unit 2.svg",
     title: "Unit Testing ",
     Description:
       "VueJs' component-based architecture (CBA) allows for a smooth unit-testing procedure, which boosts app credibility.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/vue/Easy int 3.svg",
     title: "Easy Integration",
     Description:
       "VueJs allows developers to customize web apps according to project requirements with its simple and easy integration with other frameworks.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/vue/support 4.svg",
     title: "Support",
     Description:
       "Every query was answered by the official VueJs platform in 2015, and the community is growing stronger by the day.",
@@ -1085,25 +1085,25 @@ export const HireVueJSServiceslist = [
 // -----------------------------------------FrontEnd Part----------------------------------------------------------------------------------------------------------------
 export const HireFrontEndlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Frontend/Responsive1.svg",
     title: "Responsive Apps ",
     Description:
       "Front-end experts develop fast and highly responsive applications with quick responding app features and functionalities.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Frontend/Fast dev 2.svg",
     title: "Fast Development Process",
     Description:
       "It is feasible to complete the front-end development process faster than usual using the latest and improved framework technologies.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Frontend/Reliable 3.svg",
     title: "Reliable & Tested Codes ",
     Description:
       "Because the majority of front-end frameworks are open-source platforms, the codes have been well tested and are extensively utilized.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Frontend/High secure 4.svg",
     title: "Highly Secured ",
     Description:
       "Since the codes are highly secured in comparison to other development methods, front-end frameworks provide reliable security to the apps.",
@@ -1145,25 +1145,25 @@ export const HireFrontEndServiceslist = [
 // -----------------------------------------iOS Part----------------------------------------------------------------------------------------------------------------
 export const HireiOSlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Ios/Enhance 1.svg",
     title: "Enhanced Security ",
     Description:
       "iOS apps provide strong security against Data duplication, encryption, and theft along with maintaining data privacy, user identity, and much more. ",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Ios/Safetran 2.svg",
     title: "Safe Transactions ",
     Description:
       "Apple devices are popular for secured payment methods and with business iOS apps you can deliver extremely safe financial transactions to your users. ",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Ios/Sca 3.svg",
     title: "Scalability ",
     Description:
       "With custom iOS apps for business, it is easy to scale Apple applications by integrating new features and functionalities.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Ios/Userex 4.svg",
     title: "User Experience ",
     Description:
       "Apple apps are renowned for their high performance, smooth running experience, and attractive call-to-action icons.",
@@ -1199,25 +1199,25 @@ export const HireiOSServiceslist = [
 // -----------------------------------------Android Part----------------------------------------------------------------------------------------------------------------
 export const HireAndroidlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Android/Marketing m1.svg",
     title: "Marketing Medium",
     Description:
       "With push notifications, android applications offer direct and customized marketing channels to the business at zero cost.  ",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Android/boost p2.svg",
     title: "Boost Profit ",
     Description:
       "Because Android apps are available 24 hours a day, 7 days a week, and have a wide reach, they increase the number of customers and revenue for businesses. ",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Android/Build & grow3.svg",
     title: "Build & Grow Business",
     Description:
       "Brand recognition is critical for every business's growth, and you can simply achieve it using Android apps.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Android/Reach p4.svg",
     title: "Reach More People",
     Description:
       "Android is the most popular mobile operating system, with over a billion users. Your business may reach a wider audience with Android apps. ",
@@ -1249,25 +1249,25 @@ export const HireAndroidServiceslist = [
 // -----------------------------------------React Native Part----------------------------------------------------------------------------------------------------------------
 export const HireReactNativelist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Reactnative/Fast development1.svg",
     title: "Fast Development",
     Description:
       "Code reusability feature allows developers to develop apps quickly as they don't have to write separate codes for iOS and Android platforms. ",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Reactnative/Single code2.svg",
     title: "Single Codebase ",
     Description:
       "Developers can develop Android and iOS apps with a single codebase in react native development that saves money and time.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Reactnative/Compab3.svg",
     title: "Compatibility ",
     Description:
       "Apps created using react native are cross-platform compatible, with good performance and user experience on Android and iOS.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Reactnative/integration4.svg",
     title: "Integrations ",
     Description:
       "Third-party integrations of plugins and modules to add more functionality to the app are quite flexible with React native. ",
@@ -1308,25 +1308,25 @@ export const HireReactNativeServiceslist = [
 // -----------------------------------------Xamarin Part----------------------------------------------------------------------------------------------------------------
 export const HireXamarinlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Xamarin/Best user 1.svg",
     title: "Best User Experience",
     Description:
       "Xamarin offers unique UI elements and call-to-action buttons because to its rich in-built libraries. ",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Xamarin/Easy main 2.svg",
     title: "Easy Maintenance",
     Description:
       "The Xamarin profiler makes it simple and painless to maintain Xamarin apps.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Xamarin/Eff 3.svg",
     title: "Cost-Efficient",
     Description:
       "It's an open-source platform that allows for quick development and reduced development costs.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Xamarin/community 4.svg",
     title: "Community Support",
     Description:
       "Xamarin offers solid community support as it is a part of .NET ecosystem that is widely leveraged.",
@@ -1363,25 +1363,25 @@ export const HireXamarinServiceslist = [
 // -----------------------------------------Flutter Part----------------------------------------------------------------------------------------------------------------
 export const HireFlutterlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Flutter/fastappli 1.svg",
     title: "Fast Applications ",
     Description:
       "Flutter code is compiled into Intel machine code, ARM code, or JavaScript code to provide quick app performance.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Flutter/Highep 2.svg",
     title: "High Performance",
     Description:
       "Flutter creates high-performing applications with the help of large widget libraries and the Dart programming language.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Flutter/nativ 3.svg",
     title: "Native App Performance ",
     Description:
       "Flutter, like a native app, provides rich user interface features and an excellent user experience.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Flutter/Cost4.svg",
     title: "Cost-Efficient",
     Description:
       "The hot reload feature of Flutter, as well as its large widget library, decreases development time and costs.",
@@ -1413,25 +1413,25 @@ export const HireFlutterServiceslist = [
 // -----------------------------------------Python Part----------------------------------------------------------------------------------------------------------------
 export const HirePythonlist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Python/opensource 1.svg",
     title: "Open-Source ",
     Description:
       "Python, as an open-source platform, has a low development cost and a large community.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Python/GUI 2.svg",
     title: "GUI Support ",
     Description:
       "Python supports Graphical User Interface which enhances the visualization of the web solution. ",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Python/Bigl 3.svg",
     title: "Big Libraries ",
     Description:
       "Python has large libraries that comprise all the functions that developers need to accomplish various tasks.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Python/SEopara4.svg",
     title: "SEO Parameters",
     Description:
       "Django is a Python framework that provides unmatched SEO optimized web solutions to help them rank higher.",
@@ -1473,25 +1473,25 @@ export const HirePythonServiceslist = [
 // -----------------------------------------Web App Part----------------------------------------------------------------------------------------------------------------
 export const HireWebApplist = [
   {
-    src: "/assets/UserExperience.svg",
+    src: "/assets/tech/Webapp/Visibi & avib 1.svg",
     title: "Visibility & Availability ",
     Description:
       "Web applications make your business visible and accessible to users from all over the world 24 hours a day, seven days a week.",
   },
   {
-    src: "/assets/AppIntegration.svg",
+    src: "/assets/tech/Webapp/Reduse 2.svg",
     title: "Reduces Business Cost",
     Description:
       "Chatbots, free upgrades, exceptional compatibility, & minimal maintenance- helps in lowering business costs.",
   },
   {
-    src: "/assets/MarketingTools.svg",
+    src: "/assets/tech/Webapp/High secure3.svg",
     title: "Highly Secured",
     Description:
       "Web apps offer strong security standards to protect users' information and data, as well as safe and secure payment options.",
   },
   {
-    src: "/assets/Secured&Reliable.svg",
+    src: "/assets/tech/Webapp/scalabili4.svg",
     title: "Scalable & Customizable",
     Description:
       "Businesses can scale and customize the web app's functionality to meet their own needs and objectives.",

@@ -26,6 +26,7 @@ const HireFlutterDeveloper = () => {
             Development
           </>
         }
+        techname={"Flutter"}
         detail={
           "Xamarin is the finest development framework for native app performance. Native apps perform better, are more interactive and intuitive, and have fewer bugs issues. Hire Xamarin developers to create fast-loading apps with rich visual features and a great user experience. Our Xamarin app developers are well-versed in the most up-to-date technology trends and agile methodologies"
         }

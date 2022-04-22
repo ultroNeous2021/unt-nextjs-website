@@ -41,21 +41,6 @@
   width: 100%;
   height: auto;
 }
-/* .Marquriytext {
-  font-size: 170px;
-  font-weight: 700;
-  color: #e49b00;
-  -webkit-text-stroke: 0.3px #fff;
-  margin: 0;
-}
-.marquee {
-  width: 30vw;
-  padding: 0 5%;
-  margin: 0 -0%;
-  overflow: hidden;
-  white-space: nowrap;
-  position: absolute;
-} */
 
 .content {
   position: relative;
@@ -134,7 +119,7 @@
   --item-font-size: 10vw;
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
-  top: -2.5rem;
+  top: -0.5rem;
 }
 
 .marquee__inner {
@@ -145,26 +130,47 @@
   animation: marquee 5s linear infinite;
   /* // animation-play-state: paused; */
 }
-
+.marquee__inner1 {
+  width: fit-content;
+  display: flex;
+  position: relative;
+  transform: translate3d(var(--move-initial), 0, 0);
+  animation: marquee1 5s linear infinite;
+  /* // animation-play-state: paused; */
+}
 .marquee span {
   color: #e49b00;
   -webkit-text-stroke: 0.3px #fff;
   font-family: "Poppins", sans-serif;
-
+  font-weight: 700;
   white-space: nowrap;
   font-size: 9.9vw;
   padding: 0 2vw;
+  margin-top: -2rem;
 }
 
-.marquee:hover .marquee__inner {
-  /* // animation-play-state: running;
-	// opacity: 1;
-	// transition-duration: 0.4s; */
-}
+/* .marquee:hover .marquee__inner { 
+  animation-play-state: running;
+	 opacity: 1;
+	 transition-duration: 0.4s; 
+ } */
 .marqueeCover {
   width: 32rem;
+  border-bottom-left-radius: 20rem;
+  border-bottom-right-radius: 20rem;
+  height: 45rem;
+  overflow: hidden;
 }
 @keyframes marquee {
+  0% {
+    transform: translate3d(var(--move-final), 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--move-initial), 0, 0);
+  }
+}
+
+@keyframes marquee1 {
   0% {
     transform: translate3d(var(--move-initial), 0, 0);
   }
@@ -172,4 +178,59 @@
   100% {
     transform: translate3d(var(--move-final), 0, 0);
   }
+}
+@media (min-width: 320px) and (max-width: 430px) {
+  .Hireheadercontainer {
+    flex-direction: column-reverse;
+  }
+  .ColSpace {
+    width: 60%;
+    margin-left: auto;
+  }
+  .ImageBox {
+    height: 25.4rem;
+  }
+  .ImageCover {
+    right: 3.8rem;
+  }
+  .marquee span {
+    margin-top: 1rem;
+  }
+  .marqueeCover {
+    width: 13rem;
+  }
+  .ImageWidth {
+    width: 14rem;
+    margin-top: 6.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .Hireheadercontainer {
+    flex-direction: column-reverse;
+  }
+  .ColSpace {
+    width: 66%;
+    margin-left: auto;
+  }
+  .ImageBox {
+    width: 105%;
+    height: 47rem;
+  }
+  .ImageCover {
+    right: 3.8rem;
+  }
+  .marquee span {
+    margin-top: 1rem;
+  }
+  .marqueeCover {
+    width: 31rem;
+  }
+  .ImageWidth {
+    width: 25rem;
+    margin-top: 13.5rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
 }

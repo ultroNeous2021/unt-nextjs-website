@@ -54,40 +54,48 @@ function NavbarMain() {
         </div>
         {uniqueLink.includes(router.pathname) ? null : (
           <div className={styles.Links}>
-            <Link href="/about-ultroneous">
-              <p
-                style={
-                  router.pathname == "/about-ultroneous"
-                    ? { color: "#e49b00" }
-                    : null
-                }
-              >
-                About Us
-              </p>
-            </Link>
-            <Link href="/services">
-              <p
-                style={
-                  router.pathname == "/services" ||
-                  serviceinner.includes(router.pathname)
-                    ? { color: "#e49b00" }
-                    : null
-                }
-              >
-                Services
-              </p>
-            </Link>
-            <Link href="/careers">
-              <p
-                style={
-                  router.pathname == "/careers" ? { color: "#e49b00" } : null
-                }
-              >
-                Careers
-              </p>
-            </Link>
+            <a href="/about-ultroneous">
+              <Link href="/about-ultroneous">
+                <p
+                  style={
+                    router.pathname == "/about-ultroneous"
+                      ? { color: "#e49b00" }
+                      : null
+                  }
+                >
+                  About Us
+                </p>
+              </Link>
+            </a>
+            <a href="/services">
+              <Link href="/services">
+                <p
+                  style={
+                    router.pathname == "/services" ||
+                    serviceinner.includes(router.pathname)
+                      ? { color: "#e49b00" }
+                      : null
+                  }
+                >
+                  Services
+                </p>
+              </Link>
+            </a>
+            <a href="/careers">
+              <Link href="/careers">
+                <p
+                  style={
+                    router.pathname == "/careers" ? { color: "#e49b00" } : null
+                  }
+                >
+                  Careers
+                </p>
+              </Link>
+            </a>
             <span style={{ margin: "0 2.2rem 0 1rem" }}>
-              <TransparentButton val={"Contact Us"} link={"/contact-us"} />
+              <a href="/contact-us">
+                <TransparentButton val={"Contact Us"} link={"/contact-us"} />
+              </a>
             </span>
           </div>
         )}

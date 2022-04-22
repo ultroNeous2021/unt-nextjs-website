@@ -31,6 +31,10 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
   const [dropdownValue, setDropdownValue] = useState("");
   useEffect(() => {
     AOS.init();
+    // if (window.scrollY >= 50) {
+    //   window.pageYOffset = 0;
+    //   window.scroll(0, 0);
+    // }
   }, []);
   useEffect(() => {
     if (window.innerWidth < 992) {

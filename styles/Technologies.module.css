@@ -1,0 +1,223 @@
+.blankSpace {
+  padding: 4rem;
+  background-color: #1a1112;
+}
+.ParagraphSection {
+  padding: 0rem 2.5rem 0rem 2.5rem;
+  background-color: #1a1112;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.ParagraphSection p {
+  width: 64%;
+  margin: 0%;
+}
+/*  */
+.MainTechcontainer {
+  padding: 4rem 2.5rem;
+  /* background: url("/assets/main-home-desktop.png"); */
+  background: #1a1112;
+  background-attachment: fixed;
+  height: auto;
+  width: 100%;
+}
+.Cathead {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: poppins;
+  color: #1a1112;
+  -webkit-text-stroke: 0.5px #fff;
+}
+.Card1,
+.Card2,
+.Card3,
+.Card4,
+.Card5,
+.Card6,
+.Card7,
+.Card8,
+.Card9,
+.Card10,
+.Card11,
+.Card12,
+.Card13,
+.Card14,
+.Card15,
+.Card16,
+.Card17,
+.Card18,
+.Card19,
+.Card20,
+.Card21 {
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 20px;
+  height: 100%;
+  /* height: 100%;
+    width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.Card1:hover {
+  background: linear-gradient(45deg, #61dbfb, transparent);
+}
+.Card2:hover {
+  background: linear-gradient(45deg, #bd022e, transparent);
+}
+.Card3:hover {
+  background: linear-gradient(45deg, #3fb27f, #32475b);
+}
+.Card4:hover {
+  background: linear-gradient(360deg, #dd4b25, #e96228);
+}
+.Card5:hover {
+  background: linear-gradient(360deg, #090909, #303030);
+}
+.Card6:hover {
+  background: linear-gradient(45deg, #7026b9, #11081f);
+}
+.Card7:hover {
+  background: linear-gradient(45deg, #011e26, #20dc82);
+}
+
+.Card8:hover {
+  background: linear-gradient(45deg, #2ed880, transparent);
+}
+.Card9:hover {
+  background: linear-gradient(45deg, #f72311, transparent);
+}
+.Card10:hover {
+  background: linear-gradient(45deg, #777bb3, transparent);
+}
+.Card11:hover {
+  background: linear-gradient(45deg, #dd4814, transparent);
+}
+.Card12:hover {
+  background: linear-gradient(45deg, #e8642e, transparent);
+}
+.Card13:hover {
+  background: linear-gradient(45deg, #21759b, transparent);
+}
+.Card14:hover {
+  background: linear-gradient(45deg, #96bf48, transparent);
+}
+.Card15:hover {
+  background: linear-gradient(60deg, #1aa2d4, #766db2, #b75ea4, #f6891f);
+}
+.Card16:hover {
+  background: linear-gradient(45deg, #fba23c, #fd3e29);
+}
+.Card17:hover {
+  background: linear-gradient(45deg, #64b1ef, #40a0ed, #0d459c);
+}
+.Card18:hover {
+  background: linear-gradient(45deg, #5ed3f3, transparent);
+}
+.Card19:hover {
+  background: linear-gradient(45deg, #5382a1, #f8981c);
+}
+.Card20:hover {
+  background: linear-gradient(45deg, #1778f2, #5890ff);
+}
+.Card21:hover {
+  background: linear-gradient(45deg, #3199dc, transparent);
+}
+.Card1 h5,
+.Card2 h5,
+.Card3 h5,
+.Card4 h5,
+.Card5 h5,
+.Card6 h5,
+.Card7 h5,
+.Card8 h5,
+.Card9 h5,
+.Card10 h5,
+.Card11 h5,
+.Card12 h5,
+.Card13 h5,
+.Card14 h5,
+.Card15 h5,
+.Card16 h5,
+.Card17 h5,
+.Card18 h5,
+.Card19 h5,
+.Card20 h5,
+.Card21 h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.Containt {
+  margin-bottom: 1rem;
+}
+.Frontcontainer {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  /* / background:  #1A1112; / */
+}
+.Backendcontainer {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  /* / background:  #1A1112; / */
+}
+.Mobilecontainer {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+  /* / background:  #1A1112; / */
+}
+.Icon {
+  font-size: 6rem;
+  color: #fff;
+}
+.Arrownxt {
+  padding-bottom: 1rem;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.Arrownxt:hover {
+  transform: scale(1.3);
+  transition: all 1s ease;
+}
+.Mainrow {
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 320px) and (max-width: 430px) {
+  .ParagraphSection {
+    padding: 0 1rem;
+    text-align: justify;
+  }
+  .ParagraphSection p {
+    width: 100%;
+  }
+  .Frontcontainer {
+    padding-bottom: 0%;
+    padding-top: 0rem;
+  }
+  .Icon {
+    font-size: 4rem;
+  }
+  .Cathead {
+    font-size: 50px;
+  }
+  .MainTechcontainer {
+    padding: 4rem 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .ParagraphSection p {
+    width: 90%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}

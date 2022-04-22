@@ -41,6 +41,7 @@ const HireAndroidDeveloper = () => {
             Development
           </>
         }
+        techname={"Android"}
         datalist={HireAndroidlist}
       />
       <CounterComponent data={CounterPersonalPage} />

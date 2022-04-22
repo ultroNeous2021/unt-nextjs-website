@@ -28,6 +28,7 @@ const HireFrontendDeveloper = () => {
             Development
           </>
         }
+        techname={"Front End"}
         detail={
           "Client-side development of websites and applications is the responsibility of front-end developers. Highly talented and experienced front-end developers at ultroNeous have created a number of web-based applications and websites with eye-catching, user-friendly, and dynamic UI features. As a veteran frontend development company, we understand the value of a positive user experience and offer the best frontend web development services to businesses and organizations of all sizes."
         }
