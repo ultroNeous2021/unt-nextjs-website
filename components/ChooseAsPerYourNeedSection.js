@@ -14,12 +14,26 @@ const ChooseAsPerYourNeedSection = (props) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const goto = useRouter();
   const checkDevice = () => {
-    var isMobile = /iPhone|Android/i.test(navigator.userAgent);
-    if (isMobile) {
-      setMobileMode(true);
-    } else {
-      setMobileMode(false);
+    // var isMobile = /iPhone|Android|BlackBerry|IEMobile/i.test(
+    //   navigator.userAgent
+    // );
+    // if (isMobile) {
+    //   setMobileMode(true);
+    // } else {
+    //   setMobileMode(false);
+    // }
+
+    const ua = navigator.userAgent;
+    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+      return setMobileMode(false);
+    } else if (
+      /Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/i.test(
+        ua
+      )
+    ) {
+      return setMobileMode(true);
     }
+    return setMobileMode(false);
   };
   useEffect(() => {
     setIsLoaded(true);

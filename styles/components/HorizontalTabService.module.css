@@ -55,6 +55,62 @@
   transition: all 1s ease;
   margin-left: 0rem;
 }
+.TechImagesFE0,
+.TechImagesFE1,
+.TechImagesFE2,
+.TechImagesFE3 {
+  width: 1em;
+  font-size: 4.813rem;
+  transition: all 1s ease;
+  margin-left: 0rem;
+}
+.TechImagesFE0:hover {
+  color: #5ed3f3;
+  transition: all 1s ease;
+}
+.TechImagesFE1:hover {
+  color: #bd022e;
+  transition: all 1s ease;
+}
+.TechImagesFE2:hover {
+  color: #3fb27f;
+  transition: all 1s ease;
+}
+.TechImagesFE3:hover {
+  color: #e96228;
+  transition: all 1s ease;
+}
+.TechImagesWOO {
+  width: 1em;
+  font-size: 4.813rem;
+  transition: all 1s ease;
+  margin-left: 0rem;
+}
+.TechImagesWOO:hover {
+  color: #8053b4;
+  transition: all 1s ease;
+}
+.TechImagesCD0,
+.TechImagesCD1,
+.TechImagesCD2 {
+  width: 5.5rem;
+  font-size: 4.813rem;
+  transition: all 1s ease;
+  margin-left: 0rem;
+}
+.TechImagesCD0:hover {
+  content: url("/assets/awscolor.svg");
+  transition: all 1s ease;
+}
+.TechImagesCD1:hover {
+  content: url("/assets/azurecolor.svg");
+  transition: all 1s ease;
+}
+.TechImagesCD2:hover {
+  content: url("/assets/googlecloudcolor.svg");
+  transition: all 1s ease;
+}
+
 .TechImagesWeb0:hover {
   color: #21759b;
   transition: all 1s ease;

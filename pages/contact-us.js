@@ -7,7 +7,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import styles from "@/styles/ContactUsPage.module.css";
-import { ContactUsFormCheckboxData } from "utils/CONSTANT_DATA";
+import { API_URL, ContactUsFormCheckboxData } from "utils/CONSTANT_DATA";
 import axios from "axios";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -30,6 +30,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
   const [showPhoneImage, setShowPhoneImage] = useState(true); // phone image
   const [dropdownValue, setDropdownValue] = useState("");
   useEffect(() => {
+    AOS.refresh();
     AOS.init();
     // if (window.scrollY >= 50) {
     //   window.pageYOffset = 0;
@@ -74,15 +75,33 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
     }
   };
   const onSubmit = async (values) => {
+    console.log({
+      ...values,
+      checklist: checkList,
+      phone: phoneValue,
+      budget: dropdownValue,
+      hireTeam: data,
+    });
     await axios
       .post(
-        "https://ultroneous-79d3f-default-rtdb.firebaseio.com/contactus.json",
+        // "https://ultroneous-79d3f-default-rtdb.firebaseio.com/contactus.json",
+        `${API_URL}admin/contactusdata`,
+        // {
+        //   ...values,
+        //   checklist: checkList,
+        //   phone: phoneValue,
+        //   budget: dropdownValue,
+        //   hireTeam: data,
+        // }
         {
           ...values,
-          checkList,
+          checklist: checkList,
+          hireteam: data,
+          name: values.name,
+          email: values.email,
           phone: phoneValue,
           budget: dropdownValue,
-          hireTeam: data,
+          message: values.message,
         }
       )
       .then((res) => {
@@ -485,6 +504,12 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
       </div>
     </Layout>
   );
+}
+export async function getServerSideProps() {
+  const res = await axios
+    .get(`${API_URL}admin/gettechnologiesofcontactus`)
+    .catch((e) => console.log(e));
+  return { props: { data: res.data } };
 }
 
 export default ContactUsPage;

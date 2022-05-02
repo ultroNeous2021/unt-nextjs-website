@@ -40,6 +40,7 @@
   background: #fff;
   text-align: center;
   padding-top: 7rem;
+  overflow: scroll;
   /* display: flex;
   justify-content: space-evenly;
   align-items: baseline;

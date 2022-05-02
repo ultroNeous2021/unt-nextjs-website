@@ -21,6 +21,7 @@ const HireAndroidDeveloper = () => {
   return (
     <Layout description={description} keywords={keyword}>
       <HirePageHeaderComponent
+        techname={"Android"}
         heading={
           <>
             Android

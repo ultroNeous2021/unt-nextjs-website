@@ -1,16 +1,20 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import Slider from "react-slick";
 import { PortfolioSliderData } from "../../utils/CONSTANT_DATA";
 import styles from "@/styles/components/PortfolioSlider.module.css";
 import TransparentButton from "../TransparentButton";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function PortfolioSlider({ sliderBlack, containerBlack }) {
   const customSlider = useRef();
   const titleSlider = useRef();
 
   const [number, setNumber] = useState("01");
-
+  useEffect(() => {
+    AOS.refresh();
+    AOS.init();
+  }, []);
   var settings = {
     arrows: false,
     infinite: true,
@@ -72,7 +76,7 @@ function PortfolioSlider({ sliderBlack, containerBlack }) {
           </Slider>
           <div className={styles.PortfolioSliderArrows}>
             <img
-              src="/assets/arrow.svg"
+              src="/assets/leftArrow.svg"
               alt="right-arrow"
               onClick={prevClicked}
             />

@@ -66,12 +66,19 @@
 .PortfolioSliderArrows img {
   height: 6em;
   margin: 0 1em;
+  transition: all 0.5s ease;
 }
-
-.PortfolioSliderArrows img:nth-child(1) {
+.PortfolioSliderArrows img:hover {
+  transform: scale(0.9);
+  transition: all 0.5s ease;
+}
+/* .PortfolioSliderArrows img:nth-child(1) {
   transform: rotate(180deg);
-}
-
+} */
+/* .PortfolioSliderArrows img:nth-child(1):hover {
+  transform: scale(0.9);
+  transition: all 0.5s ease;
+} */
 .PortfolioBlackSlider h3 {
   font-size: 40px;
   font-weight: 700;

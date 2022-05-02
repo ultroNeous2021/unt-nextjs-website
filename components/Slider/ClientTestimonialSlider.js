@@ -1,10 +1,21 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "@/styles/components/ClientTestimonialSlider.module.css";
 import Slider from "react-slick";
 import "animate.css";
-
-function ClientTestimonialSlider({ data, title, css = null }) {
+import AOS from "aos";
+import "aos/dist/aos.css";
+export default function ClientTestimonialSlider({
+  data,
+  title,
+  css = null,
+  forother = false,
+}) {
   const [reload, setReload] = useState(false);
+
+  useEffect(() => {
+    AOS.refresh();
+    AOS.init();
+  }, []);
 
   const settings = {
     dots: false,
@@ -34,14 +45,13 @@ function ClientTestimonialSlider({ data, title, css = null }) {
         data-aos="zoom-in"
         data-aos-duration="2000"
       >
-        {" "}
-        {title}{" "}
+        {title}
       </h2>
       <div className={styles.SliderContainer}>
         <div className={styles.ArrowContainer} onClick={prevClicked}>
           <img
             className={styles.LeftArrow}
-            src="/assets/clientTestimonial.svg"
+            src="/assets/leftArw.svg"
             alt="left"
           />
         </div>
@@ -67,7 +77,7 @@ function ClientTestimonialSlider({ data, title, css = null }) {
                     style={{ display: "inline-block" }}
                   />
                   <p className={`${styles.Details} TextAnimate`}>
-                    {el.details}
+                    {el.description ? el.description : el.details}
                   </p>
                   <p
                     className="TextAnimateName"
@@ -76,7 +86,12 @@ function ClientTestimonialSlider({ data, title, css = null }) {
                       fontSize: "16px",
                     }}
                   >
-                    {el.name}
+                    {forother == true
+                      ? el.name + " " + el.designation + " "
+                      : el.name +
+                        (el.company && el.designation
+                          ? "( " + el.company + ",  " + el.designation + " )"
+                          : "")}
                   </p>
                 </div>
               </div>
@@ -85,7 +100,7 @@ function ClientTestimonialSlider({ data, title, css = null }) {
         </div>
         <div className={styles.ArrowContainer} onClick={nextClicked}>
           <img
-            src="/assets/clientTestimonial.svg"
+            src="/assets/rightArw.svg"
             alt="left"
             className={styles.RightArrow}
           />
@@ -94,5 +109,3 @@ function ClientTestimonialSlider({ data, title, css = null }) {
     </div>
   );
 }
-
-export default ClientTestimonialSlider;

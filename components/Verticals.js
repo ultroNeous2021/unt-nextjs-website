@@ -1,6 +1,13 @@
 import { Col, Image, Row } from "react-bootstrap";
 import styles from "@/styles/components/Verticals.module.css";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Verticals = () => {
+  useEffect(() => {
+    AOS.refresh();
+    AOS.init();
+  }, []);
   return (
     <div className={styles.Verticalscontainer}>
       <Row>

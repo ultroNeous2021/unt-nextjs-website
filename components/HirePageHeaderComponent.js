@@ -6,7 +6,7 @@ const HirePageHeaderComponent = (props) => {
   const goto = useRouter();
   return (
     <Row className={styles.Hireheadercontainer}>
-      <Col sm={12} xs={12} xl={7}>
+      <Col sm={12} xs={12} xl={7} className="p-xl-0">
         <div className={styles.Heading}>
           <h1>{props.heading}</h1>
           <p>{props.detail}</p>
@@ -24,32 +24,37 @@ const HirePageHeaderComponent = (props) => {
           <div class={styles.marquee}>
             <div className={styles.marqueeCover}>
               <div class={styles.marquee__inner1} aria-hidden="true">
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
               </div>
               <div class={styles.marquee__inner} aria-hidden="true">
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
               </div>
               <div class={styles.marquee__inner1} aria-hidden="true">
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
               </div>
               <div class={styles.marquee__inner} aria-hidden="true">
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
-                <span> {props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+              </div>
+              <div class={styles.marquee__inner1} aria-hidden="true">
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
+                <span>{props.techname}</span>
               </div>
             </div>
           </div>
-
           <div className={styles.ImageCover}>
             <Image
               src={"/assets/shopify-header.png"}

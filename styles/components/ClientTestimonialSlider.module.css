@@ -54,10 +54,17 @@
 .LeftArrow,
 .RightArrow {
   width: 5rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 
-.LeftArrow {
-  transform: rotate(180deg);
+.LeftArrow:hover {
+  transform: scale(0.9);
+  transition: all 0.5s ease;
+}
+.RightArrow:hover {
+  transform: scale(0.9);
+  transition: all 0.5s ease;
 }
 
 .ArrowContainer {
@@ -90,7 +97,7 @@
 
   .ArrowContainer {
     position: relative;
-    top: 15rem;
+    top: 10rem;
     width: 3rem;
     height: 3rem;
   }

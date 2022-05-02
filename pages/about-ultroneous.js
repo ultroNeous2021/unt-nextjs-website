@@ -18,6 +18,7 @@ function AboutUltroneousPage() {
   const goto = useRouter();
 
   useEffect(() => {
+    AOS.refresh();
     AOS.init();
   }, []);
   const SliderData = [

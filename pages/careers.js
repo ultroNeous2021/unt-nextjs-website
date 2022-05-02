@@ -3,14 +3,16 @@ import { Accordion, Col, Image, Row } from "react-bootstrap";
 import styles from "@/styles/CareersPage.module.css";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
 import ClientTestimonialSlider from "@/components/Slider/ClientTestimonialSlider";
-import { CareersData, FeelTheCultureData } from "utils/CONSTANT_DATA";
+import { API_URL, CareersData, FeelTheCultureData } from "utils/CONSTANT_DATA";
 import { IoIosArrowForward } from "react-icons/io";
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function CareersPage() {
+import axios from "axios";
+function CareersPage({ data }) {
   const [mobile, setMobile] = useState(false);
   useEffect(() => {
+    AOS.refresh();
     AOS.init();
     if (window.innerWidth < 768) {
       setMobile(true);
@@ -21,6 +23,25 @@ function CareersPage() {
   function last(array) {
     return array.indexOf(array[array.length - 1]);
   }
+  const findMyTechCount = (ary, name) => {
+    let number = "";
+    console.log(ary);
+    for (var i = 0; i < ary.length; i++) {
+      if (ary[i].departmentName == name) {
+        number = ary[i].fieldCount;
+      }
+    }
+    return number;
+  };
+  const findMyTechDatas = (ary, name) => {
+    let dataOfTechnology;
+    for (var i = 0; i < ary.length; i++) {
+      if (ary[i].departmentName == name) {
+        dataOfTechnology = ary[i].technology;
+      }
+    }
+    return dataOfTechnology;
+  };
   return (
     <Layout
       title={"Job Opportunities in #1 IT Company in Ahmedabad | ultroNeous"}
@@ -33,7 +54,8 @@ function CareersPage() {
         heading={"Feel the culture in their words"}
       />
       <ClientTestimonialSlider
-        data={FeelTheCultureData}
+        forother={true}
+        data={data.data1.data ? data.data1.data : FeelTheCultureData}
         css={{ paddingTop: "0rem" }}
       />
       <div className={styles.CareerMapImage}>
@@ -58,6 +80,49 @@ function CareersPage() {
             the place for you.
           </p>
         </div>
+        {/* <Row className={styles.WFTDAccordion}>
+          <Accordion>
+            {data.data2.data.map((el, index) => {
+              const current = findMyTechDatas(data.data2.technology, el.name);
+              return (
+                <>
+                  <Accordion.Item eventKey={el.title} key={index}>
+                    <Accordion.Header className={styles.Accordionheader}>
+                      {el.name}
+                      <span>
+                        ({findMyTechCount(data.data2.technology, el.name)})
+                      </span>
+                    </Accordion.Header>
+                    <Accordion.Body className={styles.AccordionBody}>
+                      {current.map((val, ind) => (
+                        <a
+                          href={`mailto:hr@ultroneous.com?subject=Applying for: ${val.technologyName}`}
+                        >
+                          <div key={ind}>
+                            <p>
+                              {val.technologyName}
+                              <span className={styles.JobVacancyNumber}>
+                                {val.count}
+                              </span>
+                            </p>
+                            <p>
+                              <IoIosArrowForward />
+                            </p>
+                          </div>
+                        </a>
+                      ))}
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  {index == last(CareersData) ? null : (
+                    <hr
+                      style={{ border: "1px solid rgba(255,255,255,0.08)" }}
+                    />
+                  )}
+                </>
+              );
+            })}
+          </Accordion>
+        </Row> */}
         <Row className={styles.WFTDAccordion}>
           <Accordion>
             {CareersData.map((el, index) => (
@@ -259,6 +324,24 @@ function CareersPage() {
       </Row>
     </Layout>
   );
+}
+export async function getServerSideProps() {
+  const res = await axios
+    .get(`${API_URL}admin/getemployefeedback`, {
+      params: { page: 1, limit: 88 },
+    })
+    .catch((e) => console.log(e));
+  const resJobReq = await axios
+    .get(`${API_URL}admin/getjobrequirements`)
+    .catch((e) => console.log(e));
+  return {
+    props: {
+      data: {
+        data1: res ? res.data : FeelTheCultureData,
+        data2: resJobReq.data,
+      },
+    },
+  };
 }
 
 export default CareersPage;

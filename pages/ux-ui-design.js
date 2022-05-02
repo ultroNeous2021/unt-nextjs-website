@@ -15,6 +15,7 @@ const UiUxDesign = () => {
   const goto = useRouter();
   const [image, setImage] = useState("/assets/process web.png");
   useEffect(() => {
+    AOS.refresh();
     AOS.init();
   }, []);
   useEffect(() => {

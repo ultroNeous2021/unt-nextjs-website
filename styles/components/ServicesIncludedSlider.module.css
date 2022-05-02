@@ -32,13 +32,19 @@
   padding-top: 4rem;
 }
 .ArrowSize {
+  cursor: pointer;
   height: 80px;
   padding-right: 1rem;
+  transition: all 0.5s ease;
+}
+.ArrowSize:hover {
+  transform: scale(0.9);
+  transition: all 0.5s ease;
 }
 .Card {
   background: #fff;
   border-radius: 5px;
-  height: 50vh;
+  height: 55vh;
   /* margin: 0.5rem; */
   display: flex;
   justify-content: left;

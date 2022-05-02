@@ -20,6 +20,7 @@ import {
   SiKotlin,
   SiSwift,
   SiJava,
+  SiWoo,
 } from "react-icons/si";
 import stylesHT from "@/styles/components/HorizontalTabService.module.css";
 import { RiVuejsLine } from "react-icons/ri";
@@ -27,17 +28,21 @@ import { GiZeppelin } from "react-icons/gi";
 import { DiAndroid } from "react-icons/di";
 import { IoLogoAngular } from "react-icons/io";
 import {
+  FaAngular,
   FaFacebookF,
+  FaHtml5,
   FaLinkedinIn,
   FaNodeJs,
   FaReact,
   FaReacteurope,
   FaTwitter,
+  FaVuejs,
 } from "react-icons/fa";
 import { Image } from "react-bootstrap";
 import styles from "@/styles/components/HorizontalTab.module.css";
 import { AiFillInstagram } from "react-icons/ai";
 
+export const API_URL = "http://localhost:8000/";
 export const CounterComponentData = [
   {
     start: 25,
@@ -504,7 +509,7 @@ export const ChooseAsPerYourNeedData = [
     mainTitle: "PROJECT BASIS",
     details:
       "Have a fixed project scope in mind? Discuss now to get a fixed price.",
-    image: "/assets/give-us-project.svg",
+    image: "/assets/GUP.svg",
     image2: "/assets/giveusproject.png",
   },
   {
@@ -622,7 +627,87 @@ export const DigitalMarketingExpertise = [
       "Facebook is the most popular social media platform, with over 1.9 million daily unique users. Running paid ads on Facebook can be incredibly beneficial for a business. ultroNeous, a digital marketing agency, is adept at running Facebook ad campaigns to increase clients' business revenue. Our paid ad experts are masters at scaling, optimizing, and testing various ad copy variants to deliver great ROI. If your company has overlooked Facebook's massive reach and commercial opportunities, connect now with ultroNeous",
   },
 ];
-
+export const FrontEndExpertise = [
+  {
+    title: "ReactJS",
+    techIcons: [<FaReact className={stylesHT.TechImagesFE0} />],
+    detail:
+      "ReactJS is a popular front-end development framework with an open-source Javascript library that allows developers to build responsive, user-friendly, and secured mobile and web applications. As a leading reactjs development company, ultroNeous have successfully serviced clients from all over the world with robust, interactive, and scalable applications. Hire our ReactJS developers for developing web & mobile apps for your business that have a great user experience and unique user interface elements. ",
+  },
+  {
+    title: "Angular",
+    techIcons: [<FaAngular className={stylesHT.TechImagesFE1} />],
+    detail:
+      "AngularJS is a structural framework for developing dynamic web applications. It has an easy binding procedure, an accurate testing process, is compatible with most browsers, and creates its components,  all of which lead to the developed app’s enhanced efficiency. ultroNeous is a well-known angular development company that has developed numerous dynamic, high-performant, and secured applications for different business models around the globe. ",
+  },
+  {
+    title: "Vue",
+    techIcons: [<FaVuejs className={stylesHT.TechImagesFE2} />],
+    detail:
+      "Vue is a powerful JavaScript framework for developing applications with stunning user interface components. It offers two-way data binding, unit-testing, easy integration with existing applications, its components can be reused, and other features- that help in improving the efficiency and performance of the app. For the best results and performance of the app, hire our dedicated front-end developers with Vue framework expertise.",
+  },
+  {
+    title: "HTML 5 ",
+    techIcons: [<FaHtml5 className={stylesHT.TechImagesFE3} />],
+    detail:
+      "HTML5 is the most recent version of the hypertext markup language, and it has the potential to revolutionize web app development. ultroNeous' front-end developers can develop complex browser-based apps and websites using an HTML5 markup language. Through our app development services, we offer devoted front-end developers with HTML5 working knowledge and experience for hire to develop your business web app with rich visual elements, strong security norms, and a fantastic user experience. ",
+  },
+];
+export const EcommerceExpertise = [
+  {
+    title: "WordPress",
+    techIcons: [<SiWordpress className={stylesHT.TechImagesWeb0} />],
+    detail:
+      "WordPress is the most versatile and flexible platform for developing e-commerce websites. ultroNeous’ developers carry a massive experience in developing sustainable, resolute, and realistic eCommerce stores for clients all over the globe. We develop custom WordPress plugins and themes to satisfy the client’s requirements and achieve the goals of trendy design, SEO optimization, distinct UI/UX, awesome compatibility, and secured payment methods. ",
+  },
+  {
+    title: "Shopify",
+    techIcons: [<SiShopify className={stylesHT.TechImagesWeb1} />],
+    detail:
+      "ultroNeous' eCommerce development services have satisfied clients all over the world with vibrant, sustainable, and tenacious e-commerce solutions. The latest technology and trends are perfectly incorporated into our developed Shopify eCommerce stores. Our developers are specialists in developing absurd websites and applications with the right architecture, immense performance, excellent visual designs, and many other features that are necessary for a successful online store. ",
+  },
+  {
+    title: "Magento",
+    techIcons: [<SiMagento className={stylesHT.TechImagesWeb2} />],
+    detail:
+      "ultroNeous has a dedicated Magento development team with experience and expertise in delivering the finest e-commerce websites and applications. Our Magento services include development, designing, migration and up-gradation, support, consultation, and other services. Certified Magento developers at ultroNeous are masters at developing e-commerce websites and applications with extensive features, systematic content management, ERP and CRM system integration, mobile compatibility, and secure & simple payment methods.",
+  },
+  {
+    title: "Woocommerce",
+    techIcons: [<SiWoo className={stylesHT.TechImagesWOO} />],
+    detail:
+      "Woocommerce is the best example of an e-commerce development platform because it includes several built-in e-commerce features such as customer matching, order tracking, blogging, product sorting, filtering, and much more. ultroNeous is a top eCommerce development company that delivers magnificent eCommerce solutions to clients. Custom Woocommerce plugins and themes, API integrations, woocommerce web and app development, and other essentials for a profitable and productive online store are among our strengths. ",
+  },
+];
+export const CloudandDevopsExpertise = [
+  {
+    title: "Amazon AWS",
+    techIcons: [
+      <Image src="/assets/aws.svg" className={stylesHT.TechImagesCD0} />,
+    ],
+    detail:
+      "Amazon Web Service aka AWS is an industry leader cloud computing platform, which is design to fulfil all of your cloud and server needs. We as an industry leader will be taking care of your AWS needs including LaaS, SaaS and PaaS offerings. The AWS can be your cloud solution along with various utilization of SMS, storage and server balance options.",
+  },
+  {
+    title: "Microsoft Azure",
+    techIcons: [
+      <Image src="/assets/azure.svg" className={stylesHT.TechImagesCD1} />,
+    ],
+    detail:
+      "Taking a giant leap in the last few years, Microsoft Azure is carrying a varied range of cloud consultation tools and services including computation, analytics, storage and networking services. We are here to manage, strategizes and implement successful cloud computation infrastructure procedures through the Microsoft azure analytical and implementation tools and services.",
+  },
+  {
+    title: "Google Cloud",
+    techIcons: [
+      <Image
+        src="/assets/googlecloud.svg"
+        className={stylesHT.TechImagesCD2}
+      />,
+    ],
+    detail:
+      "Managed and designed by the giant Google itself, Google cloud is considered to be a suit of public cloud computing services, including hosting, storage and development services of cloud computation and runs on Google hardware. Our DevOps experts carrying a good knowledge in Google Cloud, will compute successful strategies of cloud computation tailored to your requirements.",
+  },
+];
 export const AboutUsCounter = [
   {
     start: 2000,
@@ -822,7 +907,7 @@ export const ContactUsFormCheckboxData = {
     "Xamarin Developer",
     "Flutter Developer",
     "Python Developer",
-    "Ruby on Rails",
+    // "Ruby on Rails",
     "Web App Developer",
   ],
   othersData: ["UI/UX Designer", "Quality Analyst", "Digital Marketing"],
@@ -854,6 +939,85 @@ export const OurTeamSliderData = [
     quote: "Believe you can and you’re halfway there!",
   },
 ];
+export const uniqueDrop = [
+  {
+    name: "Shopify Development",
+    link: "/hire-shopify-developer",
+  },
+  {
+    name: "WordPress Development",
+    link: "/hire-wordpress-developer",
+  },
+  {
+    name: "Woo-commerce Development",
+    link: "/hire-woocommerce-developer",
+  },
+  {
+    name: "Magento Development",
+    link: "/hire-magento-developer",
+  },
+  {
+    name: "PHP Development",
+    link: "/hire-php-developer",
+  },
+  {
+    name: "Laravel Development",
+    link: "/hire-laravel-developer",
+  },
+  {
+    name: "Codeigniter Development",
+    link: "/hire-codeigniter-developer",
+  },
+  {
+    name: "NodeJS Development",
+    link: "/hire-nodejs-developer",
+  },
+  {
+    name: "Angular Development",
+    link: "/hire-angular-developer",
+  },
+  {
+    name: "ReactJS Development",
+    link: "/hire-reactjs-developer",
+  },
+  {
+    name: "VueJS Development",
+    link: "/hire-vuejs-developer",
+  },
+  {
+    name: "Front End Development",
+    link: "/hire-front-end-developer",
+  },
+  {
+    name: "iOS Development",
+    link: "/hire-ios-developer",
+  },
+  {
+    name: "Android Development",
+    link: "/hire-android-developer",
+  },
+  {
+    name: "React Native Development",
+    link: "/hire-react-native-developer",
+  },
+  {
+    name: "Xamarin Development",
+    link: "/hire-xamarin-developer",
+  },
+  {
+    name: "Flutter Development",
+    link: "/hire-flutter-developer",
+  },
+  {
+    name: "Python Development",
+    link: "/hire-python-developer",
+  },
+  {
+    name: "Web App Development",
+    link: "/hire-web-app-developer",
+  },
+];
+
 export const uniqueLink = [
   "/hire-angular-developer",
   "/hire-codeigniter-developer",
@@ -875,6 +1039,7 @@ export const uniqueLink = [
   "/hire-xamarin-developer",
   "/hire-react-native-developer",
 ];
+
 export const LinksOfAllpages = {
   mainPages: {
     aboutUltroneous: "/about-ultroneous",

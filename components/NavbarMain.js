@@ -10,7 +10,7 @@ import { BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
 import { GrFacebookOption } from "react-icons/gr";
-import { uniqueLink } from "utils/CONSTANT_DATA";
+import { uniqueDrop, uniqueLink } from "utils/CONSTANT_DATA";
 
 function NavbarMain() {
   const [colorChange, setColorchange] = useState("transparent");
@@ -81,6 +81,19 @@ function NavbarMain() {
                 </p>
               </Link>
             </a>
+            <a href="/technologies">
+              <Link href="/technologies">
+                <p
+                  style={
+                    router.pathname == "/technologies"
+                      ? { color: "#e49b00" }
+                      : null
+                  }
+                >
+                  Technologies
+                </p>
+              </Link>
+            </a>
             <a href="/careers">
               <Link href="/careers">
                 <p
@@ -108,6 +121,20 @@ function NavbarMain() {
         <div className={`${styles.SideBarNav} SideBar`}>
           <div className={styles.ListOfMenuContainer}>
             <div
+              className={`${styles.dropdown} ${styles.DropdownTitle} ${styles.dropdowntwo}`}
+              onMouseEnter={() => setChangeDropdown(false)}
+              onMouseLeave={() => setChangeDropdown(true)}
+            >
+              Technologies
+              <ul className={`${styles.dropdownmenu} `}>
+                {uniqueDrop.map((v, i) => (
+                  <li key={i}>
+                    <Link href={v.link}>{v.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            {/* <div
               className={`${styles.dropdown} ${styles.DropdownTitle} ${styles.dropdownone}`}
               style={
                 changeDropdown
@@ -153,11 +180,12 @@ function NavbarMain() {
                 </li>
               </ul>
             </div>
+
             <div className={`${styles.DropdownLinks} ${styles.DropdownTitle}`}>
               <Link href="/contact-us">Contact Us</Link>
-            </div>
+            </div> */}
           </div>
-          <div className={styles.SocialLinksContainer}>
+          {/* <div className={styles.SocialLinksContainer}>
             <div className={styles.SocialLinks}>
               <span className={styles.IconsBorder}>
                 <a
@@ -196,7 +224,7 @@ function NavbarMain() {
                 </a>
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

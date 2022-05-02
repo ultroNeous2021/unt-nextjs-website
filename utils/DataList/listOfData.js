@@ -252,6 +252,38 @@ export const ListOfDigitalMarketingService = {
   image: "/assets/Digitalmarketing.png",
   alt: "digital-marketing",
 };
+export const ListOfFrontEndService = {
+  heading: "Services We Offer",
+  title: "Front End Development",
+  paragraph:
+    "Front-end development is responsible for the overall user experience of a web or mobile application. A highly-skilled front-end developer can build interactive, user-friendly, and feature-rich applications. ultroNeous provides the industry best front-end development services for hire to develop highly scalable, robust, and interactive applications with rich widgets and user interface elements for your business. ",
+  image: "/assets/Frontend.png",
+  alt: "FrontEnd Development",
+};
+export const ListOfEcommDevService = {
+  heading: "Services We Offer",
+  title: "E-commerce Development",
+  paragraph:
+    "Take your online business to the next level by leveraging the expertise of professional eCommerce development services from ultroNeous. Our highly-skilled eCommerce developers have solid working experience with the major e-commerce development platforms. We develop user-friendly e-commerce stores that are easy to navigate, have an elegant design, and are SEO optimized. B2C, B2B, and custom app development are our main e-commerce services along with other key e-commerce business requirements. ",
+  image: "/assets/E-commers.png",
+  alt: "E-commerce Developme",
+};
+export const ListOfEntSoftSolService = {
+  heading: "Services We Offer",
+  title: "Enterprise Software Solution Development",
+  paragraph:
+    "Accelerate the growth of your business with ultroNeous’ compelling and precise enterprise software development services. With a dedicated team of software developers, ultroNeous is the market leader in producing top-notch software that enhances productivity, revenue, and saves time for a sophisticated business model. As an enterprise software company, we are bound to deliver custom enterprise software with minimal flaws for all sized businesses. ",
+  image: "/assets/Enterprise.png",
+  alt: "Enterprise Software Solution Development",
+};
+export const ListOfCloudandDevopsService = {
+  heading: "Services We Offer",
+  title: "Cloud Devops Development",
+  paragraph:
+    "As the technology experts are moving towards the Cloud servers with a lot of focus on management of code as well as operations, Cloud and DevOps services are becoming a mandatory requirement for most of the company. ultroNeous is carrying the sharp minds who knows the DevOps cultural philosophy and carry the practises to automise the development process as an innovation.",
+  image: "/assets/cloudanddevops.png",
+  alt: "Cloud Devops Development",
+};
 export const ListQualitiesMobileAppDev = [
   {
     image: "/assets/MADT1.svg",
@@ -354,6 +386,84 @@ export const ListQualitiesDigitalMarketing = [
     name: "Local SEO",
     descreption:
       "Local SEO is the process of reaching clients in specific locations, and we are experts in ranking businesses at Local level.",
+  },
+];
+export const ListQualitiesFrontEndDevelopment = [
+  {
+    image: "/assets/Secure1F.svg",
+    name: "Cloud Consulting",
+    descreption:
+      "For a smooth user experience and future upgrades, we adopt a most comprehensive approach to UX research. ",
+  },
+  {
+    image: "/assets/Time2F.svg",
+    name: "Architechture & Design",
+    descreption:
+      "Our user interface design is demonstrated to improve business profitability and attract a large number of users.",
+  },
+  {
+    image: "/assets/Quick response3F.svg",
+    name: "Management",
+    descreption:
+      "Prototyping is an important aspect of UI/UX design that allows us to test all of the features and functions of an app..",
+  },
+  {
+    image: "/assets/responsive 1 (Traced).svg",
+    name: "DDOS Attack Migration",
+    descreption:
+      "On a daily basis, we employ a variety of user testing techniques that assist us to improve our design ideas and processes.",
+  },
+];
+export const ListQualitiesCloudDevops = [
+  {
+    image: "/assets/cloud-consultC1.svg",
+    name: "Cloud Consulting",
+    descreption:
+      "Hire our cloud consulting experts to Identify and simplify your cloud computing and management needs.",
+  },
+  {
+    image: "/assets/Architech designC2.svg",
+    name: "Architecture Design ",
+    descreption:
+      "Define the best Cloud architecture with a clear assessment of your system and as per business needs.",
+  },
+  {
+    image: "/assets/ManagmentC3.svg",
+    name: "Management",
+    descreption:
+      "Monitoring and maintenance of the critical IT infrastructure, to ensure the efficient use of available resources.",
+  },
+  {
+    image: "/assets/ddos attackC4.svg",
+    name: "DDOS Attack",
+    descreption:
+      "Implementation of DDOS migration process to ensure the successful protection of the network from DDOS attack.",
+  },
+];
+export const ListQualitiesEcommerce = [
+  {
+    image: "/assets/BetterrevenueE1.svg",
+    name: "Quick Response",
+    descreption:
+      "Delivers the quickest responsive pages for eCommerce apps & websites. ",
+  },
+  {
+    image: "/assets/HighlycustomizeE2.svg",
+    name: "User Friendly",
+    descreption:
+      "Our designers have expertise in building a smooth user interface.",
+  },
+  {
+    image: "/assets/scalabilityE3.svg",
+    name: "Unique Features",
+    descreption:
+      "Customized functionality for eCommerce to create unique experience.",
+  },
+  {
+    image: "/assets/Most secureE4.svg",
+    name: "Dedicated Team",
+    descreption:
+      "Experienced dedicated team of developers for sustainable eCommerce solutions.",
   },
 ];
 export const ArrayOfTalent = [

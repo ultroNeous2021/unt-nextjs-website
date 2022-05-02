@@ -3,6 +3,7 @@ import styles from "@/styles/HomePage.module.css";
 import HomeHero from "@/components/HomeHero";
 import CounterComponent from "@/components/CounterComponent";
 import {
+  API_URL,
   CounterComponentData,
   TestimonialsSliderData,
   WeExcelAtData,
@@ -23,16 +24,18 @@ import ClientTestimonialSlider from "@/components/Slider/ClientTestimonialSlider
 import Verticals from "@/components/Verticals";
 import WhyClientChoose from "@/components/WhyClientChoose";
 import Link from "next/link";
-export default function HomePage() {
+import axios from "axios";
+
+export default function HomePage({ data = TestimonialsSliderData }) {
   const [hoverColor, setHoverColor] = useState(false);
   // const [arrowShow, setArrowShow] = useState(false);
   const [scale, setScale] = useState("z");
-
   const [arrowImage, setArrowImage] = useState("/assets/circlearrow.svg");
   useEffect(() => {
+    AOS.refresh();
     AOS.init();
   }, []);
-
+  console.log(data);
   const behanceRef = useRef(null);
   const dribbleRef = useRef(null);
   const githubRef = useRef(null);
@@ -104,7 +107,7 @@ export default function HomePage() {
             </div>
           </Link>
 
-          <Link href={"/"}>
+          <Link href={"/cloud-and-devops"}>
             <div className={styles.TechnoContainer}>
               <Image
                 src={"/assets/cloud.jpg"}
@@ -282,8 +285,9 @@ export default function HomePage() {
       </div>
       <HorizontalTab data={WeExcelAtData} title={"We Excel At"} />
       <PortfolioSlider />
+      {console.log(data.data1.data)}
       <ClientTestimonialSlider
-        data={TestimonialsSliderData}
+        data={data.data1.data ? data.data1.data : TestimonialsSliderData}
         title={"Client’s Feedback"}
       />
 
@@ -438,4 +442,24 @@ export default function HomePage() {
       </div>
     </Layout>
   );
+}
+export async function getServerSideProps() {
+  const res = await axios
+    .get(`${API_URL}admin/getclientfeedback`, {
+      params: { page: 1, limit: 8 },
+    })
+    .catch((e) => console.log(e));
+  const res2 = await axios
+    .get(`${API_URL}admin/getlookatourdesign`, {
+      params: { page: 1, limit: 8 },
+    })
+    .catch((e) => console.log(e));
+  return {
+    props: {
+      data: {
+        data1: res ? res.data : TestimonialsSliderData,
+        data2: res2.data,
+      },
+    },
+  };
 }

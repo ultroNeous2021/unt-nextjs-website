@@ -13,6 +13,7 @@ function CounterComponent(props) {
   const isOnScreen = useOnScreen(countRef);
 
   useEffect(() => {
+    AOS.refresh();
     AOS.init();
     setLoad(true);
     //   document.addEventListener("contextmenu", function (e){

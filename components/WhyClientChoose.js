@@ -1,9 +1,14 @@
 import { Image, Row } from "react-bootstrap";
 import styles from "@/styles/components/WhyClientChoose.module.css";
 import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const WhyClientChoose = ({ css }) => {
   const [image, setImage] = useState("/assets/why-client-choose-us.png");
-
+  useEffect(() => {
+    AOS.refresh();
+    AOS.init();
+  }, []);
   useEffect(() => {
     window.innerWidth >= 320 && window.innerWidth <= 720
       ? setImage("/assets/why-client-choose-us-device.png")
