@@ -240,6 +240,20 @@
   color: #fff;
 }
 
+.NavAccordion {
+  width: 50%;
+  margin-left: 0.5rem;
+}
+
+.NavAccordion li {
+  color: #000;
+  margin: 0.5rem;
+}
+
+.AccordionHeader button {
+  font-size: 22px;
+}
+
 @keyframes line1x {
   0% {
     transform: translateY(0);
@@ -351,4 +365,16 @@
     width: 60%;
     bottom: 4.5rem;
   }
+}
+/*  */
+.Accordionli {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Accordionli:hover {
+  color: #e49b00;
+}
+.Accordionul {
+  padding-left: 0;
 }

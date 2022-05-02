@@ -1,10 +1,11 @@
 import { useState } from "react";
 import styles from "@/styles/components/MegaMenuComponent.module.css";
-import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import { Accordion, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import {
   LinksOfAllpages,
   NavbarMenuFirstColImageList,
   NavbarMenuList,
+  TechnologiesAllData,
 } from "utils/CONSTANT_DATA";
 import Link from "next/link";
 import Image from "next/image";
@@ -101,7 +102,13 @@ function MegaMenuComponent() {
               >
                 Services
               </li>
-              <li>Technology </li>
+              <li
+                className={styles.Services}
+                id="2"
+                onMouseEnter={onHoverHandler}
+              >
+                Technology
+              </li>
               <li>Engagement Model</li>
               <li>Portfolio</li>
             </ul>
@@ -128,6 +135,64 @@ function MegaMenuComponent() {
                   </li>
                 ))}
               </ul>
+              <div className={id === "2" ? styles.ShowPopup : styles.HidePopup}>
+                <Accordion
+                  id="2"
+                  className={`${styles.NavAccordion} AccordionNav`}
+                  defaultActiveKey="0"
+                >
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header
+                      className={`${styles.AccordionHeader} AccordionHeader`}
+                    >
+                      Front End
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <ul className={`${styles.Accordionul}`}>
+                        {TechnologiesAllData.frontend.map((el, ind) => (
+                          <li className={`${styles.Accordionli}`}>
+                            <Link href={el.link} key={ind}>
+                              {el.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="1">
+                    <Accordion.Header
+                      className={`${styles.AccordionHeader} AccordionHeader`}
+                    >
+                      Back End
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      {TechnologiesAllData.backend.map((el, ind) => (
+                        <li className={`${styles.Accordionli}`}>
+                          <Link href={el.link} key={ind}>
+                            {el.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="2">
+                    <Accordion.Header
+                      className={`${styles.AccordionHeader} AccordionHeader`}
+                    >
+                      Mobile Application
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      {TechnologiesAllData.mobile.map((el, ind) => (
+                        <li className={`${styles.Accordionli}`}>
+                          <Link href={el.link} key={ind}>
+                            {el.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </div>
             </div>
             <div className={styles.LastColSocialMedia}>
               {LinksOfAllpages.socialMedia.map((el, ind) => (

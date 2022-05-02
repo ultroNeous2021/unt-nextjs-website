@@ -1162,3 +1162,96 @@ export const NavbarMenuFirstColImageList = [
     link: LinksOfAllpages.mainPages.contactUs,
   },
 ];
+
+export const TechnologiesAllData = {
+  frontend: [
+    {
+      name: "React",
+      link: LinksOfAllpages.services.hireReactJSDeveloper,
+    },
+    {
+      name: "Angular",
+      link: LinksOfAllpages.services.hireAngularDeveloper,
+    },
+    {
+      name: "Vue",
+      link: LinksOfAllpages.services.hireVueJSDeveloper,
+    },
+    {
+      name: "HTML5",
+      link: "/",
+    },
+    {
+      name: "Nextjs",
+      link: "/",
+    },
+    {
+      name: "Gatsby",
+      link: "/",
+    },
+    {
+      name: "Nuxtjs",
+      link: "/",
+    },
+  ],
+  backend: [
+    {
+      name: "Node",
+      link: LinksOfAllpages.services.hireNodeJSDeveloper,
+    },
+    {
+      name: "Laravel",
+      link: LinksOfAllpages.services.hireLaravelDeveloper,
+    },
+    {
+      name: "Php",
+      link: LinksOfAllpages.services.hirePhpDeveloper,
+    },
+    {
+      name: "Codeigniter",
+      link: LinksOfAllpages.services.hireCodeigniterDeveloper,
+    },
+    {
+      name: "Magento",
+      link: LinksOfAllpages.services.hireMagentoDeveloper,
+    },
+    {
+      name: "Wordpress",
+      link: LinksOfAllpages.services.hireWordPressDeveloper,
+    },
+    {
+      name: "Shopify",
+      link: LinksOfAllpages.services.hireShopifyDeveloper,
+    },
+  ],
+  mobile: [
+    {
+      name: "Kotlin",
+      link: LinksOfAllpages.services.hireAndroidDeveloper,
+    },
+    {
+      name: "Swift",
+      link: LinksOfAllpages.services.hireiOSDeveloper,
+    },
+    {
+      name: "Flutter",
+      link: LinksOfAllpages.services.hireFlutterDeveloper,
+    },
+    {
+      name: "React Native",
+      link: LinksOfAllpages.services.hireReactNativeDeveloper,
+    },
+    {
+      name: "Java",
+      link: "",
+    },
+    {
+      name: "Objective-C",
+      link: "",
+    },
+    {
+      name: "Xamarin",
+      link: LinksOfAllpages.services.hireXamarinDeveloper,
+    },
+  ],
+};

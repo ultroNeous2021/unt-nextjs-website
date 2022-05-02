@@ -4,6 +4,7 @@ import Head from "next/head";
 import styles from "@/styles/Layout.module.css";
 import Footer from "./Footer";
 import NavbarMain from "./NavbarMain";
+import MegaMenuComponent from "./MegaMenuComponent";
 
 export default function Layout({ title, keywords, description, children }) {
   return (
@@ -22,8 +23,8 @@ export default function Layout({ title, keywords, description, children }) {
         />
         <link rel="shortcut icon" href="/static/favicon.svg" />
       </Head>
-      <NavbarMain />
-      {/* <MegaMenuComponent /> */}
+      {/* <NavbarMain /> */}
+      <MegaMenuComponent />
       <div className={styles.container}>{children}</div>
       <Footer />
     </div>

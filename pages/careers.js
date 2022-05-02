@@ -123,7 +123,8 @@ function CareersPage({ data }) {
             })}
           </Accordion>
         </Row> */}
-        <Row className={styles.WFTDAccordion}>
+        {/* <Row className={styles.WFTDAccordion}> */}
+        <Row className={`${styles.WFTDAccordion} CareersAccordion`}>
           <Accordion>
             {CareersData.map((el, index) => (
               <>

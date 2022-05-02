@@ -64,6 +64,24 @@ a {
   color: #fff;
 }
 
+.AccordionNav .AccordionHeader button {
+  background-color: transparent !important;
+  color: rgba(145, 142, 141, 1) !important;
+}
+
+.AccordionNav .accordion-button::after {
+  background-image: url("/assets/arrow_up.svg") !important;
+  transition: all 0.5s ease !important;
+}
+
+.AccordionNav .accordion-button:not(.collapsed)::after {
+  background-image: url("/assets/arrow_up.svg") !important;
+}
+
+.AccordionNav .accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 430px) {
   #overlaytwo {
     display: none;
@@ -218,17 +236,17 @@ a {
   margin: 1.5em 0 !important;
 }
 
-.accordion-button::after {
+.CareersAccordion .accordion-button::after {
   background-image: url("/assets/plus.svg") !important;
   transition: all 0.3s ease !important;
 }
 
-.accordion-button:not(.collapsed)::after {
+.CareersAccordion .accordion-button:not(.collapsed)::after {
   background-image: url("/assets/minus.svg") !important;
   transform: rotate(0deg) !important;
 }
 
-.accordion-body,
+.CareersAccordion .accordion-body,
 .accordion-button,
 .accordion-button:not(.collapsed) {
   background-color: #1a1112 !important;
