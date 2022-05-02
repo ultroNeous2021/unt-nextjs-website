@@ -1,0 +1,122 @@
+.EntSoftSolQualitiesContainer {
+  padding: 6rem 0rem 4rem 4rem;
+  display: flex;
+  margin: 0%;
+  justify-content: center;
+  align-items: center;
+}
+.EntSubContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 0rem;
+  padding-top: 6rem;
+}
+.HeadingStyle {
+  width: 315px;
+}
+.EntImage {
+  margin-bottom: 2.5rem;
+}
+.EntSpace {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+/*  */
+.Softwarecontainer {
+  padding: 4rem 2.5rem;
+  background: #fff;
+  padding-right: 1rem;
+}
+.Softrow {
+  justify-content: center;
+  align-items: center;
+}
+.Softimg {
+  width: 100%;
+}
+.Main {
+  padding-top: 6rem;
+  padding-left: 2.5rem;
+}
+.Softheading {
+  font-size: 60px;
+  font-weight: 700;
+  color: #000;
+}
+.Softnumber {
+  font-size: 150px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.05);
+}
+.Subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a1112;
+}
+.Subp {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  color: #1a1112;
+  width: 80%;
+}
+.Section {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+.Details {
+  width: 38% !important;
+  padding-left: 2.5rem;
+}
+.Number {
+  width: 12% !important;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .EntSoftSolQualitiesContainer {
+    padding: 0rem 0rem 4rem 0.5rem;
+  }
+  .HeadingStyle {
+    width: auto;
+    font-size: 16px;
+  }
+  .Softwarecontainer {
+    padding: 4rem 1rem;
+  }
+  .Softheading {
+    font-size: 46px;
+  }
+  .Main {
+    padding-left: 0.5rem;
+  }
+  .Number {
+    width: 100% !important;
+  }
+  .Details {
+    width: 100% !important;
+    padding-left: 1rem;
+  }
+  .Subp {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .EntSoftSolQualitiesContainer {
+    padding: 2rem 0rem 4rem 2rem;
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+  }
+  .HeadingStyle {
+    width: auto;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+@media (min-width: 650px) and (max-width: 740px) {
+}
