@@ -29,7 +29,7 @@ const HireIosDeveloper = () => {
             Development
           </>
         }
-        techname={"iOS"}
+        techname={"/assets/ios.svg"}
         detail={
           "In the software development sector, ultroNeous is continuously evolving and setting new quality standards. With our iOS app development services, we are the market leaders in producing scalable, dependable, and user-centric iOS apps for businesses in various disciplines. Hire iOS app developers that will work on your project according to your goals and specifications, ensuring high-quality apps that run well, provide a rich user experience, and are easy to use."
         }

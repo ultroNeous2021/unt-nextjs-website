@@ -30,7 +30,7 @@ const HireVuejsDeveloper = () => {
             Development
           </>
         }
-        techname={"VueJS"}
+        techname={"/assets/VueJS.svg"}
         detail={
           "Leverage the VueJS framework's capabilities to create progressive and reliable web and mobile applications for your business. Improve the productivity and performance of your real-time business apps using VueJs development to increase revenue and efficiency. Hire VueJS developers from ultroNeous or other well-known VueJS development company to bring your vision to life."
         }

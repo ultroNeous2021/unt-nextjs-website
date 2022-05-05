@@ -21,7 +21,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
     formState: { errors },
     reset,
   } = useForm();
-  console.log();
+  // console.log();
   const [checkList, setCheckList] = useState([]);
   const [phoneValue, setPhoneValue] = useState("");
   const [submitClicked, setSubmitClicked] = useState(false);
@@ -30,7 +30,6 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
   const [showPhoneImage, setShowPhoneImage] = useState(true); // phone image
   const [dropdownValue, setDropdownValue] = useState("");
 
-  console.log(data);
   useEffect(() => {
     AOS.refresh();
     AOS.init();
@@ -95,7 +94,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
       setCheckList(checkList.filter((item) => item !== value));
     }
   };
-  console.log(checkList);
+  // console.log(checkList);
   const onSubmit = async (values) => {
     console.log({
       ...values,

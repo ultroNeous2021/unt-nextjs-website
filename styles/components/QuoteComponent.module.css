@@ -2,7 +2,7 @@
   padding: 4rem 2.5rem;
 }
 .Quotesymbol {
-  font-size: 270px;
+  font-size: 150px;
   font-weight: 700;
   color: #e49b00;
   font-family: "Outfit";
@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 17rem;
+  height: 8rem;
 }
 .Quotedescription {
   font-size: 35px;
@@ -20,7 +20,7 @@
   margin: 0;
   display: flex;
   justify-content: center;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
   /* width: 78%; */
 }
 .QuotedescriptionArea {
@@ -29,7 +29,7 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  padding-bottom: 4rem;
+  padding-bottom: 0rem;
   padding-top: 0rem;
 }
 @media (min-width: 320px) and (max-width: 430px) {

@@ -21,7 +21,6 @@ const HireLaravelDeveloper = () => {
   return (
     <Layout title={title} keywords={keyword} description={description}>
       <HirePageHeaderComponent
-        model={"/assets/520.png"}
         heading={
           <>
             Laravel
@@ -29,7 +28,7 @@ const HireLaravelDeveloper = () => {
             Development
           </>
         }
-        techname={"Laravel"}
+        techname={"/assets/Laravel.svg"}
         detail={
           "Laravel is the most advanced and powerful framework for developing mobile and web apps. As a renowned Laravel development company, ultroNeous has mastered the art of creating high-performing, dependable, robust, and scalable web and mobile apps for businesses. Hire dedicated Laravel developers from us to develop custom apps with unique user interface features, eye-catching design, and fast loading time."
         }

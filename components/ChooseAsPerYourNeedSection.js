@@ -46,8 +46,8 @@ const ChooseAsPerYourNeedSection = (props) => {
   }, [isLoaded]);
 
   const ListOfTab = [
-    "Hire a Team",
-    props.replace ? props.replace : "Give us a Project",
+    "Hire a Resource",
+    props.replace ? props.replace : "Project Basis",
     "Technology Partner",
   ];
 

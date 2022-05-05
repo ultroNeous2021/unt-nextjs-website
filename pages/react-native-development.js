@@ -30,7 +30,7 @@ const HireReactnativeDeveloper = () => {
             Development
           </>
         }
-        techname={"React Native"}
+        techname={"/assets/ReactNative.svg"}
         detail={
           "Business Android applications are the most crucial platform for business success. You can hire android developers from ultroNeous, who have extensive expertise and experience in developing high-performing, scalable, and secured android apps for different types of business. We are an android development company that has assisted countless businesses in increasing revenue and expanding their operations through the use of android applications."
         }

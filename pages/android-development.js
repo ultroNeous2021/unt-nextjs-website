@@ -23,7 +23,7 @@ const HireAndroidDeveloper = () => {
   return (
     <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
-        techname={"Android"}
+        techname={"/assets/Android.svg"}
         heading={
           <>
             Android

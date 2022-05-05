@@ -39,7 +39,7 @@ const EcommerceDevelopment = () => {
       <QualitiesSection QualitiesList={ListQualitiesEcommerce} />
       <HorizontalTabService
         development={true}
-        heading="E-Commerce Development 
+        heading="e-Commerce Development 
         Technologies Expertise"
         Technology={EcommerceExpertise}
         hireButton

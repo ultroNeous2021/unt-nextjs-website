@@ -62,7 +62,8 @@
 .Card18,
 .Card19,
 .Card20,
-.Card21 {
+.Card21,
+.Card22 {
   background: transparent;
   border: 1px solid gray;
   border-radius: 20px;
@@ -167,6 +168,10 @@
   background: linear-gradient(180deg, #3498db 0%, #0d5a8e 100%);
   border: none;
 }
+.Card22:hover {
+  background: linear-gradient(158.94deg, #35668f 4.16%, #f2bb30 96.54%);
+  border: none;
+}
 .Card1 h5,
 .Card2 h5,
 .Card3 h5,
@@ -187,7 +192,8 @@
 .Card18 h5,
 .Card19 h5,
 .Card20 h5,
-.Card21 h5 {
+.Card21 h5,
+.Card22 h5 {
   font-size: 20px;
   font-weight: 400;
   color: #fff;
@@ -198,20 +204,20 @@
   margin-bottom: 1rem;
 }
 .Frontcontainer {
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
   /* height: 100vh; */
   /* / background:  #1A1112; / */
 }
 .Backendcontainer {
   /* height: 100vh; */
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
   /* / background:  #1A1112; / */
 }
 .Mobilecontainer {
   /* height: 100vh; */
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
   /* / background:  #1A1112; / */
 }

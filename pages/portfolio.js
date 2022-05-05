@@ -265,7 +265,7 @@ const portfolio = ({ data }) => {
         text={"Our Portfolio"}
         heading={"We are proud of our work"}
       />
-      <div className={styles.TabsContainer}>
+      {/* <div className={styles.TabsContainer}>
         <Tabs defaultActiveKey="0">
           {listdata.map((v, i) => {
             return (
@@ -275,8 +275,8 @@ const portfolio = ({ data }) => {
             );
           })}
         </Tabs>
-      </div>
-      {/* <div className={styles.TabsContainer}>
+      </div> */}
+      <div className={styles.TabsContainer}>
         <Tabs defaultActiveKey="0">
           {listOfportfolioItems.map((el, ind) => (
             <TabPane
@@ -445,7 +445,7 @@ const portfolio = ({ data }) => {
             </TabPane>
           ))}
         </Tabs>
-      </div> */}
+      </div>
     </Layout>
   );
 };

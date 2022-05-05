@@ -30,7 +30,7 @@ const HireFlutterDeveloper = () => {
             Development
           </>
         }
-        techname={"Flutter"}
+        techname={"/assets/Flutter.svg"}
         detail={
           "Flutter is an open-source development platform that allows developers to create fast, flexible, and productive web and mobile apps at a low cost. The possibilities of app development with this framework are endless, and it enables fast and simple development to grab the opportunity hire flutter developers from ultroNeous. Our in-house development team has a wealth of expertise in creating feature-rich, interactive applications. For more details on flutter development, please contact us right away."
         }
