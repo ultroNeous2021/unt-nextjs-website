@@ -1091,9 +1091,7 @@ export const LinksOfAllpages = {
     hireReactJSDeveloper: "/reactjs-development",
     hireShopifyDeveloper: "/shopify-development",
     hireVueJSDeveloper: "/vuejs-development",
-    hireWebAppDeveloper: "/web-app-development",
     hireWordPressDeveloper: "/wordpress-development",
-    hireWooCommerceDeveloper: "/woocommerce-development",
     // mobile
     hireAndroidDeveloper: "/android-development",
     hireFlutterDeveloper: "/flutter-development",

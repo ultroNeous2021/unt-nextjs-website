@@ -534,7 +534,6 @@ export async function getServerSideProps() {
     .get(`${API_URL}admin/getlookatourdesign`)
     .catch((e) => console.log(e));
 
-  console.log(res2);
   return {
     props: {
       data: {
