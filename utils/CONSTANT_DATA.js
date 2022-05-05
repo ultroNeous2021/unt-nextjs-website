@@ -1170,13 +1170,13 @@ export const NavbarMenuFirstColImageList = [
   {
     image: "/assets/navbar3.jpg",
     name: "Portfolio",
-    link: "/portfolio",
+    // link: "",
     new: false,
   },
   {
     image: "/assets/navbar2.jpg",
     name: "Blog",
-    link: "https://blog.ultroneous.com/",
+    // link: "",
     new: true,
   },
   {

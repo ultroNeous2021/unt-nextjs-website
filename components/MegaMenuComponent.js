@@ -156,11 +156,11 @@ function MegaMenuComponent() {
                       </a>
                     </Link>
                   </Nav>
-                  <Nav className={styles.NavLink}>
+                  {/* <Nav className={styles.NavLink}>
                     <a href="https://blog.ultroneous.com/" target={"_blank"}>
                       Blog
                     </a>
-                  </Nav>
+                  </Nav> */}
                   <Nav id={styles.ContactUsBtn} className={styles.NavLink}>
                     <a href="/contact-us">
                       <TransparentButton
@@ -364,8 +364,8 @@ function MegaMenuComponent() {
       >
         <div className={styles.ImageDivParent}>
           {NavbarMenuFirstColImageList.map((el, ind) => (
-            <Link href={el.link} key={ind} target="blank">
-              <a target={el.new ? "_blank" : "_self"}>
+            <Link href={el.link ? el.link : ""} key={ind} target="blank">
+              <a target={el.new && el.link ? "_blank" : "_self"}>
                 <div className={styles.ParentDivMain}>
                   <div className={styles.ImageDiv}>
                     <img src={el.image} className={styles.NavImage} />
