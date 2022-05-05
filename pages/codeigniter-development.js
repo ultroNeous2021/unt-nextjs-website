@@ -17,9 +17,9 @@ const HireCodeigniterDeveloper = () => {
   const keyword =
     "Hire codeigniter developers, codeigniter development company, codeigniter web development services, hire codeigniter";
   const title =
-    "Hire Codeigniter developers | Top Codeigniter development company | ultroNeous";
+    "Hire CodeIgniter Developers | Top CodeIgniter Development Company | ultroNeous";
   const description =
-    "Hire  Experienced & Certified Codeigniter developers from ultroNeous Technologies. As a Codeigniter development company, we offer robust solutions and services to our clients. Contact us Now!!";
+    "Hire  Experienced & Certified CodeIgniter developers from ultroNeous Technologies. As a CodeIgniter development company, we offer robust solutions and services to our clients.";
   return (
     <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent

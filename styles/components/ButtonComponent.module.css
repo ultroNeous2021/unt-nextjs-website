@@ -10,6 +10,7 @@
   padding: 0.8em 0;
   transition: all 0.8s ease;
   font-size: 18px;
+  text-align: center;
 }
 
 .ButtonComponent:hover {

@@ -42,7 +42,7 @@ import { Image } from "react-bootstrap";
 import styles from "@/styles/components/HorizontalTab.module.css";
 import { AiFillInstagram } from "react-icons/ai";
 
-export const API_URL = "http://192.168.1.29:8000/";
+export const API_URL = "http://192.168.1.28:8000/";
 export const CounterComponentData = [
   {
     start: 25,

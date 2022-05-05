@@ -1,0 +1,88 @@
+.containertwo {
+  /* position: relative; */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.SvgMain {
+  display: inline-block;
+}
+
+/* .bg {
+  background: url("/images/spidy.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200vh;
+} */
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  /* position: relative; */
+  width: 100%;
+  top: 10rem;
+}
+
+.images * {
+  height: 15rem;
+  /* opacity: 0; */
+  transition: all 1s ease;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.images *:hover {
+  transform: scale(1.1);
+}
+
+.image1 {
+  bottom: 8rem;
+}
+
+.image2 {
+  bottom: 2rem;
+}
+
+.image3 {
+  /* position: relative; */
+  /* bottom: 5rem; */
+  bottom: 0;
+}
+
+.container {
+  height: 800px;
+}
+
+.SvgMain {
+  /* position: relative; */
+  /* top: 0; */
+  top: 3rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.path {
+  stroke-dashoffset: 7258px;
+  stroke-dasharray: 200, 7058;
+}
+
+.path.black {
+  stroke: #ccc;
+}
+
+.path2 {
+  stroke: #fff;
+  stroke-dasharray: 10, 10;
+}
+
+@media (min-width: 1200px) and (max-width: 1730px) {
+  .SvgMain {
+    top: 6.5rem;
+  }
+}

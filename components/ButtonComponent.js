@@ -1,9 +1,12 @@
 import styles from "@/styles/components/ButtonComponent.module.css";
-function ButtonComponent({ val, clickHandler }) {
+import Link from "next/link";
+function ButtonComponent({ val, clickHandler, link }) {
   return (
-    <button className={styles.ButtonComponent} onClick={clickHandler}>
-      {val}
-    </button>
+    <Link href={link ? link : ""}>
+      <a className={styles.ButtonComponent} onClick={clickHandler}>
+        {val}
+      </a>
+    </Link>
   );
 }
 

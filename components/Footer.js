@@ -39,10 +39,7 @@ function Footer({ FooterContainerStyle }) {
         <div className={styles.FooterTopText}>
           <h2>Let’s Discuss your Ideas.</h2>
 
-          <ButtonComponent
-            clickHandler={() => goto.push("/contact-us")}
-            val={"Yes, Let's do it"}
-          />
+          <ButtonComponent link={"/contact-us"} val={"Yes, Let's do it"} />
         </div>
       </Row>
       <Row className={[styles.MxNone, styles.FooterContainer]}>

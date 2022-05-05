@@ -48,7 +48,7 @@ const ChooseAsPerYourNeedSection = (props) => {
   const ListOfTab = [
     "Hire a Team",
     props.replace ? props.replace : "Give us a Project",
-    "T & M",
+    "Technology Partner",
   ];
 
   return (
@@ -115,7 +115,7 @@ const ChooseAsPerYourNeedSection = (props) => {
         />
         <div className={styles.DetailBtn}>
           <YellowFilledWhiteButton
-            clickhandle={() => goto.push("/contact-us")}
+            link={"/contact-us"}
             val={ListOfTab[viewByIndex]}
             arrow={true}
           />

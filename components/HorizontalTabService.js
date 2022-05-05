@@ -14,9 +14,6 @@ function HorizontalTabService(props) {
   }, []);
   const hireDeveloper = useRef(null);
   const goto = useRouter();
-  const clickHandler = () => {
-    goto.push("/contact-us");
-  };
 
   return (
     <>
@@ -51,10 +48,10 @@ function HorizontalTabService(props) {
                   <p>{el.detail}</p>
                   {props.hireButton ? (
                     <HireButton
-                      clickHandler={clickHandler}
                       val={`Hire ${el.title} Developer`}
                       style={{ marginTop: "2em" }}
                       onclick
+                      link={"/contact-us"}
                     />
                   ) : null}
                 </Col>

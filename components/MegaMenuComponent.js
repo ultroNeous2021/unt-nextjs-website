@@ -56,7 +56,6 @@ function MegaMenuComponent() {
   };
   useEffect(() => {
     window.addEventListener("scroll", () => changeNavbarColor());
-    // console.log(router.pathname);
   });
   const serviceinner = [
     "/web-application-development",

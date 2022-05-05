@@ -6,6 +6,10 @@
   text-decoration: underline;
 }
 
+.HireButton:hover {
+  color: #eb9400;
+}
+
 .ArrowHireIcon {
   font-size: 40px;
 }

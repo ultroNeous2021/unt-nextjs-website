@@ -27,10 +27,10 @@ const UiUxDesign = () => {
   return (
     <Layout
       title={
-        "UX/UI design Services | Best UI/UX Design Agency in India | ultroNeous"
+        "UX/UI Design Services | Best UI/UX Design Agency in India | ultroNeous"
       }
       description={
-        "Looking for the most innovative UX/UI design services for your web app/mobile app? - ultroNeous Technologies is the top-rated UX/UI design company. Call us for the best design"
+        "Looking for the most innovative UX/UI design services for your web app/mobile app? - ultroNeous Technologies is the top-rated UI/UX design company. Contact us now!"
       }
       keywords={
         "ui ux design company, ui ux design agency, ui ux development company"

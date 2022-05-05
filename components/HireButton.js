@@ -1,14 +1,17 @@
 import React from "react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import styles from "@/styles/components/HireButton.module.css";
+import Link from "next/link";
 function HireButton(props) {
   return (
-    <p className={styles.HireButton} {...props} onClick={props.clickHandler}>
-      {props.val}
-      <span>
-        <HiOutlineArrowNarrowRight className={styles.ArrowHireIcon} />
-      </span>
-    </p>
+    <Link href={props.link ? props.link : ""}>
+      <a className={styles.HireButton} {...props} onClick={props.clickHandler}>
+        {props.val}
+        <span>
+          <HiOutlineArrowNarrowRight className={styles.ArrowHireIcon} />
+        </span>
+      </a>
+    </Link>
   );
 }
 

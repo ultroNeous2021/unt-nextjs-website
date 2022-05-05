@@ -1,13 +1,10 @@
 import styles from "@/styles/components/HirePageComponent.module.css";
-import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import YellowFilledWhiteButton from "./YellowFilledWhiteButton";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const HirePageHeaderComponent = (props) => {
-  const goto = useRouter();
-
   useEffect(() => {
     AOS.refresh();
     AOS.init();
@@ -23,7 +20,7 @@ const HirePageHeaderComponent = (props) => {
         </div>
         <div className={styles.BtnContainer}>
           <YellowFilledWhiteButton
-            clickhandle={() => goto.push("/contact-us")}
+            link={"/contact-us"}
             val={"Let's get started"}
             arrow={true}
           />

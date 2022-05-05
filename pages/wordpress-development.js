@@ -13,11 +13,11 @@ import {
 
 const HireWordPressDeveloper = () => {
   const title =
-    "Wordpress development company | Hire wordpress developer | ultroNeous";
+    "WordPress Development Company | Hire WordPress Developer | ultroNeous";
   const keyword =
     "Hire wordpress developer, Hire wordpress expert, wordpress development company, hire dedicated wordpress developer";
   const description =
-    "Hire wordpress developer for Full-Time, Part-Time. ultroNeous Technologies is a wordpress development company servivng with dedicated wordpress developer in more then 15 countries. Contact us now!!";
+    "ultroNeous Technologies is the best WordPress development company with headquarters located in India. Hire our WordPress Developers at the best price!!";
   return (
     <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent

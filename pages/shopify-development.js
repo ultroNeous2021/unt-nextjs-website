@@ -21,7 +21,7 @@ const HireShopifyDeveloper = () => {
   const title =
     "Shopify Development Services | Hire Shopfiy Developer | ultroNeous";
   const description =
-    "Your search to hire shopify developer is now over. Hire shopify experts from ultroNeous Technologies and relax. We will take care of your website & it's solutions at a competitive rates. Call now";
+    "Get your next Shopify app built with our Shopify experts. Hire Shopify developers from ultroNeous technologies the best Shopify development company.";
   const keywords =
     "shopify website developer, hire shopify developer, shopify development company, hire shopify expert";
 

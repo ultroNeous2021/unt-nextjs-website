@@ -22,9 +22,10 @@ import useOnScreen from "@/components/customHook/useOnScreen";
 import { BsBehance } from "react-icons/bs";
 import ClientTestimonialSlider from "@/components/Slider/ClientTestimonialSlider";
 import Verticals from "@/components/Verticals";
-import WhyClientChoose from "@/components/WhyClientChoose";
+// import WhyClientChoose from "@/components/WhyClientChoose";
 import Link from "next/link";
 import axios from "axios";
+import WhyClientChooseToWorkWithUs from "@/components/WhyClientChooseToWorkWithUs";
 
 export default function HomePage({ data }) {
   const [hoverColor, setHoverColor] = useState(false);
@@ -306,7 +307,7 @@ export default function HomePage({ data }) {
       />
 
       {/* Why client choose to work with us */}
-      <WhyClientChoose />
+      <WhyClientChooseToWorkWithUs />
       {/* verticals */}
       <Verticals />
       {/* look at our design shots */}
@@ -532,6 +533,7 @@ export async function getServerSideProps() {
     .get(`${API_URL}admin/getlookatourdesign`)
     .catch((e) => console.log(e));
 
+  console.log(res2);
   return {
     props: {
       data: {

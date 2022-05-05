@@ -21,15 +21,14 @@ function ServicesHeader(props) {
             {props.title}
           </h1>
           <p className={styles.ServicesLeftParagraph}>{props.paragraph}</p>
-          <Link href="/contact-us">
-            <div className={styles.Button}>
-              <YellowFilledWhiteButton
-                val={"Get in touch"}
-                arrow={true}
-                style={{ width: "11em" }}
-              />
-            </div>
-          </Link>
+          <div className={styles.Button}>
+            <YellowFilledWhiteButton
+              val={"Get in touch"}
+              arrow={true}
+              style={{ width: "11em" }}
+              link={"/contact-us"}
+            />
+          </div>
         </Col>
         <Col xs={12} sm={12} md={6} className={styles.ServicesRight}>
           <div className={styles.ServicesWhiteArrow}>
