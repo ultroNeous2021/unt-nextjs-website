@@ -306,7 +306,7 @@ function AboutUltroneousPage() {
         </Row>
         <div className={styles.CheckOutButtonSection}>
           <YellowFilledWhiteButton
-            clickhandle={() => goto.push("/careers")}
+            link={"/careers"}
             val={"Check out Careers"}
             arrow={true}
           />

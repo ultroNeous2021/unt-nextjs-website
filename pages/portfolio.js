@@ -38,43 +38,43 @@ const portfolio = ({ data }) => {
       data: [
         {
           src: "/assets/PP1.png",
-          pname: "****",
-          clientname: "****",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "****",
-          clientname: "****",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP3.png",
-          pname: "****",
-          clientname: "****",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP1.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "****",
-          clientname: "****",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP1.png",
-          pname: "****",
-          clientname: "****",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "****",
-          clientname: "****",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP3.png",
-          pname: "****",
-          clientname: "****",
+          pname: "client name",
+          clientname: "Project name",
         },
       ],
     },
@@ -83,43 +83,43 @@ const portfolio = ({ data }) => {
       data: [
         {
           src: "/assets/PP2.png",
-          pname: "mobile",
-          clientname: "mobile",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP3.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP1.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP1.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP3.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
       ],
     },
@@ -128,43 +128,43 @@ const portfolio = ({ data }) => {
       data: [
         {
           src: "/assets/PP3.png",
-          pname: "",
-          clientname: "web",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP3.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP1.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP1.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP3.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
       ],
     },
@@ -173,43 +173,43 @@ const portfolio = ({ data }) => {
       data: [
         {
           src: "/assets/PP1.png",
-          pname: "",
-          clientname: "platform",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP3.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP1.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP1.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP3.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
       ],
     },
@@ -218,43 +218,43 @@ const portfolio = ({ data }) => {
       data: [
         {
           src: "/assets/PP2.png",
-          pname: "other",
-          clientname: "other",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP3.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP1.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP1.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP2.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
         {
           src: "/assets/PP3.png",
-          pname: "",
-          clientname: "",
+          pname: "client name",
+          clientname: "Project name",
         },
       ],
     },
@@ -296,8 +296,8 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>{el.data[0].clientname}</p>
-                          <h1>{el.data[0].src}</h1>
+                          <p>client name</p>
+                          <h1>Project Name</h1>
                         </div>
                       </div>
                     </div>
@@ -312,8 +312,8 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>{el.data[1].clientname}</p>
-                          <h1>{el.data[1].src}</h1>
+                          <p>client name</p>
+                          <h1>Project Name</h1>
                         </div>
                       </div>
                     </div>
@@ -328,8 +328,8 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>{el.data[2].clientname}</p>
-                          <h1>{el.data[2].src}</h1>
+                          <p>client name</p>
+                          <h1>Project Name</h1>
                         </div>
                       </div>
                     </div>
