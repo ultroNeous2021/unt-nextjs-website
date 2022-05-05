@@ -144,7 +144,7 @@ function Footer({ FooterContainerStyle }) {
                     <Image src="/assets/INDIA.svg" alt="india" />
                   </span>
                   <span className="Ultroneous-Call-Mail-Text">
-                    <a href="tel:+91-78748-13131"> +91-78748-13131</a>
+                    <a href="tel:+91-70694-53131"> +91-70694-53131</a>
                   </span>
                 </li>
                 <li>

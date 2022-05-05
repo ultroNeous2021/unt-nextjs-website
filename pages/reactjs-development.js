@@ -7,55 +7,56 @@ import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
 import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
-  HireAngularlist,
-  HireAngularServiceslist,
+  HireReactJSlist,
+  HireReactJSServiceslist,
   HireShopifylist,
   HireShopifyServiceslist,
 } from "utils/DataList/listOfData";
 
-const HireAngularDeveloper = () => {
+const HireReactjsDeveloper = () => {
+  const title = "ReactJs Development Services | Hire Developers | ultroNeous";
   const keyword =
-    "hire angular developer , Hire angular developers , angular development company";
+    "hire reactjs developer, reactjs developer, reactjs development company";
   const description =
-    "ultroNeous Technologies is one of the top angular development company based in India. Hire angular developers for the fully-controlled and cost-effective development services.";
+    "ultroNeous Technologies is best rated Reactjs Development Company providing services in USA and India. Hire developers from top Reactjs development company.";
   return (
-    <Layout description={description} keywords={keyword}>
+    <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
         heading={
           <>
-            Angular
+            ReactJS
             <br />
             Development
           </>
         }
-        techname={"Angular"}
+        techname={"ReactJS"}
         detail={
-          "The Angular framework is the ideal development framework to use if you want a single page or even multiple page application or website with great performance, elegant UI elements, and dynamic nature. Hire angular developers from ultroNeous to make the most of angular's unique capabilities, such as two-way binding, modularization, AJAX handling, and others."
+          "ReactJs is a JavaScript library for creating unique web apps user interface elements. You can produce paramount web applications for your organization with the help of proficient ReactJs developers. Hire ReactJs developers from reputable ReactJs development companies to help you achieve your business objectives with ReactJs web solutions."
         }
       />
-      <ServicesIncludedSlider listOfserviceincluded={HireAngularServiceslist} />
+      <ServicesIncludedSlider listOfserviceincluded={HireReactJSServiceslist} />
       <BenifitsComponent
         maintitle={
           <>
-            Benefits of Angular
+            Benefits of ReactJS
             <br />
             Development
           </>
         }
-        datalist={HireAngularlist}
+        datalist={HireReactJSlist}
       />
       <CounterComponent data={CounterPersonalPage} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="Angular Developer"
+        replaceDetail="ReactJS Developer"
       />
       <QuoteComponent
         descreption={
           <>
             <p>
-              Enrich your online business with powerful customer-centric
+              Hiring ultroNeous’ ReactJs developers means
               <br />
-              web apps only with Angular and ultroNeous.
+              guaranteed quality, performance, and support.
             </p>
           </>
         }
@@ -63,4 +64,4 @@ const HireAngularDeveloper = () => {
     </Layout>
   );
 };
-export default HireAngularDeveloper;
+export default HireReactjsDeveloper;

@@ -16,7 +16,17 @@ import {
 
 const EcommerceDevelopment = () => {
   return (
-    <Layout title={""} description={""}>
+    <Layout
+      title={
+        "Top eCommerce Store Development Company in USA/India | ultroNeous"
+      }
+      description={
+        "Take your business online with our eCommerce development services. ultroNeous Technologies is the leading eCommerce development company helping businesses to achieve their goals."
+      }
+      keywords={
+        "ecommerce development company, ecommerce development services, ecommerce development"
+      }
+    >
       <ServicesHeader
         numbers={"07"}
         heading={ListOfEcommDevService.heading}

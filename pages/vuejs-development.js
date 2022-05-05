@@ -14,12 +14,14 @@ import {
 } from "utils/DataList/listOfData";
 
 const HireVuejsDeveloper = () => {
+  const title =
+    "VueJS Development Company | Hire vuejs developer | ultroNeous ";
   const keyword =
-    "vuejs developer , hire vuejs developer , vuejs development company";
+    "vuejs developer, hire vuejs developer, vuejs development company";
   const description =
-    "ultroNeous Technologies arranges to hire vuejs developers and programmers for high-quality web and mobile app development. We are a vuejs development company with experienced developers. Hire Now!!";
+    "Get your applications designed and developed by ultroNeous' in-house VueJS developers. Hire VueJS developers from the best Vuejs development company.";
   return (
-    <Layout description={description} keywords={keyword}>
+    <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
         heading={
           <>

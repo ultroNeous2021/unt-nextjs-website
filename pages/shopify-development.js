@@ -17,13 +17,16 @@ const HireShopifyDeveloper = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-  const descreption =
+
+  const title =
+    "Shopify Development Services | Hire Shopfiy Developer | ultroNeous";
+  const description =
     "Your search to hire shopify developer is now over. Hire shopify experts from ultroNeous Technologies and relax. We will take care of your website & it's solutions at a competitive rates. Call now";
   const keywords =
     "shopify website developer, hire shopify developer, shopify development company, hire shopify expert";
 
   return (
-    <Layout description={descreption} keywords={keywords}>
+    <Layout title={title} description={description} keywords={keywords}>
       <HirePageHeaderComponent
         heading={
           <>
@@ -32,7 +35,7 @@ const HireShopifyDeveloper = () => {
             Development
           </>
         }
-        techname={"Shopify"}
+        techname={"/assets/ll-s.svg"}
         detail={
           "Hire shopify developers from ultroNeous to develop responsive and user-friendly ecommerce websites and apps. Since we are a leading shopify development company, we know what elements and functions or features are required for a successful ecommerce store. Our certified developers are experienced in writing  codes that are optimized for search engines, faster loading time, and for higher efficiency. Connect with us for more discussion on shopify ecommerce development. "
         }

@@ -50,7 +50,11 @@
   position: absolute;
   left: 3rem;
 }
-
+.ServicesWhiteArrowImage:hover {
+  content: url("/assets/serviceOrange.svg");
+  transition: all 1s ease;
+  transform: scale(1.2);
+}
 .ImageDiv {
   padding: 0%;
   margin: 0%;
@@ -85,10 +89,7 @@
   height: 8rem;
   transition: all 2s ease;
 }
-.ServicesWhiteArrowImage:hover {
-  transition: all 1s ease;
-  transform: scale(1.2);
-}
+
 .Button {
   padding-top: 1rem;
 }

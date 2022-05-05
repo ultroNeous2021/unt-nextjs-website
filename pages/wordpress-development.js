@@ -12,13 +12,16 @@ import {
 } from "utils/DataList/listOfData";
 
 const HireWordPressDeveloper = () => {
+  const title =
+    "Wordpress development company | Hire wordpress developer | ultroNeous";
   const keyword =
-    "Hire wordpress developer , Hire wordpress expert , wordpress development company , hire dedicated wordpress developer";
+    "Hire wordpress developer, Hire wordpress expert, wordpress development company, hire dedicated wordpress developer";
   const description =
     "Hire wordpress developer for Full-Time, Part-Time. ultroNeous Technologies is a wordpress development company servivng with dedicated wordpress developer in more then 15 countries. Contact us now!!";
   return (
-    <Layout description={description} keywords={keyword}>
+    <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
+        model={"/assets/females.png"}
         heading={
           <>
             WordPress
@@ -26,7 +29,7 @@ const HireWordPressDeveloper = () => {
             Development
           </>
         }
-        techname={"Wordpress"}
+        techname={"/assets/l-wp.svg"}
         detail={
           "Get dedicated WordPress developers to build your custom business web solutions using an agile methodology and the most up-to-date WordPress development strategies and practices. We are a prominent WordPress development company with an in-house team of WordPress developers with considerable experience in producing websites for various business models over the last few years. Contact us right away to hire WordPress developers for user-friendly, scalable, reliable, and secured WordPress web solutions for your business."
         }

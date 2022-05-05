@@ -68,6 +68,8 @@
 
 .NavLinks {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .NavLink a,
@@ -78,6 +80,9 @@
 
 .NavLink {
   margin-right: 2rem;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
 }
 
 .NavLink a:hover {
@@ -170,6 +175,11 @@
   color: #e49b00;
 }
 
+/* .li:active {
+  border-right: 0.5rem solid #e49b00 !important;
+  color: #e49b00 !important;
+} */
+
 .NavbarColMiddle li:hover {
   border-right: 0.5rem solid #e49b00;
 }
@@ -252,6 +262,10 @@
 
 .AccordionHeader button {
   font-size: 22px;
+}
+
+#ContactUsBtn {
+  margin-right: 0;
 }
 
 @keyframes line1x {
@@ -351,12 +365,17 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 430px) {
-  .NavbarMain {
+  .NavUnique {
     display: none;
   }
-
   .MenuMain {
     width: 20%;
+  }
+  .NavbarMain {
+    width: 60%;
+  }
+  .Container {
+    margin-left: 0;
   }
 }
 
@@ -365,7 +384,11 @@
     width: 60%;
     bottom: 4.5rem;
   }
+  .NavUnique {
+    display: none;
+  }
 }
+
 /*  */
 .Accordionli {
   list-style-type: none;

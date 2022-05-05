@@ -22,6 +22,10 @@ function NavbarMain() {
     "/mobile-application-development",
     "/ux-ui-design",
     "/digital-marketing",
+    "/cloud-and-devops",
+    "/front-end-development",
+    "/ecommerce-development",
+    "/enterprise-software-solutions",
   ];
   const changeNavbarColor = () => {
     if (window.scrollY >= 50) {
@@ -32,7 +36,6 @@ function NavbarMain() {
   };
   useEffect(() => {
     window.addEventListener("scroll", () => changeNavbarColor());
-    // console.log(router.pathname);
   });
 
   return (

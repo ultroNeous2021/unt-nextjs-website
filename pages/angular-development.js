@@ -7,55 +7,57 @@ import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
 import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
-  HireNodeJSlist,
-  HireNodeJSServiceslist,
+  HireAngularlist,
+  HireAngularServiceslist,
   HireShopifylist,
   HireShopifyServiceslist,
 } from "utils/DataList/listOfData";
 
-const HireNodejsDeveloper = () => {
+const HireAngularDeveloper = () => {
+  const title =
+    "Hire Angular Developers Team from Angular Development Company | ultroNeous";
   const keyword =
-    "Hire nodejs developer , nodejs development company , nodejs developers , nodejs development services";
+    "hire angular developer, Hire angular developers, angular development company";
   const description =
-    "Hire node js developers & programmers from ultroNeous Technologies. We have an experienced team that delivers node js development services globally. Hire Now!!";
+    "ultroNeous Technologies is one of the top angular development company based in India. Hire angular developers for the fully-controlled and cost-effective development services.";
   return (
     <Layout description={description} keywords={keyword}>
       <HirePageHeaderComponent
         heading={
           <>
-            NodeJS
+            Angular
             <br />
             Development
           </>
         }
-        techname={"Node JS"}
+        techname={"Angular"}
         detail={
-          "ultroNeous is an established name in the software industry that provides top-notch NodeJS development services to clients from all over the globe. Hire NodeJS developers from our in-house dedicated team to develop high-performing, data-intensive, highly-scalable, and real-time web applications to propel your business forward."
+          "The Angular framework is the ideal development framework to use if you want a single page or even multiple page application or website with great performance, elegant UI elements, and dynamic nature. Hire angular developers from ultroNeous to make the most of angular's unique capabilities, such as two-way binding, modularization, AJAX handling, and others."
         }
       />
-      <ServicesIncludedSlider listOfserviceincluded={HireNodeJSServiceslist} />
+      <ServicesIncludedSlider listOfserviceincluded={HireAngularServiceslist} />
       <BenifitsComponent
         maintitle={
           <>
-            Benefits of NodeJS
+            Benefits of Angular
             <br />
             Development
           </>
         }
-        datalist={HireNodeJSlist}
+        datalist={HireAngularlist}
       />
       <CounterComponent data={CounterPersonalPage} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="NodeJS Developer"
+        replaceDetail="Angular Developer"
       />
       <QuoteComponent
         descreption={
           <>
             <p>
-              ultroNeous and NodeJS provide the greatest real-time
+              Enrich your online business with powerful customer-centric
               <br />
-              web applications for organizations to improve customer support.
+              web apps only with Angular and ultroNeous.
             </p>
           </>
         }
@@ -63,4 +65,4 @@ const HireNodejsDeveloper = () => {
     </Layout>
   );
 };
-export default HireNodejsDeveloper;
+export default HireAngularDeveloper;

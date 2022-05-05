@@ -94,14 +94,17 @@
     padding-left: 0.5rem;
   }
   .Number {
-    width: 100% !important;
+    width: 30% !important;
   }
   .Details {
-    width: 100% !important;
+    width: 70% !important;
     padding-left: 1rem;
   }
   .Subp {
     width: 100%;
+  }
+  .Section {
+    padding-bottom: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {
@@ -114,6 +117,7 @@
   }
   .HeadingStyle {
     width: auto;
+    font-size: 20px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1730px) {

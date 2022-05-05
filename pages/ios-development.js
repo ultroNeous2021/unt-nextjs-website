@@ -14,12 +14,13 @@ import {
 } from "utils/DataList/listOfData";
 
 const HireIosDeveloper = () => {
+  const title = "iOS App Development India | Hire iOS Developers | ultroNeous";
   const keyword =
-    "hire iphone app developers , hire ios app developer , hire ios developer , ios app development company , ios development company";
+    "hire iphone app developers, hire ios app developer, hire ios developer, ios app development company, ios development company";
   const description =
-    "Hire iOS app developer for building leverage applications on iOS platforms. Hire iPhone app developers on an hourly/monthly basis from ultroNeous Technologies, the best iOS app development company.";
+    "We are a leading iOS/iPhone app development company, having headquarter in India. Hire iOS/iPhone developers from ultroNeous Technologies as per your demand.";
   return (
-    <Layout description={description} keywords={keyword}>
+    <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
         heading={
           <>

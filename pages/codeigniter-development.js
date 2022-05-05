@@ -15,15 +15,17 @@ import {
 
 const HireCodeigniterDeveloper = () => {
   const keyword =
-    "Hire codeigniter developers , codeigniter development company , codeigniter web development services , hire codeigniter";
+    "Hire codeigniter developers, codeigniter development company, codeigniter web development services, hire codeigniter";
+  const title =
+    "Hire Codeigniter developers | Top Codeigniter development company | ultroNeous";
   const description =
     "Hire  Experienced & Certified Codeigniter developers from ultroNeous Technologies. As a Codeigniter development company, we offer robust solutions and services to our clients. Contact us Now!!";
   return (
-    <Layout description={description} keywords={keyword}>
+    <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
         heading={
           <>
-            Codeigniter
+            CodeIgniter
             <br />
             Development
           </>

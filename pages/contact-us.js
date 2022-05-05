@@ -13,7 +13,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
+function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
   const {
     register,
     handleSubmit,
@@ -21,7 +21,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
     formState: { errors },
     reset,
   } = useForm();
-
+  console.log();
   const [checkList, setCheckList] = useState([]);
   const [phoneValue, setPhoneValue] = useState("");
   const [submitClicked, setSubmitClicked] = useState(false);
@@ -29,14 +29,18 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
   const [data, setData] = useState([]); // array of selected checkboxes
   const [showPhoneImage, setShowPhoneImage] = useState(true); // phone image
   const [dropdownValue, setDropdownValue] = useState("");
+
+  console.log(data);
   useEffect(() => {
     AOS.refresh();
     AOS.init();
+
     // if (window.scrollY >= 50) {
     //   window.pageYOffset = 0;
     //   window.scroll(0, 0);
     // }
   }, []);
+
   useEffect(() => {
     if (window.innerWidth < 992) {
       setShowPhoneImage(false);
@@ -52,14 +56,31 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
     if (data.includes(value)) {
       const newData = data.filter((el) => el !== value);
       setData(newData);
+      return false;
     } else {
       setData([...data, value]);
+      return true;
     }
   };
-
+  const checkedOrnot = (value) => {
+    // handles single checkbox event
+    if (checkList.includes(value)) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+  const checkedchildOrnot = (value) => {
+    // handles single checkbox event
+    if (data.includes(value)) {
+      return true;
+    } else {
+      return false;
+    }
+  };
   const clickHandler = (e) => {
     // handles single label click event
-
+    console.log(e.target.classList);
     if (e.target.classList.contains("TextLabelActive")) {
       e.target.classList.remove("TextLabelActive");
     } else {
@@ -74,6 +95,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
       setCheckList(checkList.filter((item) => item !== value));
     }
   };
+  console.log(checkList);
   const onSubmit = async (values) => {
     console.log({
       ...values,
@@ -83,33 +105,24 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
       hireTeam: data,
     });
     await axios
-      .post(
-        // "https://ultroneous-79d3f-default-rtdb.firebaseio.com/contactus.json",
-        `${API_URL}admin/contactusdata`,
-        // {
-        //   ...values,
-        //   checklist: checkList,
-        //   phone: phoneValue,
-        //   budget: dropdownValue,
-        //   hireTeam: data,
-        // }
-        {
-          ...values,
-          checklist: checkList,
-          hireteam: data,
-          name: values.name,
-          email: values.email,
-          phone: phoneValue,
-          budget: dropdownValue,
-          message: values.message,
-        }
-      )
+      .post(`${API_URL}admin/contactusdata`, {
+        ...values,
+        checklist: checkList,
+        hireteam: data,
+        name: values.name,
+        email: values.email,
+        phone: phoneValue,
+        budget: dropdownValue,
+        message: values.message,
+      })
       .then((res) => {
         setSubmitClicked(true);
         setPhoneValue("");
       })
       .catch((err) => console.log(err));
-
+    setData([]);
+    setCheckList([]);
+    setCheck(false);
     reset();
     setTimeout(() => {
       setSubmitClicked(false);
@@ -158,6 +171,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                       <input
                         className={styles.MyCheckBox}
                         type="checkbox"
+                        checked={checkedOrnot("Web & App Development")}
                         value="Web & App Development"
                         onChange={(e) =>
                           HandleCheck(e.target.checked, e.target.value)
@@ -169,6 +183,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                       <input
                         type="checkbox"
                         className={styles.MyCheckBox}
+                        checked={checkedOrnot("Digital Marketing")}
                         value="Digital Marketing"
                         onChange={(e) =>
                           HandleCheck(e.target.checked, e.target.value)
@@ -180,6 +195,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                       <input
                         className={styles.MyCheckBox}
                         type="checkbox"
+                        checked={checkedOrnot("UI/UX Design")}
                         value="UI/UX Design"
                         onChange={(e) =>
                           HandleCheck(e.target.checked, e.target.value)
@@ -190,6 +206,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                     <Col xl={6} className={styles.CheckboxSpaceCol}>
                       <input
                         type="checkbox"
+                        checked={checkedOrnot("eCommerce Development")}
                         className={styles.MyCheckBox}
                         value="eCommerce Development"
                         onChange={(e) =>
@@ -202,6 +219,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                       <input
                         type="checkbox"
                         className={styles.MyCheckBox}
+                        checked={checkedOrnot("Enterprise Software Solutions")}
                         value="Enterprise Software Solutions"
                         onChange={(e) =>
                           HandleCheck(e.target.checked, e.target.value)
@@ -215,6 +233,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                       <input
                         type="checkbox"
                         className={styles.MyCheckBox}
+                        checked={checkedOrnot("Hire a Team")}
                         value="Hire a Team"
                         onChange={(e) => {
                           HandleCheck(e.target.checked, e.target.value);
@@ -232,7 +251,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                     <p className={styles.CheckBoxFormHeadText}>
                       Select Technologies
                     </p>
-                    {checkboxData.developersData.map((el, ind) => (
+                    {datasapi.technology.map((el, ind) => (
                       <Col
                         xs={12}
                         sm={6}
@@ -242,15 +261,16 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                       >
                         <label
                           className={styles.TextLabel}
-                          htmlFor={el}
+                          htmlFor={el.name}
                           onClick={clickHandler}
                         >
-                          {el}
+                          {el.name}
                         </label>
                         <input
                           type="checkbox"
-                          id={el}
-                          value={el}
+                          id={el.name}
+                          value={el.name}
+                          checked={checkedchildOrnot(el.name)}
                           className={styles.FormCheckbox}
                           onChange={checkboxHandler}
                         />
@@ -260,7 +280,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                       {" "}
                       Select Others{" "}
                     </p>
-                    {checkboxData.othersData.map((el, ind) => (
+                    {datasapi.other.map((el, ind) => (
                       <Col
                         xs={12}
                         sm={6}
@@ -270,15 +290,15 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
                       >
                         <label
                           className={styles.TextLabel}
-                          htmlFor={el}
+                          htmlFor={el.name}
                           onClick={clickHandler}
                         >
-                          {el}
+                          {el.name}
                         </label>
                         <input
                           type="checkbox"
-                          id={el}
-                          value={el}
+                          id={el.name}
+                          value={el.name}
                           className={styles.FormCheckbox}
                           onChange={checkboxHandler}
                         />
@@ -448,7 +468,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData }) {
             <div className={styles.EmailPhoneContainer}>
               <FaPhoneAlt style={{ color: "#E49B00", fontSize: "20px" }} />
               <span className={styles.EmailPhoneText}>
-                <a href="tel:+91 78748 13131">+91 78748 13131</a>
+                <a href="tel:+91-70694-53131">+91-70694-53131</a>
               </span>
             </div>
             <div className={styles.EmailPhoneContainer}>
@@ -509,7 +529,7 @@ export async function getServerSideProps() {
   const res = await axios
     .get(`${API_URL}admin/gettechnologiesofcontactus`)
     .catch((e) => console.log(e));
-  return { props: { data: res.data } };
+  return { props: { datasapi: res.data } };
 }
 
 export default ContactUsPage;

@@ -5,7 +5,7 @@ import Verticals from "@/components/Verticals";
 import WhyClientChoose from "@/components/WhyClientChoose";
 import YellowFilledWhiteButton from "@/components/YellowFilledWhiteButton";
 import { Col, Image, Row } from "react-bootstrap";
-import { WeExcelAtData } from "utils/CONSTANT_DATA";
+import { API_URL, WeExcelAtData } from "utils/CONSTANT_DATA";
 import styles from "@/styles/Service.module.css";
 import { ArrayOfServices } from "utils/DataList/listOfData";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
@@ -13,11 +13,12 @@ import { useEffect, useState } from "react";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import axios from "axios";
 
-const CardServicesForMobile = (props) => {
+const CardServicesForMobile = ({ data = ArrayOfServices }) => {
   return (
     <Row className={styles.CardServiceSections}>
-      {ArrayOfServices.map((values, index) => (
+      {data.map((values, index) => (
         <Col
           key={index}
           xl={3}
@@ -29,48 +30,58 @@ const CardServicesForMobile = (props) => {
             <Image alt="icons-for-services" src={values.icon} />
           </div>
           <h2 className={styles.CardServiceSecName}>{values.name}</h2>
-          <p className={styles.CardServiceContent}>{values.content}</p>
+          <p className={styles.CardServiceContent}>
+            {values.description ? values.description : values.content}
+          </p>
           <Link href={values.link}>
-            <div className={styles.CardServiceKnowMoreButton}>
-              Know More
-              <span>
-                <HiOutlineArrowNarrowRight
-                  size={30}
-                  style={{ marginLeft: "0.2em" }}
-                />
-              </span>
-            </div>
+            <a href={values.link}>
+              <div className={styles.CardServiceKnowMoreButton}>
+                Know More
+                <span>
+                  <HiOutlineArrowNarrowRight
+                    size={30}
+                    style={{ marginLeft: "0.2em" }}
+                  />
+                </span>
+              </div>
+            </a>
           </Link>
         </Col>
       ))}
     </Row>
   );
 };
-const CardServicesForDesk = () => {
+const CardServicesForDesk = ({ data = ArrayOfServices }) => {
   return (
     <div className={styles.Servicecardcontainer}>
       <Row>
-        {ArrayOfServices.map((values, index) => (
+        {data.map((values, index) => (
           <Col xl={3} md={4} className={styles.Services}>
             <div className={styles.flipcard}>
               <div
                 className={styles.flipcardinner}
-                style={{ background: `url('${values.background}')` }}
+                style={{
+                  background: `url('${
+                    values.image ? values.image : values.background
+                  }')`,
+                }}
               >
                 <div className={styles.flipcardfront} />
                 <div className={styles.flipcardback}>
                   <p className={styles.FlipP}>
-                    {values.content}
+                    {values.description ? values.description : values.content}
                     <Link href={values.link}>
-                      <div className={styles.CardServiceKnowMoreButton}>
-                        Know More
-                        <span>
-                          <HiOutlineArrowNarrowRight
-                            size={30}
-                            style={{ marginLeft: "0.2em" }}
-                          />
-                        </span>
-                      </div>
+                      <a href={values.link}>
+                        <div className={styles.CardServiceKnowMoreButton}>
+                          Know More
+                          <span>
+                            <HiOutlineArrowNarrowRight
+                              size={30}
+                              style={{ marginLeft: "0.2em" }}
+                            />
+                          </span>
+                        </div>
+                      </a>
                     </Link>
                   </p>
                 </div>
@@ -82,7 +93,7 @@ const CardServicesForDesk = () => {
     </div>
   );
 };
-function ServicePage() {
+function ServicePage({ data }) {
   const [mobileMode, setMobileMode] = useState(false);
   const goto = useRouter();
   useEffect(() => {
@@ -97,6 +108,9 @@ function ServicePage() {
       }
       description={
         "ultroNeous technologies is a Web & Mobile App development company that provides solutions in Web Applications, Mobile Applications, & Digital Marketing."
+      }
+      keywords={
+        "web app development services, mobile app development services, digital marketing  services, services"
       }
     >
       <PagesHeaderComponent
@@ -126,7 +140,11 @@ function ServicePage() {
         </Col>
       </Row>
       {/* cards */}
-      {mobileMode ? <CardServicesForMobile /> : <CardServicesForDesk />}
+      {mobileMode ? (
+        <CardServicesForMobile data={data.data} />
+      ) : (
+        <CardServicesForDesk data={data.data} />
+      )}
       {/* Not sure.... */}
       <Row className={styles.NotSureContainer}>
         <Col sm={12} className={styles.NotSureParagraphCol}>
@@ -153,5 +171,13 @@ function ServicePage() {
     </Layout>
   );
 }
+export async function getServerSideProps() {
+  // Fetch data from external API
+  const data = await axios
+    .get(`${API_URL}admin/getlistofservices`)
+    .catch((e) => console.log(e));
 
+  // Pass data to the page via props
+  return { props: { data: data.data ? data.data : ArrayOfServices } };
+}
 export default ServicePage;

@@ -12,11 +12,9 @@ import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection"
 const DigitalMarketing = () => {
   return (
     <Layout
-      title={
-        "Best Digital Marketing Agency | Digital Marketing Services | ultroNeous "
-      }
+      title={"Best Digital Marketing Agency | SEO,PPC,SMM | ultroNeous "}
       description={
-        "ultroNeous Technologies are the leading digital marketing company with expertise in SEO, PPC, Social Media Marketing, and Google Ads. Call us Now !!!"
+        "ultroNeous technologies is the leading digital marketing agency based in USA/India with expertise in SEO, PPC, SMM, and Google Ads. Call us Now and Grow Digitally!!"
       }
       keywords={
         "Digital marketing company, Digital marketing agency, digital marketing services, internet marketing company"

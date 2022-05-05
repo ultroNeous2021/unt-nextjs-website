@@ -23,30 +23,12 @@ function CareersPage({ data }) {
   function last(array) {
     return array.indexOf(array[array.length - 1]);
   }
-  const findMyTechCount = (ary, name) => {
-    let number = "";
-    console.log(ary);
-    for (var i = 0; i < ary.length; i++) {
-      if (ary[i].departmentName == name) {
-        number = ary[i].fieldCount;
-      }
-    }
-    return number;
-  };
-  const findMyTechDatas = (ary, name) => {
-    let dataOfTechnology;
-    for (var i = 0; i < ary.length; i++) {
-      if (ary[i].departmentName == name) {
-        dataOfTechnology = ary[i].technology;
-      }
-    }
-    return dataOfTechnology;
-  };
+
   return (
     <Layout
       title={"Job Opportunities in #1 IT Company in Ahmedabad | ultroNeous"}
       description={
-        "Are you searching for job in IT company? - ultroNeous is always in search of talents who are ready to evolve, expand and enhance the knowledge."
+        "Are you searching for job in IT company? - ultroNeous is always in search of talents who are ready to evolve, expand and enhance the knowledge. Apply Now!!"
       }
     >
       <PagesHeaderComponent
@@ -68,7 +50,6 @@ function CareersPage({ data }) {
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
-            {" "}
             Waiting for the deserving
           </h2>
           <p className={styles.WFTDparagraph}>
@@ -80,21 +61,19 @@ function CareersPage({ data }) {
             the place for you.
           </p>
         </div>
-        {/* <Row className={styles.WFTDAccordion}>
-          <Accordion>
-            {data.data2.data.map((el, index) => {
-              const current = findMyTechDatas(data.data2.technology, el.name);
-              return (
+
+        <Row className={`${styles.WFTDAccordion} CareersAccordion`}>
+          {data.data2 && (
+            <Accordion>
+              {data.data2.technology.map((el, index) => (
                 <>
-                  <Accordion.Item eventKey={el.title} key={index}>
+                  <Accordion.Item eventKey={el.departmentName} key={index}>
                     <Accordion.Header className={styles.Accordionheader}>
-                      {el.name}
-                      <span>
-                        ({findMyTechCount(data.data2.technology, el.name)})
-                      </span>
+                      {el.departmentName}{" "}
+                      <span> ({el.technology.length}) </span>
                     </Accordion.Header>
                     <Accordion.Body className={styles.AccordionBody}>
-                      {current.map((val, ind) => (
+                      {el.technology.map((val, ind) => (
                         <a
                           href={`mailto:hr@ultroneous.com?subject=Applying for: ${val.technologyName}`}
                         >
@@ -119,45 +98,9 @@ function CareersPage({ data }) {
                     />
                   )}
                 </>
-              );
-            })}
-          </Accordion>
-        </Row> */}
-        {/* <Row className={styles.WFTDAccordion}> */}
-        <Row className={`${styles.WFTDAccordion} CareersAccordion`}>
-          <Accordion>
-            {CareersData.map((el, index) => (
-              <>
-                <Accordion.Item eventKey={el.title} key={index}>
-                  <Accordion.Header className={styles.Accordionheader}>
-                    {el.title} <span> {el.vacancy} </span>
-                  </Accordion.Header>
-                  <Accordion.Body className={styles.AccordionBody}>
-                    {el.jobs.map((val, ind) => (
-                      <a
-                        href={`mailto:hr@ultroneous.com?subject=Applying for: ${val.job}`}
-                      >
-                        <div key={ind}>
-                          <p>
-                            {val.job}
-                            <span className={styles.JobVacancyNumber}>
-                              {val.jobNumber}
-                            </span>
-                          </p>
-                          <p>
-                            <IoIosArrowForward />
-                          </p>
-                        </div>
-                      </a>
-                    ))}
-                  </Accordion.Body>
-                </Accordion.Item>
-                {index == last(CareersData) ? null : (
-                  <hr style={{ border: "1px solid rgba(255,255,255,0.08)" }} />
-                )}
-              </>
-            ))}
-          </Accordion>
+              ))}
+            </Accordion>
+          )}
         </Row>
       </Row>
       <Row className={styles.BenefitsAndPerks}>
@@ -339,7 +282,7 @@ export async function getServerSideProps() {
     props: {
       data: {
         data1: res ? res.data : FeelTheCultureData,
-        data2: resJobReq.data,
+        data2: resJobReq ? resJobReq.data : null,
       },
     },
   };

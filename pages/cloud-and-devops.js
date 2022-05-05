@@ -15,7 +15,15 @@ import {
 } from "utils/DataList/listOfData";
 const CloudAndDevops = () => {
   return (
-    <Layout title={""} description={""}>
+    <Layout
+      title={"Cloud & Devops Computing Services | ultroNeous"}
+      description={
+        "Searching for cloud computing services and devops services? We are the leading cloud computing company and devops company globally providing with all solutions at one place."
+      }
+      keywords={
+        "cloud computing services, devops service, cloud computing company, devops company"
+      }
+    >
       <ServicesHeader
         numbers={"05"}
         heading={ListOfCloudandDevopsService.heading}

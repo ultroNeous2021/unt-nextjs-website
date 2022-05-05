@@ -542,61 +542,61 @@ export const ArrayOfServices = [
 export const HireShopifylist = [
   {
     src: "/assets/tech/Shopify/SU.svg",
-    title: "User Experience",
+    title: "Secured & Reliable",
     Description:
-      "Shopify has fantastic UI/UX attributes that can be tweaked or upgraded with custom themes and plugins.",
+      "Shopify is Level 1 PCI DSS compliant. Customers are more aware of fraud and web security than ever before, Shopify is reliable for payment security.",
   },
   {
     src: "/assets/tech/Shopify/SA.svg",
-    title: "App Integration",
+    title: "Marketing Tools",
     Description:
-      "In shopify ecommerce stores, new features and functionality can be added through easy app integration without any hassle. ",
+      "Email marketing, SEO, and SMM are the channels that support you with marketing campaigns, and options such as gift cards and coupons are there. ",
   },
   {
     src: "/assets/tech/Shopify/SM.svg",
-    title: "Marketing Tools",
+    title: "User Experience",
     Description:
-      "Marketing tools such as personalized gift cards, discount coupons, email marketing tools, and SEO features improve the store's marketing initiatives.",
+      "Shopify has fantastic UX/UI attributes that can be tweaked or upgraded with custom themes and plugins.",
   },
   {
     src: "/assets/tech/Shopify/Secure.svg",
-    title: "Secured & Reliable",
+    title: "App Integration",
     Description:
-      "Shopify is a market leader in terms of secure payment methods and dependability. With regular updates and maintenance, both parameters can be achieved. ",
+      "In Shopify eCommerce stores, new features and functionality can be added through easy app integration without any hassle. ",
   },
 ];
 
 export const HireShopifyServiceslist = [
   {
-    title: "Shopify App Development ",
+    title: "Shopify Store Setup ",
     description:
-      "ultroNeous' Shopify developers excel in developing mobile apps for e-commerce stores. Our developers are proficient in all aspects of app development, including third-party app integrations and app installation. Hire shopify experts on project basis to develop scalable, flexible, and robust ecommerce mobile apps at affordable development cost only at ultroNeous.",
+      "Our team of experts helps you get started with the Shopify store by configuring and setting up the theme for your online store, adding a products catalog, and setting up a payments portal. With our custom solutions, we make sure that your store gets its unique identity.",
   },
   {
     title: "Themes & Plugins Development",
     description:
-      "Shopify has a lot of customization possibilities, but with custom themes and plugins, those options may expand dramatically. Our shopify website developers have created many custom themes and plugins that have produced excellent outcomes for our clients and their stores.",
+      "Our dedicated designers are well equipped with skills and tools to give your store a unique look with maximum functionality. A custom theme for your storefront makes it distinctive to your customers, as well as helps you with making your brand stand out.",
   },
   {
-    title: "Payment Methods",
+    title: "SEO friendly Shopify",
     description:
-      "On your Shopify store, we enable secure integrations of popular payment methods. Our experts have a lot of expertise in implementing different secure payment methods, which is an important aspect of any successful e-commerce business.",
+      "The Shopify websites are extremely SEO friendly in general. It helps you with getting quality traffic to your website. We can help you set up a blog for your website which helps in driving tons of organic traffic to your website and with a powerful online presence.",
   },
   {
     title: "API Integration",
     description:
-      "The developers at ultroNeous have extensive experience with flawless API integration in Shopify mobile apps and websites. Moreover, we assist clients in using third-party apps to access Shopify data.",
+      "Our dedicated developers have extensive experience with flawless API integration in Shopify mobile apps and websites. Moreover, we assist clients in using third-party apps to access Shopify data. In addition to that, it helps in saving time and lowering errors",
   },
   {
     title: "Support & Maintenance",
     description:
-      "Our Shopify developer team makes sure that the store is up and running 24 hours a day, seven days a week, with no technical difficulties. We provide full support to our clients and we do regular maintenance drills to ensure that all of the store's services and features are operational. ",
+      "Our support team makes sure that the store is up and running 24 hours a day, seven days a week, without any hassle. We lend full support to our clients, with regular maintenance drills we ensure that all of the store's services and features are operational.",
   },
-  {
-    title: "UI/UX Solutions",
-    description:
-      "We don't just develop Shopify stores; we also make sure that the stores we create have a great customer experience. We know that outstanding UI/UX improves shop performance since it directly affects users and customers.",
-  },
+  // {
+  //   title: "UI/UX Solutions",
+  //   description:
+  //     "We don't just develop Shopify stores; we also make sure that the stores we create have a great customer experience. We know that outstanding UI/UX improves shop performance since it directly affects users and customers.",
+  // },
 ];
 
 // -----------------------------------------Wordpress Part----------------------------------------------------------------------------------------------------------------
@@ -623,7 +623,7 @@ export const HireWordPresslist = [
     src: "/assets/tech/Wordpress/UI_UX.svg",
     title: "Excellent UI/UX",
     Description:
-      "With the custom theme and plugin development, WordPress offers rich & exclusive user interface elements for your business app. ",
+      "With the custom theme and plugin development, WordPress offers rich & exclusive user interface elements for your business app ",
   },
 ];
 
@@ -631,81 +631,81 @@ export const HireWordPressServiceslist = [
   {
     title: "Custom Web Development ",
     description:
-      "ultroNeous is an established WordPress development company that has served numerous clients with its bespoke WordPress web development service. Our developed custom web solutions are of top quality that give an extraordinary performance, rich UI elements, strong security norms, and unique features. Hire WordPress experts from ultroNeous who have huge working experience in developing custom WordPress business solutions with a great success rate. ",
+      "Our in-house team of WordPress developers is capable of creating custom websites from scratch for its clientele. For a unique business like yours, WordPress is a powerhouse when it comes to making websites of any capacity. Hire a WordPress expert from ultroNeous. ",
   },
   {
-    title: "Ecommerce Development",
+    title: "WooCommerce Development",
     description:
-      "ultroNeous offers WordPress-based eCommerce website development for every sized business. We have expertise in tailoring eCommerce stores with exclusive features, secure payment method integration, flexible inventory management, and more functionalities that are required for any successful eCommerce store.",
+      "WooCommerce helps business transform their WordPress site into a full-fledged eCommerce store. Hire WordPress developers to use its customization options, inventory management, secure payment integration, and other security options.",
   },
   {
     title: "Custom Themes Development",
     description:
-      "ultroNeous is an established WordPress development company that has served numerous clients with its bespoke WordPress web development service. Our developed custom web solutions are of top quality that give an extraordinary performance, rich UI elements, strong security norms, and unique features. Hire WordPress experts from ultroNeous who have huge working experience in developing custom WordPress business solutions with a great success rate. ",
+      "At ultroNeous believe that your website should have a deserving, splendid, and unique look. Our designers and developers make sure that it has all functionality with responsiveness. Hire WordPress developers for a custom WordPress theme for your site. ",
   },
   {
-    title: "Plugin Development",
+    title: "WordPress Plugin Development",
     description:
-      "With custom plugin development, our developed WordPress solutions are highly performant, secured, and scalable. Our dedicated WordPress developers carry a massive experience in developing WordPress plugins that satisfy the unique requirement and functionalities of your WordPress website.",
+      "WordPress sites have plugin support, which gives the site custom functionality as per your requirements. Our dedicated WordPress developers carry a massive experience in developing WordPress plugins that satisfy the  requirement and functionalities of your website. ",
   },
   {
     title: "Maintenance and Assistance",
     description:
-      "As an industry leader, we provide outstanding maintenance and after-sales support to every client we serve. Our WordPress experts take great care in maintaining and running frequent checks to ensure that the website is safe and up to date.",
+      "We provide superior maintenance and after-sales support to every client we serve. Hire WordPress developers, our experts take great care in maintaining and running frequent checks to ensure that your website is safe, bugs-free, and up to date. Let’s connect to know more.",
   },
 ];
 
 // -----------------------------------------Woocommerce Part----------------------------------------------------------------------------------------------------------------
 
-export const HireWoocommercelist = [
-  {
-    src: "/assets/tech/Woocommerc/SeamlessUI-UX.svg",
-    title: "Seamless UI/UX",
-    Description:
-      "Enjoy the unique functionalities and distinct visual elements for your eCommerce store to give an exceptional user experience to the visitors. ",
-  },
-  {
-    src: "/assets/tech/Woocommerc/Affordable.svg",
-    title: "Affordable",
-    Description:
-      "Since woo-commerce is an open-source development platform, get your eCommerce store developed at an affordable cost with flexibility and scalability features. ",
-  },
-  {
-    src: "/assets/tech/Woocommerc/Analytics.svg",
-    title: "Analytics",
-    Description:
-      "woo-commerce provides accurate and easily accessible product statistics, user information, order tracking, and other essential inventory metrics.",
-  },
-  {
-    src: "/assets/tech/Woocommerc/Seooptomize.svg",
-    title: "SEO Optimized",
-    Description:
-      "With effective and precise SEO plugins offered by woo-commerce, your eCommerce store can rank higher in search engine results. ",
-  },
-];
+// export const HireWoocommercelist = [
+//   {
+//     src: "/assets/tech/Woocommerc/SeamlessUI-UX.svg",
+//     title: "Seamless UI/UX",
+//     Description:
+//       "Enjoy the unique functionalities and distinct visual elements for your eCommerce store to give an exceptional user experience to the visitors. ",
+//   },
+//   {
+//     src: "/assets/tech/Woocommerc/Affordable.svg",
+//     title: "Affordable",
+//     Description:
+//       "Since woo-commerce is an open-source development platform, get your eCommerce store developed at an affordable cost with flexibility and scalability features. ",
+//   },
+//   {
+//     src: "/assets/tech/Woocommerc/Analytics.svg",
+//     title: "Analytics",
+//     Description:
+//       "woo-commerce provides accurate and easily accessible product statistics, user information, order tracking, and other essential inventory metrics.",
+//   },
+//   {
+//     src: "/assets/tech/Woocommerc/Seooptomize.svg",
+//     title: "SEO Optimized",
+//     Description:
+//       "With effective and precise SEO plugins offered by woo-commerce, your eCommerce store can rank higher in search engine results. ",
+//   },
+// ];
 
-export const HireWoocommerceServiceslist = [
-  {
-    title: "Woo-commerce Website Development & Design",
-    description:
-      "We specialize in creating woo-commerce eCommerce stores that satisfy the needs and expectations of our clients. Our woo-commerce experts always ensure that the stores they develop are compatible with all devices and operating systems. We are pioneers in designing stores that look fabulous and have a lot of rich user experience features. ",
-  },
-  {
-    title: "Custom Theme and Plugin Development",
-    description:
-      "Our woo-commerce development services include custom themes and plugins development that meet the demands of our client’s eCommerce store. We've successfully upgraded websites with unique features and capabilities using bespoke plugins and themes. Additionally, custom themes and plugins provide extra control and functionality to admins and users. ",
-  },
-  {
-    title: "Woo-commerce App Development",
-    description:
-      "ultroNeous offers certified woo-commerce developers for hire to perform website support and maintenance tasks. We don't want our clients to experience downtime or technical difficulties, therefore our round-the-clock support services make sure that their online businesses are up and running at all times.",
-  },
-  {
-    title: "Site Support and Maintenance",
-    description:
-      "With custom plugin development, our developed WordPress solutions are highly performant, secured, and scalable. Our dedicated WordPress developers carry a massive experience in developing WordPress plugins that satisfy the unique requirement and functionalities of your WordPress website.",
-  },
-];
+// export const HireWoocommerceServiceslist = [
+//   {
+//     title: "Woo-commerce Website Development & Design",
+//     description:
+//       "We specialize in creating woo-commerce eCommerce stores that satisfy the needs and expectations of our clients. Our woo-commerce experts always ensure that the stores they develop are compatible with all devices and operating systems. We are pioneers in designing stores that look fabulous and have a lot of rich user experience features. ",
+//   },
+//   {
+//     title: "Custom Theme and Plugin Development",
+//     description:
+//       "Our woo-commerce development services include custom themes and plugins development that meet the demands of our client’s eCommerce store. We've successfully upgraded websites with unique features and capabilities using bespoke plugins and themes. Additionally, custom themes and plugins provide extra control and functionality to admins and users. ",
+//   },
+//   {
+//     title: "Woo-commerce App Development",
+//     description:
+//       "ultroNeous offers certified woo-commerce developers for hire to perform website support and maintenance tasks. We don't want our clients to experience downtime or technical difficulties, therefore our round-the-clock support services make sure that their online businesses are up and running at all times.",
+//   },
+//   {
+//     title: "Site Support and Maintenance",
+//     description:
+//       "With custom plugin development, our developed WordPress solutions are highly performant, secured, and scalable. Our dedicated WordPress developers carry a massive experience in developing WordPress plugins that satisfy the unique requirement and functionalities of your WordPress website.",
+//   },
+// ];
 
 // -----------------------------------------Magento Part----------------------------------------------------------------------------------------------------------------
 export const HireMagentolist = [
@@ -737,24 +737,24 @@ export const HireMagentolist = [
 
 export const HireMagentoServiceslist = [
   {
-    title: "Custom Web & Extensions Development",
+    title: "Custom web & extensions",
     description:
-      "ultroNeous' Magento developers have mastered the development of custom eCommerce websites and extensions for extra functionality and features to match the unique requirements of eCommerce stores.",
+      "ultroNeous' Magento developers are efficient in development of custom eCommerce websites and extensions for extra functionality and features to match the unique requirements of your eCommerce store. Our team of Magento developers help you with your B2C and B2B business.",
   },
   {
     title: "Performance Optimization",
     description:
-      "As a leading Magento development agency, ultroNeous investigates the store's codebase and server environment to identify potential issues and fix them in order to enhance the store's performance.",
+      "As a leading Magento development agency, ultroNeous investigates your store's codebase, environment to detect any site caching issue, media related issues on the site and fix them in order to enhance the store’s performance. Hire dedicated magento developer to get started with us.",
   },
   {
     title: "Upgrade and Migration",
     description:
-      "Working with cutting-edge technology is an excellent option for businesses. Our developers are skilled at updating existing Magento versions to the most recent. In addition, we offer store migration services from one platform to another. (For instance, Shopify to Magento, woo commerce to Magento, and so on.)",
+      "Ecommerce stores have a greater responsibilities while they are processing customers' payment data. Stores have to comply with certain regulations set by an authoritative body. Hire dedicated Magento developers to integrating all the security and privacy focused features on your site.",
   },
   {
     title: "Payment Integration",
     description:
-      "Ecommerce stores put great importance on secure payment options that we are happy to provide with exceptional accuracy and efficiency. Hire dedicated Magento developers to properly integrate a range of secure payment options into your eCommerce site.",
+      "Ecommerce stores have a greater responsibilities while they are processing customers' payment data. Stores have to comply with certain regulations set by an authoritative body. Hire dedicated Magento developers to integrating all the security and privacy focused features on your site.",
   },
 ];
 
@@ -788,34 +788,34 @@ export const HirePHPlist = [
 
 export const HirePHPServiceslist = [
   {
-    title: "Custom Web App Development",
+    title: "Custom PHP development ",
     description:
-      "ultroNeous' PHP developers have a plethora of experience and skill sets in creating custom web applications for clients. Using their extraordinary PHP proficiency, they have created custom solutions for enterprises, CRM systems for all-sized organizations, custom eCommerce solutions, and much more.",
+      "ultroNeous' PHP developers have experience and skill sets in creating custom web applications for its clientele. Using their extensive PHP proficiency, they have created custom solutions for enterprises & clientele , CRM systems for all-sized organizations, custom eCommerce solutions, etc.",
   },
   {
     title: "Full Stack PHP Development ",
     description:
-      "We are a PHP web development company that offers full-stack PHP development to meet diverse business needs. ultroNeous’ developers are skilled in managing and administering frontend and backend development operations simultaneously and effectively.",
+      "We are a PHP web development company that offers full-stack PHP development to meet diverse business needs. ultroNeous’ developers are experience & have good skilled in managing and administering frontend and backend development operations simultaneously and effectively.",
   },
   {
     title: "ERP Software Development",
     description:
-      "ultroNeous has served numerous enterprises for better resources planning and management for their organizations. Our expert PHP developers hold vast experience in developing custom Enterprise Resource Planning software using the latest PHP frameworks and technology;.",
+      "ultroNeous PHP team develops adaptable ERP and management to streamline your workflow, improve business reporting, and better supply chain for your organizations. Our expert PHP developers manages  to develop custom Enterprise Resource Planning software using latest PHP framework.",
   },
   {
     title: "Extensions Development",
     description:
-      "Hire dedicated PHP developers from ultroNeous for custom extensions development to meet the demand for unique features and functionalities on a website. We've successfully served many firms with this service that were meant to provide advanced features to their websites.",
+      "Hire dedicated PHP developers from ultroNeous for your custom extensions development to meet the demand for unique features and functionalities on a website. We've successfully served many firms with this service that were meant to provide advanced features to their websites.",
   },
   {
     title: "PHP Up-gradation & Migration",
     description:
-      "Apart from PHP development services, we also provide upgrade and migration services for your existing web applications from platforms/frameworks such as Python, NodeJS, and others to the PHP platform.",
+      "Apart from PHP development services, ultroNeous also provide upgradation and migration services. PHP has become a worthy web solution alternative for your existing web applications from platforms/frameworks such as Python, NodeJS, and others to the PHP platform.",
   },
   {
     title: "PHP Site Maintenance ",
     description:
-      "Checking and fixing a website’s errors and bugs is a frequent activity of our PHP developers. Because of our experienced software development team, we are the industry specialists in maintaining PHP websites effectively and efficiently.",
+      "Checking and fixing a website’s errors and bugs is a frequent activity of our PHP developers. Because of our experienced software development team, we are the industry specialists in maintaining PHP websites effectively and efficiently, hire php programmers to maintain your website on the go.",
   },
 ];
 
@@ -826,19 +826,19 @@ export const HireLaravellist = [
     src: "/assets/tech/Laravel/Highsecurity.svg",
     title: "High Security ",
     Description:
-      "Laravel provides top-notch security for website codes and protects data and information in web applications from malicious threats.",
+      "Laravel provides top-notch security for website codes and protects data and information in web applications from cross-site request forgeries.",
   },
   {
     src: "/assets/tech/Laravel/MVC.svg",
     title: "MVC Architecture",
     Description:
-      "PHP offers compatibility with almost every operating system (OS) and a browser with smooth loading and operating features.",
+      "Laravel's MVC (Model View Controller) architecture allows for easier code maintenance, which improves the app's efficiency.",
   },
   {
     src: "/assets/tech/Laravel/Highhinted.svg",
     title: "Heightened Performance",
     Description:
-      "The app's performance is boosted by built-in features such as route caching, queueing system, cache control middleware, and minification. ",
+      "The app's performance is boosted by built-in features such as route caching, queueing system, cache control middleware, and minification.",
   },
   {
     src: "/assets/tech/Laravel/Datamigration.svg",
@@ -852,32 +852,32 @@ export const HireLaravelServiceslist = [
   {
     title: "Web Development",
     description:
-      "ultroNeous is a leading Laravel web development company with considerable experience in creating high-end web applications with incredible performance, user interface, and rich functionality.",
+      "ultroNeous is a leading custom Laravel web development company with considerable experience in creating high-end web applications with incredible performance, user interface, and rich functionality. Let's discuss your next idea, and we will find the best solution for you.",
   },
   {
     title: "App Development ",
     description:
-      "Our seasoned Laravel developers have a lot of experience in building high-performing enterprise mobile apps. We develop mobile apps that are fast, interactive, have rich visual elements, have high-quality user interface elements, and provide the finest user experience using Laravel's hot reload feature and large widget library.",
+      "Our seasoned Laravel developers have a lot of experience in building high-performing enterprise mobile apps. Mobile apps that have fast, interactive, rich visual elements, have high-quality user interface elements and provide the finest user experience.",
   },
   {
     title: "Extension Development",
     description:
-      "ultroNeous lets you hire Laravel developers for developing custom extensions that will meet your business website/app requirement in an easy manner. With custom Laravel extensions, our developers create web apps that have exclusive features, bespoke functions/options, accurate analytics, and much more.",
+      "Hire Laravel developers for developing custom extensions that are required for your business website/app requirement efficiently. With custom Laravel extensions, developers can make payment extensions for web apps that have exclusive features, bespoke functions etc.",
   },
   {
     title: "Template Development",
     description:
-      "Our skilled developers are adept at building a well-designed Laravel template that makes development work easier for professionals. A well-designed Laravel template can deliver unrivaled project quality with a fast project completion rate.",
+      "Our skilled developers are adept at building a well-designed Laravel template that has given stunning dashboard, easy navigation and as per custom requirements. A well-designed Laravel template can deliver unrivaled project quality with a fast project completion rate.",
   },
   {
     title: "API Development",
     description:
-      "ultroNeous has a broad set of Laravel developers open for hire who have extensive experience in creating custom APIs for all sizes and types of businesses.",
+      "Our team of dedicated Laravel developers is sufficient in developing the custom API as per project requirements. With custom APIs, which help in connecting with cloud apps, productivity. Hire laravel web development company for your custom API development.",
   },
   {
     title: "Support & Maintenance",
     description:
-      "The developers at ultroNeous provide a complete bundle for software solutions that cover every part of it. They are confident in their ability to provide effective and efficient support and maintenance for your Laravel web apps, as well as strong and quick error-resolution skills.",
+      "The developers at ultroNeous provide a complete bundle of software solutions that cover every part of it. We provide post-development support and maintenance for your website at affordable rates to make sure your website is always up at any given time.",
   },
 ];
 
@@ -904,9 +904,9 @@ export const HireCodeigniterlist = [
   },
   {
     src: "/assets/tech/Codignator/Manage.svg",
-    title: "Manageable ",
+    title: "MVC Architecture  ",
     Description:
-      "Because it provides smooth manageable options for every feature, CodeIgniter is ideal for enterprise-level web applications.",
+      "CodeIgniter is Model-View-Controller based platform, it mean that it is ideal for large web application aswell.",
   },
 ];
 
@@ -914,32 +914,32 @@ export const HireCodeigniterServiceslist = [
   {
     title: "Web Application Development",
     description:
-      "The devoted and skilled CodeIgniter developers at ultroNeous are well-versed in developing custom web apps with strong security features, an interactive UI, and high speed.",
+      "The skilled CodeIgniter developers at ultroNeous are well-versed in developing custom web apps with strong security features, an interactive UI, and high speed. Hire codeigniter developers to make your web application reliable and interactive.",
   },
   {
-    title: "CMS Development ",
+    title: "Custom CMS development ",
     description:
-      "Our seasoned Laravel developers have a lot of experience in building high-performing enterprise mobile apps. We develop mobile apps that are fast, interactive, have rich visual elements, have high-quality user interface elements, and provide the finest user experience using Laravel's hot reload feature and large widget library.",
+      "Through our CodeIgniter web development services, we have served organizations with custom CMS (content management system) design & development services. ultroNeous’ developers are well-experienced in writing PHP codes that can be reused for kind of projects.",
   },
   {
-    title: "Module and Plugin Development",
+    title: "Ecommerce Development",
     description:
-      "ultroNeous' expert CodeIgniter developers are the best in class when it comes to bespoke module and plugin development. CodeIgniter modules and plugins are meant to give an easy understanding of different features and extra functions to the web application respectively.",
+      "ultroNeous' experts believes CodeIgniter is the right choice for your ecommerce website. ultroNeous developers are the best in class when it comes to bespoke module and plugin development. CodeIgniter modules and plugins are meant to give an easy understanding.",
   },
   {
     title: "Shopping Cart Development ",
     description:
-      "Hire CodeIgniter experts from ultroNeous, who are professionals at creating custom shopping carts for a range of businesses that meet all of the cart's requirements.",
+      "Hire CodeIgniter experts from ultroNeous, who are professionals at creating shopping cart for your ecommerce store, shopping cart looks a straightforward concept, but in reality it helps in making a record of data, makes convinient to customers.",
   },
   {
     title: "Enterprise App Development",
     description:
-      "ultroNeous has a broad set of Laravel developers open for hire who have extensive experience in creating custom APIs for all sizes and types of businesses.",
+      "ultroNeous is renowned codeigniter development company for its ultimate and custom enterprise solutions. With CodeIgniter, our developers are delivering more scalable and versatile enterprise apps that give more positive outcomes for the organizations.",
   },
   {
     title: "Support, Maintenance, & Migration",
     description:
-      "The developers at ultroNeous provide a complete bundle for software solutions that cover every part of it. They are confident in their ability to provide effective and efficient support and maintenance for your Laravel web apps, as well as strong and quick error-resolution skills.",
+      "For a seamless migration of your web app from one platform to CodeIgniter, hire our dedicated CodeIgniter developers. Our developers are well-experienced in delivering solid 24/7 support and maintenance service to it’s clientele.",
   },
 ];
 
@@ -949,13 +949,13 @@ export const HireNodeJSlist = [
     src: "/assets/tech/Nodejs/scalability 1.svg",
     title: "Scalability  ",
     Description:
-      "Node leverages microservice architecture to achieve great performance, which is also the main reason for its scalability and adaptability. ",
+      "NodeJS development leverages microservice architecture to achieve great performance that results in highly scalable web apps. ",
   },
   {
     src: "/assets/tech/Nodejs/clock 2.svg",
     title: "Speedy Development",
     Description:
-      "Node offers rapid development due to features like easy creation of APIs, microservice environments, prototyping solutions & architecture",
+      "NodeJS supports easy creation of APIs, microservice environments, prototyping solutions, and architecture that gives speedy development.",
   },
   {
     src: "/assets/tech/Nodejs/Aws 3.svg",
@@ -965,50 +965,50 @@ export const HireNodeJSlist = [
   },
   {
     src: "/assets/tech/Nodejs/Bigcumm 4.svg",
-    title: "Big Community ",
+    title: "Community Support ",
     Description:
       "Because Node is an open-source platform with a large user base, there is a lot of community assistance for users & developers.",
   },
 ];
 export const HireNodeJSServiceslist = [
   {
-    title: "Web Development",
+    title: "Web and Mobile Apps Development ",
     description:
-      "Hire NodeJs developers from ultroNeous to develop a robust, goal-oriented, and scalable web application for your business. Our developers are skilled in developing custom web apps that are highly secure, interactive, easy to manage, have smooth operating features, and other qualities that are essential to any successful business model.",
+      "Hire NodeJS developers from ultroNeous to develop a robust, goal-oriented, and scalable web and mobile application for your business. Our developers are skilled in developing custom apps that are highly secure, interactive, easy to manage  for any successful business.",
   },
   {
-    title: "Plugin & Module Development ",
+    title: "Single Page Application ",
     description:
-      "We are professionals in designing custom NodeJS plugins and modules to take full advantage of the NPM (Node.Js Packet Manager) functionality of node as a leading NodeJs development company. Web apps can be made more efficient and effective by using custom plugins and modules.",
+      "Out developers are professionals in designing and developing single-page applications from scratch. SPA helps in decreasing load time to users a quick and faster service. Hire nodejs developers to begin your Single Page Application for a best-in-class experience.",
   },
   {
     title: "Real-Time App Development ",
     description:
-      "The NodeJs developers at ultroNeous are constantly eager and experienced in designing real-time apps that give top-notch performance and meet corporate objectives. For our valued clients, we have successfully produced IM (immediate meeting) apps, chatbots, video conferencing apps, and voice-over Internet Protocol apps.",
+      "The NodeJS developers at ultroNeous are experienced in developing real-time apps that give top-notch performance and meet corporate objectives. For our valued clients, we have successfully produced IM  apps, chatbots, video conferencing apps, and VoIP apps.",
   },
   {
     title: "Enterprise Solutions ",
     description:
-      "ultroNeous' NodeJs developers are skilled and have a lot of experience designing custom web apps for large companies in the last few years. Our proprietary software has assisted businesses in increasing their revenue, security, and dependability.",
+      "ultroNeous' NodeJS developers are skilled and experienced in designing and developing custom web apps for large companies in the last few years. Our proprietary software has assisted businesses in increasing their revenue, security, and dependability.",
   },
   {
-    title: "Migration",
+    title: "UX/UI Development",
     description:
-      "Our skilled developers will seamlessly migrate your existing web application from.NET, Java, PHP, or any other platform to Node.Js. They have a lot of experience with this type of technical processing.",
+      "User Experience and Interface are a crucial part of any type of web application/website. ultroNeous Technologies, as a nodejs development company has always developed applications keeping UX/UI in mind to give clients the best experience possible.",
   },
   {
     title: "Support and Maintenance",
     description:
-      "We aim to create amazing web apps while also preserving their quality through regular maintenance inspections and ongoing support. We serve our valued clients with world-class support and maintenance for Node.js web applications.",
+      "As a nodejs development company, we aim to create amazing web apps while also preserving their quality through regular maintenance inspections and ongoing support. We serve our valued clients with world-class support and maintenance for Node.JS web applications.",
   },
 ];
 // -----------------------------------------Angular Part----------------------------------------------------------------------------------------------------------------
 export const HireAngularlist = [
   {
-    src: "/assets/tech/Angular/Readibility 1.svg",
-    title: "Readability   ",
+    src: "/assets/seo_friend.svg",
+    title: "SEO Friendly",
     Description:
-      "In Angular codes are written in typescript that gives better code understanding and enhanced apps' productivity. ",
+      "Angular is SEO-friendly, which is important to rank your website on search engines like Google, Bing and etc. ",
   },
   {
     src: "/assets/tech/Angular/Strongsecurity 2.svg",
@@ -1032,34 +1032,34 @@ export const HireAngularlist = [
 
 export const HireAngularServiceslist = [
   {
-    title: "Custom Angular Development ",
+    title: "Custom Software Development ",
     description:
-      "ultroNeous has produced countless custom angular web application solutions for various types of corporations and enterprises as a trusted angular development company. We have successfully completed over 80 projects for our clients, each with its own set of criteria and specifications.",
+      "ultroNeous offers countless custom angular web application solutions for various types of corporations and enterprises as a trusted angular development company.",
   },
   {
-    title: "Angular Plugin Development ",
+    title: "Framework Plugin Development ",
     description:
-      "We are a well-known AngularJs development company that has set milestones in the development of bespoke Angular plugins. We built these plugins to satisfy the project's standards and requirements.",
+      "We are a well-known AngularJS development company that has set milestones in the development of powerful feature-rich plugins to fulfill clients’ business needs. ultroNeous lets you hire angular developers to work on your custom requirements.",
   },
   {
     title: "AJAX Development ",
     description:
-      "Our developers have vast experience with XHTML, CSS, Java, and other programming languages. These abilities enable them to create AJAX web applications that are faster, more responsive, and easier to use.",
+      "Hire angular developers from ultroNeous, who have vast experience in the design and development of web applications, we will help you create web applications that are more responsive, more efficient, and more user-friendly than their predecessors.",
   },
   {
-    title: "Angular Ecommerce Solutions ",
+    title: "Angular Ecommerce Development",
     description:
-      "Our developers are experienced at creating interactive and feature-rich eCommerce portals using the Angular framework for a better store consumer experience. Our company has created a number of customized shopping carts for online retailers with attractive and responsive design styles.",
+      "Designing and developing a shopping cart for your ecommerce store with Angular as it gives added security. Our developers are experienced at making interactive, faster, and feature-rich eCommerce portals using the Angular framework for a better store consumer experience.",
   },
   {
     title: "Migration Service",
     description:
-      "We understand the necessity to upgrade a web application from an earlier version of Angular to the most recent one. Hire our qualified angular developers to help you migrate your angular web application in a smooth and effective manner.",
+      "We understand the necessity to upgrade a web application from an earlier version of Angular to the most recent one, we offer AngularJS to Angular migration. Hire our qualified angular developers to help you migrate your angular web application in a smooth and effective manner.",
   },
   {
     title: "Maintenance and Support",
     description:
-      "The Angular in-house team at ultroNeous has mastered the art of maintaining and providing world-class support for web and mobile apps. Our developers are available 24/7 to successfully monitor the web app's performance.",
+      "The Angular in-house team at ultroNeous has mastered the art of maintaining and providing world-class support for web and mobile apps. Which includes support, upgrades, technical enhancements. Our developers are available 24/7 to successfully monitor the web app's performance.",
   },
 ];
 
@@ -1092,53 +1092,53 @@ export const HireReactJSlist = [
 ];
 export const HireReactJSServiceslist = [
   {
-    title: "ReactJs Web App Development ",
+    title: "ReactJS Development ",
     description:
-      "Our creative ReactJs developers have extensive expertise in designing unique ReactJs web applications for clients across a variety of industries. Our skilled programmers have all of the necessary software development skills and talents to develop smooth, interactive, and high-performing web and mobile applications.",
+      "Our creative ReactJs developers have expertise in designing and developing unique ReactJs web applications for clients across a variety of industries. With all our skills in front-end ReactJS development, our team will develop high-performing web and mobile applications.",
   },
   {
     title: "Native App Development",
     description:
-      "The ReactJs developers at ultroNeous have a lot of experience building cross-platform native apps with the utmost quality and performance.",
+      "The ReactJs developers at ultroNeous have a lot of experience building cross-platform native apps with the utmost quality and performance. As a leading ReactJS development company, ultroNeous assures you the interactive UI and excellent experience in application development.",
   },
   {
     title: "Enterprise App Development ",
     description:
-      "ReactJs developers at ultroNeous acquire expertise in developing enterprise-level applications for different sizes of organizations. Our developed apps have successfully solved and eased the complexity of numerous enterprises.",
+      "Our dedicated team of developers at ultroNeous has acquired expertise in developing enterprise-level applications for different sizes of organizations. Our developed apps have successfully solved and eased the complexity of numerous enterprises.",
   },
   {
-    title: "Plugin Development  ",
+    title: "Migration to React Library  ",
     description:
-      "We are a market leader in designing custom ReactJs plugins to fulfill specific business requirements. In the past, our developers have created seamless, efficient, and captivating custom plugins for our esteemed clients.",
+      "ultroNeous' ReactJs developers have a track record of migrating existing web applications from another framework to ReactJs without errors or data loss. Hire reactjs developers from ultroNeous for migration services.",
   },
   {
     title: "ReactJs eCommerce Development ",
     description:
-      "The developers of ultroNeous have successfully integrated ReactJs into existing eCommerce stores.  Our clients have noted significant growth in the revenue and enhanced user experience of the store after ReactJs came into play.      ",
+      "The team of developers at ultroNeous has successfully integrated ReactJs into existing eCommerce stores. It plays a massive role in the success of eCommerce apps or web applications because of reusable components. ",
   },
   {
     title: "UI/UX Development",
     description:
-      "The ReactJs developers at ultroNeous relish developing eye-catching UI/UX features for web apps. Choose us to improve the user experience of your React web and mobile applications.",
+      "The ReactJs developers at ultroNeous relish developing eye-catching UI/UX features for web apps. We make sure to improve the user experience of your web and mobile applications by delivering interactive and capable design with maximum functionality.",
   },
-  {
-    title: "Migration ",
-    description:
-      "ultroNeous' ReactJs developers have a track record of migrating existing web applications from one platform to ReactJs without errors or data loss.",
-  },
+  // {
+  //   title: "Migration ",
+  //   description:
+  //     "ultroNeous' ReactJs developers have a track record of migrating existing web applications from one platform to ReactJs without errors or data loss.",
+  // },
   {
     title: "Support and Maintenance",
     description:
-      "We assist our clients with high-quality React web app maintenance and support. Our developers are ready for our clients at all times for any type of support or maintenance work.",
+      "We assist our clients with high-quality Reactjs web app maintenance and support. Our support team is ready for you at all times for any type of support or maintenance work. Contact us now.",
   },
 ];
 // -----------------------------------------VueJS Part----------------------------------------------------------------------------------------------------------------
 export const HireVueJSlist = [
   {
     src: "/assets/tech/vue/coding 1.svg",
-    title: "Code Readability ",
+    title: "Based on MVVM",
     Description:
-      "All of the code components are stored in their own files, which makes code reading straightforward and easy, resulting in better code and app quality.",
+      "VueJS’ MVVM architecture helps in Code reusability, ease of testing, and easy maintenance.",
   },
   {
     src: "/assets/tech/vue/Unit 2.svg",
@@ -1161,97 +1161,97 @@ export const HireVueJSlist = [
 ];
 export const HireVueJSServiceslist = [
   {
-    title: "Custom Web Application Development ",
+    title: "Custom Web Application  ",
     description:
-      "Hire VueJs developers from ultroNeous to reap the benefits of their years of experience in developing distinctive web applications. Our developers have extensive experience designing custom VueJs web and mobile applications for a variety of business sizes without sacrificing quality.",
+      "Hire VueJs developers from ultroNeous to reap the benefits of years of experience in developing distinctive web applications. Our developers have extensive experience designing custom VueJs web and mobile applications for a variety of business sizes without sacrificing quality.",
   },
   {
     title: "Real-Time App Development",
     description:
-      "The developers of ultroNeous are well-versed in developing real-time applications for a variety of domains. Our VueJs developers are experienced in creating high-performing real-time apps that provide a fantastic user experience.",
+      "The developers of ultroNeous are well-versed in developing real-time applications for a variety of domains. Our VueJs developers are experienced in creating high-performing real-time apps that provide a robust user experience.",
   },
   {
     title: "Portal Development  ",
     description:
-      "We are industry experts in the development of high-performing web portals for companies that offer a variety of products and services. With the finest project quality, our skilled developers have successfully developed custom portals for B2B and B2C business models.",
+      "ultroNeous is an industry expert in the development of high-performing web portals for companies that offer a variety of services. With finest project quality, our skilled developers have successfully developed custom portals for B2B and B2C business models.",
   },
   {
-    title: "Plugin Development ",
+    title: "Mobile App Development  ",
     description:
-      "We have extensive experience and expertise in creating custom VueJs plugins for our clients' web apps. The goal of developing unique plugins is to fulfill the specific needs of a web app, and our developers have done so time and time over thanks to their significant experience.",
+      "We have extensive experience and expertise in creating custom VueJs apps for mobile. The goal of developing unique apps is to fulfill the specific needs of industry demand, and our developers use Vue JS because of its cross-platform functionality.",
   },
   {
-    title: "Migration",
+    title: "Migration Solution",
     description:
       "We provide a seamless migration service for web applications from various frameworks to VueJs, free of errors and data loss. If you want to improve the performance, responsiveness, and user experience of your web app, switching to VueJs is a fantastic option.",
   },
   {
     title: "Upgradation and Maintenance",
     description:
-      "ultroNeous is an industry leader in VueJs app development and its maintenance and upgrades. Our elite developers are always accessible to help with their considerable experience in identifying and resolving technical issues in VueJs web applications. Our talented developers will never let you down when it comes to updating and maintaining your web app.",
+      "ultroNeous is an industry leader in VueJs app development and its maintenance and up-gradation. Our elite developers are always accessible to help with their considerable experience in identifying and resolving technical issues in VueJs web applications.",
   },
 ];
 
 // -----------------------------------------FrontEnd Part----------------------------------------------------------------------------------------------------------------
-export const HireFrontEndlist = [
-  {
-    src: "/assets/tech/Frontend/Responsive1.svg",
-    title: "Responsive Apps ",
-    Description:
-      "Front-end experts develop fast and highly responsive applications with quick responding app features and functionalities.",
-  },
-  {
-    src: "/assets/tech/Frontend/Fast dev 2.svg",
-    title: "Fast Development Process",
-    Description:
-      "It is feasible to complete the front-end development process faster than usual using the latest and improved framework technologies.",
-  },
-  {
-    src: "/assets/tech/Frontend/Reliable 3.svg",
-    title: "Reliable & Tested Codes ",
-    Description:
-      "Because the majority of front-end frameworks are open-source platforms, the codes have been well tested and are extensively utilized.",
-  },
-  {
-    src: "/assets/tech/Frontend/High secure 4.svg",
-    title: "Highly Secured ",
-    Description:
-      "Since the codes are highly secured in comparison to other development methods, front-end frameworks provide reliable security to the apps.",
-  },
-];
+// export const HireFrontEndlist = [
+//   {
+//     src: "/assets/tech/Frontend/Responsive1.svg",
+//     title: "Responsive Apps ",
+//     Description:
+//       "Front-end experts develop fast and highly responsive applications with quick responding app features and functionalities.",
+//   },
+//   {
+//     src: "/assets/tech/Frontend/Fast dev 2.svg",
+//     title: "Fast Development Process",
+//     Description:
+//       "It is feasible to complete the front-end development process faster than usual using the latest and improved framework technologies.",
+//   },
+//   {
+//     src: "/assets/tech/Frontend/Reliable 3.svg",
+//     title: "Reliable & Tested Codes ",
+//     Description:
+//       "Because the majority of front-end frameworks are open-source platforms, the codes have been well tested and are extensively utilized.",
+//   },
+//   {
+//     src: "/assets/tech/Frontend/High secure 4.svg",
+//     title: "Highly Secured ",
+//     Description:
+//       "Since the codes are highly secured in comparison to other development methods, front-end frameworks provide reliable security to the apps.",
+//   },
+// ];
 
-export const HireFrontEndServiceslist = [
-  {
-    title: "Custom Web Apps Development  ",
-    description:
-      "Use the skills of ultroNeous' front-end developers to make custom web applications that efficiently meet your company’s needs. Our skilled developers are well-versed in developing custom web solutions using clean and safe code to meet project requirements.",
-  },
-  {
-    title: "ReactJs Development ",
-    description:
-      "Hire front-end developers from our in-house team to develop ReactJs apps that are progressive and scalable. We are innovators in the development of progressive and scalable applications that surpass clients' expectations while maintaining excellent app quality.",
-  },
-  {
-    title: "AngularJs Development ",
-    description:
-      "ultroNeous is a top front-end development company with highly skilled developers who create cutting-edge technological solutions using the AngularJS framework. Our talented and experienced front-end developers understand how to harness the power of AngularJs to create robust dynamic web and mobile applications.",
-  },
-  {
-    title: "VueJs Development  ",
-    description:
-      "ultroNeous' front-end developers are skilled and experienced in developing sophisticated mobile apps and single-page web applications. We are the industry leaders in front-end VueJs development due to our solid track records and development skills.",
-  },
-  {
-    title: "CMS Development and Design ",
-    description:
-      "Content Management System is the backbone of any business model. The developers at ultroNeous have developed a range of custom CMS software for businesses that has a flexible and responsive design as well as strong security measures. Hire our front developers to build robust and responsive CMS solutions to boost your business’ growth.",
-  },
-  {
-    title: "UX/UI Designing",
-    description:
-      "The main goal of front-end development is to create an application with a highly interactive design and an excellent user experience. To accomplish this goal, our talented developers and designers collaborate. We've helped a number of clients with great UI/UX web apps, and we're excited to continue working on more productive and successful projects.",
-  },
-];
+// export const HireFrontEndServiceslist = [
+//   {
+//     title: "Custom Web Apps Development  ",
+//     description:
+//       "Use the skills of ultroNeous' front-end developers to make custom web applications that efficiently meet your company’s needs. Our skilled developers are well-versed in developing custom web solutions using clean and safe code to meet project requirements.",
+//   },
+//   {
+//     title: "ReactJs Development ",
+//     description:
+//       "Hire front-end developers from our in-house team to develop ReactJs apps that are progressive and scalable. We are innovators in the development of progressive and scalable applications that surpass clients' expectations while maintaining excellent app quality.",
+//   },
+//   {
+//     title: "AngularJs Development ",
+//     description:
+//       "ultroNeous is a top front-end development company with highly skilled developers who create cutting-edge technological solutions using the AngularJS framework. Our talented and experienced front-end developers understand how to harness the power of AngularJs to create robust dynamic web and mobile applications.",
+//   },
+//   {
+//     title: "VueJs Development  ",
+//     description:
+//       "ultroNeous' front-end developers are skilled and experienced in developing sophisticated mobile apps and single-page web applications. We are the industry leaders in front-end VueJs development due to our solid track records and development skills.",
+//   },
+//   {
+//     title: "CMS Development and Design ",
+//     description:
+//       "Content Management System is the backbone of any business model. The developers at ultroNeous have developed a range of custom CMS software for businesses that has a flexible and responsive design as well as strong security measures. Hire our front developers to build robust and responsive CMS solutions to boost your business’ growth.",
+//   },
+//   {
+//     title: "UX/UI Designing",
+//     description:
+//       "The main goal of front-end development is to create an application with a highly interactive design and an excellent user experience. To accomplish this goal, our talented developers and designers collaborate. We've helped a number of clients with great UI/UX web apps, and we're excited to continue working on more productive and successful projects.",
+//   },
+// ];
 // -----------------------------------------iOS Part----------------------------------------------------------------------------------------------------------------
 export const HireiOSlist = [
   {
@@ -1270,7 +1270,7 @@ export const HireiOSlist = [
     src: "/assets/tech/Ios/Sca 3.svg",
     title: "Scalability ",
     Description:
-      "With custom iOS apps for business, it is easy to scale Apple applications by integrating new features and functionalities.",
+      "Apple apps are renowned for their high performance, smooth running experience, and attractive call-to-action icons.",
   },
   {
     src: "/assets/tech/Ios/Userex 4.svg",
@@ -1283,13 +1283,13 @@ export const HireiOSServiceslist = [
   {
     title: "Custom iOS App Development",
     description:
-      "As a professional iOS app development company, we have an immense working knowledge with SWIFT, OBJECTIVE C, XCODE, and other prominent iPhone app development technologies. Our iOS developers possess strong technical skills, outstanding problem-solving aptitude, the ability to write high-quality code, and other necessary attributes for designing business apps that are both productive and performant. Hire them right now to create a fantastic iOS app for your business.",
+      "As a reputable iOS app development business, we have extensive experience with SWIFT, OBJECTIVE C, XCODE, and other popular iPhone app development technologies, as well as other popular programming languages. You may hire one of our iOS developers to design a wonderful iOS application for your company.",
   },
-  {
-    title: "Real-Time App Development",
-    description:
-      "ultroNeous privileged iOS developers with years of experience who can develop real-time apps for your company. Real-time apps are fantastic for providing effective customer care 24 hours a day, seven days a week. For more information on how iOS real-time apps can help your business, contact us.",
-  },
+  // {
+  //   title: "iOS game development",
+  //   description:
+  //     "Metal, The Game Controller Framework, ReplayKit, and other main framework technologies are used extensively by our iOS developers to produce high-quality games for the Apple platform. We never disappoint our clients when it comes to the quality and performance of our gaming apps as an iOS app development business.",
+  // },
   {
     title: "iOS Game Development ",
     description:
@@ -1298,12 +1298,12 @@ export const HireiOSServiceslist = [
   {
     title: "Support and Maintenance",
     description:
-      "Not only do our developers develop apps, but they're also industry professionals when it comes to offering exceptional iOS app maintenance and support. ultroNeous' developers are available 24/7 to provide excellent assistance and maintenance services to clients who are experiencing technical challenges with their apps.  ",
+      "In addition to being app developers, our team members are also specialists in the field of iOS app maintenance and support. Clients can count on ultroNeous to be available around the clock to support and maintain their apps whenever they need it.",
   },
   {
-    title: "Migration & Upgradations ",
+    title: "UX/UI Design",
     description:
-      "We are a prominent iOS development company that offers seamless app migration from one platform to iOS. Our developers can also update your iOS business app to the latest iOS versions without causing any data loss or code breakage. Get in touch with us to learn more about migrating and upgrading your iOS apps. ",
+      "Apple is well-known for providing its mobile consumers with the finest possible user experience. The criteria established by the App Store place a high level of responsibility on our developers to create high-quality mobile applications. ",
   },
 ];
 // -----------------------------------------Android Part----------------------------------------------------------------------------------------------------------------
@@ -1312,37 +1312,37 @@ export const HireAndroidlist = [
     src: "/assets/tech/Android/Marketing m1.svg",
     title: "Marketing Medium",
     Description:
-      "With push notifications, android applications offer direct and customized marketing channels to the business at zero cost.  ",
+      "With push notifications, android applications offer direct and customized marketing channels to the business at zero cost. ",
   },
   {
     src: "/assets/tech/Android/boost p2.svg",
-    title: "Boost Profit ",
+    title: "Faster  Deployment ",
     Description:
-      "Because Android apps are available 24 hours a day, 7 days a week, and have a wide reach, they increase the number of customers and revenue for businesses. ",
+      "Android Apps benefit from the quicker deployment as it takes only a few hours to deploy. This helps the company to have a quicker go-to-market for their idea.",
   },
   {
-    src: "/assets/tech/Android/Build & grow3.svg",
-    title: "Build & Grow Business",
+    src: "/assets/and3.svg",
+    title: "Security",
     Description:
-      "Brand recognition is critical for every business's growth, and you can simply achieve it using Android apps.",
+      "With the introduction of several additional & built-in security features, Android P helps in protection against malware  & viruses.",
   },
   {
-    src: "/assets/tech/Android/Reach p4.svg",
-    title: "Reach More People",
+    src: "/assets/and4.svg",
+    title: "Customization ",
     Description:
-      "Android is the most popular mobile operating system, with over a billion users. Your business may reach a wider audience with Android apps. ",
+      "Android an opensource platform offers customization and its OS enables the creation of versatile Android apps which can be integrated easily. ",
   },
 ];
 export const HireAndroidServiceslist = [
   {
     title: "Custom Android App Development ",
     description:
-      "Every company is unique, as are its requirements. We are a superior custom android app development company that builds apps that are aimed to fulfill corporate requirements and unique features for customers, thanks to our skilled android app developers and design team.",
+      "We are a superior custom android app development company that builds apps that are aimed to fulfill corporate requirements and unique features for customers, our developers use the latest SDKs to develop high-end Android apps for clients' Businesses.",
   },
   {
-    title: "Application Migrationt",
+    title: "Andriod Enterprise",
     description:
-      "Hire android developers from ultroNeous for migrating mobile applications from one platform to an android platform. We've successfully completed numerous app migrations for our clients without losing any data or causing any code disruption.",
+      "Android enterprise is a google led initiative that enables the usage of android apps and apps in the workplace it also provides enterprises with security & mobility. Hire android developers from ultroNeous to develop enterprise apps, combing apps & management services.",
   },
   {
     title: "UI/UX Designing ",
@@ -1352,7 +1352,7 @@ export const HireAndroidServiceslist = [
   {
     title: "Maintenance & Support ",
     description:
-      "ultroNeous provides its clients with world-class android application maintenance and support service. Our developers are 24/7 available to resolve any android app issues. Additionally, our developers perform regular maintenance checks and drills to verify the app's adequacy and effectiveness. ",
+      "ultroNeous provides its clients with android application maintenance and support service. Our developers are 24/7 available to resolve any android app issues. Additionally, our developers perform regular maintenance checks to verify the app's adequacy and effectiveness.",
   },
 ];
 
@@ -1372,7 +1372,7 @@ export const HireReactNativelist = [
   },
   {
     src: "/assets/tech/Reactnative/Compab3.svg",
-    title: "Compatibility ",
+    title: "Cross-platform compatibility  ",
     Description:
       "Apps created using react native are cross-platform compatible, with good performance and user experience on Android and iOS.",
   },
@@ -1387,32 +1387,32 @@ export const HireReactNativeServiceslist = [
   {
     title: "Custom React Native App Development",
     description:
-      "As a leading react native development company, we understand how to make the most of the JavaScript framework's resources and features to develop high-performing, secured, and user-friendly custom applications for organizations. ultroNeous' developers have extensive experience and expertise in developing custom apps utilizing React Native.      ",
+      "As a react native development company, we craft customized solutions that suit your business model and present you with a comprehensive workflow. ultroNeous developers have extensive experience and expertise in developing custom apps utilizing React Native.",
   },
   {
-    title: "iOS App Development",
+    title: "Prototype Developmentt",
     description:
-      "The best ever combo for fantastic app performance, attractive design, and superb user experience is Apple and native apps. With our dedicated react native developers, who are well-versed in react native iOS app development, you should create an iOS app for your business that performs according to your expectations.",
+      "Our team exhibits a number of options to the clients and after the approval, our developers start coding the selected wireframe designs. ultroNeous helps businesses in assisting and navigating the landscape and interact regarding prototypes.",
   },
-  {
-    title: "Android App Development",
-    description:
-      "If you want an Android app for your business that never goes down, is easy to use, has a clear interface, and stunning UI features, hire dedicated react native developers from ultroNeous. Our developers are well-versed in the most recent technology trends and development methodologies for result-oriented Android apps.",
-  },
+  // {
+  //   title: "Android App Development",
+  //   description:
+  //     "If you want an Android app for your business that never goes down, is easy to use, has a clear interface, and stunning UI features, hire dedicated react native developers from ultroNeous. Our developers are well-versed in the most recent technology trends and development methodologies for result-oriented Android apps.",
+  // },
   {
     title: "Components and APIs Integration",
     description:
-      "Since we are a prominent react native app development company, we provide complete react native solutions to our clients. We offer third-party API and component integration with 100 % precision and perfection to add more functionality and features to a react native app. ",
+      "Since we are a prominent react native app development company, we provide complete react native solutions to our clients. We offer third-party API and component integration with 100 % precision and perfection to add more functionality and features to an app.  ",
   },
   {
-    title: "Migration ",
+    title: "React  Native Migratation",
     description:
-      "You can rely on ultroNeous’ extensive working experience and knowledge in migrating applications from one platform to another. Our react native developers have successfully carried out migrations of applications efficiently without losing data or causing code disruption. ",
+      "ultroNeous specializes in offering solutions related to app migration. We work on a variety of applications using React Native. Our developers have a hand on experience in migrating apps from other platforms without any data loss or risk.",
   },
   {
-    title: "App Consultation & Maintenance",
+    title: "Shorter Time Development",
     description:
-      "Clients can understand more about the react native app development road map by consulting our technical experts, who have been working in this domain for a very long time. In addition, our react native developers are well-versed in maintaining an app by detecting and fixing any potential performance errors along with carrying out frequent app checkups.      ",
+      "React Native’s many easy-to-use components will help accelerate the development process. In addition, it opens the door to an ever-growing number of community-developed libraries besides that it will help you make customization much easier.  ",
   },
 ];
 // -----------------------------------------Xamarin Part----------------------------------------------------------------------------------------------------------------
@@ -1446,28 +1446,28 @@ export const HireXamarinServiceslist = [
   {
     title: "Custom Xamarin Development ",
     description:
-      "We develop unique mobile applications as a leading Xamarin development company to match the veiled business requirements. Our skilled Xamarin developers are industry specialists in developing custom mobile applications according to project specifications using the appropriate libraries and resources.",
+      "We develop unique mobile applications as a leading Xamarin development company to match the veiled business requirements. Our skilled Xamarin developers are industry specialists in developing custom mobile applications according to project specifications.",
   },
   {
     title: "Native Android App Development",
     description:
-      "You can hire us to develop custom native android applications for your business with our skilled Xamarin developers and ultroNeous' unique software solutions. Our developed Android apps have a lot of UI features, and they're scalable, dynamic, and dependable.",
+      "You can hire us to develop custom native android applications for your business with our skilled Xamarin developers and unique software solutions. Our developed Android apps have a lot of UI features, and they're scalable, dynamic, and dependable.",
   },
   {
     title: "Native iOS Development ",
     description:
-      "With our foremost Xamarin app development service, we are the industry leader in developing custom high-performing native iOS applications. Our developers are proficient in designing and building native user experience for iOS apps that work according to the user's expectations. ",
+      "With our foremost Xamarin app development service, we are the industry leader in developing custom high-performing native iOS applications. Our developers are proficient in designing and building native user experiences for iOS apps. ",
   },
   {
-    title: "Forms App Development ",
+    title: "Xamarin App Porting",
     description:
-      "Our talented developers use Xamarin.Forms to develop mobile apps that are rich in User Interface elements for a unique user experience. This is an open-source mobile UI framework that allows you to create mobile apps for a variety of operating systems using a single codebase and the.NET development platform.",
+      "MobileAPPtelligence offers an extensive service of app porting for iPhone, Android, iPad, and Windows Phone. At ultroneous our dedicated team of web and app porting set up a porting service for the client.",
   },
-  {
-    title: "App Migration & Upgradations ",
-    description:
-      "We are a Xamarin app development company that not only develops apps but also provides efficient app migration and upgrading services. Our specialist developers can migrate and upgrade an existing mobile app from one platform to the Xamarin platform without losing or harming the app's data and code. ",
-  },
+  // {
+  //   title: "App Migration & Upgradations ",
+  //   description:
+  //     "We are a Xamarin app development company that not only develops apps but also provides efficient app migration and upgrading services. Our specialist developers can migrate and upgrade an existing mobile app from one platform to the Xamarin platform without losing or harming the app's data and code. ",
+  // },
 ];
 
 // -----------------------------------------Flutter Part----------------------------------------------------------------------------------------------------------------
@@ -1494,19 +1494,19 @@ export const HireFlutterlist = [
     src: "/assets/tech/Flutter/Cost4.svg",
     title: "Cost-Efficient",
     Description:
-      "The hot reload feature of Flutter, as well as its large widget library, decreases development time and costs.",
+      "The reload feature of Flutter, as well as its large widget library, decreases development time and costs.",
   },
 ];
 export const HireFlutterServiceslist = [
   {
-    title: "Custom App Development  ",
+    title: "Cross Platform app development ",
     description:
-      "Use the skills of ultroNeous' professional flutter app developers to devise new apps that meet your company’s needs. To provide great custom solutions for our clients, our expert developers have an extensive working knowledge of the current versions of the flutter and dart programming languages.",
+      "Flutter is a cross-platform framework that allows developers to create apps for Android and iOS. Developers can also use it to create desktop applications. Hire Flutter Developers to build secure, reliable, high-performance desktop and Flutter web applications.",
   },
   {
-    title: "Web Development ",
+    title: "Custom Server side API",
     description:
-      "We provide the best flutter web development service in the business, adopting the most up-to-date flutter practices. Our skilled flutter programmers provide a stable codebase for web applications that are free of performance lag and poor loading times.",
+      "Our Flutter development service includes client-side JS writing for applications and websites. ultroNeous highly dedicated Flutter developers use custom APIs to operate different operating systems on the server..",
   },
   {
     title: "Dart App Development ",
@@ -1556,77 +1556,77 @@ export const HirePythonServiceslist = [
   {
     title: "Django Development",
     description:
-      "Python's identity is the Django framework, which is the most powerful framework with a plethora of features and functionalities. ultroNeous is a top Python development company that has a track record of creating SEO-friendly, secured, and resilient Django web solutions. Django development is a strong suit of skills and knowledge of our developers.",
+      "Python's identity is the Django framework, which is the most powerful framework with a plethora of features and functionalities. ultroNeous is a top Python development company that has a track record of creating SEO-friendly, secured, and resilient Django web solutions. ",
   },
   {
-    title: "Flask Development ",
-    description:
-      "It's a python micro web framework that can be used to create a variety of web solutions. Utilize the expertise of ultroNeous' python experts to create custom Flask development for your company.",
-  },
-  {
-    title: "Machine Learning ",
-    description:
-      "With ultroNeous, you can create custom machine learning apps to boost your company's efficiency. Our python developers are well-versed in developing machine learning apps through effective training and testing of datasets, as well as competency in the KNN classification (K-Nearest-Neighbor) algorithm.",
-  },
-  {
-    title: "Migration  ",
+    title: "Migration",
     description:
       "We are the ultroNeours, and we not only develop fantastic apps, but we also know how to migrate applications from one platform to another accurately and thoroughly. Our python programmers have successfully migrated a number of web apps and websites to Python.",
   },
   {
-    title: "Maintenance and Support",
+    title: "Maintenance and support ",
     description:
       "Hire dedicated python developers at competitive costs from ultroNeous to keep your python web solutions running at peak efficiency. Furthermore, our developers are always available to help clients who are having problems with their Python web solution.",
   },
+  // {
+  //   title: "Migration  ",
+  //   description:
+  //     "We are the ultroNeours, and we not only develop fantastic apps, but we also know how to migrate applications from one platform to another accurately and thoroughly. Our python programmers have successfully migrated a number of web apps and websites to Python.",
+  // },
+  // {
+  //   title: "Maintenance and Support",
+  //   description:
+  //     "Hire dedicated python developers at competitive costs from ultroNeous to keep your python web solutions running at peak efficiency. Furthermore, our developers are always available to help clients who are having problems with their Python web solution.",
+  // },
 ];
 
 // -----------------------------------------Web App Part----------------------------------------------------------------------------------------------------------------
-export const HireWebApplist = [
-  {
-    src: "/assets/tech/Webapp/Visibi & avib 1.svg",
-    title: "Visibility & Availability ",
-    Description:
-      "Web applications make your business visible and accessible to users from all over the world 24 hours a day, seven days a week.",
-  },
-  {
-    src: "/assets/tech/Webapp/Reduse 2.svg",
-    title: "Reduces Business Cost",
-    Description:
-      "Chatbots, free upgrades, exceptional compatibility, & minimal maintenance- helps in lowering business costs.",
-  },
-  {
-    src: "/assets/tech/Webapp/High secure3.svg",
-    title: "Highly Secured",
-    Description:
-      "Web apps offer strong security standards to protect users' information and data, as well as safe and secure payment options.",
-  },
-  {
-    src: "/assets/tech/Webapp/scalabili4.svg",
-    title: "Scalable & Customizable",
-    Description:
-      "Businesses can scale and customize the web app's functionality to meet their own needs and objectives.",
-  },
-];
+// export const HireWebApplist = [
+//   {
+//     src: "/assets/tech/Webapp/Visibi & avib 1.svg",
+//     title: "Visibility & Availability ",
+//     Description:
+//       "Web applications make your business visible and accessible to users from all over the world 24 hours a day, seven days a week.",
+//   },
+//   {
+//     src: "/assets/tech/Webapp/Reduse 2.svg",
+//     title: "Reduces Business Cost",
+//     Description:
+//       "Chatbots, free upgrades, exceptional compatibility, & minimal maintenance- helps in lowering business costs.",
+//   },
+//   {
+//     src: "/assets/tech/Webapp/High secure3.svg",
+//     title: "Highly Secured",
+//     Description:
+//       "Web apps offer strong security standards to protect users' information and data, as well as safe and secure payment options.",
+//   },
+//   {
+//     src: "/assets/tech/Webapp/scalabili4.svg",
+//     title: "Scalable & Customizable",
+//     Description:
+//       "Businesses can scale and customize the web app's functionality to meet their own needs and objectives.",
+//   },
+// ];
 
-export const HireWebAppServiceslist = [
-  {
-    title: "Custom Web App Development ",
-    description:
-      "ultroNeous provides trained experienced web app developers for hire who are experts in the latest web app development technologies and can create a custom adaptable and scalable web application for your company. It makes no difference if you want a static or dynamic web app; our developers are capable of creating both.",
-  },
-  {
-    title: "Web Apps For Various Industries ",
-    description:
-      "ultroNeous has extensive experience in a variety of domains, including healthcare, fintech, food delivery, logistics, travel, education, enterprise-level solutions, and others. Our developers have successfully developed web apps for various sectors utilizing appropriate technology and software.",
-  },
-  {
-    title: "UI/UX Design ",
-    description:
-      "With an in-house UI/UX designing team, our developers build web apps that have rich user interface elements, are highly interactive, and have the best color combinations. Better user engagement is the key to the success of any web application.",
-  },
-  {
-    title: "Support and Maintenance ",
-    description:
-      "We have great technical abilities in sustaining and providing robust assistance to clients for running their web apps effectively and efficiently as a top web app development service provider. Our in-house team is accessible 24/7  to give world-class support to clients who are having problems with their web apps.",
-  },
-];
+// export const HireWebAppServiceslist = [
+//   {
+//     title: "Custom Web App Development ",
+//     description:
+//       "ultroNeous provides trained experienced web app developers for hire who are experts in the latest web app development technologies and can create a custom adaptable and scalable web application for your company. It makes no difference if you want a static or dynamic web app; our developers are capable of creating both.",
+//   },
+//   {
+//     title: "Web Apps For Various Industries ",
+//     description:
+//       "ultroNeous has extensive experience in a variety of domains, including healthcare, fintech, food delivery, logistics, travel, education, enterprise-level solutions, and others. Our developers have successfully developed web apps for various sectors utilizing appropriate technology and software.",
+//   },
+//   {
+//     title: "UI/UX Design ",
+//     description:
+//       "With an in-house UI/UX designing team, our developers build web apps that have rich user interface elements, are highly interactive, and have the best color combinations. Better user engagement is the key to the success of any web application.",
+//   },
+//   {
+//     title: "Support and Maintenance ",
+//     description:
+//       "We have great technical abilities in sustaining and providing robust assistance to clients for running their web apps effectively and efficiently as a top web app development service provider. Our in-house team is accessible 24/7  to give world-class support to clients who are having problems with their web apps.",
+//   },
+// ];

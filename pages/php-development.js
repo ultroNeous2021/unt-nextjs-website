@@ -10,11 +10,12 @@ import { HirePHPlist, HirePHPServiceslist } from "utils/DataList/listOfData";
 
 const HirePhpDeveloper = () => {
   const description =
-    "Looking for an eCommerce development. The search is over hire PHP developers from ultroNeous technologies, which is the top PHP development services in India/USA. Kow more!!";
-  const keyword =
-    "php development services , Hire php developers , php web development company , Hire dedicated php developers , hire php programmers";
+    "Searching for a PHP web development company. The search is over ultroNeous Technologies provides the best PHP development services.  Hire PHP developers from India.";
+  const keyword = "php development services, Hire php developers";
+  const title =
+    "Hire PHP Developers | Custom  PHP development services| ultroNeous ";
   return (
-    <Layout description={description} keywords={keyword}>
+    <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
         heading={
           <>

@@ -60,7 +60,7 @@
 }
 .ImageCover {
   position: relative;
-  /* top: 1.5rem; */
+  top: 0rem;
   right: 8rem;
   /* bottom: 36rem; */
   /* padding-top: 5rem; */
@@ -127,7 +127,7 @@
   display: flex;
   position: relative;
   transform: translate3d(var(--move-initial), 0, 0);
-  animation: marquee 5s linear infinite;
+  animation: marquee 20s linear infinite;
   /* // animation-play-state: paused; */
 }
 .marquee__inner1 {
@@ -135,7 +135,7 @@
   display: flex;
   position: relative;
   transform: translate3d(var(--move-initial), 0, 0);
-  animation: marquee1 5s linear infinite;
+  animation: marquee1 20s linear infinite;
   /* // animation-play-state: paused; */
 }
 .marquee span {
@@ -147,7 +147,7 @@
   font-size: 9.9vw;
   padding: 0 1vw;
   margin-top: -1rem;
-  line-height: 10rem;
+  line-height: 8rem;
 }
 
 /* .marquee:hover .marquee__inner { 
@@ -184,6 +184,9 @@
   .Hireheadercontainer {
     flex-direction: column-reverse;
   }
+  .techimgs {
+    height: 3rem;
+  }
   .ColSpace {
     width: 60%;
     margin-left: auto;
@@ -192,18 +195,18 @@
     height: 26rem;
   }
   .ImageCover {
-    right: 3.9rem;
+    right: 3.8rem;
   }
   .marquee span {
     margin-top: 0.3rem;
-    line-height: 3.8rem;
+    line-height: 2.8rem;
   }
   .marqueeCover {
     width: 13rem;
   }
   .ImageWidth {
-    width: 14.2rem;
-    margin-top: 7rem;
+    width: 14rem;
+    margin-top: 7.2rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1080px) {
@@ -216,7 +219,7 @@
   }
   .ImageBox {
     width: 105%;
-    height: 47rem;
+    height: 48rem;
   }
   .ImageCover {
     right: 3.8rem;
@@ -230,7 +233,7 @@
   }
   .ImageWidth {
     width: 25rem;
-    margin-top: 13.5rem;
+    margin-top: 14.5rem;
   }
 }
 @media (min-width: 1200px) and (max-width: 1730px) {

@@ -8,7 +8,7 @@
   /* margin: 0; */
 }
 .CardMainHeading {
-  font-size: 60px;
+  font-size: 68px;
   font-weight: 700;
   color: #1a1112;
   -webkit-text-stroke: 0.5px #fff;
@@ -44,13 +44,14 @@
 .Card {
   background: #fff;
   border-radius: 5px;
-  height: 55vh;
+  height: auto;
   /* margin: 0.5rem; */
   display: flex;
   justify-content: left;
   align-items: flex-start;
   flex-direction: column;
   margin-right: 2rem;
+  padding: 0.8rem;
 }
 .Cardtitle {
   font-size: 22px;
@@ -73,7 +74,7 @@
 }
 @media (min-width: 320px) and (max-width: 430px) {
   .Card {
-    height: 62vh;
+    height: auto;
     margin-right: 0%;
   }
   .Cardcontainer {

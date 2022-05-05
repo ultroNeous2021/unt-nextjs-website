@@ -1,7 +1,9 @@
 import styles from "@/styles/components/ServicesIncludedSlider.module.css";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import Slider from "react-slick/lib/slider";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const ServicesIncludedSlider = (props) => {
   const settings = {
     dots: false,
@@ -9,7 +11,7 @@ const ServicesIncludedSlider = (props) => {
     speed: 500,
     arrows: false,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
@@ -47,6 +49,10 @@ const ServicesIncludedSlider = (props) => {
     // centerMode: true,
   };
   const sliderRef = useRef();
+  useEffect(() => {
+    AOS.refresh();
+    AOS.init();
+  }, []);
   return (
     <div class={styles.Cardcontainer}>
       {/* <div>
@@ -57,7 +63,13 @@ const ServicesIncludedSlider = (props) => {
       </div> */}
       <Row className={styles.ArrowContainNavigate}>
         <Col xs={12} xl={6} md={10} className={styles.CardMainHeadingContain}>
-          <h3 className={styles.CardMainHeading}>Services Included</h3>
+          <h3
+            className={styles.CardMainHeading}
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            Services Included
+          </h3>
         </Col>
         <Col xs={12} xl={6} md={2} className={styles.ArrowContain}>
           <div className={styles.ArrowContainSpace}>

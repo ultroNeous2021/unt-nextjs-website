@@ -7,45 +7,48 @@ import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
 import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
-  HireMagentolist,
-  HireMagentoServiceslist,
+  HireLaravellist,
+  HireLaravelServiceslist,
 } from "utils/DataList/listOfData";
 
-const HireMagentoDeveloper = () => {
+const HireLaravelDeveloper = () => {
   const keyword =
-    "Hire magento developer , Hire dedicated magento developer , Magento development company , Magento development agency";
+    "hire dedicated laravel developer , hire laravel developer , laravel development company , laravel web development company";
   const description =
-    "ultroNeous technologies is a magneto development company that provides expert developers to its clientele. Contact us now to hire Magento developers at cost-effective rates";
+    "Hire dedicated laravel developer from India. ultroNeous Technologies is a laravel development company which offer low-cost services, with 100% client satisfaction and maintenance services.";
+  const title =
+    "Hire Laravel developer | Laravel development company | ultroNeous";
   return (
-    <Layout keywords={keyword} description={description}>
+    <Layout title={title} keywords={keyword} description={description}>
       <HirePageHeaderComponent
+        model={"/assets/520.png"}
         heading={
           <>
-            Magento
+            Laravel
             <br />
             Development
           </>
         }
-        techname={"Magento"}
+        techname={"Laravel"}
         detail={
-          "Magento is a popular eCommerce development platform that offers a wide range of features and services that are essential for any successful and busy eCommerce business. We are a well-known Magento development company that has successfully served a variety of businesses selling a wide range of products worldwide. Hire Magento developers from ultroNeous to create high-performing eCommerce stores that are sturdy, scalable, and user-friendly."
+          "Laravel is the most advanced and powerful framework for developing mobile and web apps. As a renowned Laravel development company, ultroNeous has mastered the art of creating high-performing, dependable, robust, and scalable web and mobile apps for businesses. Hire dedicated Laravel developers from us to develop custom apps with unique user interface features, eye-catching design, and fast loading time."
         }
       />
-      <ServicesIncludedSlider listOfserviceincluded={HireMagentoServiceslist} />
+      <ServicesIncludedSlider listOfserviceincluded={HireLaravelServiceslist} />
       <BenifitsComponent
         maintitle={
           <>
-            Benefits of Magento
+            Benefits of Laravel
             <br />
             Development
           </>
         }
-        datalist={HireMagentolist}
+        datalist={HireLaravellist}
       />
       <CounterComponent data={CounterPersonalPage} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="Magento Developer"
+        replaceDetail="Laravel Developer"
       />
       <QuoteComponent
         descreption={
@@ -62,4 +65,4 @@ const HireMagentoDeveloper = () => {
     </Layout>
   );
 };
-export default HireMagentoDeveloper;
+export default HireLaravelDeveloper;

@@ -19,11 +19,9 @@ import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection"
 function MobileApplicationDevelopmentPage() {
   return (
     <Layout
-      title={
-        "Android, iOS Mobile App Development Company & Solutions | ultroNeous"
-      }
+      title={"Android & iOS Mobile App Development Company in USA | ultroNeous"}
       description={
-        "ultroNeous Technologies is a mobile app development company working on Android and iOS providing mobile app development services to international and local clients"
+        "ultroNeous Technologies is a mobile app development company working on Android and iOS providing mobile app development services across the globe."
       }
       keywords={
         "mobile app development company, mobile app development services, mobile app development, mobile application development services"

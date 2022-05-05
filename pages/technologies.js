@@ -48,22 +48,24 @@ export const FrontEnd = () => {
         <Col xl={8} xs={12}>
           <Row>
             <Col xl={3} xs={6} className={styles.Containt}>
-              <div
-                className={`${styles.Card1} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-reactjs-developer")}
-              >
-                <FaReact className={styles.Icon} />
-                <h5>React </h5>
-                <Image
-                  src={"/assets/Arrownext.svg"}
-                  className={styles.Arrownxt}
-                />
-              </div>
+              <a href="">
+                <div
+                  className={`${styles.Card1} ${styles.CardMain}`}
+                  onClick={() => goto.push("/reactjs-development")}
+                >
+                  <FaReact className={styles.Icon} />
+                  <h5>React JS</h5>
+                  <Image
+                    src={"/assets/Arrownext.svg"}
+                    className={styles.Arrownxt}
+                  />
+                </div>
+              </a>
             </Col>
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card2} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-angular-developer")}
+                onClick={() => goto.push("/angular-development")}
               >
                 <FaAngular className={styles.Icon} />
                 <h5>Angular</h5>
@@ -76,10 +78,10 @@ export const FrontEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card3} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-vuejs-developer")}
+                onClick={() => goto.push("/vuejs-development")}
               >
                 <FaVuejs className={styles.Icon} />
-                <h5>Vue </h5>
+                <h5>Vue Js </h5>
                 <Image
                   src={"/assets/Arrownext.svg"}
                   className={styles.Arrownxt}
@@ -89,10 +91,10 @@ export const FrontEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card4} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-front-end-developer")}
+                // onClick={() => goto.push("/front-end-development")}
               >
                 <FaHtml5 className={styles.Icon} />
-                <h5>Html5</h5>
+                <h5>HTML5</h5>
                 <Image
                   src={"/assets/Arrownext.svg"}
                   className={styles.Arrownxt}
@@ -102,7 +104,7 @@ export const FrontEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card5} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-front-end-developer")}
+                // onClick={() => goto.push("/front-end-development")}
               >
                 <SiNextdotjs className={styles.Icon} />
                 <h5>Next Js</h5>
@@ -115,7 +117,7 @@ export const FrontEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card6} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-front-end-developer")}
+                // onClick={() => goto.push("/front-end-development")}
               >
                 <SiGatsby className={styles.Icon} />
                 <h5>Gatsby</h5>
@@ -128,7 +130,7 @@ export const FrontEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card7} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-front-end-developer")}
+                // onClick={() => goto.push("/front-end-development")}
               >
                 <SiNuxtdotjs className={styles.Icon} />
                 <h5>Nuxt Js</h5>
@@ -163,10 +165,10 @@ export const BackEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card8} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-nodejs-developer")}
+                onClick={() => goto.push("/nodejs-development")}
               >
                 <FaNodeJs className={styles.Icon} />
-                <h5>Node </h5>
+                <h5>Node Js </h5>
                 <Image
                   src={"/assets/Arrownext.svg"}
                   className={styles.Arrownxt}
@@ -176,7 +178,7 @@ export const BackEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card9} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-laravel-developer")}
+                onClick={() => goto.push("/laravel-development")}
               >
                 <FaLaravel className={styles.Icon} />
                 <h5>Laravel</h5>
@@ -189,7 +191,7 @@ export const BackEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card10} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-php-developer")}
+                onClick={() => goto.push("/php-development")}
               >
                 <FaPhp className={styles.Icon} />
                 <h5>Php</h5>
@@ -202,7 +204,7 @@ export const BackEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card11} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-codeigniter-developer")}
+                onClick={() => goto.push("/codeigniter-development")}
               >
                 <SiCodeigniter className={styles.Icon} />
                 <h5>Codeigniter</h5>
@@ -215,7 +217,7 @@ export const BackEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card12} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-magento-developer")}
+                onClick={() => goto.push("/magento-development")}
               >
                 <FaMagento className={styles.Icon} />
                 <h5>Magento</h5>
@@ -228,7 +230,7 @@ export const BackEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card13} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-wordpress-developer")}
+                onClick={() => goto.push("/wordpress-development")}
               >
                 <FaWordpress className={styles.Icon} />
                 <h5>Wordpress</h5>
@@ -241,7 +243,7 @@ export const BackEnd = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card14} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-shopify-developer")}
+                onClick={() => goto.push("/shopify-development")}
               >
                 <FaShopify className={styles.Icon} />
                 <h5>Shopify</h5>
@@ -276,7 +278,7 @@ export const MobileApp = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card15} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-android-developer")}
+                onClick={() => goto.push("/android-development")}
               >
                 <SiKotlin className={styles.Icon} />
                 <h5>Kotlin</h5>
@@ -289,7 +291,7 @@ export const MobileApp = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card16} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-ios-developer")}
+                onClick={() => goto.push("/ios-development")}
               >
                 <SiSwift className={styles.Icon} />
                 <h5>Swift</h5>
@@ -302,7 +304,7 @@ export const MobileApp = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card17} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-flutter-developer")}
+                onClick={() => goto.push("/flutter-development")}
               >
                 <SiFlutter className={styles.Icon} />
                 <h5>Flutter</h5>
@@ -315,7 +317,7 @@ export const MobileApp = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card18} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-react-native-developer")}
+                onClick={() => goto.push("/react-native-development")}
               >
                 <FaReact className={styles.Icon} />
                 <h5>React Native</h5>
@@ -328,7 +330,7 @@ export const MobileApp = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card19} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-reactjs-developer")}
+                // onClick={() => goto.push("/reactjs-development")}
               >
                 <FaJava className={styles.Icon} />
                 <h5>Java</h5>
@@ -341,7 +343,7 @@ export const MobileApp = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card20} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-reactjs-developer")}
+                onClick={() => goto.push("/ios-development")}
               >
                 <Image
                   src={"/assets/ObjectC.svg"}
@@ -360,7 +362,7 @@ export const MobileApp = () => {
             <Col xl={3} xs={6} className={styles.Containt}>
               <div
                 className={`${styles.Card21} ${styles.CardMain}`}
-                onClick={() => goto.push("/hire-xamarin-developer")}
+                onClick={() => goto.push("/xamarin-development")}
               >
                 <SiXamarin className={styles.Icon} />
                 <h5>Xamarin</h5>

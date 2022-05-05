@@ -69,6 +69,7 @@
   height: 100%;
   /* height: 100%;
     width: 100%; */
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,68 +77,95 @@
   padding: 1rem;
 }
 .Card1:hover {
-  background: linear-gradient(45deg, #61dbfb, transparent);
+  background: linear-gradient(180deg, #61dafb 0%, #18bdea 100%);
+  border: none;
 }
 .Card2:hover {
-  background: linear-gradient(45deg, #bd022e, transparent);
+  background: linear-gradient(180deg, #dd0031 0%, #9c0023 100%);
+  border: none;
 }
 .Card3:hover {
-  background: linear-gradient(45deg, #3fb27f, #32475b);
+  background: linear-gradient(180deg, #41b883 0%, #1a7e52 100%);
+  border: none;
 }
 .Card4:hover {
-  background: linear-gradient(360deg, #dd4b25, #e96228);
+  background: linear-gradient(180deg, #ff5722 0%, #cf3200 100%);
+  border: none;
 }
 .Card5:hover {
-  background: linear-gradient(360deg, #090909, #303030);
+  background: linear-gradient(0deg, #000000 0%, #262424 100%);
+  border: none;
 }
 .Card6:hover {
-  background: linear-gradient(45deg, #7026b9, #11081f);
+  background: linear-gradient(180deg, #663399 0%, #431472 100%);
+  border: none;
 }
 .Card7:hover {
-  background: linear-gradient(45deg, #011e26, #20dc82);
+  background: linear-gradient(180deg, #00c58e 0%, #028c66 100%);
+  border: none;
 }
 
 .Card8:hover {
-  background: linear-gradient(45deg, #2ed880, transparent);
+  background: linear-gradient(180deg, #539e43 0%, #2f7221 100%);
+  border: none;
 }
 .Card9:hover {
-  background: linear-gradient(45deg, #f72311, transparent);
+  background: linear-gradient(180deg, #ee2b1f 0%, #a40c03 100%);
+  border: none;
 }
 .Card10:hover {
-  background: linear-gradient(45deg, #777bb3, transparent);
+  background: linear-gradient(180deg, #777bb3 0%, #444996 100%);
+  border: none;
 }
 .Card11:hover {
-  background: linear-gradient(45deg, #dd4814, transparent);
+  background: linear-gradient(180deg, #dd4814 0%, #a83209 100%);
+  border: none;
 }
 .Card12:hover {
-  background: linear-gradient(45deg, #e8642e, transparent);
+  background: linear-gradient(180deg, #f26322 0%, #bc4109 100%);
+  border: none;
 }
 .Card13:hover {
-  background: linear-gradient(45deg, #21759b, transparent);
+  background: linear-gradient(180deg, #21759b 0%, #0a445f 100%);
+  border: none;
 }
 .Card14:hover {
-  background: linear-gradient(45deg, #96bf48, transparent);
+  background: linear-gradient(180deg, #81c038 0%, #42700d 100%);
+  border: none;
 }
 .Card15:hover {
-  background: linear-gradient(60deg, #1aa2d4, #766db2, #b75ea4, #f6891f);
+  background: linear-gradient(
+    180deg,
+    #0095d5 0%,
+    #6776e0 29.17%,
+    #cd5ca8 59.9%,
+    #ffa63f 93.75%
+  );
+  border: none;
 }
 .Card16:hover {
-  background: linear-gradient(45deg, #fba23c, #fd3e29);
+  background: linear-gradient(180deg, #f89c3f 0%, #ef4131 100%);
+  border: none;
 }
 .Card17:hover {
-  background: linear-gradient(45deg, #64b1ef, #40a0ed, #0d459c);
+  background: linear-gradient(180deg, #45d1fd 0%, #02539a 100%);
+  border: none;
 }
 .Card18:hover {
-  background: linear-gradient(45deg, #5ed3f3, transparent);
+  background: linear-gradient(180deg, #61dafb 0%, #1696b9 100%);
+  border: none;
 }
 .Card19:hover {
-  background: linear-gradient(45deg, #5382a1, #f8981c);
+  background: linear-gradient(180deg, #e76f00 0%, #5382a1 100%);
+  border: none;
 }
 .Card20:hover {
-  background: linear-gradient(45deg, #1778f2, #5890ff);
+  background: linear-gradient(180deg, #f1592a 0%, #aa340f 100%);
+  border: none;
 }
 .Card21:hover {
-  background: linear-gradient(45deg, #3199dc, transparent);
+  background: linear-gradient(180deg, #3498db 0%, #0d5a8e 100%);
+  border: none;
 }
 .Card1 h5,
 .Card2 h5,

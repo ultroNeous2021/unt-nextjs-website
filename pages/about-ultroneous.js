@@ -69,7 +69,7 @@ function AboutUltroneousPage() {
     <Layout
       title={"About ultroNeous - Custom Software Development Agency"}
       description={
-        "ultroNeous is a concept where team building and knowledge growth is the primary focus. Know more about ultroNeous here."
+        "ultroNeous is a concept where team building and knowledge growth is the primary focus. Dive-in and know more about the top-notch custom software development agency."
       }
     >
       {/* About us header */}

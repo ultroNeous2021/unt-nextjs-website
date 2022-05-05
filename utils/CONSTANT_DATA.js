@@ -42,7 +42,7 @@ import { Image } from "react-bootstrap";
 import styles from "@/styles/components/HorizontalTab.module.css";
 import { AiFillInstagram } from "react-icons/ai";
 
-export const API_URL = "http://localhost:8000/";
+export const API_URL = "http://192.168.1.29:8000/";
 export const CounterComponentData = [
   {
     start: 25,
@@ -76,15 +76,39 @@ export const CounterComponentData = [
   },
 ];
 export const CounterPersonalPage = [
+  // {
+  //   start: 25,
+  //   end: 80,
+  //   sign: "+",
+  //   title: "Projects Completed",
+  // },
+  // {
+  //   start: 25,
+  //   end: 99,
+  //   sign: "%",
+  //   title: "Positive Feedback",
+  // },
+  // {
+  //   start: 0,
+  //   end: 15,
+  //   sign: "+",
+  //   title: "Countries Served",
+  // },
+  // {
+  //   start: 0,
+  //   end: 40,
+  //   sign: "+",
+  //   title: "Clientele",
+  // },
   {
     start: 25,
-    end: 80,
+    end: 50,
     sign: "+",
     title: "Projects Completed",
   },
   {
-    start: 25,
-    end: 99,
+    start: 45,
+    end: 97,
     sign: "%",
     title: "Positive Feedback",
   },
@@ -96,8 +120,8 @@ export const CounterPersonalPage = [
   },
   {
     start: 0,
-    end: 40,
     sign: "+",
+    end: 32,
     title: "Clientele",
   },
 ];
@@ -1019,25 +1043,25 @@ export const uniqueDrop = [
 ];
 
 export const uniqueLink = [
-  "/hire-angular-developer",
-  "/hire-codeigniter-developer",
-  "/hire-laravel-developer",
-  "/hire-magento-developer",
-  "/hire-nodejs-developer",
-  "/hire-php-developer",
-  "/hire-reactjs-developer",
-  "/hire-shopify-developer",
-  "/hire-vuejs-developer",
-  "/hire-web-app-developer",
-  "/hire-wordpress-developer",
-  "/hire-woocommerce-developer",
-  "/hire-android-developer",
-  "/hire-front-end-developer",
-  "/hire-flutter-developer",
-  "/hire-ios-developer",
-  "/hire-python-developer",
-  "/hire-xamarin-developer",
-  "/hire-react-native-developer",
+  "/angular-development",
+  "/codeigniter-development",
+  "/laravel-development",
+  "/magento-development",
+  "/nodejs-development",
+  "/php-development",
+  "/reactjs-development",
+  "/shopify-development",
+  "/vuejs-development",
+  // "/web-app-development",
+  "/wordpress-development",
+  // "/woocommerce-development",
+  "/android-development",
+  // "/front-end-development",
+  "/flutter-development",
+  "/ios-development",
+  "/python-development",
+  "/xamarin-development",
+  "/react-native-development",
 ];
 
 export const LinksOfAllpages = {
@@ -1046,38 +1070,41 @@ export const LinksOfAllpages = {
     careers: "/careers",
     contactUs: "/contact-us",
     home: "/",
+    expertise: "/technologies",
     meetOurTeam: "/meet-our-team",
   },
   services: {
     servicesMain: "/services",
-    frontendDevelopment: "/",
+    frontendDevelopment: "/front-end-development",
     webAappDevelopment: "/web-application-development",
     mobileAppDevelopment: "/mobile-application-development",
     cloudAndDevops: "/cloud-and-devops",
     uxUiDesign: "/ux-ui-design",
     digitalMarketing: "/digital-marketing",
+    ecommerceDevelopment: "/ecommerce-development",
+    enterpriseSoftwareSolutions: "/enterprise-software-solutions",
     // 19 pages links
     // web
-    hireAngularDeveloper: "/hire-angular-developer",
-    hireCodeigniterDeveloper: "/hire-codeigniter-developer",
-    hireLaravelDeveloper: "/hire-laravel-developer",
-    hireMagentoDeveloper: "/hire-magento-developer",
-    hireNodeJSDeveloper: "/hire-nodejs-developer",
-    hirePhpDeveloper: "/hire-php-developer",
-    hireReactJSDeveloper: "/hire-reactjs-developer",
-    hireShopifyDeveloper: "/hire-shopify-developer",
-    hireVueJSDeveloper: "/hire-vuejs-developer",
-    hireWebAppDeveloper: "/hire-web-app-developer",
-    hireWordPressDeveloper: "/hire-wordpress-developer",
-    hireWooCommerceDeveloper: "/hire-woocommerce-developer",
+    hireAngularDeveloper: "/angular-development",
+    hireCodeigniterDeveloper: "/codeigniter-development",
+    hireLaravelDeveloper: "/laravel-development",
+    hireMagentoDeveloper: "/magento-development",
+    hireNodeJSDeveloper: "/nodejs-development",
+    hirePhpDeveloper: "/php-development",
+    hireReactJSDeveloper: "/reactjs-development",
+    hireShopifyDeveloper: "/shopify-development",
+    hireVueJSDeveloper: "/vuejs-development",
+    hireWebAppDeveloper: "/web-app-development",
+    hireWordPressDeveloper: "/wordpress-development",
+    hireWooCommerceDeveloper: "/woocommerce-development",
     // mobile
-    hireAndroidDeveloper: "/hire-android-developer",
-    hireFrontEndDeveloper: "/hire-front-end-developer",
-    hireFlutterDeveloper: "/hire-flutter-developer",
-    hireiOSDeveloper: "/hire-ios-developer",
-    hirePythonDeveloper: "/hire-python-developer",
-    hireXamarinDeveloper: "/hire-xamarin-developer",
-    hireReactNativeDeveloper: "/hire-react-native-developer",
+    hireAndroidDeveloper: "/android-development",
+    hireFrontEndDeveloper: "/front-end-development",
+    hireFlutterDeveloper: "/flutter-development",
+    hireiOSDeveloper: "/ios-development",
+    hirePythonDeveloper: "/python-development",
+    hireXamarinDeveloper: "/xamarin-development",
+    hireReactNativeDeveloper: "/react-native-development",
   },
   socialMedia: [
     {
@@ -1111,10 +1138,10 @@ export const NavbarMenuList = [
     Services: [
       {
         name: "Front End Development",
-        link: "",
+        link: LinksOfAllpages.services.frontendDevelopment,
       },
       {
-        name: "Web App Development",
+        name: "Web Application Development",
         link: LinksOfAllpages.services.webAappDevelopment,
       },
       {
@@ -1131,11 +1158,11 @@ export const NavbarMenuList = [
       },
       {
         name: "eCommerce Development",
-        link: "",
+        link: "/ecommerce-development",
       },
       {
         name: "Enterprise Software Solutions",
-        link: "",
+        link: "/enterprise-software-solutions",
       },
       {
         name: "Digital Marketing",
@@ -1149,17 +1176,20 @@ export const NavbarMenuFirstColImageList = [
   {
     image: "/assets/navbar3.jpg",
     name: "Portfolio",
-    link: "",
+    link: "/portfolio",
+    new: false,
   },
   {
     image: "/assets/navbar2.jpg",
     name: "Blog",
-    link: "",
+    link: "https://blog.ultroneous.com/",
+    new: true,
   },
   {
     image: "/assets/navbar1.jpg",
     name: "Contact Us",
     link: LinksOfAllpages.mainPages.contactUs,
+    new: false,
   },
 ];
 
@@ -1177,22 +1207,22 @@ export const TechnologiesAllData = {
       name: "Vue",
       link: LinksOfAllpages.services.hireVueJSDeveloper,
     },
-    {
-      name: "HTML5",
-      link: "/",
-    },
-    {
-      name: "Nextjs",
-      link: "/",
-    },
-    {
-      name: "Gatsby",
-      link: "/",
-    },
-    {
-      name: "Nuxtjs",
-      link: "/",
-    },
+    // {
+    //   name: "HTML5",
+    //   link: "/",
+    // },
+    // {
+    //   name: "Nextjs",
+    //   link: "/",
+    // },
+    // {
+    //   name: "Gatsby",
+    //   link: "/",
+    // },
+    // {
+    //   name: "Nuxtjs",
+    //   link: "/",
+    // },
   ],
   backend: [
     {
@@ -1241,13 +1271,13 @@ export const TechnologiesAllData = {
       name: "React Native",
       link: LinksOfAllpages.services.hireReactNativeDeveloper,
     },
-    {
-      name: "Java",
-      link: "",
-    },
+    // {
+    //   name: "Java",
+    //   link: "",
+    // },
     {
       name: "Objective-C",
-      link: "",
+      link: LinksOfAllpages.services.hireiOSDeveloper,
     },
     {
       name: "Xamarin",

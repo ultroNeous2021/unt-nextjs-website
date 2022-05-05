@@ -13,7 +13,15 @@ import {
 import styles from "@/styles/EnterpriseSolutions.module.css";
 const EnterpriseSoftwareSolutions = () => {
   return (
-    <Layout>
+    <Layout
+      title={"Enterprise Software Development Company in USA/India |ultroNeous"}
+      description={
+        "Our enterprise level software development services have helped many international brands to streamline the process. Use our expertise to develop your next application Let’s talk!"
+      }
+      keywords={
+        "Enterprise software development company, Enterprise software company, Enterprise software companies, Enterprise software development services"
+      }
+    >
       <ServicesHeader
         numbers={"08"}
         heading={ListOfEntSoftSolService.heading}
@@ -24,7 +32,7 @@ const EnterpriseSoftwareSolutions = () => {
         linkToNextService={"web-application-development"}
       />
       <Row className={styles.EntSoftSolQualitiesContainer}>
-        <Col xl={4} xs={6} md={4} className={styles.EntSpace}>
+        <Col xl={4} xs={12} md={4} className={styles.EntSpace}>
           <div>
             <Image
               src={"/assets/1 E.svg"}
@@ -36,7 +44,7 @@ const EnterpriseSoftwareSolutions = () => {
             </h3>
           </div>
         </Col>
-        <Col xl={4} xs={6} md={4} className={styles.EntSpace}>
+        <Col xl={4} xs={12} md={4} className={styles.EntSpace}>
           <div>
             <Image
               src={"/assets/2 E.svg"}
@@ -48,7 +56,7 @@ const EnterpriseSoftwareSolutions = () => {
             </h3>
           </div>
         </Col>
-        <Col xl={4} xs={6} md={4} className={styles.EntSpace}>
+        <Col xl={4} xs={12} md={4} className={styles.EntSpace}>
           <div>
             <Image
               src={"/assets/3E.svg"}
@@ -59,7 +67,7 @@ const EnterpriseSoftwareSolutions = () => {
           </div>
         </Col>
         {/* <div  /> */}
-        <Col xl={4} xs={6} md={4} className={styles.EntSpace}>
+        <Col xl={4} xs={12} md={4} className={styles.EntSpace}>
           <div>
             <Image
               src={"/assets/4 E.svg"}
@@ -71,7 +79,7 @@ const EnterpriseSoftwareSolutions = () => {
             </h3>
           </div>
         </Col>
-        <Col xl={4} xs={6} md={4} className={styles.EntSpace}>
+        <Col xl={4} xs={12} md={4} className={styles.EntSpace}>
           <div>
             <Image
               src={"/assets/5 E.svg"}
@@ -83,7 +91,7 @@ const EnterpriseSoftwareSolutions = () => {
             </h3>
           </div>
         </Col>
-        <Col xl={4} xs={6} md={4} className={styles.EntSpace}>
+        <Col xl={4} xs={12} md={4} className={styles.EntSpace}>
           <div>
             <Image
               src={"/assets/6 E.svg"}
@@ -116,8 +124,8 @@ const EnterpriseSoftwareSolutions = () => {
                     <div>
                       <h5 className={styles.Subtitle}>Planning</h5>
                       <p className={styles.Subp}>
-                        Any sized business or organization can benefit from
-                        Enterprise Software Solutions in numerous ways.
+                        Analyzing the requirements & finalizing the scope work
+                        for the project from the client & developer end.
                       </p>
                     </div>
                   </Col>
@@ -129,8 +137,8 @@ const EnterpriseSoftwareSolutions = () => {
                     <div>
                       <h5 className={styles.Subtitle}>Designing</h5>
                       <p className={styles.Subp}>
-                        Any sized business or organization can benefit from
-                        Enterprise Software Solutions in numerous ways.
+                        Creating UX/UI design that is interactive and
+                        user-friendly according to the scope of the project.
                       </p>
                     </div>
                   </Col>
@@ -144,8 +152,8 @@ const EnterpriseSoftwareSolutions = () => {
                     <div>
                       <h5 className={styles.Subtitle}>Building</h5>
                       <p className={styles.Subp}>
-                        Any sized business or organization can benefit from
-                        Enterprise Software Solutions in numerous ways.
+                        Once the design is approved our developers bifurcate the
+                        work from the developer side.
                       </p>
                     </div>
                   </Col>
@@ -157,8 +165,9 @@ const EnterpriseSoftwareSolutions = () => {
                     <div>
                       <h5 className={styles.Subtitle}>Testing</h5>
                       <p className={styles.Subp}>
-                        Any sized business or organization can benefit from
-                        Enterprise Software Solutions in numerous ways.
+                        After the development is completed, the QA team will
+                        ensure the bug-free solution at the individual & Mass
+                        levels.
                       </p>
                     </div>
                   </Col>
@@ -172,8 +181,8 @@ const EnterpriseSoftwareSolutions = () => {
                     <div>
                       <h5 className={styles.Subtitle}>Deployment</h5>
                       <p className={styles.Subp}>
-                        Any sized business or organization can benefit from
-                        Enterprise Software Solutions in numerous ways.
+                        Final staging is deployment, once QA will submit the
+                        report our developers will upload the build.
                       </p>
                     </div>
                   </Col>
@@ -185,8 +194,8 @@ const EnterpriseSoftwareSolutions = () => {
                     <div>
                       <h5 className={styles.Subtitle}>Maintenance</h5>
                       <p className={styles.Subp}>
-                        Any sized business or organization can benefit from
-                        Enterprise Software Solutions in numerous ways.
+                        Once the software goes live all we need to look after is
+                        regular updates and frequent maintenance checks.
                       </p>
                     </div>
                   </Col>

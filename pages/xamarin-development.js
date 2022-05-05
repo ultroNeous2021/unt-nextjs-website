@@ -14,12 +14,14 @@ import {
 } from "utils/DataList/listOfData";
 
 const HireXamarinDeveloper = () => {
+  const title =
+    "Xamarin App Development Company | Hire a developer | ultroNeous";
   const keyword =
-    "hire xamarin developer , hire xamarin app developers , xamarin development company , xamarin app development company , Xamarin app developers";
+    "hire xamarin developer, hire xamarin app developers, xamarin development company, xamarin app development company, Xamarin app developers";
   const description =
-    "ultroNeous Technologies is a xamarin development company that has expertise developers in cross-platform apps that create value in organization growth. Hire xamarin developers now!!";
+    "Best Xamarin mobile app development company in the USA, India. Hire Xamarin app developer for your cross-platform iOS and Android application from ultroNeous.";
   return (
-    <Layout description={description} keywords={keyword}>
+    <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
         heading={
           <>

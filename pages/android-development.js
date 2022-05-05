@@ -7,57 +7,57 @@ import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
 import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
-  HireReactNativelist,
-  HireReactNativeServiceslist,
+  HireAndroidlist,
+  HireAndroidServiceslist,
   HireShopifylist,
   HireShopifyServiceslist,
 } from "utils/DataList/listOfData";
 
-const HireReactnativeDeveloper = () => {
+const HireAndroidDeveloper = () => {
+  const title =
+    "Android App Development | Hire Dedicated Android App Developer | ultroNeous";
   const keyword =
-    "react native development company , hire react native developer , react native developer , hire dedicated react native developer , react native app development company";
+    "hire android app developers, hire android developers, android development company, android app development company";
   const description =
-    "Your search for a react native developer is over. ultroNeous is a react native development company that provides react native developers for your mobile app development. Know more!!!";
+    "ultroNeous Technologies is a Custom Android App Development Company. Hire a dedicated Android app developer for long/short term or monthly/weekly/hourly bases.";
   return (
-    <Layout description={description} keywords={keyword}>
+    <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
+        techname={"Android"}
         heading={
           <>
-            React Native
+            Android
             <br />
             Development
           </>
         }
-        techname={"React Native"}
         detail={
           "Business Android applications are the most crucial platform for business success. You can hire android developers from ultroNeous, who have extensive expertise and experience in developing high-performing, scalable, and secured android apps for different types of business. We are an android development company that has assisted countless businesses in increasing revenue and expanding their operations through the use of android applications."
         }
       />
-      <ServicesIncludedSlider
-        listOfserviceincluded={HireReactNativeServiceslist}
-      />
+      <ServicesIncludedSlider listOfserviceincluded={HireAndroidServiceslist} />
       <BenifitsComponent
         maintitle={
           <>
-            Benefits of React Native
+            Benefits of Android
             <br />
             Development
           </>
         }
-        datalist={HireReactNativelist}
+        techname={"Android"}
+        datalist={HireAndroidlist}
       />
       <CounterComponent data={CounterPersonalPage} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="React Native Developer"
+        replaceDetail="Android Developer"
       />
       <QuoteComponent
         descreption={
           <>
             <p>
-              Get high-performance applications for business
-              <br />
-              growth only with React Native and ultroNeous.
+              Building an android app for your business with <br />
+              ultroNeous means assured app quality and performance.
             </p>
           </>
         }
@@ -65,4 +65,4 @@ const HireReactnativeDeveloper = () => {
     </Layout>
   );
 };
-export default HireReactnativeDeveloper;
+export default HireAndroidDeveloper;

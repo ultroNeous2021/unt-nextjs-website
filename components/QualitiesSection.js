@@ -1,8 +1,14 @@
 import QualitiesCard from "./QualitiesCard";
 import styles_qualities from "@/styles/components/Qualities.module.css";
 import { Col, Row } from "react-bootstrap";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const QualitiesSection = (props) => {
+  useEffect(() => {
+    AOS.refresh();
+    AOS.init();
+  }, []);
   return (
     <Row className={styles_qualities.PaddingSliderRow}>
       {props.QualitiesList.map((value, index) => (
