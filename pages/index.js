@@ -22,11 +22,9 @@ import useOnScreen from "@/components/customHook/useOnScreen";
 import { BsBehance } from "react-icons/bs";
 import ClientTestimonialSlider from "@/components/Slider/ClientTestimonialSlider";
 import Verticals from "@/components/Verticals";
-// import WhyClientChoose from "@/components/WhyClientChoose";
+import WhyClientChoose from "@/components/WhyClientChoose";
 import Link from "next/link";
 import axios from "axios";
-import WhyClientChooseToWorkWithUs from "@/components/WhyClientChooseToWorkWithUs";
-import WhyClientChoose from "@/components/WhyClientChoose";
 
 export default function HomePage({ data }) {
   const [hoverColor, setHoverColor] = useState(false);
