@@ -15,7 +15,7 @@ import {
 
 const HireVuejsDeveloper = () => {
   const title =
-    "VueJS Development Company | Hire vuejs developer | ultroNeous ";
+    "VueJS Development Company | Hire Vuejs developer | ultroNeous ";
   const keyword =
     "vuejs developer, hire vuejs developer, vuejs development company";
   const description =

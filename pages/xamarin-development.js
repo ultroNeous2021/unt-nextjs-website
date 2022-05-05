@@ -15,7 +15,7 @@ import {
 
 const HireXamarinDeveloper = () => {
   const title =
-    "Xamarin App Development Company | Hire a developer | ultroNeous";
+    "Xamarin App Development Company | Hire a Developer | ultroNeous";
   const keyword =
     "hire xamarin developer, hire xamarin app developers, xamarin development company, xamarin app development company, Xamarin app developers";
   const description =

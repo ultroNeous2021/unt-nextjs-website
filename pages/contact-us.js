@@ -125,7 +125,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
     reset();
     setTimeout(() => {
       setSubmitClicked(false);
-    }, 5000);
+    }, 8000);
   };
 
   const handleSelect = (e) => {

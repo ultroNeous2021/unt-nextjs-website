@@ -156,6 +156,11 @@ function MegaMenuComponent() {
                       </a>
                     </Link>
                   </Nav>
+                  <Nav className={styles.NavLink}>
+                    <a href="https://blog.ultroneous.com/" target={"_blank"}>
+                      Blog
+                    </a>
+                  </Nav>
                   <Nav id={styles.ContactUsBtn} className={styles.NavLink}>
                     <a href="/contact-us">
                       <TransparentButton
