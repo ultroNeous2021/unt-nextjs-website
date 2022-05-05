@@ -158,7 +158,7 @@ function ServicePage({ data }) {
         </Col>
         <div className={styles.NotSureButton}>
           <YellowFilledWhiteButton
-            clickhandle={() => goto.push("/contact-us")}
+            link={"/contact-us"}
             val={"Contact us"}
             arrow={true}
           />
