@@ -84,11 +84,11 @@ function NavbarMain() {
                 </p>
               </Link>
             </a>
-            <a href="/technologies">
-              <Link href="/technologies">
+            <a href="/expertise">
+              <Link href="/expertise">
                 <p
                   style={
-                    router.pathname == "/technologies"
+                    router.pathname == "/expertise"
                       ? { color: "#e49b00" }
                       : null
                   }

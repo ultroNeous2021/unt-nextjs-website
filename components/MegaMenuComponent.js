@@ -131,9 +131,9 @@ function MegaMenuComponent() {
                   <Nav className={styles.NavLink}>
                     <Link href={LinksOfAllpages.mainPages.expertise}>
                       <a
-                        href="/technologies"
+                        href="/expertise"
                         style={
-                          router.pathname == "/technologies"
+                          router.pathname == "/expertise"
                             ? { color: "#e49b00" }
                             : null
                         }
@@ -227,12 +227,12 @@ function MegaMenuComponent() {
                     ? { color: "#e49b00", borderRight: "0.5rem solid #e49b00" }
                     : null
                 }
-                onClick={() => router.push("/technologies")}
+                onClick={() => router.push("/expertise")}
                 onMouseEnter={onHoverHandler}
               >
                 Expertise
               </li>
-              <li
+              {/* <li
                 className={styles.Services}
                 id="3"
                 style={
@@ -244,7 +244,7 @@ function MegaMenuComponent() {
                 onMouseEnter={onHoverHandler}
               >
                 Engagement Model
-              </li>
+              </li> */}
               <li
                 className={styles.Services}
                 id="3"

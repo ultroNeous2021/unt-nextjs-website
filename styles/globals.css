@@ -73,16 +73,20 @@ a {
 .AccordionNav .accordion-button::after {
   background-image: url("/assets/arrow_up.svg") !important;
   transition: all 0.5s ease !important;
+  transform: rotate(180deg);
 }
 
 .AccordionNav .accordion-button:not(.collapsed)::after {
   background-image: url("/assets/arrow_up.svg") !important;
+  transform: rotate(0deg);
 }
 
 .AccordionNav .accordion-button:not(.collapsed) {
   box-shadow: none;
 }
-
+.AccordionNav .accordion-body {
+  padding: 0 1.25rem;
+}
 @media screen and (min-width: 320px) and (max-width: 430px) {
   #overlaytwo {
     display: none;
@@ -131,7 +135,9 @@ a {
     justify-content: start;
   }
 }
+/*
 
+*/
 /* 
  */
 /* width */

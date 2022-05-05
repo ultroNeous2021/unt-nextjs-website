@@ -30,7 +30,7 @@ const HireCodeigniterDeveloper = () => {
             Development
           </>
         }
-        techname={"Codeigniter"}
+        techname={"/assets/Codeigniter.svg"}
         detail={
           "For businesses who are always seeking ways to improve their business outcomes and revenue, Codeigniter development is an excellent choice. CodeIgniter creates lightweight, fast-loading web apps with clean URLs. ultroNeous is a CodeIgniter development company that has helped numerous organizations and businesses to boost their digital performance by providing world-class CodeIgniter web applications. Hire CodeIgniter developers now to enrich your business web applications with CodeIgniter advantages."
         }

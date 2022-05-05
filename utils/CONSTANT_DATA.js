@@ -522,27 +522,27 @@ export const TestimonialsSliderData = [
 
 export const ChooseAsPerYourNeedData = [
   {
-    title: "Hire a Team",
-    mainTitle: "HIRE A TEAM",
+    title: "Hire a reasource",
+    mainTitle: "HIRE A RESOURCE",
     details: "Hire any Developer or Build your own team with ultroNeous.",
-    image: "/assets/hire-a-team.svg",
-    image2: "/assets/hireteam.png",
+    image: "/assets/cayn-1.svg",
+    image2: "/assets/cayn-1-res.svg",
   },
   {
     title: "Project Basis",
     mainTitle: "PROJECT BASIS",
     details:
       "Have a fixed project scope in mind? Discuss now to get a fixed price.",
-    image: "/assets/GUP.svg",
-    image2: "/assets/giveusproject.png",
+    image: "/assets/cayn-2.svg",
+    image2: "/assets/cayn-2-res.svg",
   },
   {
-    title: "T & M",
-    mainTitle: "TIME & MATERIAL",
+    title: "Technology Partner",
+    mainTitle: "TECHNOLOGY PARTNER",
     details:
       "Have a project where you need a team on a periodic basis, we got you.",
-    image: "/assets/t-and-m.svg",
-    image2: "/assets/t&m.png",
+    image: "/assets/cayn-3.svg",
+    image2: "/assets/cayn-3-res.svg",
   },
 ];
 
@@ -1052,11 +1052,8 @@ export const uniqueLink = [
   "/reactjs-development",
   "/shopify-development",
   "/vuejs-development",
-  // "/web-app-development",
   "/wordpress-development",
-  // "/woocommerce-development",
   "/android-development",
-  // "/front-end-development",
   "/flutter-development",
   "/ios-development",
   "/python-development",
@@ -1070,7 +1067,7 @@ export const LinksOfAllpages = {
     careers: "/careers",
     contactUs: "/contact-us",
     home: "/",
-    expertise: "/technologies",
+    expertise: "/expertise",
     meetOurTeam: "/meet-our-team",
   },
   services: {
@@ -1099,7 +1096,6 @@ export const LinksOfAllpages = {
     hireWooCommerceDeveloper: "/woocommerce-development",
     // mobile
     hireAndroidDeveloper: "/android-development",
-    hireFrontEndDeveloper: "/front-end-development",
     hireFlutterDeveloper: "/flutter-development",
     hireiOSDeveloper: "/ios-development",
     hirePythonDeveloper: "/python-development",

@@ -21,7 +21,6 @@ const HireWordPressDeveloper = () => {
   return (
     <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
-        model={"/assets/females.png"}
         heading={
           <>
             WordPress
@@ -29,7 +28,7 @@ const HireWordPressDeveloper = () => {
             Development
           </>
         }
-        techname={"/assets/l-wp.svg"}
+        techname={"/assets/lnew-wp.svg"}
         detail={
           "Get dedicated WordPress developers to build your custom business web solutions using an agile methodology and the most up-to-date WordPress development strategies and practices. We are a prominent WordPress development company with an in-house team of WordPress developers with considerable experience in producing websites for various business models over the last few years. Contact us right away to hire WordPress developers for user-friendly, scalable, reliable, and secured WordPress web solutions for your business."
         }

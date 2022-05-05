@@ -29,7 +29,7 @@ const HirePythonDeveloper = () => {
             Development
           </>
         }
-        techname={"Python"}
+        techname={"/assets/Python.svg"}
         detail={
           "Python is an object-oriented programming language that can be used to develop a wide variety of web apps and websites. It is a high-level language with huge libraries and a dynamic nature, as well as GUI (Graphical User Interface) support for optimal development and performance. ultroNeous offers the freedom to hire Python developers who have massive experience in developing productive and responsive web solutions for clients."
         }

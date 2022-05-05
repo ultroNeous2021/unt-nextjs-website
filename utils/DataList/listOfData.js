@@ -262,7 +262,7 @@ export const ListOfFrontEndService = {
 };
 export const ListOfEcommDevService = {
   heading: "Services We Offer",
-  title: "E-commerce Development",
+  title: "e-Commerce Development",
   paragraph:
     "Take your online business to the next level by leveraging the expertise of professional eCommerce development services from ultroNeous. Our highly-skilled eCommerce developers have solid working experience with the major e-commerce development platforms. We develop user-friendly e-commerce stores that are easy to navigate, have an elegant design, and are SEO optimized. B2C, B2B, and custom app development are our main e-commerce services along with other key e-commerce business requirements. ",
   image: "/assets/E-commers.png",

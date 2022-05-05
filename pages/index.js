@@ -26,6 +26,7 @@ import Verticals from "@/components/Verticals";
 import Link from "next/link";
 import axios from "axios";
 import WhyClientChooseToWorkWithUs from "@/components/WhyClientChooseToWorkWithUs";
+import WhyClientChoose from "@/components/WhyClientChoose";
 
 export default function HomePage({ data }) {
   const [hoverColor, setHoverColor] = useState(false);
@@ -307,7 +308,7 @@ export default function HomePage({ data }) {
       />
 
       {/* Why client choose to work with us */}
-      <WhyClientChooseToWorkWithUs />
+      <WhyClientChoose />
       {/* verticals */}
       <Verticals />
       {/* look at our design shots */}

@@ -29,7 +29,7 @@ const HireReactjsDeveloper = () => {
             Development
           </>
         }
-        techname={"ReactJS"}
+        techname={"/assets/ReactJS.svg"}
         detail={
           "ReactJs is a JavaScript library for creating unique web apps user interface elements. You can produce paramount web applications for your organization with the help of proficient ReactJs developers. Hire ReactJs developers from reputable ReactJs development companies to help you achieve your business objectives with ReactJs web solutions."
         }
