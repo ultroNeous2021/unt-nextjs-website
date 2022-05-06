@@ -93,7 +93,7 @@
 .Button {
   padding-top: 1rem;
 }
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .ServicesContainer {
     padding: 3rem 1rem;
     height: initial;

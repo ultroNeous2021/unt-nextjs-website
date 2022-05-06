@@ -32,7 +32,7 @@
   align-items: center;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .CounterContainer {
     justify-content: initial;
     padding: 0;

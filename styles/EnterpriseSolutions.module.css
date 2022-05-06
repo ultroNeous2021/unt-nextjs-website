@@ -76,7 +76,7 @@
   width: 12% !important;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .EntSoftSolQualitiesContainer {
     padding: 0rem 0rem 4rem 0.5rem;
   }

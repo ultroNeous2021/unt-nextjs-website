@@ -1,3 +1,8 @@
+.overlaySpace {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
 .NavbarContainer {
   position: fixed;
   width: 100%;
@@ -150,7 +155,7 @@
 }
 
 .NavbarColLast {
-  margin-top: 1.5rem;
+  margin-top: 0.9rem;
 }
 
 .NavbarColMiddle li {
@@ -208,7 +213,7 @@
 }
 
 .ImageDiv {
-  margin: 1rem 0;
+  margin: 0rem 0;
   border-radius: 10px;
   border: 0.5px solid #e49b00;
   transition: all 1s ease;
@@ -364,7 +369,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 430px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
   .NavUnique {
     display: none;
   }

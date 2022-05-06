@@ -72,7 +72,7 @@
   height: 5rem;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .ClientTestimonialSliderContainer {
     padding: 5rem 1rem;
     padding-top: 0;

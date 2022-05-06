@@ -84,7 +84,7 @@
 .ColSpace {
   padding: 0%;
 }
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .Heading h1 {
     font-size: 42px;
     font-weight: 700;
@@ -183,7 +183,7 @@
     transform: translate3d(var(--move-final), 0, 0);
   }
 }
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .Hireheadercontainer {
     flex-direction: column-reverse;
   }

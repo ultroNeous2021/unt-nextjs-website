@@ -227,7 +227,7 @@
   height: auto;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .CareerMapImage,
   .WFTDContainer {
     padding: 3rem 1rem;

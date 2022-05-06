@@ -27,7 +27,7 @@
   transition: all 0.5s linear;
 }
 /* media queries */
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .ButtonYellowFilled {
     font-size: 15px;
   }

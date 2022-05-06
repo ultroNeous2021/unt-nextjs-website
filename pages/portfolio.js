@@ -296,7 +296,6 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>client name</p>
                           <h1>Project Name</h1>
                         </div>
                       </div>
@@ -312,7 +311,6 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>client name</p>
                           <h1>Project Name</h1>
                         </div>
                       </div>
@@ -328,7 +326,6 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>client name</p>
                           <h1>Project Name</h1>
                         </div>
                       </div>
@@ -344,7 +341,6 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>client name</p>
                           <h1>Project Name</h1>
                         </div>
                       </div>
@@ -360,7 +356,6 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>client name</p>
                           <h1>Project Name</h1>
                         </div>
                       </div>
@@ -402,7 +397,6 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>client name</p>
                           <h1>Project Name</h1>
                         </div>
                       </div>
@@ -418,7 +412,6 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>client name</p>
                           <h1>Project Name</h1>
                         </div>
                       </div>
@@ -434,7 +427,6 @@ const portfolio = ({ data }) => {
                       />
                       <div className={styles.TechnologyOverlay}>
                         <div className={styles.TechnologyText}>
-                          <p>client name</p>
                           <h1>Project Name</h1>
                         </div>
                       </div>

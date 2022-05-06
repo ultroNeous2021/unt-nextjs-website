@@ -1131,10 +1131,6 @@ export const NavbarMenuList = [
   {
     Services: [
       {
-        name: "Front End Development",
-        link: LinksOfAllpages.services.frontendDevelopment,
-      },
-      {
         name: "Web Application Development",
         link: LinksOfAllpages.services.webAappDevelopment,
       },
@@ -1147,8 +1143,16 @@ export const NavbarMenuList = [
         link: LinksOfAllpages.services.uxUiDesign,
       },
       {
+        name: "Digital Marketing",
+        link: LinksOfAllpages.services.digitalMarketing,
+      },
+      {
         name: "Cloud & Devops",
         link: LinksOfAllpages.services.cloudAndDevops,
+      },
+      {
+        name: "Front End Development",
+        link: LinksOfAllpages.services.frontendDevelopment,
       },
       {
         name: "eCommerce Development",
@@ -1157,10 +1161,6 @@ export const NavbarMenuList = [
       {
         name: "Enterprise Software Solutions",
         link: "/enterprise-software-solutions",
-      },
-      {
-        name: "Digital Marketing",
-        link: LinksOfAllpages.services.digitalMarketing,
       },
     ],
   },

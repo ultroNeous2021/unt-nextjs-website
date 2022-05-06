@@ -82,7 +82,7 @@
   max-height: 430px;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .Slide {
     padding: 0;
   }

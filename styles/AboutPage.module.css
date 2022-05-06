@@ -195,7 +195,7 @@
 }
 
 /* media queries */
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .PagesHeader {
     padding-bottom: 0rem;
     height: 40vh;

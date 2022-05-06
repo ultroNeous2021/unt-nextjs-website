@@ -196,7 +196,7 @@
   color: #ccc;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .Navbar {
     padding: 0 1rem;
   }

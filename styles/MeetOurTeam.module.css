@@ -98,7 +98,7 @@
   color: #e49b00;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .Team {
     padding: 0;
     padding-left: 1rem;

@@ -324,7 +324,7 @@
   }
 } */
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .HorizontalTabContainer {
     padding: 3rem 1rem;
   }

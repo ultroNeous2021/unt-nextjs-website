@@ -299,7 +299,7 @@
   border-radius: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .WALAContainer {
     padding: 4rem 0rem;
   }

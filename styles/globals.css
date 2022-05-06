@@ -46,6 +46,10 @@ a {
   background: #000;
   color: #fff;
   padding-top: 6.5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
 #Checkbox {
   display: none;
@@ -68,6 +72,10 @@ a {
 .AccordionNav .AccordionHeader button {
   background-color: transparent !important;
   color: rgba(145, 142, 141, 1) !important;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 0%;
 }
 
 .AccordionNav .accordion-button::after {
@@ -83,11 +91,12 @@ a {
 
 .AccordionNav .accordion-button:not(.collapsed) {
   box-shadow: none;
+  padding-top: 0%;
 }
 .AccordionNav .accordion-body {
   padding: 0 1.25rem;
 }
-@media screen and (min-width: 320px) and (max-width: 430px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
   #overlaytwo {
     display: none;
   }
@@ -129,7 +138,7 @@ a {
   margin-left: 2.5rem !important;
 }
 
-@media screen and (min-width: 320px) and (max-width: 430px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
   .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap,
   .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
     justify-content: start;
@@ -324,7 +333,7 @@ option {
   color: rgba(228, 155, 0, 1) !important;
 }
 
-@media screen and (min-width: 320px) and (max-width: 430px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
   .WeExcelAtIconsData {
     width: 60%;
   }
@@ -365,7 +374,7 @@ option {
   font-size: 18px;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .TabHeadingService + .nav {
     flex-wrap: initial !important;
   }
@@ -404,7 +413,7 @@ option {
   background: #e49b00 !important;
 }
 
-@media screen and (min-width: 320px) and (max-width: 430px) {
+@media screen and (min-width: 320px) and (max-width: 450px) {
   .carousel-indicators {
     left: 3.5% !important;
     bottom: 5.4rem !important;
@@ -474,7 +483,7 @@ option {
   width: 25%;
 }
 
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   #checkboxNav:checked ~ .SideBar {
     width: 100%;
   }

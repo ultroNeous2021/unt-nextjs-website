@@ -192,7 +192,7 @@ function MegaMenuComponent() {
         id="overlay"
         className={addClass ? styles.ShowMenu : styles.HideMenuOne}
       >
-        <Row>
+        <Row className={styles.overlaySpace}>
           <Col xs={12} sm={12} md={4} className={styles.NavbarColMiddle}>
             <ul>
               <li
@@ -250,7 +250,7 @@ function MegaMenuComponent() {
               >
                 Engagement Model
               </li> */}
-              <li
+              {/* <li
                 className={styles.Services}
                 id="3"
                 style={
@@ -262,7 +262,7 @@ function MegaMenuComponent() {
                 onMouseEnter={onHoverHandler}
               >
                 Portfolio
-              </li>
+              </li> */}
             </ul>
           </Col>
           <Col xs={12} sm={12} md={8} className={styles.NavbarColLast}>

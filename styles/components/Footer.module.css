@@ -193,7 +193,7 @@
 
 /* BOOTSTRAP MEDIA QUERIES */
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 320px) and (max-width: 430px) {
+@media (min-width: 320px) and (max-width: 450px) {
   .FooterTopText {
     padding: 0em;
   }
