@@ -1167,18 +1167,18 @@ export const NavbarMenuList = [
 ];
 
 export const NavbarMenuFirstColImageList = [
-  {
-    image: "/assets/navbar3.jpg",
-    name: "Portfolio",
-    // link: "",
-    new: false,
-  },
-  {
-    image: "/assets/navbar2.jpg",
-    name: "Blog",
-    // link: "",
-    new: true,
-  },
+  // {
+  //   image: "/assets/navbar3.jpg",
+  //   name: "Portfolio",
+  //   // link: "",
+  //   new: false,
+  // },
+  // {
+  //   image: "/assets/navbar2.jpg",
+  //   name: "Blog",
+  //   // link: "",
+  //   new: true,
+  // },
   {
     image: "/assets/navbar1.jpg",
     name: "Contact Us",
