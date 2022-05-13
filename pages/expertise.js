@@ -36,129 +36,122 @@ import Link from "next/link";
 export const FrontEnd = () => {
   const goto = useRouter();
   return (
-    <Layout
-      title={"Hire Dedicated Developers | ultroNeous"}
-      description={
-        "Hire expert developers with range of expertise from ultroNeous. We are one-stop solutions for all things in frontend, backend, and mobile development"
-      }
-    >
-      <div className={styles.Frontcontainer}>
-        <Row className={styles.Mainrow}>
-          <Col xl={4} xs={12}>
-            <h2
-              className={styles.Cathead}
-              // data-aos="zoom-in"
-              // data-aos-duration="2000"
-            >
-              Front end
-            </h2>
-          </Col>
-          <Col xl={8} xs={12}>
-            <Row>
-              <Col xl={3} xs={6} className={styles.Containt}>
-                <Link href={"/reactjs-development"}>
-                  <a href={"/reactjs-development"}>
-                    <div className={`${styles.Card1} ${styles.CardMain}`}>
-                      <FaReact className={styles.Icon} />
-                      <h5>React JS</h5>
-                      <Image
-                        src={"/assets/Arrownext.svg"}
-                        className={styles.Arrownxt}
-                      />
-                    </div>
-                  </a>
-                </Link>
-              </Col>
-              <Col xl={3} xs={6} className={styles.Containt}>
-                <Link href={"/angular-development"}>
-                  <a href={"/angular-development"}>
-                    <div className={`${styles.Card2} ${styles.CardMain}`}>
-                      <FaAngular className={styles.Icon} />
-                      <h5>Angular</h5>
-                      <Image
-                        src={"/assets/Arrownext.svg"}
-                        className={styles.Arrownxt}
-                      />
-                    </div>
-                  </a>
-                </Link>
-              </Col>
+    <div className={styles.Frontcontainer}>
+      <Row className={styles.Mainrow}>
+        <Col xl={4} xs={12}>
+          <h2
+            className={styles.Cathead}
+            // data-aos="zoom-in"
+            // data-aos-duration="2000"
+          >
+            Front end
+          </h2>
+        </Col>
+        <Col xl={8} xs={12}>
+          <Row>
+            <Col xl={3} xs={6} className={styles.Containt}>
+              <Link href={"/reactjs-development"}>
+                <a href={"/reactjs-development"}>
+                  <div className={`${styles.Card1} ${styles.CardMain}`}>
+                    <FaReact className={styles.Icon} />
+                    <h5>React JS</h5>
+                    <Image
+                      src={"/assets/Arrownext.svg"}
+                      className={styles.Arrownxt}
+                    />
+                  </div>
+                </a>
+              </Link>
+            </Col>
+            <Col xl={3} xs={6} className={styles.Containt}>
+              <Link href={"/angular-development"}>
+                <a href={"/angular-development"}>
+                  <div className={`${styles.Card2} ${styles.CardMain}`}>
+                    <FaAngular className={styles.Icon} />
+                    <h5>Angular</h5>
+                    <Image
+                      src={"/assets/Arrownext.svg"}
+                      className={styles.Arrownxt}
+                    />
+                  </div>
+                </a>
+              </Link>
+            </Col>
 
-              <Col xl={3} xs={6} className={styles.Containt}>
-                {/* <Link href={"/front-end-development"}>
+            <Col xl={3} xs={6} className={styles.Containt}>
+              {/* <Link href={"/front-end-development"}>
                 <a href={"/front-end-development"}> */}
-                <div className={`${styles.Card4} ${styles.CardMain}`}>
-                  <FaHtml5 className={styles.Icon} />
-                  <h5>HTML5</h5>
-                  {/* <Image
+              <div className={`${styles.Card4} ${styles.CardMain}`}>
+                <FaHtml5 className={styles.Icon} />
+                <h5>HTML5</h5>
+                {/* <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
                     /> */}
-                </div>
-                {/* </a>
+              </div>
+              {/* </a>
               </Link> */}
-              </Col>
-              <Col xl={3} xs={6} className={styles.Containt}>
-                {/* <Link href={"/nextjs-development"}>
+            </Col>
+            <Col xl={3} xs={6} className={styles.Containt}>
+              {/* <Link href={"/nextjs-development"}>
                 <a href={"/nextjs-development"}> */}
-                <div className={`${styles.Card5} ${styles.CardMain}`}>
-                  <SiNextdotjs className={styles.Icon} />
-                  <h5>Next Js</h5>
-                  {/* <Image
+              <div className={`${styles.Card5} ${styles.CardMain}`}>
+                <SiNextdotjs className={styles.Icon} />
+                <h5>Next Js</h5>
+                {/* <Image
                   src={"/assets/Arrownext.svg"}
                   className={styles.Arrownxt}
                 /> */}
-                </div>
-                {/* </a>
+              </div>
+              {/* </a>
               </Link> */}
-              </Col>
-              <Col xl={3} xs={6} className={styles.Containt}>
-                {/* <Link href={"/front-end-development"}>
+            </Col>
+            <Col xl={3} xs={6} className={styles.Containt}>
+              {/* <Link href={"/front-end-development"}>
                 <a href={"/front-end-development"}> */}
-                <div className={`${styles.Card6} ${styles.CardMain}`}>
-                  <SiGatsby className={styles.Icon} />
-                  <h5>Gatsby</h5>
-                  {/* <Image
+              <div className={`${styles.Card6} ${styles.CardMain}`}>
+                <SiGatsby className={styles.Icon} />
+                <h5>Gatsby</h5>
+                {/* <Image
                   src={"/assets/Arrownext.svg"}
                   className={styles.Arrownxt}
                 /> */}
-                </div>
-                {/* </a>
+              </div>
+              {/* </a>
               </Link> */}
-              </Col>
-              <Col xl={3} xs={6} className={styles.Containt}>
-                {/* <Link href={"/front-end-development"}>
+            </Col>
+            <Col xl={3} xs={6} className={styles.Containt}>
+              {/* <Link href={"/front-end-development"}>
                 <a href={"/front-end-development"}> */}
-                <div className={`${styles.Card7} ${styles.CardMain}`}>
-                  <SiNuxtdotjs className={styles.Icon} />
-                  <h5>Nuxt Js</h5>
-                  {/* <Image
+              <div className={`${styles.Card7} ${styles.CardMain}`}>
+                <SiNuxtdotjs className={styles.Icon} />
+                <h5>Nuxt Js</h5>
+                {/* <Image
                   src={"/assets/Arrownext.svg"}
                   className={styles.Arrownxt}
                 /> */}
-                </div>
-                {/* </a>
+              </div>
+              {/* </a>
               </Link> */}
-              </Col>
-              <Col xl={3} xs={6} className={styles.Containt}>
-                <Link href={"/vuejs-development"}>
-                  <a href={"/vuejs-development"}>
-                    <div className={`${styles.Card3} ${styles.CardMain}`}>
-                      <FaVuejs className={styles.Icon} />
-                      <h5>Vue Js </h5>
-                      <Image
-                        src={"/assets/Arrownext.svg"}
-                        className={styles.Arrownxt}
-                      />
-                    </div>
-                  </a>
-                </Link>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
-      </div>
-    </Layout>
+            </Col>
+            <Col xl={3} xs={6} className={styles.Containt}>
+              <Link href={"/vuejs-development"}>
+                <a href={"/vuejs-development"}>
+                  <div className={`${styles.Card3} ${styles.CardMain}`}>
+                    <FaVuejs className={styles.Icon} />
+                    <h5>Vue Js </h5>
+                    <Image
+                      src={"/assets/Arrownext.svg"}
+                      className={styles.Arrownxt}
+                    />
+                  </div>
+                </a>
+              </Link>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </div>
   );
 };
 export const BackEnd = () => {
@@ -437,7 +430,12 @@ const Technologies = () => {
     });
   };
   return (
-    <Layout>
+    <Layout
+      title={"Hire Dedicated Developers | ultroNeous"}
+      description={
+        "Hire expert developers with range of expertise from ultroNeous. We are one-stop solutions for all things in frontend, backend, and mobile development"
+      }
+    >
       <PagesHeaderComponent text={"Expertise"} heading={"We Excel at"} />
       <div className={styles.ParagraphSection}>
         <p>
