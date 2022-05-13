@@ -45,7 +45,7 @@ export default function HomePage({ data }) {
   return (
     <Layout
       title={
-        "Best Mobile & Web App Development Company in USA/India | ultroNeous Technologies"
+        "Best Mobile & Web App Development Company in USA/India | ultroNeous "
       }
       description={
         "ultroNeous Technologies is web and mobile app development company in the USA & India. We provide cost-effective solutions for software development services, and digital marketing."
