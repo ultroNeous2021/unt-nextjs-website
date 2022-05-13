@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "@/styles/components/MegaMenuComponent.module.css";
 import { Accordion, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import {
@@ -14,6 +14,10 @@ import TransparentButton from "./TransparentButton";
 import { useRouter } from "next/router";
 
 function MegaMenuComponent() {
+  // var find = document.getElementsByClassName("AccordionHeader");
+  // var d = React.createElement("p");
+  // d.innerHTML = find;
+  // React.cloneElement(d);
   const [addClass, setAddClass] = useState(false); // change bars
   const [id, setId] = useState("0"); // sets id for navbar list hover
   const [imageHover, setImageHover] = useState(false); // make img hover change on text
@@ -365,21 +369,18 @@ function MegaMenuComponent() {
         <div className={styles.ImageDivParent}>
           {NavbarMenuFirstColImageList.map((el, ind) => (
             <Link href={el.link ? el.link : ""} key={ind} target="blank">
-              <a target={el.new && el.link ? "_blank" : "_self"}>
-                <div className={styles.ParentDivMain}>
-                  <div className={styles.ImageDiv}>
-                    <img src={el.image} className={styles.NavImage} />
-                  </div>
-                  <p
-                    className={styles.ImageText}
-                    onMouseEnter={imageHoverFunc}
-                    onMouseLeave={removeImageHoverFunc}
-                    id={ind}
-                  >
-                    {el.name}
-                  </p>
-                </div>
-              </a>
+              <div className={`${styles.container} ${styles.colorChange}`}>
+                <a href="/contact-us">
+                  <img
+                    src={el.image}
+                    alt="Snow"
+                    style={{ width: "100%" }}
+                    className={styles.img}
+                  />
+                </a>
+
+                <div className={styles.centered}> {el.name}</div>
+              </div>
             </Link>
           ))}
         </div>

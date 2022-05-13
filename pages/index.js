@@ -25,6 +25,7 @@ import Verticals from "@/components/Verticals";
 import WhyClientChoose from "@/components/WhyClientChoose";
 import Link from "next/link";
 import axios from "axios";
+import BlogSliderComponent from "@/components/Slider/BlogSliderComponent";
 
 export default function HomePage({ data }) {
   const [hoverColor, setHoverColor] = useState(false);
@@ -517,6 +518,7 @@ export default function HomePage({ data }) {
             </Col>
           </Row>
         </div>
+        {/* <BlogSliderComponent list={data.blog.data} /> */}
       </div>
     </Layout>
   );
@@ -531,12 +533,17 @@ export async function getServerSideProps() {
   const res2 = await axios
     .get(`${API_URL}admin/getlookatourdesign`)
     .catch((e) => console.log(e));
+  const res3 = await axios
+    // .get(`${API_URL}admin/getblog`)
+    .get(`http://192.168.1.28:8000/admin/getblog`)
+    .catch((e) => console.log(e));
 
   return {
     props: {
       data: {
         data1: res ? res.data : TestimonialsSliderData,
         data2: res2 ? res2.data : null,
+        blog: res3 ? res3.data : null,
       },
     },
   };
