@@ -533,10 +533,10 @@ export async function getServerSideProps() {
   const res2 = await axios
     .get(`${API_URL}admin/getlookatourdesign`)
     .catch((e) => console.log(e));
-  const res3 = await axios
-    // .get(`${API_URL}admin/getblog`)
-    .get(`http://192.168.1.28:8000/admin/getblog`)
-    .catch((e) => console.log(e));
+  // const res3 = await axios
+  //   // .get(`${API_URL}admin/getblog`)
+  //   .get(`http://192.168.1.28:8000/admin/getblog`)
+  //   .catch((e) => console.log(e));
 
   return {
     props: {
