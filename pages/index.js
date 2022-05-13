@@ -543,7 +543,7 @@ export async function getServerSideProps() {
       data: {
         data1: res ? res.data : TestimonialsSliderData,
         data2: res2 ? res2.data : null,
-        blog: res3 ? res3.data : null,
+        // blog: res3 ? res3.data : null,
       },
     },
   };
