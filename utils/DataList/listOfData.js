@@ -224,7 +224,7 @@ export const ListOfWebService = {
   heading: "Services We Offer",
   title: "Web Application Development",
   paragraph:
-    "World-class web application development company that uses cutting-edge technologies to develop top-notch web apps delivering outstanding, secured, responsive, and finest results. Over the years, ultroNeous has gained mastery in web application development frameworks and libraries such as the LAMP stack, MEAN & MERN development, and open-source development. ",
+    "World-class custom web application development company that uses cutting-edge technologies to develop top-notch web apps delivering outstanding, secured, responsive, and finest results. Over the years, ultroNeous has gained mastery in web application development frameworks and libraries such as the LAMP stack, MEAN & MERN development, and open-source development. ",
   image: "/assets/Webappdevs.png",
   alt: "web-app-development",
 };
@@ -240,7 +240,7 @@ export const ListOfUiUxDesign = {
   heading: "Services We Offer",
   title: "UX / UI Design",
   paragraph:
-    "Any website or application's success hinges on its ability to provide a positive user experience. Whether visitors stay or leave a website or application is entirely dependent on the UX/UI design. ultroNeous is a top UX/UI development company that has provided innovative design services to a variety of business types. Our designers are meticulous in selecting appropriate UX/UI features that give business web solutions rich and bespoke usability and user experience.",
+    "Any website or application's success hinges on its ability to provide a positive user experience. Whether visitors stay or leave a website or application is entirely dependent on the UX/UI design. ultroNeous is a top UX/UI development company that has provided innovative UX/UI design services to a variety of business types. Our designers are meticulous in selecting appropriate UX/UI features that give business web solutions rich and bespoke usability and user experience.",
   image: "/assets/UX-UI.png",
   alt: "ui-ux-design",
 };
@@ -264,7 +264,7 @@ export const ListOfEcommDevService = {
   heading: "Services We Offer",
   title: "e-Commerce Development",
   paragraph:
-    "Take your online business to the next level by leveraging the expertise of professional eCommerce development services from ultroNeous. Our highly-skilled eCommerce developers have solid working experience with the major e-commerce development platforms. We develop user-friendly e-commerce stores that are easy to navigate, have an elegant design, and are SEO optimized. B2C, B2B, and custom app development are our main e-commerce services along with other key e-commerce business requirements. ",
+    "Take your online business to the next level by leveraging the expertise of professional eCommerce ..development services from ultroNeous, an eCommerce development company. Our highly-skilled eCommerce developers have solid working experience with the major e-commerce development platforms. We develop user-friendly e-commerce stores that are easy to navigate, have an elegant design, and are SEO optimized. B2C, B2B, and custom app development are our main e-commerce services along with other key e-commerce business requirements. ",
   image: "/assets/E-commers.png",
   alt: "E-commerce Developme",
 };

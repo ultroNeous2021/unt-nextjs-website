@@ -268,7 +268,7 @@ export default function HomePage({ data }) {
             <div className={styles.WhatWeOfferParaContainerMiddle}>
               <p className={styles.WhatweofferPargraph}>
                 Our team will bring life into your concept and designs. Our
-                quality web and mobility development team along with their
+                quality web app and mobile app development team along with their
                 unique QA approach will result in an high-end product.
               </p>
             </div>

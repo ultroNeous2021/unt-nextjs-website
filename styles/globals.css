@@ -96,6 +96,73 @@ a {
 .AccordionNav .accordion-body {
   padding: 0 1.25rem;
 }
+
+/* New Accodian Meghamenu */
+
+.ant-collapse {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+  background-color: #fff !important;
+  border: none !important;
+  border-bottom: none !important;
+  border-radius: none !important;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 12px 16px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 1.5715;
+  cursor: pointer;
+  transition: all 0.3s, visibility 0s;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(25, 19, 17, 0.6) !important;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 22px !important;
+  vertical-align: -1px;
+  position: relative;
+  left: 22rem;
+  color: rgba(25, 19, 17, 0.6);
+}
+
+.ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-arrow
+  svg {
+  transition: transform 0.24s;
+  /* transform: rotate(90deg); */
+}
+.ant-collapse > .ant-collapse-item {
+  border-bottom: none !important;
+}
+
+.Acop {
+  display: flex !important;
+  justify-content: left !important;
+  margin-left: 1.5rem;
+}
+.ant-collapse-content {
+  color: rgba(0, 0, 0, 0.85);
+  background-color: #fff;
+  border-top: none !important;
+}
+
 @media screen and (min-width: 320px) and (max-width: 450px) {
   #overlaytwo {
     display: none;

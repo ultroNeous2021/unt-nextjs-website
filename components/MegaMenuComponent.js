@@ -12,12 +12,11 @@ import Link from "next/link";
 import Image from "next/image";
 import TransparentButton from "./TransparentButton";
 import { useRouter } from "next/router";
+import { Collapse } from "antd";
 
 function MegaMenuComponent() {
-  // var find = document.getElementsByClassName("AccordionHeader");
-  // var d = React.createElement("p");
-  // d.innerHTML = find;
-  // React.cloneElement(d);
+  const { Panel } = Collapse;
+
   const [addClass, setAddClass] = useState(false); // change bars
   const [id, setId] = useState("0"); // sets id for navbar list hover
   const [imageHover, setImageHover] = useState(false); // make img hover change on text
@@ -292,7 +291,7 @@ function MegaMenuComponent() {
                 ))}
               </ul>
               <div className={id === "2" ? styles.ShowPopup : styles.HidePopup}>
-                <Accordion
+                {/* <Accordion
                   id="2"
                   className={`${styles.NavAccordion} AccordionNav`}
                   defaultActiveKey="0"
@@ -347,7 +346,43 @@ function MegaMenuComponent() {
                       ))}
                     </Accordion.Body>
                   </Accordion.Item>
-                </Accordion>
+                </Accordion> */}
+
+                <Collapse accordion defaultActiveKey={["1"]}>
+                  <Panel header="Front End" key="1">
+                    <ul>
+                      {TechnologiesAllData.frontend.map((el, ind) => (
+                        <li className={`${styles.Accordionli}`}>
+                          <Link href={el.link} key={ind}>
+                            {el.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </Panel>
+                  <Panel header="Back End" key="2">
+                    <ul>
+                      {TechnologiesAllData.backend.map((el, ind) => (
+                        <li className={`${styles.Accordionli}`}>
+                          <Link href={el.link} key={ind}>
+                            {el.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </Panel>
+                  <Panel header="Mobile Application" key="3">
+                    <ul>
+                      {TechnologiesAllData.mobile.map((el, ind) => (
+                        <li className={`${styles.Accordionli}`}>
+                          <Link href={el.link} key={ind}>
+                            {el.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </Panel>
+                </Collapse>
               </div>
             </div>
             <div className={styles.LastColSocialMedia}>
