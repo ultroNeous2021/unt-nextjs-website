@@ -18,7 +18,7 @@ const HireIosDeveloper = () => {
   const keyword =
     "hire iphone app developers, hire ios app developer, hire ios developer, ios app development company, ios development company";
   const description =
-    "We are a leading iOS/iPhone app development company, having headquarter in India. Hire iOS/iPhone developers from ultroNeous Technologies as per your demand.";
+    "We are a leading iOS app development company, having headquarter in India. Hire iOS/iPhone app developers from ultroNeous Technologies as per your demand.";
   return (
     <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent

@@ -15,7 +15,7 @@ import {
 
 const HirePythonDeveloper = () => {
   const title =
-    "Python Development | Hire Developer from India ASAP! | ultroNeous";
+    "Hire Python Developer from India | Python Development Company | ultroNeous";
   const keyword = "hire python developers, python development company";
   const description =
     "ultroNeous is your solid python development partner. Hire python software developers, having expertise in Django, Flask and Web2Pay frameworks.";
@@ -48,7 +48,7 @@ const HirePythonDeveloper = () => {
       <CounterComponent data={CounterPersonalPage} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="Python Developer"
+        replaceDetail="Dedicated Python Developer"
       />
       <QuoteComponent
         descreption={

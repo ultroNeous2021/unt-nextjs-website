@@ -11,13 +11,14 @@
   color: #fff;
   width: 80%;
   bottom: 5rem;
-  left: 3.5rem;
+  left: 1.5rem;
   padding: 2rem;
-  height: 14rem;
+  height: 10rem;
   background: #1b1414;
 }
 .BlogDescription h3 {
   color: #fff;
+  font-size: 25px;
 }
 .BlogContainer {
   width: 100%;
@@ -37,20 +38,39 @@
 .arrowSetup {
   display: flex;
   justify-content: end;
+  align-items: center;
 }
 .ArrowSize {
-  height: 5rem;
+  cursor: pointer;
+  height: 4.5rem;
+  transition: all 0.5s ease;
+}
+.ArrowSize:hover {
+  transform: scale(0.9);
+  transition: all 0.5s ease;
 }
 .ArrowSpace {
   padding-right: 1rem;
 }
-@media (min-width: 320px) and (max-width: 430px) {
+.BlogImage {
+  width: 26rem !important;
+  height: 381px !important;
+  border-radius: 10px;
+}
+.slick-slide {
+  width: 550px !important;
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
   .BlogSliderContainer {
     padding: 4rem 1rem 0 1rem;
   }
   .BlogDescription {
-    width: 85%;
-    height: 17rem;
+    width: 93%;
+    height: 8rem;
+  }
+  .BlogDescription h3 {
+    font-size: 16px;
   }
   .BlogSliderHeading {
     font-size: 45px;
@@ -70,8 +90,12 @@
   }
   .BlogDescription {
     width: 100%;
-    height: 15rem;
+    height: 9rem;
     left: 2.5rem;
+  }
+  .BlogImage {
+    width: auto !important;
+    height: auto !important;
   }
 }
 @media (min-width: 1200px) and (max-width: 1730px) {

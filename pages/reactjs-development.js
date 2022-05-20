@@ -19,6 +19,7 @@ const HireReactjsDeveloper = () => {
     "hire reactjs developer, reactjs developer, reactjs development company";
   const description =
     "ultroNeous Technologies is best rated Reactjs Development Company providing services in USA and India. Hire developers from top Reactjs development company.";
+  console.log(HireReactJSServiceslist.length);
   return (
     <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
@@ -31,10 +32,11 @@ const HireReactjsDeveloper = () => {
         }
         techname={"/assets/ReactJS.svg"}
         detail={
-          "ReactJs is a JavaScript library for creating unique web apps user interface elements. You can produce paramount web applications for your organization with the help of proficient ReactJs developers. Hire ReactJs developers from reputable ReactJs development companies to help you achieve your business objectives with ReactJs web solutions."
+          "ReactJs is a JavaScript library for creating unique web apps user interface elements. You can produce paramount web applications for your organization with the help of proficient ReactJs developers. Hire ReactJs developers from  reputable ReactJs development company to help you achieve your business objectives with ReactJs web solutions."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HireReactJSServiceslist} />
+
       <BenifitsComponent
         maintitle={
           <>

@@ -24,7 +24,7 @@ const BenifitsComponent = (props) => {
             <div>
               <Image src={value.src} alt={value.title} />
             </div>
-            <span className={styles.Subtitle}>{value.title}</span>
+            <h3 className={styles.Subtitle}>{value.title}</h3>
             <p className={styles.Description}>{value.Description}</p>
           </Col>
         ))}

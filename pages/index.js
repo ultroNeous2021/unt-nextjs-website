@@ -162,24 +162,23 @@ export default function HomePage({ data }) {
                 className={styles.IntroParagraphSection}
               >
                 <p className={styles.IntroParagraph}>
-                  ultroNeous is a concept. A concept of innovation, excellence
-                  and exceptional creativity. We are building the technical
-                  solutions for pioneers to reach their vision, and industries
-                  to automate their process. We are committed to remove the
-                  technology obstacles to empower the various verticals and
-                  domains.
+                  ultroNeous is a concept. A concept of innovation, excellence,
+                  and exceptional creativity. Being the web and mobile app
+                  development company, we are building technological solutions
+                  for pioneers to reach their vision and for industries to
+                  automate their processes. We strive to remove technical
+                  obstacles to empower the various verticals and domains.
                   <br />
                   <br />
                   <span style={{ color: "#e49b00" }}>
                     We are a strong unit of people, and call ourself an
                     ultroNeour.
                   </span>
-                  &nbsp; An ultroNeour is always putting an extra mile and
-                  efforts, to create an advanced technical solution for web,
-                  mobility and enterprise software. Our experienced designers
-                  and developers have a broad working knowledge and expertise to
-                  build scalable solutions with the use of cutting-edge
-                  technologies and industry proven tools.
+                  &nbsp; An ultroNeour always goes the extra mile to create an
+                  advanced technical solution for web, mobility, and enterprise
+                  software. Our expert designers and developers have deep
+                  knowledge and experience building scalable solutions using
+                  cutting-edge technologies and industry-proven tools.
                 </p>
               </Col>
               <Col
@@ -518,7 +517,7 @@ export default function HomePage({ data }) {
             </Col>
           </Row>
         </div>
-        {/* <BlogSliderComponent list={data.blog.data} /> */}
+        <BlogSliderComponent list={data.blog.data} />
       </div>
     </Layout>
   );
@@ -533,17 +532,17 @@ export async function getServerSideProps() {
   const res2 = await axios
     .get(`${API_URL}admin/getlookatourdesign`)
     .catch((e) => console.log(e));
-  // const res3 = await axios
-  //   // .get(`${API_URL}admin/getblog`)
-  //   .get(`http://192.168.1.28:8000/admin/getblog`)
-  //   .catch((e) => console.log(e));
+  const res3 = await axios
+    // .get(`${API_URL}admin/getblog`)
+    .get(`${API_URL}admin/getblog`)
+    .catch((e) => console.log(e));
 
   return {
     props: {
       data: {
         data1: res ? res.data : TestimonialsSliderData,
         data2: res2 ? res2.data : null,
-        // blog: res3 ? res3.data : null,
+        blog: res3 ? res3.data : null,
       },
     },
   };

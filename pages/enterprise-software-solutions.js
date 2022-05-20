@@ -124,7 +124,7 @@ const EnterpriseSoftwareSolutions = () => {
                   </Col>
                   <Col xl={6} className={styles.Details}>
                     <div>
-                      <h5 className={styles.Subtitle}>Planning</h5>
+                      <h3 className={styles.Subtitle}>Planning</h3>
                       <p className={styles.Subp}>
                         Analyzing the requirements & finalizing the scope work
                         for the project from the client & developer end.
@@ -137,7 +137,7 @@ const EnterpriseSoftwareSolutions = () => {
                   </Col>
                   <Col xl={6} className={styles.Details}>
                     <div>
-                      <h5 className={styles.Subtitle}>Designing</h5>
+                      <h3 className={styles.Subtitle}>Designing</h3>
                       <p className={styles.Subp}>
                         Creating UX/UI design that is interactive and
                         user-friendly according to the scope of the project.
@@ -152,7 +152,7 @@ const EnterpriseSoftwareSolutions = () => {
                   </Col>
                   <Col xl={6} className={styles.Details}>
                     <div>
-                      <h5 className={styles.Subtitle}>Building</h5>
+                      <h3 className={styles.Subtitle}>Building</h3>
                       <p className={styles.Subp}>
                         Once the design is approved our developers bifurcate the
                         work from the developer side.
@@ -165,7 +165,7 @@ const EnterpriseSoftwareSolutions = () => {
                   </Col>
                   <Col xl={6} className={styles.Details}>
                     <div>
-                      <h5 className={styles.Subtitle}>Testing</h5>
+                      <h3 className={styles.Subtitle}>Testing</h3>
                       <p className={styles.Subp}>
                         After the development is completed, the QA team will
                         ensure the bug-free solution at the individual & Mass
@@ -181,7 +181,7 @@ const EnterpriseSoftwareSolutions = () => {
                   </Col>
                   <Col xl={6} className={styles.Details}>
                     <div>
-                      <h5 className={styles.Subtitle}>Deployment</h5>
+                      <h3 className={styles.Subtitle}>Deployment</h3>
                       <p className={styles.Subp}>
                         Final staging is deployment, once QA will submit the
                         report our developers will upload the build.
@@ -194,7 +194,7 @@ const EnterpriseSoftwareSolutions = () => {
                   </Col>
                   <Col xl={6} className={styles.Details}>
                     <div>
-                      <h5 className={styles.Subtitle}>Maintenance</h5>
+                      <h3 className={styles.Subtitle}>Maintenance</h3>
                       <p className={styles.Subp}>
                         Once the software goes live all we need to look after is
                         regular updates and frequent maintenance checks.

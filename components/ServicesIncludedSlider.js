@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 const ServicesIncludedSlider = (props) => {
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     arrows: false,
     slidesToShow: 3,
@@ -63,13 +63,13 @@ const ServicesIncludedSlider = (props) => {
       </div> */}
       <Row className={styles.ArrowContainNavigate}>
         <Col xs={12} xl={6} md={10} className={styles.CardMainHeadingContain}>
-          <h3
+          <h2
             className={styles.CardMainHeading}
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
             Services Included
-          </h3>
+          </h2>
         </Col>
         <Col xs={12} xl={6} md={2} className={styles.ArrowContain}>
           <div className={styles.ArrowContainSpace}>

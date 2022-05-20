@@ -5,7 +5,7 @@
 }
 
 .FooterTopText {
-  background-image: url("/assets/footer-image.jpg");
+  background-image: url("/assets/footer-image.webp");
   height: 42vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,7 +77,7 @@
   padding: 0%;
 }
 
-.QuickLinks h3 {
+.QuickLinks h5 {
   color: #ffffff;
   margin-bottom: 0.8em;
 }

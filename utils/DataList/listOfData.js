@@ -225,14 +225,14 @@ export const ListOfWebService = {
   title: "Web Application Development",
   paragraph:
     "World-class custom web application development company that uses cutting-edge technologies to develop top-notch web apps delivering outstanding, secured, responsive, and finest results. Over the years, ultroNeous has gained mastery in web application development frameworks and libraries such as the LAMP stack, MEAN & MERN development, and open-source development. ",
-  image: "/assets/Webappdevs.png",
+  image: "/assets/Webappdevs.webp",
   alt: "web-app-development",
 };
 export const ListOfMobileService = {
   heading: "Services We Offer",
   title: "Mobile Application Development",
   paragraph:
-    "ultroNeous is a leading mobile app development company in developing custom mobile apps with a variety of technological stacks. Our experienced team is innovative in creating mobile apps with exceptional user experience, great compatibility, and are bug-free. ultroNeous' developers use hybrid app development and native app development procedure to build mobile apps that are sturdy, reliable and efficient. ",
+    "ultroNeous is a leading hybrid mobile app development company in developing custom mobile apps with a variety of technological stacks. Our experienced team is innovative in creating mobile apps with exceptional user experience, great compatibility, and are bug-free. ultroNeous' developers use hybrid app development and native app development procedure to build mobile apps that are sturdy, reliable and efficient. ",
   image: "/assets/mobile-dev.png",
   alt: "mobile-app-development",
 };
@@ -241,15 +241,15 @@ export const ListOfUiUxDesign = {
   title: "UX / UI Design",
   paragraph:
     "Any website or application's success hinges on its ability to provide a positive user experience. Whether visitors stay or leave a website or application is entirely dependent on the UX/UI design. ultroNeous is a top UX/UI development company that has provided innovative UX/UI design services to a variety of business types. Our designers are meticulous in selecting appropriate UX/UI features that give business web solutions rich and bespoke usability and user experience.",
-  image: "/assets/UX-UI.png",
+  image: "/assets/UX-UI.webp",
   alt: "ui-ux-design",
 };
 export const ListOfDigitalMarketingService = {
   heading: "Services We Offer",
   title: "Digital Marketing",
   paragraph:
-    "Digital Marketing is a strategy of promoting products and services by publishing relevant content and placing advertisements on various online platforms. Search engines, social media platforms, mobile applications, and websites are some of the most popular channels for digital marketing, often known as internet marketing. ultroNeous is a leading digital marketing agency that works for companies across the world to help them increase their revenue and improve their business online visibility.",
-  image: "/assets/Digitalmarketing.png",
+    "Digital Marketing is a strategy of promoting products and services by publishing relevant content and placing advertisements on various online platforms. Search engines, social media platforms, mobile applications, and websites are some of the most popular channels for digital marketing, often known as internet marketing. ultroNeous is a leading digital marketing agency that works with companies around the globe. We have assisted companies with digital marketing services to help them increase their revenue and improve their business' online visibility.",
+  image: "/assets/Digitalmarketing.webp",
   alt: "digital-marketing",
 };
 export const ListOfFrontEndService = {
@@ -265,15 +265,15 @@ export const ListOfEcommDevService = {
   title: "e-Commerce Development",
   paragraph:
     "Take your online business to the next level by leveraging the expertise of professional eCommerce development services from ultroNeous, an eCommerce development company. Our highly-skilled eCommerce developers have solid working experience with the major e-commerce development platforms. We develop user-friendly e-commerce stores that are easy to navigate, have an elegant design, and are SEO optimized. B2C, B2B, and custom app development are our main e-commerce services along with other key e-commerce business requirements. ",
-  image: "/assets/E-commers.png",
+  image: "/assets/E-commerce.webp",
   alt: "E-commerce Developme",
 };
 export const ListOfEntSoftSolService = {
   heading: "Services We Offer",
   title: "Enterprise Software Solution Development",
   paragraph:
-    "Accelerate the growth of your business with ultroNeous’ compelling and precise enterprise software development services. With a dedicated team of software developers, ultroNeous is the market leader in producing top-notch software that enhances productivity, revenue, and saves time for a sophisticated business model. As an enterprise software company, we are bound to deliver custom enterprise software with minimal flaws for all sized businesses. ",
-  image: "/assets/Enterprise.png",
+    "Accelerate the growth of your business with ultroNeous’ compelling and precise enterprise software development services. With a dedicated team of software developers, ultroNeous is the market leader in producing top-notch software that enhances productivity, revenue, and saves time for a sophisticated business model. As an Enterprise software development company, we are bound to deliver custom enterprise software with minimal flaws for all sized businesses. ",
+  image: "/assets/Enterprise.webp",
   alt: "Enterprise Software Solution Development",
 };
 export const ListOfCloudandDevopsService = {
@@ -353,7 +353,7 @@ export const ListQualitiesUIUX = [
     image: "/assets/uiuxq3.svg",
     name: "Prototyping",
     descreption:
-      "Prototyping is an important aspect of UI/UX design that allows us to test all of the features and functions of an app.",
+      "Prototyping is an important aspect of UX/UI design that allows us to test all of the features and functions of an app.",
   },
   {
     image: "/assets/uiuxq4.svg",
@@ -1342,7 +1342,7 @@ export const HireAndroidServiceslist = [
   {
     title: "Andriod Enterprise",
     description:
-      "Android enterprise is a google led initiative that enables the usage of android apps and apps in the workplace it also provides enterprises with security & mobility. Hire android developers from ultroNeous to develop enterprise apps, combing apps & management services.",
+      "Android enterprise is a google led initiative that enables the usage of android apps and apps in the workplace it also provides enterprises with security & mobility. Hire dedicated android developers from ultroNeous to develop enterprise apps, combing apps & management services.",
   },
   {
     title: "UI/UX Designing ",
@@ -1446,7 +1446,7 @@ export const HireXamarinServiceslist = [
   {
     title: "Custom Xamarin Development ",
     description:
-      "We develop unique mobile applications as a leading Xamarin development company to match the veiled business requirements. Our skilled Xamarin developers are industry specialists in developing custom mobile applications according to project specifications.",
+      "We develop unique mobile applications as a leading Xamarin app development company to match the veiled business requirements. Our skilled Xamarin developers are industry specialists in developing custom mobile applications according to project specifications.",
   },
   {
     title: "Native Android App Development",

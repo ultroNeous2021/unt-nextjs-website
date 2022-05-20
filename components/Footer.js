@@ -93,7 +93,7 @@ function Footer({ FooterContainerStyle }) {
         <Col xs={12} sm={12} lg={6} className={styles.NonePadding}>
           <Row className={`${styles.FooterColOne} mx-0`}>
             <Col xs={12} sm={4} lg={4} className={styles.QuickLinks}>
-              <h3> Quick Links</h3>
+              <h5> Quick Links</h5>
               <ul>
                 <li>
                   <Link href="/about-ultroneous">About us</Link>
@@ -110,7 +110,7 @@ function Footer({ FooterContainerStyle }) {
               </ul>
             </Col>
             <Col xs={12} sm={4} lg={4} className={styles.QuickLinks}>
-              <h3>Services</h3>
+              <h5>Services</h5>
               <ul>
                 <li>
                   <Link href="/web-application-development">
@@ -134,7 +134,7 @@ function Footer({ FooterContainerStyle }) {
               </ul>
             </Col>
             <Col xs={12} sm={4} lg={4} className={styles.QuickLinks}>
-              <h3>Keep In Touch</h3>
+              <h5>Keep In Touch</h5>
               <ul>
                 <li>
                   <span style={{ marginRight: "5px" }}>
@@ -167,7 +167,7 @@ function Footer({ FooterContainerStyle }) {
           </Row>
         </Col>
         <Col xs={12} sm={12} lg={3} xl={2} className={styles.QuickLinks}>
-          <h3 className={styles.OurNewsletter}>Our Newsletter</h3>
+          <h5 className={styles.OurNewsletter}>Our Newsletter</h5>
           <div className={styles.SignupForNewsLetterContainer}>
             <input
               className={styles.SignupForNewsLetterEmail}

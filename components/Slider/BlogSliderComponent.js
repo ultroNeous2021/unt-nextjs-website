@@ -1,7 +1,7 @@
 import styles from "@/styles/components/BlogSliderComponent.module.css";
 import Link from "next/link";
 import { useRef } from "react";
-import { Card, Col, Image, Row } from "react-bootstrap";
+import { Card, Col, Container, Image, Row } from "react-bootstrap";
 import { BsArrowRight } from "react-icons/bs";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import Slider from "react-slick/lib/slider";
@@ -45,7 +45,16 @@ const BlogSliderComponent = (props) => {
           slidesToScroll: 1,
           initialSlide: 2,
           centerMode: true,
-          centerPadding: "20px",
+          centerPadding: "75px",
+        },
+      },
+      {
+        breakpoint: 885,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+          centerMode: false,
         },
       },
       {
@@ -54,16 +63,16 @@ const BlogSliderComponent = (props) => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
+          centerMode: false,
         },
       },
       {
-        breakpoint: 885,
+        breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
-          centerMode: true,
-          centerPadding: "20px",
+          centerMode: false,
         },
       },
     ],
@@ -74,7 +83,7 @@ const BlogSliderComponent = (props) => {
     <div className={styles.BlogSliderContainer}>
       <Row>
         <Col xl={6} md={8}>
-          <h3 className={styles.BlogSliderHeading}>News & Blog</h3>
+          <h2 className={styles.BlogSliderHeading}>News & Blog</h2>
         </Col>
         <Col xl={6} md={4} className={styles.arrowSetup}>
           <Image
@@ -97,19 +106,19 @@ const BlogSliderComponent = (props) => {
               ? props.list.map((v) => (
                   <div className={styles.BlogContainer}>
                     <div>
-                      <Image src={v.image} fluid />
+                      <Image src={v.image} fluid className={styles.BlogImage} />
                     </div>
                     <div className={styles.BlogDescription}>
                       <div className={styles.TitleSection}>
-                        <Link href="">
+                        <a href={v.link} target={"_blank"}>
                           <Image
                             src="/assets/blog-arrow.svg"
                             className={styles.blogArrow}
                           />
-                        </Link>
+                        </a>
                         <h3>{v.title}</h3>
                       </div>
-                      <p>{v.description}</p>
+                      {/* <p>{v.description}</p> */}
                     </div>
                   </div>
                 ))

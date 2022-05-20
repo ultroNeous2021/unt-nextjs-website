@@ -54,7 +54,7 @@ export const FrontEnd = () => {
                 <a href={"/reactjs-development"}>
                   <div className={`${styles.Card1} ${styles.CardMain}`}>
                     <FaReact className={styles.Icon} />
-                    <h5>React JS</h5>
+                    <h3>React JS</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -68,7 +68,7 @@ export const FrontEnd = () => {
                 <a href={"/angular-development"}>
                   <div className={`${styles.Card2} ${styles.CardMain}`}>
                     <FaAngular className={styles.Icon} />
-                    <h5>Angular</h5>
+                    <h3>Angular</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -83,7 +83,7 @@ export const FrontEnd = () => {
                 <a href={"/front-end-development"}> */}
               <div className={`${styles.Card4} ${styles.CardMain}`}>
                 <FaHtml5 className={styles.Icon} />
-                <h5>HTML5</h5>
+                <h3>HTML5</h3>
                 {/* <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -97,7 +97,7 @@ export const FrontEnd = () => {
                 <a href={"/nextjs-development"}> */}
               <div className={`${styles.Card5} ${styles.CardMain}`}>
                 <SiNextdotjs className={styles.Icon} />
-                <h5>Next Js</h5>
+                <h3>Next Js</h3>
                 {/* <Image
                   src={"/assets/Arrownext.svg"}
                   className={styles.Arrownxt}
@@ -111,7 +111,7 @@ export const FrontEnd = () => {
                 <a href={"/front-end-development"}> */}
               <div className={`${styles.Card6} ${styles.CardMain}`}>
                 <SiGatsby className={styles.Icon} />
-                <h5>Gatsby</h5>
+                <h3>Gatsby</h3>
                 {/* <Image
                   src={"/assets/Arrownext.svg"}
                   className={styles.Arrownxt}
@@ -125,7 +125,7 @@ export const FrontEnd = () => {
                 <a href={"/front-end-development"}> */}
               <div className={`${styles.Card7} ${styles.CardMain}`}>
                 <SiNuxtdotjs className={styles.Icon} />
-                <h5>Nuxt Js</h5>
+                <h3>Nuxt Js</h3>
                 {/* <Image
                   src={"/assets/Arrownext.svg"}
                   className={styles.Arrownxt}
@@ -139,7 +139,7 @@ export const FrontEnd = () => {
                 <a href={"/vuejs-development"}>
                   <div className={`${styles.Card3} ${styles.CardMain}`}>
                     <FaVuejs className={styles.Icon} />
-                    <h5>Vue Js </h5>
+                    <h3>Vue Js </h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -175,7 +175,7 @@ export const BackEnd = () => {
                 <a href={"/nodejs-development"}>
                   <div className={`${styles.Card8} ${styles.CardMain}`}>
                     <FaNodeJs className={styles.Icon} />
-                    <h5>Node Js </h5>
+                    <h3>Node Js </h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -189,7 +189,7 @@ export const BackEnd = () => {
                 <a href={"/laravel-development"}>
                   <div className={`${styles.Card9} ${styles.CardMain}`}>
                     <FaLaravel className={styles.Icon} />
-                    <h5>Laravel</h5>
+                    <h3>Laravel</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -203,7 +203,7 @@ export const BackEnd = () => {
                 <a href={"/php-development"}>
                   <div className={`${styles.Card10} ${styles.CardMain}`}>
                     <FaPhp className={styles.Icon} />
-                    <h5>Php</h5>
+                    <h3>Php</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -217,7 +217,7 @@ export const BackEnd = () => {
                 <a href={"/codeigniter-development"}>
                   <div className={`${styles.Card11} ${styles.CardMain}`}>
                     <SiCodeigniter className={styles.Icon} />
-                    <h5>Codeigniter</h5>
+                    <h3>Codeigniter</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -231,7 +231,7 @@ export const BackEnd = () => {
                 <a href={"/magento-development"}>
                   <div className={`${styles.Card12} ${styles.CardMain}`}>
                     <FaMagento className={styles.Icon} />
-                    <h5>Magento</h5>
+                    <h3>Magento</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -245,7 +245,7 @@ export const BackEnd = () => {
                 <a href={"/wordpress-development"}>
                   <div className={`${styles.Card13} ${styles.CardMain}`}>
                     <FaWordpress className={styles.Icon} />
-                    <h5>Wordpress</h5>
+                    <h3>Wordpress</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -259,7 +259,7 @@ export const BackEnd = () => {
                 <a href={"/shopify-development"}>
                   <div className={`${styles.Card14} ${styles.CardMain}`}>
                     <FaShopify className={styles.Icon} />
-                    <h5>Shopify</h5>
+                    <h3>Shopify</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -273,7 +273,7 @@ export const BackEnd = () => {
                 <a href={"/python-development"}>
                   <div className={`${styles.Card22} ${styles.CardMain}`}>
                     <FaPython className={styles.Icon} />
-                    <h5>Python</h5>
+                    <h3>Python</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -309,7 +309,7 @@ export const MobileApp = () => {
                 <a href={"/android-development"}>
                   <div className={`${styles.Card15} ${styles.CardMain}`}>
                     <SiKotlin className={styles.Icon} />
-                    <h5>Kotlin</h5>
+                    <h3>Kotlin</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -323,7 +323,7 @@ export const MobileApp = () => {
                 <a href={"/ios-development"}>
                   <div className={`${styles.Card16} ${styles.CardMain}`}>
                     <SiSwift className={styles.Icon} />
-                    <h5>Swift</h5>
+                    <h3>Swift</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -337,7 +337,7 @@ export const MobileApp = () => {
                 <a href={"/flutter-development"}>
                   <div className={`${styles.Card17} ${styles.CardMain}`}>
                     <SiFlutter className={styles.Icon} />
-                    <h5>Flutter</h5>
+                    <h3>Flutter</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -351,7 +351,7 @@ export const MobileApp = () => {
                 <a href={"/react-native-development"}>
                   <div className={`${styles.Card18} ${styles.CardMain}`}>
                     <FaReact className={styles.Icon} />
-                    <h5>React Native</h5>
+                    <h3>React Native</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -365,7 +365,7 @@ export const MobileApp = () => {
                 <a href={"/android-development"}> */}
               <div className={`${styles.Card19} ${styles.CardMain}`}>
                 <FaJava className={styles.Icon} />
-                <h5>Java</h5>
+                <h3>Java</h3>
                 {/* <Image
                   src={"/assets/Arrownext.svg"}
                   className={styles.Arrownxt}
@@ -385,7 +385,7 @@ export const MobileApp = () => {
                       style={{ marginTop: "1.7rem" }}
                       // height={100}
                     />
-                    <h5>Object-C</h5>
+                    <h3>Object-C</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -399,7 +399,7 @@ export const MobileApp = () => {
                 <a href={"/xamarin-development"}>
                   <div className={`${styles.Card21} ${styles.CardMain}`}>
                     <SiXamarin className={styles.Icon} />
-                    <h5>Xamarin</h5>
+                    <h3>Xamarin</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}

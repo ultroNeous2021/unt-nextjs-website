@@ -42,7 +42,8 @@ import { Image } from "react-bootstrap";
 import styles from "@/styles/components/HorizontalTab.module.css";
 import { AiFillInstagram } from "react-icons/ai";
 
-export const API_URL = "https://ultroneous.com:8000/";
+// export const API_URL = "https://ultroneous.com:8000/";
+export const API_URL = "http://192.168.1.28:8000/";
 export const CounterComponentData = [
   {
     start: 25,
@@ -602,7 +603,7 @@ export const MobileTechnologyExpertise = [
       <DiAndroid className={stylesHT.TechImagesMT1} />,
     ],
     detail:
-      "Native app development is a distinct approach for developing mobile apps for operating systems such as Android and iOS. At ultroNeous, we have an in-house dedicated native app developers team who is always up for developing an app that meets the client's requirements. Our native mobile applications development services are extremely conscientious about the app's quality and have completed countless projects on time.",
+      "Native app development is a distinct approach for developing mobile apps for operating systems such as Android and iOS. At ultroNeous, we have an in-house dedicated native app developers team who is always up for developing an app that meets the client's requirements. Our native mobile application development services are extremely conscientious about the app's quality and have completed countless projects on time.",
   },
   {
     title: "Hybrid",
@@ -1173,12 +1174,12 @@ export const NavbarMenuFirstColImageList = [
   //   link: "",
   //   new: false,
   // },
-  // {
-  //   image: "/assets/navbar2.jpg",
-  //   name: "Blog",
-  //    link: "",
-  //   new: true,
-  // },
+  {
+    image: "/assets/navbar2.jpg",
+    name: "Blog",
+    link: "https://blog.ultroneous.com/",
+    new: false,
+  },
   {
     image: "/assets/navbar1.jpg",
     name: "Contact Us",
