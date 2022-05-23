@@ -32,7 +32,7 @@ const HireReactnativeDeveloper = () => {
         }
         techname={"/assets/ReactNative.svg"}
         detail={
-          "Business Android applications are the most crucial platform for business success. You can hire android developers from ultroNeous, who have extensive expertise and experience in developing high-performing, scalable, and secured android apps for different types of business. We are an android development company that has assisted countless businesses in increasing revenue and expanding their operations through the use of android applications."
+          "React Native is an open-source mobile framework for developing iOS and Android apps. The framework enables us to develop mobile apps 30% faster than with other cross-platform frameworks. Hire React Native developers from ultroNeous to achieve your business goals with Android and iOS applications."
         }
       />
       <ServicesIncludedSlider

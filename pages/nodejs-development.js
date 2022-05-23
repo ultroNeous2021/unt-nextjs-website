@@ -15,11 +15,11 @@ import {
 
 const HireNodejsDeveloper = () => {
   const title =
-    "Hire Nodejs developers | Node js development company in India | ultroNeous";
+    "Hire NodeJS Developers | NodeJS Development Company in India | ultroNeous";
   const keyword =
     "Hire nodejs developer, nodejs development company, nodejs developers, nodejs development services";
   const description =
-    "Hire node js developers & programmers from ultroNeous Technologies. We have an experienced team that delivers node js development services globally. Hire Now!!";
+    "Hire NodeJS developers from ultroNeous Technologies. We have an experienced team that delivers NodeJS development services globally. Hire Now!!";
   return (
     <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent

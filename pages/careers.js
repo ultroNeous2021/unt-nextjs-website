@@ -92,7 +92,8 @@ function CareersPage({ data }) {
                       ))}
                     </Accordion.Body>
                   </Accordion.Item>
-                  {index == last(CareersData) ? null : (
+                  {console.log()}
+                  {index == last(data.data2.technology) ? null : (
                     <hr
                       style={{ border: "1px solid rgba(255,255,255,0.08)" }}
                     />

@@ -171,10 +171,10 @@ export default function HomePage({ data }) {
                   <br />
                   <br />
                   <span style={{ color: "#e49b00" }}>
-                    We are a strong unit of people, and call ourself an
-                    ultroNeour.
+                    We are a strong unit of people and call ourselves
+                    ultroNeours.
                   </span>
-                  &nbsp; An ultroNeour always goes the extra mile to create an
+                  &nbsp;An ultroNeour always goes the extra mile to create an
                   advanced technical solution for web, mobility, and enterprise
                   software. Our expert designers and developers have deep
                   knowledge and experience building scalable solutions using
@@ -533,7 +533,6 @@ export async function getServerSideProps() {
     .get(`${API_URL}admin/getlookatourdesign`)
     .catch((e) => console.log(e));
   const res3 = await axios
-    // .get(`${API_URL}admin/getblog`)
     .get(`${API_URL}admin/getblog`)
     .catch((e) => console.log(e));
 
