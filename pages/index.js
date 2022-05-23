@@ -33,6 +33,8 @@ export default function HomePage({ data }) {
   const [scale, setScale] = useState("z");
   const [arrowImage, setArrowImage] = useState("/assets/circlearrow.svg");
 
+  console.log(data);
+
   useEffect(() => {
     AOS.refresh();
     AOS.init();
@@ -517,7 +519,7 @@ export default function HomePage({ data }) {
             </Col>
           </Row>
         </div>
-        <BlogSliderComponent list={data.blog.data} />
+        {data && <BlogSliderComponent list={data.blog.data} />}
       </div>
     </Layout>
   );
@@ -529,12 +531,22 @@ export async function getServerSideProps() {
     })
     .catch((e) => console.log(e));
 
-  const res2 = await axios
+  let res2;
+
+  await axios
     .get(`${API_URL}admin/getlookatourdesign`)
+    .then((res) => (res2 = res))
     .catch((e) => console.log(e));
-  const res3 = await axios
+
+  let res3;
+
+  await axios
+    // .get(`${API_URL}admin/getblog`)
     .get(`${API_URL}admin/getblog`)
+    .then((res) => (res3 = res))
     .catch((e) => console.log(e));
+
+  console.log(res2.data);
 
   return {
     props: {
