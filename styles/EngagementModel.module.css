@@ -28,7 +28,7 @@
   padding-bottom: 22px;
   padding-top: 48px;
   text-align: center;
-  width: 90%;
+  width: 93%;
   scroll-behavior: smooth;
 }
 
@@ -56,35 +56,8 @@
   position: sticky !important;
   top: calc(50vh + 52px - 215px - 40px) !important;
   border-radius: 20px !important;
+  scroll-behavior: smooth;
 }
-
-/* .card02 {
-  transform: translateZ(0) !important;
-  will-change: transform, opacity !important;
-  height: 600px !important;
-  position: sticky !important;
-  top: calc(55vh + 52px - 215px - 40px) !important;
-  border-radius: 20px;
-}
-
-.card03 {
-  transform: translateZ(0) !important;
-  will-change: transform, opacity !important;
-  height: 600px !important;
-  position: sticky !important;
-  top: calc(67vh + 52px - 215px - 40px) !important;
-  border-radius: 20px;
-}
-
-.card04 {
-  transform: translateZ(0);
-  will-change: transform, opacity;
-  height: 600px;
-  position: sticky;
-  top: calc(76vh + 52px - 215px - 40px) !important;
-  border-radius: 20px;
-} */
-
 .sectionCards .sectionContent li .cardContainer {
   position: absolute;
   top: 50px;
@@ -93,17 +66,20 @@
   height: 530px;
   margin-left: -375px;
   transform: translateZ(0);
+  scroll-behavior: smooth;
 }
 
 .sectionCards .sectionContent li .cardContainer {
   width: 825px;
   height: 650px;
   margin-left: -412.5px;
+  scroll-behavior: smooth;
 }
 
 .sectionCards .sectionContent li .bg {
   z-index: 1;
   background-color: #fff;
+  scroll-behavior: smooth;
 }
 
 .sectionCards .sectionContent li .card {
@@ -116,26 +92,31 @@
   background-position: center center;
   /* /box-shadow: 4px 12px 40px 6px rgba(0, 0, 0, 0.09); */
   box-shadow: 0px 4px 14px rgba(148, 148, 148, 0.15);
+  scroll-behavior: smooth;
 }
 
 .card01 {
   /* /background: linear-gradient(-40deg, #d754ad 0%, #f96785 67%, #fe7333 100%); */
   background: #fff;
+  scroll-behavior: smooth;
 }
 
 .card02 {
   /* /background: linear-gradient(-40deg, #af4fec 0%, #d753ad 70%, #eb6078 100%); */
   background: #fff;
+  scroll-behavior: smooth;
 }
 
 .card03 {
   /* /background: linear-gradient(-40deg, #6c6ff0 0%, #a354e4 58%, #c65cae 100%); */
   background: #fff;
+  scroll-behavior: smooth;
 }
 
 .card04 {
   /* background: linear-gradient(-40deg, #56acef 0%, #6c6ff0 50%, #9755e7 100%); */
   background: #fff;
+  scroll-behavior: smooth;
 }
 
 .rows {
@@ -153,6 +134,7 @@
   display: flex;
   justify-content: center;
   background: #1a1112;
+  scroll-behavior: smooth;
 }
 .number {
   font-size: 40px;
@@ -184,35 +166,6 @@
   text-align: justify;
   display: flex;
 }
-/* .orangenumber {
-  font-size: 95px;
-  font-weight: 700;
-  color: rgba(228, 155, 0, 0.08);
-}
-.rowtext {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 1rem;
-}
-.rowtext2 {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 0%;
-}
-.Icon {
-  position: relative;
-  bottom: 4rem;
-  left: 0rem;
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-}
-.iconTxt {
-  color: #e49b00;
-  text-align: left;
-} */
-/*
-*/
 .imageSpace {
   padding-bottom: 4rem;
   padding-top: 4rem;
@@ -228,6 +181,38 @@
   .Paragraph2 {
     font-size: 14px;
   }
+  .Cardtitle {
+    font-size: 20px;
+    line-height: 0;
+    padding-left: 1rem;
+  }
+  .Carddescription {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .imageSpace {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: none;
+  }
+  .rows {
+    display: block;
+  }
+  .number {
+    padding-left: 1rem;
+  }
+  .Pheading {
+    font-size: 40px;
+    /* text-align: left; */
+    padding-left: 1rem;
+  }
+  .ParagraphContainer {
+    padding: 4rem 1rem;
+    text-align: left;
+  }
+  .sectionCards .sectionContent li {
+    top: calc(44vh + 52px - 215px - 40px);
+  }
 }
 @media (min-width: 768px) and (max-width: 1080px) {
   .Cardtitle {
@@ -240,24 +225,8 @@
     align-items: center;
   }
   .sectionCards .sectionContent li {
-    height: 630px;
+    height: 662px;
   }
-  /* .card02 {
-    transform: translateZ(0) !important;
-    will-change: transform, opacity !important;
-    height: 630px !important;
-    position: sticky !important;
-    top: calc(50vh + 52px - 215px - 40px) !important;
-    border-radius: 20px;
-  } */
-  /* .card03 {
-    transform: translateZ(0) !important;
-    will-change: transform, opacity !important;
-    height: 600px !important;
-    position: sticky !important;
-    top: calc(58vh + 52px - 215px - 40px) !important;
-    border-radius: 20px;
-  } */
   .number {
     padding-left: 2rem;
   }
