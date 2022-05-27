@@ -33,8 +33,6 @@ export default function HomePage({ data }) {
   const [scale, setScale] = useState("z");
   const [arrowImage, setArrowImage] = useState("/assets/circlearrow.svg");
 
-  console.log(data);
-
   useEffect(() => {
     AOS.refresh();
     AOS.init();
@@ -545,8 +543,6 @@ export async function getServerSideProps() {
     .get(`${API_URL}admin/getblog`)
     .then((res) => (res3 = res))
     .catch((e) => console.log(e));
-
-  console.log(res2.data);
 
   return {
     props: {

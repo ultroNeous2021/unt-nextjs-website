@@ -15,7 +15,7 @@ function WebApplicationDevelopmentPage() {
     <Layout
       title={"Custom Web Application Development Services | ultroNeous"}
       description={
-        "ultroNeous Technologies is one of the leading custom web app development company based in the USA/India & 15 other countries. Call us today for web development services"
+        "ultroNeous Technologies is one of the leading custom web app development company based in the USA/India & 15 other countries. Connect with us today for web application development services."
       }
       keywords={
         "Web development company, Web application development company, Web app development services"

@@ -19,7 +19,7 @@ const HireFlutterDeveloper = () => {
   const keyword =
     "hire flutter developer, flutter app development company, flutter development company, hire flutter app developers";
   const description =
-    "ultroNeous offers top-notch flutter app development. Hire flutter developers from ultroNeous per your convenience. ultroNeous is a prominent app development company in US & India.";
+    "ultroNeous offers top-notch Flutter app development. Hire Flutter developers from ultroNeous per your convenience. we are a prominent app development company in US & India.";
   return (
     <Layout description={description} title={title} keywords={keyword}>
       <HirePageHeaderComponent

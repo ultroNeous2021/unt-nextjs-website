@@ -14,8 +14,6 @@ function OurTeamSlider({ data = OurTeamSliderData }) {
     }
   }, []);
 
-  // console.log(isMobile);
-
   return (
     <div>
       {!isMobile ? (

@@ -16,9 +16,9 @@ import {
 const CloudAndDevops = () => {
   return (
     <Layout
-      title={"Cloud & Devops Computing Services | ultroNeous"}
+      title={"Cloud & DevOps Computing Services | ultroNeous"}
       description={
-        "Searching for cloud computing services and devops services? We are the leading cloud computing company and devops company globally providing with all solutions at one place."
+        "Searching for Cloud Computing Services and DevOps services? We are the leading Cloud Computing Company and DevOps company globally providing with all solutions at one place."
       }
       keywords={
         "cloud computing services, devops service, cloud computing company, devops company"

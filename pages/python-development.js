@@ -15,10 +15,10 @@ import {
 
 const HirePythonDeveloper = () => {
   const title =
-    "Hire Python Developer from India | Python Development Company | ultroNeous";
+    "Hire Python Developer | Python Development Company | ultroNeous";
   const keyword = "hire python developers, python development company";
   const description =
-    "ultroNeous is your solid python development partner. Hire python software developers, having expertise in Django, Flask and Web2Pay frameworks.";
+    "ultroNeous is your solid Python development partner. Hire Python software developers, having expertise in Django, Flask and Web2Pay frameworks.";
   return (
     <Layout description={description} keywords={keyword} title={title}>
       <HirePageHeaderComponent

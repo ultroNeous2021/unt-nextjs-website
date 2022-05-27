@@ -420,18 +420,14 @@ const Technologies = () => {
   useEffect(() => {
     AOS.refresh();
     AOS.init();
-    window.addEventListener("scroll", () => {
-      // console.log(currentPosition.scroll);
-    });
+    window.addEventListener("scroll", () => {});
   }, []);
   const scrollingChalu = () => {
-    window.addEventListener("scroll", () => {
-      // console.log(window.scrollY);
-    });
+    window.addEventListener("scroll", () => {});
   };
   return (
     <Layout
-      title={"Hire Dedicated Developers | ultroNeous"}
+      title={"Our Expertise | Hire Dedicated Developers | ultroNeous"}
       description={
         "Hire expert developers with range of expertise from ultroNeous. We are one-stop solutions for all things in frontend, backend, and mobile development"
       }

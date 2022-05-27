@@ -15,9 +15,9 @@ const HireLaravelDeveloper = () => {
   const keyword =
     "hire dedicated laravel developer , hire laravel developer , laravel development company , laravel web development company";
   const description =
-    "Hire dedicated laravel developer from India. ultroNeous Technologies is a laravel development company which offer low-cost services, with 100% client satisfaction and maintenance services.";
+    "Hire dedicated Laravel developer from ultroNeous Technologies, we are a Laravel development company which offer low-cost services, with 100% client satisfaction and maintenance services.";
   const title =
-    "Hire Laravel developer | Laravel development company | ultroNeous";
+    "Hire Laravel Developer | Laravel Development Company | ultroNeous";
   return (
     <Layout title={title} keywords={keyword} description={description}>
       <HirePageHeaderComponent

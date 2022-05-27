@@ -21,7 +21,6 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
     formState: { errors },
     reset,
   } = useForm();
-  // console.log();
   const [checkList, setCheckList] = useState([]);
   const [phoneValue, setPhoneValue] = useState("");
   const [submitClicked, setSubmitClicked] = useState(false);
@@ -79,7 +78,6 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
   };
   const clickHandler = (e) => {
     // handles single label click event
-    console.log(e.target.classList);
     if (e.target.classList.contains("TextLabelActive")) {
       e.target.classList.remove("TextLabelActive");
     } else {
@@ -94,15 +92,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
       setCheckList(checkList.filter((item) => item !== value));
     }
   };
-  // console.log(checkList);
   const onSubmit = async (values) => {
-    console.log({
-      ...values,
-      checklist: checkList,
-      phone: phoneValue,
-      budget: dropdownValue,
-      hireTeam: data,
-    });
     await axios
       .post(`${API_URL}admin/contactusdata`, {
         ...values,

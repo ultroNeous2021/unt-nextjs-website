@@ -14,9 +14,9 @@ import {
 const FrontEndDevelopment = () => {
   return (
     <Layout
-      title={"Top Frontend App Development Services | ultroNeous "}
+      title={"Top Front-end Development Services | ultroNeous"}
       description={
-        "Looking for Front-End app development services? ultroNeous Technologies provide the best front-end development services from development to maintenance support. Contact us Now!"
+        "Looking for Front-end app development? ultroNeous Technologies provide the best front-end development services, from developing to maintenance support. Contact us Now!"
       }
       keywords={
         "frontend development services, reactjs development company, Angular development company, app development services"
