@@ -32,7 +32,7 @@ const HireVuejsDeveloper = () => {
         }
         techname={"/assets/VueJS.svg"}
         detail={
-          "Leverage the VueJS framework's capabilities to create progressive and reliable web and mobile applications for your business. Improve the productivity and performance of your real-time business apps using VueJs development to increase revenue and efficiency. Hire VueJS developers from ultroNeous or other well-known VueJS development company to bring your vision to life."
+          "VueJS framework is ideal when you want to develop lightweight and smooth-running applications. This advanced framework focuses on the view layer and allows easy integration and highly intuitive user interfaces. Hire our VueJS Developers, who meet your requirements for a fine creative digital experience, and make sure your app sets the bar for high performance and interaction."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HireVueJSServiceslist} />

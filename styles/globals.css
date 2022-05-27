@@ -18,7 +18,21 @@ a {
   color: inherit;
   text-decoration: none !important;
 }
-
+/* ======= megamenu mobile responsive ========*/
+.mobileUse {
+  display: none;
+}
+.mobileUse a {
+  color: #000 !important;
+}
+.mobileUse:hover {
+  color: #e49b00 !important;
+}
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  .mobileUse {
+    display: block;
+  }
+}
 /* ============================================= NAVBAR ============================================= */
 
 #overlay,

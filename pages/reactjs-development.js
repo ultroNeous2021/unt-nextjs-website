@@ -14,11 +14,11 @@ import {
 } from "utils/DataList/listOfData";
 
 const HireReactjsDeveloper = () => {
-  const title = "ReactJs Development Services | Hire Developers | ultroNeous";
+  const title = "ReactJS Development Services | Hire Developers | ultroNeous";
   const keyword =
     "hire reactjs developer, reactjs developer, reactjs development company";
   const description =
-    "ultroNeous Technologies is best rated Reactjs Development Company providing services in USA and India. Hire developers from top Reactjs development company.";
+    "ultroNeous Technologies is best rated ReactJS Development Company providing services in USA and India. Hire developers from top ReactJS development company.";
   return (
     <Layout title={title} description={description} keywords={keyword}>
       <HirePageHeaderComponent
@@ -31,7 +31,7 @@ const HireReactjsDeveloper = () => {
         }
         techname={"/assets/ReactJS.svg"}
         detail={
-          "ReactJs is a JavaScript library for creating unique web apps user interface elements. You can produce paramount web applications for your organization with the help of proficient ReactJs developers. Hire ReactJs developers from  reputable ReactJs development company to help you achieve your business objectives with ReactJs web solutions."
+          "When you want a fast, dynamic, and engaging website, ReactJS is an excellent pick as it offers rich UI components and is easier to test. We will help you develop futuristic, scalable, and engaging web apps. Hire ReactJS developers from ultroNeous who are experienced and have an extensive knowledge base to provide unique ReactJS web solutions."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HireReactJSServiceslist} />

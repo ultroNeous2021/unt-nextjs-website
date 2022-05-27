@@ -32,7 +32,7 @@ const HireReactnativeDeveloper = () => {
         }
         techname={"/assets/ReactNative.svg"}
         detail={
-          "React Native is an open-source mobile framework for developing iOS and Android apps. The framework enables us to develop mobile apps 30% faster than with other cross-platform frameworks. Hire React Native developers from ultroNeous to achieve your business goals with Android and iOS applications."
+          "As a prominent React Native development company, we come up with secure, fast, and elegant solutions that meet your business needs. React Native lets you build applications that run on multiple operating systems and helps you save time. Hire dedicated React Native developers who deliver next-gen cross-platform applications."
         }
       />
       <ServicesIncludedSlider

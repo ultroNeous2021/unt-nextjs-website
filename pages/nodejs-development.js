@@ -32,7 +32,7 @@ const HireNodejsDeveloper = () => {
         }
         techname={"/assets/NodeJS.svg"}
         detail={
-          "ultroNeous is an established name in the software industry that provides top-notch NodeJS development services to clients from all over the globe. Hire NodeJS developers from our in-house dedicated team to develop high-performing, data-intensive, highly-scalable, and real-time web applications to propel your business forward."
+          "Being a reputable NodeJS development company, We understand your business requirements and expedite the whole procedure of development using NodeJS features. NodeJS is a fast and lightweight open source cross-platform JavaScript run-time environment. As it operates on a single thread, it is highly efficient and will give you the edge over your competitors."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HireNodeJSServiceslist} />

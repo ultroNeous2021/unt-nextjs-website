@@ -107,6 +107,9 @@ function Footer({ FooterContainerStyle }) {
                 <li>
                   <Link href="/contact-us">Contact</Link>
                 </li>
+                <li>
+                  <Link href="https://blog.ultroneous.com/">Blog</Link>
+                </li>
               </ul>
             </Col>
             <Col xs={12} sm={4} lg={4} className={styles.QuickLinks}>
@@ -128,9 +131,9 @@ function Footer({ FooterContainerStyle }) {
                 <li>
                   <Link href="/digital-marketing">Digital Marketing</Link>
                 </li>
-                {/* <li>
+                <li>
                   <Link href="/cloud-and-devops">Cloud & Devops</Link>
-                </li> */}
+                </li>
               </ul>
             </Col>
             <Col xs={12} sm={4} lg={4} className={styles.QuickLinks}>

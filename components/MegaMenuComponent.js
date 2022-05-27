@@ -232,13 +232,24 @@ function MegaMenuComponent() {
                 id="2"
                 style={
                   CheckActive("Technology") === true
-                    ? { color: "#e49b00", borderRight: "0.5rem solid #e49b00" }
+                    ? {
+                        color: "#e49b00",
+                        borderRight: "0.5rem solid #e49b00",
+                      }
                     : null
                 }
                 onClick={() => router.push("/expertise")}
                 onMouseEnter={onHoverHandler}
               >
                 Expertise
+              </li>
+
+              <li className={styles.Services} id="mobileUse">
+                <p className="mobileUse">
+                  <a href="https://blog.ultroneous.com/" target={"_blank"}>
+                    Blog
+                  </a>
+                </p>
               </li>
               {/* <li
                 className={styles.Services}
@@ -405,16 +416,16 @@ function MegaMenuComponent() {
           {NavbarMenuFirstColImageList.map((el, ind) => (
             <Link href={el.link ? el.link : ""} key={ind} target="blank">
               <div className={`${styles.container} ${styles.colorChange}`}>
-                <a href="/contact-us">
+                <a href={el.link ? el.link : ""}>
                   <img
                     src={el.image}
                     alt="Snow"
                     style={{ width: "100%" }}
                     className={styles.img}
                   />
-                </a>
 
-                <div className={styles.centered}> {el.name}</div>
+                  <div className={styles.centered}> {el.name}</div>
+                </a>
               </div>
             </Link>
           ))}

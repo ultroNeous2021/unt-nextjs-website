@@ -32,7 +32,7 @@ const HireFlutterDeveloper = () => {
         }
         techname={"/assets/Flutter.svg"}
         detail={
-          "Flutter is an open-source development platform that allows developers to create fast, flexible, and productive web and mobile apps at a low cost. The possibilities of app development with this framework are endless, and it enables fast and simple development to grab the opportunity, hire flutter developers from ultroNeous. Our in-house development team has a wealth of expertise in creating feature-rich, interactive applications. For more details on flutter development, please contact us right away."
+          "Flutter is a leading technology in building cross-platform apps and a popular choice when you want to reach a wider set of audiences with minimal effort. As a Flutter App development company, we do more than just app development. We make sure your business reaches its highest potential with a flawlessly running app. Hire Flutter developers who are proficient in the Dart programming language and deliver your desired business-ready application with an appealing interface."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HireFlutterServiceslist} />

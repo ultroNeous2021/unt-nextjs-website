@@ -32,7 +32,7 @@ const HireXamarinDeveloper = () => {
         }
         techname={"/assets/Xamarin.svg"}
         detail={
-          "Xamarin is the finest development framework for native app performance. Native apps perform better, are more interactive and intuitive, and have fewer bugs issues. Hire Xamarin developers to create fast-loading apps with rich visual features and a great user experience. Our Xamarin app developers are well-versed in the most up-to-date technology trends and agile methodologies "
+          "With Xamarin, developers can create Android, iOS, and Windows apps, with native user interfaces under one platform. ultroNeous Technologies is one of the reputable companies providing Xamarin app development services. Hire Xamarin app developers who are highly skilled and focus on scalability, speed, and unique UI to distinguish your app and boost revenue."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HireXamarinServiceslist} />

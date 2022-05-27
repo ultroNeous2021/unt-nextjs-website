@@ -44,7 +44,7 @@
 .Card {
   background: #fff;
   border-radius: 5px;
-  height: auto;
+  height: 23rem;
   /* margin: 0.5rem; */
   display: flex;
   justify-content: left;
@@ -74,7 +74,7 @@
 }
 @media (min-width: 320px) and (max-width: 450px) {
   .Card {
-    height: auto;
+    height: 20rem;
     margin-right: 0%;
   }
   .Cardcontainer {
@@ -124,7 +124,7 @@
     margin: 0%;
   }
   .Card {
-    height: 40vh;
+    height: 35vh;
   }
 }
 @media (min-width: 1200px) and (max-width: 1730px) {
