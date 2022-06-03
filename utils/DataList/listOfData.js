@@ -1565,7 +1565,7 @@ export const HirePythonServiceslist = [
       "Make maximum use of Python's many benefits to build simple yet robust APIs and facilitate automated communication between different programs. With us, it becomes easier. Hire Python developers who create innovative tech solutions that help you achieve the desired ROI.",
   },
   {
-    title: "Python Enterprise solution",
+    title: "Python Enterprise Solution",
     description:
       "We implement development strategies to build enterprise-grade applications without too much fuss. Hire dedicated and talented Python developers who tend to perform beyond expectations. And get yourself extensible and remarkably intuitive enterprise applications.",
   },
