@@ -31,7 +31,7 @@ const HirePythonDeveloper = () => {
         }
         techname={"/assets/Python.svg"}
         detail={
-          "Python is an object-oriented programming language that can be used to develop a wide variety of web apps and websites. It is a high-level language with huge libraries and a dynamic nature, as well as GUI (Graphical User Interface) support for optimal development and performance. ultroNeous offers the freedom to hire Python developers who have massive experience in developing productive and responsive web solutions for clients."
+          "Python is a flexible programming language. It is easy to use and has a comparatively short coding structure, making it one of the top options for those who are looking to develop better tech solutions. You can count on its features and of course, ultroNeous Technologies - a Python development company to make cutting-edge web solutions. Hire Python developers who will take it upon themselves to build unique solutions for your unique business project."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HirePythonServiceslist} />

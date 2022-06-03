@@ -30,7 +30,7 @@ const HireWordPressDeveloper = () => {
         }
         techname={"/assets/lnew-wp.svg"}
         detail={
-          "Get dedicated WordPress developers to build your custom business web solutions using an agile methodology and the most up-to-date WordPress development strategies and practices. We are a prominent WordPress development company with an in-house team of WordPress developers with considerable experience in producing websites for various business models over the last few years. Contact us right away to hire WordPress developers for user-friendly, scalable, reliable, and secured WordPress web solutions for your business."
+          "WordPress is one of the most preferred choices for formulating websites. It helps you to edit the content of your website without technical interventions. We are a WordPress development company, and our team is made up of tech-savvies who are eager to build second-to-none web projects. Make a positive impact on your prospects with unique WordPress features. Hire WordPress experts to build unrivaled platforms."
         }
       />
       <ServicesIncludedSlider

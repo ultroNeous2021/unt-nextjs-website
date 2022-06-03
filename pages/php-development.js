@@ -25,7 +25,7 @@ const HirePhpDeveloper = () => {
         }
         techname={"/assets/PHP.svg"}
         detail={
-          "ultroNeous serves its clients with cost-effective and result-oriented custom PHP development services. With an in-house dedicated PHP development team, we have successfully delivered custom, flexible, scalable, and high-performing web solutions to different businesses around the globe. Connect with us to hire PHP developers for quality development work that will boost your business revenue."
+          "Web platforms are a crucial part of brands' images, and when it comes to slaying the competition, the innovative one always stands out. Get your consumers' attention and stay connected with them with our PHP development services. We deliver future-proof web platforms that are flexible and refined. Hire PHP developers to make the most of PHP's reliable features."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HirePHPServiceslist} />

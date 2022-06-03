@@ -30,7 +30,7 @@ const HireLaravelDeveloper = () => {
         }
         techname={"/assets/Laravel.svg"}
         detail={
-          "Laravel is the most advanced and powerful framework for developing mobile and web apps. As a renowned Laravel development company, ultroNeous has mastered the art of creating high-performing, dependable, robust, and scalable web and mobile apps for businesses. Hire dedicated Laravel developers from us to develop custom apps with unique user interface features, eye-catching design, and fast loading time."
+          "Laravel is one of the most favorable choices for developing integral websites and mobile apps. This PHP framework offers multiple built-in functions and helps to improve the performance of applications. We are a Laravel development company and tend to come up with secure and scalable tech solutions for our clients. Hire dedicated Laravel Developers to boost your business's revenue with versatile web and mobile applications."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HireLaravelServiceslist} />

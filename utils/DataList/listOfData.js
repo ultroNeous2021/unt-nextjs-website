@@ -570,27 +570,27 @@ export const HireShopifyServiceslist = [
   {
     title: "Shopify Store Setup ",
     description:
-      "Our team of experts helps you get started with the Shopify store by configuring and setting up the theme for your online store, adding a products catalog, and setting up a payments portal. With our custom solutions, we make sure that your store gets its unique identity.",
+      "Empower your business with our custom solutions that will drive up your sales and exemplify end-users shopping experience. Hire Shopify developers who always keep in mind your requirements to set up and configure the Shopify store regardless of your business size.",
   },
   {
-    title: "Themes & Plugins Development",
+    title: "Integration Services",
     description:
-      "Our dedicated designers are well equipped with skills and tools to give your store a unique look with maximum functionality. A custom theme for your storefront makes it distinctive to your customers, as well as helps you with making your brand stand out.",
+      "Our reliable Shopify experts create Shopify integrations to connect your storefront with trusted third-party systems and apps like payment gateways, social logins, APIs, etc. Hire Shopify developers to create brand-new capabilities and boost your business' functionality.",
   },
   {
-    title: "SEO friendly Shopify",
+    title: "Shopify Themes Development",
     description:
-      "The Shopify websites are extremely SEO friendly in general. It helps you with getting quality traffic to your website. We can help you set up a blog for your website which helps in driving tons of organic traffic to your website and with a powerful online presence.",
+      "Shopify provides curated themes to satisfy users with a beautiful interface. However, we know you need more than just satisfaction. Hire Shopify experts to customize themes and give your store an exceptional look and feel. Let the consumers spread word-of-mouth about your brand.",
   },
   {
-    title: "API Integration",
+    title: "Migration to Shopify",
     description:
-      "Our dedicated developers have extensive experience with flawless API integration in Shopify mobile apps and websites. Moreover, we assist clients in using third-party apps to access Shopify data. In addition to that, it helps in saving time and lowering errors",
+      "Being a premier Shopify development company, our focus is to provide migration services with the utmost security and make the transition smoother. Our Shopify website developer will migrate the web store with all data including products, content, and customers' information.",
   },
   {
     title: "Support & Maintenance",
     description:
-      "Our support team makes sure that the store is up and running 24 hours a day, seven days a week, without any hassle. We lend full support to our clients, with regular maintenance drills we ensure that all of the store's services and features are operational.",
+      "As a Shopify development company, we provide comprehensive assistance to our customers. Whether it is bug fixing or improving performance efficiency, our Shopify developers will provide maintenance services so you can stay on top of post-deployment operations.",
   },
   // {
   //   title: "UI/UX Solutions",
@@ -629,29 +629,29 @@ export const HireWordPresslist = [
 
 export const HireWordPressServiceslist = [
   {
-    title: "Custom Web Development ",
+    title: "Custom WordPress Web Development",
     description:
-      "Our in-house team of WordPress developers is capable of creating custom websites from scratch for its clientele. For a unique business like yours, WordPress is a powerhouse when it comes to making websites of any capacity. Hire a WordPress expert from ultroNeous. ",
+      "Our WordPress developers have a knack for using cutting-edge tools and technologies to offer our clientele their desired web solutions in a matter of days. Hire WordPress developers to make effective use of its fine attributes to develop top-notch web-based solutions.",
   },
   {
     title: "WooCommerce Development",
     description:
-      "WooCommerce helps business transform their WordPress site into a full-fledged eCommerce store. Hire WordPress developers to use its customization options, inventory management, secure payment integration, and other security options.",
+      "WooCommerce is a free plugin to convert your website into a full-fledged online store. Enlist our WooCommerce development services to enhance your online store, and our developers will help you raise the standard of shopping experience. So you can grow as your business grows.",
   },
   {
     title: "Custom Themes Development",
     description:
-      "At ultroNeous believe that your website should have a deserving, splendid, and unique look. Our designers and developers make sure that it has all functionality with responsiveness. Hire WordPress developers for a custom WordPress theme for your site. ",
+      "Our core expertise lies in designing and integrating themes that compliment the website and enable users to navigate smoothly. Hire WordPress developers who first conceptualize to deliver engaging websites and applications and enchant your users so they stay longer on the site.",
   },
   {
     title: "WordPress Plugin Development",
     description:
-      "WordPress sites have plugin support, which gives the site custom functionality as per your requirements. Our dedicated WordPress developers carry a massive experience in developing WordPress plugins that satisfy the  requirement and functionalities of your website. ",
+      "Our team builds powerful plug-ins to help you keep up with digital trends. Hire dedicated WordPress developers who craft plugins to improve the website's functionality. Whether you have a start-up or enterprise, our experts will build solutions that reflect your core values.",
   },
   {
-    title: "Maintenance and Assistance",
+    title: "WordPress Migration",
     description:
-      "We provide superior maintenance and after-sales support to every client we serve. Hire WordPress developers, our experts take great care in maintaining and running frequent checks to ensure that your website is safe, bugs-free, and up to date. Let’s connect to know more.",
+      "Optimize your existing website and make it more flawless by migrating it to WordPress. Our experts make sure a smooth migration without compromising the integrity of the data and improve the overall appearance. Hire WordPress developers to enhance your online presence.",
   },
 ];
 
@@ -790,32 +790,32 @@ export const HirePHPServiceslist = [
   {
     title: "Custom PHP development ",
     description:
-      "ultroNeous' PHP developers have experience and skill sets in creating custom web applications for its clientele. Using their extensive PHP proficiency, they have created custom solutions for enterprises & clientele , CRM systems for all-sized organizations, custom eCommerce solutions, etc.",
+      "PHP is open-source and provides dynamic library support. This helps developers build easy-to-maintain web apps that are feature-opulent, swift, and have stunning interfaces. Hire dedicated PHP developers who craft websites and web apps according to your business context.",
   },
   {
-    title: "Full Stack PHP Development ",
+    title: "PHP CRM Development",
     description:
-      "We are a PHP web development company that offers full-stack PHP development to meet diverse business needs. ultroNeous’ developers are experience & have good skilled in managing and administering frontend and backend development operations simultaneously and effectively.",
+      "Let the world know about your brand by using our PHP development services. Hire PHP programmers and intimidate your competition with excellent CRM solutions. Our team will provide magnificent CRM systems with proper data management and pipelines to increase sales.",
   },
   {
     title: "ERP Software Development",
     description:
-      "ultroNeous PHP team develops adaptable ERP and management to streamline your workflow, improve business reporting, and better supply chain for your organizations. Our expert PHP developers manages  to develop custom Enterprise Resource Planning software using latest PHP framework.",
+      "We build all-encompassing solutions to automate your management process effectively by streamlining daily operations. We thoroughly analyze each aspect of your business and its functions to construct an ERP system using PHP to meet ever-changing customers' needs.",
   },
   {
     title: "Extensions Development",
     description:
-      "Hire dedicated PHP developers from ultroNeous for your custom extensions development to meet the demand for unique features and functionalities on a website. We've successfully served many firms with this service that were meant to provide advanced features to their websites.",
+      "We are a PHP web development company delivering complete PHP solutions. Hire PHP developers who take care of extension development, from its creation and installation to troubleshooting. These extensions help enhance the performance and efficiency of websites and web apps.",
   },
   {
-    title: "PHP Up-gradation & Migration",
+    title: "PHP Upgradation & Migration",
     description:
-      "Apart from PHP development services, ultroNeous also provide upgradation and migration services. PHP has become a worthy web solution alternative for your existing web applications from platforms/frameworks such as Python, NodeJS, and others to the PHP platform.",
+      "Transform your existing website or app to a more advanced and intuitive PHP framework. You can count on our PHP experts to guarantee a hassle-free migration. Hire PHP programmers to modernize your existing web presence with updated PHP versions and grow your popularity.",
   },
   {
-    title: "PHP Site Maintenance ",
+    title: "PHP Site Maintenance",
     description:
-      "Checking and fixing a website’s errors and bugs is a frequent activity of our PHP developers. Because of our experienced software development team, we are the industry specialists in maintaining PHP websites effectively and efficiently, hire php programmers to maintain your website on the go.",
+      "Being a PHP web development company, We intend to make our clients' lives easier. Our PHP developers help to fix any issues that may occur. Our team will drive up your profits with constant support for security, smooth navigation, and enriched performance of your platform.",
   },
 ];
 
@@ -852,32 +852,32 @@ export const HireLaravelServiceslist = [
   {
     title: "Web Development",
     description:
-      "ultroNeous is a leading custom Laravel web development company with considerable experience in creating high-end web applications with incredible performance, user interface, and rich functionality. Let's discuss your next idea, and we will find the best solution for you.",
+      "Hire Lavavel developers who craft responsive and high-quality websites to save time and budget. Our team of developers quickly builds high-end websites with rich functionalities and a slick user interface. So you can connect with your customers and boost your business revenue.",
   },
   {
-    title: "App Development ",
+    title: "eCommerce development",
     description:
-      "Our seasoned Laravel developers have a lot of experience in building high-performing enterprise mobile apps. Mobile apps that have fast, interactive, rich visual elements, have high-quality user interface elements and provide the finest user experience.",
+      "We will help you expand your business worldwide and reach your desired customers with a spectacular shopping experience. Hire dedicated Laravel developers to get a hold of a UI-rich and detailed eCommerce store with our eCommerce development services and maximize profit.",
   },
   {
     title: "Extension Development",
     description:
-      "Hire Laravel developers for developing custom extensions that are required for your business website/app requirement efficiently. With custom Laravel extensions, developers can make payment extensions for web apps that have exclusive features, bespoke functions etc.",
+      "One of the benefits of Laravel is that it allows the development of easy app extensions. As a Laravel development company, our team provides premium extensions that are feature intense with the help of gathered insights and make your way to the top of the competition.",
   },
   {
-    title: "Template Development",
+    title: "Template Design",
     description:
-      "Our skilled developers are adept at building a well-designed Laravel template that has given stunning dashboard, easy navigation and as per custom requirements. A well-designed Laravel template can deliver unrivaled project quality with a fast project completion rate.",
+      "Well-designed templates make websites and applications stand out. It helps developers to reduce complexities. Get leverage of our Laravel developers to craft beautiful and interesting template designs for your applications and make the development process speedy and easy.",
   },
   {
     title: "API Development",
     description:
-      "Our team of dedicated Laravel developers is sufficient in developing the custom API as per project requirements. With custom APIs, which help in connecting with cloud apps, productivity. Hire laravel web development company for your custom API development.",
+      "ultroNeous Technologies is a leading Laravel web development company. We do not help our clients set trends, we help them raise the bar. API integration is a way to do so. Our team develops restful APIs that help your business to interact with a larger set of consumers.",
   },
   {
     title: "Support & Maintenance",
     description:
-      "The developers at ultroNeous provide a complete bundle of software solutions that cover every part of it. We provide post-development support and maintenance for your website at affordable rates to make sure your website is always up at any given time.",
+      "Client satisfaction is of utmost importance to us. Hire Laravel developers who will remain by your side after your app deployment to resolve any issues. In addition to 24*7 support, our team of Laravel experts is always on hand to ensure smooth navigation for end-users.",
   },
 ];
 
@@ -912,34 +912,34 @@ export const HireCodeigniterlist = [
 
 export const HireCodeigniterServiceslist = [
   {
-    title: "Web Application Development",
+    title: "Custom Website Development",
     description:
-      "The skilled CodeIgniter developers at ultroNeous are well-versed in developing custom web apps with strong security features, an interactive UI, and high speed. Hire codeigniter developers to make your web application reliable and interactive.",
+      "Our experts are inclined to craft extendable and secured websites attuned to your business priorities. You can leverage our silicon valley caliber CodeIgniter developers to build websites that are easy to maintain and offer an exceptional browsing experience to your users.",
   },
   {
-    title: "Custom CMS development ",
+    title: "CodeIgniter CMS Development",
     description:
-      "Through our CodeIgniter web development services, we have served organizations with custom CMS (content management system) design & development services. ultroNeous’ developers are well-experienced in writing PHP codes that can be reused for kind of projects.",
+      "We have a team of CMS experts who perform their best to deliver robust Content Management Systems to our clientele. Make use of our CodeIgniter Developers who tend to think out-of-the-box and are always ready to give versatile solutions based on your business context.",
   },
   {
-    title: "Ecommerce Development",
+    title: "eCommerce Websites & Apps",
     description:
-      "ultroNeous' experts believes CodeIgniter is the right choice for your ecommerce website. ultroNeous developers are the best in class when it comes to bespoke module and plugin development. CodeIgniter modules and plugins are meant to give an easy understanding.",
+      "eCommerce businesses need flexible and steady apps to gain loyal customers. Hire CodeIgniter developers who are reliable and skilled in developing seamless eCommerce apps and websites and secure sensitive data. We make sure you and the end-users have an easy web experience.",
   },
   {
-    title: "Shopping Cart Development ",
+    title: "Portal Development",
     description:
-      "Hire CodeIgniter experts from ultroNeous, who are professionals at creating shopping cart for your ecommerce store, shopping cart looks a straightforward concept, but in reality it helps in making a record of data, makes convinient to customers.",
+      "As a CodeIgniter web development company, we have experience building portals that can help you expand your online services. Utilize CodeIgniter's various benefits and our developers to build bespoke portal solutions and amaze your consumers with an improved user experience.",
   },
   {
     title: "Enterprise App Development",
     description:
-      "ultroNeous is renowned codeigniter development company for its ultimate and custom enterprise solutions. With CodeIgniter, our developers are delivering more scalable and versatile enterprise apps that give more positive outcomes for the organizations.",
+      "If you want to transform or enhance enterprise applications, our team can provide you with results that will help you succeed digitally. Hire CodeIgniter developers to craft an interactive enterprise app with robust functionalities regardless of the size of your business.",
   },
   {
-    title: "Support, Maintenance, & Migration",
+    title: "Support & Maintenance",
     description:
-      "For a seamless migration of your web app from one platform to CodeIgniter, hire our dedicated CodeIgniter developers. Our developers are well-experienced in delivering solid 24/7 support and maintenance service to it’s clientele.",
+      "Hire dedicated CodeIgniter developers who are always on their toes to take responsibility for your project. Our experts have the sound technical knowledge and offer support and efficient communication to help you keep up with evolving market trends and customer expectations.",
   },
 ];
 
@@ -1552,33 +1552,33 @@ export const HirePythonServiceslist = [
   {
     title: "Python Custom Web Development",
     description:
-      "Python delivers great flexibility and web performance according to the business’ requirements. Python developers at ultroNeous possess massive working experience with the Django framework and other Python frameworks to develop extraordinary custom web solutions to meet various requirements.",
+      "Put a stop to all your worries about customized web solutions. We are here to help you thrive with our web development services. Hire Python developers to craft platforms with beautiful animations and the latest features so you can interact better with your customers.",
   },
   {
     title: "Django Development",
     description:
-      "Python's identity is the Django framework, which is the most powerful framework with a plethora of features and functionalities. ultroNeous is a top Python development company that has a track record of creating SEO-friendly, secured, and resilient Django web solutions. ",
+      "Django is one of the best Python frameworks for developing web applications. Being a Python development company, our experts stay on top of Python trends. Hire Python developers to implement the best of the best features for your applications to your customers.",
   },
   {
-    title: "Migration",
+    title: "Web API Development",
     description:
-      "We are the ultroNeours, and we not only develop fantastic apps, but we also know how to migrate applications from one platform to another accurately and thoroughly. Our python programmers have successfully migrated a number of web apps and websites to Python.",
+      "Make maximum use of Python's many benefits to build simple yet robust APIs and facilitate automated communication between different programs. With us, it becomes easier. Hire Python developers who create innovative tech solutions that help you achieve the desired ROI.",
   },
   {
-    title: "Maintenance and support ",
+    title: "Python Enterprise solution",
     description:
-      "Hire dedicated python developers at competitive costs from ultroNeous to keep your python web solutions running at peak efficiency. Furthermore, our developers are always available to help clients who are having problems with their Python web solution.",
+      "We implement development strategies to build enterprise-grade applications without too much fuss. Hire dedicated and talented Python developers who tend to perform beyond expectations. And get yourself extensible and remarkably intuitive enterprise applications.",
   },
   // {
   //   title: "Migration  ",
   //   description:
   //     "We are the ultroNeours, and we not only develop fantastic apps, but we also know how to migrate applications from one platform to another accurately and thoroughly. Our python programmers have successfully migrated a number of web apps and websites to Python.",
   // },
-  // {
-  //   title: "Maintenance and Support",
-  //   description:
-  //     "Hire dedicated python developers at competitive costs from ultroNeous to keep your python web solutions running at peak efficiency. Furthermore, our developers are always available to help clients who are having problems with their Python web solution.",
-  // },
+  {
+    title: "Maintenance and Support",
+    description:
+      "Our team of Python experts is always willing to assist in every phase of your project. They work tirelessly to make sure your website or app runs without any interruption. We help you improve your platform's performance with timely maintenance and support services.",
+  },
 ];
 
 // -----------------------------------------Web App Part----------------------------------------------------------------------------------------------------------------

@@ -9,7 +9,7 @@ import {
   WeExcelAtData,
 } from "utils/CONSTANT_DATA";
 import HorizontalTab from "@/components/HorizontalTab";
-import { Col, Image, Row } from "react-bootstrap";
+import { Col, Image as Img, Row } from "react-bootstrap";
 import PortfolioSlider from "@/components/Slider/PortfolioSlider";
 import { useEffect, useRef, useState } from "react";
 import { AiOutlineDribbble } from "react-icons/ai";
@@ -26,7 +26,7 @@ import WhyClientChoose from "@/components/WhyClientChoose";
 import Link from "next/link";
 import axios from "axios";
 import BlogSliderComponent from "@/components/Slider/BlogSliderComponent";
-
+import Image from "next/image";
 export default function HomePage({ data }) {
   const [hoverColor, setHoverColor] = useState(false);
   // const [arrowShow, setArrowShow] = useState(false);
@@ -61,10 +61,14 @@ export default function HomePage({ data }) {
             <div className={styles.TechnoContainer}>
               <a href="/web-application-development">
                 <Image
-                  src={"/assets/web-dev.jpg"}
-                  alt="Avatar"
+                  src={
+                    "https://res.cloudinary.com/dnt0gyxrd/image/upload/v1654236777/UNT%20IMAGES/HOME/web-dev_wbnf5x.jpg"
+                  }
+                  layout="fill"
+                  objectFit="contain"
                   className={styles.TechnologyImage}
                 />
+
                 <div className={styles.TechnologyOverlay}>
                   <div className={styles.TechnologyText}>
                     Web App Development
@@ -78,10 +82,14 @@ export default function HomePage({ data }) {
             <div className={styles.TechnoContainer}>
               <a href="/mobile-application-development">
                 <Image
-                  src={"/assets/mobile.jpg"}
-                  alt="Avatar"
-                  className={styles.TechnologyImage}
+                  src={
+                    "https://res.cloudinary.com/dnt0gyxrd/image/upload/v1654237945/UNT%20IMAGES/HOME/mobile_bi9fjy.jpg"
+                  }
+                  layout="fill"
+                  objectFit="contain"
                 />
+                {/* className={styles.TechnologyImage} */}
+
                 <div className={styles.TechnologyOverlay}>
                   <div className={styles.TechnologyText}>
                     Mobile App Development
@@ -95,10 +103,13 @@ export default function HomePage({ data }) {
             <div className={styles.TechnoContainer}>
               <a href="/ux-ui-design">
                 <Image
-                  src={"/assets/ux_ui.jpg"}
-                  alt="Avatar"
-                  className={styles.TechnologyImage}
+                  src={
+                    "https://res.cloudinary.com/dnt0gyxrd/image/upload/v1654238116/UNT%20IMAGES/HOME/ux_ui_s0i0fh.jpg"
+                  }
+                  layout="fill"
+                  objectFit="contain"
                 />
+
                 <div className={styles.TechnologyOverlay}>
                   <div className={styles.TechnologyText}>UX/ UI Design</div>
                 </div>
@@ -110,9 +121,11 @@ export default function HomePage({ data }) {
             <div className={styles.TechnoContainer}>
               <a href="/digital-marketing">
                 <Image
-                  src={"/assets/Socialmedia.jpg"}
-                  alt="Avatar"
-                  className={styles.TechnologyImage}
+                  src={
+                    "https://res.cloudinary.com/dnt0gyxrd/image/upload/v1654238188/UNT%20IMAGES/HOME/Socialmedia_vjiyup.jpg"
+                  }
+                  layout="fill"
+                  objectFit="contain"
                 />
                 <div className={styles.TechnologyOverlay}>
                   <div className={styles.TechnologyText}>Digital Marketing</div>
@@ -124,8 +137,10 @@ export default function HomePage({ data }) {
           <Link href={"/cloud-and-devops"}>
             <div className={styles.TechnoContainer}>
               <a href="/cloud-and-devops">
-                <Image
-                  src={"/assets/cloud.jpg"}
+                <Img
+                  src={
+                    "https://res.cloudinary.com/dnt0gyxrd/image/upload/v1654238388/UNT%20IMAGES/HOME/cloud_frenkb.jpg"
+                  }
                   alt="Avatar"
                   className={styles.TechnologyImage}
                 />
@@ -189,7 +204,7 @@ export default function HomePage({ data }) {
                 lg={6}
                 className={styles.IntroImagePosition}
               >
-                <Image
+                <Img
                   src="/assets/group-image.png"
                   alt="group of ultroneous"
                   className={styles.IntroImage}
@@ -199,7 +214,7 @@ export default function HomePage({ data }) {
             <Row className={styles.IntroArrowContain}>
               <Col xl={3} className={styles.IntroArrow}>
                 <Link href="/about-ultroneous">
-                  <Image
+                  <Img
                     onMouseEnter={() => {
                       setArrowImage("/assets/orange-hover.png");
                       setScale("scale(1.2)");
@@ -239,7 +254,7 @@ export default function HomePage({ data }) {
         <Row className="text-align-center">
           <Col sm={4} md={12} lg={4} xl={4} className={styles.WhatWeOfferCol}>
             <div className={styles.Whatweofferimg}>
-              <Image alt="ui-ux-design" src="/assets/ui-ux-design.svg" />
+              <Img alt="ui-ux-design" src="/assets/ui-ux-design.svg" />
             </div>
             <h2 className={styles.WhatweofferHeading}>UX / UI Design</h2>
             <div className={styles.WhatWeOfferParaContainerFirst}>
@@ -261,7 +276,7 @@ export default function HomePage({ data }) {
             className={styles.WhatWeOfferCol}
           >
             <div className={styles.Whatweofferimg}>
-              <Image alt="developement" src="/assets/development.svg" />
+              <Img alt="developement" src="/assets/development.svg" />
             </div>
             <h2 className={styles.WhatweofferHeading}>Development</h2>
             <div className={styles.WhatWeOfferParaContainerMiddle}>
@@ -282,7 +297,7 @@ export default function HomePage({ data }) {
             className={styles.WhatWeOfferCol}
           >
             <div className={styles.Whatweofferimg}>
-              <Image
+              <Img
                 alt="digital marketing"
                 src="/assets/digital-marketing.svg"
               />
@@ -348,7 +363,7 @@ export default function HomePage({ data }) {
           <Row className={styles.MxNone}>
             <Col xl={4} md={4} xs={6} sm={6} className={styles.SingleImage}>
               <div className={styles.DivImage}>
-                <Image
+                <Img
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -365,7 +380,7 @@ export default function HomePage({ data }) {
             </Col>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <div className={styles.DivImage}>
-                <Image
+                <Img
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -382,7 +397,7 @@ export default function HomePage({ data }) {
             </Col>
             <Col xl={4} md={4} className={styles.SingleImage}>
               <div className={styles.DivImage}>
-                <Image
+                <Img
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -401,7 +416,7 @@ export default function HomePage({ data }) {
           <Row className={[styles.MxNone, styles.ImagesForTheHomepage]}>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <div className={styles.DivImage}>
-                <Image
+                <Img
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -447,7 +462,7 @@ export default function HomePage({ data }) {
             </Col>
             <Col xl={4} md={4} className={styles.SingleImage}>
               <div className={styles.DivImage}>
-                <Image
+                <Img
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -466,7 +481,7 @@ export default function HomePage({ data }) {
           <Row className={styles.MxNone}>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <div className={styles.DivImage}>
-                <Image
+                <Img
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -483,7 +498,7 @@ export default function HomePage({ data }) {
             </Col>
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <div className={styles.DivImage}>
-                <Image
+                <Img
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -500,7 +515,7 @@ export default function HomePage({ data }) {
             </Col>
             <Col xl={4} md={4} className={styles.SingleImage}>
               <div className={styles.DivImage}>
-                <Image
+                <Img
                   src={
                     data.data2
                       ? data.data2.status == "success"

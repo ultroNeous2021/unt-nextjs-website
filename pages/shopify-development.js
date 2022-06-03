@@ -37,7 +37,7 @@ const HireShopifyDeveloper = () => {
         }
         techname={"/assets/ll-s.svg"}
         detail={
-          "Hire shopify developers from ultroNeous to develop responsive and user-friendly ecommerce websites and apps. Since we are a leading shopify development company, we know what elements and functions or features are required for a successful ecommerce store. Our certified developers are experienced in writing  codes that are optimized for search engines, faster loading time, and for higher efficiency. Connect with us for more discussion on shopify ecommerce development. "
+          "Shopify is an excellent platform for setting up an online store. Think of it as a medium, working to make the process of selling products online easier. You can also develop an online store-front with the help of ultroNeous Technologies’s Shopify developers. Hire Shopify experts who will help you build a highly conversion-focused site so you can hit a bullseye on your growth goals."
         }
       />
       {/* <div className={styles.HireContainer}></div> */}
