@@ -737,24 +737,29 @@ export const HireMagentolist = [
 
 export const HireMagentoServiceslist = [
   {
-    title: "Custom web & extensions",
+    title: "Custom Magento Development",
     description:
-      "ultroNeous' Magento developers are efficient in development of custom eCommerce websites and extensions for extra functionality and features to match the unique requirements of your eCommerce store. Our team of Magento developers help you with your B2C and B2B business.",
+      "To turn your dream eCommerce store into a reality, we offer you a blend of Magento's amazing features and our skilled team of professionals to build your desired result-driven online store. Hire Magento developers to get ahead of the competition with your B2B or B2C business.",
   },
   {
-    title: "Performance Optimization",
+    title: "Magento Performance Optimization",
     description:
-      "As a leading Magento development agency, ultroNeous investigates your store's codebase, environment to detect any site caching issue, media related issues on the site and fix them in order to enhance the store’s performance. Hire dedicated magento developer to get started with us.",
+      "We understand your need to speed up the Magento site. As a leading Magento development agency, our team analyzes your store's codebase and environment to identify any issues and fix them to enhance performance. Hire dedicated Magento developers to get started with us.",
   },
   {
     title: "Upgrade and Migration",
     description:
-      "Ecommerce stores have a greater responsibilities while they are processing customers' payment data. Stores have to comply with certain regulations set by an authoritative body. Hire dedicated Magento developers to integrating all the security and privacy focused features on your site.",
+      "We are not simply upgrading or migrating, but rebuilding your online store. As part of this process, our developers evaluate your existing eCommerce site. If necessary, they will make improvements that will allow you to generate higher conversions without risking safety.",
   },
   {
-    title: "Payment Integration",
+    title: "Magento Integration",
     description:
-      "Ecommerce stores have a greater responsibilities while they are processing customers' payment data. Stores have to comply with certain regulations set by an authoritative body. Hire dedicated Magento developers to integrating all the security and privacy focused features on your site.",
+      "You can enrich your website's browsing experience with Magento's integrations. As a Magento 2 development company, our developers will not only build optimized eCommerce solutions but also ensure that your site generates new sales by integrating all its sales channels.",
+  },
+  {
+    title: "Magento Theme Development",
+    description:
+      "Keep the customer captivated by beautiful layouts that not only complement the platform's functionality but also add a modern touch to it with the help of our team. Hire Magento developers who will deliver the all-around solutions you always look for to impress your clients.",
   },
 ];
 
@@ -1283,27 +1288,27 @@ export const HireiOSServiceslist = [
   {
     title: "Custom iOS App Development",
     description:
-      "As a reputable iOS app development business, we have extensive experience with SWIFT, OBJECTIVE C, XCODE, and other popular iPhone app development technologies, as well as other popular programming languages. You may hire one of our iOS developers to design a wonderful iOS application for your company.",
-  },
-  // {
-  //   title: "iOS game development",
-  //   description:
-  //     "Metal, The Game Controller Framework, ReplayKit, and other main framework technologies are used extensively by our iOS developers to produce high-quality games for the Apple platform. We never disappoint our clients when it comes to the quality and performance of our gaming apps as an iOS app development business.",
-  // },
-  {
-    title: "iOS Game Development ",
-    description:
-      "Our iOS developers have a lot of experience and know-how to use Metal, The Game Controller Framework, ReplayKit, and other major framework features to create high-quality games for Apple devices. As an iOS app development company, we never let our clients down when it comes to the quality and performance of gaming apps.",
+      "As an iOS app development company, we provide full-stack services from building strategies to launching an application. Hire iOS app developers who know exactly how to work with your business's specifications and offer you high-end solutions so you grow peacefully.",
   },
   {
-    title: "Support and Maintenance",
+    title: "Web-based App",
     description:
-      "In addition to being app developers, our team members are also specialists in the field of iOS app maintenance and support. Clients can count on ultroNeous to be available around the clock to support and maintain their apps whenever they need it.",
+      "Hire iOS developers who can help you reach a new level by crafting incredible web apps. They work meticulously with you and utilize industry-proven tools. Developers being well-versed in frameworks and languages like Swift and Objective-C is just a cherry on top.",
   },
   {
-    title: "UX/UI Design",
+    title: "Support & Maintenance",
     description:
-      "Apple is well-known for providing its mobile consumers with the finest possible user experience. The criteria established by the App Store place a high level of responsibility on our developers to create high-quality mobile applications. ",
+      "We have a team who not only helps you but also gives you regular recommendations to improve the quality of the app. They work tirelessly to detect and fix issues and reduce application downtime. Hire iOS developers who will stay with you throughout the project.",
+  },
+  {
+    title: "App Integration and Migration",
+    description:
+      "We will help you migrate your legacy apps to iOS environments and upgrade them to modern standards without losing critical data. Our developers make sure that apps are compatible with essential APIs. Hire iOS app developers to make the applications future-proof.",
+  },
+  {
+    title: "iOS UI Design",
+    description:
+      "It's the time to benefit from the team of professionals who drive up your app's engagement level with extraordinary design elements and seamless user experience. Being an iOS development company, we make sure that your brand represents itself most effectively.",
   },
 ];
 // -----------------------------------------Android Part----------------------------------------------------------------------------------------------------------------
@@ -1337,22 +1342,27 @@ export const HireAndroidServiceslist = [
   {
     title: "Custom Android App Development ",
     description:
-      "We are a superior custom android app development company that builds apps that are aimed to fulfill corporate requirements and unique features for customers, our developers use the latest SDKs to develop high-end Android apps for clients' Businesses.",
+      "We are a leading Android App development company, and our team has expertise in infusing cutting-edge tools into apps. They are into building high-performing apps for a wide range of industries. Hire Android app developers for smart and secure app development.",
   },
   {
-    title: "Andriod Enterprise",
+    title: "Android Enterprise Solutions",
     description:
-      "Android enterprise is a google led initiative that enables the usage of android apps and apps in the workplace it also provides enterprises with security & mobility. Hire dedicated android developers from ultroNeous to develop enterprise apps, combing apps & management services.",
+      "Our objective is to give you mobile apps that are a perfect integration of your vision and objectives and create a lasting impact on your consumers. Our team of Android developers empowers businesses by linking enterprise apps with ERP, CRM, and MarTech solutions.",
   },
   {
-    title: "UI/UX Designing ",
+    title: "Android UI Design",
     description:
-      "The design of an app is the first thing that a user observes, and we've built great-looking responsive apps for our clients; thanks to our talented design team. We have an in-house design team that collaborates with developers to create a fantastic app.",
+      "Our team of designers will make the seamless design of your application aligned with the features so the end-users benefit the most and you can stay connected with them. Hire Android developers who customize the UI components to optimize usability in stipulated time.",
   },
   {
-    title: "Maintenance & Support ",
+    title: "Android App Upgradation and Migration",
     description:
-      "ultroNeous provides its clients with android application maintenance and support service. Our developers are 24/7 available to resolve any android app issues. Additionally, our developers perform regular maintenance checks to verify the app's adequacy and effectiveness.",
+      "We won't just help in upgrading and migrating the app but also in re-emerging your brand effectively. Hire Android app developers who are proficient in various languages like Java and Kotlin to make the moving of your app from other platforms to Android a breeze.",
+  },
+  {
+    title: "Maintenance & Support",
+    description:
+      "ultroNeous Technologies- an Android development company that takes care of everything from the project inception to its execution. Our team resolves every query and incorporates alterations as per the business needs. They also give regular updates to keep you informed.",
   },
 ];
 

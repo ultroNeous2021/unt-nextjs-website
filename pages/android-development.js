@@ -32,7 +32,7 @@ const HireAndroidDeveloper = () => {
           </>
         }
         detail={
-          "Android applications are the most crucial platform for business success. Hire Android app developers from ultroNeous, who have extensive expertise and experience in developing high-performing, scalable, and secured android apps for different types of business. We are an android development company that has assisted countless businesses in increasing revenue and expanding their operations through the use of android applications."
+          "Android technology requires no introduction. It is an open-source platform offering abundant attractive features, thus encouraging businesses to build a presence on it. With ultroNeous, you will not only be able to build the presence you desire but also extend beyond your imagination. Hire Android developers who perform comprehensive research to offer you bespoke and innovative solutions with easy-to-use interfaces."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HireAndroidServiceslist} />

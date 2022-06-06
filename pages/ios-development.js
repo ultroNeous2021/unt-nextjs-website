@@ -31,7 +31,7 @@ const HireIosDeveloper = () => {
         }
         techname={"/assets/ios.svg"}
         detail={
-          "In the software development sector, ultroNeous is continuously evolving and setting new quality standards. With our iOS app development services, we are the market leaders in producing scalable, dependable, and user-centric iOS apps for businesses in various disciplines. Hire iOS app developers that will work on your project according to your goals and specifications, ensuring high-quality apps that run well, provide a rich user experience, and are easy to use."
+          "iOS technology is hailed for its security and intuitive features. No wonder why entrepreneurs and founders are taking an interest and venturing into iOS development services. If you are also looking to build elite-level apps, let us end your search. We are an iOS development company and offer our clients outstanding iOS applications according to their requirements. Hire iOS developers who are well-experienced in building exquisite business-ready solutions."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HireiOSServiceslist} />

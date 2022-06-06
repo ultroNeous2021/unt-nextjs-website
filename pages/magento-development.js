@@ -30,7 +30,7 @@ const HireMagentoDeveloper = () => {
         }
         techname={"/assets/Magento.svg"}
         detail={
-          "Magento is a popular eCommerce development platform that offers a wide range of features and services that are essential for any successful and busy eCommerce business. We are a well-known Magento development company that has successfully served a variety of businesses selling a wide range of products worldwide. Hire Magento developers from ultroNeous to create high-performing eCommerce stores that are sturdy, scalable, and user-friendly."
+          "Magento is an open-source eCommerce Technology and has a fantastic set of features, including scalability, constant algorithmic improvements, and responsive web design. As it is an excellent option to choose as the medium for an eCommerce store, the setup can take up too much of your time and effort. And that's where we come in to help you. Hire Magento developers who help your company reduce the time-to-market and grow fast with a sturdy and user-friendly eCommerce store."
         }
       />
       <ServicesIncludedSlider listOfserviceincluded={HireMagentoServiceslist} />
