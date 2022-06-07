@@ -1,19 +1,20 @@
 import ChooseAsPerYourNeedSection from "@/components/ChooseAsPerYourNeedSection";
 import Layout from "@/components/Layout";
 import PagesHeaderComponent from "@/components/PagesHeaderComponent";
+import TransparentButton from "@/components/TransparentButton";
 import styles from "@/styles/EngagementModel.module.css";
 import { Col, Image, Row } from "react-bootstrap";
 const EngagementModel = () => {
   return (
     <Layout
-    // title={"Pricing & Engagement Models at ultroNeous Technologies"}
-    // description={
-    //   "ultoNeous offers flexible and result-oriented engagement models for software development. Hire best software developers from us at the affordable pricing."
-    // }
+      title={"Pricing & Engagement Models at ultroNeous Technologies"}
+      description={
+        "ultoNeous offers flexible and result-oriented engagement models for software development. Hire best software developers from us at the affordable pricing."
+      }
     >
       <PagesHeaderComponent
         css2={{ margin: "0%" }}
-        // css={{ }}
+        css={{ paddingBottom: "0%" }}
         heading={<>Every Business is different</>}
         text={"Engagement Model"}
       />
@@ -69,31 +70,43 @@ const EngagementModel = () => {
                       idea which requires multiple iterations and market
                       research/ feedbacks.
                     </p>
-                    <span className={styles.number}>01</span>
+                    <span className={styles.number}>
+                      {/* <span style={{ margin: "" }}> */}
+                      <a href="/contact-us">
+                        <TransparentButton
+                          val={"Contact Us"}
+                          link={"/contact-us"}
+                        />
+                      </a>
+                      {/* </span> */}
+                    </span>
                   </div>
+
                   <div className="col">
                     <div className={styles.rowtext}>
                       <Row>
-                        <Col xl={6} md={6}>
+                        <Col xl={4} md={6} className={styles.SpecialImage2}>
                           <Image
                             src="/assets/1(1).svg"
                             className={styles.imageSpace}
                           />
                         </Col>
-                        <Col xl={6} md={6}>
+                        <Col xl={5} md={6}>
                           <Image
                             src="/assets/1(2).svg"
                             className={styles.imageSpace}
                           />
                         </Col>
-                        <Col xl={6} md={6}>
+                        <Col xl={4} md={6}>
                           <Image
+                            style={{ paddingTop: "0%" }}
                             src="/assets/1(3).svg"
                             className={styles.imageSpace}
                           />
                         </Col>
-                        <Col xl={6} md={6}>
+                        <Col xl={5} md={6}>
                           <Image
+                            style={{ paddingTop: "0%" }}
                             src="/assets/1(4).svg"
                             className={styles.imageSpace}
                           />
@@ -124,31 +137,40 @@ const EngagementModel = () => {
                       methodology, the run time changes and requests would
                       attract the cost and timeframe changes.
                     </p>
-                    <span className={styles.number}>02</span>
+                    <span className={styles.number}>
+                      <a href="/contact-us">
+                        <TransparentButton
+                          val={"Contact Us"}
+                          link={"/contact-us"}
+                        />
+                      </a>
+                    </span>
                   </div>
                   <div className="col">
                     <div className={styles.rowtext}>
                       <Row>
-                        <Col xl={6} md={6}>
+                        <Col xl={4} md={6}>
                           <Image
                             src="/assets/2(1).svg"
                             className={styles.imageSpace}
                           />
                         </Col>
-                        <Col xl={6} md={6}>
+                        <Col xl={5} md={6}>
                           <Image
                             src="/assets/2(2).svg"
                             className={styles.imageSpace}
                           />
                         </Col>
-                        <Col xl={6} md={6}>
+                        <Col xl={4} md={6} className={styles.SpecialSpace}>
                           <Image
+                            style={{ paddingTop: "0%" }}
                             src="/assets/1(3).svg"
                             className={styles.imageSpace}
                           />
                         </Col>
-                        <Col xl={6} md={6}>
+                        <Col xl={5} md={6}>
                           <Image
+                            style={{ paddingTop: "0%" }}
                             src="/assets/1(4).svg"
                             className={styles.imageSpace}
                           />
@@ -180,32 +202,41 @@ const EngagementModel = () => {
                       idea which requires multiple iterations and market
                       research/ feedbacks.
                     </p> */}
-                    <span className={styles.number}>03</span>
+                    <span className={styles.number}>
+                      <a href="/contact-us">
+                        <TransparentButton
+                          val={"Contact Us"}
+                          link={"/contact-us"}
+                        />
+                      </a>
+                    </span>
                   </div>
                   <div className="col">
                     <div className={styles.rowtext}>
                       <div className={styles.rowtext}>
                         <Row>
-                          <Col xl={6} md={6}>
+                          <Col xl={4} md={6}>
                             <Image
                               src="/assets/2(1).svg"
                               className={styles.imageSpace}
                             />
                           </Col>
-                          <Col xl={6} md={6}>
+                          <Col xl={5} md={6}>
                             <Image
                               src="/assets/3(2).svg"
                               className={styles.imageSpace}
                             />
                           </Col>
-                          <Col xl={6} md={6}>
+                          <Col xl={4} md={6} className={styles.SpecialSpace}>
                             <Image
+                              style={{ paddingTop: "0%" }}
                               src="/assets/1(3).svg"
                               className={styles.imageSpace}
                             />
                           </Col>
-                          <Col xl={6} md={6}>
+                          <Col xl={5} md={6}>
                             <Image
+                              style={{ paddingTop: "0%" }}
                               src="/assets/1(4).svg"
                               className={styles.imageSpace}
                             />
@@ -217,6 +248,9 @@ const EngagementModel = () => {
                 </div>
               </li>
               <li className={`${styles.card04}  ${styles.lastCard}`}>
+                {/* <div className={styles.CardUid} style={{}}>
+                  <h1>4</h1>
+                </div> */}
                 <div className={styles.rows}>
                   <div className="col">
                     <h2 className={styles.Cardtitle}>Technology Partner</h2>
@@ -237,32 +271,41 @@ const EngagementModel = () => {
                       sure to win each project from your end by being flexible
                       in helping you win clients.
                     </p>
-                    <span className={styles.number}>04</span>
+                    <span className={styles.number}>
+                      <a href="/contact-us">
+                        <TransparentButton
+                          val={"Contact Us"}
+                          link={"/contact-us"}
+                        />
+                      </a>
+                    </span>
                   </div>
                   <div className="col">
                     <div className={styles.rowtext}>
                       <div className={styles.rowtext}>
                         <Row>
-                          <Col xl={6} md={6}>
+                          <Col xl={4} md={6} className={styles.SpecialImage2}>
                             <Image
                               src="/assets/4(1).svg"
                               className={styles.imageSpace}
                             />
                           </Col>
-                          <Col xl={6} md={6}>
+                          <Col xl={5} md={6}>
                             <Image
                               src="/assets/4(2).svg"
                               className={styles.imageSpace}
                             />
                           </Col>
-                          <Col xl={6} md={6}>
+                          <Col xl={4} md={6}>
                             <Image
+                              style={{ paddingTop: "0%" }}
                               src="/assets/4(3).svg"
                               className={styles.imageSpace}
                             />
                           </Col>
-                          <Col xl={6} md={6}>
+                          <Col xl={5} md={6}>
                             <Image
+                              style={{ paddingTop: "0%" }}
                               src="/assets/1(4).svg"
                               className={styles.imageSpace}
                             />
