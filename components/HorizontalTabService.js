@@ -43,7 +43,7 @@ function HorizontalTabService(props) {
                     {el.techIcons.map((el) => el)}
                   </Row>
                   <h3 className={styles.TechTitle}>
-                    {el.title} {props.development ? "development" : ""}
+                    {el.title} {props.development ? "Development" : ""}
                   </h3>
                   <p>{el.detail}</p>
                   {props.hireButton ? (
