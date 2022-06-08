@@ -243,7 +243,12 @@ function MegaMenuComponent() {
               >
                 Expertise
               </li>
-
+              <li
+                className={styles.Services}
+                onClick={() => router.push("/engagement-model")}
+              >
+                Engagement Model
+              </li>
               <li className={styles.Services} id="mobileUse">
                 <p className="mobileUse">
                   <a href="https://blog.ultroneous.com/" target={"_blank"}>

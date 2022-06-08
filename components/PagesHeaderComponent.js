@@ -1,7 +1,13 @@
 import { Row } from "react-bootstrap";
 import styles from "@/styles/components/PagesHeaderComponent.module.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function PagesHeaderComponent({ text, heading, css = null, css2 = null }) {
+  useEffect(() => {
+    AOS.refresh();
+    AOS.init();
+  }, []);
   return (
     <div>
       <Row className={styles.PagesHeader} style={css}>

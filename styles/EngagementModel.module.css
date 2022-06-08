@@ -3,6 +3,9 @@
   background-color: #1a1112;
   text-align: center;
   color: #ffffff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .PheadingContainer {
   background-color: #1a1112;
@@ -18,10 +21,12 @@
 .Paragraph1 {
   font-weight: 400;
   font-size: 18px;
+  width: 70rem;
 }
 .Paragraph2 {
   font-weight: 400;
   font-size: 18px;
+  width: 45rem;
 }
 /*  */
 .sectionCards .sectionContent {
@@ -47,15 +52,22 @@
   top: calc(50vh + 52px - 215px - 40px);
   scroll-behavior: smooth;
   border-radius: 20px;
+  /* border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  box-shadow: 0 0px 50px -12px rgb(0 0 0 / 50%);
 }
-
+.SpecialSpace {
+  padding-right: 2rem;
+}
 .card {
   transform: translateZ(0) !important;
   will-change: transform, opacity !important;
   height: 630px !important;
   position: sticky !important;
   top: calc(50vh + 52px - 215px - 40px) !important;
-  border-radius: 20px !important;
+  /* border-radius: 20px !important; */
+
   scroll-behavior: smooth;
 }
 .sectionCards .sectionContent li .cardContainer {
@@ -135,6 +147,7 @@
   justify-content: center;
   background: #1a1112;
   scroll-behavior: smooth;
+  padding-bottom: 4rem;
 }
 .number {
   font-size: 40px;
@@ -143,7 +156,7 @@
   text-align: left;
   padding-left: 4rem;
   display: flex;
-  padding-top: 1.5rem;
+  /* padding-top: 1.5rem; */
 }
 .Cardtitle {
   font-size: 55px;
@@ -159,6 +172,7 @@
 }
 .Carddescription {
   padding-left: 4rem;
+  padding-right: 4rem;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -168,23 +182,39 @@
 }
 .imageSpace {
   padding-bottom: 4rem;
-  padding-top: 4rem;
+  padding-top: 6rem;
   transition: all 1s ease;
 }
 .imageSpace:hover {
   transform: scale(1.2);
   transition: all 1s ease;
 }
+.CardUid h1 {
+  position: absolute;
+  top: -3rem;
+  padding: 1rem;
+  text-align: left;
+  color: #000;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.SpecialImage2 {
+  padding-right: 3rem;
+}
 /*  */
 @media (min-width: 320px) and (max-width: 430px) {
   .Paragraph1,
   .Paragraph2 {
     font-size: 14px;
+    width: 100%;
+    text-align: justify;
   }
   .Cardtitle {
     font-size: 20px;
     line-height: 0;
     padding-left: 1rem;
+    padding-top: 0%;
   }
   .Carddescription {
     padding-left: 1rem;
@@ -213,7 +243,23 @@
   .sectionCards .sectionContent li {
     top: calc(44vh + 52px - 215px - 40px);
   }
+  .sectionCards .sectionContent {
+    padding-bottom: 48px;
+  }
+  .ParagraphContainer {
+    padding-bottom: 0px;
+  }
+  .card01,
+  .card02,
+  .card03,
+  .card04 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 560px;
+  }
 }
+
 @media (min-width: 768px) and (max-width: 1080px) {
   .Cardtitle {
     padding-left: 2rem;
@@ -227,12 +273,22 @@
   .sectionCards .sectionContent li {
     height: 662px;
   }
+  .ParagraphContainer {
+    padding-bottom: 0%;
+  }
   .number {
     padding-left: 2rem;
   }
   .Carddescription {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .Paragraph1,
+  .Paragraph2 {
+    width: 100%;
+  }
+  .Pheading {
+    font-size: 45px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1730px) {

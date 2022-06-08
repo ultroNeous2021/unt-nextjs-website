@@ -41,6 +41,7 @@ import {
 import { Image } from "react-bootstrap";
 import styles from "@/styles/components/HorizontalTab.module.css";
 import { AiFillInstagram } from "react-icons/ai";
+import Link from "next/link";
 
 export const API_URL = "https://ultroneous.com:8000/";
 // export const API_URL = "http://192.168.1.28:8000/";
@@ -187,7 +188,15 @@ export const WeExcelAtData = [
         onMouseLeave={(e) => (e.target.src = "/assets/web7.png")}
       />,
     ],
-    techsname: ["React", "Angular", "Vue", "HTML5", "Next", "Gatsby", "Nuxtjs"],
+    techsname: [
+      { name: "React", link: "/reactjs-development" },
+      { name: "Angular", link: "/angular-development" },
+      { name: "Vue", link: "vuejs-development" },
+      { name: "HTML5", link: "#" },
+      { name: "Next", link: "#" },
+      { name: "Gatsby", link: "#" },
+      { name: "Nuxtjs", link: "#" },
+    ],
   },
   {
     title: "Back End ",
@@ -250,13 +259,13 @@ export const WeExcelAtData = [
       />,
     ],
     techsname: [
-      "Node",
-      "Laravel",
-      "Php",
-      "Codeigniter",
-      "Magento",
-      "Wordpress",
-      "Shopify",
+      { name: "Node", link: "nodejs-development" },
+      { name: "Laravel", link: "laravel-development" },
+      { name: "Php", link: "php-development" },
+      { name: "Codeigniter", link: "codeigniter-development" },
+      { name: "Magento", link: "magento-development" },
+      { name: "Wordpress", link: "wordpress-development" },
+      { name: "Shopify", link: "shopify-development" },
     ],
   },
   {
@@ -317,13 +326,13 @@ export const WeExcelAtData = [
       />,
     ],
     techsname: [
-      "Kotlin",
-      "Swift",
-      "Flutter",
-      "React Native",
-      "Java",
-      "Objective-C",
-      "Xamarin",
+      { name: "Kotlin", link: "android-development" },
+      { name: "Swift", link: "ios-development" },
+      { name: "Flutter", link: "flutter-development" },
+      { name: "React Native", link: "react-native-development" },
+      { name: "Java", link: "android-development" },
+      { name: "Objective-C", link: "ios-development" },
+      { name: "Xamarin", link: "xamarin-development" },
     ],
   },
   {
@@ -388,13 +397,13 @@ export const WeExcelAtData = [
       />,
     ],
     techsname: [
-      "Figma",
-      "XD",
-      "Zeplin",
-      "Adobe Illustrator",
-      "Adobe Photoshop",
-      "InVision",
-      "Mockingbot",
+      { name: "Figma", link: "#" },
+      { name: "XD", link: "#" },
+      { name: "Zeplin", link: "#" },
+      { name: "Adobe Illustrator", link: "#" },
+      { name: "Adobe Photoshop", link: "#" },
+      { name: "InVision", link: "#" },
+      { name: "Mockingbot", link: "#" },
     ],
   },
   {
@@ -458,13 +467,13 @@ export const WeExcelAtData = [
       />,
     ],
     techsname: [
-      "Semrush",
-      "Hootsuite",
-      "Keyhole",
-      "Google Analytics",
-      "Yoast",
-      "Buzzsumo",
-      "Buffer",
+      { name: "Semrush", link: "#" },
+      { name: "Hootsuite", link: "#" },
+      { name: "Keyhole", link: "#" },
+      { name: "Google Analytics", link: "#" },
+      { name: "Yoast", link: "#" },
+      { name: "Buzzsumo", link: "#" },
+      { name: "Buffer", link: "#" },
     ],
   },
 ];
@@ -551,44 +560,64 @@ export const WebTechnologyExpertise = [
   {
     title: "Open Source",
     techIcons: [
-      <SiWordpress className={stylesHT.TechImagesWeb0} />,
-      <SiShopify className={stylesHT.TechImagesWeb1} />,
-      <SiMagento className={stylesHT.TechImagesWeb2} />,
+      <Link href={"/wordpress-development"}>
+        <SiWordpress className={stylesHT.TechImagesWeb0} />
+      </Link>,
+      <Link href={"/shopify-development"}>
+        <SiShopify className={stylesHT.TechImagesWeb1} />
+      </Link>,
+      <Link href={"/magento-development"}>
+        <SiMagento className={stylesHT.TechImagesWeb2} />
+      </Link>,
     ],
     detail:
-      "ultroNeous' web developers have sharpened their skill sets in developing web applications utilizing open-source libraries and frameworks to create innovative, responsive, and stunning designs along with top-level security for the web app. We have extensive expertise in designing and developing custom web applications with open-source development platforms like WordPress, Shopify, and Magento.",
+      "Web developers of ultroNeous Technologies have sharp skills in developing web applications utilizing open-source libraries and frameworks. We create innovative, responsive, and stunning web apps with top-level security. Our team has extensive expertise in designing and developing custom web apps with open-source development platforms like WordPress, Shopify, and Magento.",
   },
   {
     title: "LAMP Stack",
     techIcons: [
-      <SiPhp className={stylesHT.TechImagesWeb3} />,
-      <SiLaravel className={stylesHT.TechImagesWeb4} />,
-      <SiCodeigniter className={stylesHT.TechImagesWeb5} />,
+      <Link href={"/php-development"}>
+        <SiPhp className={stylesHT.TechImagesWeb3} />
+      </Link>,
+      <Link href={"/laravel-development"}>
+        <SiLaravel className={stylesHT.TechImagesWeb4} />
+      </Link>,
+      <Link href={"/codeigniter-development"}>
+        <SiCodeigniter className={stylesHT.TechImagesWeb5} />
+      </Link>,
     ],
     detail:
-      " In recent years, ultroNeous has amassed a significant amount of experience in producing responsive, dynamic, and highly secure web apps using the LAMP stack development process. It is a flexible and powerful foundation for developing custom web applications that improve the user experience. Our proficient LAMP stack developers are conversant with the PHP, Laravel, and Codeigniter frameworks and have an excellent track record of developing web applications that meet all of a client's business requirements.",
+      "We provide web application development services that encompass a wide range of technologies. Being a web development company, our main focus is to build apps that conveys your brand values to your targeted customers and create a transformational experience. Our adept LAMP stack developers are conversant with the PHP, Laravel, and Codeigniter frameworks and have the expertise to follow agile methodologies. What matters the most to us is to build bespoke end-to-end, regardless of the business size.",
   },
   {
     title: "MEAN Stack",
     techIcons: [
       <SiMongodb className={stylesHT.TechImagesWeb6} />,
       <SiExpress className={stylesHT.TechImagesWeb7} />,
-      <IoLogoAngular className={stylesHT.TechImagesWeb8} />,
-      <FaNodeJs className={stylesHT.TechImagesWeb9} />,
+      <Link href={"/angular-development"}>
+        <IoLogoAngular className={stylesHT.TechImagesWeb8} />
+      </Link>,
+      <Link href={"/nodejs-development"}>
+        <FaNodeJs className={stylesHT.TechImagesWeb9} />
+      </Link>,
     ],
     detail:
-      "We are a preeminent web development company that develops bespoke and interactive web apps and websites using MEAN stack development platforms. The four frameworks on which MEAN stack is based/works are MongoDB, Express, Angular, and Node. ultroNeous' MEAN Stack Developers are masters at developing custom web applications, e-commerce solutions, and stack website development with perfection. Our completed project elevated the client's overall revenue, and we are ready to onboard more projects.",
+      "Having a distinguished team of MEAN stack developers, we provide tailor-made services as per your specific business needs. MEAN stack's winning advantages include easy-to-build, test, maintain, and reliability. The four frameworks on which MEAN stack is based/works are MongoDB, Express, Angular, and Node. Leverage the web development services of ultroNeous to design futuristic web apps and websites that make powerful impressions about your business.",
   },
   {
     title: "MERN Stack",
     techIcons: [
       <SiMongodb className={stylesHT.TechImagesWeb10} />,
       <SiExpress className={stylesHT.TechImagesWeb11} />,
-      <FaReact className={stylesHT.TechImagesWeb12} />,
-      <FaNodeJs className={stylesHT.TechImagesWeb13} />,
+      <Link href={"/reactjs-development"}>
+        <FaReact className={stylesHT.TechImagesWeb12} />
+      </Link>,
+      <Link href={"/nodejs-development"}>
+        <FaNodeJs className={stylesHT.TechImagesWeb13} />
+      </Link>,
     ],
     detail:
-      "ultroNeous’ web app development services have achieved milestones in MERN stack development for distinguished web apps for businesses. Our MERN stack developers have an unrivaled ability to design and develop exceptional web apps in a brief period. MongoDB, ExpressJS, ReactJS, and NodeJS—which also validates the name—are the four frameworks or databases used in this development process. All four frameworks work together to develop reliable, efficient, and scalable web applications.",
+      "MERN stack has attractive features including flexibility and high-performing web apps that give a native experience to end-users. MongoDB, ExpressJS, ReactJS, and NodeJS—which also validates the name—are the four key technologies used in this development process. All four work together to develop reliable, efficient, and scalable web applications. Our MERN stack developers provide web application development services to give you a clear way to digitize your business.",
   },
 ];
 export const MobileTechnologyExpertise = [
@@ -599,21 +628,31 @@ export const MobileTechnologyExpertise = [
     },
 
     techIcons: [
-      <SiApple className={stylesHT.TechImagesMT0} />,
-      <DiAndroid className={stylesHT.TechImagesMT1} />,
+      <Link href={"/ios-development"}>
+        <SiApple className={stylesHT.TechImagesMT0} />
+      </Link>,
+      <Link href={"/mobile-application-development"}>
+        <DiAndroid className={stylesHT.TechImagesMT1} />
+      </Link>,
     ],
     detail:
-      "Native app development is a distinct approach for developing mobile apps for operating systems such as Android and iOS. At ultroNeous, we have an in-house dedicated native app developers team who is always up for developing an app that meets the client's requirements. Our native mobile application development services are extremely conscientious about the app's quality and have completed countless projects on time.",
+      "Native apps give the users a superior experience and eminent performance by accessing the services offered by the specific device and operating system be it iOS, Android, or Windows. We strategize the right tech stack and choice of platform to deliver the result you are looking for. Being a mobile app development company, our team tends to deliver solutions which use the inherent power of iOS and Android to improve your sales potential.",
   },
   {
     title: "Hybrid",
     techIcons: [
-      <SiFlutter className={stylesHT.TechImagesMT2} />,
-      <SiXamarin className={stylesHT.TechImagesMT3} />,
-      <SiReact className={stylesHT.TechImagesMT4} />,
+      <Link href={"/flutter-development"}>
+        <SiFlutter className={stylesHT.TechImagesMT2} />
+      </Link>,
+      <Link href={"/xamarin-development"}>
+        <SiXamarin className={stylesHT.TechImagesMT3} />
+      </Link>,
+      <Link href={"/react-native-development"}>
+        <SiReact className={stylesHT.TechImagesMT4} />
+      </Link>,
     ],
     detail:
-      "With hybrid mobile apps, you can take your business app on multiple platforms. It is a cost-efficient mobile app development service that delivers stable and compatible results. ultroNeous offers a comprehensive hybrid mobile application development service to clients. With over 50+ projects working experience, our developers are proficient in writing codes in HTML5, CSS, and JavaScript.",
+      "Hybrid mobile apps don't depend on a specific platform, so you don't have to create separate development teams for apps compatible with multiple platforms. Due to a single framework, hybrid app development demands less maintenance and provides faster time-to-launch. Our team of mobile app developers digs deep into every project and delivers high-performing and elegant results that run across various platforms.",
   },
 ];
 export const DigitalMarketingExpertise = [
@@ -655,19 +694,31 @@ export const DigitalMarketingExpertise = [
 export const FrontEndExpertise = [
   {
     title: "ReactJS",
-    techIcons: [<FaReact className={stylesHT.TechImagesFE0} />],
+    techIcons: [
+      <Link href={"/reactjs-development"}>
+        <FaReact className={stylesHT.TechImagesFE0} />
+      </Link>,
+    ],
     detail:
       "ReactJS is a popular front-end development framework with an open-source Javascript library that allows developers to build responsive, user-friendly, and secured mobile and web applications. As a leading reactjs development company, ultroNeous have successfully serviced clients from all over the world with robust, interactive, and scalable applications. Hire our ReactJS developers for developing web & mobile apps for your business that have a great user experience and unique user interface elements. ",
   },
   {
     title: "Angular",
-    techIcons: [<FaAngular className={stylesHT.TechImagesFE1} />],
+    techIcons: [
+      <Link href={"/angular-development"}>
+        <FaAngular className={stylesHT.TechImagesFE1} />
+      </Link>,
+    ],
     detail:
       "AngularJS is a structural framework for developing dynamic web applications. It has an easy binding procedure, an accurate testing process, is compatible with most browsers, and creates its components,  all of which lead to the developed app’s enhanced efficiency. ultroNeous is a well-known angular development company that has developed numerous dynamic, high-performant, and secured applications for different business models around the globe. ",
   },
   {
-    title: "Vue",
-    techIcons: [<FaVuejs className={stylesHT.TechImagesFE2} />],
+    title: "VueJS",
+    techIcons: [
+      <Link href={"/vuejs-development"}>
+        <FaVuejs className={stylesHT.TechImagesFE2} />
+      </Link>,
+    ],
     detail:
       "Vue is a powerful JavaScript framework for developing applications with stunning user interface components. It offers two-way data binding, unit-testing, easy integration with existing applications, its components can be reused, and other features- that help in improving the efficiency and performance of the app. For the best results and performance of the app, hire our dedicated front-end developers with Vue framework expertise.",
   },
@@ -681,19 +732,31 @@ export const FrontEndExpertise = [
 export const EcommerceExpertise = [
   {
     title: "WordPress",
-    techIcons: [<SiWordpress className={stylesHT.TechImagesWeb0} />],
+    techIcons: [
+      <Link href={"/wordpress-development"}>
+        <SiWordpress className={stylesHT.TechImagesWeb0} />
+      </Link>,
+    ],
     detail:
       "WordPress is the most versatile and flexible platform for developing e-commerce websites. ultroNeous’ developers carry a massive experience in developing sustainable, resolute, and realistic eCommerce stores for clients all over the globe. We develop custom WordPress plugins and themes to satisfy the client’s requirements and achieve the goals of trendy design, SEO optimization, distinct UI/UX, awesome compatibility, and secured payment methods. ",
   },
   {
     title: "Shopify",
-    techIcons: [<SiShopify className={stylesHT.TechImagesWeb1} />],
+    techIcons: [
+      <Link href={"/shopify-development"}>
+        <SiShopify className={stylesHT.TechImagesWeb1} />
+      </Link>,
+    ],
     detail:
       "ultroNeous' eCommerce development services have satisfied clients all over the world with vibrant, sustainable, and tenacious e-commerce solutions. The latest technology and trends are perfectly incorporated into our developed Shopify eCommerce stores. Our developers are specialists in developing absurd websites and applications with the right architecture, immense performance, excellent visual designs, and many other features that are necessary for a successful online store. ",
   },
   {
     title: "Magento",
-    techIcons: [<SiMagento className={stylesHT.TechImagesWeb2} />],
+    techIcons: [
+      <Link href={"/magento-development"}>
+        <SiMagento className={stylesHT.TechImagesWeb2} />
+      </Link>,
+    ],
     detail:
       "ultroNeous has a dedicated Magento development team with experience and expertise in delivering the finest e-commerce websites and applications. Our Magento services include development, designing, migration and up-gradation, support, consultation, and other services. Certified Magento developers at ultroNeous are masters at developing e-commerce websites and applications with extensive features, systematic content management, ERP and CRM system integration, mobile compatibility, and secure & simple payment methods.",
   },

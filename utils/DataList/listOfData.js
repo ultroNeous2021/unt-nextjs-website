@@ -224,7 +224,7 @@ export const ListOfWebService = {
   heading: "Services We Offer",
   title: "Web Application Development",
   paragraph:
-    "World-class custom web application development company that uses cutting-edge technologies to develop top-notch web apps delivering outstanding, secured, responsive, and finest results. Over the years, ultroNeous has gained mastery in web application development frameworks and libraries such as the LAMP stack, MEAN & MERN development, and open-source development. ",
+    "Give your customers a better sense of your brand with human-centered and scalable web applications. We are a custom web application development company providing full-stack web app solutions. Our team applies extraordinary intellect to each aspect of web application development services. Let us co-create success stories with world-class apps to maximize customer engagement.",
   image: "/assets/Webappdevs.webp",
   alt: "web-app-development",
 };
@@ -232,7 +232,7 @@ export const ListOfMobileService = {
   heading: "Services We Offer",
   title: "Mobile Application Development",
   paragraph:
-    "ultroNeous is a leading hybrid mobile app development company in developing custom mobile apps with a variety of technological stacks. Our experienced team is innovative in creating mobile apps with exceptional user experience, great compatibility, and are bug-free. ultroNeous' developers use hybrid app development and native app development procedure to build mobile apps that are sturdy, reliable and efficient. ",
+    "ultroNeous Technologies is a leading mobile app development company, building best-in-class custom mobile apps using various technologies. Our mobile app developers are innovative in creating mobile apps with exceptional user experience, compatible across different platforms, and provide enormous value to your customers. We use industry-proven tools and keep the whole procedure transparent to bring you new insights into your business.",
   image: "/assets/mobile-dev.png",
   alt: "mobile-app-development",
 };
@@ -240,7 +240,7 @@ export const ListOfUiUxDesign = {
   heading: "Services We Offer",
   title: "UX / UI Design",
   paragraph:
-    "Any website or application's success hinges on its ability to provide a positive user experience. Whether visitors stay or leave a website or application is entirely dependent on the UX/UI design. ultroNeous is a top UX/UI development company that has provided innovative UX/UI design services to a variety of business types. Our designers are meticulous in selecting appropriate UX/UI features that give business web solutions rich and bespoke usability and user experience.",
+    "Whether visitors stay or leave a website or application is entirely dependent on the UX/UI design. ultroNeous Technologies is one of the top UX/UI design companies that know the value of an intuitive user journey and how it can make or break a brand's image. Our team of designers craft pixel-perfect solutions for your business and make your users keep coming back for more with an exceptional experience.",
   image: "/assets/UX-UI.webp",
   alt: "ui-ux-design",
 };
