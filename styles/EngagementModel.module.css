@@ -147,6 +147,7 @@
   justify-content: center;
   background: #1a1112;
   scroll-behavior: smooth;
+  padding-bottom: 4rem;
 }
 .number {
   font-size: 40px;
