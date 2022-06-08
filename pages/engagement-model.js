@@ -13,7 +13,13 @@ const EngagementModel = () => {
       }
     >
       <PagesHeaderComponent
+<<<<<<< HEAD
         heading={"Every Business is different"}
+=======
+        css2={{ margin: "0%" }}
+        css={{ paddingBottom: "0%" }}
+        heading={<>Every Business is different</>}
+>>>>>>> 2b68336daefc8967af426bbded468b01c43f4e46
         text={"Engagement Model"}
       />
       <div className={styles.PheadingContainer}>
