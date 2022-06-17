@@ -485,9 +485,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
             >
               USA
             </h2>
-            <p className={styles.plabel}>
-              West 51st Avenue, Denver, CO 80212USA
-            </p>
+            <p className={styles.plabel}>Denver, CO USA</p>
             <div className={styles.EmailPhoneContainer}>
               <FaPhoneAlt style={{ color: "#E49B00", fontSize: "20px" }} />
               <span className={styles.EmailPhoneText}>
