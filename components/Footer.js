@@ -107,6 +107,11 @@ function Footer({ FooterContainerStyle }) {
                 <li>
                   <Link href="/contact-us">Contact</Link>
                 </li>
+
+                <li>
+                  <Link href="/engagement-model">Engagement Model</Link>
+                </li>
+
                 <li>
                   <Link href="https://blog.ultroneous.com/">Blog</Link>
                 </li>
@@ -133,6 +138,11 @@ function Footer({ FooterContainerStyle }) {
                 </li>
                 <li>
                   <Link href="/cloud-and-devops">Cloud & Devops</Link>
+                </li>
+                <li>
+                  <Link href="/ecommerce-development">
+                    eCommerce Development
+                  </Link>
                 </li>
               </ul>
             </Col>

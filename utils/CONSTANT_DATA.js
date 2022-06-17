@@ -657,7 +657,7 @@ export const MobileTechnologyExpertise = [
 ];
 export const DigitalMarketingExpertise = [
   {
-    title: "SEO",
+    title: "Search Engine Optimization    ",
     techIcons: [
       <Image
         src="/assets/seo-digital-marketing.svg"
@@ -665,16 +665,16 @@ export const DigitalMarketingExpertise = [
       />,
     ],
     detail:
-      "The process of optimizing a website for search engine results is referred to as SEO(Search Engine Optimization). Its purpose is to improve a website's search engine ranking and increase web traffic from organic search results. As an internet marketing company, ultroNeous have a wealth of real-world expertise in optimizing a website for organic results on Google, Bing, Yahoo & other search engines. Our professionals have tried-and-true SEO strategies that have resulted in considerable traffic increment for our clients' websites to boost their business revenue.",
+      "The search engine environment is constantly changing, and the competition is fierce. You need a digital marketing company that offers customized SEO services to rank your website higher on search engines. We provide a more holistic approach to your business so you can grow at a faster pace. Get leverage of the ultroNeous team in optimizing a website for organic results on Google, Bing, Yahoo & other search engines and boost business revenue.      ",
   },
   {
     title: "Google Ads",
     techIcons: [<SiGoogleadsense className={stylesHT.TechImagesDM1} />],
     detail:
-      "Google Paid Ads is a service offered by Google that allows you to create and run online ads targeting individuals who are searching (on Google) for the products and services you're providing. Hire an experienced digital marketing agency that has extensive working knowledge and practical skills in running Google paid ads. ultroNeous has provided this service to several clients with tremendous success and positive results.",
+      "Using Google Ads-a versatile tool for brand awareness, we will boost traffic to your website by analyzing competitor campaigns, determining keywords, and using ad copy on your website. We take this data-driven approach to get yourself the desirable Return on Investment (ROI). All you need is ultroNeous Technologies- a digital marketing company that provides the best practices to help you reach out to the right customers.      ",
   },
   {
-    title: "SMM",
+    title: "Social Media Marketing     ",
     techIcons: [
       <Image
         src="/assets/like-digital.svg"
@@ -682,13 +682,13 @@ export const DigitalMarketingExpertise = [
       />,
     ],
     detail:
-      "The best way to describe social media marketing is “the use of social media platforms to promote products and services”. If any company is facing trouble finding buyers and visitors, then social media networks are a great place to start with. With the help of professional digital marketing services providers like ultroNeous, your business can utilize social media to reach people, improve brand awareness, generate leads, and build a relationship with users. Connect with us to know how we can take your business to the next level with social media.",
+      "Social media marketing is a key to driving more customers, nurturing them, and growing steadily. We help you increase your brand's awareness and improve communication with your targeted customers with excellent social media marketing strategies. As a result, you can achieve higher traffic on the website and drive up sales. Our wide range of digital marketing services can guide you to overcome all the challenges and make your audience fall in love with you.",
   },
   {
-    title: "Facebook Ads ",
+    title: "Facebook Paid Advertising    ",
     techIcons: [<SiFacebook className={stylesHT.TechImagesDM3} />],
     detail:
-      "Facebook is the most popular social media platform, with over 1.9 million daily unique users. Running paid ads on Facebook can be incredibly beneficial for a business. ultroNeous, a digital marketing agency, is adept at running Facebook ad campaigns to increase clients' business revenue. Our paid ad experts are masters at scaling, optimizing, and testing various ad copy variants to deliver great ROI. If your company has overlooked Facebook's massive reach and commercial opportunities, connect now with ultroNeous",
+      "Facebook is one of the most popular social media platforms with roughly 2.93 billion active users. And running paid ads on Facebook can be incredibly beneficial for a business as it provides robust analytics, high customization, and easy setup for faster results. We are an internet marketing agency adept at running Facebook ad campaigns to increase clients' business revenue. Grow with Facebook's massive reach with our digital marketing services and optimized solutions to generate ROI.      ",
   },
 ];
 export const FrontEndExpertise = [
@@ -700,7 +700,7 @@ export const FrontEndExpertise = [
       </Link>,
     ],
     detail:
-      "ReactJS is a popular front-end development framework with an open-source Javascript library that allows developers to build responsive, user-friendly, and secured mobile and web applications. As a leading reactjs development company, ultroNeous have successfully serviced clients from all over the world with robust, interactive, and scalable applications. Hire our ReactJS developers for developing web & mobile apps for your business that have a great user experience and unique user interface elements. ",
+      " ReactJS is a popular front-end development framework with an open-source Javascript library that allows developers to build scalable applications with well-structured code. As a front-end web development company, our developers use ReactJS features to build powerful front-end and deliver robust and interactive solutions as per your specific business needs. Make use of front-end web development services to get yourself efficient applications.      ",
   },
   {
     title: "Angular",
@@ -710,7 +710,7 @@ export const FrontEndExpertise = [
       </Link>,
     ],
     detail:
-      "AngularJS is a structural framework for developing dynamic web applications. It has an easy binding procedure, an accurate testing process, is compatible with most browsers, and creates its components,  all of which lead to the developed app’s enhanced efficiency. ultroNeous is a well-known angular development company that has developed numerous dynamic, high-performant, and secured applications for different business models around the globe. ",
+      "Angular is an open-source web framework for designing and developing ultra-modern applications. The platform is capable of supporting the development of a wide range of high-quality applications for distinct industries. Our team will blend the Angular framework's features with their expertise to craft premium and intuitive web solutions. Take advantage of our app development services to achieve more rapid ROI.      ",
   },
   {
     title: "VueJS",
@@ -720,13 +720,13 @@ export const FrontEndExpertise = [
       </Link>,
     ],
     detail:
-      "Vue is a powerful JavaScript framework for developing applications with stunning user interface components. It offers two-way data binding, unit-testing, easy integration with existing applications, its components can be reused, and other features- that help in improving the efficiency and performance of the app. For the best results and performance of the app, hire our dedicated front-end developers with Vue framework expertise.",
+      "Vue is a versatile and most performant mainstream JavaScript framework for developing applications with stunning user interface components. It offers remarkable features including an adaptable ecosystem and being perfectly capable of handling large-scale applications. For the best results and performance of the app, hire our dedicated front-end developers with Vue framework expertise.       ",
   },
   {
     title: "HTML 5 ",
     techIcons: [<FaHtml5 className={stylesHT.TechImagesFE3} />],
     detail:
-      "HTML5 is the most recent version of the hypertext markup language, and it has the potential to revolutionize web app development. ultroNeous' front-end developers can develop complex browser-based apps and websites using an HTML5 markup language. Through our app development services, we offer devoted front-end developers with HTML5 working knowledge and experience for hire to develop your business web app with rich visual elements, strong security norms, and a fantastic user experience. ",
+      "HTML5 is the most recent version of the hypertext markup language, and it has the potential to revolutionize web app development. ultroNeous' front-end developers can develop complex browser-based apps and websites using an HTML5 markup language. Through our app development services, we offer devoted front-end developers with HTML5 working knowledge and experience for hire to develop your business web app with rich visual elements, strong security norms, and a fantastic user experience.       ",
   },
 ];
 export const EcommerceExpertise = [
@@ -738,7 +738,7 @@ export const EcommerceExpertise = [
       </Link>,
     ],
     detail:
-      "WordPress is the most versatile and flexible platform for developing e-commerce websites. ultroNeous’ developers carry a massive experience in developing sustainable, resolute, and realistic eCommerce stores for clients all over the globe. We develop custom WordPress plugins and themes to satisfy the client’s requirements and achieve the goals of trendy design, SEO optimization, distinct UI/UX, awesome compatibility, and secured payment methods. ",
+      "WordPress stands on its own when in terms of providing flexible, SEO-optimized, and enterprise-class websites. Our team does eCommerce development in a way where you can have the edge over your competitors by using world-disruptive technologies. We have experience in developing custom WordPress plug-ins and themes to satisfy all your requirements of an interactive user journey, exceptional functionality, and secured payment methods.   ",
   },
   {
     title: "Shopify",
@@ -748,7 +748,7 @@ export const EcommerceExpertise = [
       </Link>,
     ],
     detail:
-      "ultroNeous' eCommerce development services have satisfied clients all over the world with vibrant, sustainable, and tenacious e-commerce solutions. The latest technology and trends are perfectly incorporated into our developed Shopify eCommerce stores. Our developers are specialists in developing absurd websites and applications with the right architecture, immense performance, excellent visual designs, and many other features that are necessary for a successful online store. ",
+      "ultroNeous' eCommerce development services have satisfied clients from all around the world with vibrant and sustainable eCommerce solutions. We incorporate the latest technology and trends to develop your Shopify storefront. Our developers are experts in crafting websites and applications with the right architecture, superior performance, excellent visual designs, and many attractive features necessary for a successful online store.      ",
   },
   {
     title: "Magento",
@@ -758,13 +758,13 @@ export const EcommerceExpertise = [
       </Link>,
     ],
     detail:
-      "ultroNeous has a dedicated Magento development team with experience and expertise in delivering the finest e-commerce websites and applications. Our Magento services include development, designing, migration and up-gradation, support, consultation, and other services. Certified Magento developers at ultroNeous are masters at developing e-commerce websites and applications with extensive features, systematic content management, ERP and CRM system integration, mobile compatibility, and secure & simple payment methods.",
+      "ultroNeous Technologies provides eCommerce development services with Magento's features like SEO friendliness, multiple currencies, language support, and a multitude of hosting options to deliver the finest eCommerce websites and apps. Our dedicated and certified Magento development team has the expertise and provides Magento services including customized development, designing, migration, up-gradation, support, and consultation to help your brand emerge as a leading example.      ",
   },
   {
     title: "Woocommerce",
     techIcons: [<SiWoo className={stylesHT.TechImagesWOO} />],
     detail:
-      "Woocommerce is the best example of an e-commerce development platform because it includes several built-in e-commerce features such as customer matching, order tracking, blogging, product sorting, filtering, and much more. ultroNeous is a top eCommerce development company that delivers magnificent eCommerce solutions to clients. Custom Woocommerce plugins and themes, API integrations, woocommerce web and app development, and other essentials for a profitable and productive online store are among our strengths. ",
+      " We are one of the top eCommerce development companies that deliver one-of-a-kind eCommerce solutions to clients. WooCommerce is the leading platform for powering up your eCommerce business. Its amazing features include seamless integration with content, countless themes, unrestricted customization, extensions, and more. Our team of developers builds eCommerce websites and applications that help your business soar with profit and popularity.      ",
   },
 ];
 export const CloudandDevopsExpertise = [
@@ -774,7 +774,7 @@ export const CloudandDevopsExpertise = [
       <Image src="/assets/aws.svg" className={stylesHT.TechImagesCD0} />,
     ],
     detail:
-      "Amazon Web Service aka AWS is an industry leader cloud computing platform, which is design to fulfil all of your cloud and server needs. We as an industry leader will be taking care of your AWS needs including LaaS, SaaS and PaaS offerings. The AWS can be your cloud solution along with various utilization of SMS, storage and server balance options.",
+      "AWS is a cloud computing infrastructure with numerous products and services including data storage, analytics, business application development, and more. We have one of the best tech problem solvers who brings you solutions for cloud-native applications with enhanced mobility. They are proficient in IaaS, PaaS, and SaaS cloud computing models and deliver end-to-end cloud solutions.      ",
   },
   {
     title: "Microsoft Azure",
@@ -782,7 +782,7 @@ export const CloudandDevopsExpertise = [
       <Image src="/assets/azure.svg" className={stylesHT.TechImagesCD1} />,
     ],
     detail:
-      "Taking a giant leap in the last few years, Microsoft Azure is carrying a varied range of cloud consultation tools and services including computation, analytics, storage and networking services. We are here to manage, strategizes and implement successful cloud computation infrastructure procedures through the Microsoft azure analytical and implementation tools and services.",
+      " Microsoft Azure has all the perks you need to get started with cloud services. Speed of service, enhanced flexibility, and disaster recovery are features that make it stand out. With its automated solutions and robust templates, you can quickly see improvement. Get an international edge and elevate your business value with ultroNeous Technologies- a cloud computing company.      ",
   },
   {
     title: "Google Cloud",
@@ -793,7 +793,7 @@ export const CloudandDevopsExpertise = [
       />,
     ],
     detail:
-      "Managed and designed by the giant Google itself, Google cloud is considered to be a suit of public cloud computing services, including hosting, storage and development services of cloud computation and runs on Google hardware. Our DevOps experts carrying a good knowledge in Google Cloud, will compute successful strategies of cloud computation tailored to your requirements.",
+      " Our team of experts efficiently manages the workload and provides cloud computing services using various platforms including Google Cloud. Some of the exciting attributes are unmatched security, a reliable framework, and highly durable storage. This supports us to deliver software faster while improving operational security and governance to quicken your business with innovation.",
   },
 ];
 export const AboutUsCounter = [

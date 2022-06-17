@@ -6,7 +6,7 @@
   padding-bottom: 4rem;
   font-size: 24px;
   color: #fff;
-  margin-top: -4rem;
+  /* margin-top: -4rem; */ /*line comment bcz contactus page header and description override   */
 }
 .MyCheckBox {
   accent-color: #303030;

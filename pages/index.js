@@ -87,8 +87,8 @@ export default function HomePage({ data }) {
                   }
                   layout="fill"
                   objectFit="contain"
+                  className={styles.TechnologyImage}
                 />
-                {/* className={styles.TechnologyImage} */}
 
                 <div className={styles.TechnologyOverlay}>
                   <div className={styles.TechnologyText}>
@@ -108,6 +108,7 @@ export default function HomePage({ data }) {
                   }
                   layout="fill"
                   objectFit="contain"
+                  className={styles.TechnologyImage}
                 />
 
                 <div className={styles.TechnologyOverlay}>
@@ -126,6 +127,7 @@ export default function HomePage({ data }) {
                   }
                   layout="fill"
                   objectFit="contain"
+                  className={styles.TechnologyImage}
                 />
                 <div className={styles.TechnologyOverlay}>
                   <div className={styles.TechnologyText}>Digital Marketing</div>

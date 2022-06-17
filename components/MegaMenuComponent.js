@@ -102,7 +102,7 @@ function MegaMenuComponent() {
             <div className={styles.NavUnique}>
               {uniqueLink.includes(router.pathname) ? null : (
                 <Nav className={styles.NavLinks}>
-                  <Nav className={styles.NavLink}>
+                  {/* <Nav className={styles.NavLink}>
                     <Link href={LinksOfAllpages.mainPages.aboutUltroneous}>
                       <a
                         href="/about-ultroneous"
@@ -115,7 +115,7 @@ function MegaMenuComponent() {
                         About Us
                       </a>
                     </Link>
-                  </Nav>
+                  </Nav> */}
                   <Nav className={styles.NavLink}>
                     <Link href={LinksOfAllpages.services.servicesMain}>
                       <a
@@ -156,6 +156,20 @@ function MegaMenuComponent() {
                         }
                       >
                         Careers
+                      </a>
+                    </Link>
+                  </Nav>
+                  <Nav className={styles.NavLink}>
+                    <Link href={LinksOfAllpages.mainPages.aboutUltroneous}>
+                      <a
+                        href="/about-ultroneous"
+                        style={
+                          router.pathname == "/about-ultroneous"
+                            ? { color: "#e49b00" }
+                            : null
+                        }
+                      >
+                        About Us
                       </a>
                     </Link>
                   </Nav>
@@ -255,6 +269,12 @@ function MegaMenuComponent() {
                     Blog
                   </a>
                 </p>
+              </li>
+              <li
+                className={styles.Services}
+                onClick={() => router.push("/contact-us")}
+              >
+                Contact Us
               </li>
               {/* <li
                 className={styles.Services}

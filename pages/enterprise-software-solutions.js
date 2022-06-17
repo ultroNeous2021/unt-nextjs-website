@@ -154,8 +154,8 @@ const EnterpriseSoftwareSolutions = () => {
                     <div>
                       <h3 className={styles.Subtitle}>Building</h3>
                       <p className={styles.Subp}>
-                        Once the design is approved our developers bifurcate the
-                        work from the developer side.
+                        After the design gets approved, our developers bifurcate
+                        the work from the developer side.
                       </p>
                     </div>
                   </Col>
@@ -167,7 +167,7 @@ const EnterpriseSoftwareSolutions = () => {
                     <div>
                       <h3 className={styles.Subtitle}>Testing</h3>
                       <p className={styles.Subp}>
-                        After the development is completed, the QA team will
+                        After the development is complete, the QA team will
                         ensure the bug-free solution at the individual & Mass
                         levels.
                       </p>
@@ -183,8 +183,8 @@ const EnterpriseSoftwareSolutions = () => {
                     <div>
                       <h3 className={styles.Subtitle}>Deployment</h3>
                       <p className={styles.Subp}>
-                        Final staging is deployment, once QA will submit the
-                        report our developers will upload the build.
+                        The final staging is deployment. After the QA team
+                        submits the report, our developers upload the build.
                       </p>
                     </div>
                   </Col>
@@ -196,8 +196,8 @@ const EnterpriseSoftwareSolutions = () => {
                     <div>
                       <h3 className={styles.Subtitle}>Maintenance</h3>
                       <p className={styles.Subp}>
-                        Once the software goes live all we need to look after is
-                        regular updates and frequent maintenance checks.
+                        Once the software goes live, all we need to look after
+                        is regular updates and frequent maintenance checks.
                       </p>
                     </div>
                   </Col>

@@ -248,7 +248,7 @@ export const ListOfDigitalMarketingService = {
   heading: "Services We Offer",
   title: "Digital Marketing",
   paragraph:
-    "Digital Marketing is a strategy of promoting products and services by publishing relevant content and placing advertisements on various online platforms. Search engines, social media platforms, mobile applications, and websites are some of the most popular channels for digital marketing, often known as internet marketing. ultroNeous is a leading digital marketing agency that works with companies around the globe. We have assisted companies with digital marketing services to help them increase their revenue and improve their business' online visibility.",
+    "Digital Marketing, often referred to as internet marketing, is a strategy of promoting products and services by publishing relevant content and placing advertisements on various online channels such as search engines, social media platforms, mobile applications, and websites. We are a leading digital marketing agency that works with companies around the globe. We provide top-notch digital marketing services to help companies increase their revenue and improve their business' online visibility.",
   image: "/assets/Digitalmarketing.webp",
   alt: "digital-marketing",
 };
@@ -256,7 +256,7 @@ export const ListOfFrontEndService = {
   heading: "Services We Offer",
   title: "Front End Development",
   paragraph:
-    "Front-end development is responsible for the overall user experience of a web or mobile application. A highly-skilled front-end developer can build interactive, user-friendly, and feature-rich applications. ultroNeous provides the industry best front-end development services for hire to develop highly scalable, robust, and interactive applications with rich widgets and user interface elements for your business. ",
+    "The front-end web development process involves developing websites and web applications using HTML, CSS, and JavaScript, so users can view and interact directly with them. At ultroNeous- we strive to provide a full-stack front-end build that helps you overcome your business challenges and generate desired value. Our front-end developers pay close attention to detail and bring you innovative, responsive, and user-centric solutions.    ",
   image: "/assets/Frontend.png",
   alt: "FrontEnd Development",
 };
@@ -264,7 +264,7 @@ export const ListOfEcommDevService = {
   heading: "Services We Offer",
   title: "e-Commerce Development",
   paragraph:
-    "Take your online business to the next level by leveraging the expertise of professional eCommerce development services from ultroNeous, an eCommerce development company. Our highly-skilled eCommerce developers have solid working experience with the major e-commerce development platforms. We develop user-friendly e-commerce stores that are easy to navigate, have an elegant design, and are SEO optimized. B2C, B2B, and custom app development are our main e-commerce services along with other key e-commerce business requirements. ",
+    "Overcome all the technological challenges and take your online business to the next level by leveraging the eCommerce development services from the ultroNeous - an eCommerce development company. Our highly-skilled developers are veterans who keep blending the right spark of innovation and technology for e-commerce development platforms. So let your e-commerce store be easy to navigate and elegantly designed with us.",
   image: "/assets/E-commerce.webp",
   alt: "E-commerce Developme",
 };
@@ -272,7 +272,7 @@ export const ListOfEntSoftSolService = {
   heading: "Services We Offer",
   title: "Enterprise Software Solution Development",
   paragraph:
-    "Accelerate the growth of your business with ultroNeous’ compelling and precise enterprise software development services. With a dedicated team of software developers, ultroNeous is the market leader in producing top-notch software that enhances productivity, revenue, and saves time for a sophisticated business model. As an Enterprise software development company, we are bound to deliver custom enterprise software with minimal flaws for all sized businesses. ",
+    "We provide enterprise software development services to help you adopt digital transformation techniques to get the grips of challenges and stay ahead of your competition with the changing market conditions. As an enterprise software development company, we understand bottlenecks and improve the key aspects of your enterprise. With our team, you can experience enriched customer engagement, performance, and workforce productivity through custom enterprise software solutions.",
   image: "/assets/Enterprise.webp",
   alt: "Enterprise Software Solution Development",
 };
@@ -280,7 +280,7 @@ export const ListOfCloudandDevopsService = {
   heading: "Services We Offer",
   title: "Cloud Devops Development",
   paragraph:
-    "As the technology experts are moving towards the Cloud servers with a lot of focus on management of code as well as operations, Cloud and DevOps services are becoming a mandatory requirement for most of the company. ultroNeous is carrying the sharp minds who knows the DevOps cultural philosophy and carry the practises to automise the development process as an innovation.",
+    " With ultroNeous's cloud computing and DevOps services, you can offload your challenges to our experts. As a DevOps company, we reduce the time-to-market by building secure and feature-rich applications. Our pool of professionals will design reliable cloud infrastructure and do cloud optimization to help you modernize with new resilient and scalable applications with better technical operations.",
   image: "/assets/cloudanddevops.png",
   alt: "Cloud Devops Development",
 };
@@ -391,27 +391,27 @@ export const ListQualitiesDigitalMarketing = [
 export const ListQualitiesFrontEndDevelopment = [
   {
     image: "/assets/Secure1F.svg",
-    name: "Cloud Consulting",
+    name: "Data Security    ",
     descreption:
-      "For a smooth user experience and future upgrades, we adopt a most comprehensive approach to UX research. ",
+      "We provide seamless, extendable, and smart apps and websites that protect all necessary and sensitive data.      ",
   },
   {
     image: "/assets/Time2F.svg",
-    name: "Architechture & Design",
+    name: "Architecture & Design    ",
     descreption:
-      "Our user interface design is demonstrated to improve business profitability and attract a large number of users.",
+      " We deliver applications using efficient architecture and a set of processes that improve the overall quality of apps.",
   },
   {
     image: "/assets/Quick response3F.svg",
-    name: "Management",
+    name: " Mobile-First Approach    ",
     descreption:
-      "Prototyping is an important aspect of UI/UX design that allows us to test all of the features and functions of an app..",
+      " We use mobile-first standards to assure agility and responsiveness in every aspect of front-end mobile app development.      ",
   },
   {
     image: "/assets/responsive 1 (Traced).svg",
-    name: "DDOS Attack Migration",
+    name: "SPA Development    ",
     descreption:
-      "On a daily basis, we employ a variety of user testing techniques that assist us to improve our design ideas and processes.",
+      " We provide single-page application development services with a powerful front end and the latest technologies.",
   },
 ];
 export const ListQualitiesCloudDevops = [
@@ -457,7 +457,7 @@ export const ListQualitiesEcommerce = [
     image: "/assets/scalabilityE3.svg",
     name: "Unique Features",
     descreption:
-      "Customized functionality for eCommerce to create unique experience.",
+      "Customized functionality for eCommerce to create a unique experience.   ",
   },
   {
     image: "/assets/Most secureE4.svg",
