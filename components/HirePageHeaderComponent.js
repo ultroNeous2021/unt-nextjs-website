@@ -118,7 +118,7 @@ const HirePageHeaderComponent = (props) => {
           </div>
           <div className={styles.ImageCover}>
             <Image
-              src={props.model ? props.model : "/assets/shopify-header.png"}
+              src={props.model ? props.model : "/assets/WordPress-header.webp"}
               className={styles.ImageWidth}
             />
           </div>

@@ -631,7 +631,7 @@ export const MobileTechnologyExpertise = [
       <Link href={"/ios-development"}>
         <SiApple className={stylesHT.TechImagesMT0} />
       </Link>,
-      <Link href={"/mobile-application-development"}>
+      <Link href={"/android-development"}>
         <DiAndroid className={stylesHT.TechImagesMT1} />
       </Link>,
     ],
@@ -1238,13 +1238,13 @@ export const NavbarMenuFirstColImageList = [
   //   new: false,
   // },
   {
-    image: "/assets/navbar2.jpg",
+    image: "/assets/navbar02.jpg",
     name: "Blog",
     link: "https://blog.ultroneous.com/",
     new: false,
   },
   {
-    image: "/assets/navbar1.jpg",
+    image: "/assets/navbarcon.jpg",
     name: "Contact Us",
     link: LinksOfAllpages.mainPages.contactUs,
     new: false,

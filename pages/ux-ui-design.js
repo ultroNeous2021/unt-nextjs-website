@@ -93,6 +93,7 @@ const UiUxDesign = () => {
               clickhandle={() => goto.push("/contact-us")}
               val={"Let's get connected"}
               arrow={true}
+              link={"/contact-us"}
             />
           </div>
         </Col>

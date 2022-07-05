@@ -289,34 +289,3 @@ export async function getServerSideProps() {
 }
 
 export default CareersPage;
-
-//  <Row>
-//               <img
-//                 className={styles.WTOOImagesSingle}
-//                 src={"/assets/OfficeL-1.jpg"}
-//                 alt="Careersimage"
-//               />
-//             </Row>
-//             <Row>
-//               <Col xs={6} className={styles.CareersImage}>
-//                 <img
-//                   className={styles.WTOOImagesSingle}
-//                   src={"/assets/OfficeL-2.jpg"}
-//                   alt="Careersimage"
-//                 />
-//               </Col>
-//               <Col xs={6} className={styles.CareersImage}>
-//                 <img
-//                   className={styles.WTOOImagesSingle}
-//                   src={"/assets/OfficeL-3.jpg"}
-//                   alt="Careersimage"
-//                 />
-//               </Col>
-//             </Row>
-//             <Row>
-//               <img
-//                 className={styles.WTOOImagesSingle}
-//                 src={"/assets/OfficeL-4.jpg"}
-//                 alt="Careersimage"
-//               />
-//             </Row>

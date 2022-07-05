@@ -7,6 +7,28 @@ import NavbarMain from "./NavbarMain";
 import MegaMenuComponent from "./MegaMenuComponent";
 
 export default function Layout({ title, keywords, description, children }) {
+  // <script
+  //         type="application/ld+json"
+  //         dangerouslySetInnerHTML={`__html: {
+  //           "@context": "https://schema.org/",
+  //           "@type": "Organization",
+  //           name: "ultroNeous Technologies",
+  //           url: "https://ultroneous.com/",
+  //           logo: {
+  //             "@type": "ImageObject",
+  //             url: "https://ultroneous.com/assets/ultroneous-image.svg",
+  //           },
+  //           email: "hello@ultroneous.com",
+  //           telephone: "1-234-253-4040",
+  //           sameAs: [
+  //             "https://www.linkedin.com/company/ultroneous",
+  //             "https://www.instagram.com/ultroneous.technologies/",
+  //             "https://twitter.com/ultroneousTech",
+  //             "https://www.facebook.com/ultroneous.technologies",
+  //           ],
+  //         }`}
+  //       ></script>
+
   return (
     <div>
       <Head>
@@ -21,6 +43,7 @@ export default function Layout({ title, keywords, description, children }) {
           content={keywords}
           key="ultroneous-key-keywords"
         />
+
         <link rel="shortcut icon" href="/static/favicon.svg" />
       </Head>
       {/* <NavbarMain /> */}
