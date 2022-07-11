@@ -13,6 +13,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Router, useRouter } from "next/router";
 function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
   const {
     register,
@@ -28,7 +29,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
   const [data, setData] = useState([]); // array of selected checkboxes
   const [showPhoneImage, setShowPhoneImage] = useState(true); // phone image
   const [dropdownValue, setDropdownValue] = useState("");
-
+  const router = useRouter();
   useEffect(() => {
     AOS.refresh();
     AOS.init();
@@ -106,6 +107,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
       })
       .then((res) => {
         setSubmitClicked(true);
+        router.push("/thankyou");
         setPhoneValue("");
       })
       .catch((err) => console.log(err));

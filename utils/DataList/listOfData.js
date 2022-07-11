@@ -1137,6 +1137,82 @@ export const HireReactJSServiceslist = [
       "Mobile and browser configurations are constantly changing. That is why we assist our clients every step of the way. Our developer team delivers stellar projects and is available round-the-clock for troubleshooting, even post-deployment of apps.",
   },
 ];
+// ----------------------------- Mern Part  ----------------------------------
+export const HireMernServiceslist = [
+  {
+    title: "CMS Development",
+    description:
+      "UltroNeous technologies- a MERN stack development company is the one-stop destination for stellar solutions. Our team of developers delivers robust and secure CMS systems with advanced modules to help you manage your business data and will give you an edge over your competitors.",
+  },
+  {
+    title: "Custom App Development",
+    description:
+      "Get customized, robust, and intuitive mobile and web applications with the help of our dedicated MERN stack developers. We build bespoke applications using the best methodologies to build standards-compliant and efficient solutions to turn your dream projects into reality.",
+  },
+  {
+    title: "eCommerce App Development",
+    description:
+      "Have an idea for an awesome eCommerce app? Get the help of our dedicated MERN stack developers to craft an innovative storefront. Elevate your business productivity with our eCommerce solutions. We take care of every aspect  from development to implementation.",
+  },
+  {
+    title: "Migration, Porting & Integration",
+    description:
+      "Our team assures a seamless transition with minimal risk and downtime. We have extensive knowledge of migrating and porting business applications to MERN Stack-based frameworks. Our migration and porting solutions help to enhance the speed and functionality of your business.",
+  },
+  {
+    title: "ERP Development",
+    description:
+      "Hire MERN stack developer for advanced ERP solutions. Utilizing Node JS and MongoDB's strengths, our team creates a clutter-free ERP that serves the benefits of sharding and schema. With the MERN Stack framework, we deliver highly flexible, seamless, and extensible ERP projects.",
+  },
+  
+];
+export const HireMernlist = [
+  {
+    src: "/assets/mern-1.svg",
+    title: "Component-based",
+    Description:
+      "MERN stack enables programmers to have a complete view of different components. which ultimately saves time in debugging.",
+  },
+  {
+    src: "/assets/mern-2.svg",
+    title: "UI rendering and performance",
+    Description:
+      "MERN stack consists of the best databases, frameworks, and libraries to accomplish simple yet sophisticated UI rendering for your app.",
+  },
+  {
+    src: "/assets/mern-3.svg",
+    title: "Flexible and Scalable",
+    Description:
+      "With the MERN stack, you get four reliable key technologies to develop scalable solutions while maintaining consistency across data centers.",
+  },
+  {
+    src: "/assets/mern-4.svg",
+    title: "End-to-End development",
+    Description:
+      "MERN stack features a Model View Controller architecture that automates the development process to deliver powerful end-to-end solutions.",
+  },
+];
+export const MernstackFaq = [
+{num:"01.",
+que:"What does MERN stand for, and why is it so popular?",
+ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
+{num:"02.",
+que:"Why choose ultroNeous for MERN stack development?",
+ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
+{num:"03.",
+que:"Is the MERN stack still in demand?",
+ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
+{num:"04.",
+que:"How does ultroNeous ensure quality deliverables?",
+ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
+{num:"05.",
+que:"What apps or websites are built using the MERN stack?",
+ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
+{num:"06.",
+que:"What is the difference between MEAN and MERN stack?",
+ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
+]
+
 // -----------------------------------------VueJS Part----------------------------------------------------------------------------------------------------------------
 export const HireVueJSlist = [
   {
