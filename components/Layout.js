@@ -6,7 +6,13 @@ import Footer from "./Footer";
 import NavbarMain from "./NavbarMain";
 import MegaMenuComponent from "./MegaMenuComponent";
 
-export default function Layout({ title, keywords, description, children }) {
+export default function Layout({
+  title,
+  keywords,
+  description,
+  children,
+  uniqueMeta,
+}) {
   // <script
   //         type="application/ld+json"
   //         dangerouslySetInnerHTML={`__html: {
@@ -43,7 +49,7 @@ export default function Layout({ title, keywords, description, children }) {
           content={keywords}
           key="ultroneous-key-keywords"
         />
-
+        {uniqueMeta ? uniqueMeta : null}
         <link rel="shortcut icon" href="/static/favicon.svg" />
       </Head>
       {/* <NavbarMain /> */}

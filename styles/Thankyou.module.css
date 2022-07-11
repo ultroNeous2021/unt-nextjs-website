@@ -1,0 +1,58 @@
+.PagesHeader {
+  background: url("/assets/bg.webp");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 0rem;
+  /* background-attachment: fixed; */
+  margin: 0;
+}
+.ParagraphSection {
+  padding: 16rem 2.5rem 10rem 2.5rem !important;
+  background-color: #1a1112;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  width: 37rem;
+}
+.PagesHeaderImg {
+  width: 100%;
+  height: auto;
+}
+.PageHeaderImgContainer {
+  max-height: 65rem;
+  max-width: 95rem;
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  .PagesHeader {
+    padding-bottom: 0rem;
+    height: 40vh;
+  }
+  .ParagraphSection {
+    padding: 7rem 1rem 5rem 1rem !important;
+  }
+  .PageHeaderImgContainer {
+    max-height: 7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .PagesHeader {
+    height: 30vh;
+  }
+  .PageHeaderImgContainer {
+    max-height: 15rem;
+  }
+  .ParagraphSection {
+    padding: 14rem 2.5rem 7rem 2.5rem !important;
+  }
+}
