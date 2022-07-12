@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Teamlist = [
   {
     image: "/assets/TeamO1.png",
@@ -1222,7 +1224,7 @@ export const MernstackFaq = {
     },
     {
       num: "06.",
-      que: "What apps or websites are built using the MERN stack?",
+      que: "Which apps or websites are built using the MERN stack?",
       ans: "Dropbox, Facebook, Netflix, WhatsApp, and Instagram - are a few of many apps and websites that are built using the MERN stack. One of the best advantages of using the MERN stack is a smooth development process ensured by MVC (model view controller) makes the maintenance and coordination easier between different development team members.",
     },
   ],
@@ -1231,12 +1233,12 @@ export const MernstackFaq = {
 // ----------------------------- Mean Part  ----------------------------------
 export const HireMeanServiceslist = [
   {
-    title: "Web and Mobile App development",
+    title: "Web and Mobile App Development",
     description:
       "MEAN stack projects can be delivered extremely quickly and efficiently with Node.JS as their backend runtime environment. Transform your business in terms of profitability and scalability with our MEAN stack developers, who have sophisticated and nuanced domain expertise.",
   },
   {
-    title: "Enterprise MEAN stack development",
+    title: "Enterprise MEAN stack Development",
     description:
       "Our dedicated team delivers transformative solutions to overcome the complexities of legacy networks with a roadmap to address the bottlenecks. Hire MEAN stack developers to implement the best automation processes to satisfy the future demands of your customers and ROI wins.",
   },
@@ -1292,7 +1294,19 @@ export const MeanstackFaq = {
     {
       num: "01.",
       que: "Why should I hire MEAN stack developers from ultroNeous technologies?",
-      ans: "As a full-stack development company, our dedicated team of developers will work exclusively for you and provide you with the necessary assistance. Find out which engagement model is best to meet your business objectives.",
+      ans: (
+        <>
+          <p>
+            As a full-stack development company, our dedicated team of
+            developers will work exclusively for you and provide you with the
+            necessary assistance. Find out which{" "}
+            <a href="/engagement-model" target={"_blank"}>
+              engagement model
+            </a>{" "}
+            is best to meet your business objectives.
+          </p>
+        </>
+      ),
     },
     {
       num: "02.",

@@ -8,40 +8,47 @@ import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
 import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
-  HireMeanlist,
-  HireMeanServiceslist,
   HireMernlist,
   HireMernServiceslist,
-  MeanstackFaq,
+  MernstackFaq,
 } from "utils/DataList/listOfData";
 
-const MeanStack = () => {
+const MernStack = () => {
   return (
     <Layout
       title={
-        "MEAN Stack Development Company India | Hire MEAN Stack Developers"
+        "MERN Stack Development Company India | Hire MERN Stack Developers"
       }
       description={
-        "Looking for MEAN Stack Development Company? Hire expert MEAN stack developers from ultroNeous. Request a free Quote now."
+        "ultroNeous is leading MERN Stack Development Company in USA and India. Hire expert MERN Stack developers on hourly or full time basis from ultroNeous."
       }
       keywords={
-        "Keywords: hire mean stack developer, mean stack development services, mean stack development company"
+        "hire mern stack developer, mern stack development company, mern stack development services, hire mern stack developers"
       }
     >
       <HirePageHeaderComponent
         heading={
           <>
-            MEAN Stack
+            MERN Stack
             <br />
             Development
           </>
         }
-        techname={"/assets/mean-slide.svg"}
+        techname={"/assets/mern-slide.svg"}
         detail={
-          "MEAN is an open-source web stack named after MongoDB, ExpressJS, AngularJS, and NodeJS- all JavaScript-based open-source technologies. These are predominantly used to develop dynamic cloud-ready applications. Utilize our MEAN stack development services to create and enhance grade-A web and mobile applications that cover all your business scenarios from operations to profitability and scalability."
+          <>
+            MERN stack is a group of JavaScript-based frameworks, databases, and
+            runtime environments that includes <b>M</b>ongoDB, <b>E</b>xpress
+            JS, <b>R</b>eact JS, and <b>N</b>ode JS. As it enables the rapid and
+            smooth development of end-to-end solutions, it has become popular
+            among developers and various businesses. You can also benefit from
+            ultroNeous' MERN stack development services in one click. Hire MERN
+            stack developers who have a wealth of experience in developing
+            exceptional applications.
+          </>
         }
       />
-      <ServicesIncludedSlider listOfserviceincluded={HireMeanServiceslist} />
+      <ServicesIncludedSlider listOfserviceincluded={HireMernServiceslist} />
       <BenifitsComponent
         maintitle={
           <>
@@ -50,13 +57,13 @@ const MeanStack = () => {
             Development
           </>
         }
-        datalist={HireMeanlist}
+        datalist={HireMernlist}
       />
       <CounterComponent data={CounterPersonalPage} />
-      <FaqComponent datalist={MeanstackFaq} />
+      <FaqComponent datalist={MernstackFaq} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="Mean Developer"
+        replaceDetail="Mern Developer"
       />
       <QuoteComponent
         descreption={
@@ -72,4 +79,4 @@ const MeanStack = () => {
     </Layout>
   );
 };
-export default MeanStack;
+export default MernStack;

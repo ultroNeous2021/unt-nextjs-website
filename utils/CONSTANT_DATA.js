@@ -1123,8 +1123,8 @@ export const uniqueLink = [
   "/python-development",
   "/xamarin-development",
   "/react-native-development",
-  "/mernstack-development",
-  "/meanstack-development",
+  "/mern-stack-development",
+  "/mean-stack-development",
 ];
 
 export const LinksOfAllpages = {

@@ -6,7 +6,7 @@ const FaqComponent = ({ datalist }) => {
   return (
     <div className={styles.FaqContainer}>
       <div>
-        <h4 className={styles.FaqHeading}>FAQs</h4>
+        <h2 className={styles.FaqHeading}>FAQs</h2>
       </div>
       <Row className={styles.FaqRow}>
         {/* {MernstackFaq.map((v, i) => ( */}

@@ -107,11 +107,12 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
       })
       .then((res) => {
         setSubmitClicked(true);
-        router.push("/thankyou");
         setPhoneValue("");
+        router.push("/thankyou");
       })
       .catch((err) => console.log(err));
     setData([]);
+
     setCheckList([]);
     setCheck(false);
     reset();
@@ -351,7 +352,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
                       <PhoneInput
                         value={phoneValue}
                         onChange={(phoneValue) => setPhoneValue(phoneValue)}
-                        country={"in"}
+                        country={"us"}
                         // {...register("phone")}
                         enableSearch={true}
                       />
@@ -399,12 +400,12 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
                           style={{ marginLeft: "0.5em" }}
                         />
                       </button>
-                      {submitClicked && (
+                      {/* {submitClicked && (
                         <p style={{ color: "#6EAC5A", marginTop: "1rem" }}>
                           Thanks for filling out the details. We shall revert
                           back to you soon with the next steps.
                         </p>
-                      )}
+                      )} */}
                     </Col>
                   </Row>
                 </form>
