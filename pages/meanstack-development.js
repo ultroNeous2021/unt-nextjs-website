@@ -8,16 +8,18 @@ import QuoteComponent from "@/components/QuoteComponent";
 import ServicesIncludedSlider from "@/components/ServicesIncludedSlider";
 import { CounterPersonalPage } from "utils/CONSTANT_DATA";
 import {
+  HireMeanlist,
+  HireMeanServiceslist,
   HireMernlist,
   HireMernServiceslist,
-  MernstackFaq,
+  MeanstackFaq,
 } from "utils/DataList/listOfData";
 
-const MernStack = () => {
+const MeanStack = () => {
   return (
     <Layout
       title={
-        "MERN Stack Development Company India | Hire MERN Stack Developers"
+        "MEAN Stack Development Company India | Hire MEAN Stack Developers"
       }
       description={
         "ultroNeous is leading MERN Stack Development Company in USA and India. Hire expert MERN Stack developers on hourly or full time basis from ultroNeous."
@@ -29,17 +31,17 @@ const MernStack = () => {
       <HirePageHeaderComponent
         heading={
           <>
-            MERN Stack
+            MEAN Stack
             <br />
             Development
           </>
         }
-        techname={"/assets/mern-slide.svg"}
+        techname={"/assets/mean-slide.svg"}
         detail={
-          "MERN stack is a group of JavaScript-based frameworks, databases, and runtime environments that includes MongoDB, Express JS, React JS, and Node JS. As it enables the rapid and smooth development of end-to-end solutions, it has become popular among developers and various businesses. You can also benefit from ultroNeous' MERN stack development services in one click. Hire MERN stack developers who have a wealth of experience in developing exceptional applications."
+          "MEAN is an open-source web stack named after MongoDB, ExpressJS, AngularJS, and NodeJS- all JavaScript-based open-source technologies. These are predominantly used to develop dynamic cloud-ready applications. Utilize our MEAN stack development services to create and enhance grade-A web and mobile applications that cover all your business scenarios from operations to profitability and scalability."
         }
       />
-      <ServicesIncludedSlider listOfserviceincluded={HireMernServiceslist} />
+      <ServicesIncludedSlider listOfserviceincluded={HireMeanServiceslist} />
       <BenifitsComponent
         maintitle={
           <>
@@ -48,13 +50,13 @@ const MernStack = () => {
             Development
           </>
         }
-        datalist={HireMernlist}
+        datalist={HireMeanlist}
       />
       <CounterComponent data={CounterPersonalPage} />
-      <FaqComponent datalist={MernstackFaq} />
+      <FaqComponent datalist={MeanstackFaq} />
       <ChooseAsPerYourNeedSection
         replace="Project Basis"
-        replaceDetail="Mern Developer"
+        replaceDetail="Mean Developer"
       />
       <QuoteComponent
         descreption={
@@ -70,4 +72,4 @@ const MernStack = () => {
     </Layout>
   );
 };
-export default MernStack;
+export default MeanStack;

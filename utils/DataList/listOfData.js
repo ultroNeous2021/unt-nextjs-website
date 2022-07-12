@@ -1164,7 +1164,6 @@ export const HireMernServiceslist = [
     description:
       "Hire MERN stack developer for advanced ERP solutions. Utilizing Node JS and MongoDB's strengths, our team creates a clutter-free ERP that serves the benefits of sharding and schema. With the MERN Stack framework, we deliver highly flexible, seamless, and extensible ERP projects.",
   },
-  
 ];
 export const HireMernlist = [
   {
@@ -1175,7 +1174,7 @@ export const HireMernlist = [
   },
   {
     src: "/assets/mern-2.svg",
-    title: "UI rendering and performance",
+    title: "Performance",
     Description:
       "MERN stack consists of the best databases, frameworks, and libraries to accomplish simple yet sophisticated UI rendering for your app.",
   },
@@ -1192,26 +1191,133 @@ export const HireMernlist = [
       "MERN stack features a Model View Controller architecture that automates the development process to deliver powerful end-to-end solutions.",
   },
 ];
-export const MernstackFaq = [
-{num:"01.",
-que:"What does MERN stand for, and why is it so popular?",
-ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
-{num:"02.",
-que:"Why choose ultroNeous for MERN stack development?",
-ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
-{num:"03.",
-que:"Is the MERN stack still in demand?",
-ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
-{num:"04.",
-que:"How does ultroNeous ensure quality deliverables?",
-ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
-{num:"05.",
-que:"What apps or websites are built using the MERN stack?",
-ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
-{num:"06.",
-que:"What is the difference between MEAN and MERN stack?",
-ans:"MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket."},
-]
+export const MernstackFaq = {
+  left: [
+    {
+      num: "01.",
+      que: "What does MERN stand for, and why is it so popular?",
+      ans: "MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack. It is gaining popularity because of its numerous advantages like lightning-fast performance, optimal stack, and compatibility. Hire MERN stack developers and get your apps and websites developed in much less time without burning a hole in your pocket.",
+    },
+    {
+      num: "02.",
+      que: "Why choose ultroNeous for MERN stack development?",
+      ans: "Being a MERN stack development company, we provide a range of services which includes: Enterprise application development, Custom web app development, Migration and Porting, CMS development, and eCommerce app development. Additionally, our team makes use of numerous MERN stack features to deliver robust and scalable results.",
+    },
+    {
+      num: "03.",
+      que: "What is the difference between MEAN and MERN stack?",
+      ans: "The major difference between MEAN & MERN stacks is that MEAN uses the AngularJS framework and MERN uses the ReactJS library. MERN becomes more efficient in terms of performance thanks to ReactJS' virtual DOM. MERN stack provides smooth user interface development and is easy to use.",
+    },
+  ],
+  right: [
+    {
+      num: "04.",
+      que: "Is the MERN stack still in demand?",
+      ans: "MERN Stack has gained popularity because there is no context switching when developing the front-end and back-end of applications. In addition to this, its easily adaptable model ultimately saves a lot of time and completes the work faster.",
+    },
+    {
+      num: "05.",
+      que: "How does ultroNeous ensure quality deliverables?",
+      ans: "Our team of developers provides MERN stack development services and has extensive expertise in developing strategies to help you every step of the way. They ensure the whole work procedure stays transparent to deliver outstanding solutions on time. We make sure the finished results stay up to the mark by adhering to a rigorous quality assurance process.",
+    },
+    {
+      num: "06.",
+      que: "What apps or websites are built using the MERN stack?",
+      ans: "Dropbox, Facebook, Netflix, WhatsApp, and Instagram - are a few of many apps and websites that are built using the MERN stack. One of the best advantages of using the MERN stack is a smooth development process ensured by MVC (model view controller) makes the maintenance and coordination easier between different development team members.",
+    },
+  ],
+};
+
+// ----------------------------- Mean Part  ----------------------------------
+export const HireMeanServiceslist = [
+  {
+    title: "Web and Mobile App development",
+    description:
+      "MEAN stack projects can be delivered extremely quickly and efficiently with Node.JS as their backend runtime environment. Transform your business in terms of profitability and scalability with our MEAN stack developers, who have sophisticated and nuanced domain expertise.",
+  },
+  {
+    title: "Enterprise MEAN stack development",
+    description:
+      "Our dedicated team delivers transformative solutions to overcome the complexities of legacy networks with a roadmap to address the bottlenecks. Hire MEAN stack developers to implement the best automation processes to satisfy the future demands of your customers and ROI wins.",
+  },
+  {
+    title: "eCommerce Development",
+    description:
+      "Our MEAN stack developers integrate their knack for programming with an up-to-the-minute understanding of emerging technologies to craft optimized, scalable, and intuitive eCommerce solutions to maximize your business value and put ease to all your development concerns.",
+  },
+  {
+    title: "MEAN stack Migration and Porting",
+    description:
+      "With MongoDB (a NoSQL database), migration and porting of your business application to the MEAN stack becomes easy. Being a MEAN stack development company, we help you to capitalize on MEAN stack's numerous benefits and to deliver a smooth digital experience to your users.",
+  },
+  {
+    title: "CMS development",
+    description:
+      "With Mean stack developers who streamline the development process under our belt, we not only design and provide fast and responsive content management systems but also share their valuable broad knowledge base to bring out strategic insights for best-in-class features integration.",
+  },
+  {
+    title: "API Integration",
+    description:
+      "Our team has the zest to take on challenges and incorporate creative thinking in everything we develop. As a result of our API development capabilities, we support seamless integrations with third-party services that are well-documented, reliable, secure, and flexible.",
+  },
+];
+export const HireMeanlist = [
+  {
+    src: "/assets/mean-1.svg",
+    title: "Cloud Compatibility",
+    Description:
+      "MongoDB enables cloud compatibility within apps. Which can ultimately save your time and money for cloud integration.",
+  },
+  {
+    src: "/assets/mean-2.svg",
+    title: "Highly Versatile",
+    Description:
+      "MEAN stack is versatile, and our developers make use of it to deliver solutions compatible with different hardware and software.",
+  },
+  {
+    src: "/assets/mean-3.svg",
+    title: "Single Page Application",
+    Description:
+      "A single-page application is developed, tested, and maintained more easily with AngularJS in Mean Stack Development.",
+  },
+  {
+    src: "/assets/mean-4.svg",
+    title: "Enhanced Performance",
+    Description:
+      "The event-driven architecture of NodeJS is efficient and enables developers to optimize sites and applications' performance.",
+  },
+];
+export const MeanstackFaq = {
+  left: [
+    {
+      num: "01.",
+      que: "Why should I hire MEAN stack developers from ultroNeous technologies?",
+      ans: "As a full-stack development company, our dedicated team of developers will work exclusively for you and provide you with the necessary assistance. Find out which engagement model is best to meet your business objectives.",
+    },
+    {
+      num: "02.",
+      que: "Which famous companies use MEAN stack development?",
+      ans: "Uber, Trello, PayPal, eBay, Fiverr, UNIQLO, and Medium are notable examples of renowned companies that use MEAN stack development.",
+    },
+  ],
+  right: [
+    {
+      num: "03.",
+      que: "Is MEAN stack a cost-effective option for developing web applications?",
+      ans: "Yes. With MEAN stack, you don't have to work on different platforms. As a result, your development costs will be significantly reduced, and your projects will be developed faster.",
+    },
+    {
+      num: "04.",
+      que: "What are the benefits of the MEAN stack for my project?",
+      ans: "With MEAN Stack, developers can switch seamlessly between client-side and server-side applications with Javascript-based front-end and back-end functionality. This offers many benefits to your project such as faster performance with increased flexibility.",
+    },
+    {
+      num: "05.",
+      que: "Will your MEAN stack developers provide support for my web application in the future?",
+      ans: "We believe innovation is not bound by a finish line. Our developers are available round-the-clock for regular updates and scheduled maintenance to assure a smooth user experience.",
+    },
+  ],
+};
 
 // -----------------------------------------VueJS Part----------------------------------------------------------------------------------------------------------------
 export const HireVueJSlist = [

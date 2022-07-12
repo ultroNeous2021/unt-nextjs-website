@@ -72,7 +72,7 @@ export const CounterComponentData = [
   },
   {
     start: 0,
-    end: 25,
+    end: 30,
     sign: "+",
     title: "Experts",
   },
@@ -1123,6 +1123,7 @@ export const uniqueLink = [
   "/python-development",
   "/xamarin-development",
   "/react-native-development",
+  "/mernstack-development",
 ];
 
 export const LinksOfAllpages = {

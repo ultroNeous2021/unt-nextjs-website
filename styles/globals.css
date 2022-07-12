@@ -375,7 +375,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.6);
-  margin-left: 5rem;
+  margin-left: 6rem;
   text-align: justify;
 }
 .forfaq .accordion-header {
@@ -391,11 +391,12 @@ a {
   background-image: url("/assets/plusa.svg");
   background-repeat: no-repeat;
   background-size: 1.25rem;
-  transition: transform 0.2s ease-in-out;
+  transition: all 0.5s ease !important;
 }
 .forfaq .accordion-button:not(.collapsed)::after {
   background-image: url("/assets/minusa.svg");
-  transform: rotate(-180deg);
+  transform: rotate(0deg);
+  transition: all 0.5s ease !important;
 }
 .forfaq .accordion-button::after {
 }
