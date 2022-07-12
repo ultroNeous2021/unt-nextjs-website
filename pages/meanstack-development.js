@@ -22,10 +22,10 @@ const MeanStack = () => {
         "MEAN Stack Development Company India | Hire MEAN Stack Developers"
       }
       description={
-        "ultroNeous is leading MERN Stack Development Company in USA and India. Hire expert MERN Stack developers on hourly or full time basis from ultroNeous."
+        "Looking for MEAN Stack Development Company? Hire expert MEAN stack developers from ultroNeous. Request a free Quote now."
       }
       keywords={
-        "mern stack developer, mern stack development, hire mern stack developer, mern stack development company"
+        "Keywords: hire mean stack developer, mean stack development services, mean stack development company"
       }
     >
       <HirePageHeaderComponent
