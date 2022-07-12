@@ -30,7 +30,7 @@ const MernStack = () => {
         heading={
           <>
             MERN Stack
-            <br />
+            <br />  
             Development
           </>
         }
