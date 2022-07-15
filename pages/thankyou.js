@@ -14,7 +14,7 @@ export default function Thankyou({ data }) {
       <div>
         <Row className={styles.PagesHeader}>
           <div className={styles.PageHeaderImgContainer}>
-            <Image src="/assets/thanks.gif" className={styles.PagesHeaderImg} />
+            <Image src="/assets/thank.gif" className={styles.PagesHeaderImg} />
           </div>
         </Row>
       </div>
