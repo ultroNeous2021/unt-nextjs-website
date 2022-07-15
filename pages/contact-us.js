@@ -439,6 +439,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
             <Image
               src={"/assets/office-ahmd.png"}
               className={styles.imgwidthfull}
+              alt="ultroNeous Ahmedabad India Office"
             />
             {/* </div> */}
           </Col>
@@ -506,6 +507,7 @@ function ContactUsPage({ checkboxData = ContactUsFormCheckboxData, datasapi }) {
             {/* <div className={styles.ContactusImageCover}> */}
             <Image
               src={"/assets/office-usa.png"}
+              alt="ultroNeous USA Office"
               className={`${styles.pos} ${styles.imgwidthfull}`}
             />
             {/* </div> */}

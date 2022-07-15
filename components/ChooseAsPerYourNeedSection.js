@@ -111,6 +111,7 @@ const ChooseAsPerYourNeedSection = (props) => {
               ? ChooseAsPerYourNeedData[viewByIndex].image2
               : ChooseAsPerYourNeedData[viewByIndex].image
           }
+          alt="Steps to hire developer"
           className={styles.DetailSectionImage}
         />
         <div className={styles.DetailBtn}>

@@ -87,12 +87,14 @@ const EngagementModel = () => {
                         <Col xl={4} md={6} className={styles.SpecialImage2}>
                           <Image
                             src="/assets/1(1).svg"
+                            alt="Review the candidate profile"
                             className={styles.imageSpace}
                           />
                         </Col>
                         <Col xl={5} md={6}>
                           <Image
                             src="/assets/1(2).svg"
+                            alt="Meet and interact with candidate"
                             className={styles.imageSpace}
                           />
                         </Col>
@@ -107,6 +109,7 @@ const EngagementModel = () => {
                           <Image
                             style={{ paddingTop: "0%" }}
                             src="/assets/1(4).svg"
+                            alt="Sign the contract"
                             className={styles.imageSpace}
                           />
                         </Col>
@@ -152,12 +155,14 @@ const EngagementModel = () => {
                         <Col xl={4} md={6}>
                           <Image
                             src="/assets/2(1).svg"
+                            alt="Share your project requirements"
                             className={styles.imageSpace}
                           />
                         </Col>
                         <Col xl={5} md={6}>
                           <Image
                             src="/assets/2(2).svg"
+                            alt="Finalize the scope of work"
                             className={styles.imageSpace}
                           />
                         </Col>
@@ -224,6 +229,7 @@ const EngagementModel = () => {
                           <Col xl={5} md={6}>
                             <Image
                               src="/assets/3(2).svg"
+                              alt="Review the candidate profile and meet"
                               className={styles.imageSpace}
                             />
                           </Col>
@@ -231,6 +237,7 @@ const EngagementModel = () => {
                             <Image
                               style={{ paddingTop: "0%" }}
                               src="/assets/1(3).svg"
+                              alt="Discuss pricing and finalize contract"
                               className={styles.imageSpace}
                             />
                           </Col>
@@ -289,12 +296,14 @@ const EngagementModel = () => {
                           <Col xl={4} md={6} className={styles.SpecialImage2}>
                             <Image
                               src="/assets/4(1).svg"
+                              alt="Discuss your needs or requirements"
                               className={styles.imageSpace}
                             />
                           </Col>
                           <Col xl={5} md={6}>
                             <Image
                               src="/assets/4(2).svg"
+                              alt="Define the resources"
                               className={styles.imageSpace}
                             />
                           </Col>
@@ -302,6 +311,7 @@ const EngagementModel = () => {
                             <Image
                               style={{ paddingTop: "0%" }}
                               src="/assets/4(3).svg"
+                              alt="Finalize the project time period"
                               className={styles.imageSpace}
                             />
                           </Col>

@@ -480,24 +480,24 @@ export const WeExcelAtData = [
 
 export const PortfolioSliderData = [
   {
-    image: "/assets/sneakers.png",
+    image: "/assets/sneakers.webp",
     title: "Sneakers Marketplace ",
     details:
       "Sneakers industry is booming and we took a chance to dive into the market with this fully custom sneakers marketplace app. Buyers are literally loving this UX more than their sneakers.",
   },
   {
-    image: "/assets/doctor.jpg",
+    image: "/assets/doctor.webp",
     title: "Clinic on Palm",
     details: `We repeat the ancient history of diagnosing health by palm reading. Have a look at our handy application "Clinic on Palm" where patients can get easy consultation from their doctors.`,
   },
   {
-    image: "/assets/fintech.jpg",
+    image: "/assets/fintech.webp",
     title: "FinTech Mobile App ",
     details:
       "This app is designed with the purpose of simplifying the chaos of money management. With this, users can closely monitor their expenses along with transferring money with their contacts. ",
   },
   {
-    image: "/assets/food.jpg",
+    image: "/assets/food.webp",
     title: "Food Ordering App  ",
     details:
       "This Food Ordering Website allows restaurant to directly serve delicious food to their customers. Customers can easily navigate through website, check menu and order their favourite food. ",
@@ -662,6 +662,7 @@ export const DigitalMarketingExpertise = [
       <Image
         src="/assets/seo-digital-marketing.svg"
         className={stylesHT.TechImagesDM0}
+        alt="Search Engine Optimization (SEO) Services"
       />,
     ],
     detail:
@@ -674,18 +675,19 @@ export const DigitalMarketingExpertise = [
       "Using Google Ads-a versatile tool for brand awareness, we will boost traffic to your website by analyzing competitor campaigns, determining keywords, and using ad copy on your website. We take this data-driven approach to get yourself the desirable Return on Investment (ROI). All you need is ultroNeous Technologies- a digital marketing company that provides the best practices to help you reach out to the right customers.      ",
   },
   {
-    title: "Social Media Marketing     ",
+    title: "Social Media Marketing",
     techIcons: [
       <Image
         src="/assets/like-digital.svg"
         className={stylesHT.TechImagesDM2}
+        alt="Social Media Marketing Services"
       />,
     ],
     detail:
       "Social media marketing is a key to driving more customers, nurturing them, and growing steadily. We help you increase your brand's awareness and improve communication with your targeted customers with excellent social media marketing strategies. As a result, you can achieve higher traffic on the website and drive up sales. Our wide range of digital marketing services can guide you to overcome all the challenges and make your audience fall in love with you.",
   },
   {
-    title: "Facebook Paid Advertising    ",
+    title: "Facebook Paid Advertising",
     techIcons: [<SiFacebook className={stylesHT.TechImagesDM3} />],
     detail:
       "Facebook is one of the most popular social media platforms with roughly 2.93 billion active users. And running paid ads on Facebook can be incredibly beneficial for a business as it provides robust analytics, high customization, and easy setup for faster results. We are an internet marketing agency adept at running Facebook ad campaigns to increase clients' business revenue. Grow with Facebook's massive reach with our digital marketing services and optimized solutions to generate ROI.      ",
@@ -771,7 +773,11 @@ export const CloudandDevopsExpertise = [
   {
     title: "Amazon AWS",
     techIcons: [
-      <Image src="/assets/aws.svg" className={stylesHT.TechImagesCD0} />,
+      <Image
+        src="/assets/aws.svg"
+        className={stylesHT.TechImagesCD0}
+        alt="AWS cloud development services from ultroNeous"
+      />,
     ],
     detail:
       "AWS is a cloud computing infrastructure with numerous products and services including data storage, analytics, business application development, and more. We have one of the best tech problem solvers who brings you solutions for cloud-native applications with enhanced mobility. They are proficient in IaaS, PaaS, and SaaS cloud computing models and deliver end-to-end cloud solutions.      ",
@@ -779,7 +785,11 @@ export const CloudandDevopsExpertise = [
   {
     title: "Microsoft Azure",
     techIcons: [
-      <Image src="/assets/azure.svg" className={stylesHT.TechImagesCD1} />,
+      <Image
+        src="/assets/azure.svg"
+        className={stylesHT.TechImagesCD1}
+        alt="Microsoft Azure Development Services"
+      />,
     ],
     detail:
       " Microsoft Azure has all the perks you need to get started with cloud services. Speed of service, enhanced flexibility, and disaster recovery are features that make it stand out. With its automated solutions and robust templates, you can quickly see improvement. Get an international edge and elevate your business value with ultroNeous Technologies- a cloud computing company.      ",
@@ -790,6 +800,7 @@ export const CloudandDevopsExpertise = [
       <Image
         src="/assets/googlecloud.svg"
         className={stylesHT.TechImagesCD2}
+        alt="Google cloud development from ultroNeous"
       />,
     ],
     detail:
@@ -1165,6 +1176,9 @@ export const LinksOfAllpages = {
     hirePythonDeveloper: "/python-development",
     hireXamarinDeveloper: "/xamarin-development",
     hireReactNativeDeveloper: "/react-native-development",
+    // fullstack
+    hireMernDevloper: "/mern-stack-development",
+    hireMeanDeveloper: "/mean-stack-development",
   },
   socialMedia: [
     {
@@ -1342,6 +1356,16 @@ export const TechnologiesAllData = {
     {
       name: "Xamarin",
       link: LinksOfAllpages.services.hireXamarinDeveloper,
+    },
+  ],
+  fullstack: [
+    {
+      name: "MERN",
+      link: LinksOfAllpages.services.hireMernDevloper,
+    },
+    {
+      name: "MEAN",
+      link: LinksOfAllpages.services.hireMeanDeveloper,
     },
   ],
 };

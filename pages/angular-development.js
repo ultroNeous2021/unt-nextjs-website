@@ -34,6 +34,7 @@ const HireAngularDeveloper = () => {
         detail={
           "The Angular framework is the best choice for getting single-page or multi-page applications and websites developed, as it continues to offer new features and has a supportive community. Hire Angular developers from ultroNeous who deliver highly scalable and secure applications and use the latest tools to deliver end-to-end angular development solutions."
         }
+        alt="Angular Development from ultroNeous"
       />
       <ServicesIncludedSlider listOfserviceincluded={HireAngularServiceslist} />
       <BenifitsComponent

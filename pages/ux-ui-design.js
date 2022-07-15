@@ -80,7 +80,11 @@ const UiUxDesign = () => {
           </h2>
         </Col>
         <Col sm={12} xl={12} className={styles.WeTrustImageContainer}>
-          <Image src={image} fluid />
+          <Image
+            src={image}
+            alt="Procedure we follow for your requirements"
+            fluid
+          />
           <p className={styles.WeTrustParagraph}>
             Enhanced user experience, better user engagement, building a
             consumer base, increase in brand awareness, improved ROI, increased

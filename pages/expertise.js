@@ -414,6 +414,56 @@ export const MobileApp = () => {
     </div>
   );
 };
+export const FullStack = () => {
+  const goto = useRouter();
+  return (
+    <div className={styles.Mobilecontainer}>
+      <Row className={styles.Mainrow}>
+        <Col xl={4} xs={12}>
+          <h2
+            className={styles.Cathead}
+            // data-aos="zoom-in"
+            // data-aos-duration="2000"
+          >
+            Full Stack
+          </h2>
+        </Col>
+        <Col xl={8} xs={12}>
+          <Row>
+            <Col xl={3} xs={6} className={styles.Containt}>
+              <Link href={"/mern-stack-development"}>
+                <a href={"/mern-stack-development"}>
+                  <div className={`${styles.Card15} ${styles.CardMain}`}>
+                    {/* <SiKotlin className={styles.Icon} /> */}
+                    <h3>MERN</h3>
+                    <Image
+                      src={"/assets/Arrownext.svg"}
+                      className={styles.Arrownxt}
+                    />
+                  </div>
+                </a>
+              </Link>
+            </Col>
+            <Col xl={3} xs={6} className={styles.Containt}>
+              <Link href={"/mean-stack-development"}>
+                <a href={"/mean-stack-development"}>
+                  <div className={`${styles.Card16} ${styles.CardMain}`}>
+                    {/* <SiSwift className={styles.Icon} /> */}
+                    <h3>MEAN</h3>
+                    <Image
+                      src={"/assets/Arrownext.svg"}
+                      className={styles.Arrownxt}
+                    />
+                  </div>
+                </a>
+              </Link>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </div>
+  );
+};
 const Technologies = () => {
   const arrayOfTechnologies = [<FrontEnd />, <BackEnd />, <MobileApp />];
   const currentPosition = useRef();
@@ -450,6 +500,7 @@ const Technologies = () => {
         <FrontEnd ref={currentPosition} />
         <BackEnd ref={currentPosition} />
         <MobileApp ref={currentPosition} />
+        <FullStack ref={currentPosition} />
       </div>
       <ChooseAsPerYourNeedSection />
     </Layout>

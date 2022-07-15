@@ -5,6 +5,9 @@ import styles from "@/styles/Layout.module.css";
 import Footer from "./Footer";
 import NavbarMain from "./NavbarMain";
 import MegaMenuComponent from "./MegaMenuComponent";
+import { setCookie } from "cookies-next";
+import { ListOfCookies } from "utils/DataList/listOfData";
+import { useEffect } from "react";
 
 export default function Layout({
   title,
@@ -35,6 +38,10 @@ export default function Layout({
   //         }`}
   //       ></script>
 
+  // useEffect(() => CookieSetter(), []);
+  // const CookieSetter = () => {
+  //   ListOfCookies.map((values, index) => setCookie(values.key, values.value));
+  // };
   return (
     <div>
       <Head>

@@ -40,6 +40,7 @@ const EnterpriseSoftwareSolutions = () => {
               src={"/assets/1 E.svg"}
               height={71}
               className={styles.EntImage}
+              alt="Custom Enterprise Software Development from ultroNeous"
             />
             <h3 className={styles.HeadingStyle}>
               Custom Enterprise Software Development
@@ -52,6 +53,7 @@ const EnterpriseSoftwareSolutions = () => {
               src={"/assets/2 E.svg"}
               height={71}
               className={styles.EntImage}
+              alt="Enterprise Mobility Solution"
             />
             <h3 className={styles.HeadingStyle}>
               Enterprise Mobility Solution
@@ -64,6 +66,7 @@ const EnterpriseSoftwareSolutions = () => {
               src={"/assets/3E.svg"}
               height={71}
               className={styles.EntImage}
+              alt="Enterprise Data Management"
             />
             <h3 className={styles.HeadingStyle}>Enterprise Data Management</h3>
           </div>
@@ -75,6 +78,7 @@ const EnterpriseSoftwareSolutions = () => {
               src={"/assets/4 E.svg"}
               height={71}
               className={styles.EntImage}
+              alt="Legacy Application Modernisation"
             />
             <h3 className={styles.HeadingStyle}>
               Legacy Application Modernisation
@@ -87,6 +91,7 @@ const EnterpriseSoftwareSolutions = () => {
               src={"/assets/5 E.svg"}
               height={71}
               className={styles.EntImage}
+              alt="Software Integration Services"
             />
             <h3 className={styles.HeadingStyle}>
               Software Integration Services
@@ -99,6 +104,7 @@ const EnterpriseSoftwareSolutions = () => {
               src={"/assets/6 E.svg"}
               height={71}
               className={styles.EntImage}
+              alt="Software Maintenance & Support"
             />
             <h3 className={styles.HeadingStyle}>
               Software Maintenance & Support
@@ -112,7 +118,11 @@ const EnterpriseSoftwareSolutions = () => {
       <div className={styles.Softwarecontainer}>
         <Row className={styles.Softrow}>
           <Col xl={4}>
-            <img src={"/assets/ent-sol.png"} className={styles.Softimg} />
+            <img
+              src={"/assets/ent-sol.png"}
+              className={styles.Softimg}
+              alt="Guy coding on ipad and on desktop, showcasing our process"
+            />
           </Col>
           <Col xl={8} className={styles.Main}>
             <h2 className={styles.Softheading}>Our Process</h2>

@@ -1837,3 +1837,17 @@ export const HirePythonServiceslist = [
 //       "We have great technical abilities in sustaining and providing robust assistance to clients for running their web apps effectively and efficiently as a top web app development service provider. Our in-house team is accessible 24/7  to give world-class support to clients who are having problems with their web apps.",
 //   },
 // ];
+export const ListOfCookies = [
+  {
+    key: "Ultroneous1",
+    value: "Uk",
+  },
+  {
+    key: "Ultroneous2",
+    value: "ind",
+  },
+  {
+    key: "Ultroneous3",
+    value: "au",
+  },
+];

@@ -30,7 +30,7 @@ const MernStack = () => {
         heading={
           <>
             MERN Stack
-            <br />  
+            <br />
             Development
           </>
         }
@@ -38,13 +38,10 @@ const MernStack = () => {
         detail={
           <>
             MERN stack is a group of JavaScript-based frameworks, databases, and
-            runtime environments that includes <b>M</b>ongoDB, <b>E</b>xpress
-            JS, <b>R</b>eact JS, and <b>N</b>ode JS. As it enables the rapid and
-            smooth development of end-to-end solutions, it has become popular
-            among developers and various businesses. You can also benefit from
-            ultroNeous' MERN stack development services in one click. Hire MERN
-            stack developers who have a wealth of experience in developing
-            exceptional applications.
+            runtime environments that includes MongoDB, ExpressJS, ReactJS, and
+            NodeJS. Hire MERN stack developers to employ the features of this
+            popular full stack into creating tech solutions that provide rich
+            experiences across many platforms.
           </>
         }
       />

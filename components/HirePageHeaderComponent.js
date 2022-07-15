@@ -32,7 +32,11 @@ const HirePageHeaderComponent = (props) => {
             <div className={styles.marqueeCover}>
               <div class={styles.marquee__inner1} aria-hidden="true">
                 <span>
-                  <Image src={props.techname} className={styles.techimgs} />
+                  <Image
+                    src={props.techname}
+                    className={styles.techimgs}
+                    alt={props.alt}
+                  />
                 </span>
                 <span>
                   <Image src={props.techname} className={styles.techimgs} />
@@ -118,7 +122,9 @@ const HirePageHeaderComponent = (props) => {
           </div>
           <div className={styles.ImageCover}>
             <Image
-              src={props.model ? props.model : "/assets/WordPress-header.webp"}
+              src={
+                props.model ? props.model : "/assets/development-header.webp"
+              }
               className={styles.ImageWidth}
             />
           </div>

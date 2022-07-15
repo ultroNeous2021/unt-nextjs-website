@@ -39,12 +39,10 @@ const MeanStack = () => {
         techname={"/assets/mean-slide.svg"}
         detail={
           <>
-            MEAN is an open-source web stack named after <b>M</b>ongoDB,{" "}
-            <b>E</b>xpressJS, <b>A</b>ngularJS, and <b>N</b>odeJS- all
-            JavaScript-based open-source technologies. These are predominantly
-            used to develop dynamic cloud-ready applications. Utilize our MEAN
-            stack development services to create and enhance grade-A web and
-            mobile applications that cover all your business scenarios from
+            MEAN is an open-source web stack named after MongoDB, ExpressJS,
+            AngularJS, and NodeJS- all JavaScript-based open-source
+            technologies. Utilize our MEAN stack development services to create
+            grade-A web solutions that cover all your business scenarios from
             operations to profitability and scalability.
           </>
         }

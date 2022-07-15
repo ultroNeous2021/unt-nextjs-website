@@ -418,6 +418,17 @@ function MegaMenuComponent() {
                       ))}
                     </ul>
                   </Panel>
+                  <Panel header="Full Stack" key="4">
+                    <ul>
+                      {TechnologiesAllData.fullstack.map((el, ind) => (
+                        <li className={`${styles.Accordionli}`}>
+                          <Link href={el.link} key={ind}>
+                            {el.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </Panel>
                 </Collapse>
               </div>
             </div>
