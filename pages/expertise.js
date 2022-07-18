@@ -431,11 +431,15 @@ export const FullStack = () => {
         <Col xl={8} xs={12}>
           <Row>
             <Col xl={3} xs={6} className={styles.Containt}>
-              <Link href={"/mern-stack-development"}>
-                <a href={"/mern-stack-development"}>
-                  <div className={`${styles.Card15} ${styles.CardMain}`}>
-                    {/* <SiKotlin className={styles.Icon} /> */}
-                    <h3>MERN</h3>
+              <Link href={"/mean-stack-development"}>
+                <a href={"/mean-stack-development"}>
+                  <div className={`${styles.Card24} ${styles.CardMain}`}>
+                    <Image
+                      src={"/assets/mean.svg"}
+                      className={styles.Icon}
+                      style={{ marginTop: "1.7rem" }}
+                    />
+                    <h3>MEAN</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
@@ -445,11 +449,15 @@ export const FullStack = () => {
               </Link>
             </Col>
             <Col xl={3} xs={6} className={styles.Containt}>
-              <Link href={"/mean-stack-development"}>
-                <a href={"/mean-stack-development"}>
-                  <div className={`${styles.Card16} ${styles.CardMain}`}>
-                    {/* <SiSwift className={styles.Icon} /> */}
-                    <h3>MEAN</h3>
+              <Link href={"/mern-stack-development"}>
+                <a href={"/mern-stack-development"}>
+                  <div className={`${styles.Card23} ${styles.CardMain}`}>
+                    <Image
+                      src={"/assets/mern.svg"}
+                      className={styles.Icon}
+                      style={{ marginTop: "1.7rem" }}
+                    />
+                    <h3>MERN</h3>
                     <Image
                       src={"/assets/Arrownext.svg"}
                       className={styles.Arrownxt}
