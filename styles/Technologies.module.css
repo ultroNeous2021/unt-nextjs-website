@@ -176,6 +176,9 @@
   background: linear-gradient(180deg, #61dafb 0%, #18bdea 100%);
   border: none;
 }
+.Card24 .Icon {
+  margin: 0rem;
+}
 .Card24:hover {
   background: linear-gradient(180deg, #dd0031 0%, #9c0023 100%);
   border: none;

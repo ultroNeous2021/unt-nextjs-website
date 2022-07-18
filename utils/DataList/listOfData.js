@@ -1188,7 +1188,7 @@ export const HireMernlist = [
   },
   {
     src: "/assets/mern-4.svg",
-    title: "End-to-End development",
+    title: "End-to-End Development",
     Description:
       "MERN stack features a Model View Controller architecture that automates the development process to deliver powerful end-to-end solutions.",
   },
@@ -1238,7 +1238,7 @@ export const HireMeanServiceslist = [
       "MEAN stack projects can be delivered extremely quickly and efficiently with Node.JS as their backend runtime environment. Transform your business in terms of profitability and scalability with our MEAN stack developers, who have sophisticated and nuanced domain expertise.",
   },
   {
-    title: "Enterprise MEAN stack Development",
+    title: "Enterprise MEAN Stack Development",
     description:
       "Our dedicated team delivers transformative solutions to overcome the complexities of legacy networks with a roadmap to address the bottlenecks. Hire MEAN stack developers to implement the best automation processes to satisfy the future demands of your customers and ROI wins.",
   },
@@ -1248,12 +1248,12 @@ export const HireMeanServiceslist = [
       "Our MEAN stack developers integrate their knack for programming with an up-to-the-minute understanding of emerging technologies to craft optimized, scalable, and intuitive eCommerce solutions to maximize your business value and put ease to all your development concerns.",
   },
   {
-    title: "MEAN stack Migration and Porting",
+    title: "MEAN Stack Migration and Porting",
     description:
       "With MongoDB (a NoSQL database), migration and porting of your business application to the MEAN stack becomes easy. Being a MEAN stack development company, we help you to capitalize on MEAN stack's numerous benefits and to deliver a smooth digital experience to your users.",
   },
   {
-    title: "CMS development",
+    title: "CMS Development",
     description:
       "With Mean stack developers who streamline the development process under our belt, we not only design and provide fast and responsive content management systems but also share their valuable broad knowledge base to bring out strategic insights for best-in-class features integration.",
   },

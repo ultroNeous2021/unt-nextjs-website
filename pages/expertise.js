@@ -435,9 +435,9 @@ export const FullStack = () => {
                 <a href={"/mean-stack-development"}>
                   <div className={`${styles.Card24} ${styles.CardMain}`}>
                     <Image
-                      src={"/assets/mean.svg"}
-                      className={styles.Icon}
-                      style={{ marginTop: "1.7rem" }}
+                      src={"/assets/new-mean.svg"}
+                      className={styles.Icon2}
+                      style={{ marginTop: "1rem", marginBottom: "1.5rem" }}
                     />
                     <h3>MEAN</h3>
                     <Image
@@ -453,9 +453,9 @@ export const FullStack = () => {
                 <a href={"/mern-stack-development"}>
                   <div className={`${styles.Card23} ${styles.CardMain}`}>
                     <Image
-                      src={"/assets/mern.svg"}
-                      className={styles.Icon}
-                      style={{ marginTop: "1.7rem" }}
+                      src={"/assets/new-mern.svg"}
+                      className={styles.Icon2}
+                      style={{ marginTop: "1rem", marginBottom: "1.5rem" }}
                     />
                     <h3>MERN</h3>
                     <Image

@@ -18,9 +18,7 @@ import {
 const MeanStack = () => {
   return (
     <Layout
-      title={
-        "MEAN Stack Development Company India | Hire MEAN Stack Developers"
-      }
+      title={"MEAN Stack Development Company India | Hire MEAN Stack Developer"}
       description={
         "Looking for MEAN Stack Development Company? Hire expert MEAN stack developers from ultroNeous. Request a free Quote now."
       }
@@ -51,7 +49,7 @@ const MeanStack = () => {
       <BenifitsComponent
         maintitle={
           <>
-            Benefits of MERN stack
+            Benefits of MEAN stack
             <br />
             Development
           </>

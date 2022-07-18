@@ -58,6 +58,13 @@ function MegaMenuComponent() {
     }
   };
   useEffect(() => {
+    addClass
+      ? setTimeout(() => {
+          document.body.style.overflow = "hidden";
+        }, 500)
+      : (document.body.style.overflowY = "scroll");
+  });
+  useEffect(() => {
     window.addEventListener("scroll", () => changeNavbarColor());
   });
   const serviceinner = [

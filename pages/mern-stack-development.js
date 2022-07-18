@@ -16,9 +16,7 @@ import {
 const MernStack = () => {
   return (
     <Layout
-      title={
-        "MERN Stack Development Company India | Hire MERN Stack Developers"
-      }
+      title={"MERN Stack Development Company India | Hire MERN Stack Developer"}
       description={
         "ultroNeous is leading MERN Stack Development Company in USA and India. Hire expert MERN Stack developers on hourly or full time basis from ultroNeous."
       }
