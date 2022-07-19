@@ -1144,7 +1144,7 @@ export const HireMernServiceslist = [
   {
     title: "CMS Development",
     description:
-      "UltroNeous technologies- a MERN stack development company is the one-stop destination for stellar solutions. Our team of developers delivers robust and secure CMS systems with advanced modules to help you manage your business data and will give you an edge over your competitors.",
+      "ultroNeous Technologies- a MERN stack development company is the one-stop destination for stellar solutions. Our team of developers delivers robust and secure CMS systems with advanced modules to help you manage your business data and will give you an edge over your competitors.",
   },
   {
     title: "Custom App Development",
@@ -1313,13 +1313,13 @@ export const MeanstackFaq = {
       que: "Which famous companies use MEAN stack development?",
       ans: "Uber, Trello, PayPal, eBay, Fiverr, UNIQLO, and Medium are notable examples of renowned companies that use MEAN stack development.",
     },
-  ],
-  right: [
     {
       num: "03.",
       que: "Is MEAN stack a cost-effective option for developing web applications?",
       ans: "Yes. With MEAN stack, you don't have to work on different platforms. As a result, your development costs will be significantly reduced, and your projects will be developed faster.",
     },
+  ],
+  right: [
     {
       num: "04.",
       que: "What are the benefits of the MEAN stack for my project?",
@@ -1329,6 +1329,11 @@ export const MeanstackFaq = {
       num: "05.",
       que: "Will your MEAN stack developers provide support for my web application in the future?",
       ans: "We believe innovation is not bound by a finish line. Our developers are available round-the-clock for regular updates and scheduled maintenance to assure a smooth user experience.",
+    },
+    {
+      num: "06.",
+      que: "What are the advantages of full stack web development?",
+      ans: "In full-stack web development, both the front-end and back-end are developed. Full stack developers work on server-side technologies like PHP, MySQL, Python, NodeJS, and other database systems. This helps to ensure maintaining high-quality and fast delivery.",
     },
   ],
 };

@@ -27,12 +27,14 @@ import Link from "next/link";
 import axios from "axios";
 import BlogSliderComponent from "@/components/Slider/BlogSliderComponent";
 import Image from "next/image";
+import ImageViewer from "@/components/ImageViewer";
 export default function HomePage({ data }) {
   const [hoverColor, setHoverColor] = useState(false);
   // const [arrowShow, setArrowShow] = useState(false);
   const [scale, setScale] = useState("z");
   const [arrowImage, setArrowImage] = useState("/assets/circlearrow.svg");
-
+  const [showModel, setshowModal] = useState(false);
+  const [imageSrc, setImageSrc] = useState("");
   useEffect(() => {
     AOS.refresh();
     AOS.init();
@@ -536,6 +538,11 @@ export default function HomePage({ data }) {
         </div>
         {data && <BlogSliderComponent list={data.blog.data} />}
       </div>
+      <ImageViewer
+        show={showModel}
+        hide={() => setshowModal(false)}
+        img={imageSrc}
+      />
     </Layout>
   );
 }

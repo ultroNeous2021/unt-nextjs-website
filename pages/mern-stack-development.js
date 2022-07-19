@@ -60,7 +60,7 @@ const MernStack = () => {
         replace="Project Basis"
         replaceDetail="Mern Developer"
       />
-      <QuoteComponent
+      {/* <QuoteComponent
         descreption={
           <>
             <p>
@@ -70,7 +70,7 @@ const MernStack = () => {
             </p>
           </>
         }
-      />
+      /> */}
     </Layout>
   );
 };

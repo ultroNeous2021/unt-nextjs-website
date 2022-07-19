@@ -140,14 +140,12 @@ function Footer({ FooterContainerStyle }) {
                   <Link href="/cloud-and-devops">Cloud & Devops</Link>
                 </li>
                 <li>
-                  <Link href="/ecommerce-development">
-                    eCommerce Development
-                  </Link>
+                  <Link href="/ecommerce-development">eCommerce</Link>
                 </li>
               </ul>
             </Col>
             <Col xs={12} sm={4} lg={4} className={styles.QuickLinks}>
-              <h5>Keep In Touch</h5>
+              <h5>For Sales Inquiry</h5>
               <ul>
                 <li>
                   <span style={{ marginRight: "5px" }}>
@@ -173,6 +171,25 @@ function Footer({ FooterContainerStyle }) {
                     <a href="mailto:hello@ultroneous.com">
                       hello@ultroneous.com
                     </a>
+                  </span>
+                </li>
+              </ul>
+              <h5 style={{ marginTop: "1.5rem" }}>For Careers Inquiry</h5>
+              <ul>
+                <li>
+                  <span style={{ marginRight: "5px" }}>
+                    <Image src="/assets/INDIA.svg" alt="india" />
+                  </span>
+                  <span className="Ultroneous-Call-Mail-Text">
+                    <a href="tel:+91-78746-13131">+91-78746-13131</a>
+                  </span>
+                </li>
+                <li>
+                  <span style={{ marginRight: "9px" }}>
+                    <BsEnvelope />
+                  </span>
+                  <span className="Ultroneous-Call-Mail-Text">
+                    <a href="mailto:hr@ultroneous.com">hr@ultroneous.com</a>
                   </span>
                 </li>
               </ul>

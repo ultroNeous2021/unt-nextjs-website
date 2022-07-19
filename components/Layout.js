@@ -56,6 +56,7 @@ export default function Layout({
           content={keywords}
           key="ultroneous-key-keywords"
         />
+
         {uniqueMeta ? uniqueMeta : null}
         <link rel="shortcut icon" href="/static/favicon.svg" />
       </Head>

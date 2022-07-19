@@ -62,7 +62,7 @@ const MeanStack = () => {
         replace="Project Basis"
         replaceDetail="Mean Developer"
       />
-      <QuoteComponent
+      {/* <QuoteComponent
         descreption={
           <>
             <p>
@@ -72,7 +72,7 @@ const MeanStack = () => {
             </p>
           </>
         }
-      />
+      /> */}
     </Layout>
   );
 };
