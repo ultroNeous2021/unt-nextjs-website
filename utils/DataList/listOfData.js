@@ -1791,7 +1791,96 @@ export const HirePythonServiceslist = [
       "Our team of Python experts is always willing to assist in every phase of your project. They work tirelessly to make sure your website or app runs without any interruption. We help you improve your platform's performance with timely maintenance and support services.",
   },
 ];
-
+// =========================== Golang ===============================
+export const HireGolanglist = [
+  {
+    src: "/assets/golang-service1.svg",
+    title: "High-Scalability",
+    Description:
+      "Golang has excellent scalability. Additionally, Goroutines and channels make scaling and using this language simple.",
+  },
+  {
+    src: "/assets/golang-service2.svg",
+    title: "Prominent Performance",
+    Description:
+      "Golang runs on multiple cores and compiles code faster than other languages. Thus, it is useful to build high-performance apps.",
+  },
+  {
+    src: "/assets/golang-service3.svg",
+    title: "Clear and Precise Code",
+    Description:
+      "Golang's code is much more efficient, clear, and precise than other programming languages, so maintaining your code is easier.",
+  },
+  {
+    src: "/assets/golang-service4.svg",
+    title: "A language for all platforms",
+    Description:
+      "You don't have to worry about which platform you want to develop for. Since developers can code for multiple platforms with ease.",
+  },
+];
+export const HireGolangServiceslist = [
+  {
+    title: "Cloud App Development",
+    description:
+      "Golang has exceptional compatibility with the cloud. To build cloud-based and network-based services, hire Golang programmers to make use of its power to the maximum extent and acquire cutting-edge, streamlined Golang solutions capable of meeting futuristic demands.",
+  },
+  {
+    title: "Concurrency with Goroutines",
+    description:
+      "Our Golang developers are skilled at using Goroutines to create incredible applications. We help you develop multi-threading applications that can run on diverse platforms and different screen sizes to serve numerous users efficiently and open up a new revenue stream.",
+  },
+  {
+    title: "Mobile App development",
+    description:
+      "As Golang supports cross-compilation, it empowers fast and secure cross-platform apps. Our team dives deep into your context and objectives to build scalable mobile applications as well as implement a consistent user experience so you can reach a broader user market.",
+  },
+  {
+    title: "Full stack development with Golang",
+    description:
+      "Golang can be paired with any of the JavaScript frameworks to build superior full-stack solutions. We offer advanced Golang development services with proficient developers under our belt who assemble high-end digital products to give you an edge over your competitors.",
+  },
+  {
+    title: "Maintenance and Support",
+    description:
+      "Hire Golang developers who can assist you in the maintenance of your project and ensure a seamless interface for users. Our team remains available even after deployment of the project for trouble-shooting and provides you with timely insights for future enhancements.",
+  },
+];
+export const GolangFaq = {
+  left: [
+    {
+      num: "01.",
+      que: "What is Golang used for?",
+      ans: "Google introduced Golang as an open-source programming language to build simple, reliable software without compromising on performance, control, or developer experience.",
+    },
+    {
+      num: "02.",
+      que: "Is Golang the future?",
+      ans: "Yes. Golang is the future of web programming. It compiles and runs quickly. Types of inheritance and classes do not exist. Additionally, it is easy to maintain. The exciting features of Golang make it a long-term contender.",
+    },
+    {
+      num: "03.",
+      que: "What are the cases when Golang should be used instead of Python?",
+      ans: "No doubt, Python has extensive and impressive features. But when it comes to cross-platform capabilities, high scalability, and concurrency, Golang rules over. You can develop  innovative web applications and achieve the results you desire with our Golang web development services.",
+    },
+  ],
+  right: [
+    {
+      num: "04.",
+      que: "Do you provide NDA and IP protection for my project?",
+      ans: "We value the novelty of every project. You will have complete control of your project. And when you hire Golang developers at ultroNeous, we will sign an NDA to protect your ideas at all costs.",
+    },
+    {
+      num: "05.",
+      que: "Why should I hire Golang developers from ultroNeous Technologies?",
+      ans: "All the Golang developers for hire at ultroNeous have the talent of the highest caliber with excellent communication skills. Our team is keen to develop versatile and customer-centric end-to-end solutions. This makes them distinguish themselves from others.",
+    },
+    {
+      num: "06.",
+      que: "Which companies use Golang?",
+      ans: "Golang is one of the leading programming languages. It is used by companies like Soundcloud, BBC, Uber, Medium, and Dailymotion, among others.",
+    },
+  ],
+};
 // -----------------------------------------Web App Part----------------------------------------------------------------------------------------------------------------
 // export const HireWebApplist = [
 //   {

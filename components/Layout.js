@@ -5,9 +5,12 @@ import styles from "@/styles/Layout.module.css";
 import Footer from "./Footer";
 import NavbarMain from "./NavbarMain";
 import MegaMenuComponent from "./MegaMenuComponent";
-import { setCookie } from "cookies-next";
+import { getCookie, setCookie } from "cookies-next";
 import { ListOfCookies } from "utils/DataList/listOfData";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { Toast } from "react-bootstrap";
+import { MdOutlineClose } from "react-icons/md";
+import ButtonComponent from "./ButtonComponent";
 
 export default function Layout({
   title,
@@ -16,32 +19,15 @@ export default function Layout({
   children,
   uniqueMeta,
 }) {
-  // <script
-  //         type="application/ld+json"
-  //         dangerouslySetInnerHTML={`__html: {
-  //           "@context": "https://schema.org/",
-  //           "@type": "Organization",
-  //           name: "ultroNeous Technologies",
-  //           url: "https://ultroneous.com/",
-  //           logo: {
-  //             "@type": "ImageObject",
-  //             url: "https://ultroneous.com/assets/ultroneous-image.svg",
-  //           },
-  //           email: "hello@ultroneous.com",
-  //           telephone: "1-234-253-4040",
-  //           sameAs: [
-  //             "https://www.linkedin.com/company/ultroneous",
-  //             "https://www.instagram.com/ultroneous.technologies/",
-  //             "https://twitter.com/ultroneousTech",
-  //             "https://www.facebook.com/ultroneous.technologies",
-  //           ],
-  //         }`}
-  //       ></script>
+  const [cookieModel, setCookieModel] = useState(false);
+  useEffect(() => {
+    if (getCookie("userentry") === true) {
+      setCookieModel(false);
+    } else {
+      setCookieModel(true);
+    }
+  }, []);
 
-  // useEffect(() => CookieSetter(), []);
-  // const CookieSetter = () => {
-  //   ListOfCookies.map((values, index) => setCookie(values.key, values.value));
-  // };
   return (
     <div>
       <Head>
@@ -60,7 +46,29 @@ export default function Layout({
         {uniqueMeta ? uniqueMeta : null}
         <link rel="shortcut icon" href="/static/favicon.svg" />
       </Head>
-      {/* <NavbarMain /> */}
+      <div
+        className={`${styles.CookieContainer} ${
+          cookieModel ? `fade-in-left-anim` : ``
+        }`}
+        style={!cookieModel ? { display: "none" } : null}
+      >
+        <p>
+          We use cookies to improve user experience and analyze website traffic.
+          By clicking “Accept“, you agree to our website's cookie use as
+          described in our Cookie Policy.
+        </p>
+        <div className={styles.ButtonContainer}>
+          <div
+            className={styles.ButtonCookie}
+            onClick={() => {
+              setCookie("userentry", true), setCookieModel(false);
+            }}
+          >
+            Accept
+          </div>
+          <div className={styles.ButtonCookie}>Privacy Policy</div>
+        </div>
+      </div>
       <MegaMenuComponent />
       <div className={styles.container}>{children}</div>
       <Footer />
@@ -75,3 +83,24 @@ Layout.defaultProps = {
     "ultroNeous Technologies is a top web app development company in USA & India, which also provides solutions for mobile app development and software development and cost-effective pricing.",
   keywords: "",
 };
+// <script
+//         type="application/ld+json"
+//         dangerouslySetInnerHTML={`__html: {
+//           "@context": "https://schema.org/",
+//           "@type": "Organization",
+//           name: "ultroNeous Technologies",
+//           url: "https://ultroneous.com/",
+//           logo: {
+//             "@type": "ImageObject",
+//             url: "https://ultroneous.com/assets/ultroneous-image.svg",
+//           },
+//           email: "hello@ultroneous.com",
+//           telephone: "1-234-253-4040",
+//           sameAs: [
+//             "https://www.linkedin.com/company/ultroneous",
+//             "https://www.instagram.com/ultroneous.technologies/",
+//             "https://twitter.com/ultroneousTech",
+//             "https://www.facebook.com/ultroneous.technologies",
+//           ],
+//         }`}
+//       ></script>
