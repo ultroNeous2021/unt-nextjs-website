@@ -1136,6 +1136,7 @@ export const uniqueLink = [
   "/react-native-development",
   "/mern-stack-development",
   "/mean-stack-development",
+  "/golang-development",
 ];
 
 export const LinksOfAllpages = {
@@ -1179,6 +1180,7 @@ export const LinksOfAllpages = {
     // fullstack
     hireMernDevloper: "/mern-stack-development",
     hireMeanDeveloper: "/mean-stack-development",
+    hireGolangDeveloper: "/golang-development",
   },
   socialMedia: [
     {
