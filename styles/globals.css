@@ -693,3 +693,6 @@ option {
     transform: translateX(0px);
   }
 }
+.uniqueLink:hover {
+  color: #e49b00;
+}

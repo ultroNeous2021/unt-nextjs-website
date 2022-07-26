@@ -1300,7 +1300,11 @@ export const MeanstackFaq = {
             As a full-stack development company, our dedicated team of
             developers will work exclusively for you and provide you with the
             necessary assistance. Find out which{" "}
-            <a href="/engagement-model" target={"_blank"}>
+            <a
+              href="/engagement-model"
+              target={"_blank"}
+              className="uniqueLink"
+            >
               engagement model
             </a>{" "}
             is best to meet your business objectives.
@@ -1796,24 +1800,28 @@ export const HireGolanglist = [
   {
     src: "/assets/golang-service1.svg",
     title: "High-Scalability",
+    alt: "Depicting Golang offers High-Scalability for your project",
     Description:
       "Golang has excellent scalability. Additionally, Goroutines and channels make scaling and using this language simple.",
   },
   {
     src: "/assets/golang-service2.svg",
     title: "Prominent Performance",
+    alt: "Golang runs on multiple cores and compiles code faster, giving prominent performance",
     Description:
       "Golang runs on multiple cores and compiles code faster than other languages. Thus, it is useful to build high-performance apps.",
   },
   {
     src: "/assets/golang-service3.svg",
     title: "Clear and Precise Code",
+    alt: "Golang Code is powerful and transparent than other alternatives, making code clear and precise.",
     Description:
       "Golang's code is much more efficient, clear, and precise than other programming languages, so maintaining your code is easier.",
   },
   {
     src: "/assets/golang-service4.svg",
-    title: "A language for all platforms",
+    title: "Multi-platform Compatible",
+    alt: "Golang code runs on possibly all platforms",
     Description:
       "You don't have to worry about which platform you want to develop for. Since developers can code for multiple platforms with ease.",
   },
@@ -1830,12 +1838,12 @@ export const HireGolangServiceslist = [
       "Our Golang developers are skilled at using Goroutines to create incredible applications. We help you develop multi-threading applications that can run on diverse platforms and different screen sizes to serve numerous users efficiently and open up a new revenue stream.",
   },
   {
-    title: "Mobile App development",
+    title: "Mobile App Development",
     description:
       "As Golang supports cross-compilation, it empowers fast and secure cross-platform apps. Our team dives deep into your context and objectives to build scalable mobile applications as well as implement a consistent user experience so you can reach a broader user market.",
   },
   {
-    title: "Full stack development with Golang",
+    title: "Full Stack Development with Golang",
     description:
       "Golang can be paired with any of the JavaScript frameworks to build superior full-stack solutions. We offer advanced Golang development services with proficient developers under our belt who assemble high-end digital products to give you an edge over your competitors.",
   },

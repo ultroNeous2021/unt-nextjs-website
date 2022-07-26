@@ -1,0 +1,65 @@
+.PaddingNull {
+  padding: 0%;
+}
+
+.PagesHeader {
+  background: url("/assets/bg.webp");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  text-align: left;
+  justify-content: left;
+  padding-left: 2.5rem;
+  align-items: flex-end;
+  /* background-attachment: fixed; */
+  margin: 0;
+}
+
+.PagesHeader div p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #e49b00;
+  margin-bottom: 0;
+}
+
+.PagesHeader div h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0%;
+  width: fit-content;
+}
+
+/* media queries */
+@media (min-width: 320px) and (max-width: 450px) {
+  .PagesHeader {
+    padding-bottom: 0rem;
+    height: 40vh;
+    padding-left: 1rem;
+  }
+
+  .PagesHeader div p {
+    font-size: 20px;
+  }
+
+  .PagesHeader div h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+  .PagesHeader {
+    height: 30vh;
+  }
+
+  .PagesHeader div p {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+
+@media (min-width: 650px) and (max-width: 740px) {
+}

@@ -601,8 +601,20 @@ export const WebTechnologyExpertise = [
         <FaNodeJs className={stylesHT.TechImagesWeb9} />
       </Link>,
     ],
-    detail:
-      "Having a distinguished team of MEAN stack developers, we provide tailor-made services as per your specific business needs. MEAN stack's winning advantages include easy-to-build, test, maintain, and reliability. The four frameworks on which MEAN stack is based/works are MongoDB, Express, Angular, and Node. Leverage the web development services of ultroNeous to design futuristic web apps and websites that make powerful impressions about your business.",
+    detail: (
+      <>
+        Having a distinguished team of{" "}
+        <a href="/mean-stack-development" className="uniqueLink">
+          MEAN stack developers
+        </a>
+        , we provide tailor-made services as per your specific business needs.
+        MEAN stack's winning advantages include easy-to-build, test, maintain,
+        and reliability. The four frameworks on which MEAN stack is based/works
+        are MongoDB, Express, Angular, and Node. Leverage the web development
+        services of ultroNeous to design futuristic web apps and websites that
+        make powerful impressions about your business.
+      </>
+    ),
   },
   {
     title: "MERN Stack",
@@ -616,8 +628,21 @@ export const WebTechnologyExpertise = [
         <FaNodeJs className={stylesHT.TechImagesWeb13} />
       </Link>,
     ],
-    detail:
-      "MERN stack has attractive features including flexibility and high-performing web apps that give a native experience to end-users. MongoDB, ExpressJS, ReactJS, and NodeJS—which also validates the name—are the four key technologies used in this development process. All four work together to develop reliable, efficient, and scalable web applications. Our MERN stack developers provide web application development services to give you a clear way to digitize your business.",
+    detail: (
+      <>
+        MERN stack has attractive features including flexibility and
+        high-performing web apps that give a native experience to end-users.
+        MongoDB, ExpressJS, ReactJS, and NodeJS—which also validates the
+        name—are the four key technologies used in this development process. All
+        four work together to develop reliable, efficient, and scalable web
+        applications. Our{" "}
+        <a href="/mern-stack-development" className="uniqueLink">
+          MERN stack developers
+        </a>{" "}
+        provide web application development services to give you a clear way to
+        digitize your business.
+      </>
+    ),
   },
 ];
 export const MobileTechnologyExpertise = [
@@ -1301,6 +1326,10 @@ export const TechnologiesAllData = {
     // },
   ],
   backend: [
+    {
+      name: "Golang",
+      link: LinksOfAllpages.services.hireGolangDeveloper,
+    },
     {
       name: "Node",
       link: LinksOfAllpages.services.hireNodeJSDeveloper,

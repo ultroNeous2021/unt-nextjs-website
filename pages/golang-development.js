@@ -19,11 +19,11 @@ import {
 } from "utils/DataList/listOfData";
 
 const HireFlutterDeveloper = () => {
-  const title = "Golang Development Company | Developer for Hire | ultroNeous";
+  const title = "Hire Dedicated Golang Developer | Golang Development Services";
   const keyword =
-    "hire flutter developer, flutter app development company, flutter development company, hire flutter app developers";
+    "hire golang developer, golang development company, golang development services";
   const description =
-    "ultroNeous offers top-notch Flutter app development. Hire Flutter developers from ultroNeous per your convenience. we are a prominent app development company in US & India.";
+    "Hire Golang Developers from a renowned Golang Development Company. ultroNeous helps you materialize your dream project from scratch with our finest development services.";
   return (
     <Layout description={description} title={title} keywords={keyword}>
       <HirePageHeaderComponent
@@ -43,7 +43,7 @@ const HireFlutterDeveloper = () => {
       <BenifitsComponent
         maintitle={
           <>
-            Benefits of Flutter
+            Benefits of Golang
             <br />
             Development
           </>
@@ -56,7 +56,7 @@ const HireFlutterDeveloper = () => {
         replace="Project Basis"
         replaceDetail="Golang Developer"
       />
-      <QuoteComponent
+      {/* <QuoteComponent
         descreption={
           <>
             <p>
@@ -67,7 +67,7 @@ const HireFlutterDeveloper = () => {
             </p>
           </>
         }
-      />
+      /> */}
     </Layout>
   );
 };

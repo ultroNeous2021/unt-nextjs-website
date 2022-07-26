@@ -44,6 +44,7 @@ export default function Layout({
         />
 
         {uniqueMeta ? uniqueMeta : null}
+        {!uniqueMeta ? <meta name="robots" content="index, follow" /> : null}
         <link rel="shortcut icon" href="/static/favicon.svg" />
       </Head>
       <div

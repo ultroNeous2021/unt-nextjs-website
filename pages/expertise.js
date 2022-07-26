@@ -282,6 +282,26 @@ export const BackEnd = () => {
                 </a>
               </Link>
             </Col>
+            <Col xl={3} xs={6} className={styles.Containt}>
+              <Link href={"/golang-development"}>
+                <a href={"/golang-development"}>
+                  <div className={`${styles.Card1} ${styles.CardMain}`}>
+                    <Image
+                      src={"/assets/golang-icon.svg"}
+                      className={styles.Icon}
+                      width={100}
+                      style={{ marginTop: "1.7rem" }}
+                      // height={100}
+                    />
+                    <h3>Golang</h3>
+                    <Image
+                      src={"/assets/Arrownext.svg"}
+                      className={styles.Arrownxt}
+                    />
+                  </div>
+                </a>
+              </Link>
+            </Col>
           </Row>
         </Col>
       </Row>

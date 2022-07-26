@@ -22,7 +22,10 @@ const BenifitsComponent = (props) => {
         {props.datalist.map((value, index) => (
           <Col xs={12} xl={3} md={6} className={styles.Containt} key={index}>
             <div>
-              <Image src={value.src} alt={value.title} />
+              <Image
+                src={value.src}
+                alt={value.alt ? value.alt : value.title}
+              />
             </div>
             <h3 className={styles.Subtitle}>{value.title}</h3>
             <p className={styles.Description}>{value.Description}</p>
