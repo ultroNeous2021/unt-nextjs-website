@@ -51,6 +51,8 @@
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 1rem;
+  cursor: pointer;
+  width: fit-content;
 }
 .ListGuideline {
   margin-bottom: 2rem;
@@ -71,6 +73,22 @@
 .GroupListContainer {
   margin-top: 6rem;
   margin-bottom: 10rem;
+}
+.BottomToTop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #e49b00;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
 }
 /* media queries */
 @media (min-width: 320px) and (max-width: 450px) {
