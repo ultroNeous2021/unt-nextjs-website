@@ -69,9 +69,7 @@ export default function Layout({
             Accept
           </div>
           <Link href={"/privacy-policy"}>
-            <div className={styles.ButtonCookie}>
-              <a href="/privacy-policy">Privacy Policy </a>
-            </div>
+            <div className={styles.ButtonCookie}>Privacy Policy</div>
           </Link>
         </div>
       </div>

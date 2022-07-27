@@ -22,9 +22,10 @@
 }
 .ButtonCookie {
   border: 1px solid #e49b00;
-  border-radius: 5px;
+  border-radius: 20px;
   margin-right: 1rem;
   height: 2rem;
+  color: #e49b00;
   width: 8rem;
   display: flex;
   align-items: center;
@@ -33,10 +34,14 @@
   cursor: pointer;
 }
 .ButtonCookie a {
+  color: #e49b00 !important;
+}
+.ButtonCookie a:hover {
   color: #000 !important;
 }
 .ButtonCookie:hover {
   transition: all 0.5s ease;
+  color: #000 !important;
   background-color: #e49b00;
 }
 @media (min-width: 320px) and (max-width: 450px) {
