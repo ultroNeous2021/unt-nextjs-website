@@ -32,6 +32,9 @@
   font-weight: 600;
   cursor: pointer;
 }
+.ButtonCookie a {
+  color: #000 !important;
+}
 .ButtonCookie:hover {
   transition: all 0.5s ease;
   background-color: #e49b00;

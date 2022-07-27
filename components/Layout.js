@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import { Toast } from "react-bootstrap";
 import { MdOutlineClose } from "react-icons/md";
 import ButtonComponent from "./ButtonComponent";
+import Link from "next/link";
 
 export default function Layout({
   title,
@@ -67,7 +68,11 @@ export default function Layout({
           >
             Accept
           </div>
-          <div className={styles.ButtonCookie}>Privacy Policy</div>
+          <Link href={"/privacy-policy"}>
+            <div className={styles.ButtonCookie}>
+              <a href="/privacy-policy">Privacy Policy </a>
+            </div>
+          </Link>
         </div>
       </div>
       <MegaMenuComponent />

@@ -184,7 +184,7 @@ const PrivacyPolicy = () => {
           </h1>
         </div>
       </Row>
-      <Row className="m-0">
+      <Row className={styles.DetailContainer}>
         <Col>
           <p>
             It is ultroNeous Technologies' policy to respect your privacy
@@ -208,16 +208,33 @@ const PrivacyPolicy = () => {
             service.
           </p>
           <div>
-            <h5>Contents</h5>
-            <p>Click below to jump to any section of this privacy policy</p>
-            <p>1.Website Visitors</p>
-            <p>2.Personally-Identifying Information</p> <p>3.Security</p>
-            <p>4.Protection of Certain Personally-Identifying Information</p>
-            <p>5.Aggregated Statistics</p> <p>6.Cookies</p>{" "}
-            <p>7.Privacy Policy Changes</p>
-            <p>8.Contact Information & Credit</p>
+            <h5 className={styles.ContentHeading}>Contents</h5>
+            <p className={styles.ListGuideline}>
+              Click below to jump to any section of this privacy policy
+            </p>
+            {[
+              "1. Website Visitors",
+              "2. Personally-Identifying Information",
+              "3. Security",
+              "4. Protection of Certain Personally-Identifying Information",
+              "5. Aggregated Statistics",
+              "6. Cookies",
+              "7. Privacy Policy Changes",
+              "8. Contact Information & Credit",
+            ].map((value, index) => (
+              <p key={index} className={styles.ListParagraph}>
+                {value}
+              </p>
+            ))}
           </div>
-          
+          <div className={styles.GroupListContainer}>
+            {DataList.map((value, index) => (
+              <div key={index} className={styles.GroupSection}>
+                <h4 className={styles.GroupTitle}>{value.title}</h4>
+                <p className={styles.GroupDetail}>{value.detail}</p>
+              </div>
+            ))}
+          </div>
         </Col>
       </Row>
     </Layout>

@@ -257,6 +257,15 @@ export const WeExcelAtData = [
         onMouseEnter={(e) => (e.target.src = "/assets/backendhover7.png")}
         onMouseLeave={(e) => (e.target.src = "/assets/backend7.png")}
       />,
+      <Image
+        className="WeExcelAtIconsData"
+        key={8}
+        src="/assets/golang-icon.svg"
+        alt="Golang"
+        height="35"
+        onMouseEnter={(e) => (e.target.src = "/assets/golang-original.svg")}
+        onMouseLeave={(e) => (e.target.src = "/assets/golang-icon.svg")}
+      />,
     ],
     techsname: [
       { name: "Node", link: "nodejs-development" },
@@ -266,6 +275,7 @@ export const WeExcelAtData = [
       { name: "Magento", link: "magento-development" },
       { name: "Wordpress", link: "wordpress-development" },
       { name: "Shopify", link: "shopify-development" },
+      { name: "Golang", link: "golang-development" },
     ],
   },
   {
@@ -1162,6 +1172,7 @@ export const uniqueLink = [
   "/mern-stack-development",
   "/mean-stack-development",
   "/golang-development",
+  "/privacy-policy",
 ];
 
 export const LinksOfAllpages = {

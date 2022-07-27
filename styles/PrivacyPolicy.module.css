@@ -17,10 +17,10 @@
 }
 
 .PagesHeader div p {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   color: #e49b00;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .PagesHeader div h1 {
@@ -30,7 +30,48 @@
   margin: 0%;
   width: fit-content;
 }
-
+.DetailContainer {
+  margin: 0%;
+  padding: 2rem 2.5rem;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #1a1112;
+}
+.ContentHeading {
+  margin-top: 4rem;
+  font-family: Poppins, sans-serif;
+  color: #1a1112;
+  -webkit-text-stroke: 0.5px #fff;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.ListParagraph {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+.ListGuideline {
+  margin-bottom: 2rem;
+}
+.GroupTitle {
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.GroupSection {
+  margin-bottom: 3.5rem;
+}
+.GroupDetail {
+  font-weight: 400;
+  font-size: 16px;
+}
+.GroupListContainer {
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+}
 /* media queries */
 @media (min-width: 320px) and (max-width: 450px) {
   .PagesHeader {
@@ -45,6 +86,13 @@
 
   .PagesHeader div h1 {
     font-size: 40px;
+  }
+  .DetailContainer {
+    padding: 2rem 0.5rem;
+    text-align: justify;
+  }
+  .GroupTitle {
+    text-align: left;
   }
 }
 
