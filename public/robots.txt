@@ -3,3 +3,5 @@ Allow: /
 Disallow: /index.php/
 Disallow: /index.php?*
 Disallow: /?*
+
+Sitemap: https://ultroneous.com/sitemap.xml
