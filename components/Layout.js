@@ -12,6 +12,8 @@ import { Toast } from "react-bootstrap";
 import { MdOutlineClose } from "react-icons/md";
 import ButtonComponent from "./ButtonComponent";
 import Link from "next/link";
+import Script from "next/script";
+import { forallschema } from "utils/schemas";
 
 export default function Layout({
   title,
@@ -19,6 +21,7 @@ export default function Layout({
   description,
   children,
   uniqueMeta,
+  schema,
 }) {
   const [cookieModel, setCookieModel] = useState(false);
   useEffect(() => {
@@ -33,6 +36,15 @@ export default function Layout({
     <div>
       <Head>
         <title>{title}</title>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(forallschema) }}
+        ></script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        ></script>
+
         <meta
           name="description"
           content={description}
@@ -63,7 +75,10 @@ export default function Layout({
           <div
             className={styles.ButtonCookie}
             onClick={() => {
-              setCookie("userentry", true), setCookieModel(false);
+              setCookie("userentry", true, {
+                maxAge: 365 * 24 * 60 * 60,
+              }),
+                setCookieModel(false);
             }}
           >
             Accept

@@ -17,6 +17,7 @@ import {
   HireShopifyServiceslist,
   MernstackFaq,
 } from "utils/DataList/listOfData";
+import { golangschema } from "utils/schemas";
 
 const HireFlutterDeveloper = () => {
   const title = "Hire Dedicated Golang Developer | Golang Development Services";
@@ -25,7 +26,12 @@ const HireFlutterDeveloper = () => {
   const description =
     "Hire Golang Developers from a renowned Golang Development Company. ultroNeous helps you materialize your dream project from scratch with our finest development services.";
   return (
-    <Layout description={description} title={title} keywords={keyword}>
+    <Layout
+      description={description}
+      title={title}
+      keywords={keyword}
+      schema={golangschema}
+    >
       <HirePageHeaderComponent
         heading={
           <>

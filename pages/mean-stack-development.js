@@ -14,6 +14,7 @@ import {
   HireMernServiceslist,
   MeanstackFaq,
 } from "utils/DataList/listOfData";
+import { meanschema } from "utils/schemas";
 
 const MeanStack = () => {
   return (
@@ -25,6 +26,7 @@ const MeanStack = () => {
       keywords={
         "hire mean stack developer, mean stack development services, mean stack development company, hire mean stack developers"
       }
+      schema={meanschema}
     >
       <HirePageHeaderComponent
         heading={

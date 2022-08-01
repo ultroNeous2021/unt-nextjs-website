@@ -28,6 +28,7 @@ import axios from "axios";
 import BlogSliderComponent from "@/components/Slider/BlogSliderComponent";
 import Image from "next/image";
 import ImageViewer from "@/components/ImageViewer";
+import { forallschema } from "utils/schemas";
 export default function HomePage({ data }) {
   const [hoverColor, setHoverColor] = useState(false);
   // const [arrowShow, setArrowShow] = useState(false);

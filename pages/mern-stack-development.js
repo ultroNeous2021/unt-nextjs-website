@@ -12,6 +12,7 @@ import {
   HireMernServiceslist,
   MernstackFaq,
 } from "utils/DataList/listOfData";
+import { mernschema } from "utils/schemas";
 
 const MernStack = () => {
   return (
@@ -23,6 +24,7 @@ const MernStack = () => {
       keywords={
         "hire mern stack developer, mern stack development company, mern stack development services, hire mern stack developers"
       }
+      schema={mernschema}
     >
       <HirePageHeaderComponent
         heading={
