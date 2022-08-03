@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: baseline;
 }
+
 .NavbarContainer {
   position: fixed;
   width: 100%;
@@ -253,6 +254,7 @@
   font-size: 20px;
   color: #e49b00;
 }
+
 .ImageDiv:hover {
   border: 0.5px solid #fff;
 }
@@ -262,7 +264,7 @@
   filter: brightness(0.2);
 }
 
-.ImageDiv:hover ~ .ImageText,
+.ImageDiv:hover~.ImageText,
 .ImageText:hover {
   color: #fff;
 }
@@ -298,6 +300,7 @@
     transform: translateY(4px) rotate(45deg);
   }
 }
+
 @keyframes line3x {
   0% {
     transform: translateY(0);
@@ -306,6 +309,7 @@
   50% {
     transform: translateY(-10px);
   }
+
   100% {
     transform: translateY(-10px) rotate(135deg);
   }
@@ -342,6 +346,7 @@
     transform: translateY(4px) rotate(45deg);
     width: 30px;
   }
+
   50% {
     transform: translateY(4px);
     width: 30px;
@@ -375,24 +380,30 @@
     transform: translateY(-10px);
     width: 30px;
   }
+
   100% {
     transform: translateY(0px) rotate(0deg);
     width: 15px;
   }
 }
+
 @media screen and (min-width: 320px) and (max-width: 450px) {
   .NavUnique {
     display: none;
   }
+
   .MenuMain {
     width: 20%;
   }
+
   .NavbarMain {
     width: 60%;
   }
+
   .Container {
     margin-left: 0;
   }
+
   .LastColSocialMedia {
     padding-left: 3.4rem;
   }
@@ -403,8 +414,20 @@
     width: 60%;
     bottom: 4.5rem;
   }
+
   .NavUnique {
     display: none;
+  }
+
+  .LastColSocialMedia {
+    height: 10%;
+    padding: 0;
+    float: right;
+    margin-right: 0.5rem;
+  }
+
+  .IconsParent {
+    margin: 1rem 0.3rem;
   }
 }
 
@@ -414,12 +437,15 @@
   font-size: 18px;
   font-weight: 600;
 }
+
 .Accordionli:hover {
   color: #e49b00;
 }
+
 .Accordionul {
   padding-left: 0;
 }
+
 /*  */
 .container {
   position: relative;
@@ -431,11 +457,13 @@
   margin-bottom: 1rem;
   transition: all 1s ease;
 }
+
 .img {
   filter: brightness(0);
   width: 95%;
   transition: all 1s ease;
 }
+
 .img:hover {
   filter: brightness(0.2);
   transition: all 1s ease;
@@ -451,6 +479,7 @@
   font-weight: 400;
   transition: all 1s ease;
 }
+
 .container:hover {
   border: 1.5px solid #fff;
   color: #fff;
