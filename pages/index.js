@@ -64,6 +64,7 @@ export default function HomePage({ data }) {
             <div className={styles.TechnoContainer}>
               <a href="/web-application-development">
                 <Image
+                  loading="lazy"
                   src={
                     "https://res.cloudinary.com/dnt0gyxrd/image/upload/v1654236777/UNT%20IMAGES/HOME/web-dev_wbnf5x.jpg"
                   }
@@ -71,7 +72,6 @@ export default function HomePage({ data }) {
                   objectFit="contain"
                   className={styles.TechnologyImage}
                 />
-
                 <div className={styles.TechnologyOverlay}>
                   <div className={styles.TechnologyText}>
                     Web App Development
@@ -85,6 +85,7 @@ export default function HomePage({ data }) {
             <div className={styles.TechnoContainer}>
               <a href="/mobile-application-development">
                 <Image
+                  loading="lazy"
                   src={
                     "https://res.cloudinary.com/dnt0gyxrd/image/upload/v1654237945/UNT%20IMAGES/HOME/mobile_bi9fjy.jpg"
                   }
@@ -106,6 +107,7 @@ export default function HomePage({ data }) {
             <div className={styles.TechnoContainer}>
               <a href="/ux-ui-design">
                 <Image
+                  loading="lazy"
                   src={
                     "https://res.cloudinary.com/dnt0gyxrd/image/upload/v1654238116/UNT%20IMAGES/HOME/ux_ui_s0i0fh.jpg"
                   }
@@ -125,6 +127,7 @@ export default function HomePage({ data }) {
             <div className={styles.TechnoContainer}>
               <a href="/digital-marketing">
                 <Image
+                  loading="lazy"
                   src={
                     "https://res.cloudinary.com/dnt0gyxrd/image/upload/v1654238188/UNT%20IMAGES/HOME/Socialmedia_vjiyup.jpg"
                   }
@@ -143,6 +146,7 @@ export default function HomePage({ data }) {
             <div className={styles.TechnoContainer}>
               <a href="/cloud-and-devops">
                 <Img
+                  loading="lazy"
                   src={
                     "https://res.cloudinary.com/dnt0gyxrd/image/upload/v1654238388/UNT%20IMAGES/HOME/cloud_frenkb.jpg"
                   }
@@ -210,6 +214,7 @@ export default function HomePage({ data }) {
                 className={styles.IntroImagePosition}
               >
                 <Img
+                  loading="lazy"
                   src="/assets/group-image.png"
                   alt="group of ultroneous"
                   className={styles.IntroImage}
@@ -220,6 +225,7 @@ export default function HomePage({ data }) {
               <Col xl={3} className={styles.IntroArrow}>
                 <Link href="/about-ultroneous">
                   <Img
+                    loading="lazy"
                     onMouseEnter={() => {
                       setArrowImage("/assets/orange-hover.png");
                       setScale("scale(1.2)");
@@ -259,7 +265,11 @@ export default function HomePage({ data }) {
         <Row className="text-align-center">
           <Col sm={4} md={12} lg={4} xl={4} className={styles.WhatWeOfferCol}>
             <div className={styles.Whatweofferimg}>
-              <Img alt="ui-ux-design" src="/assets/ui-ux-design.svg" />
+              <Img
+                loading="lazy"
+                alt="ui-ux-design"
+                src="/assets/ui-ux-design.svg"
+              />
             </div>
             <h2 className={styles.WhatweofferHeading}>UX / UI Design</h2>
             <div className={styles.WhatWeOfferParaContainerFirst}>
@@ -281,7 +291,11 @@ export default function HomePage({ data }) {
             className={styles.WhatWeOfferCol}
           >
             <div className={styles.Whatweofferimg}>
-              <Img alt="developement" src="/assets/development.svg" />
+              <Img
+                loading="lazy"
+                alt="developement"
+                src="/assets/development.svg"
+              />
             </div>
             <h2 className={styles.WhatweofferHeading}>Development</h2>
             <div className={styles.WhatWeOfferParaContainerMiddle}>
@@ -303,6 +317,7 @@ export default function HomePage({ data }) {
           >
             <div className={styles.Whatweofferimg}>
               <Img
+                loading="lazy"
                 alt="digital marketing"
                 src="/assets/digital-marketing.svg"
               />
@@ -369,6 +384,7 @@ export default function HomePage({ data }) {
             <Col xl={4} md={4} xs={6} sm={6} className={styles.SingleImage}>
               <div className={styles.DivImage}>
                 <Img
+                  loading="lazy"
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -386,6 +402,7 @@ export default function HomePage({ data }) {
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <div className={styles.DivImage}>
                 <Img
+                  loading="lazy"
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -403,6 +420,7 @@ export default function HomePage({ data }) {
             <Col xl={4} md={4} className={styles.SingleImage}>
               <div className={styles.DivImage}>
                 <Img
+                  loading="lazy"
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -422,6 +440,7 @@ export default function HomePage({ data }) {
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <div className={styles.DivImage}>
                 <Img
+                  loading="lazy"
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -468,6 +487,7 @@ export default function HomePage({ data }) {
             <Col xl={4} md={4} className={styles.SingleImage}>
               <div className={styles.DivImage}>
                 <Img
+                  loading="lazy"
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -487,6 +507,7 @@ export default function HomePage({ data }) {
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <div className={styles.DivImage}>
                 <Img
+                  loading="lazy"
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -504,6 +525,7 @@ export default function HomePage({ data }) {
             <Col xl={4} md={4} sm={6} xs={6} className={styles.SingleImage}>
               <div className={styles.DivImage}>
                 <Img
+                  loading="lazy"
                   src={
                     data.data2
                       ? data.data2.status == "success"
@@ -521,6 +543,7 @@ export default function HomePage({ data }) {
             <Col xl={4} md={4} className={styles.SingleImage}>
               <div className={styles.DivImage}>
                 <Img
+                  loading="lazy"
                   src={
                     data.data2
                       ? data.data2.status == "success"

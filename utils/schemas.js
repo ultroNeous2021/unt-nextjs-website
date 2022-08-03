@@ -1,22 +1,36 @@
 // for all
 export const forallschema = {
-  "@context": "https://schema.org/",
+  "@context": "https://schema.org",
   "@type": "Organization",
   name: "ultroNeous Technologies",
   url: "https://ultroneous.com/",
-  logo: {
-    "@type": "ImageObject",
-    url: "https://ultroneous.com/assets/ultroneous-image.svg",
-  },
-  email: "hello@ultroneous.com",
-  telephone: "1-234-253-4040",
+  logo: "https://ultroneous.com/assets/ultroneous-image.svg",
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      telephone: "1-234-253-4040",
+      contactType: "sales",
+      areaServed: "US",
+      availableLanguage: "en",
+    },
+    {
+      "@type": "ContactPoint",
+      telephone: "70694-53131",
+      contactType: "sales",
+      areaServed: "IN",
+      availableLanguage: "en",
+    },
+  ],
   sameAs: [
-    "https://www.linkedin.com/company/ultroneous",
-    "https://www.instagram.com/ultroneous.technologies/",
-    "https://twitter.com/ultroneousTech",
     "https://www.facebook.com/ultroneous.technologies",
+    "https://twitter.com/ultroneousTech",
+    "https://www.instagram.com/ultroneous.technologies/",
+    "https://in.pinterest.com/ultroNeoustechnologies/",
+    "https://www.linkedin.com/company/ultroneous",
+    "https://github.com/ultroneous",
   ],
 };
+
 // mern page
 export const mernschema = {
   "@context": "https://schema.org/",
@@ -72,6 +86,7 @@ export const mernschema = {
     },
   ],
 };
+
 // mean schema
 export const meanschema = {
   "@context": "https://schema.org/",
@@ -127,6 +142,7 @@ export const meanschema = {
     },
   ],
 };
+
 export const golangschema = {
   "@context": "https://schema.org/",
   "@type": "FAQPage",

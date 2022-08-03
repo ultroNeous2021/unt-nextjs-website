@@ -147,6 +147,7 @@
   list-style-type: none;
   font-size: 22px;
   font-weight: 600;
+  height: 85%;
 }
 
 .NavbarColMiddle {
@@ -196,8 +197,9 @@
 
 .LastColSocialMedia {
   height: 10%;
-  padding-left: 1.5rem;
-  position: fixed;
+  padding-right: 2rem;
+  /* padding-left: 5rem; */
+  /* position: fixed; */
 }
 
 .IconsParent {
@@ -390,6 +392,9 @@
   }
   .Container {
     margin-left: 0;
+  }
+  .LastColSocialMedia {
+    padding-left: 3.4rem;
   }
 }
 

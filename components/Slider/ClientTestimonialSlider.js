@@ -50,6 +50,7 @@ export default function ClientTestimonialSlider({
       <div className={styles.SliderContainer}>
         <div className={styles.ArrowContainer} onClick={prevClicked}>
           <img
+            loading="lazy"
             className={styles.LeftArrow}
             src="/assets/leftArw.svg"
             alt="left"
@@ -71,6 +72,7 @@ export default function ClientTestimonialSlider({
                   key={index}
                 >
                   <img
+                    loading="lazy"
                     className="TextAnimateImage"
                     src={el.image}
                     alt={el.name}
@@ -100,6 +102,7 @@ export default function ClientTestimonialSlider({
         </div>
         <div className={styles.ArrowContainer} onClick={nextClicked}>
           <img
+            loading="lazy"
             src="/assets/rightArw.svg"
             alt="left"
             className={styles.RightArrow}

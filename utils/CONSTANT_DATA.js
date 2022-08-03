@@ -278,6 +278,33 @@ export const WeExcelAtData = [
       { name: "Golang", link: "golang-development" },
     ],
   },
+  // {
+  //   title: "Full Stack",
+  //   techs: [
+  //     <Image
+  //       className="WeExcelAtIconsData"
+  //       key={1}
+  //       height={60}
+  //       src="/assets/new-mean.svg"
+  //       alt="mean-stack"
+  //       onMouseEnter={(e) => (e.target.src = "/assets/new-mean.svg")}
+  //       onMouseLeave={(e) => (e.target.src = "/assets/new-mean.svg")}
+  //     />,
+  //     <Image
+  //       className="WeExcelAtIconsData"
+  //       key={1}
+  //       height={60}
+  //       src="/assets/new-mern.svg"
+  //       alt="digital marketing"
+  //       onMouseEnter={(e) => (e.target.src = "/assets/new-mern.svg")}
+  //       onMouseLeave={(e) => (e.target.src = "/assets/new-mern.svg")}
+  //     />,
+  //   ],
+  //   techsname: [
+  //     { name: "MeanStack", link: "/mean-stack-development" },
+  //     { name: "MernStack", link: "/mern-stack-development" },
+  //   ],
+  // },
   {
     title: "Mobile App",
     techs: [

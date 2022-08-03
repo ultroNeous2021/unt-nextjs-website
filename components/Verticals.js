@@ -22,41 +22,73 @@ const Verticals = () => {
 
       <Row className={styles.Verticalcard}>
         <Col className={styles.Verticalsinglecard} sm={6} xs={6} xl={1} md={3}>
-          <Image alt="vertical image" className={styles.Verticalimg} />
+          <Image
+            loading="lazy"
+            alt="vertical image"
+            className={styles.Verticalimg}
+          />
           <h2 className={styles.Cardtext}>Finance</h2>
         </Col>
         <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={3}>
-          <Image alt="vertical image" className={styles.Verticalimg2} />
+          <Image
+            loading="lazy"
+            alt="vertical image"
+            className={styles.Verticalimg2}
+          />
           <h2 className={styles.Cardtext}>Healthcare</h2>
         </Col>
 
         <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={3}>
-          <Image alt="vertical image" className={styles.Verticalimg3} />
+          <Image
+            loading="lazy"
+            alt="vertical image"
+            className={styles.Verticalimg3}
+          />
           <h2 className={styles.Cardtext}>Education</h2>
         </Col>
 
         <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={3}>
-          <Image alt="vertical image" className={styles.Verticalimg4} />
+          <Image
+            loading="lazy"
+            alt="vertical image"
+            className={styles.Verticalimg4}
+          />
           <h2 className={styles.Cardtext}>Hospitality</h2>
         </Col>
 
         <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={3}>
-          <Image alt="vertical image" className={styles.Verticalimg5} />
+          <Image
+            loading="lazy"
+            alt="vertical image"
+            className={styles.Verticalimg5}
+          />
           <h2 className={styles.Cardtext}>eCommerce</h2>
         </Col>
 
         <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={3}>
-          <Image alt="vertical image" className={styles.Verticalimg6} />
+          <Image
+            loading="lazy"
+            alt="vertical image"
+            className={styles.Verticalimg6}
+          />
           <h2 className={styles.Cardtext}>Real Estate </h2>
         </Col>
 
         <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={3}>
-          <Image alt="vertical image" className={styles.Verticalimg7} />
+          <Image
+            loading="lazy"
+            alt="vertical image"
+            className={styles.Verticalimg7}
+          />
           <h2 className={styles.Cardtext}>Food Delivery</h2>
         </Col>
 
         <Col className={styles.Verticalsinglecard} xs={6} xl={1} md={3}>
-          <Image alt="vertical image" className={styles.Verticalimg8} />
+          <Image
+            loading="lazy"
+            alt="vertical image"
+            className={styles.Verticalimg8}
+          />
           <h2 className={styles.Cardtext}>Travel</h2>
         </Col>
       </Row>

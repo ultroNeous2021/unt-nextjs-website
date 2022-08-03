@@ -70,17 +70,19 @@ function PortfolioSlider({ sliderBlack, containerBlack }) {
           >
             {PortfolioSliderData.map((el, ind) => (
               <div className={styles.PortfolioSlide} key={ind}>
-                <img src={el.image} alt={el.title} />
+                <img loading="lazy" src={el.image} alt={el.title} />
               </div>
             ))}
           </Slider>
           <div className={styles.PortfolioSliderArrows}>
             <img
+              loading="lazy"
               src="/assets/leftArrow.svg"
               alt="right-arrow"
               onClick={prevClicked}
             />
             <img
+              loading="lazy"
               src="/assets/arrow.svg"
               alt="left-arrow"
               onClick={nextClicked}

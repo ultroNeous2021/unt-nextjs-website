@@ -28,6 +28,7 @@ const WhyClientChoose = ({ css }) => {
       </Row>
       <Row className="mx-0">
         <Image
+          loading="lazy"
           className={styles.WhyClientChooseImage}
           src={image}
           alt="why client choose us"

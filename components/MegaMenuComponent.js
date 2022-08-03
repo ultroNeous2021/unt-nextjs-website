@@ -310,6 +310,15 @@ function MegaMenuComponent() {
                 Portfolio
               </li> */}
             </ul>
+            <div className={styles.LastColSocialMedia}>
+              {LinksOfAllpages.socialMedia.map((el, ind) => (
+                <div className={`${styles.IconsParent} SocialMediaParent`}>
+                  <a href={el.link} target="_blank" rel="noreferrer">
+                    {el.icon}
+                  </a>
+                </div>
+              ))}
+            </div>
           </Col>
           <Col xs={12} sm={12} md={8} className={styles.NavbarColLast}>
             <div className={styles.LastColLinks}>
@@ -439,15 +448,6 @@ function MegaMenuComponent() {
                 </Collapse>
               </div>
             </div>
-            <div className={styles.LastColSocialMedia}>
-              {LinksOfAllpages.socialMedia.map((el, ind) => (
-                <div className={`${styles.IconsParent} SocialMediaParent`}>
-                  <a href={el.link} target="_blank" rel="noreferrer">
-                    {el.icon}
-                  </a>
-                </div>
-              ))}
-            </div>
           </Col>
         </Row>
       </div>
@@ -466,7 +466,6 @@ function MegaMenuComponent() {
                     style={{ width: "100%" }}
                     className={styles.img}
                   />
-
                   <div className={styles.centered}> {el.name}</div>
                 </a>
               </div>

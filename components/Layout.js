@@ -36,15 +36,6 @@ export default function Layout({
     <div>
       <Head>
         <title>{title}</title>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(forallschema) }}
-        ></script>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        ></script>
-
         <meta
           name="description"
           content={description}
@@ -59,6 +50,16 @@ export default function Layout({
         {uniqueMeta ? uniqueMeta : null}
         {!uniqueMeta ? <meta name="robots" content="index, follow" /> : null}
         <link rel="shortcut icon" href="/static/favicon.svg" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(forallschema) }}
+        ></script>
+        {schema ? (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+          ></script>
+        ) : null}
       </Head>
       <div
         className={`${styles.CookieContainer} ${
