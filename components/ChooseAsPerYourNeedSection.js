@@ -73,17 +73,17 @@ const ChooseAsPerYourNeedSection = (props) => {
                 index == viewByIndex
                   ? mobileMode
                     ? {
-                        backgroundColor: "#fff",
-                        border: "none",
-                        color: "#e49b00",
-                      }
+                      backgroundColor: "#fff",
+                      border: "none",
+                      color: "#e49b00",
+                    }
                     : {
-                        backgroundColor: "#fff",
-                        color: "#e49b00",
-                        borderLeft: "15px solid #e49b00",
-                        borderTopLeftRadius: "10px",
-                        borderBottomLeftRadius: "10px",
-                      }
+                      backgroundColor: "#fff",
+                      color: "#e49b00",
+                      borderLeft: "15px solid #e49b00",
+                      borderTopLeftRadius: "10px",
+                      borderBottomLeftRadius: "10px",
+                    }
                   : null
               }
               onClick={() => setViewByIndex(index)}
@@ -104,7 +104,7 @@ const ChooseAsPerYourNeedSection = (props) => {
               : ChooseAsPerYourNeedData[viewByIndex].details
             : ChooseAsPerYourNeedData[viewByIndex].details}
         </p>
-        {}
+        { }
         <Image
           src={
             mobileMode

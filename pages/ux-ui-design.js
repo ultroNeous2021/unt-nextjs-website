@@ -103,7 +103,10 @@ const UiUxDesign = () => {
         </Col>
       </Row>
       <PortfolioSlider />
-      <ChooseAsPerYourNeedSection />
+      <ChooseAsPerYourNeedSection
+        replace="Project Basis"
+        replaceDetail="any Developer"
+      />
     </Layout>
   );
 };

@@ -36,7 +36,10 @@ const DigitalMarketing = () => {
         Technology={DigitalMarketingExpertise}
       />
       <PortfolioSlider />
-      <ChooseAsPerYourNeedSection />
+      <ChooseAsPerYourNeedSection
+        replace="Project Basis"
+        replaceDetail="any Developer"
+      />
     </Layout>
   );
 };

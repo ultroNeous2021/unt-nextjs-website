@@ -39,7 +39,10 @@ function WebApplicationDevelopmentPage() {
         hireButton
       />
       <PortfolioSlider />
-      <ChooseAsPerYourNeedSection />
+      <ChooseAsPerYourNeedSection
+        replace="Project Basis"
+        replaceDetail="any Developer"
+      />
     </Layout>
   );
 }

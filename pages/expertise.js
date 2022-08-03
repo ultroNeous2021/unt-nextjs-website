@@ -41,8 +41,8 @@ export const FrontEnd = () => {
         <Col xl={4} xs={12}>
           <h2
             className={styles.Cathead}
-            // data-aos="zoom-in"
-            // data-aos-duration="2000"
+          // data-aos="zoom-in"
+          // data-aos-duration="2000"
           >
             Front end
           </h2>
@@ -162,8 +162,8 @@ export const BackEnd = () => {
         <Col xl={4} xs={12}>
           <h2
             className={styles.Cathead}
-            // data-aos="zoom-in"
-            // data-aos-duration="2000"
+          // data-aos="zoom-in"
+          // data-aos-duration="2000"
           >
             Back end
           </h2>
@@ -291,7 +291,7 @@ export const BackEnd = () => {
                       className={styles.Icon}
                       width={100}
                       style={{ marginTop: "1.7rem" }}
-                      // height={100}
+                    // height={100}
                     />
                     <h3>Golang</h3>
                     <Image
@@ -316,8 +316,8 @@ export const MobileApp = () => {
         <Col xl={4} xs={12}>
           <h2
             className={styles.Cathead}
-            // data-aos="zoom-in"
-            // data-aos-duration="2000"
+          // data-aos="zoom-in"
+          // data-aos-duration="2000"
           >
             Mobile App
           </h2>
@@ -403,7 +403,7 @@ export const MobileApp = () => {
                       className={styles.Icon}
                       width={100}
                       style={{ marginTop: "1.7rem" }}
-                      // height={100}
+                    // height={100}
                     />
                     <h3>Object-C</h3>
                     <Image
@@ -442,8 +442,8 @@ export const FullStack = () => {
         <Col xl={4} xs={12}>
           <h2
             className={styles.Cathead}
-            // data-aos="zoom-in"
-            // data-aos-duration="2000"
+          // data-aos="zoom-in"
+          // data-aos-duration="2000"
           >
             Full Stack
           </h2>
@@ -498,10 +498,10 @@ const Technologies = () => {
   useEffect(() => {
     AOS.refresh();
     AOS.init();
-    window.addEventListener("scroll", () => {});
+    window.addEventListener("scroll", () => { });
   }, []);
   const scrollingChalu = () => {
-    window.addEventListener("scroll", () => {});
+    window.addEventListener("scroll", () => { });
   };
   return (
     <Layout
@@ -530,7 +530,10 @@ const Technologies = () => {
         <MobileApp ref={currentPosition} />
         <FullStack ref={currentPosition} />
       </div>
-      <ChooseAsPerYourNeedSection />
+      <ChooseAsPerYourNeedSection
+        replace="Project Basis"
+        replaceDetail="any Developer"
+      />
     </Layout>
   );
 };
